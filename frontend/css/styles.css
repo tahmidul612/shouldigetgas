@@ -479,8 +479,9 @@ html, body {
   .price-delta-badge { font-size: 22px; padding: 5px 13px; }
   .price-label { font-size: 12px; margin-top: 10px; }
 
-  .tagline { font-size: 21px; margin-top: 18px; }
+  .tagline { font-size: 21px; margin-top: 22px; }
   .why { font-size: 18px; line-height: 1.5; margin-top: 14px; max-width: 480px; }
+  .price-display { margin-bottom: 28px; padding-bottom: 24px; }
 
   .hero-actions {
     margin-top: 32px;
@@ -515,15 +516,13 @@ html, body {
 /* Context rail is hidden on mobile (shown via sheet) */
 .context-rail { display: none; }
 
-/* ─── Desktop hero actions: show ctx-link inline ─── */
-.ctx-link-desktop {
-  display: none;
-  font-size: 14px; font-weight: 600; opacity: 0.65;
-  color: inherit; text-decoration: underline; text-decoration-style: dotted;
-  cursor: pointer; background: none; border: 0; font-family: inherit;
-}
+/* hero-actions (GasBuddy + hint): desktop-only, hidden on mobile to avoid duplicate */
+.hero-actions { display: none; }
+.gb-hint { display: none; }
+
 @media (min-width: 900px) {
-  .ctx-link-desktop { display: inline; }
+  .hero-actions { display: flex; }
+  .gb-hint { display: inline; }
 }
 
 /* ─── Footer ─── */
