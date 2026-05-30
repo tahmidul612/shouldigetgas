@@ -201,12 +201,14 @@ function App() {
               style={{ color: theme.word, animationDelay: '.15s' }}>
               {vinfo.label}
             </div>
-            <div className="tagline reveal-item" style={{ color: theme.textSoft, animationDelay: '.24s' }}>
-              {vinfo.tagline}
+            <div className="verdict-desc">
+              <div className="tagline reveal-item" style={{ color: theme.textSoft, animationDelay: '.24s' }}>
+                {vinfo.tagline}
+              </div>
+              <p className="why reveal-item" style={{ color: theme.text, animationDelay: '.32s' }}>
+                {region.why}
+              </p>
             </div>
-            <p className="why reveal-item" style={{ color: theme.text, animationDelay: '.32s' }}>
-              {region.why}
-            </p>
 
             {/* Desktop: GasBuddy action below why text */}
             <div className="hero-actions reveal-item" style={{ animationDelay: '.4s' }}>
