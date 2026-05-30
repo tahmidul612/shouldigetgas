@@ -444,6 +444,11 @@ html, body {
 
 /* ─── Mobile single-screen compression (max 899px) ─── */
 @media (max-width: 899px) {
+  html, body {
+    overflow: hidden;
+    height: 100dvh;
+  }
+
   .site-wrap {
     height: 100vh;
     height: 100dvh;
