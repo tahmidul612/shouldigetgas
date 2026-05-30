@@ -456,6 +456,8 @@ html, body {
   }
 
   .hero {
+    flex: 1;
+    justify-content: space-between;
     padding-top: 0;
   }
 
