@@ -34,15 +34,17 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
 
   return (
     <div className="price-display reveal-item" style={{ animationDelay: '.08s' }} key={animKey}>
-      <div className="price-number" style={{ color: theme.accent }}>
-        ${displayPrice.toFixed(2)}
-        <span className="price-unit">/gal</span>
-      </div>
-      <div className="price-meta" style={{ color: theme.textSoft }}>
-        <span className="price-delta" style={{ color: theme.accent }}>
-          {isUp ? '▲' : '▼'}&nbsp;{isUp ? '+' : '−'}{absChange}¢
+      <div className="price-row">
+        <div className="price-number" style={{ color: theme.word }}>
+          ${displayPrice.toFixed(2)}
+        </div>
+        <span className="price-delta-badge" style={{ color: theme.accent }}>
+          {isUp ? '↑' : '↓'}&thinsp;{isUp ? '+' : '−'}{absChange}¢
         </span>
-        <span className="price-source-label">{priceLabel}</span>
+      </div>
+      <div className="price-label" style={{ color: theme.textSoft }}>
+        {priceLabel}
+        <span className="price-unit-inline">&thinsp;/gal</span>
       </div>
     </div>
   );
