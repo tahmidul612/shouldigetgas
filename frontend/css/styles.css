@@ -459,6 +459,7 @@ html, body {
   .main-content {
     padding: 12px 20px 16px;
     gap: 12px;
+    min-height: 0;
   }
 
   .hero {
@@ -509,9 +510,12 @@ html, body {
   }
 
   .support-cards .ctx-link,
-  .support-cards .gb-btn {
+  .support-cards .gb-btn,
+  .support-cards .mobile-attribution {
     flex: 0 0 100%;
   }
+
+  .site-footer { display: none; }
 
   .day-cell {
     width: 22px;
@@ -601,6 +605,18 @@ html, body {
 /* hero-actions (GasBuddy + hint): desktop-only, hidden on mobile to avoid duplicate */
 .hero-actions { display: none; }
 .gb-hint { display: none; }
+
+/* mobile-only attribution line inside support-cards */
+.mobile-attribution {
+  display: none;
+  font-size: 11px;
+  opacity: 0.42;
+  text-align: center;
+  padding-top: 2px;
+}
+@media (max-width: 899px) {
+  .mobile-attribution { display: block; }
+}
 
 @media (min-width: 900px) {
   .hero-actions { display: flex; }

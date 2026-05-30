@@ -251,6 +251,10 @@ function App() {
               <span>Find stations on GasBuddy</span>
               <span className="gb-btn-arrow" style={{ color: theme.accent }}>→</span>
             </button>
+            <div className="mobile-attribution" style={{ color: theme.textSoft }}>
+              Prices via EIA · AI analysis updated daily ·{' '}
+              <a href="data/data.json" style={{ color: theme.accent, textDecoration: 'none' }}>raw data ↗</a>
+            </div>
           </div>
 
           {/* Context rail — hidden on mobile, two-column right on desktop */}
