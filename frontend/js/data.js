@@ -139,8 +139,13 @@ async function detectRegionFromIP() {
     const regionMap = {
       CA: 'ca', TX: 'tx', NY: 'ny', FL: 'fl', WA: 'wa', IL: 'il',
     };
-    return regionMap[stateCode] || null;
-  } catch {
+    const mapped = regionMap[stateCode] || null;
+    if (!mapped) {
+      console.warn('[shouldigetgas] IP detection: state not mapped —', stateCode || '(empty)', '— defaulting to CA');
+    }
+    return mapped;
+  } catch (err) {
+    console.warn('[shouldigetgas] IP detection failed:', err?.message ?? err);
     return null;
   }
 }
