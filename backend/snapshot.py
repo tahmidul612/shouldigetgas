@@ -18,9 +18,9 @@ from pathlib import Path
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 
 import db
-from config import DATA_JSON, ALL_REGIONS, US_REGIONS, CA_REGIONS, BASELINE_PRICES, is_canadian
+from config import DATA_JSON, ALL_REGIONS, US_REGIONS, CA_REGIONS, BASELINE_PRICES, is_canadian, ANTHROPIC_API_KEY
 from analytics.gather import gather_all
-from analytics.news_analysis import analyze_region, filter_news_for_region
+from analytics.news_analysis import analyze_region, analyze_regions_batch, filter_news_for_region
 from analytics.predictor import (
     build_trend_array, predict_direction, compute_week_delta, determine_verdict
 )
@@ -29,6 +29,40 @@ from analytics.breakdown import get_breakdown
 log = logging.getLogger(__name__)
 
 NOW = lambda: datetime.now(timezone.utc)
+
+
+def _run_batch_llm(snap_by_id: dict, context: dict) -> dict:
+    """Pre-compute LLM verdicts for all regions via the Batch API."""
+    regions_data = []
+    for region_def in ALL_REGIONS:
+        r_id = region_def[0]
+        snap = snap_by_id.get(r_id)
+
+        if snap:
+            price       = snap.get("price") or BASELINE_PRICES.get(r_id, 3.0)
+            price_low   = snap.get("price_low") or price * 0.95
+            week_delta  = snap["week_delta"] if snap.get("week_delta") is not None else compute_week_delta(r_id, price)
+            region_name = snap.get("state", region_def[1])
+        else:
+            price       = BASELINE_PRICES.get(r_id, 3.0)
+            price_low   = round(price * 0.95, 3)
+            week_delta  = 0.0
+            region_name = region_def[1]
+
+        local_news = filter_news_for_region(r_id, context["news"], max_items=3)
+        regions_data.append({
+            "region_id":   r_id,
+            "region_name": region_name,
+            "price":       price,
+            "price_low":   price_low,
+            "week_delta":  week_delta,
+            "wti":         context["wti"],
+            "news":        local_news,
+            "seasonal":    context["seasonal"],
+            "is_ca":       is_canadian(r_id),
+        })
+
+    return analyze_regions_batch(regions_data)
 
 
 def run_analytics_for_region(
@@ -61,22 +95,42 @@ def run_analytics_for_region(
     verdict = determine_verdict(price_dir, wti["dir"], week_delta, price, region_id)
 
     # Module B — news analysis (generates why/advice; may upgrade verdict via LLM)
-    local_news = filter_news_for_region(region_id, news, max_items=3)
-    analysis   = analyze_region(
-        region_id    = region_id,
-        region_name  = snapshot.get("state", region_id),
-        price        = price,
-        price_low    = price_low,
-        week_delta   = week_delta,
-        wti          = wti,
-        all_news     = news,
-        seasonal     = seasonal,
-    )
-    # LLM may produce a more accurate verdict
-    if analysis.get("verdict"):
-        verdict   = analysis["verdict"]
-    if analysis.get("bestDayIdx") is not None:
-        best_day  = analysis["bestDayIdx"]
+    llm_pre = context.get("llm_results", {}).get(region_id)
+    if llm_pre:
+        # Use pre-computed batch LLM result
+        verdict  = llm_pre["verdict"]
+        best_day = llm_pre["bestDayIdx"]
+        analysis = {
+            "why":        llm_pre["why"],
+            "advice":     llm_pre["advice"],
+            "verdict":    llm_pre["verdict"],
+            "bestDayIdx": llm_pre["bestDayIdx"],
+            "wtiDir":     wti["dir"],
+            "news": [
+                {
+                    "headline": n.get("headline", ""),
+                    "source":   n.get("source", ""),
+                    "url":      n.get("url", ""),
+                }
+                for n in filter_news_for_region(region_id, news, max_items=3)
+            ],
+        }
+    else:
+        analysis = analyze_region(
+            region_id    = region_id,
+            region_name  = snapshot.get("state", region_id),
+            price        = price,
+            price_low    = price_low,
+            week_delta   = week_delta,
+            wti          = wti,
+            all_news     = news,
+            seasonal     = seasonal,
+        )
+        # LLM may produce a more accurate verdict
+        if analysis.get("verdict"):
+            verdict  = analysis["verdict"]
+        if analysis.get("bestDayIdx") is not None:
+            best_day = analysis["bestDayIdx"]
 
     # Module D — breakdown
     breakdown = get_breakdown(region_id, price)
@@ -141,8 +195,13 @@ def build_payload(context: dict) -> dict:
     wti     = context["wti"]
     regions = []
 
-    snapshots = db.get_all_snapshots()
+    snapshots  = db.get_all_snapshots()
     snap_by_id = {s["region_id"]: s for s in snapshots}
+
+    # Pre-compute LLM verdicts for all regions via the Batch API (50% cost reduction)
+    if ANTHROPIC_API_KEY:
+        log.info("Running batch LLM analysis for %d regions", len(ALL_REGIONS))
+        context["llm_results"] = _run_batch_llm(snap_by_id, context)
 
     # Iterate in canonical order: US first, then Canada
     for region_def in ALL_REGIONS:

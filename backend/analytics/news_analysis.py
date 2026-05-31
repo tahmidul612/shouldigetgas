@@ -4,7 +4,8 @@ Module B — LLM News Analysis.
 Given news headlines and price context, generates per-region why/advice text
 and selects the most relevant news items for each region.
 
-Primary: Anthropic Claude (claude-haiku-4-5 — cheapest, fast)
+Primary: Anthropic Batch API (claude-haiku-4-5 — 50% cost reduction, all 62 regions in one batch)
+Synchronous: Single-region LLM call as per-region fallback
 Fallback: VADER sentiment + keyword heuristics (no API key needed)
 """
 import sys
@@ -238,7 +239,7 @@ Generate JSON verdict for this region."""
         import anthropic
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model="claude-haiku-4-5",
             max_tokens=256,
             system=_LLM_SYSTEM,
             messages=[{"role": "user", "content": prompt}],
@@ -251,6 +252,176 @@ Generate JSON verdict for this region."""
     except Exception as e:
         log.warning("LLM analysis failed for %s: %s", region_id, e)
     return None
+
+
+# ── Batch API path ────────────────────────────────────────────────────────────
+
+def build_batch_payload(regions_data: list[dict]) -> list:
+    """Build Batch API request objects for all regions."""
+    from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+    from anthropic.types.messages.batch_create_params import Request
+
+    requests = []
+    for rd in regions_data:
+        region_id   = rd["region_id"]
+        region_name = rd["region_name"]
+        price       = rd["price"]
+        price_low   = rd["price_low"]
+        week_delta  = rd["week_delta"]
+        wti         = rd["wti"]
+        news        = rd["news"]
+        seasonal    = rd["seasonal"]
+        is_ca       = rd["is_ca"]
+
+        unit      = "$/L" if is_ca else "$/gal"
+        news_text = "\n".join(f"- {n['headline']}" for n in news[:5]) or "No specific regional news."
+
+        prompt = f"""Region: {region_name} ({region_id.upper()})
+Current price: {price:.3f} {unit}
+Lowest nearby: {price_low:.3f} {unit}
+Week-over-week: {'+' if week_delta >= 0 else ''}{week_delta:.3f} {unit}
+WTI crude: ${wti['price']:.2f}/barrel, direction: {wti['dir']}, change: {wti['change']:+.2f}
+Season: {seasonal.get('season', 'unknown')}, Summer blend: {seasonal.get('summer_blend', False)}, Holiday week: {seasonal.get('holiday_week', False)}
+
+Relevant news:
+{news_text}
+
+Generate JSON verdict for this region."""
+
+        requests.append(Request(
+            custom_id=f"region-{region_id}",
+            params=MessageCreateParamsNonStreaming(
+                model="claude-haiku-4-5",
+                max_tokens=256,
+                system=_LLM_SYSTEM,
+                messages=[{"role": "user", "content": prompt}],
+            ),
+        ))
+
+    return requests
+
+
+def submit_and_poll_batch(
+    requests: list,
+    poll_interval: int = 30,
+    timeout: int = 3600,
+) -> dict[str, dict | None]:
+    """
+    Submit a Batch API request, poll until complete, return parsed results.
+    Returns a dict mapping custom_id → parsed JSON dict or None on error.
+    """
+    import time
+    import anthropic
+
+    if not ANTHROPIC_API_KEY or not requests:
+        return {}
+
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+
+    batch = client.messages.batches.create(requests=requests)
+    log.info("Batch created: %s (%d requests)", batch.id, len(requests))
+
+    start = time.time()
+    while True:
+        batch = client.messages.batches.retrieve(batch.id)
+        if batch.processing_status == "ended":
+            break
+        elapsed = time.time() - start
+        if elapsed > timeout:
+            log.error("Batch %s timed out after %.0fs", batch.id, elapsed)
+            return {}
+        counts = batch.request_counts
+        log.info(
+            "Batch %s: processing=%s succeeded=%s errored=%s (%.0fs elapsed)",
+            batch.id, counts.processing, counts.succeeded, counts.errored, elapsed,
+        )
+        time.sleep(poll_interval)
+
+    counts = batch.request_counts
+    log.info("Batch %s complete: succeeded=%s errored=%s", batch.id, counts.succeeded, counts.errored)
+
+    results: dict[str, dict | None] = {}
+    for result in client.messages.batches.results(batch.id):
+        custom_id = result.custom_id
+        if result.result.type == "succeeded":
+            try:
+                raw = result.result.message.content[0].text.strip()
+                json_match = re.search(r"\{[^{}]+\}", raw, re.DOTALL)
+                if json_match:
+                    results[custom_id] = json.loads(json_match.group())
+                else:
+                    log.warning("No JSON in batch result for %s", custom_id)
+                    results[custom_id] = None
+            except Exception as e:
+                log.warning("Parse error for batch result %s: %s", custom_id, e)
+                results[custom_id] = None
+        else:
+            log.warning("Batch request %s: %s", custom_id, result.result.type)
+            results[custom_id] = None
+
+    return results
+
+
+def process_batch_region_results(
+    batch_results: dict[str, dict | None],
+    regions_data: list[dict],
+) -> dict[str, dict | None]:
+    """Validate and map batch results back to region_id keys."""
+    output: dict[str, dict | None] = {}
+    for rd in regions_data:
+        region_id = rd["region_id"]
+        raw       = batch_results.get(f"region-{region_id}")
+        if raw and all(k in raw for k in ("why", "advice", "verdict", "bestDayIdx")):
+            output[region_id] = {
+                "why":        raw["why"],
+                "advice":     raw["advice"][:30],
+                "verdict":    raw["verdict"],
+                "bestDayIdx": int(raw["bestDayIdx"]) % 7,
+            }
+        else:
+            output[region_id] = None
+    return output
+
+
+def analyze_regions_batch(regions_data: list[dict]) -> dict[str, dict | None]:
+    """
+    Run LLM analysis for all regions via the Anthropic Batch API (50% cost reduction).
+    Falls back to synchronous llm_analyze_region() for any individual failures.
+    Returns dict of region_id → {"why", "advice", "verdict", "bestDayIdx"} or None.
+    """
+    if not ANTHROPIC_API_KEY:
+        return {rd["region_id"]: None for rd in regions_data}
+
+    requests    = build_batch_payload(regions_data)
+    raw_results = submit_and_poll_batch(requests)
+    parsed      = process_batch_region_results(raw_results, regions_data)
+
+    # Per-region synchronous fallback for any that failed in the batch
+    failed = [rd for rd in regions_data if parsed.get(rd["region_id"]) is None]
+    if failed:
+        log.info("Synchronous fallback for %d regions that failed in batch", len(failed))
+    for rd in failed:
+        r_id   = rd["region_id"]
+        result = llm_analyze_region(
+            region_id   = r_id,
+            region_name = rd["region_name"],
+            price       = rd["price"],
+            price_low   = rd["price_low"],
+            week_delta  = rd["week_delta"],
+            wti         = rd["wti"],
+            news        = rd["news"],
+            seasonal    = rd["seasonal"],
+            is_ca       = rd["is_ca"],
+        )
+        if result and all(k in result for k in ("why", "advice", "verdict", "bestDayIdx")):
+            parsed[r_id] = {
+                "why":        result["why"],
+                "advice":     result["advice"][:30],
+                "verdict":    result["verdict"],
+                "bestDayIdx": int(result["bestDayIdx"]) % 7,
+            }
+
+    return parsed
 
 
 # ── Public entry point ────────────────────────────────────────────────────────
