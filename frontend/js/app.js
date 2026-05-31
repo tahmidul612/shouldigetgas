@@ -6,6 +6,7 @@ const { useState: useS, useEffect: useE, useRef: useR } = React;
 function App() {
   const [regions, setRegions] = useS(window.PLACEHOLDER_REGIONS);
   const [meta, setMeta] = useS({});
+  const [wti, setWti] = useS({ price: 71.2, dir: 'down', change: -1.4 });
   const [regionId, setRegionId] = useS('ca');
   const [sheet, setSheet] = useS(null);       // 'location' | 'context' | null
   const [precise, setPrecise] = useS(false);
@@ -27,6 +28,7 @@ function App() {
       ]);
       setRegions(dataResult.regions);
       setMeta(dataResult.meta);
+      if (dataResult.wti) setWti(dataResult.wti);
       if (detectedId) {
         const found = dataResult.regions.find((r) => r.id === detectedId);
         if (found) setRegionId(detectedId);
@@ -77,6 +79,7 @@ function App() {
     window.loadData().then((result) => {
       setRegions(result.regions);
       setMeta(result.meta);
+      if (result.wti) setWti(result.wti);
       setRefreshing(false);
       flash('Prices refreshed');
     });
@@ -101,7 +104,8 @@ function App() {
         <span style={{ opacity: 0.55, fontSize: 12 }}>▾</span>
       </button>
       <window.LocationSheet open={menuOpen} onClose={() => setMenuOpen(false)}
-        onSelect={pickRegion} current={regionId} theme={theme} paletteKey="classic" variant="dropdown" />
+        onSelect={pickRegion} current={regionId} theme={theme} paletteKey="classic" variant="dropdown"
+        regions={regions} />
     </div>
   );
 
@@ -148,7 +152,7 @@ function App() {
       </div>
 
       <div className="rail-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
-        <window.ContextContent region={region} theme={theme} />
+        <window.ContextContent region={region} wti={wti} theme={theme} />
       </div>
     </aside>
   );
@@ -193,6 +197,7 @@ function App() {
               city={region.city}
               abbr={region.abbr}
               state={region.state}
+              unit={region.unit}
               theme={theme}
               animKey={animKey}
             />
@@ -269,7 +274,7 @@ function App() {
 
       {/* Mobile sheets */}
       <window.ContextSheet open={sheet === 'context'} onClose={() => setSheet(null)}
-        region={region} theme={theme} />
+        region={region} wti={wti} theme={theme} />
       <window.Toast msg={toast} />
     </div>
   );

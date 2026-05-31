@@ -1,2 +1,22 @@
-.vercel
-.env*
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+
+# Database
+data/shouldigetgas.db
+data/*.db-wal
+data/*.db-shm
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

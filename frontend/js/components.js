@@ -26,9 +26,12 @@ function WashBackground({ wash, motion }) {
 }
 
 // Glanceable gas price display — hero widget
-function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, theme, animKey }) {
+function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey }) {
   const isUp = weekDelta >= 0;
-  const absChange = Math.abs(weekDelta * 100).toFixed(0);
+  const priceUnit = unit || 'gal';
+  // Canada shows ¢/L delta; US shows ¢/gal
+  const deltaMultiplier = priceUnit === 'L' ? 100 : 100;
+  const absChange = Math.abs(weekDelta * deltaMultiplier).toFixed(0);
   const displayPrice = precise && priceLow ? priceLow : price;
   const priceLabel = precise && priceLow ? `lowest nearby · ${city}` : `avg · ${state}`;
 
@@ -44,7 +47,7 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
       </div>
       <div className="price-label" style={{ color: theme.textSoft }}>
         {priceLabel}
-        <span className="price-unit-inline">&thinsp;/gal</span>
+        <span className="price-unit-inline">&thinsp;/{priceUnit}</span>
       </div>
     </div>
   );
@@ -193,11 +196,13 @@ function Sheet({ open, onClose, theme, children, title }) {
 }
 
 // Location picker sheet (mobile) / dropdown (desktop)
-function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, variant = 'sheet' }) {
+function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, variant = 'sheet', regions }) {
   const [q, setQ] = useState('');
   useEffect(() => { if (!open) setQ(''); }, [open]);
-  const list = window.PLACEHOLDER_REGIONS.filter((r) =>
-    r.state.toLowerCase().includes(q.toLowerCase())
+  const source = regions || window.PLACEHOLDER_REGIONS;
+  const list = source.filter((r) =>
+    r.state.toLowerCase().includes(q.toLowerCase()) ||
+    r.abbr.toLowerCase().includes(q.toLowerCase())
   );
   const tone = (r) => window.PALETTES[paletteKey || 'classic'].tone[r.verdict];
 
@@ -208,7 +213,7 @@ function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, va
           style={{ borderColor: r.id === current ? tone(r) : 'transparent' }}>
           <span className="loc-dot" style={{ background: tone(r) }} />
           <span className="loc-name">{r.state}</span>
-          <span className="loc-price">${r.price.toFixed(2)}</span>
+          <span className="loc-price">${r.price.toFixed(2)}{r.unit === 'L' ? '/L' : ''}</span>
           <span className="loc-verdict" style={{ color: tone(r) }}>{window.VERDICTS[r.verdict].label}</span>
         </button>
       ))}
@@ -240,19 +245,21 @@ function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, va
 }
 
 // Context / what's-driving-this content (used in both sheet + rail)
-function ContextContent({ region, theme }) {
+function ContextContent({ region, wti, theme }) {
   if (!region) return null;
   const b = region.breakdown;
   const S = window.SOURCES;
+  const wtiPrice = (wti && wti.price) || 71.2;
+  const wtiDir   = (wti && wti.dir) || region.wtiDir || 'flat';
   return (
     <>
       <div className="ctx-grid">
         <div className="ctx-stat" style={{ background: 'rgba(255,255,255,0.07)' }}>
           <div className="ctx-k">WTI crude</div>
           <div className="ctx-v" style={{ color: theme.text }}>
-            ${(region.wti || 71.2).toFixed ? (region.wti || 71.2).toFixed(1) : region.wti}
+            ${wtiPrice.toFixed(2)}
             <span style={{ color: theme.accent, fontSize: 15, marginLeft: 4 }}>
-              {(region.wtiDir || 'down') === 'down' ? '▼' : '▲'}
+              {wtiDir === 'down' ? '▼' : wtiDir === 'up' ? '▲' : '—'}
             </span>
           </div>
           <SrcLink src={S.crude} theme={theme} />
@@ -281,11 +288,11 @@ function ContextContent({ region, theme }) {
 }
 
 // Context bottom sheet (mobile)
-function ContextSheet({ open, onClose, region, theme }) {
+function ContextSheet({ open, onClose, region, wti, theme }) {
   if (!region) return null;
   return (
     <Sheet open={open} onClose={onClose} theme={theme} title="What's driving today's price">
-      <ContextContent region={region} theme={theme} />
+      <ContextContent region={region} wti={wti} theme={theme} />
     </Sheet>
   );
 }

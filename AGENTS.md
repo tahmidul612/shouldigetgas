@@ -1,64 +1,174 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Developer / agent guidance for this repository.
 
-## Running the app
+---
 
-There is no build step. Serve the `frontend/` directory with any static file server:
+## Running the frontend
+
+No build step. Serve `frontend/` with any static file server:
 
 ```bash
-# Python (simplest)
 python3 -m http.server 8080 --directory frontend
-
-# Node
-npx serve frontend
 ```
 
-Then open `http://localhost:8080`. You can also open `frontend/index.html` directly in a browser — all assets are relative, so file:// works for most features (IP geolocation fetch will silently fall back to the first placeholder region).
+Open `http://localhost:8080`. `file://` also works for most features (IP geolocation will fall back silently).
+
+---
+
+## Backend setup
+
+```bash
+# 1. Create venv
+python -m venv .venv && source .venv/bin/activate
+
+# 2. Install dependencies
+pip install -r backend/requirements.txt
+
+# 3. Copy and fill in env vars
+cp .env.example .env
+# Edit .env with your API keys
+
+# 4. Initialise the database
+python backend/db.py
+```
+
+### Required environment variables (`.env`)
+
+| Variable | Required | Description |
+|---|---|---|
+| `EIA_API_KEY` | Yes (US prices) | Free at eia.gov/opendata/register.php |
+| `NEWS_API_KEY` | Optional | Free tier at newsapi.org |
+| `ANTHROPIC_API_KEY` | Optional | For LLM news analysis; heuristic fallback if absent |
+| `REDIS_URL` | Optional | Default `redis://localhost:6379/0`; in-memory cache used if Redis unreachable |
+| `DB_PATH` | Optional | Default `data/shouldigetgas.db` |
+| `DATA_JSON_PATH` | Optional | Default `frontend/data/data.json` |
+
+---
+
+## Running the pipeline
+
+### One-off (useful for testing)
+
+```bash
+# Collect prices for all regions (or specify a subset)
+python backend/price_collector.py
+python backend/price_collector.py --regions ca tx on ab
+
+# Run analytics and write data.json
+python backend/snapshot.py
+python backend/snapshot.py ca tx on
+
+# Test data gathering only (no DB write)
+python backend/analytics/gather.py
+```
+
+### Continuous (production)
+
+```bash
+# Runs price collection every 30 min + analytics every 6h
+python backend/scheduler.py
+```
+
+### Cron-based
+
+```
+# /etc/cron.d/shouldigetgas
+*/30 * * * *  user  /path/to/shouldigetgas/scripts/run_collector.sh
+0 */6 * * *   user  /path/to/shouldigetgas/scripts/run_analytics.sh
+```
+
+---
 
 ## Architecture
 
-This is a **zero-build frontend**: React 18 and Babel are loaded from CDN in `index.html`, and JSX is compiled in-browser at runtime. There is no `node_modules`, no bundler, no transpile step.
+### Two-speed cached-data model (Approach A)
 
-The three JS files are loaded as `type="text/babel"` scripts and communicate exclusively through `window` globals. Load order matters — `data.js` → `components.js` → `app.js`.
+The backend writes `frontend/data/data.json` directly. No API server. The frontend's `fetch('data/data.json')` call works unchanged.
 
-### JS module responsibilities
+**Part 1 — Price Collector** (`backend/price_collector.py`, every 30 min):
+- US prices: EIA API v2 (`/petroleum/pri/gnd/data/` with `facets[stateid][]`) + PADD fallback
+- Canada prices: Ontario CKAN API, NRCAN scraper, GasBuddy fallback
+- Stores raw station prices in `stations` SQLite table
+- Updates `regional_snapshot` table with fresh price fields
 
-| File | Role |
-|------|------|
-| `js/data.js` | Data model, theme engine, placeholder regions, `loadData()` / `detectRegionFromIP()` helpers. Exports to `window`. |
-| `js/components.js` | All presentational React components (`GasPriceDisplay`, `Sparkline`, `DayStrip`, `LocationSheet`, `ContextContent`, `Sheet`, `Toast`, etc.). Exports to `window`. |
-| `js/app.js` | Root `App` component — state management, layout composition (hero + context rail + mobile sheets), entry point (`ReactDOM.createRoot`). |
+**Part 2 — Analytics Engine** (`backend/snapshot.py`, every 6 h):
+- Module A (`analytics/gather.py`): EIA WTI crude, refinery utilization, NewsAPI headlines
+- Module B (`analytics/news_analysis.py`): Claude Haiku → `why`/`advice`/`verdict`; VADER fallback
+- Module C (`analytics/predictor.py`): Holt exponential smoothing → price direction, `bestDayIdx`, trend
+- Module D (`analytics/breakdown.py`): Per-region `{crude, refining, taxes, dist}` breakdown
+- Writes assembled payload to `frontend/data/data.json`
 
-### Data flow
+### Data storage
 
-On mount, `App` calls `loadData()` and `detectRegionFromIP()` in parallel. `loadData()` fetches `data/data.json` and falls back to `PLACEHOLDER_REGIONS` hardcoded in `data.js`. `detectRegionFromIP()` calls `ipapi.co` and maps the returned state code to a region id.
+```
+data/shouldigetgas.db  — SQLite
+  stations            raw station-level prices
+  regional_snapshot   current per-region analytics (1:1 with JSON output)
+  crude_prices        WTI/Brent history
+  news_cache          processed news articles
+  prediction_log      audit trail
+```
 
-### Theme engine
+Redis is optional — all cache values fall back to an in-memory TTL dict.
 
-Verdict (`buy` | `partial` | `wait`) drives the entire visual theme. `getTheme(verdict)` in `data.js` returns a `theme` object with all color tokens (`accent`, `word`, `wash`, `cardBg`, etc.) that components receive as props. The full-screen gradient background (`WashBackground`) cross-fades between themes when the region changes.
+### Region scope
 
-### Region data shape
+62 regions total:
+- **US:** 50 states + DC (51 regions), prices in $/gal, EIA stateid codes
+- **Canada:** 10 provinces + "Northern Canada" (territories combined), prices in $/L CAD
 
-Each region in `data/data.json` (and `PLACEHOLDER_REGIONS`) has:
-- `verdict`: `'buy'` | `'partial'` | `'wait'`
-- `price`: regional average $/gal
-- `priceLow`: lowest nearby station price (used when `precise` mode is on)
-- `weekDelta`: week-over-week change in dollars (positive = rising)
-- `trend`: array of 14 price values for the sparkline
-- `bestDayIdx`: 0–6 index into `DAYS` array for the DayStrip highlight
-- `why`: plain-English explanation text
-- `breakdown`: `{ crude, refining, taxes, dist }` percentages summing to 100
-- `news`: array of `{ headline, source, url }`
+### Frontend changes
 
-### Responsive layout
+- `js/data.js`: `detectRegionFromIP()` now covers all 50 US states + DC + all Canadian provinces; defaults to Ontario for unmatched Canadian IPs
+- `js/components.js`: `LocationSheet` accepts a `regions` prop (uses loaded data, not hardcoded placeholder); `GasPriceDisplay` shows `/L` for Canadian regions
+- `js/app.js`: `wti` state maintained and passed to `ContextContent`/`ContextSheet`
 
-CSS drives two layouts from the same JSX tree:
-- **Mobile**: hero column → support cards (day strip + sparkline) → GasBuddy CTA. Context panel opens as a bottom sheet.
-- **Desktop (≥900px)**: two-column grid — hero left, context rail right. Support cards and mobile GasBuddy button are hidden via `display: none`.
+### Region data shape (extended)
 
-## Current status
+Each region now also includes:
+- `country`: `"US"` | `"CA"`
+- `unit`: `"gal"` | `"L"` (drives `/gal` vs `/L` display in the frontend)
+- `advice`: short action phrase ≤30 chars (e.g., `"Fill up today"`, `"Hold until Thu"`)
 
-The frontend is fully built with static/placeholder data. **No backend exists yet.** The planned FastAPI backend (EIA API integration, prediction model, news fetching) is described in `README.md`. `data/data.json` is hand-authored placeholder data that mimics the eventual API response shape.
+---
 
-To add a new region, add an entry to both `PLACEHOLDER_REGIONS` in `js/data.js` and `frontend/data/data.json`, and add its state code to the `regionMap` in `detectRegionFromIP()`.
+## Adding a new region
+
+1. Add to `US_REGIONS` or `CA_REGIONS` in `backend/config.py`
+2. Add a baseline price to `BASELINE_PRICES` in `config.py`
+3. Add the IP geolocation mapping to `regionMap` in `frontend/js/data.js`
+4. Run `python backend/snapshot.py` — it will generate a new entry in `data.json`
+
+---
+
+## File structure
+
+```
+shouldigetgas/
+├── .env.example          API key template
+├── frontend/             Zero-build React 18 app
+│   ├── data/data.json    Auto-generated by backend (Approach A)
+│   └── js/
+│       ├── data.js       Data model + detectRegionFromIP (all 62 regions)
+│       ├── components.js Presentational components (unit-aware)
+│       └── app.js        Root App + WTI state
+├── backend/
+│   ├── requirements.txt
+│   ├── config.py         Region definitions, env vars, API endpoints
+│   ├── db.py             SQLite schema + helpers
+│   ├── cache.py          Redis + in-memory fallback
+│   ├── price_collector.py Part 1: 30-min price updates
+│   ├── snapshot.py       Part 2: analytics + data.json writer
+│   ├── scheduler.py      APScheduler orchestration
+│   └── analytics/
+│       ├── gather.py     EIA crude + news fetching
+│       ├── news_analysis.py LLM/heuristic why+advice generation
+│       ├── predictor.py  Holt smoothing + verdict logic
+│       └── breakdown.py  Cost breakdown percentages
+├── data/
+│   └── shouldigetgas.db  SQLite database (auto-created)
+└── scripts/
+    ├── run_collector.sh  Cron wrapper for price_collector.py
+    └── run_analytics.sh  Cron wrapper for snapshot.py
+```

@@ -129,19 +129,41 @@ const PLACEHOLDER_REGIONS = [
 ];
 
 // IP-based region detection — returns a region id string.
-// In production, replace with a real ipapi.co call.
 async function detectRegionFromIP() {
   try {
     const res = await fetch('https://ipapi.co/json/', { signal: AbortSignal.timeout(4000) });
     if (!res.ok) return null;
     const data = await res.json();
     const stateCode = (data.region_code || '').toUpperCase();
-    const regionMap = {
-      CA: 'ca', TX: 'tx', NY: 'ny', FL: 'fl', WA: 'wa', IL: 'il',
+    const country   = (data.country_code || '').toUpperCase();
+
+    // US states (50 + DC)
+    const US_MAP = {
+      AL:'al', AK:'ak', AZ:'az', AR:'ar', CA:'ca', CO:'co', CT:'ct', DE:'de',
+      FL:'fl', GA:'ga', HI:'hi', ID:'id', IL:'il', IN:'in', IA:'ia', KS:'ks',
+      KY:'ky', LA:'la', ME:'me', MD:'md', MA:'ma', MI:'mi', MN:'mn', MS:'ms',
+      MO:'mo', MT:'mt', NE:'ne', NV:'nv', NH:'nh', NJ:'nj', NM:'nm', NY:'ny',
+      NC:'nc', ND:'nd', OH:'oh', OK:'ok', OR:'or', PA:'pa', RI:'ri', SC:'sc',
+      SD:'sd', TN:'tn', TX:'tx', UT:'ut', VT:'vt', VA:'va', WA:'wa', WV:'wv',
+      WI:'wi', WY:'wy', DC:'dc',
     };
-    const mapped = regionMap[stateCode] || null;
+
+    // Canadian provinces and territories
+    const CA_MAP = {
+      AB:'ab', BC:'bc', MB:'mb', NB:'nb', NL:'nl', NS:'ns',
+      ON:'on', PE:'pe', QC:'qc', SK:'sk',
+      NT:'north', NU:'north', YT:'north',
+    };
+
+    let mapped = null;
+    if (country === 'CA') {
+      mapped = CA_MAP[stateCode] || 'on';   // Ontario default for unmatched CA
+    } else {
+      mapped = US_MAP[stateCode] || null;
+    }
+
     if (!mapped) {
-      console.warn('[shouldigetgas] IP detection: state not mapped —', stateCode || '(empty)', '— defaulting to CA');
+      console.warn('[shouldigetgas] IP detection: region not mapped —', stateCode, country, '— defaulting to CA');
     }
     return mapped;
   } catch (err) {
