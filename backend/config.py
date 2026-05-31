@@ -31,6 +31,8 @@ EIA_V1_SERIES      = "https://api.eia.gov/series/"   # legacy v1 fallback for WT
 
 # ── News API ───────────────────────────────────────────────────────────────────
 NEWS_API_ENDPOINT  = "https://newsapi.org/v2/everything"
+GNEWS_API_KEY      = os.getenv("GNEWS_API_KEY", "")
+GNEWS_API_ENDPOINT = "https://gnews.io/api/v4/search"
 
 # ── Ontario open data ─────────────────────────────────────────────────────────
 ONTARIO_FUEL_API   = "https://data.ontario.ca/api/3/action/datastore_search"

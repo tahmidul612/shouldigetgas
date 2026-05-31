@@ -13,9 +13,9 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 import cache
 import db
 from config import (
-    EIA_API_KEY, NEWS_API_KEY,
+    EIA_API_KEY, NEWS_API_KEY, GNEWS_API_KEY,
     EIA_SPT_ENDPOINT, EIA_V1_SERIES, EIA_CAP_ENDPOINT,
-    NEWS_API_ENDPOINT,
+    NEWS_API_ENDPOINT, GNEWS_API_ENDPOINT,
 )
 
 log = logging.getLogger(__name__)
@@ -154,20 +154,73 @@ _NEWS_QUERIES = [
 ]
 
 
+def fetch_gnews_headlines(max_articles: int = 20) -> list[dict]:
+    """
+    Fetch energy-relevant news from GNews API.
+    Returns list of {"headline", "source", "url", "published_at"} dicts.
+    """
+    articles = []
+    seen_urls: set[str] = set()
+
+    for query in _NEWS_QUERIES:
+        if len(articles) >= max_articles:
+            break
+        try:
+            resp = SESSION.get(
+                GNEWS_API_ENDPOINT,
+                params={
+                    "q":        query,
+                    "sortby":   "publishedAt",
+                    "lang":     "en",
+                    "max":      10,
+                    "apikey":   GNEWS_API_KEY,
+                },
+                timeout=15,
+            )
+            resp.raise_for_status()
+            for a in resp.json().get("articles", []):
+                url = a.get("url", "")
+                if url in seen_urls:
+                    continue
+                seen_urls.add(url)
+                articles.append({
+                    "headline":     (a.get("title") or "")[:200],
+                    "source":       (a.get("source") or {}).get("name", ""),
+                    "url":          url,
+                    "published_at": a.get("publishedAt", ""),
+                })
+        except Exception as e:
+            log.debug("GNews fetch failed for query '%s': %s", query, e)
+
+    return articles[:max_articles]
+
+
 def fetch_news_headlines(max_articles: int = 20) -> list[dict]:
     """
-    Fetch energy-relevant news from NewsAPI.
+    Fetch energy-relevant news headlines.
+    Uses NewsAPI if NEWS_API_KEY is set, GNews if GNEWS_API_KEY is set, else skips.
     Returns list of {"headline", "source", "url", "published_at"} dicts.
-    Falls back to empty list if API key missing.
     """
     hit = cache.get("news:headlines")
     if hit:
         return hit
 
-    if not NEWS_API_KEY:
-        log.debug("NEWS_API_KEY not set — skipping news fetch")
+    if NEWS_API_KEY:
+        articles = _fetch_newsapi_headlines(max_articles)
+    elif GNEWS_API_KEY:
+        log.debug("NEWS_API_KEY not set — falling back to GNews")
+        articles = fetch_gnews_headlines(max_articles)
+    else:
+        log.debug("No news API key set — skipping news fetch")
         return []
 
+    if articles:
+        cache.set("news:headlines", articles, ttl=cache.TTL_NEWS)
+        _store_news(articles)
+    return articles[:max_articles]
+
+
+def _fetch_newsapi_headlines(max_articles: int = 20) -> list[dict]:
     articles = []
     seen_urls: set[str] = set()
     cutoff = (NOW() - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -203,11 +256,7 @@ def fetch_news_headlines(max_articles: int = 20) -> list[dict]:
         except Exception as e:
             log.debug("NewsAPI fetch failed for query '%s': %s", query, e)
 
-    if articles:
-        cache.set("news:headlines", articles, ttl=cache.TTL_NEWS)
-        # Store in DB for historical analysis
-        _store_news(articles)
-    return articles[:max_articles]
+    return articles
 
 
 def _store_news(articles: list[dict]):
