@@ -1,6 +1,10 @@
 # AGENTS.md
 
-Developer / agent guidance for this repository.
+**Generated:** 2026-05-31  
+**Commit:** 311194e  
+**Branch:** feat/backend-initial
+
+Gas price prediction + timing advisor. Python backend (EIA API, analytics) + vanilla JS frontend (React 18 zero-build).
 
 ---
 
@@ -172,3 +176,52 @@ shouldigetgas/
     ├── run_collector.sh  Cron wrapper for price_collector.py
     └── run_analytics.sh  Cron wrapper for snapshot.py
 ```
+
+---
+
+## CONVENTIONS
+
+### Region handling
+- **Units ALWAYS match region type**: US regions = $/gal, Canadian regions = $/L CAD
+- Region IDs: 2-letter lowercase (e.g., `ca`, `on`, `tx`) + special `north` for Canadian territories
+- 62 regions total: 50 US states + DC + 10 CA provinces + 1 "Northern Canada" aggregate
+- All region tuples in `backend/config.py` follow: `(id, display_name, abbr, city, api_key, [country])`
+
+### Data flow
+- **Cached-data model (Approach A)**: Backend writes `frontend/data/data.json` directly, no API server
+- Part 1 (price_collector.py, 30 min): Updates `stations` + `regional_snapshot` tables
+- Part 2 (snapshot.py, 6 h): Runs analytics modules A-D → writes `data.json`
+- Frontend fetches `data/data.json` on load (works offline after first load)
+
+### API keys
+- **NEVER commit secrets** - all keys loaded from `.env` via `backend/config.py`
+- Optional keys degrade graceful ly: NEWS_API → no headlines, ANTHROPIC_API → heuristic fallback, REDIS → in-memory cache
+
+### Database
+- SQLite only, no PostgreSQL. WAL mode enabled by default.
+- Run `python backend/db.py` to init/migrate schema
+- Tables: `stations`, `regional_snapshot`, `crude_prices`, `news_cache`, `prediction_log`
+
+---
+
+## ANTI-PATTERNS (THIS PROJECT)
+
+- **Unit confusion**: NEVER mix $/gal and $/L - always check `region_unit(region_id)` or use region tuple's country field
+- **Hardcoded region lists**: Region definitions live ONLY in `backend/config.py` (US_REGIONS, CA_REGIONS)
+- **Breaking cached-data contract**: Frontend expects `data.json` at `frontend/data/data.json` - do NOT introduce API server without updating frontend fetch logic
+- **Blocking on optional services**: Redis/NewsAPI/Anthropic failures must NOT crash pipeline - all have fallbacks
+
+---
+
+## HIERARCHY
+
+```
+./AGENTS.md                     (this file - project overview)
+├── backend/AGENTS.md           (Python backend: collectors, schedulers, DB)
+│   └── backend/analytics/AGENTS.md  (Analytics modules: gather, predict, analyze)
+└── frontend/AGENTS.md          (React 18 zero-build frontend)
+```
+
+---
+
+## NOTES
