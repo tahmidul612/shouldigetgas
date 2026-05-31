@@ -42,6 +42,7 @@ NOW = lambda: datetime.now(timezone.utc).isoformat()
 def fetch_eia_state_prices(state_ids: list[str]) -> dict[str, list[float]]:
     """
     Fetch last 14 weeks of regular gasoline prices per US state from EIA API v2.
+    Uses duoarea facets with "S" prefix (e.g. "SCA" for California).
     Returns {state_id_upper: [price_newest_first]}.
     Falls back to EIA PADD districts if state-level data is missing.
     """
@@ -65,9 +66,9 @@ def fetch_eia_state_prices(state_ids: list[str]) -> dict[str, list[float]]:
         "length": "14",
         "offset": "0",
     }
-    # Add all state IDs as facets in one request
+    # Add all state IDs as duoarea facets (EIA v2 uses "S<STATE>" codes)
     for i, sid in enumerate(state_ids):
-        params[f"facets[stateid][{i}]"] = sid
+        params[f"facets[duoarea][{i}]"] = f"S{sid}"
 
     try:
         resp = SESSION.get(EIA_GAS_ENDPOINT, params=params, timeout=30)
@@ -79,7 +80,7 @@ def fetch_eia_state_prices(state_ids: list[str]) -> dict[str, list[float]]:
 
     result: dict[str, list[float]] = {}
     for row in data:
-        sid   = row.get("stateid", "").upper()
+        sid   = row.get("duoarea", "")[1:].upper()   # strip leading "S" prefix
         value = row.get("value")
         if sid and value is not None:
             try:
