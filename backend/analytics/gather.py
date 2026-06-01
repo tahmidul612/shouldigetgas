@@ -148,9 +148,7 @@ def fetch_refinery_utilization() -> dict | None:
 # ── News Headlines ────────────────────────────────────────────────────────────
 
 _NEWS_QUERIES = [
-    "crude oil OPEC gasoline price",
-    "refinery outage pipeline supply gas price",
-    "carbon tax fuel price Canada",
+    "gasoline price crude oil",
 ]
 
 
@@ -207,6 +205,10 @@ def fetch_news_headlines(max_articles: int = 20) -> list[dict]:
 
     if NEWS_API_KEY:
         articles = _fetch_newsapi_headlines(max_articles)
+        # If NewsAPI returned nothing (e.g. invalid/expired key), fall back
+        if not articles and GNEWS_API_KEY:
+            log.debug("NewsAPI returned empty — falling back to GNews")
+            articles = fetch_gnews_headlines(max_articles)
     elif GNEWS_API_KEY:
         log.debug("NEWS_API_KEY not set — falling back to GNews")
         articles = fetch_gnews_headlines(max_articles)
