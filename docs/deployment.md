@@ -45,9 +45,16 @@ python backend/scheduler.py
 ### Option B: cron jobs
 
 ```cron
+# /etc/cron.d/shouldigetgas — system crontab format (includes user field)
 */30 * * * *  user  /path/to/shouldigetgas/scripts/run_collector.sh
 0 */6 * * *   user  /path/to/shouldigetgas/scripts/run_analytics.sh
 ```
+
+> For per-user crontab (`crontab -e`), omit the `user` column:
+> ```cron
+> */30 * * * *  /path/to/shouldigetgas/scripts/run_collector.sh
+> 0 */6 * * *   /path/to/shouldigetgas/scripts/run_analytics.sh
+> ```
 
 ## Service dependencies
 

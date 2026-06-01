@@ -33,6 +33,7 @@ python backend/db.py
 | `EIA_API_KEY` | Yes | US gas price data |
 | `NEWS_API_KEY` | No | News headlines |
 | `ANTHROPIC_API_KEY` | No | Claude Haiku news analysis |
+| `GNEWS_API_KEY` | No | GNews fallback when NEWS_API_KEY is absent |
 | `REDIS_URL` | No | Optional cache backend |
 | `DB_PATH` | No | SQLite path override |
 | `DATA_JSON_PATH` | No | Output JSON path override |
