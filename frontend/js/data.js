@@ -159,7 +159,7 @@ async function detectRegionFromIP() {
     if (country === 'CA') {
       mapped = CA_MAP[stateCode] || 'on';   // Ontario default for unmatched CA
     } else {
-      mapped = US_MAP[stateCode] || null;
+      mapped = US_MAP[stateCode] || 'ca';
     }
 
     if (!mapped) {

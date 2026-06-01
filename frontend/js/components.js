@@ -29,9 +29,7 @@ function WashBackground({ wash, motion }) {
 function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey }) {
   const isUp = weekDelta >= 0;
   const priceUnit = unit || 'gal';
-  // Canada shows ¢/L delta; US shows ¢/gal
-  const deltaMultiplier = priceUnit === 'L' ? 100 : 100;
-  const absChange = Math.abs(weekDelta * deltaMultiplier).toFixed(0);
+  const absChange = Math.abs(weekDelta * 100).toFixed(0);
   const displayPrice = precise && priceLow ? priceLow : price;
   const priceLabel = precise && priceLow ? `lowest nearby · ${city}` : `avg · ${state}`;
 

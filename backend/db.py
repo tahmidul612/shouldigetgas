@@ -232,9 +232,9 @@ def get_price_history(region_id: str, days: int = 90) -> list[tuple]:
             SELECT fetched_at, AVG(price) as avg_price
             FROM stations
             WHERE region_id = ?
-              AND fetched_at >= datetime('now', ?)
-            GROUP BY date(fetched_at)
-            ORDER BY fetched_at ASC
+              AND datetime(fetched_at) >= datetime('now', ?)
+            GROUP BY date(datetime(fetched_at))
+            ORDER BY datetime(fetched_at) ASC
         """, (region_id, f"-{days} days")).fetchall()
     return [(r["fetched_at"], r["avg_price"]) for r in rows]
 
