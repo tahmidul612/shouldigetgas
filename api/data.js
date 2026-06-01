@@ -1,32 +1,28 @@
 import { readFileSync, existsSync } from 'fs';
-import { join } from 'path';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-export default async function handler(_request) {
-  const dataPath = join(process.cwd(), 'frontend', 'data', 'data.json');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+export default function handler(req, res) {
+  const dataPath = join(__dirname, '..', 'frontend', 'data', 'data.json');
+
+  res.setHeader('Content-Type', 'application/json');
 
   if (!existsSync(dataPath)) {
-    return new Response(JSON.stringify({
+    return res.status(404).json({
       error: 'Data not available',
       meta: { updatedAt: null },
       wti: { price: 71.2, dir: 'flat', change: 0 },
       regions: [],
-    }), {
-      status: 404,
-      headers: { 'Content-Type': 'application/json' },
     });
   }
 
   try {
     const raw = readFileSync(dataPath, 'utf-8');
     JSON.parse(raw); // validate
-    return new Response(raw, {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    res.status(200).send(raw);
   } catch (_err) {
-    return new Response(JSON.stringify({ error: 'Failed to read data' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    res.status(500).json({ error: 'Failed to read data' });
   }
 }

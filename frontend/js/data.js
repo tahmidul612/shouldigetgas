@@ -175,7 +175,7 @@ async function detectRegionFromIP() {
 // Load data from the JSON file, falling back to placeholder data.
 async function loadData() {
   try {
-    const res = await fetch('/api/data', { cache: 'no-cache' });
+    const res = await fetch('/data/data.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error('fetch failed');
     const json = await res.json();
     return {
