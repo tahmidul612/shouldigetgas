@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "frontend",
+  "functions": {
+    "api/data.js": {
+      "maxDuration": 10
+    }
+  }
+}
