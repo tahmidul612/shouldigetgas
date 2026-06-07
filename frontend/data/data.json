@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-06-05T06:02:08.582534+00:00",
-    "pricesUpdatedAt": "2026-06-05T06:02:05.425634+00:00",
+    "updatedAt": "2026-06-07T05:33:04.272572+00:00",
+    "pricesUpdatedAt": "2026-06-07T05:33:01.180597+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-05T06:33:43.448964+00:00",
-    "nextAnalysisUpdate": "2026-06-05T12:03:43.448977+00:00"
+    "nextPriceUpdate": "2026-06-07T06:04:10.411689+00:00",
+    "nextAnalysisUpdate": "2026-06-07T11:34:10.411700+00:00"
   },
   "wti": {
     "price": 71.2,
@@ -23,11 +23,16 @@
       "price": 2.87,
       "priceLow": 2.87,
       "weekDelta": 0.0,
-      "why": "Prices are at a recent low with flat crude and mixed geopolitical signals. Summer blend is in effect but no major supply disruptions loom. Strait of Hormuz reopening speculation is keeping crude pressured.",
+      "why": "Alabama prices are at a recent low with WTI crude flat and no week-over-week change. Summer blend is in effect, and national trends show modest downward pressure. No immediate catalysts suggest a significant drop ahead.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -37,11 +42,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -78,11 +78,16 @@
       "price": 3.72,
       "priceLow": 3.72,
       "weekDelta": 0.0,
-      "why": "Alaska prices are at their recent low of $3.720/gal with flat crude ($71.20). WTI shows no momentum, and geopolitical headlines suggest potential downward pressure if the Strait of Hormuz reopens. Current conditions favor filling up now before any upside.",
+      "why": "Alaska's price is at its lowest point with flat crude conditions. No downward momentum in sight and summer demand is stable. Current rates offer a fair window without major upside risk.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -92,11 +97,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -133,11 +133,16 @@
       "price": 3.21,
       "priceLow": 3.21,
       "weekDelta": 0.0,
-      "why": "Arizona prices sit at recent lows with flat crude and stable week-over-week movement. Summer blend demand is moderate, and geopolitical supply concerns are easing. This is a solid window to fill up without significant downside risk.",
+      "why": "Arizona prices are at a recent low and stable. Crude is flat with no immediate pressure. Summer blend is in effect, supporting current pricing without upward bias.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -147,11 +152,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -184,15 +184,20 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.81,
       "priceLow": 2.81,
       "weekDelta": 0.0,
-      "why": "Arkansas prices are at their lowest point with no week-over-week change. Crude oil is flat and geopolitical tensions may ease if the Strait of Hormuz reopens, potentially pushing prices lower in the coming days.",
-      "advice": "Half tank now · monitor Fri",
-      "bestDayIdx": 5,
+      "why": "Arkansas prices are at a recent low with no weekly change. WTI crude is flat, and summer blend pricing is stable. No immediate pressure for prices to drop further this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -202,11 +207,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -243,11 +243,16 @@
       "price": 6.028,
       "priceLow": 6.028,
       "weekDelta": 0.0,
-      "why": "California prices are at their recent low with flat WTI crude and week-over-week stability. Mixed signals from geopolitical news (Hormuz reopening could ease supply) suggest modest downside risk, but current levels offer a fair window to fill up.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "California prices are flat at $6.03/gal with crude stable at $71.20/bbl. No immediate downward pressure, and summer blend premiums remain in effect. Current level matches the weekly low.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -257,11 +262,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -298,11 +298,16 @@
       "price": 4.697,
       "priceLow": 4.697,
       "weekDelta": 0.0,
-      "why": "Colorado prices are at their recent low with flat crude and no week-over-week change. Mixed signals from global oil news—potential Hormuz reopening could pressure prices down slightly, but Petrobras hikes suggest modest upward pressure. Current moment is neutral-to-favorable.",
+      "why": "Colorado gas is at its local low of $4.697/gal with flat crude prices and no momentum. Summer blend is in effect with stable market conditions and no supply disruptions nearby.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -312,11 +317,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -353,11 +353,16 @@
       "price": 3.45,
       "priceLow": 3.45,
       "weekDelta": 0.0,
-      "why": "Connecticut prices are at a local low with flat crude and no directional pressure. WTI holding steady around $71 suggests stable near-term supply. Summer blend in effect supports current levels.",
+      "why": "Connecticut prices are at their local low of $3.45/gal with flat crude momentum. Summer blend is active but no major supply disruptions or refinery issues are reported. Prices appear stable with no clear downward pressure in the near term.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -367,11 +372,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -408,11 +408,16 @@
       "price": 3.2,
       "priceLow": 3.2,
       "weekDelta": 0.0,
-      "why": "Delaware prices are at their recent low with no weekly change. WTI crude is flat around $71/barrel, and geopolitical risk (Hormuz) may ease supply concerns. Summer blend costs are stable with no immediate upward pressure.",
+      "why": "Delaware gas is at its lowest point with no week-over-week change. Crude prices are flat at $71.20/bbl, suggesting stability. Summer blend demand is steady but no upward pressure expected in the near term.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -422,11 +427,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -459,15 +459,20 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.296,
       "priceLow": 4.236,
       "weekDelta": 0.0,
-      "why": "Florida prices are flat week-over-week at $4.30/gal while crude remains stable at $71. A $0.06/gal gap to the regional low suggests modest room to drop. Mixed signals from geopolitical easing (Hormuz reopening speculation) could pressure prices downward in the next few days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "Florida prices are flat week-over-week at $4.30/gal with crude stable at $71. A $0.06/gal spread to nearby lows suggests modest room to drop, but summer blend costs and flat crude momentum indicate limited downside pressure this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -477,11 +482,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -518,11 +518,16 @@
       "price": 2.92,
       "priceLow": 2.92,
       "weekDelta": 0.0,
-      "why": "Georgia prices are at their recent low of $2.92/gal with flat crude fundamentals. Mixed signals from global crude—Brazil subsidy removal could push prices up slightly, but Hormuz reopening speculation provides downward pressure. Current pricing offers a solid window before potential summer demand increases.",
+      "why": "Georgia gas prices are stable at $2.92/gal, matching recent lows with flat crude oil. National trends show slight weakness, suggesting minimal upside pressure this week.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -532,11 +537,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -573,11 +573,16 @@
       "price": 4.55,
       "priceLow": 4.55,
       "weekDelta": 0.0,
-      "why": "Hawaii prices are flat at $4.55/gal, matching recent lows. WTI crude is stable at $71.20, and speculation about Strait of Hormuz reopening suggests potential downward pressure on oil. Summer blend and stable conditions favor filling up now before any upside risk.",
+      "why": "Hawaii gas is at its lowest point with no week-over-week change. WTI crude is flat at $71.20/barrel with no directional pressure. Summer blend pricing is stable with no imminent upward catalysts.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -587,11 +592,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -628,11 +628,16 @@
       "price": 3.28,
       "priceLow": 3.28,
       "weekDelta": 0.0,
-      "why": "Idaho prices are at a recent low with flat week-over-week movement. WTI crude is stable at $71.20/barrel with mixed geopolitical signals—Hormuz reopening could pressure prices lower, but Petrobras hikes may offer modest support. Summer blend demand remains steady.",
+      "why": "Idaho prices are at a recent low with flat crude and stable week-over-week trends. Summer blend is in effect with no major supply disruptions in sight. Current conditions present a good window to refuel.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -642,11 +647,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -683,11 +683,16 @@
       "price": 3.62,
       "priceLow": 3.62,
       "weekDelta": 0.0,
-      "why": "Illinois gas is at its lowest point with no week-over-week change. Crude oil is flat at $71.20, and geopolitical easing (Strait of Hormuz reopening speculation) may support downward pressure. Summer blend pricing is stable with no immediate upward catalysts.",
+      "why": "Illinois gas is at its lowest point with flat crude prices and no week-over-week movement. Summer blend is active with stable market conditions and no immediate supply disruptions expected.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -697,11 +702,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -738,11 +738,16 @@
       "price": 3.24,
       "priceLow": 3.24,
       "weekDelta": 0.0,
-      "why": "Indiana prices are at their lowest point with flat crude oil and no upward pressure. Summer blend production is stable, and geopolitical risks (Hormuz) are easing, suggesting prices have found a near-term floor.",
+      "why": "Indiana gas is at its local low of $3.24/gal with flat crude prices and stable week-over-week trends. Summer blend is in effect with no major supply disruptions reported.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -752,11 +757,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -793,11 +793,16 @@
       "price": 3.08,
       "priceLow": 3.08,
       "weekDelta": 0.0,
-      "why": "Iowa prices sit at a local low with flat crude markets and no upward pressure. Summer blend is in effect but global supply signals suggest stability or slight easing ahead. Current 3.080 is a fair entry point.",
+      "why": "Iowa gas is at a recent low with flat WTI crude and stable week-over-week pricing. Summer blend is in effect with no major supply disruptions signaled. Prices have settled at current levels with limited downside pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -807,11 +812,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -848,11 +848,16 @@
       "price": 3.02,
       "priceLow": 3.02,
       "weekDelta": 0.0,
-      "why": "Kansas prices are flat at a recent low with stable crude around $71/barrel. Mixed signals from global supply (Hormuz reopening speculation vs. Brazil price hikes) suggest near-term stability rather than imminent drops.",
+      "why": "Kansas prices are at a recent low of $3.02/gal with flat crude and no week-over-week change. Summer blend demand is steady with no supply disruptions in sight. Current pricing offers a stable, opportunistic fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -862,11 +867,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -903,11 +903,16 @@
       "price": 3.05,
       "priceLow": 3.05,
       "weekDelta": 0.0,
-      "why": "Kentucky prices are at a recent low with flat crude and stable week-over-week conditions. Mixed geopolitical signals (Hormuz reopening speculation vs. Petrobras hikes) suggest near-term equilibrium. Summer blend demand is steady with no immediate upward pressure.",
+      "why": "Kentucky prices are at a recent low of $3.05/gal with flat week-over-week movement. WTI crude is stable at $71.20/barrel with no directional pressure. Summer blend demand is steady with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -917,11 +922,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -958,11 +958,16 @@
       "price": 2.92,
       "priceLow": 2.92,
       "weekDelta": 0.0,
-      "why": "LA prices are at a recent low with flat crude and no upward pressure. Summer blend is standard seasonal pricing. Geopolitical speculation suggests potential supply relief ahead, but crude remains stable for now.",
+      "why": "Louisiana gas is at a recent low with flat week-over-week movement. WTI crude remains stable at $71.20, showing no imminent pressure. Summer blend supply is normal with no disruptions signaled.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -972,11 +977,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1013,11 +1013,16 @@
       "price": 3.38,
       "priceLow": 3.38,
       "weekDelta": 0.0,
-      "why": "Maine prices are at their lowest point with flat crude movement. WTI holding steady at $71.20 suggests stable near-term supply. Mixed international signals (Brazil subsidy hikes, potential Hormuz reopening) create uncertainty, but current pricing offers a solid fill-up window.",
+      "why": "Maine gas is at its local low of $3.38/gal with flat week-over-week change. WTI crude is stable at $71.20. No immediate pressure signals suggest prices will drop further in the near term.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1027,11 +1032,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1068,11 +1068,16 @@
       "price": 3.28,
       "priceLow": 3.28,
       "weekDelta": 0.0,
-      "why": "MD prices are at a recent low with flat crude and no week-over-week change. Summer blend and stable WTI suggest a balanced market with no immediate downward pressure. Current conditions favor filling up.",
+      "why": "Maryland gas is at a recent low with flat week-over-week movement. Crude oil is stable at $71.20/barrel with no directional pressure. Summer blend pricing is steady with no major supply disruptions affecting the region.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1082,11 +1087,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1123,11 +1123,16 @@
       "price": 4.584,
       "priceLow": 4.571,
       "weekDelta": 0.0,
-      "why": "Massachusetts prices are stable at 4.58/gal with flat crude and minimal week-over-week movement. International supply concerns are easing, and summer blend demand is moderate. No significant price drops expected in the near term.",
+      "why": "Massachusetts prices are essentially flat week-over-week at $4.58/gal with crude stable at $71.20. Summer blend premium is already factored in. National averages show downward pressure, suggesting limited upside near-term.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1137,11 +1142,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1178,11 +1178,16 @@
       "price": 3.32,
       "priceLow": 3.32,
       "weekDelta": 0.0,
-      "why": "Michigan gas is at a local low with flat week-over-week movement. Crude oil is stable at $71.20 with mixed global signals—Brazil subsidy news and Hormuz reopening speculation create near-term uncertainty, but no immediate pressure upward.",
+      "why": "Michigan gas is at its recent low with flat week-over-week movement. WTI crude is stable at $71.20, suggesting no immediate pressure for further drops. Summer blend pricing is steady with no major disruptions expected.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1192,11 +1197,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1233,11 +1233,16 @@
       "price": 4.361,
       "priceLow": 4.314,
       "weekDelta": 0.0,
-      "why": "Minnesota prices are flat week-over-week at $4.36/gal, just 1.4% above the nearby low. Crude remains stable at $71/bbl with mixed geopolitical signals. Summer blend and lack of supply disruptions suggest prices are unlikely to drop significantly in the near term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Minnesota gas is 0.5¢ above the local low with flat crude prices and no supply disruptions. Prices are stable with no strong directional pressure this week.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1247,11 +1252,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1284,15 +1284,20 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.85,
       "priceLow": 2.85,
       "weekDelta": 0.0,
-      "why": "MS prices are at their lowest point with flat crude and no week-over-week change. Summer blend demand is steady, but geopolitical easing (Strait of Hormuz reopening speculation) suggests downward crude pressure ahead.",
-      "advice": "Top off now, monitor Thursday",
-      "bestDayIdx": 0,
+      "why": "Mississippi prices are holding steady at $2.85/gal with no week-over-week movement. WTI crude is flat at $71.20, and you're already at the lowest nearby price. Summer blend demand is stable with no immediate supply disruptions signaling.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1302,11 +1307,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1339,15 +1339,20 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.98,
       "priceLow": 2.98,
       "weekDelta": 0.0,
-      "why": "Missouri prices are at a recent low with flat week-over-week movement. Crude is stable at $71.20, but geopolitical optimism around the Strait of Hormuz could pressure prices lower in the coming days.",
-      "advice": "Top off half tank today",
-      "bestDayIdx": 2,
+      "why": "Missouri prices are at a recent low of $2.98/gal with no week-over-week change. WTI crude is flat at $71.20, suggesting stable near-term conditions. Summer blend pricing is stable with no major supply disruptions reported.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1357,11 +1362,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1398,11 +1398,16 @@
       "price": 3.35,
       "priceLow": 3.35,
       "weekDelta": 0.0,
-      "why": "Montana prices are at their local low with flat crude and no upward pressure. Mixed global signals (Brazil subsidy hikes offset by Hormuz reopening speculation) suggest stability rather than immediate drops.",
+      "why": "Montana prices are at their local low with flat week-over-week movement. Crude oil is stable at $71.20, and summer blend supply is steady. No immediate downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1412,11 +1417,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1453,11 +1453,16 @@
       "price": 3.09,
       "priceLow": 3.09,
       "weekDelta": 0.0,
-      "why": "Nebraska prices are at a recent low with flat crude and no week-over-week change. International crude speculation suggests potential downward pressure, but current conditions remain stable with summer blend demand steady.",
+      "why": "Nebraska gas is at its recent low of $3.09/gal with flat WTI crude and no week-over-week change. Summer blend pricing is stable with no immediate upward pressure from crude or regional news.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1467,11 +1472,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1508,11 +1508,16 @@
       "price": 3.82,
       "priceLow": 3.82,
       "weekDelta": 0.0,
-      "why": "Nevada gas is at a local low of $3.82/gal with flat crude prices and no immediate supply disruptions. Mixed signals: potential Strait of Hormuz reopening could ease prices further, but summer blend demand supports current levels.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Nevada gas is at its local low with flat crude prices and no upward pressure. Summer blend demand is stable, and week-over-week pricing shows no momentum.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1522,11 +1527,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "price": 3.28,
       "priceLow": 3.28,
       "weekDelta": 0.0,
-      "why": "NH prices are at their recent low with flat crude momentum. WTI holding steady at $71.20 suggests stable near-term supply. Mixed global signals (Brazil hikes, Hormuz speculation) are unlikely to shift prices significantly this week.",
+      "why": "New Hampshire prices are at their recent low of $3.28/gal with flat week-over-week movement. WTI crude is stable at $71.20, showing no immediate pressure for significant price swings. Summer blend is active but no supply disruptions reported.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1577,11 +1582,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1618,11 +1618,16 @@
       "price": 3.28,
       "priceLow": 3.28,
       "weekDelta": 0.0,
-      "why": "NJ prices are at their lowest point with flat crude and no week-over-week change. Mixed global signals—Brazilian price hikes offset by potential Strait of Hormuz reopening speculation. Summer blend maintains current pricing.",
+      "why": "New Jersey prices are at their recent low of $3.28/gal with flat week-over-week movement. Crude oil is stable at $71.20, and national averages are dipping slightly. Current conditions offer a fair entry point without strong upward or downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1632,11 +1637,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1673,11 +1673,16 @@
       "price": 3.15,
       "priceLow": 3.15,
       "weekDelta": 0.0,
-      "why": "New Mexico prices are at a local low with flat week-over-week movement. Crude is stable at $71.20/barrel with mixed signals—geopolitical relief from potential Strait reopening could pressure prices down slightly, but summer blend and stable demand support current levels.",
+      "why": "New Mexico gas is at its recent low of $3.15/gal with flat week-over-week movement. WTI crude is stable at $71.20, showing no upward pressure. Summer blend demand is typical with no supply disruptions indicated.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1687,11 +1692,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1724,15 +1724,20 @@
       "city": "New York City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.619,
       "priceLow": 4.59,
       "weekDelta": 0.0,
-      "why": "NY prices are stable at 4.62/gal, just 0.3% above the week's low. WTI crude is flat around $71, and recent geopolitical optimism (Hormuz reopening speculation) suggests downward pressure ahead. Summer blend premium is already factored in.",
-      "advice": "Top off partially, wait 3–4 da",
-      "bestDayIdx": 4,
+      "why": "NY prices are essentially flat week-over-week at $4.62/gal, near their local low of $4.59/gal. WTI crude remains stable at $71.20/barrel with no directional momentum, suggesting prices will hold steady in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1742,11 +1747,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1779,15 +1779,20 @@
       "city": "Charlotte",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.05,
       "priceLow": 3.05,
       "weekDelta": 0.0,
-      "why": "NC prices are at a recent low with flat week-over-week movement. WTI crude is stable at $71.20. Recent news about potential Strait of Hormuz reopening suggests downward pressure, but the market is mixed.",
-      "advice": "Top off today, hold rest",
-      "bestDayIdx": 0,
+      "why": "NC prices are at their recent low with zero week-over-week change. WTI crude is flat at $71.20/bbl with no momentum. Summer blend is in effect. Current conditions offer no immediate savings ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1797,11 +1802,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1838,11 +1838,16 @@
       "price": 3.18,
       "priceLow": 3.18,
       "weekDelta": 0.0,
-      "why": "North Dakota prices are at recent lows with flat crude and no week-over-week change. Mixed global signals (Brazil subsidy hikes offset by Hormuz reopening speculation) suggest stability rather than imminent drops.",
+      "why": "North Dakota prices are at their recent low of $3.18/gal with flat week-over-week movement. Crude oil is stable at $71.20/barrel with no directional pressure. Summer blend is in effect with no holiday disruptions.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1852,11 +1857,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1889,15 +1889,20 @@
       "city": "Columbus",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.656,
       "priceLow": 4.656,
       "weekDelta": 0.0,
-      "why": "Ohio prices are flat week-over-week at $4.656/gal, matching the local low. WTI crude is stable at $71.20. Mixed signals from Brazil subsidies and potential Hormuz reopening suggest modest downward pressure ahead, but no imminent spike risk.",
-      "advice": "Top off now, monitor for dip",
+      "why": "Ohio gas is at its local low of $4.656/gal with no week-over-week movement. WTI crude is flat at $71.20, showing stable market conditions with no imminent price pressure.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1907,11 +1912,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -1948,11 +1948,16 @@
       "price": 2.88,
       "priceLow": 2.88,
       "weekDelta": 0.0,
-      "why": "Oklahoma prices are at their recent low of $2.88/gal with flat crude and no week-over-week change. News suggests modest downward pressure from Strait reopening speculation, but gains are likely limited given stable WTI.",
+      "why": "Oklahoma prices are at a recent low with flat week-over-week movement. WTI crude is stable at $71.20, and national trends show slight downward pressure. Summer blend is in effect with no major supply disruptions.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -1962,11 +1967,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2003,11 +2003,16 @@
       "price": 3.88,
       "priceLow": 3.88,
       "weekDelta": 0.0,
-      "why": "Oregon prices are at their recent low with flat week-over-week movement. WTI crude is stable at $71.20. Mixed geopolitical signals (Brazil subsidy hikes vs. potential Hormuz reopening) suggest no immediate downward pressure, making current pricing a reasonable fill-up window.",
+      "why": "Oregon prices are at a recent low with no week-over-week change. Crude oil is flat around $71/barrel, suggesting stable near-term conditions. Summer blend demand is typical for this season.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2017,11 +2022,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2058,11 +2058,16 @@
       "price": 3.52,
       "priceLow": 3.52,
       "weekDelta": 0.0,
-      "why": "PA gas is at its lowest point with no week-over-week change. WTI crude is flat at $71.20, and recent news suggests potential downward pressure from Strait of Hormuz reopening speculation. Summer blend adds slight cost, but current pricing is favorable.",
+      "why": "PA prices are at their recent low of $3.52/gal with flat crude and no directional pressure. Summer blend is active but supply is stable. No major upward catalyst visible in the near term.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2072,11 +2077,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2113,11 +2113,16 @@
       "price": 3.4,
       "priceLow": 3.4,
       "weekDelta": 0.0,
-      "why": "RI gas is at its local low with flat WTI crude and no week-over-week change. Summer demand is steady but international crude speculation suggests downward pressure ahead if Hormuz reopens.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Rhode Island prices are at their recent low of $3.40/gal with flat week-over-week movement. WTI crude is stable at $71.20/barrel with no directional pressure. Summer blend demand is typical for the season with no supply disruptions indicated.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2127,11 +2132,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2168,11 +2168,16 @@
       "price": 3.05,
       "priceLow": 3.05,
       "weekDelta": 0.0,
-      "why": "SC prices are at a recent low with flat WTI crude and no week-over-week change. Summer blend demand is stable. Mixed geopolitical signals suggest prices may hold steady or dip slightly in the next few days.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "SC prices are at a recent low of $3.05/gal with flat week-over-week movement. WTI crude is stable at $71.20/barrel with no directional pressure. Summer blend demand is steady, suggesting prices are unlikely to drop further near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2182,11 +2187,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2223,11 +2223,16 @@
       "price": 3.15,
       "priceLow": 3.15,
       "weekDelta": 0.0,
-      "why": "Prices are at their lowest point with flat crude and no week-over-week change. Recent news suggests potential downward pressure from Strait of Hormuz reopening speculation, but current stability offers a safe fill-up window.",
+      "why": "South Dakota prices are at their recent low with flat week-over-week movement and stable crude oil. Summer blend is in effect with no immediate upward pressure from supply or demand shifts.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2237,11 +2242,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2274,15 +2274,20 @@
       "city": "Nashville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.95,
       "priceLow": 2.95,
       "weekDelta": 0.0,
-      "why": "Tennessee prices are at a local low of $2.95/gal with flat crude. Geopolitical tensions around the Strait of Hormuz may ease, risking further price dips, but summer blend costs and current stability suggest a decent window.",
-      "advice": "Top off today · watch Thu",
-      "bestDayIdx": 4,
+      "why": "Tennessee gas is at its local low of $2.95/gal with flat crude prices and no week-over-week change. Summer blend is in effect with stable market conditions and no supply disruptions on the horizon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2292,11 +2297,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2329,15 +2329,20 @@
       "city": "Houston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.027,
       "priceLow": 3.992,
       "weekDelta": 0.0,
-      "why": "Texas prices are flat week-over-week and just 0.35¢ above the local low. WTI crude is stable at $71.20, and geopolitical relief from potential Strait of Hormuz reopening suggests downward pressure ahead.",
-      "advice": "Top off partially, wait for di",
-      "bestDayIdx": 4,
+      "why": "Texas gas is holding steady at $4.03, just 0.35¢ above the local low. WTI crude is flat with no momentum signals. Summer demand is supporting prices, but no major upward pressure is visible.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2347,11 +2352,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2384,15 +2384,20 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.35,
       "priceLow": 3.35,
       "weekDelta": 0.0,
-      "why": "Utah prices are at their local low with flat crude oil and no upward pressure. Summer blend costs are stable, and global supply concerns (Hormuz reopening speculation) suggest downside risk rather than immediate spikes.",
-      "advice": "Fill up today or wait 2 days",
-      "bestDayIdx": 1,
+      "why": "Utah prices are at their recent low with flat week-over-week movement. WTI crude is stable at $71.20, showing no immediate upward pressure. Summer blend is in effect with no holiday-driven demand spikes expected.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2402,11 +2407,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2439,15 +2439,20 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.38,
       "priceLow": 3.38,
       "weekDelta": 0.0,
-      "why": "Vermont prices are at a recent low with flat week-over-week movement. WTI crude is stable at $71.20, and geopolitical easing (Hormuz reopening speculation) suggests downward pressure ahead. Summer blend keeps prices moderately elevated.",
-      "advice": "Top off today, watch Thu",
-      "bestDayIdx": 4,
+      "why": "Vermont gas is at its recent low of $3.38/gal with flat crude prices and no momentum shifts. Summer blend is active but stable market conditions offer no reason to expect drops this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2457,11 +2462,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2498,11 +2498,16 @@
       "price": 3.15,
       "priceLow": 3.15,
       "weekDelta": 0.0,
-      "why": "Prices are at a recent low with flat crude momentum. Global supply-side concerns are easing, but no strong downward pressure yet. Summer demand remains steady.",
+      "why": "Virginia gas is at its local low of $3.15/gal with flat crude prices and no week-over-week change. Summer blend pricing is stable with no major supply disruptions on the horizon.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2512,11 +2517,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2553,11 +2553,16 @@
       "price": 5.672,
       "priceLow": 5.672,
       "weekDelta": 0.0,
-      "why": "Washington prices are flat at $5.67/gal with crude stable at $71.20/bbl. Summer blend remains in effect. Mixed signals from global markets—Petrobras hikes offset potential supply relief from Hormuz speculation. No strong directional pressure expected in the next few days.",
+      "why": "Washington prices are flat at $5.67/gal with no week-over-week change. WTI crude is stable at $71.20, and you're already at the local low. Summer blend premiums are in effect, but no major price movement is expected in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2567,11 +2572,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2608,11 +2608,16 @@
       "price": 3.18,
       "priceLow": 3.18,
       "weekDelta": 0.0,
-      "why": "West Virginia prices are at their lowest point with crude flat at $71/barrel. Summer blend and stable global supply outlook suggest no immediate pressure for increases. Market momentum is neutral to slightly positive for consumers.",
+      "why": "West Virginia gas is at its lowest point with no weekly change. Crude oil remains flat at $71.20/barrel, suggesting stable near-term pricing. Summer blend is active, but no major supply disruptions or demand spikes are evident.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2622,11 +2627,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2663,11 +2663,16 @@
       "price": 3.28,
       "priceLow": 3.28,
       "weekDelta": 0.0,
-      "why": "Wisconsin prices are at their recent low with flat crude and stable week-over-week trends. Summer blend demand remains steady, and no immediate supply disruptions are signaled. Current conditions favor filling up now rather than waiting.",
+      "why": "Wisconsin gas is at its local low of $3.28/gal with flat WTI crude and no week-over-week movement. Summer blend pricing is stable with no immediate upward pressure from crude markets.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2677,11 +2682,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2718,11 +2718,16 @@
       "price": 3.25,
       "priceLow": 3.25,
       "weekDelta": 0.0,
-      "why": "Wyoming prices are at their recent low of $3.25/gal with flat week-over-week movement. WTI crude is stable at $71.20/barrel. Geopolitical news about potential Strait of Hormuz reopening suggests downward pressure on crude, but current local supply is balanced.",
+      "why": "Wyoming prices are at their local low with crude flat. No week-over-week movement and summer blend already in effect. Short-term stability suggests this is a reasonable fill-up window before potential seasonal summer demand spikes.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2732,11 +2737,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2773,11 +2773,16 @@
       "price": 3.55,
       "priceLow": 3.55,
       "weekDelta": 0.0,
-      "why": "DC gas is at its lowest point with flat crude prices and no upward pressure. Summer blend demand remains steady, but geopolitical easing (Strait of Hormuz speculation) suggests downward pressure ahead. Current equilibrium offers a reasonable fill-up window.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "DC prices are at a recent low with zero week-over-week change. WTI crude is flat at $71.20, showing stable market conditions. National average is dipping, suggesting no immediate upward pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2787,11 +2792,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2828,11 +2828,16 @@
       "price": 1.38,
       "priceLow": 1.311,
       "weekDelta": 0.0,
-      "why": "Alberta prices are 5.3% above the lowest recent price. Crude is flat around $71/bbl with mixed signals—Hormuz reopening could ease supply, but Petrobras hikes suggest regional tightness. Flat week-over-week hints stability rather than momentum downward.",
-      "advice": "Top off half tank today",
+      "why": "Alberta prices are 5.3% above the recent low of 1.311 $/L. WTI crude is flat at $71.20, showing no immediate pressure for change. Week-over-week stability suggests prices may hold or drift slightly lower in the near term.",
+      "advice": "Top off half · wait for dip",
       "bestDayIdx": 4,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2842,11 +2847,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2883,11 +2883,16 @@
       "price": 1.72,
       "priceLow": 1.634,
       "weekDelta": 0.0,
-      "why": "BC prices are 5.3% above the recent low of $1.634/L. WTI crude is flat at $71.20, but news suggests potential downward pressure from Hormuz reopening speculation. Prices may ease in the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "BC prices are 5.3¢/L above the regional low, and crude is flat with no upward pressure expected. Summer blend is active but demand typically softens mid-week. A dip is likely within 2–3 days.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2897,11 +2902,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2938,11 +2938,16 @@
       "price": 1.48,
       "priceLow": 1.406,
       "weekDelta": 0.0,
-      "why": "Manitoba prices are 5.3% above the week's low at 1.480 $/L. WTI crude is flat and geopolitical supply concerns are easing with Strait of Hormuz reopening speculation. Prices have no upward momentum.",
-      "advice": "Top up at discount stations",
+      "why": "Manitoba prices are 5.3% above the regional low at $1.480/L. WTI crude is flat and summer blend is in effect. No immediate pressure suggests prices may drift lower over the next few days as crude remains stable.",
+      "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -2952,11 +2957,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -2989,15 +2989,20 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.55,
       "priceLow": 1.472,
       "weekDelta": 0.0,
-      "why": "NB prices are 5.3% above the regional low at $1.550/L. Crude is flat around $71, but geopolitical easing (Hormuz reopening speculation) and international refining shifts suggest downward pressure ahead. You're not at peak pain yet.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Current price sits 5.3% above the local low of 1.472 $/L. WTI crude is flat with no momentum, and week-over-week shows no change. Prices may drift lower if crude remains soft, but no sharp drop is imminent.",
+      "advice": "Half tank now, wait for dip",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3007,11 +3012,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3048,11 +3048,16 @@
       "price": 1.58,
       "priceLow": 1.501,
       "weekDelta": 0.0,
-      "why": "Prices are stable week-over-week with crude flat at $71/barrel. A 5.2% gap exists to the regional low, suggesting modest room to drop. Mixed signals: flat crude and geopolitical relief offset by Brazil price hikes.",
+      "why": "Newfoundland prices are 5.3% above the recent low of 1.501 $/L. WTI crude is flat and stable, with no strong directional pressure. Summer blend is active and week-over-week change is neutral, suggesting prices may consolidate near current levels.",
       "advice": "Top off partially today",
       "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3062,11 +3067,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3099,15 +3099,20 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.55,
       "priceLow": 1.472,
       "weekDelta": 0.0,
-      "why": "Nova Scotia prices are 5.3% above the nearby low at $1.550/L. WTI crude is flat and geopolitical risk (Hormuz reopening) may ease prices downward in the coming days. Summer demand is moderate with no holiday boost.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Nova Scotia prices are 5.3% above the regional low of $1.472/L. WTI crude is flat and stable, suggesting no imminent downward pressure. Week-over-week no movement indicates prices have stabilized at current levels.",
+      "advice": "Fill up at a cheaper station",
+      "bestDayIdx": 2,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3117,11 +3122,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3158,11 +3158,16 @@
       "price": 1.52,
       "priceLow": 1.444,
       "weekDelta": 0.0,
-      "why": "Ontario prices are 5.3% above the regional low at 1.520 $/L. Crude remains flat around $71/barrel with mixed signals—potential Strait of Hormuz reopening could pressure prices down in the near term, but Petrobras hikes add upward friction.",
-      "advice": "Top off partially, monitor",
-      "bestDayIdx": 4,
+      "why": "Ontario prices are 5.3% above the regional low at $1.520/L. WTI crude is flat and summer demand is steady. No immediate downward pressure visible, but prices aren't rising either.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3172,11 +3177,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3209,15 +3209,20 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.54,
       "priceLow": 1.463,
       "weekDelta": 0.0,
-      "why": "PE prices are 5.3% above the regional low despite flat crude and stable week-over-week trends. Mixed signals: crude is steady, but recent supply optimism (Hormuz reopening speculation) and international price adjustments suggest downward pressure may emerge mid-week.",
-      "advice": "Top off halfway today",
+      "why": "PEI prices are 5.3% above the regional low, with flat crude and stable week-over-week trends. No immediate pressure suggests prices may drift lower in the coming days as summer competition intensifies.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3227,11 +3232,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3264,15 +3264,20 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.58,
       "priceLow": 1.501,
       "weekDelta": 0.0,
-      "why": "Quebec prices are 5.3% above the regional low at 1.580 $/L. Crude is flat and geopolitical risk (Hormuz reopening) suggests downward pressure ahead. Summer blend and stable WTI don't support immediate price hikes.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Quebec prices are 5.2% above the regional low at $1.580/L. Crude is flat and stable. No strong downward pressure expected this week, but you're paying a premium versus available alternatives nearby.",
+      "advice": "Fill up at lower-priced statio",
+      "bestDayIdx": 3,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3282,11 +3287,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3319,15 +3319,20 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.41,
       "priceLow": 1.339,
       "weekDelta": 0.0,
-      "why": "Saskatchewan prices are 5.3% above the week's low at $1.410/L. WTI remains flat around $71, but crude speculation and potential Strait of Hormuz reopening suggest downward pressure ahead. Summer blend and stable conditions support waiting for a dip.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Saskatchewan prices are 5.3% above the local low of $1.339/L. WTI crude is flat and stable, with no major supply disruptions. Prices have held steady week-over-week, suggesting modest downward pressure may ease.",
+      "advice": "Top off halfway, wait 2–3 days",
+      "bestDayIdx": 4,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3337,11 +3342,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
@@ -3374,15 +3374,20 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.88,
       "priceLow": 1.786,
       "weekDelta": 0.0,
-      "why": "Prices are 5.2% above the recent low of $1.786/L, and crude remains flat at $71.20. Geopolitical news suggests potential supply relief (Strait of Hormuz reopening), which could push prices down slightly over the next few days.",
-      "advice": "Hold until Thursday",
+      "why": "Northern Canada prices are 5.3% above the recent low of $1.786/L. Crude is flat and week-over-week unchanged, suggesting no immediate pressure down. Summer blend is in effect with stable market conditions.",
+      "advice": "Top up partially, wait",
       "bestDayIdx": 4,
       "wtiDir": "flat",
       "news": [
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        },
         {
           "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
           "source": "Bloomberg",
@@ -3392,11 +3397,6 @@
           "headline": "Tokyo Reverses Crisis-Era Benchmark Shift as Dubai-Brent Spread Narrows",
           "source": "OilPrice",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Tokyo-Reverses-Crisis-Era-Benchmark-Shift-as-Dubai-Brent-Spread-Narrows.html"
-        },
-        {
-          "headline": "Crude Oil Prices Plummet on Speculation Strait of Hormuz Could Soon Reopen",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/2046048/crude-oil-prices-plummet-on-speculation-strait-of-hormuz-could-soon-reopen"
         }
       ],
       "breakdown": {
