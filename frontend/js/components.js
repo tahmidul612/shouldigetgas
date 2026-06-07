@@ -52,8 +52,13 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
 }
 
 // 2-week trend sparkline
+let _sparkId = 0;
 function Sparkline({ values, accent, motion, animKey }) {
   const W = 320, H = 60, pad = 4;
+  const gidRef = useRef(null);
+  if (!gidRef.current) gidRef.current = 'spark-' + (++_sparkId);
+  const gid = gidRef.current;
+  if (!values || values.length <= 1) return React.createElement('div', { className: 'sparkline-empty' });
   const min = Math.min(...values), max = Math.max(...values);
   const span = (max - min) || 1;
   const pts = values.map((v, i) => {
@@ -64,7 +69,6 @@ function Sparkline({ values, accent, motion, animKey }) {
   const line = pts.map((p) => p.join(',')).join(' ');
   const area = `M${pts[0][0]},${H} L` + line.replace(/ /g, ' L') + ` L${pts[pts.length-1][0]},${H} Z`;
   const last = pts[pts.length - 1];
-  const gid = 'spark-' + animKey;
   return (
     <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="spark" style={{ height: H }}>
       <defs>
