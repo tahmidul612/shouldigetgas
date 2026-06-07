@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Should I get gas today? AI-powered timing advice — not just where prices are, but when to fill up." />
   <meta name="theme-color" content="#0a0b0e" />
+  <!-- PWA: iOS Home Screen support -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Get Gas?" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180.png" />
+  <link rel="manifest" href="/manifest.json" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Should I Get Gas?" />
@@ -37,5 +43,11 @@
   <script type="text/babel" src="js/data.js"></script>
   <script type="text/babel" src="js/components.js"></script>
   <script type="text/babel" src="js/app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(console.error);
+    }
+  </script>
 </body>
 </html>
