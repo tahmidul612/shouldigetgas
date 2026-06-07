@@ -5,4 +5,5 @@
 set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO"
+. "$REPO/.venv/bin/activate"
 exec python backend/snapshot.py "$@"

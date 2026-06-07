@@ -333,6 +333,12 @@ def gather_all() -> dict:
     # Also pull DB crude history for trend calc
     crude_row = db.get_latest_crude("WTI")
 
+    if wti is None:
+        log.warning(
+            "WTI price fetch failed (both EIA v2 and v1 endpoints unavailable). "
+            "Using hardcoded fallback price $71.20 — crude context may be stale."
+        )
+
     return {
         "wti":         wti or {"price": 71.2, "dir": "flat", "change": 0.0},
         "refinery":    refinery,
