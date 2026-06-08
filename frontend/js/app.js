@@ -50,6 +50,7 @@ function App() {
   }, [menuOpen]);
 
   const region = regions.find((r) => r.id === regionId) || regions[0];
+  if (!region) return null;
   const theme = window.getTheme(region.verdict);
   const vinfo = window.VERDICTS[region.verdict];
   const animKey = regionId + '-' + region.verdict;
@@ -112,7 +113,7 @@ function App() {
   const iconBtns = (
     <>
       {!precise && (
-        <button className="icon-btn" onClick={useExact} title="Use my exact location"
+        <button className="icon-btn" onClick={useExact} aria-label="Use my exact location"
           style={{ background: theme.chipBg, borderColor: theme.chipBorder, color: theme.text }}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <circle cx="12" cy="12" r="3.2" /><circle cx="12" cy="12" r="8" opacity="0.5" />
@@ -121,7 +122,7 @@ function App() {
           </svg>
         </button>
       )}
-      <button className="icon-btn" onClick={refresh} title="Refresh prices"
+      <button className="icon-btn" onClick={refresh} aria-label="Refresh prices"
         style={{ background: theme.chipBg, borderColor: theme.chipBorder, color: theme.text }}>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
           className={refreshing ? 'spin' : ''}>
@@ -167,10 +168,12 @@ function App() {
         {/* Top bar */}
         <header className="topbar">
           <div className="topbar-left">
-            <a href="/" className="brand" style={{ color: theme.text }}>
-              <span className="brand-logo" style={{ borderColor: theme.accent, color: theme.accent }}>$</span>
-              Should&nbsp;I&nbsp;Get&nbsp;Gas?
-            </a>
+            <h1 className="brand" style={{ color: theme.text }}>
+              <a href="/" style={{ color: theme.text, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '9px' }}>
+                <span className="brand-logo" style={{ borderColor: theme.accent, color: theme.accent }}>$</span>
+                Should&nbsp;I&nbsp;Get&nbsp;Gas?
+              </a>
+            </h1>
             {chipBtn}
           </div>
           <div className="topbar-right">
