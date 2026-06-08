@@ -66,12 +66,13 @@ def fetch_eia_state_prices(state_ids: list[str]) -> dict[str, list[float]]:
         "length": "14",
         "offset": "0",
     }
-    # Add all state IDs as duoarea facets (EIA v2 uses "S<STATE>" codes)
-    for i, sid in enumerate(state_ids):
-        params[f"facets[duoarea][{i}]"] = f"S{sid}"
+    # EIA v2 requires repeated keys for array facets (not indexed notation)
+    param_list = list(params.items())
+    for sid in state_ids:
+        param_list.append(("facets[duoarea][]", f"S{sid}"))
 
     try:
-        resp = SESSION.get(EIA_GAS_ENDPOINT, params=params, timeout=30)
+        resp = SESSION.get(EIA_GAS_ENDPOINT, params=param_list, timeout=30)
         resp.raise_for_status()
         data = resp.json().get("response", {}).get("data", [])
     except Exception as e:
@@ -116,11 +117,12 @@ def fetch_eia_padd_prices(padd_codes: list[str]) -> dict[str, list[float]]:
         "sort[0][direction]": "desc",
         "length": "14",
     }
-    for i, code in enumerate(padd_codes):
-        params[f"facets[duoarea][{i}]"] = code
+    param_list = list(params.items())
+    for code in padd_codes:
+        param_list.append(("facets[duoarea][]", code))
 
     try:
-        resp = SESSION.get(EIA_GAS_ENDPOINT, params=params, timeout=30)
+        resp = SESSION.get(EIA_GAS_ENDPOINT, params=param_list, timeout=30)
         resp.raise_for_status()
         data = resp.json().get("response", {}).get("data", [])
     except Exception as e:
@@ -330,6 +332,37 @@ def interpolate_to_daily(weekly_prices: list[float]) -> list[float]:
 
 # ── Main collection loop ──────────────────────────────────────────────────────
 
+
+# ── Price sanity check ────────────────────────────────────────────────────────
+
+def _sanity_check_price(
+    region_id: str,
+    new_price: float,
+    baseline: float | None,
+    prev_price: float | None,
+) -> float:
+    """
+    Validate that new_price is within ±50% of the baseline.
+    If it fails the check, log a warning and return the previous stored price
+    (or the baseline itself) instead of the new value.
+    """
+    if baseline is None:
+        return new_price   # no baseline — nothing to check against
+
+    lo = baseline * 0.50
+    hi = baseline * 1.50
+    if lo <= new_price <= hi:
+        return new_price
+
+    fallback = prev_price if prev_price is not None else baseline
+    log.warning(
+        "Price sanity check FAILED for %s: fetched $%.3f is outside \u00b150%% of "
+        "baseline $%.3f (allowed range $%.3f\u2013$%.3f). Using fallback $%.3f.",
+        region_id, new_price, baseline, lo, hi, fallback,
+    )
+    return fallback
+
+
 def collect_us_prices(region_subset: list[str] | None = None):
     """Fetch and store US state prices from EIA."""
     targets = [r for r in US_REGIONS if region_subset is None or r[0] in region_subset]
@@ -357,6 +390,15 @@ def collect_us_prices(region_subset: list[str] | None = None):
 
         if not prices:
             continue
+
+        # Sanity-check all price readings so anomalous values in prices[1]/[2]
+        # cannot skew the median (or week_delta) computed from raw_prices[:3].
+        baseline   = BASELINE_PRICES.get(r_id)
+        snap       = db.get_snapshot(r_id)
+        prev_price = snap["price"] if snap and snap.get("price") else None
+        prices = [
+            _sanity_check_price(r_id, p, baseline, prev_price) for p in prices
+        ]
 
         # Store individual price as a "station"
         db.store_station_price(
