@@ -2,7 +2,6 @@ requests>=2.31.0
 redis>=5.0.0
 APScheduler>=3.10.0
 statsmodels>=0.14.0
-numpy>=1.24.0
 anthropic>=0.40.0
 vaderSentiment>=3.3.2
 python-dotenv>=1.0.0
