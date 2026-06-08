@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "Should I Get Gas?",
+  "short_name": "Get Gas?",
+  "description": "AI-powered gas price timing advice. Know when to fill up, not just where.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0b0e",
+  "background_color": "#0a0b0e",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/apple-icon-180.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
