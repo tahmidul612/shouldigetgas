@@ -335,7 +335,8 @@ def gather_all() -> dict:
 
     if wti is None:
         log.warning(
-            "WTI price fetch failed (both EIA v2 and v1 endpoints unavailable). "
+            "WTI price fetch returned None (possible causes: EIA_API_KEY not set, "
+            "both EIA v2 and v1 endpoints unavailable, or response parse error). "
             "Using hardcoded fallback price $71.20 — crude context may be stale."
         )
 

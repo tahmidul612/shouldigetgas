@@ -5,5 +5,9 @@
 set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO"
-. "$REPO/.venv/bin/activate"
-exec python backend/snapshot.py "$@"
+PYTHON="$REPO/.venv/bin/python"
+if [[ ! -x "$PYTHON" ]]; then
+    echo "ERROR: venv Python not found at $PYTHON — run 'python -m venv .venv && pip install -r backend/requirements.txt' first." >&2
+    exit 1
+fi
+exec "$PYTHON" backend/snapshot.py "$@"

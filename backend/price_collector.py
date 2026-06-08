@@ -391,12 +391,14 @@ def collect_us_prices(region_subset: list[str] | None = None):
         if not prices:
             continue
 
-        # Sanity-check the newest price against the baseline
-        raw_price  = prices[0]
+        # Sanity-check all price readings so anomalous values in prices[1]/[2]
+        # cannot skew the median (or week_delta) computed from raw_prices[:3].
         baseline   = BASELINE_PRICES.get(r_id)
         snap       = db.get_snapshot(r_id)
         prev_price = snap["price"] if snap and snap.get("price") else None
-        prices[0]  = _sanity_check_price(r_id, raw_price, baseline, prev_price)
+        prices = [
+            _sanity_check_price(r_id, p, baseline, prev_price) for p in prices
+        ]
 
         # Store individual price as a "station"
         db.store_station_price(
