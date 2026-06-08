@@ -21,6 +21,7 @@ export default function handler(req, res) {
   try {
     const raw = readFileSync(dataPath, 'utf-8');
     JSON.parse(raw); // validate
+    res.setHeader('Cache-Control', 'public, max-age=300, stale-while-revalidate=600');
     res.status(200).send(raw);
   } catch (_err) {
     res.status(500).json({ error: 'Failed to read data' });

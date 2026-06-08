@@ -131,6 +131,10 @@ const PLACEHOLDER_REGIONS = [
 // IP-based region detection — returns a region id string.
 async function detectRegionFromIP() {
   try {
+    const cached = sessionStorage.getItem('sig-region');
+    if (cached) return cached;
+  } catch (_) { /* storage unavailable — treat as cache miss */ }
+  try {
     const res = await fetch('https://ipapi.co/json/', { signal: AbortSignal.timeout(4000) });
     if (!res.ok) return null;
     const data = await res.json();
@@ -165,6 +169,7 @@ async function detectRegionFromIP() {
     if (!mapped) {
       console.warn('[shouldigetgas] IP detection: region not mapped —', stateCode, country, '— defaulting to CA');
     }
+    try { if (mapped) sessionStorage.setItem('sig-region', mapped); } catch (_) { /* best-effort cache write */ }
     return mapped;
   } catch (err) {
     console.warn('[shouldigetgas] IP detection failed:', err?.message ?? err);

@@ -10,7 +10,6 @@ import logging
 import statistics
 from datetime import datetime, timezone
 
-import numpy as np
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 
@@ -117,7 +116,7 @@ def predict_direction(
         forecast_dir  = "up" if proj_end > current_price * 1.005 else \
                          "down" if proj_end < current_price * 0.995 else "flat"
         # Day within the 5-day window that has the lowest projected price
-        min_idx       = int(np.argmin(forecast))
+        min_idx       = min(range(len(forecast)), key=lambda i: forecast[i])
         best_future   = min_idx + 1   # 1-indexed days from now
     else:
         forecast_dir  = "flat"
