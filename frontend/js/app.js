@@ -49,6 +49,17 @@ function App() {
     return () => document.removeEventListener('mousedown', handler);
   }, [menuOpen]);
 
+  // Keep the browser toolbar tint in sync with the active verdict. Safari tints
+  // its top toolbar from <meta name="theme-color">; a static dark value left a
+  // visible seam against the amber page. Use the verdict's solid tone color.
+  useE(() => {
+    const r = regions.find((x) => x.id === regionId) || regions[0];
+    const tone = r && window.PALETTES.classic.tone[r.verdict];
+    if (!tone) return;
+    const tag = document.querySelector('meta[name="theme-color"]');
+    if (tag) tag.setAttribute('content', tone);
+  }, [regionId, regions]);
+
   const region = regions.find((r) => r.id === regionId) || regions[0];
   if (!region) return null;
   const theme = window.getTheme(region.verdict);
