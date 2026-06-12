@@ -43,6 +43,15 @@ else
 fi
 cd "$REPO"
 
+# ── Safety: only ever operate on main ─────────────────────────────
+# The push step below targets a fixed branch; assert up front that we are on it
+# so an accidental invocation from a feature branch can't push the wrong ref.
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [[ "$CURRENT_BRANCH" != "main" ]]; then
+    echo "ERROR: refusing to run on branch '${CURRENT_BRANCH}' — this script only updates 'main'." >&2
+    exit 1
+fi
+
 # ── Load env (API keys + optional auth config) ────────────────────
 set -a
 source .env 2>/dev/null || true
@@ -90,7 +99,7 @@ else
 fi
 
 # ── Push ──────────────────────────────────────────────────────────
-git push "$PUSH_REMOTE" main
+git push "$PUSH_REMOTE" "$CURRENT_BRANCH"
 
 # Clean up temporary PAT remote
 if [[ "$PUSH_REMOTE" == "push-tmp" ]]; then
