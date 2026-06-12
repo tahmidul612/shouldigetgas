@@ -55,7 +55,10 @@ def _fetch_wti_v2() -> dict | None:
                 "api_key":               EIA_API_KEY,
                 "frequency":             "daily",
                 "data[0]":               "value",
-                "facets[series][]":      "RWTCD",
+                # WTI spot (Cushing, OK) — series RWTC, addressed via product EPCWTI.
+                # (The previous facets[series][]=RWTCD is not a valid series id and
+                # always returned empty, forcing the $71.20 hardcoded fallback.)
+                "facets[product][]":     "EPCWTI",
                 "sort[0][column]":       "period",
                 "sort[0][direction]":    "desc",
                 "length":                "5",

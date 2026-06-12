@@ -85,10 +85,48 @@ function App() {
       flash('Prices refreshed');
     });
   }
-  function openGasBuddy() {
-    flash('Opening GasBuddy…');
-    window.open('https://www.gasbuddy.com/', '_blank', 'noopener');
+  function openTab(url) { window.open(url, '_blank', 'noopener'); }
+  function gbRegionSearchUrl() {
+    return `https://www.gasbuddy.com/home?search=${encodeURIComponent(region.city + ', ' + region.abbr)}&fuel=1`;
   }
+  function gbCoordsSearchUrl(lat, lng) {
+    return `https://www.gasbuddy.com/home?search=${lat},${lng}&fuel=1`;
+  }
+  function openGasBuddy() {
+    const low = region.lowStation;
+    // Prompt for precise location so we can land the user on the most relevant
+    // result. When granted: deep-link to the known cheapest station if the
+    // backend found one, otherwise center GasBuddy on the user's exact coords.
+    // When denied/unavailable: deep-link if we have it, else a region search.
+    if (navigator.geolocation) {
+      flash('Finding the cheapest station near you…');
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          setPrecise(true);
+          if (low && low.url) {
+            flash(`Cheapest: ${low.name || 'station'}${low.price ? ` · $${low.price}/${region.unit}` : ''}`);
+            openTab(low.url);
+          } else {
+            openTab(gbCoordsSearchUrl(pos.coords.latitude, pos.coords.longitude));
+          }
+        },
+        () => {
+          if (low && low.url) { flash(`Cheapest: ${low.name || 'station'}`); openTab(low.url); }
+          else openTab(gbRegionSearchUrl());
+        },
+        { timeout: 6000, maximumAge: 600000 }
+      );
+      return;
+    }
+    if (low && low.url) { flash(`Cheapest: ${low.name || 'station'}`); openTab(low.url); }
+    else { flash('Opening GasBuddy…'); openTab(gbRegionSearchUrl()); }
+  }
+
+  // Dynamic GasBuddy button hint: surface the cheapest known station when we have it.
+  const gbLow = region.lowStation;
+  const gbHint = gbLow && gbLow.price
+    ? `Cheapest nearby: $${gbLow.price}/${region.unit}${gbLow.name ? ` · ${gbLow.name}` : ''}`
+    : 'Tap to find the cheapest stations near you';
 
   if (loading) return <window.LoadingScreen />;
 
@@ -203,6 +241,7 @@ function App() {
               unit={region.unit}
               theme={theme}
               animKey={animKey}
+              priceSource={region.priceSource}
             />
 
             <div className="verdict-word reveal-item word-reveal"
@@ -222,11 +261,11 @@ function App() {
             <div className="hero-actions reveal-item" style={{ animationDelay: '.4s' }}>
               <button className="gb-btn" onClick={openGasBuddy}
                 style={{ borderColor: theme.accent, color: theme.text }}>
-                <span>Find stations on GasBuddy</span>
+                <span>{gbLow ? 'Go to cheapest station' : 'Find stations on GasBuddy'}</span>
                 <span className="gb-btn-arrow" style={{ color: theme.accent }}>→</span>
               </button>
               <span className="gb-hint" style={{ color: theme.textSoft }}>
-                Station-level prices on GasBuddy
+                {gbHint}
               </span>
             </div>
           </section>
@@ -256,7 +295,7 @@ function App() {
 
             <button className="gb-btn" onClick={openGasBuddy}
               style={{ borderColor: theme.accent, color: theme.text }}>
-              <span>Find stations on GasBuddy</span>
+              <span>{gbLow ? 'Go to cheapest station' : 'Find stations on GasBuddy'}</span>
               <span className="gb-btn-arrow" style={{ color: theme.accent }}>→</span>
             </button>
             <div className="mobile-attribution" style={{ color: theme.textSoft }}>

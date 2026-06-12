@@ -17,6 +17,16 @@ data/*.db-shm
 *.log
 logs/
 
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
+.playwright/
+
+# Local tooling / scratch (not project source)
+.hermes/
+fix_env.py
+
 # OS
 .DS_Store
 Thumbs.db

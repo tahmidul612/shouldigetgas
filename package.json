@@ -2,5 +2,13 @@
   "type": "module",
   "engines": {
     "node": ">=18"
+  },
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --directory frontend",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
   }
 }

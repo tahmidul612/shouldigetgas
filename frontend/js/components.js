@@ -26,12 +26,14 @@ function WashBackground({ wash, motion }) {
 }
 
 // Glanceable gas price display — hero widget
-function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey }) {
+function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey, priceSource }) {
   const isUp = weekDelta >= 0;
   const priceUnit = unit || 'gal';
   const absChange = Math.abs(weekDelta * 100).toFixed(0);
   const displayPrice = precise && priceLow ? priceLow : price;
   const priceLabel = precise && priceLow ? `lowest nearby · ${city}` : `avg · ${state}`;
+  // Honest caveat when the price isn't a measured value for this exact region.
+  const estimated = priceSource === 'baseline' || priceSource === 'nrcan_est';
 
   return (
     <div className="price-display reveal-item" style={{ animationDelay: '.08s' }} key={animKey}>
@@ -46,6 +48,7 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
       <div className="price-label" style={{ color: theme.textSoft }}>
         {priceLabel}
         <span className="price-unit-inline">&thinsp;/{priceUnit}</span>
+        {estimated && <span className="price-est" style={{ color: theme.textSoft, opacity: 0.7 }}>&nbsp;· est.</span>}
       </div>
     </div>
   );

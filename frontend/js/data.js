@@ -55,6 +55,8 @@ const PLACEHOLDER_REGIONS = [
     ],
     breakdown: { crude: 58, refining: 18, taxes: 15, dist: 9 },
     trend: [4.41,4.40,4.43,4.45,4.44,4.48,4.50,4.52,4.51,4.55,4.57,4.58,4.60,4.62],
+    priceSource: 'gasbuddy',
+    lowStation: { id: '187', name: 'Costco', price: 4.31, lat: 37.77, lng: -122.42, url: 'https://www.gasbuddy.com/station/187' },
   },
   {
     id: 'tx', state: 'Texas', abbr: 'TX', city: 'Austin',
