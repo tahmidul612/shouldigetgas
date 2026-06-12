@@ -622,16 +622,15 @@ html, body {
 .hero-actions { display: none; }
 .gb-hint { display: none; }
 
-/* mobile-only attribution line inside support-cards */
+/* Legacy attribution line inside support-cards — superseded by .site-footer,
+   which renders at every breakpoint. Kept hidden so the footer isn't duplicated
+   on mobile (a previous rule re-showed it, causing a double footer). */
 .mobile-attribution {
   display: none;
   font-size: 11px;
   opacity: 0.42;
   text-align: center;
   padding-top: 2px;
-}
-@media (max-width: 899px) {
-  .mobile-attribution { display: block; }
 }
 
 @media (min-width: 900px) {
