@@ -55,7 +55,10 @@ function GasPriceDisplay({ price, priceLow, weekDelta, weekDeltaDir, precise, ci
 
 // 2-week trend sparkline
 let _sparkId = 0;
-function Sparkline({ values, accent, motion, animKey }) {
+function Sparkline({ values, accent, stroke, motion, animKey }) {
+  // Line color defaults to accent but callers pass a brighter stroke (theme.word)
+  // so the trend reads clearly against the same-hue wash; the area keeps accent.
+  const lineColor = stroke || accent;
   const W = 320, H = 60, pad = 4;
   const gidRef = useRef(null);
   if (!gidRef.current) gidRef.current = 'spark-' + (++_sparkId);
@@ -80,10 +83,10 @@ function Sparkline({ values, accent, motion, animKey }) {
         </linearGradient>
       </defs>
       <path d={area} fill={`url(#${gid})`} className={motion ? 'spark-area-in' : ''} />
-      <polyline points={line} fill="none" stroke={accent} strokeWidth="2.5"
+      <polyline points={line} fill="none" stroke={lineColor} strokeWidth="3"
         strokeLinejoin="round" strokeLinecap="round" vectorEffect="non-scaling-stroke"
         className={motion ? 'spark-draw' : ''} />
-      <circle cx={last[0]} cy={last[1]} r="3.4" fill={accent}
+      <circle cx={last[0]} cy={last[1]} r="3.4" fill={lineColor}
         className={motion ? 'spark-dot-in' : ''} />
     </svg>
   );

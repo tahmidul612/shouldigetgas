@@ -186,7 +186,7 @@ function App() {
       <div className="rail-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
         <div className="sup-head">
           <span className="sup-label" style={{ color: theme.textSoft }}>Best day to fill</span>
-          <span className="advice" style={{ color: theme.accent }}>{region.advice}</span>
+          <span className="advice" style={{ color: theme.accent }}>{window.bestDayLabel(region.bestDayIdx)}</span>
         </div>
         <window.DayStrip bestDayIdx={region.bestDayIdx} theme={theme} />
       </div>
@@ -196,7 +196,7 @@ function App() {
           <span className="sup-label" style={{ color: theme.textSoft }}>2-week trend</span>
           <span className="delta" style={{ color: theme.textSoft }}>{deltaStr} · ${window.formatPrice(region.price, region.unit)} avg</span>
         </div>
-        <window.Sparkline values={region.trend} accent={theme.accent} motion={motion} animKey={animKey} />
+        <window.Sparkline values={region.trend} accent={theme.accent} stroke={theme.word} motion={motion} animKey={animKey} />
         <div style={{ textAlign: 'right', marginTop: 6 }}><window.SrcLink src={S.price} theme={theme} /></div>
       </div>
 
@@ -286,7 +286,7 @@ function App() {
             <div className="support-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
               <div className="sup-head">
                 <span className="sup-label" style={{ color: theme.textSoft }}>Best day to fill</span>
-                <span className="advice" style={{ color: theme.accent }}>{region.advice}</span>
+                <span className="advice" style={{ color: theme.accent }}>{window.bestDayLabel(region.bestDayIdx)}</span>
               </div>
               <window.DayStrip bestDayIdx={region.bestDayIdx} theme={theme} />
             </div>
@@ -296,7 +296,7 @@ function App() {
                 <span className="sup-label" style={{ color: theme.textSoft }}>2-week trend</span>
                 <span className="delta" style={{ color: theme.textSoft }}>{deltaStr}</span>
               </div>
-              <window.Sparkline values={region.trend} accent={theme.accent} motion={motion} animKey={animKey} />
+              <window.Sparkline values={region.trend} accent={theme.accent} stroke={theme.word} motion={motion} animKey={animKey} />
             </div>
 
             <button className="ctx-link" onClick={() => setSheet('context')}

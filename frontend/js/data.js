@@ -33,6 +33,17 @@ function getTheme(verdict) {
 }
 
 const DAYS = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+// Short, day-specific label for the "Best day to fill" card. Replaces the generic
+// advice string that just restated the verdict word + tagline.
+function bestDayLabel(bestDayIdx) {
+  if (bestDayIdx == null) return '';
+  const offset = (bestDayIdx - TODAY_IDX + 7) % 7;
+  if (offset === 0) return 'Today';
+  if (offset === 1) return 'Tomorrow';
+  return DAY_NAMES[bestDayIdx];
+}
 
 const SOURCES = {
   price:     { label: 'EIA',     full: 'EIA · Weekly Retail Prices',           url: 'https://www.eia.gov/petroleum/gasdiesel/' },
@@ -234,5 +245,5 @@ function formatDelta(weekDelta, dir) {
 Object.assign(window, {
   VERDICTS, PALETTES, getTheme, TODAY_IDX, DAYS, SOURCES,
   PLACEHOLDER_REGIONS, detectRegionFromIP, loadData, formatRelativeTime,
-  formatPrice, formatDelta,
+  formatPrice, formatDelta, bestDayLabel,
 });
