@@ -139,10 +139,15 @@ def run_analytics_for_region(
     # Module D — breakdown
     breakdown = get_breakdown(region_id, price)
 
-    # 14-day trend: prefer the collector's real provider series; only rebuild from
-    # daily history when the stored trend is missing/too short.
+    # 14-day trend: prefer the collector's real provider series. When that series is
+    # present but short (a thin weekly EIA series the collector could only expand to
+    # <14 daily points), left-pad it so its real movement survives — rebuilding from
+    # DB history would discard the provider series for a synthetic/flat slope. Only
+    # rebuild when no collector trend exists at all.
     trend = snapshot.get("trend")
-    if not trend or len(trend) < 14:
+    if trend and len(trend) < 14:
+        trend = [round(trend[0], 3)] * (14 - len(trend)) + [round(p, 3) for p in trend]
+    elif not trend:
         trend = build_trend_array(region_id, price)
     if not trend:
         trend = [round(price, 3)] * 14
