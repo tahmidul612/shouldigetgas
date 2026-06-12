@@ -358,8 +358,14 @@ def compute_region_prices(
     price_source = source
     low_station  = None
     if gasbuddy and gasbuddy.get("price"):
-        price        = round(gasbuddy["price"], 3)
-        price_low    = round(gasbuddy["price"], 3)
+        # The GasBuddy headline is a single (sometimes anomalous) station reading,
+        # so clamp it against the baseline just like the EIA series readings —
+        # otherwise a bad station price flows straight through to the headline.
+        gb_price     = _sanity_check_price(
+            region_id, gasbuddy["price"], BASELINE_PRICES.get(region_id), series_price
+        )
+        price        = round(gb_price, 3)
+        price_low    = round(gb_price, 3)
         price_source = "gasbuddy"
         low_station  = gasbuddy
     elif has_series:
@@ -521,7 +527,8 @@ def collect_us_prices(region_subset: list[str] | None = None):
 
 
 def _fields_from_daily_series(daily: list[float], gasbuddy: dict | None,
-                              base_source: str) -> dict:
+                              base_source: str, region_id: str | None = None,
+                              baseline: float | None = None) -> dict:
     """
     Build price fields from a daily $/L series (oldest→newest), overlaying a
     GasBuddy realtime headline price when available.
@@ -532,8 +539,14 @@ def _fields_from_daily_series(daily: list[float], gasbuddy: dict | None,
     low_station  = None
 
     if gasbuddy and gasbuddy.get("price"):
-        price        = round(gasbuddy["price"], 3)
-        price_low    = round(gasbuddy["price"], 3)
+        # Clamp the (single-station) GasBuddy headline against the baseline so an
+        # anomalous reading can't flow straight through, mirroring the daily-series
+        # sanity check. Falls back to the latest series value when out of range.
+        gb_price     = _sanity_check_price(
+            region_id, gasbuddy["price"], baseline, round(daily[-1], 3)
+        )
+        price        = round(gb_price, 3)
+        price_low    = round(gb_price, 3)
         price_source = "gasbuddy"
         low_station  = gasbuddy
 
@@ -604,7 +617,7 @@ def collect_canada_prices(region_subset: list[str] | None = None):
         prev     = snap["price"] if snap and snap.get("price") else None
         daily[-1] = _sanity_check_price(r_id, daily[-1], baseline, prev)
 
-        agg = _fields_from_daily_series(daily, gb, base_source)
+        agg = _fields_from_daily_series(daily, gb, base_source, r_id, baseline)
 
         db.store_station_price(
             region_id=r_id, price=agg["price"], unit="L",
