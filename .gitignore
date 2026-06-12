@@ -13,6 +13,9 @@ data/shouldigetgas.db
 data/*.db-wal
 data/*.db-shm
 
+# GasBuddy CSRF token cache (py-gasbuddy)
+data/gasbuddy_token
+
 # Logs
 *.log
 logs/
