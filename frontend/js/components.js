@@ -226,7 +226,7 @@ function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, va
           style={{ borderColor: r.id === current ? tone(r) : 'transparent' }}>
           <span className="loc-dot" style={{ background: tone(r) }} />
           <span className="loc-name">{r.state}</span>
-          <span className="loc-price">${window.formatPrice(r.price, r.unit)}{r.unit === 'L' ? '/L' : ''}</span>
+          <span className="loc-price">${window.formatPrice(r.price, r.unit)}{r.unit === 'L' ? '/L' : '/gal'}</span>
           <span className="loc-verdict" style={{ color: tone(r) }}>{window.VERDICTS[r.verdict].label}</span>
         </button>
       ))}

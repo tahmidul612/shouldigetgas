@@ -59,7 +59,9 @@ html, body {
   position: relative; z-index: 2;
   /* svh = the *small* viewport (iOS toolbar visible), so the footer is
      guaranteed above Safari's bottom toolbar on first paint; 100vh would size
-     to the larger toolbar-collapsed viewport and hide the last line. */
+     to the larger toolbar-collapsed viewport and hide the last line. The vh
+     line is a fallback for browsers that don't understand svh. */
+  min-height: 100vh;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -460,6 +462,7 @@ html, body {
      svh (not dvh/vh) sizes to the toolbar-visible viewport, so the footer clears
      Safari's bottom toolbar on first paint instead of hiding underneath it. */
   .site-wrap {
+    min-height: 100vh;
     min-height: 100svh;
     overflow: visible;
     padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -543,7 +546,7 @@ html, body {
 /* ─── Desktop layout (≥900px) ─── */
 @media (min-width: 900px) {
   .app-root { overflow-x: hidden; }
-  .site-wrap { min-height: 100svh; }
+  .site-wrap { min-height: 100vh; min-height: 100svh; }
 
   .topbar {
     padding: 24px 40px 0;
@@ -594,6 +597,7 @@ html, body {
     display: flex !important;
     flex-direction: column;
     gap: 12px;
+    max-height: calc(100vh - 120px);
     max-height: calc(100svh - 120px);
     overflow-y: auto;
     padding-right: 2px;
