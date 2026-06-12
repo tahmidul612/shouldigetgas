@@ -26,10 +26,9 @@ function WashBackground({ wash, motion }) {
 }
 
 // Glanceable gas price display — hero widget
-function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey, priceSource }) {
-  const isUp = weekDelta >= 0;
+function GasPriceDisplay({ price, priceLow, weekDelta, weekDeltaDir, precise, city, abbr, state, unit, theme, animKey, priceSource }) {
   const priceUnit = unit || 'gal';
-  const absChange = Math.abs(weekDelta * 100).toFixed(0);
+  const delta = window.formatDelta(weekDelta, weekDeltaDir);
   const displayPrice = precise && priceLow ? priceLow : price;
   const priceLabel = precise && priceLow ? `lowest nearby · ${city}` : `avg · ${state}`;
   // Honest caveat when the price isn't a measured value for this exact region.
@@ -39,10 +38,10 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
     <div className="price-display reveal-item" style={{ animationDelay: '.08s' }} key={animKey}>
       <div className="price-row">
         <div className="price-number" style={{ color: theme.word }}>
-          ${displayPrice.toFixed(2)}
+          ${window.formatPrice(displayPrice, priceUnit)}
         </div>
         <span className="price-delta-badge" style={{ color: theme.accent }}>
-          {isUp ? '↑' : '↓'}&thinsp;{isUp ? '+' : '−'}{absChange}¢
+          {delta.flat ? 'flat' : <>{delta.arrow}&thinsp;{delta.sign}{delta.cents}¢</>}
         </span>
       </div>
       <div className="price-label" style={{ color: theme.textSoft }}>
@@ -218,7 +217,7 @@ function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, va
           style={{ borderColor: r.id === current ? tone(r) : 'transparent' }}>
           <span className="loc-dot" style={{ background: tone(r) }} />
           <span className="loc-name">{r.state}</span>
-          <span className="loc-price">${r.price.toFixed(2)}{r.unit === 'L' ? '/L' : ''}</span>
+          <span className="loc-price">${window.formatPrice(r.price, r.unit)}{r.unit === 'L' ? '/L' : ''}</span>
           <span className="loc-verdict" style={{ color: tone(r) }}>{window.VERDICTS[r.verdict].label}</span>
         </button>
       ))}
@@ -271,7 +270,7 @@ function ContextContent({ region, wti, theme }) {
         </div>
         <div className="ctx-stat" style={{ background: 'rgba(255,255,255,0.07)' }}>
           <div className="ctx-k">Regional avg</div>
-          <div className="ctx-v" style={{ color: theme.text }}>${region.price.toFixed(2)}</div>
+          <div className="ctx-v" style={{ color: theme.text }}>${window.formatPrice(region.price, region.unit)}</div>
           <SrcLink src={S.price} theme={theme} />
         </div>
       </div>
