@@ -91,19 +91,25 @@ function Sparkline({ values, accent, motion, animKey }) {
 
 // 7-day strip with today tick + best-day ring
 function DayStrip({ bestDayIdx, theme }) {
+  // Roll the week so today is the leftmost cell. bestDayIdx is a future day
+  // (the backend never picks a past one), so a fixed Sun→Sat strip would draw it
+  // to the left of "today" and read as already passed. A today-anchored window
+  // keeps the highlighted best day at or after today.
+  const today = window.TODAY_IDX;
   return (
     <div className="daystrip">
-      {window.DAYS.map((d, i) => {
-        const isBest = i === bestDayIdx;
-        const isToday = i === window.TODAY_IDX;
+      {window.DAYS.map((_, pos) => {
+        const abs = (today + pos) % 7;
+        const isBest = abs === bestDayIdx;
+        const isToday = pos === 0;
         return (
-          <div key={i} className="day-col">
+          <div key={pos} className="day-col">
             <div className="day-cell" style={{
               color: isBest ? theme.onAccent : theme.textSoft,
               background: isBest ? theme.accent : 'transparent',
               border: isBest ? `2px solid ${theme.accent}` : `1.5px solid ${theme.cardBorder}`,
               fontWeight: isBest ? 700 : 500,
-            }}>{d}</div>
+            }}>{window.DAYS[abs]}</div>
             <div className="day-tick" style={{ background: isToday ? theme.textSoft : 'transparent' }} />
           </div>
         );
