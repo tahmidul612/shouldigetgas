@@ -166,6 +166,12 @@ def region_low_station(region_id: str, search_term: str, is_canada: bool,
 
     stations = search(search_term=search_term, lat=lat, lng=lng)
     if not stations:
+        # Cache a negative sentinel ({}) so a Cloudflare-blocked or genuinely
+        # empty region short-circuits on the next run instead of re-hitting the
+        # network every cycle (datacenter IPs are blocked for every region —
+        # ~62 doomed round-trips/30 min without this). The `hit or None` read
+        # above treats the empty dict as "no data". Same TTL as the hit path.
+        cache.set(cache_key, {}, ttl=cache.TTL_GASBUDDY)
         return None
 
     def to_region_unit(raw: float) -> float:
