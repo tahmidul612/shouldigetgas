@@ -1,29 +1,12 @@
-"""Pure unit tests for price assembly + GasBuddy normalization — no network."""
+"""Pure unit tests for price sanity-checking + GasBuddy normalization — no network.
+
+NOTE: the `compute_region_prices(..., gasbuddy=, source=)` tests that used to
+live here exercise the realtime-headline signature introduced by the companion
+price-pipeline PR, not the signature on this branch. They moved with that code;
+this file keeps only what this branch actually implements.
+"""
 import price_collector as pc
 from providers import gasbuddy
-
-
-def test_compute_region_prices_from_series():
-    weekly = [3.00, 3.05, 3.10, 3.15, 3.20, 3.25, 3.30, 3.35, 3.40, 3.45]
-    agg = pc.compute_region_prices("tx", weekly, gasbuddy=None, source="eia_state")
-    assert agg["price_source"] == "eia_state"
-    assert agg["price"] == round(weekly[0], 3)   # newest weekly point
-    assert len(agg["trend"]) == 14
-    assert agg["week_delta"] != 0.0          # series moves week over week
-    assert agg["low_station"] is None
-
-
-def test_compute_region_prices_gasbuddy_is_primary():
-    weekly = [3.00, 3.10, 3.20]
-    gb = {"price": 2.79, "station_id": "9", "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/9"}
-    agg = pc.compute_region_prices("tx", weekly, gasbuddy=gb, source="eia_state")
-    assert agg["price_source"] == "gasbuddy"
-    assert agg["price"] == 2.79              # GasBuddy headline wins
-    assert agg["price_low"] == 2.79
-    assert agg["low_station"] is gb
-    # Trend still comes from the EIA series (real movement), not a flat GB point.
-    assert len(set(agg["trend"])) > 1
 
 
 def test_sanity_check_rejects_out_of_range():
