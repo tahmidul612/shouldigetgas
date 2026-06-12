@@ -7,4 +7,10 @@ vaderSentiment>=3.3.2
 python-dotenv>=1.0.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
-py-gasbuddy>=0.4.0
+# GasBuddy station-level prices via the maintained library (CSRF token, retry,
+# token caching, optional Cloudflare solver). Best-effort — the pipeline degrades
+# to EIA/NRCAN/baseline when GasBuddy is unreachable.
+py-gasbuddy>=0.7.0
+# Browser-TLS impersonation for Cloudflare-fronted scrapers reached via
+# providers/http_client.py (e.g. the NRCAN fallback). Optional at runtime.
+curl_cffi>=0.7.0

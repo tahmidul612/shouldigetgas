@@ -19,6 +19,16 @@ NEWS_API_KEY       = os.getenv("NEWS_API_KEY", "")
 ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY", "")
 REDIS_URL          = os.getenv("REDIS_URL", "redis://localhost:6379/0")
 
+# ── GasBuddy (py-gasbuddy library) ────────────────────────────────────────────
+# GasBuddy's GraphQL sits behind Cloudflare's interactive challenge. Optionally
+# route the CSRF-token fetch through a FlareSolverr-compatible solver endpoint
+# (py-gasbuddy `solver_url`); empty disables it and we rely on the host's own IP
+# reputation (works from residential hosts, blocked from hardened datacenter IPs).
+GASBUDDY_SOLVER_URL  = os.getenv("GASBUDDY_SOLVER_URL", "")
+# Where py-gasbuddy caches the gbcsrf token (kept beside the DB so all runtime
+# state lives in one directory).
+GASBUDDY_TOKEN_CACHE = Path(os.getenv("GASBUDDY_TOKEN_CACHE", DB_PATH.parent / "gasbuddy_token"))
+
 # ── Schedule intervals (minutes / hours) ─────────────────────────────────────
 PRICE_REFRESH_MINUTES    = int(os.getenv("PRICE_REFRESH_MINUTES", "30"))
 ANALYTICS_REFRESH_HOURS  = int(os.getenv("ANALYTICS_REFRESH_HOURS", "6"))
@@ -207,4 +217,75 @@ BASELINE_PRICES = {
     "ab": 1.38, "bc": 1.72, "mb": 1.48, "nb": 1.55, "nl": 1.58,
     "ns": 1.55, "on": 1.52, "pe": 1.54, "qc": 1.58, "sk": 1.41,
     "north": 1.88,
+}
+
+# ── Reference-city coordinates per region (lat, lng) ──────────────────────────
+# GasBuddy station lookups go through py-gasbuddy, which queries by coordinates
+# (not free-text), so each region maps to its reference city — the 4th field of
+# US_REGIONS / CA_REGIONS — for the nearest-stations query.
+REGION_COORDS = {
+    # US states / DC — reference city
+    "al": (33.5186,  -86.8104),   # Birmingham
+    "ak": (61.2181, -149.9003),   # Anchorage
+    "az": (33.4484, -112.0740),   # Phoenix
+    "ar": (34.7465,  -92.2896),   # Little Rock
+    "ca": (34.0522, -118.2437),   # Los Angeles
+    "co": (39.7392, -104.9903),   # Denver
+    "ct": (41.7658,  -72.6734),   # Hartford
+    "de": (39.7459,  -75.5466),   # Wilmington
+    "fl": (25.7617,  -80.1918),   # Miami
+    "ga": (33.7490,  -84.3880),   # Atlanta
+    "hi": (21.3069, -157.8583),   # Honolulu
+    "id": (43.6150, -116.2023),   # Boise
+    "il": (41.8781,  -87.6298),   # Chicago
+    "in": (39.7684,  -86.1581),   # Indianapolis
+    "ia": (41.5868,  -93.6250),   # Des Moines
+    "ks": (37.6872,  -97.3301),   # Wichita
+    "ky": (38.2527,  -85.7585),   # Louisville
+    "la": (29.9511,  -90.0715),   # New Orleans
+    "me": (43.6591,  -70.2568),   # Portland, ME
+    "md": (39.2904,  -76.6122),   # Baltimore
+    "ma": (42.3601,  -71.0589),   # Boston
+    "mi": (42.3314,  -83.0458),   # Detroit
+    "mn": (44.9778,  -93.2650),   # Minneapolis
+    "ms": (32.2988,  -90.1848),   # Jackson
+    "mo": (39.0997,  -94.5786),   # Kansas City
+    "mt": (45.7833, -108.5007),   # Billings
+    "ne": (41.2565,  -95.9345),   # Omaha
+    "nv": (36.1699, -115.1398),   # Las Vegas
+    "nh": (42.9956,  -71.4548),   # Manchester
+    "nj": (40.7357,  -74.1724),   # Newark
+    "nm": (35.0844, -106.6504),   # Albuquerque
+    "ny": (40.7128,  -74.0060),   # New York City
+    "nc": (35.2271,  -80.8431),   # Charlotte
+    "nd": (46.8772,  -96.7898),   # Fargo
+    "oh": (39.9612,  -82.9988),   # Columbus
+    "ok": (35.4676,  -97.5164),   # Oklahoma City
+    "or": (45.5152, -122.6784),   # Portland, OR
+    "pa": (39.9526,  -75.1652),   # Philadelphia
+    "ri": (41.8240,  -71.4128),   # Providence
+    "sc": (34.0007,  -81.0348),   # Columbia
+    "sd": (43.5460,  -96.7313),   # Sioux Falls
+    "tn": (36.1627,  -86.7816),   # Nashville
+    "tx": (29.7604,  -95.3698),   # Houston
+    "ut": (40.7608, -111.8910),   # Salt Lake City
+    "vt": (44.4759,  -73.2121),   # Burlington
+    "va": (37.5407,  -77.4360),   # Richmond
+    "wa": (47.6062, -122.3321),   # Seattle
+    "wv": (38.3498,  -81.6326),   # Charleston
+    "wi": (43.0389,  -87.9065),   # Milwaukee
+    "wy": (41.1400, -104.8202),   # Cheyenne
+    "dc": (38.9072,  -77.0369),   # Washington
+    # Canadian provinces / territories — reference city
+    "ab":    (51.0447, -114.0719),   # Calgary
+    "bc":    (49.2827, -123.1207),   # Vancouver
+    "mb":    (49.8951,  -97.1384),   # Winnipeg
+    "nb":    (46.0878,  -64.7782),   # Moncton
+    "nl":    (47.5615,  -52.7126),   # St. John's
+    "ns":    (44.6488,  -63.5752),   # Halifax
+    "on":    (43.6532,  -79.3832),   # Toronto
+    "pe":    (46.2382,  -63.1311),   # Charlottetown
+    "qc":    (45.5017,  -73.5673),   # Montreal
+    "sk":    (50.4452, -104.6189),   # Regina
+    "north": (60.7212, -135.0568),   # Whitehorse
 }
