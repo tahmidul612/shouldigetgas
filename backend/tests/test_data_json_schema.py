@@ -46,6 +46,22 @@ def test_at_least_one_region_has_real_movement(payload):
     assert moving, "every region has a flat trend — price data is stale"
 
 
+def test_week_delta_dir_when_present(payload):
+    """weekDeltaDir is optional, but when present must be valid and consistent:
+    'flat' iff weekDelta is exactly 0.0, otherwise it matches the sign."""
+    for r in payload["regions"]:
+        if "weekDeltaDir" not in r:
+            continue
+        d = r["weekDeltaDir"]
+        assert d in {"up", "down", "flat"}, f"{r['id']} bad weekDeltaDir: {d}"
+        if d == "flat":
+            assert r["weekDelta"] == 0.0, f"{r['id']} flat but weekDelta != 0"
+        elif d == "up":
+            assert r["weekDelta"] > 0, f"{r['id']} up but weekDelta <= 0"
+        else:
+            assert r["weekDelta"] < 0, f"{r['id']} down but weekDelta >= 0"
+
+
 def test_low_station_shape_when_present(payload):
     for r in payload["regions"]:
         low = r.get("lowStation")

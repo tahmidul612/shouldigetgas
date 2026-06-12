@@ -134,6 +134,10 @@ Each region now also includes:
 - `country`: `"US"` | `"CA"`
 - `unit`: `"gal"` | `"L"` (drives `/gal` vs `/L` display in the frontend)
 - `advice`: short action phrase ≤30 chars (e.g., `"Fill up today"`, `"Hold until Thu"`)
+- `weekDeltaDir`: `"up"` | `"down"` | `"flat"` — direction of `weekDelta`. Deltas under
+  ½¢/unit are snapped to `0.0` and flagged `"flat"` in `snapshot.py` so the frontend
+  never renders a directional zero (e.g. `↓ −0¢`). Optional; the frontend derives it
+  via a 0.5¢ threshold when absent.
 
 ---
 

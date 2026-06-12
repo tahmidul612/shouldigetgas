@@ -30,6 +30,18 @@ log = logging.getLogger(__name__)
 
 NOW = lambda: datetime.now(timezone.utc)
 
+# Week-over-week deltas smaller than half a cent per unit are noise, not a real
+# move. Snap them to exactly 0.0 and flag the direction as "flat" so the frontend
+# never renders an ambiguous directional zero (e.g. "↓ −0¢").
+FLAT_DELTA_THRESHOLD = 0.005
+
+
+def normalize_week_delta(week_delta: float) -> tuple[float, str]:
+    """Return (snapped_delta, direction) where direction ∈ {up, down, flat}."""
+    if week_delta is None or abs(week_delta) < FLAT_DELTA_THRESHOLD:
+        return 0.0, "flat"
+    return week_delta, ("up" if week_delta > 0 else "down")
+
 
 def _run_batch_llm(snap_by_id: dict, context: dict) -> dict:
     """Pre-compute LLM verdicts for all regions via the Batch API."""
@@ -180,6 +192,8 @@ def build_region_json(snapshot: dict, context: dict) -> dict:
 
     analytics = run_analytics_for_region(r_id, snapshot, context)
 
+    week_delta, week_delta_dir = normalize_week_delta(analytics["week_delta"])
+
     region = {
         "id":         r_id,
         "state":      snapshot.get("state", ""),
@@ -190,7 +204,8 @@ def build_region_json(snapshot: dict, context: dict) -> dict:
         "verdict":    analytics["verdict"],
         "price":      round(price, 3),
         "priceLow":   analytics["price_low"],
-        "weekDelta":  analytics["week_delta"],
+        "weekDelta":  week_delta,
+        "weekDeltaDir": week_delta_dir,
         "why":        analytics["why"],
         "advice":     analytics["advice"],
         "bestDayIdx": analytics["best_day_idx"],

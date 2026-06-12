@@ -26,10 +26,9 @@ function WashBackground({ wash, motion }) {
 }
 
 // Glanceable gas price display — hero widget
-function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, state, unit, theme, animKey, priceSource }) {
-  const isUp = weekDelta >= 0;
+function GasPriceDisplay({ price, priceLow, weekDelta, weekDeltaDir, precise, city, abbr, state, unit, theme, animKey, priceSource }) {
   const priceUnit = unit || 'gal';
-  const absChange = Math.abs(weekDelta * 100).toFixed(0);
+  const delta = window.formatDelta(weekDelta, weekDeltaDir);
   const displayPrice = precise && priceLow ? priceLow : price;
   const priceLabel = precise && priceLow ? `lowest nearby · ${city}` : `avg · ${state}`;
   // Honest caveat when the price isn't a measured value for this exact region.
@@ -39,10 +38,10 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
     <div className="price-display reveal-item" style={{ animationDelay: '.08s' }} key={animKey}>
       <div className="price-row">
         <div className="price-number" style={{ color: theme.word }}>
-          ${displayPrice.toFixed(2)}
+          ${window.formatPrice(displayPrice, priceUnit)}
         </div>
         <span className="price-delta-badge" style={{ color: theme.accent }}>
-          {isUp ? '↑' : '↓'}&thinsp;{isUp ? '+' : '−'}{absChange}¢
+          {delta.flat ? 'flat' : <>{delta.arrow}&thinsp;{delta.sign}{delta.cents}¢</>}
         </span>
       </div>
       <div className="price-label" style={{ color: theme.textSoft }}>
@@ -56,7 +55,10 @@ function GasPriceDisplay({ price, priceLow, weekDelta, precise, city, abbr, stat
 
 // 2-week trend sparkline
 let _sparkId = 0;
-function Sparkline({ values, accent, motion, animKey }) {
+function Sparkline({ values, accent, stroke, motion, animKey }) {
+  // Line color defaults to accent but callers pass a brighter stroke (theme.word)
+  // so the trend reads clearly against the same-hue wash; the area keeps accent.
+  const lineColor = stroke || accent;
   const W = 320, H = 60, pad = 4;
   const gidRef = useRef(null);
   if (!gidRef.current) gidRef.current = 'spark-' + (++_sparkId);
@@ -81,10 +83,10 @@ function Sparkline({ values, accent, motion, animKey }) {
         </linearGradient>
       </defs>
       <path d={area} fill={`url(#${gid})`} className={motion ? 'spark-area-in' : ''} />
-      <polyline points={line} fill="none" stroke={accent} strokeWidth="2.5"
+      <polyline points={line} fill="none" stroke={lineColor} strokeWidth="3"
         strokeLinejoin="round" strokeLinecap="round" vectorEffect="non-scaling-stroke"
         className={motion ? 'spark-draw' : ''} />
-      <circle cx={last[0]} cy={last[1]} r="3.4" fill={accent}
+      <circle cx={last[0]} cy={last[1]} r="3.4" fill={lineColor}
         className={motion ? 'spark-dot-in' : ''} />
     </svg>
   );
@@ -92,19 +94,25 @@ function Sparkline({ values, accent, motion, animKey }) {
 
 // 7-day strip with today tick + best-day ring
 function DayStrip({ bestDayIdx, theme }) {
+  // Roll the week so today is the leftmost cell. bestDayIdx is a future day
+  // (the backend never picks a past one), so a fixed Sun→Sat strip would draw it
+  // to the left of "today" and read as already passed. A today-anchored window
+  // keeps the highlighted best day at or after today.
+  const today = window.TODAY_IDX;
   return (
     <div className="daystrip">
-      {window.DAYS.map((d, i) => {
-        const isBest = i === bestDayIdx;
-        const isToday = i === window.TODAY_IDX;
+      {window.DAYS.map((_, pos) => {
+        const abs = (today + pos) % 7;
+        const isBest = abs === bestDayIdx;
+        const isToday = pos === 0;
         return (
-          <div key={i} className="day-col">
+          <div key={pos} className="day-col">
             <div className="day-cell" style={{
               color: isBest ? theme.onAccent : theme.textSoft,
               background: isBest ? theme.accent : 'transparent',
               border: isBest ? `2px solid ${theme.accent}` : `1.5px solid ${theme.cardBorder}`,
               fontWeight: isBest ? 700 : 500,
-            }}>{d}</div>
+            }}>{window.DAYS[abs]}</div>
             <div className="day-tick" style={{ background: isToday ? theme.textSoft : 'transparent' }} />
           </div>
         );
@@ -218,7 +226,7 @@ function LocationSheet({ open, onClose, onSelect, current, theme, paletteKey, va
           style={{ borderColor: r.id === current ? tone(r) : 'transparent' }}>
           <span className="loc-dot" style={{ background: tone(r) }} />
           <span className="loc-name">{r.state}</span>
-          <span className="loc-price">${r.price.toFixed(2)}{r.unit === 'L' ? '/L' : ''}</span>
+          <span className="loc-price">${window.formatPrice(r.price, r.unit)}{r.unit === 'L' ? '/L' : '/gal'}</span>
           <span className="loc-verdict" style={{ color: tone(r) }}>{window.VERDICTS[r.verdict].label}</span>
         </button>
       ))}
@@ -271,7 +279,7 @@ function ContextContent({ region, wti, theme }) {
         </div>
         <div className="ctx-stat" style={{ background: 'rgba(255,255,255,0.07)' }}>
           <div className="ctx-k">Regional avg</div>
-          <div className="ctx-v" style={{ color: theme.text }}>${region.price.toFixed(2)}</div>
+          <div className="ctx-v" style={{ color: theme.text }}>${window.formatPrice(region.price, region.unit)}</div>
           <SrcLink src={S.price} theme={theme} />
         </div>
       </div>

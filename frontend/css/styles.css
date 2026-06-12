@@ -57,7 +57,12 @@ html, body {
 /* ─── Layout shell ─── */
 .site-wrap {
   position: relative; z-index: 2;
+  /* svh = the *small* viewport (iOS toolbar visible), so the footer is
+     guaranteed above Safari's bottom toolbar on first paint; 100vh would size
+     to the larger toolbar-collapsed viewport and hide the last line. The vh
+     line is a fallback for browsers that don't understand svh. */
   min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   padding: env(safe-area-inset-top, 0px) 0 0;
@@ -453,9 +458,12 @@ html, body {
 /* ─── Mobile layout (max 899px): natural vertical scroll SPA ─── */
 @media (max-width: 899px) {
   /* The page is a normal scrolling document; the viewport is NOT pinned to one
-     screen, so the footer (EIA source / raw-data link) is always reachable. */
+     screen, so the footer (EIA source / raw-data link) is always reachable.
+     svh (not dvh/vh) sizes to the toolbar-visible viewport, so the footer clears
+     Safari's bottom toolbar on first paint instead of hiding underneath it. */
   .site-wrap {
-    min-height: 100dvh;
+    min-height: 100vh;
+    min-height: 100svh;
     overflow: visible;
     padding-bottom: env(safe-area-inset-bottom, 0px);
   }
@@ -517,7 +525,9 @@ html, body {
 
   .site-footer {
     display: block;
-    padding: 14px 20px calc(18px + env(safe-area-inset-bottom, 0px));
+    /* Extra bottom breathing room: in a browser tab env(safe-area-inset-bottom)
+       is 0, so the toolbar can still clip the last line — pad beyond it. */
+    padding: 14px 20px calc(28px + env(safe-area-inset-bottom, 0px));
     text-align: center;
     font-size: 12px;
   }
@@ -536,7 +546,7 @@ html, body {
 /* ─── Desktop layout (≥900px) ─── */
 @media (min-width: 900px) {
   .app-root { overflow-x: hidden; }
-  .site-wrap { min-height: 100vh; }
+  .site-wrap { min-height: 100vh; min-height: 100svh; }
 
   .topbar {
     padding: 24px 40px 0;
@@ -588,6 +598,7 @@ html, body {
     flex-direction: column;
     gap: 12px;
     max-height: calc(100vh - 120px);
+    max-height: calc(100svh - 120px);
     overflow-y: auto;
     padding-right: 2px;
   }

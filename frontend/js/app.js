@@ -49,14 +49,24 @@ function App() {
     return () => document.removeEventListener('mousedown', handler);
   }, [menuOpen]);
 
+  // Keep the browser toolbar tint in sync with the active verdict. Safari tints
+  // its top toolbar from <meta name="theme-color">; a static dark value left a
+  // visible seam against the amber page. Use the verdict's solid tone color.
+  useE(() => {
+    const r = regions.find((x) => x.id === regionId) || regions[0];
+    const tone = r && window.PALETTES.classic.tone[r.verdict];
+    if (!tone) return;
+    const tag = document.querySelector('meta[name="theme-color"]');
+    if (tag) tag.setAttribute('content', tone);
+  }, [regionId, regions]);
+
   const region = regions.find((r) => r.id === regionId) || regions[0];
   if (!region) return null;
   const theme = window.getTheme(region.verdict);
   const vinfo = window.VERDICTS[region.verdict];
   const animKey = regionId + '-' + region.verdict;
 
-  const deltaUp = region.weekDelta >= 0;
-  const deltaStr = `${deltaUp ? '+' : '−'}${Math.abs(region.weekDelta * 100).toFixed(0)}¢ this week`;
+  const deltaStr = window.formatDelta(region.weekDelta, region.weekDeltaDir).label;
   const chipLabel = locating ? 'Locating…' : (precise ? `${region.city}, ${region.abbr}` : region.state);
   const updatedStr = window.formatRelativeTime(meta.pricesUpdatedAt) || '—';
 
@@ -176,7 +186,7 @@ function App() {
       <div className="rail-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
         <div className="sup-head">
           <span className="sup-label" style={{ color: theme.textSoft }}>Best day to fill</span>
-          <span className="advice" style={{ color: theme.accent }}>{region.advice}</span>
+          <span className="advice" style={{ color: theme.accent }}>{window.bestDayLabel(region.bestDayIdx)}</span>
         </div>
         <window.DayStrip bestDayIdx={region.bestDayIdx} theme={theme} />
       </div>
@@ -184,9 +194,9 @@ function App() {
       <div className="rail-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
         <div className="sup-head">
           <span className="sup-label" style={{ color: theme.textSoft }}>2-week trend</span>
-          <span className="delta" style={{ color: theme.textSoft }}>{deltaStr} · ${region.price.toFixed(2)} avg</span>
+          <span className="delta" style={{ color: theme.textSoft }}>{deltaStr} · ${window.formatPrice(region.price, region.unit)} avg</span>
         </div>
-        <window.Sparkline values={region.trend} accent={theme.accent} motion={motion} animKey={animKey} />
+        <window.Sparkline values={region.trend} accent={theme.accent} stroke={theme.word} motion={motion} animKey={animKey} />
         <div style={{ textAlign: 'right', marginTop: 6 }}><window.SrcLink src={S.price} theme={theme} /></div>
       </div>
 
@@ -234,6 +244,7 @@ function App() {
               price={region.price}
               priceLow={region.priceLow}
               weekDelta={region.weekDelta}
+              weekDeltaDir={region.weekDeltaDir}
               precise={precise}
               city={region.city}
               abbr={region.abbr}
@@ -275,7 +286,7 @@ function App() {
             <div className="support-card" style={{ background: theme.cardBg, borderColor: theme.cardBorder }}>
               <div className="sup-head">
                 <span className="sup-label" style={{ color: theme.textSoft }}>Best day to fill</span>
-                <span className="advice" style={{ color: theme.accent }}>{region.advice}</span>
+                <span className="advice" style={{ color: theme.accent }}>{window.bestDayLabel(region.bestDayIdx)}</span>
               </div>
               <window.DayStrip bestDayIdx={region.bestDayIdx} theme={theme} />
             </div>
@@ -285,7 +296,7 @@ function App() {
                 <span className="sup-label" style={{ color: theme.textSoft }}>2-week trend</span>
                 <span className="delta" style={{ color: theme.textSoft }}>{deltaStr}</span>
               </div>
-              <window.Sparkline values={region.trend} accent={theme.accent} motion={motion} animKey={animKey} />
+              <window.Sparkline values={region.trend} accent={theme.accent} stroke={theme.word} motion={motion} animKey={animKey} />
             </div>
 
             <button className="ctx-link" onClick={() => setSheet('context')}

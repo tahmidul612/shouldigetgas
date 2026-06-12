@@ -33,6 +33,17 @@ function getTheme(verdict) {
 }
 
 const DAYS = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+// Short, day-specific label for the "Best day to fill" card. Replaces the generic
+// advice string that just restated the verdict word + tagline.
+function bestDayLabel(bestDayIdx) {
+  if (bestDayIdx == null) return '';
+  const offset = (bestDayIdx - TODAY_IDX + 7) % 7;
+  if (offset === 0) return 'Today';
+  if (offset === 1) return 'Tomorrow';
+  return DAY_NAMES[bestDayIdx];
+}
 
 const SOURCES = {
   price:     { label: 'EIA',     full: 'EIA · Weekly Retail Prices',           url: 'https://www.eia.gov/petroleum/gasdiesel/' },
@@ -207,7 +218,32 @@ function formatRelativeTime(isoString) {
   return `${Math.floor(hrs / 24)}d ago`;
 }
 
+// Price precision is unit-aware: US gallons use 2 decimals ($3.45), Canadian
+// litres use 3 (tenths of a cent matter and the backend `why` copy quotes them
+// at 3 decimals, e.g. $1.683/L). Keep the headline consistent with that copy.
+function formatPrice(value, unit) {
+  return Number(value).toFixed(unit === 'L' ? 3 : 2);
+}
+
+// Week-over-week delta for display. A move under half a cent is "flat" — no
+// arrow, no sign — so we never render a directional zero like "↓ −0¢". Honours
+// the backend's explicit weekDeltaDir when present, else derives from the value.
+function formatDelta(weekDelta, dir) {
+  const cents = Math.abs(weekDelta * 100);
+  const flat = dir === 'flat' || cents < 0.5;
+  const up = flat ? false : (dir ? dir === 'up' : weekDelta >= 0);
+  return {
+    flat,
+    up,
+    arrow: flat ? '' : (up ? '↑' : '↓'),
+    sign: flat ? '' : (up ? '+' : '−'),
+    cents: cents.toFixed(0),
+    label: flat ? 'flat this week' : `${up ? '+' : '−'}${cents.toFixed(0)}¢ this week`,
+  };
+}
+
 Object.assign(window, {
   VERDICTS, PALETTES, getTheme, TODAY_IDX, DAYS, SOURCES,
   PLACEHOLDER_REGIONS, detectRegionFromIP, loadData, formatRelativeTime,
+  formatPrice, formatDelta, bestDayLabel,
 });
