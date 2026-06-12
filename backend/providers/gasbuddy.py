@@ -124,10 +124,21 @@ def search(search_term: str | None = None, lat: float | None = None,
     except Exception as e:                          # CloudflareBlocked, APIError, …
         log.debug("GasBuddy search failed (%s, %s): %s", lat, lng, e)
         return None
+    # py-gasbuddy 0.7 returns {"results": [station, ...]}. Be defensive about the
+    # exact shape: a future/library change (or a Cloudflare interstitial slipping
+    # through as a non-dict body) must degrade to "no data", never throw.
     if not isinstance(result, dict):
+        log.warning("GasBuddy returned unexpected type %s; treating as no data",
+                    type(result).__name__)
         return None
-    out = [n for s in (result.get("results") or []) if (n := _normalize(s))]
-    return out
+    results = result.get("results")
+    if results is None:
+        return []                                   # well-formed response, no stations
+    if not isinstance(results, list):
+        log.warning("GasBuddy 'results' was %s, expected list; treating as no data",
+                    type(results).__name__)
+        return []
+    return [n for s in results if isinstance(s, dict) and (n := _normalize(s))]
 
 
 def get_station(station_id: str) -> dict | None:
