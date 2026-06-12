@@ -49,6 +49,21 @@ frontend/
 - **US regions**: Show `$/gal` (e.g., `$3.45/gal`)
 - **CA regions**: Show `$/L` (e.g., `$1.52/L`)
 - Check `region.unit` field from data.json - NEVER hardcode unit strings
+- Use the shared helpers in `js/data.js`, never inline `toFixed`:
+  - `formatPrice(value, unit)` — litres render **3 decimals** (`$1.683/L`, matching
+    the backend `why` copy), gallons 2 (`$3.45`)
+  - `formatDelta(weekDelta, dir)` — a move under ½¢ is **flat** (no arrow, no sign);
+    honours `region.weekDeltaDir` when present, else derives via a 0.5¢ threshold
+  - `bestDayLabel(bestDayIdx)` — Today / Tomorrow / day name for the "Best day to fill" card
+
+### Display conventions
+- **Day strip** (`DayStrip`): a **rolling 7-day window anchored on today** (today is
+  the leftmost cell). `bestDayIdx` is always a future day, so a fixed Sun→Sat strip
+  would draw it left of today and read as already passed.
+- **theme-color**: `app.js` updates `<meta name="theme-color">` to the active verdict's
+  `PALETTES.classic.tone` on region change so the iOS Safari toolbar tint tracks the page.
+- **Viewport height**: use `svh` (not `vh`) for shell min-heights so the footer clears
+  Safari's bottom toolbar; `env(safe-area-inset-bottom)` is 0 in a browser tab.
 
 ### Region detection
 - On load: `detectRegionFromIP()` silently maps IP → state/province (no permission prompt)
@@ -69,6 +84,7 @@ Each region in `data.json`:
   price: 3.45,
   priceLow: 3.21,
   weekDelta: 0.12,
+  weekDeltaDir: "up" | "down" | "flat",  // optional; near-zero deltas are "flat"
   why: "Crude oil dropped 3% this week...",
   advice: "Fill up today",
   bestDayIdx: 2,
