@@ -52,15 +52,35 @@ def holt_forecast(series: list[float], h: int = 5) -> list[float]:
 
 # ── Trend array from history ──────────────────────────────────────────────────
 
-def build_trend_array(region_id: str, current_price: float) -> list[float]:
+def build_trend_array(region_id: str, current_price: float,
+                      weekly_series: list[float] | None = None) -> list[float]:
     """
     Build a 14-point daily price series (past → present) for the sparkline.
-    Pulls from SQLite history; interpolates weekly → daily where needed.
+
+    Preference order:
+      1. ≥14 days of real daily history from SQLite.
+      2. A provider weekly series (newest-first), interpolated weekly → daily —
+         lets EIA/PADD-backed regions show real movement before daily history
+         has accumulated.
+      3. Whatever thin daily history exists, padded with a synthetic slope.
+      4. Flat line at the current price (absolute last resort).
     """
     history = db.get_price_history(region_id, days=30)
     if len(history) >= 14:
         prices = [p for _, p in history][-14:]
         return [round(p, 3) for p in prices]
+
+    # Weekly provider series → daily (newest-first input, so reverse to oldest-first)
+    if weekly_series and len(weekly_series) >= 2:
+        weekly_oldest_first = list(reversed(weekly_series))
+        daily = _interp_to_daily(weekly_oldest_first)
+        if len(daily) >= 14:
+            return [round(p, 3) for p in daily[-14:]]
+        if daily:
+            pad   = 14 - len(daily)
+            slope = (daily[-1] - daily[0]) / max(len(daily) - 1, 1)
+            prepend = [round(daily[0] - slope * (pad - i), 3) for i in range(pad)]
+            return prepend + [round(p, 3) for p in daily]
 
     if history:
         prices = [p for _, p in history]
@@ -165,14 +185,18 @@ def predict_direction(
 
 def compute_week_delta(region_id: str, current_price: float) -> float:
     """
-    Return price change vs exactly 7 days ago (or best approximation).
+    Return price change vs ~7 days ago (or best approximation).
+
+    `get_price_history` returns one averaged point per calendar day, oldest→newest.
+    To get the true 7-days-ago point we index 8 from the end (the newest point is
+    "today"); we fall back to the oldest available point for short histories.
     """
-    history = db.get_price_history(region_id, days=10)
+    history = db.get_price_history(region_id, days=14)
     if not history:
         return 0.0
     prices = [p for _, p in history]
-    if len(prices) >= 7:
-        return round(current_price - prices[-7], 3)
+    if len(prices) >= 8:
+        return round(current_price - prices[-8], 3)
     if len(prices) >= 2:
         return round(current_price - prices[0], 3)
     return 0.0
@@ -186,11 +210,23 @@ def determine_verdict(
     week_delta: float,
     price: float,
     region_id: str,
+    price_source: str | None = None,
 ) -> str:
     """
     Rule-based verdict: 'buy' | 'partial' | 'wait'.
     Considers price direction, WTI direction, and recent delta.
+
+    Confidence guard: when the price is a static baseline (no real source), or the
+    signals are degenerate (perfectly flat price AND flat WTI), there is no real
+    information to act on — return the honest 'partial' rather than a misleading
+    uniform 'buy'. This prevents every region collapsing to the same verdict when
+    upstream data is missing.
     """
+    if price_source == "baseline":
+        return "partial"
+    if week_delta == 0 and wti_dir == "flat" and price_dir == "flat":
+        return "partial"
+
     # Strong buy signal: prices dropping or flat AND WTI easing
     if price_dir in ("down", "flat") and wti_dir in ("down", "flat") and week_delta <= 0.01:
         return "buy"

@@ -73,8 +73,9 @@ def run_analytics_for_region(
     """
     Run Modules B, C, D for one region and return updated snapshot fields.
     """
-    price      = snapshot.get("price") or BASELINE_PRICES.get(region_id, 3.0)
-    price_low  = snapshot.get("price_low") or price * 0.95
+    price        = snapshot.get("price") or BASELINE_PRICES.get(region_id, 3.0)
+    price_low    = snapshot.get("price_low") or price * 0.95
+    price_source = snapshot.get("price_source")
     wti        = context["wti"]
     news       = context["news"]
     seasonal   = context["seasonal"]
@@ -82,17 +83,20 @@ def run_analytics_for_region(
     refin_util = refinery.get("national") if refinery else None
 
     # Module C — prediction
-    week_delta = compute_week_delta(region_id, price)
     prediction = predict_direction(region_id, price, wti["dir"], refin_util, seasonal)
     best_day   = prediction["best_day_idx"]
     price_dir  = prediction["dir"]
 
-    # Override with snapshot's week_delta if already set (from price collector)
+    # Prefer the price collector's week_delta (computed from the real provider
+    # series); only fall back to recomputing from daily history when unset.
     if snapshot.get("week_delta") is not None:
         week_delta = snapshot["week_delta"]
+    else:
+        week_delta = compute_week_delta(region_id, price)
 
-    # Verdict
-    verdict = determine_verdict(price_dir, wti["dir"], week_delta, price, region_id)
+    # Verdict (confidence-aware: baseline / degenerate signals → 'partial')
+    verdict = determine_verdict(price_dir, wti["dir"], week_delta, price, region_id,
+                                price_source=price_source)
 
     # Module B — news analysis (generates why/advice; may upgrade verdict via LLM)
     llm_pre = context.get("llm_results", {}).get(region_id)
@@ -135,8 +139,16 @@ def run_analytics_for_region(
     # Module D — breakdown
     breakdown = get_breakdown(region_id, price)
 
-    # Build 14-day trend
-    trend = build_trend_array(region_id, price)
+    # 14-day trend: prefer the collector's real provider series. When that series is
+    # present but short (a thin weekly EIA series the collector could only expand to
+    # <14 daily points), left-pad it so its real movement survives — rebuilding from
+    # DB history would discard the provider series for a synthetic/flat slope. Only
+    # rebuild when no collector trend exists at all.
+    trend = snapshot.get("trend")
+    if trend and len(trend) < 14:
+        trend = [round(trend[0], 3)] * (14 - len(trend)) + [round(p, 3) for p in trend]
+    elif not trend:
+        trend = build_trend_array(region_id, price)
     if not trend:
         trend = [round(price, 3)] * 14
 
@@ -151,6 +163,8 @@ def run_analytics_for_region(
         "trend":                trend,
         "week_delta":           week_delta,
         "price_low":            round(price_low, 3),
+        "price_source":         price_source,
+        "low_station":          snapshot.get("low_station") or {},
         "news":                 analysis.get("news", []),
         "analysis_updated_at":  now_ts,
     }
@@ -166,7 +180,7 @@ def build_region_json(snapshot: dict, context: dict) -> dict:
 
     analytics = run_analytics_for_region(r_id, snapshot, context)
 
-    return {
+    region = {
         "id":         r_id,
         "state":      snapshot.get("state", ""),
         "abbr":       snapshot.get("abbr", ""),
@@ -184,7 +198,20 @@ def build_region_json(snapshot: dict, context: dict) -> dict:
         "news":       analytics["news"],
         "breakdown":  analytics["breakdown"],
         "trend":      analytics["trend"],
+        "priceSource": analytics.get("price_source") or "baseline",
     }
+    # Additive: lowest-price station for the GasBuddy deep link (when available).
+    low = analytics.get("low_station") or {}
+    if low and low.get("url"):
+        region["lowStation"] = {
+            "id":    low.get("station_id"),
+            "name":  low.get("name"),
+            "price": low.get("price"),
+            "lat":   low.get("lat"),
+            "lng":   low.get("lng"),
+            "url":   low.get("url"),
+        }
+    return region
 
 
 def build_payload(context: dict) -> dict:
@@ -231,6 +258,8 @@ def build_payload(context: dict) -> dict:
                 "advice":      "",
                 "best_day_idx": 2,
                 "wti_dir":     "flat",
+                "price_source": "baseline",
+                "low_station": {},
             }
 
         try:

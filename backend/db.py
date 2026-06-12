@@ -93,12 +93,26 @@ def get_db_path() -> Path:
     return DB_PATH
 
 
+# Additive columns introduced after the initial schema. Each is applied with a
+# guarded ALTER TABLE so existing databases migrate forward without data loss.
+_MIGRATIONS = [
+    ("regional_snapshot", "price_source",    "TEXT DEFAULT 'baseline'"),
+    ("regional_snapshot", "low_station_json", "TEXT DEFAULT '{}'"),
+]
+
+
 def init_db():
-    """Create tables if they don't exist. Safe to call multiple times."""
+    """Create tables if they don't exist, then apply additive migrations.
+    Safe to call multiple times."""
     path = get_db_path()
     conn = sqlite3.connect(path)
     try:
         conn.executescript(SCHEMA)
+        for table, column, ddl in _MIGRATIONS:
+            try:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {ddl}")
+            except sqlite3.OperationalError:
+                pass   # column already exists
         conn.commit()
         log.info("Database initialised at %s", path)
     finally:
@@ -130,12 +144,14 @@ def upsert_snapshot(region_id: str, data: dict):
                 verdict, price, price_low, week_delta,
                 why, advice, best_day_idx, wti_dir,
                 breakdown_json, trend_json, news_json,
+                price_source, low_station_json,
                 prices_updated_at, analysis_updated_at
             ) VALUES (
                 :region_id, :state, :abbr, :city, :country, :unit,
                 :verdict, :price, :price_low, :week_delta,
                 :why, :advice, :best_day_idx, :wti_dir,
                 :breakdown_json, :trend_json, :news_json,
+                :price_source, :low_station_json,
                 :prices_updated_at, :analysis_updated_at
             )
             ON CONFLICT(region_id) DO UPDATE SET
@@ -155,6 +171,8 @@ def upsert_snapshot(region_id: str, data: dict):
                 breakdown_json      = excluded.breakdown_json,
                 trend_json          = excluded.trend_json,
                 news_json           = excluded.news_json,
+                price_source        = COALESCE(excluded.price_source, regional_snapshot.price_source),
+                low_station_json    = COALESCE(excluded.low_station_json, regional_snapshot.low_station_json),
                 prices_updated_at   = COALESCE(excluded.prices_updated_at, regional_snapshot.prices_updated_at),
                 analysis_updated_at = COALESCE(excluded.analysis_updated_at, regional_snapshot.analysis_updated_at)
         """, {
@@ -175,6 +193,8 @@ def upsert_snapshot(region_id: str, data: dict):
             "breakdown_json":     json.dumps(data.get("breakdown", {})),
             "trend_json":         json.dumps(data.get("trend", [])),
             "news_json":          json.dumps(data.get("news", [])),
+            "price_source":       data.get("price_source"),
+            "low_station_json":   json.dumps(data.get("low_station")) if data.get("low_station") is not None else None,
             "prices_updated_at":  data.get("prices_updated_at"),
             "analysis_updated_at": data.get("analysis_updated_at"),
         })
@@ -189,25 +209,23 @@ def get_snapshot(region_id: str) -> dict | None:
         ).fetchone()
     if row is None:
         return None
+    return _row_to_snapshot(row)
+
+
+def _row_to_snapshot(row) -> dict:
+    import json
     d = dict(row)
-    d["breakdown"] = json.loads(d.pop("breakdown_json", "{}"))
-    d["trend"]     = json.loads(d.pop("trend_json", "[]"))
-    d["news"]      = json.loads(d.pop("news_json", "[]"))
+    d["breakdown"]   = json.loads(d.pop("breakdown_json", "{}") or "{}")
+    d["trend"]       = json.loads(d.pop("trend_json", "[]") or "[]")
+    d["news"]        = json.loads(d.pop("news_json", "[]") or "[]")
+    d["low_station"] = json.loads(d.pop("low_station_json", "{}") or "{}")
     return d
 
 
 def get_all_snapshots() -> list[dict]:
-    import json
     with get_conn() as conn:
         rows = conn.execute("SELECT * FROM regional_snapshot").fetchall()
-    result = []
-    for row in rows:
-        d = dict(row)
-        d["breakdown"] = json.loads(d.pop("breakdown_json", "{}"))
-        d["trend"]     = json.loads(d.pop("trend_json", "[]"))
-        d["news"]      = json.loads(d.pop("news_json", "[]"))
-        result.append(d)
-    return result
+    return [_row_to_snapshot(row) for row in rows]
 
 
 def store_station_price(region_id: str, price: float, unit: str,

@@ -107,6 +107,19 @@ PADD_CODES = {
     "P5": "West Coast",
 }
 
+# EIA `gnd` (gasoline) dataset duoarea codes for PADD districts.
+# NOTE: the petroleum/pri/gnd dataset addresses PADD districts as "R10".."R50",
+# NOT "P1".."P5" (those return zero rows). This map is the difference between a
+# real, weekly-moving fallback price and a flat baseline for the ~42 US states
+# that have no state-level weekly EIA series.
+PADD_DUOAREA = {
+    "P1": "R10",
+    "P2": "R20",
+    "P3": "R30",
+    "P4": "R40",
+    "P5": "R50",
+}
+
 # ── Canadian Regions: (id, display_name, abbr, reference_city, nrcan_city_key, country) ──
 # nrcan_city_key: city name used in NRCAN price data
 # Prices stored in CAD/L; unit field = "L"

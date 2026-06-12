@@ -9,6 +9,7 @@ Run directly:
     python backend/price_collector.py [--regions ca tx on]
 """
 import sys
+import re
 import json
 import logging
 import statistics
@@ -22,9 +23,10 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 
 import db
 import cache
+from providers import gasbuddy, http_client
 from config import (
     EIA_API_KEY, EIA_GAS_ENDPOINT,
-    US_REGIONS, CA_REGIONS, BASELINE_PRICES,
+    US_REGIONS, CA_REGIONS, BASELINE_PRICES, PADD_DUOAREA,
     NRCAN_PRICE_URL, ONTARIO_FUEL_API, ONTARIO_RESOURCE_ID,
     is_canadian, region_unit,
 )
@@ -59,7 +61,7 @@ def fetch_eia_state_prices(state_ids: list[str]) -> dict[str, list[float]]:
         "api_key": EIA_API_KEY,
         "frequency": "weekly",
         "data[0]": "value",
-        "facets[product][]": "EPM0",    # regular gasoline
+        "facets[product][]": "EPMR",    # regular gasoline (not EPM0 = all grades)
         "facets[process][]": "PTE",     # retail price (taxes incl.)
         "sort[0][column]": "period",
         "sort[0][direction]": "desc",
@@ -98,6 +100,11 @@ def fetch_eia_padd_prices(padd_codes: list[str]) -> dict[str, list[float]]:
     """
     Fallback: fetch PADD district weekly prices from EIA for regions with no
     state-level data.
+
+    Returns {padd_code: [price_newest_first]} keyed by the *requested* "P#"
+    codes. The EIA `gnd` dataset addresses PADD districts as duoarea "R10".."R50"
+    (the "P1".."P5" codes return zero rows), so we translate via PADD_DUOAREA on
+    the way out and map the response back to the caller's "P#" code.
     """
     if not EIA_API_KEY:
         return {}
@@ -107,19 +114,26 @@ def fetch_eia_padd_prices(padd_codes: list[str]) -> dict[str, list[float]]:
     if hit:
         return hit
 
+    # Translate P# -> R## for the EIA query, remembering the reverse mapping.
+    duoarea_to_padd = {
+        PADD_DUOAREA[p]: p for p in padd_codes if p in PADD_DUOAREA
+    }
+    if not duoarea_to_padd:
+        return {}
+
     params = {
         "api_key": EIA_API_KEY,
         "frequency": "weekly",
         "data[0]": "value",
-        "facets[product][]": "EPM0",
+        "facets[product][]": "EPMR",    # regular gasoline (not EPM0 = all grades)
         "facets[process][]": "PTE",
         "sort[0][column]": "period",
         "sort[0][direction]": "desc",
         "length": "14",
     }
     param_list = list(params.items())
-    for code in padd_codes:
-        param_list.append(("facets[duoarea][]", code))
+    for duoarea in duoarea_to_padd:
+        param_list.append(("facets[duoarea][]", duoarea))
 
     try:
         resp = SESSION.get(EIA_GAS_ENDPOINT, params=param_list, timeout=30)
@@ -133,9 +147,10 @@ def fetch_eia_padd_prices(padd_codes: list[str]) -> dict[str, list[float]]:
     for row in data:
         area  = row.get("duoarea", "")
         value = row.get("value")
-        if area and value is not None:
+        padd  = duoarea_to_padd.get(area)
+        if padd and value is not None:
             try:
-                result.setdefault(area, []).append(float(value))
+                result.setdefault(padd, []).append(float(value))
             except (ValueError, TypeError):
                 pass
 
@@ -145,28 +160,20 @@ def fetch_eia_padd_prices(padd_codes: list[str]) -> dict[str, list[float]]:
 
 # ── GasBuddy — station-level prices ──────────────────────────────────────────
 
-def fetch_gasbuddy_region(region_id: str, city: str, is_canada: bool = False) -> dict | None:
+def fetch_gasbuddy_region(region_id: str, city: str, abbr: str,
+                          is_canada: bool = False) -> dict | None:
     """
-    Use py-gasbuddy to get station prices for a city.
-    Returns {prices: [float], low: float, city: str} or None if unavailable.
+    Look up the lowest-price regular-gas station for a region via GasBuddy.
+
+    Returns the normalized low-station dict from ``gasbuddy.region_low_station``
+    (``{station_id, name, price, lat, lng, url, unit, all_prices}``) with the
+    price already in the region's unit, or None when GasBuddy is unavailable.
     """
+    search_term = f"{city}, {abbr}"
     try:
-        # py-gasbuddy is async — run in sync context
-        import asyncio
-        from gasbuddy import GasBuddy, TemperatureUnit
-        gb = GasBuddy()
-        loop = asyncio.new_event_loop()
-        results = loop.run_until_complete(gb.price_lookup(city))
-        loop.close()
-        prices = [float(r["price"]) for r in results if r.get("price")]
-        if not prices:
-            return None
-        return {"prices": prices, "low": min(prices), "city": city}
-    except ImportError:
-        log.debug("py-gasbuddy not installed")
-        return None
+        return gasbuddy.region_low_station(region_id, search_term, is_canada)
     except Exception as e:
-        log.debug("GasBuddy lookup failed for %s: %s", city, e)
+        log.debug("GasBuddy lookup failed for %s (%s): %s", region_id, search_term, e)
         return None
 
 
@@ -210,10 +217,20 @@ def fetch_ontario_prices() -> dict[str, float] | None:
         return None
 
 
-def fetch_nrcan_prices() -> dict[str, float] | None:
+_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def fetch_nrcan_prices() -> dict[str, list[float]] | None:
     """
-    Scrape NRCAN Fuel Price Monitor for Canadian city prices (¢/L → $/L).
-    Returns {city_key: price_in_dollars_per_L} or None.
+    Scrape the NRCAN Fuel Price Monitor "prices by city" table.
+
+    The table is a wide pump-price-components grid: one "Day of" date column
+    followed by, for each tracked city, four sub-columns (Price, Taxes, Marketing
+    Margin, Refining Margin) in ¢/L. We extract each city's daily *Price* series
+    and convert to $/L.
+
+    Returns {city: [price_$L oldest→newest]} (including the "Canada" national
+    average), or None on failure.
     """
     cache_key = "nrcan_prices"
     hit = cache.get(cache_key)
@@ -222,29 +239,55 @@ def fetch_nrcan_prices() -> dict[str, float] | None:
 
     try:
         from bs4 import BeautifulSoup
-        resp = SESSION.get(NRCAN_PRICE_URL, timeout=20)
-        resp.raise_for_status()
+        resp = http_client.get(NRCAN_PRICE_URL, impersonate=False)
+        if resp is None:
+            return None
         soup = BeautifulSoup(resp.text, "lxml")
-        prices: dict[str, float] = {}
-        for row in soup.select("table tr"):
-            cells = row.find_all(["td", "th"])
-            if len(cells) >= 2:
-                city  = cells[0].get_text(strip=True)
-                price = cells[1].get_text(strip=True).replace(",", ".")
+        table = soup.find("table")
+        if table is None:
+            return None
+        rows = [[c.get_text(strip=True) for c in r.find_all(["td", "th"])]
+                for r in table.find_all("tr")]
+
+        # City header row: the one that contains the "Canada" column label.
+        cities: list[str] = []
+        for cells in rows:
+            if "Canada" in cells:
+                cities = [c for c in cells if c]   # drop the empty corner cell
+                break
+        if not cities:
+            return None
+
+        # Layout: col 0 = date; city i's Price column = 1 + i*4.
+        history: dict[str, list[float]] = {c: [] for c in cities}
+        for cells in rows:
+            if not cells or not _DATE_RE.match(cells[0]):
+                continue
+            for i, city in enumerate(cities):
+                col = 1 + i * 4
+                if col >= len(cells):
+                    continue
+                raw = cells[col].replace(",", ".")
                 try:
-                    prices[city] = float(price) / 100.0   # ¢/L → $/L
+                    price = float(raw) / 100.0          # ¢/L → $/L
                 except (ValueError, TypeError):
-                    pass
-        if prices:
-            cache.set(cache_key, prices, ttl=cache.TTL_EIA_WEEKLY)
-            return prices
-        return None
+                    continue
+                if 0.5 <= price <= 3.5:                 # plausible CA pump $/L
+                    history[city].append(round(price, 3))
+
+        history = {c: s for c, s in history.items() if s}
+        if not history:
+            return None
+        cache.set(cache_key, history, ttl=cache.TTL_EIA_WEEKLY)
+        return history
     except Exception as e:
         log.debug("NRCAN scrape failed: %s", e)
         return None
 
 
-# City → province mapping for NRCAN data aggregation
+# City → province mapping for NRCAN data aggregation.
+# (The current NRCAN "by city" view publishes Calgary, Halifax, Toronto + the
+# Canada national average; the rest are kept for resilience if more cities appear.)
 NRCAN_CITY_PROVINCE = {
     "Calgary": "ab", "Edmonton": "ab",
     "Vancouver": "bc", "Victoria": "bc",
@@ -260,14 +303,25 @@ NRCAN_CITY_PROVINCE = {
 }
 
 
-def aggregate_nrcan_by_province(nrcan: dict[str, float]) -> dict[str, float]:
-    """Average NRCAN city prices to province-level."""
-    buckets: dict[str, list[float]] = {}
-    for city, price in nrcan.items():
+def aggregate_nrcan_by_province(nrcan: dict[str, list[float]]) -> dict[str, list[float]]:
+    """
+    Reduce NRCAN city price series to province-level series.
+
+    Input/output values are $/L. When several cities map to one province their
+    series are element-wise medianed (aligned to the shortest series).
+    """
+    buckets: dict[str, list[list[float]]] = {}
+    for city, series in nrcan.items():
         prov = NRCAN_CITY_PROVINCE.get(city)
-        if prov:
-            buckets.setdefault(prov, []).append(price)
-    return {prov: statistics.median(prices) for prov, prices in buckets.items()}
+        if prov and series:
+            buckets.setdefault(prov, []).append(series)
+
+    out: dict[str, list[float]] = {}
+    for prov, series_list in buckets.items():
+        n = min(len(s) for s in series_list)
+        aligned = [s[-n:] for s in series_list]
+        out[prov] = [round(statistics.median(vals), 3) for vals in zip(*aligned)]
+    return out
 
 
 # ── Compute regional aggregate ────────────────────────────────────────────────
@@ -275,38 +329,61 @@ def aggregate_nrcan_by_province(nrcan: dict[str, float]) -> dict[str, float]:
 def compute_region_prices(
     region_id: str,
     raw_prices: list[float],
-    prev_prices: list[float] | None,
     gasbuddy: dict | None,
+    source: str,
 ) -> dict:
     """
-    Given raw prices (newest first), compute the aggregate fields needed for
-    regional_snapshot. Returns partial snapshot dict (price fields only).
+    Assemble the price fields for a US regional_snapshot from a weekly EIA series.
+
+    `raw_prices` is the weekly series, newest-first (state or PADD). GasBuddy, when
+    available, becomes the realtime *headline* price and the lowest-station source,
+    but the 14-day `trend` and `week_delta` always come from the weekly EIA series
+    so the sparkline reflects real movement. `source` is the series provenance
+    ("eia_state" | "eia_padd" | "baseline").
     """
-    if not raw_prices:
-        return {}
+    has_series = bool(raw_prices)
+    # raw_prices[0] is the newest weekly point — the current price. (Using a
+    # median of the last 3 weeks would surface an older, laggier value.)
+    series_price = round(raw_prices[0], 3) if has_series else None
 
-    price     = round(statistics.median(raw_prices[:3]), 3)   # median of last 3 readings
-    price_low = round(min(raw_prices[:3]), 3)
-
-    # GasBuddy station-level low overrides if available
-    if gasbuddy and gasbuddy.get("low"):
-        price_low = round(gasbuddy["low"], 3)
-
-    # Week-over-week delta: compare median of latest vs 7-days-ago bucket
-    if prev_prices and len(prev_prices) >= 1:
-        prev_median = statistics.median(prev_prices[:3])
-        week_delta  = round(price - prev_median, 3)
+    # Week-over-week from the weekly series: this week's level vs ~one week back.
+    if has_series and len(raw_prices) >= 2:
+        week_delta = round(raw_prices[0] - raw_prices[1], 3)
     else:
         week_delta = 0.0
 
-    # 14-day trend: interpolate weekly data to daily
-    trend = interpolate_to_daily(raw_prices[:14])
+    trend = interpolate_to_daily(raw_prices[:14]) if has_series else []
+
+    # GasBuddy (realtime, station-level) is the PRIMARY headline price when present.
+    price_source = source
+    low_station  = None
+    if gasbuddy and gasbuddy.get("price"):
+        # The GasBuddy headline is a single (sometimes anomalous) station reading,
+        # so clamp it against the baseline just like the EIA series readings —
+        # otherwise a bad station price flows straight through to the headline.
+        gb_price     = _sanity_check_price(
+            region_id, gasbuddy["price"], BASELINE_PRICES.get(region_id), series_price
+        )
+        price        = round(gb_price, 3)
+        price_low    = round(gb_price, 3)
+        price_source = "gasbuddy"
+        low_station  = gasbuddy
+    elif has_series:
+        price     = series_price
+        price_low = round(min(raw_prices[:3]), 3)
+    else:
+        return {}
+
+    if not trend:
+        trend = [round(price, 3)] * 14
 
     return {
-        "price":      price,
-        "price_low":  price_low,
-        "week_delta": week_delta,
-        "trend":      trend,
+        "price":        price,
+        "price_low":    price_low,
+        "week_delta":   week_delta,
+        "trend":        trend,
+        "price_source": price_source,
+        "low_station":  low_station,
     }
 
 
@@ -364,32 +441,50 @@ def _sanity_check_price(
 
 
 def collect_us_prices(region_subset: list[str] | None = None):
-    """Fetch and store US state prices from EIA."""
+    """
+    Fetch and store US state prices.
+
+    Provider precedence per region: GasBuddy (realtime, station-level) for the
+    headline price, with the EIA state weekly series (or PADD district fallback)
+    always providing the trend/week_delta backbone; baseline only as last resort.
+    """
     targets = [r for r in US_REGIONS if region_subset is None or r[0] in region_subset]
     state_ids = [r[4] for r in targets]   # EIA stateid column
 
     log.info("Fetching EIA prices for %d US states", len(state_ids))
     current  = fetch_eia_state_prices(state_ids)
-    # Also fetch shifted window to get "last week" prices
-    prev_params = {}
-    # We use the 14-week series; index 0 = newest, indices 7+ = prev week equivalent
 
     now_ts = NOW()
     for r_id, state, abbr, city, eia_sid, padd in targets:
+        source = "eia_state"
         prices = current.get(eia_sid.upper(), [])
         if not prices:
-            # Try PADD district fallback
+            # Try PADD district fallback (real, weekly-moving regional series)
             padd_data = fetch_eia_padd_prices([padd])
             prices    = padd_data.get(padd, [])
+            source    = "eia_padd"
 
         if not prices:
-            # Final fallback: use baseline
-            base = BASELINE_PRICES.get(r_id)
+            # Final fallback: static baseline
+            base   = BASELINE_PRICES.get(r_id)
             prices = [base] if base else []
+            source = "baseline"
             log.debug("Using baseline price for %s", r_id)
 
         if not prices:
             continue
+
+        # A PADD district is a multi-state regional average (e.g. P5 West Coast is
+        # dominated by California), so its absolute level can be far from a given
+        # state's. Anchor the series to the state's baseline level while preserving
+        # its real week-to-week movement — otherwise the ±50% sanity check below
+        # would reject every reading and flatten the trend to baseline.
+        if source == "eia_padd":
+            base   = BASELINE_PRICES.get(r_id)
+            mean_p = statistics.mean(prices) if prices else 0
+            if base and mean_p:
+                ratio  = base / mean_p
+                prices = [round(v * ratio, 3) for v in prices]
 
         # Sanity-check all price readings so anomalous values in prices[1]/[2]
         # cannot skew the median (or week_delta) computed from raw_prices[:3].
@@ -400,19 +495,18 @@ def collect_us_prices(region_subset: list[str] | None = None):
             _sanity_check_price(r_id, p, baseline, prev_price) for p in prices
         ]
 
-        # Store individual price as a "station"
-        db.store_station_price(
-            region_id=r_id, price=prices[0], unit="gal",
-            city=city, fetched_at=now_ts
-        )
+        # GasBuddy realtime station-level lookup (primary headline price + low).
+        gb = fetch_gasbuddy_region(r_id, city, abbr, is_canada=False)
 
-        # GasBuddy for station-level low (optional, can be slow)
-        gb = fetch_gasbuddy_region(r_id, city)
-
-        prev = prices[7:] if len(prices) > 7 else None
-        agg  = compute_region_prices(r_id, prices, prev, gb)
+        agg = compute_region_prices(r_id, prices, gb, source)
         if not agg:
             continue
+
+        # Store the headline price as a station reading for daily-history trend.
+        db.store_station_price(
+            region_id=r_id, price=agg["price"], unit="gal",
+            city=city, fetched_at=now_ts
+        )
 
         db.upsert_snapshot(r_id, {
             "state":  state,
@@ -420,92 +514,131 @@ def collect_us_prices(region_subset: list[str] | None = None):
             "city":   city,
             "country": "US",
             "unit":   "gal",
-            "price":      agg["price"],
-            "price_low":  agg["price_low"],
-            "week_delta": agg["week_delta"],
-            "trend":      agg["trend"],
+            "price":        agg["price"],
+            "price_low":    agg["price_low"],
+            "week_delta":   agg["week_delta"],
+            "trend":        agg["trend"],
+            "price_source": agg["price_source"],
+            "low_station":  agg["low_station"],
             "prices_updated_at": now_ts,
         })
-        log.info("Updated %s: $%.3f/gal (Δ%+.3f)", r_id, agg["price"], agg["week_delta"])
+        log.info("Updated %s: $%.3f/gal (Δ%+.3f) [%s]",
+                 r_id, agg["price"], agg["week_delta"], agg["price_source"])
+
+
+def _fields_from_daily_series(daily: list[float], gasbuddy: dict | None,
+                              base_source: str, region_id: str | None = None,
+                              baseline: float | None = None) -> dict:
+    """
+    Build price fields from a daily $/L series (oldest→newest), overlaying a
+    GasBuddy realtime headline price when available.
+    """
+    price        = round(daily[-1], 3)
+    price_source = base_source
+    price_low    = round(price * 0.97, 3)   # estimate when no station-level data
+    low_station  = None
+
+    if gasbuddy and gasbuddy.get("price"):
+        # Clamp the (single-station) GasBuddy headline against the baseline so an
+        # anomalous reading can't flow straight through, mirroring the daily-series
+        # sanity check. Falls back to the latest series value when out of range.
+        gb_price     = _sanity_check_price(
+            region_id, gasbuddy["price"], baseline, round(daily[-1], 3)
+        )
+        price        = round(gb_price, 3)
+        price_low    = round(gb_price, 3)
+        price_source = "gasbuddy"
+        low_station  = gasbuddy
+
+    trend = [round(v, 3) for v in daily[-14:]]
+    while len(trend) < 14:
+        trend = [trend[0]] + trend
+
+    if len(daily) >= 8:
+        week_delta = round(daily[-1] - daily[-8], 3)
+    elif len(daily) >= 2:
+        week_delta = round(daily[-1] - daily[0], 3)
+    else:
+        week_delta = 0.0
+
+    return {
+        "price":        price,
+        "price_low":    price_low,
+        "week_delta":   week_delta,
+        "trend":        trend,
+        "price_source": price_source,
+        "low_station":  low_station,
+    }
 
 
 def collect_canada_prices(region_subset: list[str] | None = None):
-    """Fetch and store Canadian provincial prices."""
+    """
+    Fetch and store Canadian provincial prices.
+
+    Provider precedence per province: GasBuddy (realtime, station-level) headline
+    price; NRCAN daily city series for the trend/week_delta backbone where a city
+    maps to the province; the NRCAN national-average series scaled to the province's
+    baseline level for provinces NRCAN doesn't track directly (so they still MOVE
+    with the national trend); static baseline only as a last resort.
+    """
     targets = [r for r in CA_REGIONS if region_subset is None or r[0] in region_subset]
 
-    # Fetch all Canadian source data upfront
     nrcan_raw  = fetch_nrcan_prices()
     nrcan_prov = aggregate_nrcan_by_province(nrcan_raw) if nrcan_raw else {}
-    ontario_raw = fetch_ontario_prices()
+    national   = (nrcan_raw or {}).get("Canada") or []
+
+    # Reference national baseline = median of provincial baselines, used to scale
+    # the national series to a province's typical price level.
+    ca_baselines = [BASELINE_PRICES[r[0]] for r in CA_REGIONS if r[0] in BASELINE_PRICES]
+    national_ref = statistics.median(ca_baselines) if ca_baselines else 1.55
 
     now_ts = NOW()
     for r_id, state, abbr, city, nrcan_city_key, country in targets:
-        price_cdl: float | None = None
+        gb = fetch_gasbuddy_region(r_id, city, abbr, is_canada=True)
 
-        # Priority 1: NRCAN city data → province aggregate
         if r_id in nrcan_prov:
-            price_cdl = nrcan_prov[r_id]
+            daily, base_source = nrcan_prov[r_id], "nrcan"
+        elif national:
+            ratio = (BASELINE_PRICES.get(r_id, national_ref) / national_ref)
+            daily = [round(v * ratio, 3) for v in national]
+            base_source = "nrcan_est"
+        elif gb and gb.get("price"):
+            daily, base_source = [gb["price"]], "gasbuddy"
+        else:
+            base = BASELINE_PRICES.get(r_id)
+            if base is None:
+                log.warning("No price data available for %s", r_id)
+                continue
+            daily, base_source = [base], "baseline"
 
-        # Priority 2: Ontario CKAN for ON specifically
-        if r_id == "on" and ontario_raw:
-            toronto = ontario_raw.get("Toronto") or ontario_raw.get("toronto")
-            if toronto:
-                price_cdl = toronto / 100.0   # ¢/L → $/L
+        # Sanity-check the latest value against the baseline.
+        baseline = BASELINE_PRICES.get(r_id)
+        snap     = db.get_snapshot(r_id)
+        prev     = snap["price"] if snap and snap.get("price") else None
+        daily[-1] = _sanity_check_price(r_id, daily[-1], baseline, prev)
 
-        # Priority 3: GasBuddy for the reference city
-        if price_cdl is None:
-            gb = fetch_gasbuddy_region(r_id, city, is_canada=True)
-            if gb and gb.get("prices"):
-                # GasBuddy returns $/L for Canadian cities
-                price_cdl = statistics.median(gb["prices"])
-
-        # Priority 4: baseline
-        if price_cdl is None:
-            price_cdl = BASELINE_PRICES.get(r_id)
-            if price_cdl:
-                log.debug("Using baseline price for %s", r_id)
-
-        if price_cdl is None:
-            log.warning("No price data available for %s", r_id)
-            continue
+        agg = _fields_from_daily_series(daily, gb, base_source, r_id, baseline)
 
         db.store_station_price(
-            region_id=r_id, price=price_cdl, unit="L",
+            region_id=r_id, price=agg["price"], unit="L",
             city=city, fetched_at=now_ts
         )
-
-        # Build 14-day trend from history
-        history = db.get_price_history(r_id, days=21)
-        if history:
-            hist_prices = [p for _, p in history]
-            trend = hist_prices[-14:] if len(hist_prices) >= 14 else hist_prices
-            # Pad with current price if too short
-            while len(trend) < 14:
-                trend = [trend[0]] + trend
-            trend = [round(v, 3) for v in trend]
-        else:
-            trend = [round(price_cdl, 3)] * 14
-
-        # Week delta from history
-        if history and len(history) >= 7:
-            week_ago_price = history[-7][1] if len(history) >= 7 else history[0][1]
-            week_delta = round(price_cdl - week_ago_price, 3)
-        else:
-            week_delta = 0.0
-
         db.upsert_snapshot(r_id, {
             "state":  state,
             "abbr":   abbr,
             "city":   city,
             "country": "CA",
             "unit":   "L",
-            "price":      round(price_cdl, 3),
-            "price_low":  round(price_cdl * 0.95, 3),   # estimate ~5% below avg
-            "week_delta": week_delta,
-            "trend":      trend,
+            "price":        agg["price"],
+            "price_low":    agg["price_low"],
+            "week_delta":   agg["week_delta"],
+            "trend":        agg["trend"],
+            "price_source": agg["price_source"],
+            "low_station":  agg["low_station"],
             "prices_updated_at": now_ts,
         })
-        log.info("Updated %s: $%.3f/L (Δ%+.3f)", r_id, price_cdl, week_delta)
+        log.info("Updated %s: $%.3f/L (Δ%+.3f) [%s]",
+                 r_id, agg["price"], agg["week_delta"], agg["price_source"])
 
 
 def run(region_subset: list[str] | None = None):
