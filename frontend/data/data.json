@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-06-14T06:00:58.274422+00:00",
-    "pricesUpdatedAt": "2026-06-14T06:00:17.752648+00:00",
+    "updatedAt": "2026-06-14T12:00:33.151312+00:00",
+    "pricesUpdatedAt": "2026-06-14T12:00:21.709427+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-14T06:32:09.763218+00:00",
-    "nextAnalysisUpdate": "2026-06-14T12:02:09.763229+00:00"
+    "nextPriceUpdate": "2026-06-14T12:32:15.257368+00:00",
+    "nextAnalysisUpdate": "2026-06-14T18:02:15.257383+00:00"
   },
   "wti": {
-    "price": 71.2,
-    "dir": "flat",
-    "change": 0.0
+    "price": 95.0,
+    "dir": "up",
+    "change": 0.68
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.827,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Alabama prices have dropped 12.5¢ week-over-week and sit at a local low. WTI crude is flat, suggesting stability. Summer blend is in effect with no major supply disruptions reported.",
+      "why": "Alabama prices have dropped 12.5¢ week-over-week and match recent lows. WTI crude is rising slightly, but summer blend supply remains steady. Current conditions favor filling up before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -81,10 +81,10 @@
       "priceLow": 3.72,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at their local low of $3.72/gal with a modest week-over-week decline. Crude is flat at $71.20, signaling stable supply. Summer demand is typical with no major disruptions expected.",
+      "why": "Alaska prices are at their lowest point this week as regional supply stabilizes. WTI crude is rising slightly, but the week-over-week decline suggests local downward momentum hasn't fully reversed yet.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -138,10 +138,10 @@
       "priceLow": 3.21,
       "weekDelta": -0.085,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at a recent low of $3.21/gal with a strong week-over-week decline of 8.5 cents. WTI crude is flat, and summer blend demand typically stabilizes prices mid-week. This is a favorable window to fill up.",
+      "why": "Arizona prices are at a recent low of $3.21/gal with week-over-week decline of 8.5¢. Despite upward crude pressure (+0.68), summer blend dynamics and national dip suggest a brief window before potential rebound.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -195,10 +195,10 @@
       "priceLow": 2.768,
       "weekDelta": -0.122,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its weekly low of $2.768/gal with a strong week-over-week decline of $0.122. WTI crude is flat at $71.20, suggesting stable near-term pricing. Summer blend is in effect with no major supply disruptions expected.",
+      "why": "Arkansas prices have dropped 12¢ week-over-week and sit at a local low of $2.768/gal. WTI crude is rising modestly (+0.68), but current strength in the downtrend and summer blend competition suggest a narrow window before prices stabilize or climb.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -252,10 +252,10 @@
       "priceLow": 5.696,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at a local low with flat week-over-week movement. Crude remains stable at $71.20/barrel with no downward momentum. Summer blend costs are elevated but holding steady with no imminent relief signals.",
+      "why": "California gas is at a local low of $5.696/gal with flat week-over-week movement. WTI crude is rising modestly (+0.68), but summer blend supply remains stable. Current price offers a reasonable fill-up window before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -309,10 +309,10 @@
       "priceLow": 3.985,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its local low of $3.985/gal with crude flat and no upward pressure this week. Summer blend is in effect but prices show stability with zero week-over-week change.",
+      "why": "Colorado prices are at a local low and flat week-over-week. WTI is rising slightly, but summer blend supply remains stable. This is a favorable window to fill up before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -366,10 +366,10 @@
       "priceLow": 3.462,
       "weekDelta": -0.126,
       "weekDeltaDir": "down",
-      "why": "Connecticut gas is at its recent low of $3.462/gal with a strong week-over-week drop of $0.126. WTI crude is flat at $71.20, suggesting stable conditions without immediate downward pressure.",
+      "why": "CT prices have dropped 12.6¢ week-over-week and sit at a local low. Despite crude rising slightly, the downward momentum suggests a temporary sweet spot before potential summer demand pressures kick in.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -423,10 +423,10 @@
       "priceLow": 3.211,
       "weekDelta": -0.117,
       "weekDeltaDir": "down",
-      "why": "Delaware prices have dropped 11.7¢ week-over-week and are at their local low. WTI crude remains flat near $71, suggesting stable near-term supply. Summer blend season is active with no holiday demand spikes expected.",
+      "why": "Delaware prices have dropped 11.7¢ week-over-week and sit at a local low. Despite crude ticking up slightly, summer blend supply remains steady and prices are favorable for filling up now.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -480,10 +480,10 @@
       "priceLow": 3.694,
       "weekDelta": -0.246,
       "weekDeltaDir": "down",
-      "why": "Florida prices have dropped 25¢ in a week and are at local lows. WTI crude is flat with no upward pressure, and summer blend supply is stable. This is a favorable window to refuel.",
+      "why": "Florida prices have dropped 25¢ week-over-week and sit at a recent low. WTI crude is rising modestly, but summer blend competition keeps local prices competitive. This is a favorable window before crude momentum pushes prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -537,10 +537,10 @@
       "priceLow": 2.93,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their recent low of $2.93/gal with a strong week-over-week drop of -10.7 cents. WTI crude is flat and stable, suggesting no imminent price surge. Summer blend transition is complete with no major supply disruptions signaled.",
+      "why": "Georgia gas is at a recent low of $2.93/gal after a strong week-over-week drop of 10.7 cents. WTI crude is rising slightly, but summer blend supply remains adequate. Price momentum has shifted favorably.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -594,10 +594,10 @@
       "priceLow": 4.55,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices have dropped 12¢ this week and sit at the recent low. WTI crude is flat with no upward pressure expected. Summer blend is in effect, but the downtrend suggests stability or further modest declines over the next few days.",
+      "why": "Hawaii prices are at a recent low of $4.55/gal with week-over-week decline of $0.12/gal. However, WTI crude is rising (+$0.68), which may push prices up within days. Summer blend and stable regional supply suggest limited downside.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -651,10 +651,10 @@
       "priceLow": 3.391,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 11¢ week-over-week and are at a recent low. Crude oil is flat with no upward pressure, and summer blend supply is stable. This is a good entry point before potential summer travel demand.",
+      "why": "Idaho prices are at a recent low after a week-over-week drop of 11 cents. WTI crude is rising slightly, but current gas prices remain favorable. Summer blend pricing is stable with no immediate pressure indicators.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -708,10 +708,10 @@
       "priceLow": 3.633,
       "weekDelta": -0.175,
       "weekDeltaDir": "down",
-      "why": "Illinois prices have dropped 17.5¢ week-over-week and are at local lows. WTI crude is flat around $71, suggesting stable near-term pricing. Summer blend demand is steady but no upward pressure visible.",
+      "why": "Illinois gas is at a recent low after a 17.5¢ weekly drop. WTI is rising slightly, but summer blend supply remains adequate. Current price offers good value.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -765,10 +765,10 @@
       "priceLow": 3.252,
       "weekDelta": -0.157,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 16¢ week-over-week and sit at a recent low. WTI crude is flat with no immediate upward pressure, and summer blend supply is stable. This is a good window to fill up before potential seasonal demand pushes prices higher.",
+      "why": "Indiana prices have dropped 16¢ week-over-week and sit at a local low. WTI crude is rising slightly, but summer blend supply remains adequate. This represents a good entry point before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -822,10 +822,10 @@
       "priceLow": 3.091,
       "weekDelta": -0.149,
       "weekDeltaDir": "down",
-      "why": "Iowa prices have dropped 15¢ in a week and now sit at a recent low. WTI crude is flat and stable, suggesting no major upward pressure. Summer blend pricing is established with no holiday disruptions.",
+      "why": "Iowa prices have dropped 15¢ in a week and sit at a recent low. However, WTI crude is rising, which may push prices up within days. Summer blend slightly elevates costs, but the current dip is a solid opportunity.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -879,10 +879,10 @@
       "priceLow": 3.031,
       "weekDelta": -0.146,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at a recent low of $3.03/gal with a strong week-over-week drop of $0.15/gal. WTI crude is flat at $71.20, suggesting stable near-term pricing with limited downside pressure.",
+      "why": "Kansas prices have dropped 14.6¢ week-over-week and sit at a recent low. WTI crude is rising modestly, but summer blend supply remains stable. This is a favorable window before upward pressure intensifies.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -936,10 +936,10 @@
       "priceLow": 3.004,
       "weekDelta": -0.133,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a recent low of $3.00/gal with a strong week-over-week drop of $0.13. Crude oil is flat, suggesting prices have stabilized near their current level without imminent upward pressure.",
+      "why": "Kentucky gas is at a recent low of $3.00/gal after a strong weekly decline of -$0.13. WTI crude is rising modestly (+$0.68), but summer blend supply remains adequate. Current pricing offers good value.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -993,10 +993,10 @@
       "priceLow": 2.876,
       "weekDelta": -0.127,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices have dropped 12.7¢ over the week and are now at their lowest point. WTI crude is flat around $71, suggesting stable near-term costs. Summer blend typically peaks mid-June, so filling up now captures good value before potential seasonal upticks.",
+      "why": "Louisiana gas is at a recent low of $2.876/gal after dropping $0.127 week-over-week. WTI crude is rising slightly, but current prices reflect recent strength. Summer blend is in effect, supporting current supply.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.392,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 12¢ week-over-week and sit at a recent low. WTI crude is flat with no immediate upward pressure. Summer blend pricing is stable with no holiday demand spike.",
+      "why": "Maine prices have dropped 12¢ week-over-week and are at a local low. Despite WTI crude ticking up, the downward momentum combined with summer blend pricing stability suggests a brief favorable window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 12¢ in a week and are already at their lowest point. WTI crude is flat with no upward pressure expected. Summer demand is typical, creating stable conditions.",
+      "why": "Maryland prices have dropped 12 cents week-over-week and are at recent lows. Despite crude ticking up slightly, summer blend supply remains adequate and national trends show downward pressure. Fill up while prices are near their floor.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1164,10 +1164,10 @@
       "priceLow": 4.196,
       "weekDelta": -0.147,
       "weekDeltaDir": "down",
-      "why": "MA prices have dropped 14.7¢ week-over-week and are at their local low. WTI crude is flat with no upward pressure, and summer blend supply is stable. This is a favorable window to refuel.",
+      "why": "Prices have dropped 14.7¢ this week and sit at a recent low. Despite WTI crude ticking up slightly, the downward momentum and current competitive pricing create a favorable fill-up window before summer demand typically pushes prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.332,
       "weekDelta": -0.161,
       "weekDeltaDir": "down",
-      "why": "Michigan prices have dropped 16¢ this week and are now at a local low. WTI crude is flat around $71, offering little upward pressure. Summer blend is in effect with no major supply disruptions signaled.",
+      "why": "Michigan prices have dropped 16¢ week-over-week and sit at a local low of $3.33/gal. Despite WTI crude rising slightly, the downward trend and summer blend stability suggest a favorable window to fill up before crude momentum potentially pushes prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.932,
       "weekDelta": -0.173,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices dropped 17¢ week-over-week and are at a local low. WTI crude is flat around $71, suggesting stable near-term supply. Summer blend is in effect with no major disruptions expected.",
+      "why": "Minnesota gas is at its lowest point this week after a 17¢ drop. Crude is rising slightly, but summer blend supply remains stable. Prices are unlikely to dip further in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.807,
       "weekDelta": -0.124,
       "weekDeltaDir": "down",
-      "why": "Mississippi prices are at a recent low of $2.807/gal with steady crude at $71.20. Week-over-week decline of $0.12/gal signals downward momentum has stabilized. Summer blend seasonal factors suggest limited further drops ahead.",
+      "why": "Mississippi gas is at its recent low of $2.807/gal after a week-long drop of 12.4¢. WTI crude is rising slightly, but summer demand and stable refining suggest prices have stabilized near support.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.991,
       "weekDelta": -0.144,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low of $2.99/gal with a strong week-over-week decline of $0.14. WTI crude is flat, suggesting limited near-term upward pressure. Summer blend is in effect, which may support stable pricing.",
+      "why": "Missouri prices are at a recent low of $2.99/gal after dropping 14¢ week-over-week. WTI crude is ticking up, but current pump prices haven't caught up yet, creating a favorable window to fill up before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.463,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "Montana prices are at their recent low of $3.463/gal with a solid week-over-week decline of $0.111. WTI crude is flat at $71.20, showing no immediate upward pressure. Summer blend and stable market conditions support filling up now.",
+      "why": "Montana prices are at a recent low of $3.463/gal after dropping 11¢ week-over-week. WTI crude is rising slightly, but current retail levels remain favorable. Summer blend is in effect with no holiday pressures.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1506,10 +1506,10 @@
       "priceLow": 3.101,
       "weekDelta": -0.15,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices have dropped 15¢ week-over-week and sit at local lows. WTI crude is flat at $71.20, suggesting stable near-term costs. Summer blend and lack of supply disruptions indicate no immediate upward pressure.",
+      "why": "Nebraska prices have dropped $0.15 over the week and are at a recent low. WTI crude is rising slightly, but summer blend demand and current softness create a favorable window to fill up before any potential rebound.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.82,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at a recent low of $3.82/gal with a solid week-over-week decline of 10¢. WTI crude is flat, and national trends show downward pressure. Summer blend is in effect, offering a favorable fill-up window.",
+      "why": "Nevada gas is at its lowest point this week, down 10 cents. Crude is rising slightly, but your region has already absorbed recent declines. Summer blend premium is in effect, limiting further drops.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "NH prices are at a recent low after a 12-cent weekly drop. WTI crude is flat around $71, indicating stable near-term supply. Summer blend and lack of holiday demand support steady pricing.",
+      "why": "NH prices have dropped 12¢ this week and sit at recent lows. WTI crude is rising slightly, but national momentum remains downward. Summer blend typically stabilizes mid-week.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "New Jersey prices have dropped 12 cents week-over-week and are at their lowest point. WTI crude is flat around $71, suggesting no immediate upward pressure. Summer blend is in effect, which typically stabilizes prices.",
+      "why": "NJ prices have dropped 12¢ week-over-week and sit at recent lows. WTI is rising slightly, but summer blend demand typically stabilizes mid-week. Current pricing offers a solid filling window before potential mid-week uptick.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1734,10 +1734,10 @@
       "priceLow": 3.103,
       "weekDelta": -0.137,
       "weekDeltaDir": "down",
-      "why": "New Mexico gas is at its lowest point this week, down 13.7 cents from last week. WTI crude is stable and summer blend prices are seasonal. This is a solid window to fill up before potential recovery.",
+      "why": "New Mexico prices have dropped 13.7¢ week-over-week and sit at a recent low of $3.103/gal. WTI crude is rising slightly, but momentum remains downward. Summer blend availability supports current pricing stability.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.279,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "New York gas is at a recent low of $4.279/gal with a week-over-week drop of $0.106. Crude is flat at $71.20, suggesting prices have stabilized. Summer blend premium and no holiday disruptions support a near-term floor.",
+      "why": "New York gas is at a recent low of $4.279/gal after a week-over-week drop of $0.106. Although WTI crude is rising slightly, the downward momentum in retail prices and summer blend availability create a favorable window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1848,10 +1848,10 @@
       "priceLow": 3.061,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "NC prices have dropped 11¢ week-over-week and are at a recent low. WTI crude is flat near $71, suggesting stable supply. Summer blend is in effect with no major disruptions expected.",
+      "why": "NC gas is at a local low of $3.06/gal after dropping 11¢ week-over-week. WTI crude is rising slightly, but summer blend supply remains adequate. This represents a good buying opportunity before momentum shifts.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1905,10 +1905,10 @@
       "priceLow": 3.192,
       "weekDelta": -0.153,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices have dropped 15¢ over the week and now sit at a local low of $3.19/gal. WTI crude is flat at $71, suggesting limited near-term pressure. Summer demand is steady but not spiking.",
+      "why": "North Dakota prices have dropped 15¢ week-over-week and sit at a local low of $3.19/gal. Despite crude rising today, the regional downtrend and summer blend pricing provide a favorable fill-up window before potential upstream cost pressures take effect.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1962,10 +1962,10 @@
       "priceLow": 4.016,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio's price is at its local low with flat week-over-week movement. WTI crude is stable at $71.20, showing no immediate pressure. Summer blend is in effect, and national trends suggest a dip, indicating steady conditions.",
+      "why": "Ohio prices are at their lowest point with no week-over-week change. WTI crude is rising slightly, but summer blend demand and current stability suggest a good fill-up window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.837,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices have dropped 12.5¢ week-over-week and are at a recent low. WTI crude is flat, suggesting stability. Summer blend is in effect with no major supply disruptions reported.",
+      "why": "Oklahoma prices have dropped 12.5¢ week-over-week and are at a recent low. WTI is rising slightly, but current price momentum favors buyers. Summer blend demand is stable with no holiday pressures.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.88,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 10¢ this week and are at their local low of $3.88/gal. WTI crude is flat with no momentum, and summer blend demand is stable. This represents a solid buying window.",
+      "why": "Oregon prices have dropped 10¢ week-over-week and are at recent lows despite crude ticking up. Summer blend demand is steady but not spiking. Upward crude pressure suggests limited downside ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.533,
       "weekDelta": -0.128,
       "weekDeltaDir": "down",
-      "why": "PA prices have dropped 12.8¢ week-over-week and are at their local low. WTI crude is flat, signaling stabilization. Summer blend is active but no supply disruptions reported.",
+      "why": "PA prices have dropped 12.8¢ this week and sit at recent lows. WTI is rising slightly, but summer blend supply remains stable. Current price represents a solid buying window before crude momentum pushes prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.412,
       "weekDelta": -0.124,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices have dropped 12.4¢ this week and are now at their lowest point. WTI crude is flat around $71, suggesting stable near-term costs. Summer blend pricing is typical for the season with no immediate upward pressure.",
+      "why": "Rhode Island prices have dropped 12.4¢ week-over-week and sit at a recent low. Despite crude oil ticking up slightly, the downward momentum and summer blend pricing support current value. Fill up now before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2247,10 +2247,10 @@
       "priceLow": 3.061,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "South Carolina gas is at a recent low of $3.06/gal with a solid week-over-week drop of 11 cents. WTI crude is flat at $71.20, and national trends show a dip. Summer blend pricing is stable with no immediate upward pressure.",
+      "why": "SC prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is rising slightly, but summer blend supply remains adequate. This represents a favorable window before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2304,10 +2304,10 @@
       "priceLow": 3.162,
       "weekDelta": -0.152,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices have dropped 15¢/gal week-over-week and are at a recent low. WTI crude is flat around $71, suggesting limited upward pressure near term. Summer blend supply is stable.",
+      "why": "South Dakota prices are at a recent low after a significant weekly drop of 15¢. WTI crude is rising modestly, but current gas prices remain favorable. Summer blend and stable regional supply support holding near this level.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.906,
       "weekDelta": -0.128,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.906/gal with week-over-week decline of $0.128. WTI crude is flat at $71.20, suggesting stable near-term pricing. Summer blend is in effect with no holiday demand spike expected.",
+      "why": "Tennessee prices are at a recent low of $2.906/gal after a -0.128 week-over-week drop. WTI crude is rising today, but summer blend availability and downward momentum create a favorable window to fill up now before prices climb.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.561,
       "weekDelta": -0.191,
       "weekDeltaDir": "down",
-      "why": "Texas prices have dropped 19¢ in a week and now sit at a recent low. WTI crude is flat, suggesting stability near current levels. Summer blend is active but no major supply disruptions are evident.",
+      "why": "Texas prices are at a recent low after a week-long decline of 19 cents. WTI crude is rising slightly, but summer demand and competitive supply keep prices stable near support levels.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.463,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 11¢ in the past week and are at their lowest point. WTI crude is stable at $71.20, suggesting limited upward pressure. Summer blend demand is moderate, creating a favorable window to fill up.",
+      "why": "Utah prices have dropped 11¢ this week and are at a local low. Despite crude ticking up today, the downward momentum and summer blend availability suggest a brief window before prices stabilize or rise.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.392,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its lowest point this week, down 12¢ from last week. Crude oil is flat and stable, with no imminent price drivers. Summer blend pricing is holding steady.",
+      "why": "Vermont prices have dropped 12¢ this week and are at a recent low. Crude is rising slightly, but summer blend supply remains stable. This represents a good refill window before potential upward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2589,10 +2589,10 @@
       "priceLow": 3.161,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Virginia prices have dropped 11.5¢ in the past week and are now at a local low. WTI crude is stable at $71/barrel with no upward pressure, and summer blend supplies are adequate.",
+      "why": "Virginia gas is at a recent low after a 11.5¢ weekly drop. WTI crude is rising slightly, which may support prices, but current levels remain favorable for consumers. Summer blend transition is complete with no major supply disruptions reported.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.444,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their lowest point with no week-over-week change. WTI crude is flat at $71.20, and national averages show downward pressure. Summer blend demand is stable with no major supply disruptions signaled.",
+      "why": "Washington prices are at their weekly low with no change week-over-week. WTI crude is rising slightly, but current retail prices reflect stable summer-blend fundamentals. No immediate pressure downward expected in the next 2–3 days.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2703,10 +2703,10 @@
       "priceLow": 3.191,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "WV gas is at a local low of $3.19/gal with solid week-over-week decline of $0.12. WTI crude is flat and stable at $71.20, suggesting no imminent spike. Summer blend is active but no major supply disruptions reported.",
+      "why": "WV gas is at a local low after a 11.6¢ weekly drop. Crude is rising slightly, but summer blend pricing and current market softness suggest a brief window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.159,
       "weekDeltaDir": "down",
-      "why": "Wisconsin gas is at its lowest point this week, down 16¢ from last week. WTI crude is stable at $71.20, suggesting no imminent spike. Summer blend pricing is normal for the season.",
+      "why": "Wisconsin prices have dropped 16¢ this week and sit at a recent low. Despite crude trending upward, summer blend demand and current market conditions create a favorable buying window before potential increases.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.36,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices are at a recent low after dropping 10.8¢ week-over-week. WTI crude is flat at $71.20, suggesting stability. Summer blend is in effect with no major supply disruptions reported locally.",
+      "why": "Wyoming prices have dropped 10.8¢ this week and are at their local low. Despite WTI crude ticking up, the weekly downtrend and summer blend stability suggest prices are consolidating near a floor.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.563,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "DC gas prices have dropped 12.9¢ week-over-week and are at their local low. WTI crude is flat at $71.20, suggesting stable near-term pricing with no major upward pressure expected.",
+      "why": "DC prices are at their recent low after a week-long decline of 12.9 cents. Despite crude oil trending upward, the local downtrend provides a favorable fill-up window before momentum shifts.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.655,
       "priceLow": 1.605,
       "weekDelta": 0.075,
       "weekDeltaDir": "up",
-      "why": "Alberta prices are up 7.5¢/L week-over-week and sit 5¢ above the local low. WTI crude is flat with no momentum. Summer blend is active but no immediate pressure signals a further drop.",
-      "advice": "Top off partially, wait for di",
+      "why": "Alberta prices are up 7.5¢ this week as WTI crude climbs. Current 1.655 $/L sits 5¢ above the recent low, with upward crude momentum suggesting further pressure ahead.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2988,10 +2988,10 @@
       "priceLow": 1.889,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "BC prices are 5.8¢/L above the recent low. WTI is flat and summer blend is in effect. Modest upward drift week-over-week suggests prices may stabilize or creep higher—no strong downward signal yet.",
-      "advice": "Top off today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "BC prices are 3.2% above the recent low at $1.947/L. WTI crude is rising and summer blend season typically supports higher prices. Week-over-week gains suggest upward momentum, leaving little near-term relief.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3045,10 +3045,10 @@
       "priceLow": 1.626,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices are 0.05 $/L above the local low, with WTI crude flat and week-over-week gains minimal. Summer blend and stable crude suggest limited downside risk, but modest room to negotiate better rates exists.",
-      "advice": "Top off partially today",
+      "why": "Manitoba prices are 3.1¢/L above the local low, with WTI crude rising. Summer blend is in effect and week-over-week gains suggest upward momentum. A modest pullback to 1.65–1.66 $/L is possible mid-week before crude strength pushes prices higher.",
+      "advice": "Top up Wednesday",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3097,15 +3097,15 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.755,
       "priceLow": 1.702,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "NB prices are 0.8¢/L above the local low with flat crude conditions. Summer blend and stable WTI suggest no major near-term drop, though a modest 0.5–1¢ dip is possible mid-week.",
-      "advice": "Top off today or tomorrow",
+      "why": "Prices are 5.3¢/L above the regional low with crude moving upward. Summer blend and rising WTI suggest limited near-term relief. Current levels offer a reasonable but not optimal fill-up window.",
+      "advice": "Top off today, hold rest",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.789,
       "priceLow": 1.735,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "Current price at 1.789 $/L is only 0.054 $/L above the recent low. WTI crude is flat with no directional pressure, and week-over-week gains are minimal. Summer blend stability suggests prices are consolidating near support.",
-      "advice": "Fill up today",
+      "why": "Newfoundland prices are 0.54¢/L above the week's low, with WTI crude rising. Summer blend and upward momentum suggest limited room for near-term drops.",
+      "advice": "Top up today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.679,
       "weekDelta": -0.054,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices have dropped 5.4¢/L week-over-week and sit only 5.2¢ above the recent low. WTI crude is flat at $71.20, suggesting stable near-term pricing. Current levels offer a reasonable fill-up window.",
+      "why": "Nova Scotia prices have dropped 5.4¢/L week-over-week and sit only 5.2¢ above the local low. WTI crude is rising, but summer blend supply remains adequate. Current pricing offers a reasonable fill-up window before potential upward pressure.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3268,15 +3268,15 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.683,
       "priceLow": 1.633,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ontario prices are 5¢/L above the regional low, with flat crude markets and minimal week-over-week movement. Summer blend is active but no major supply disruptions are signaled.",
-      "advice": "Top off partially, monitor Fri",
-      "bestDayIdx": 5,
-      "wtiDir": "flat",
+      "why": "Ontario prices are 5 cents above the week's low, with WTI rising modestly. Summer blend is in effect. Slight downward momentum this week suggests waiting a day or two could yield better rates before crude pressure builds.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3330,10 +3330,10 @@
       "priceLow": 1.692,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "PE prices are 0.052 $/L above the recent low, and crude is flat with no major cost drivers. Modest weekly gains suggest modest upward pressure, but summer blend stability and lack of supply shocks indicate limited further increases.",
+      "why": "PEI prices are 0.8¢/L above local lows with WTI crude rising. Summer blend demand and upward crude momentum suggest limited near-term savings, though the national trend shows softening pressure.",
       "advice": "Top off partially today",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3387,10 +3387,10 @@
       "priceLow": 1.735,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "Quebec prices are 0.054 $/L above the local low, with flat crude markets and modest weekly gains. Summer blend costs are stable with no major supply disruptions reported.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Quebec prices are 0.054 $/L above the week's low, and WTI crude is rising. Summer blend costs more, and upward momentum suggests further increases ahead. A dip window may open in 2–3 days as markets digest recent moves.",
+      "advice": "Top off half · wait for dip",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3444,10 +3444,10 @@
       "priceLow": 1.548,
       "weekDelta": 0.007,
       "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are 0.048 $/L above the local low, with WTI crude flat and minimal week-over-week movement. Summer blend is standard, and no major supply disruptions are evident. A small margin remains for further softening.",
-      "advice": "Top off partially, wait for di",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Saskatchewan prices are 0.048 $/L above the recent low, with WTI crude rising. Week-over-week gains suggest upward momentum. Summer blend supply is stable, but crude direction points to continued pressure.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -3501,10 +3501,10 @@
       "priceLow": 2.065,
       "weekDelta": 0.01,
       "weekDeltaDir": "up",
-      "why": "Northern Canada prices are 0.064 $/L above the regional low, with flat crude and modest week-over-week gains. Summer blend and stable global fundamentals suggest limited near-term upside; prices may drift down as seasonal demand stabilizes.",
-      "advice": "Top off partially, wait until ",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Northern Canada prices are up slightly week-over-week at $2.129/L, while WTI crude edges higher. A 6¢/L spread exists to the regional low, suggesting modest room to negotiate or wait. Summer demand and rising crude add upward pressure, but the trend remains gradual.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
