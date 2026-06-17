@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-06-17T12:00:36.972853+00:00",
-    "pricesUpdatedAt": "2026-06-17T12:00:15.307390+00:00",
+    "updatedAt": "2026-06-17T18:00:34.249350+00:00",
+    "pricesUpdatedAt": "2026-06-17T18:00:19.313478+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-17T12:57:01.353411+00:00",
-    "nextAnalysisUpdate": "2026-06-17T18:27:01.353423+00:00"
+    "nextPriceUpdate": "2026-06-17T18:32:14.871861+00:00",
+    "nextAnalysisUpdate": "2026-06-18T00:02:14.871872+00:00"
   },
   "wti": {
-    "price": 95.0,
-    "dir": "up",
-    "change": 0.68
+    "price": 84.65,
+    "dir": "down",
+    "change": -3.97
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.827,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Alabama prices have dropped 12.5¢ week-over-week and sit at a local low of $2.827/gal. Rising WTI crude (+0.68) poses upside risk, but current momentum favors buyers. Summer blend and stable supply support near-term holding.",
+      "why": "Alabama gas is at a recent low of $2.83/gal with crude falling $3.97. Week-over-week prices dropped 12.5 cents, and national trends show sustained downward momentum. Summer blend is active but demand is moderate.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -81,10 +81,10 @@
       "priceLow": 3.72,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at their lowest point this week as national average drops below $4. WTI crude is rising slightly, but current local pricing reflects recent downward momentum. Summer blend availability supports competitive rates.",
+      "why": "Alaska gas is at a recent low of $3.72/gal, down 10¢ week-over-week. WTI crude is falling and the national average is dropping below $4. Summer blend is in effect, but no major supply disruptions are signaled.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -138,10 +138,10 @@
       "priceLow": 3.21,
       "weekDelta": -0.085,
       "weekDeltaDir": "down",
-      "why": "Arizona prices have dropped 8.5¢ week-over-week and sit at recent lows. WTI crude is rising slightly, but summer blend supply remains adequate. Current pricing offers a solid fill-up window before potential upward pressure.",
+      "why": "Arizona gas is at a local low of $3.21/gal, matching the lowest available price. Crude oil is declining and prices have dropped 8.5¢ week-over-week, suggesting downward momentum may be slowing.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -195,10 +195,10 @@
       "priceLow": 2.768,
       "weekDelta": -0.122,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its lowest point this week, down 12¢ from last week. Despite crude rising slightly, the regional trend is downward and prices are competitive.",
+      "why": "Arkansas gas is at a local low of $2.768/gal with WTI crude falling sharply. Week-over-week decline of $0.122/gal shows downward momentum, and national trends confirm prices dropping below $4. Further drops unlikely in next 2–3 days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -252,10 +252,10 @@
       "priceLow": 5.696,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are flat week-over-week at $5.696/gal, matching the local low. WTI crude is rising slightly, but national trends show downward pressure. Summer blend premiums are in effect, limiting further decline.",
+      "why": "California gas is at its local low of $5.70/gal with WTI crude falling $3.97. National trends show prices dipping, and no major supply disruptions are imminent. This is a favorable window to fill up.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -309,10 +309,10 @@
       "priceLow": 3.985,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its recent low of $3.985/gal with stable week-over-week prices. While crude is rising slightly, the national trend shows downward pressure. Summer blend demand is typical for this season.",
+      "why": "Colorado gas is at 3.985/gal, matching your local low. WTI crude is falling (-3.97), supporting downward pressure. National average just dropped below $4, signaling a favorable pricing window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -366,10 +366,10 @@
       "priceLow": 3.462,
       "weekDelta": -0.126,
       "weekDeltaDir": "down",
-      "why": "CT gas is at its lowest point this week after a 12-cent drop. WTI crude is rising slightly, but national trend shows prices cooling. Summer blend adds a small premium, but current levels offer good value.",
+      "why": "Connecticut gas is at a local low matching the week's bottom. WTI crude is falling (-$3.97), and national averages are dropping below $4/gal. Summer blend premium is offset by downward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -423,10 +423,10 @@
       "priceLow": 3.211,
       "weekDelta": -0.117,
       "weekDeltaDir": "down",
-      "why": "Delaware prices have dropped 11.7¢ week-over-week and are at their local low. Despite crude ticking up, downward momentum and national price relief suggest a brief window before potential increases.",
+      "why": "Delaware prices are at their recent low of $3.21/gal, supported by falling crude oil (-$3.97) and a strong weekly decline (-$0.12). National trend confirms downward momentum, making this a favorable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -480,10 +480,10 @@
       "priceLow": 3.694,
       "weekDelta": -0.246,
       "weekDeltaDir": "down",
-      "why": "Florida prices have dropped 25¢ this week and sit at a local low. WTI crude is rising, which may support prices soon, but current levels remain favorable compared to recent highs.",
+      "why": "Florida gas is at its local low of $3.694/gal with strong downward momentum (down $0.25 week-over-week). WTI crude is falling, and national averages are dropping below $4.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -537,10 +537,10 @@
       "priceLow": 2.93,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Georgia prices have dropped 10.7¢ week-over-week and sit at recent lows. WTI crude is rising slightly, but summer blend demand and downward momentum suggest prices are near a short-term floor.",
+      "why": "Georgia prices are at recent lows while crude oil is falling and the national trend shows downward momentum. Summer blend premiums are active, but the week-over-week drop of 10.7 cents signals relief after sustained highs.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -589,15 +589,15 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 4.55,
       "priceLow": 4.55,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices are at their lowest point this week as national averages decline. WTI crude is rising slightly, but regional supply remains favorable. Summer blend demand is steady without major upward pressure expected in the near term.",
-      "advice": "Fill up today",
+      "why": "Hawaii gas is at its recent low of $4.55/gal with crude falling $3.97. National averages dropping below $4 suggest downward momentum. WTI decline indicates further relief likely within days.",
+      "advice": "Top off today, rest Wed",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -651,10 +651,10 @@
       "priceLow": 3.391,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 11¢ this week and are at a local low. WTI crude is rising slightly, but current retail prices remain favorable. Summer blend supply is adequate with no regional disruptions.",
+      "why": "Idaho prices have dropped 11 cents week-over-week and match recent lows. WTI crude is declining, supporting continued downward pressure. Summer blend production is steady with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -708,10 +708,10 @@
       "priceLow": 3.633,
       "weekDelta": -0.175,
       "weekDeltaDir": "down",
-      "why": "Illinois prices are at their weekly low and have dropped 17.5 cents week-over-week. Despite crude oil rising, national average is below $4/gallon, suggesting stable supply conditions. Summer blend premiums are already factored in.",
+      "why": "Illinois prices are at their lowest point this week, matching recent lows. WTI crude is trending downward, and the national average is falling below $4/gallon, signaling continued softening. Summer blend pricing is stable with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -765,10 +765,10 @@
       "priceLow": 3.252,
       "weekDelta": -0.157,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 16¢ this week and are at a local low. WTI crude is rising slightly, but downward momentum from recent national trends suggests a short window before prices stabilize or climb.",
+      "why": "Indiana gas is at a local low matching the week's best price. WTI crude is declining and national averages are dropping. Summer blend pricing is stable with downward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -822,10 +822,10 @@
       "priceLow": 3.091,
       "weekDelta": -0.149,
       "weekDeltaDir": "down",
-      "why": "Iowa gas is at a local low of $3.09/gal, down 15¢ week-over-week. While WTI crude is rising slightly, current retail pricing reflects recent strength in the downtrend. Summer blend availability supports stable-to-lower pressure near-term.",
+      "why": "Iowa gas is at a recent low after a strong week-over-week drop of 14.9 cents. WTI crude is falling and national prices are trending downward. Summer blend pricing is in effect with stable fundamentals.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -879,10 +879,10 @@
       "priceLow": 3.031,
       "weekDelta": -0.146,
       "weekDeltaDir": "down",
-      "why": "Kansas prices have fallen 14.6¢ this week and sit at a recent low. WTI crude is rising slightly, but summer blend supply remains adequate. This represents a good filling window before potential upward pressure.",
+      "why": "Kansas gas is at a recent low of $3.03/gal with strong downward momentum (WTI down $3.97). Prices have dropped 14.6¢ week-over-week as the national trend continues lower. Summer blend transition is complete with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -936,10 +936,10 @@
       "priceLow": 3.004,
       "weekDelta": -0.133,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a 7-day low of $3.00/gal, matching recent lows. WTI is rising slightly, but downward momentum from last week suggests a temporary pricing floor. Summer blend and stable local demand create a favorable window.",
+      "why": "Kentucky prices have dropped 13¢ week-over-week and match the regional low. WTI crude is declining, supporting further downside pressure. Summer demand and blend changes offer limited upside.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -993,10 +993,10 @@
       "priceLow": 2.876,
       "weekDelta": -0.127,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices have dropped 12.7¢ this week and are at a local low. WTI crude is rising slightly, but current downward momentum and summer blend pricing create a favorable fill-up window before potential mid-week increases.",
+      "why": "Louisiana prices have dropped 12.7¢ this week and match recent lows. WTI crude is declining, supporting downward momentum. Summer blend is in effect, but broader national trends show prices stabilizing after recent drops.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.392,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 12¢ week-over-week and match recent lows at $3.39/gal. Rising WTI crude suggests support, but summer blend and national downward momentum create a favorable buying window.",
+      "why": "Maine prices are at their lowest point this week as crude oil drops and national average dips below $4/gal. Week-over-week decline of 12¢ shows strong downward momentum, though crude direction is mixed.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 12 cents week-over-week and are at a recent low of $3.29/gal. Despite crude oil ticking up slightly, the downtrend is solid and summer blend supply remains steady. National averages are breaking below $4, signaling soft demand.",
+      "why": "Maryland prices have dropped 12 cents week-over-week and are at their lowest point. Crude oil is declining and national averages are falling. Summer blend is active but downward momentum suggests further softening ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1164,10 +1164,10 @@
       "priceLow": 4.196,
       "weekDelta": -0.147,
       "weekDeltaDir": "down",
-      "why": "Massachusetts gas is at its local low of $4.196/gal with a strong weekly decline of $0.147/gal, aligning with the national downtrend below $4. Despite WTI crude ticking up slightly, momentum favors filling now before potential summer demand spikes.",
+      "why": "Massachusetts prices have dropped 15 cents week-over-week and match recent lows. Crude is down and trending lower, supporting continued easing. National average broke below $4, signaling broader downward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.332,
       "weekDelta": -0.161,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a recent low of $3.33/gal with strong week-over-week decline of $0.16. WTI crude ticking up slightly, but national trend is downward. Summer blend pricing stable.",
+      "why": "Michigan prices are at a recent low of $3.33/gal, down 16¢ week-over-week. WTI crude is falling and the national average is dropping. Summer blend demand hasn't reversed the downtrend yet.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.932,
       "weekDelta": -0.173,
       "weekDeltaDir": "down",
-      "why": "Minnesota gas is at a recent low of $3.93/gal after a strong weekly drop of -17¢. WTI crude is rising slightly, but seasonal summer blend competition keeps local prices competitive. This is a favorable fill-up window.",
+      "why": "Minnesota prices have fallen 17¢ this week as crude oil dropped below $85. You're already at a local low matching the best nearby price, with national averages dipping below $4/gal for the first time since April.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.807,
       "weekDelta": -0.124,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at its lowest point this week as national prices decline. WTI crude is rising slightly, but downward momentum and summer blend stability suggest prices have found near-term support here.",
+      "why": "Mississippi gas is at a recent low of $2.807/gal, down 12.4¢ week-over-week. WTI crude is falling ($84.65, down $3.97), and the national trend shows downward pressure. Summer blend premium is minimal now.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.991,
       "weekDelta": -0.144,
       "weekDeltaDir": "down",
-      "why": "Missouri prices have dropped 14¢ week-over-week and sit at a recent low of $2.99/gal. Rising WTI crude (+0.68) suggests upward pressure ahead, but current pricing offers a good window before potential increases.",
+      "why": "Missouri gas is at a 12-week low of $2.99/gal, driven by falling crude oil prices ($84.65, down $3.97) and broad national price declines. Summer blend transition is complete with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.463,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "Montana prices have dropped 11¢ this week and sit at a recent low. WTI crude is rising slightly, but summer blend demand and national price momentum favor consumers now. This is a good window to fill up before potential upward pressure.",
+      "why": "Montana prices have dropped 11¢ this week and are already at a local low. WTI crude is declining and national averages are falling below $4/gal, signaling continued downward pressure on fuel costs.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1506,10 +1506,10 @@
       "priceLow": 3.101,
       "weekDelta": -0.15,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices have dropped 15¢ week-over-week and are at a recent low of $3.10/gal. WTI crude is rising slightly, but current downward momentum and summer blend availability support filling up now before any rebound.",
+      "why": "Nebraska gas is at a local low of $3.10/gal with a strong week-over-week drop of $0.15. WTI crude is falling, supporting further downward momentum. Prices remain favorable in the current summer market.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.82,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at their lowest point this week and have dropped 10¢ in seven days. Rising crude oil suggests upward pressure ahead, making current levels a favorable window before potential increases.",
+      "why": "Nevada gas is at a recent low of $3.82/gal, down 10¢ week-over-week. WTI crude is declining, supporting further downward pressure on retail prices over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "NH gas is at its lowest point this week, down 12 cents year-over-year. WTI crude is rising slightly, but national downward momentum and summer blend availability support current favorable pricing.",
+      "why": "NH prices are at a recent low of $3.29/gal, matching the lowest nearby. WTI crude is falling and national averages dropped below $4, signaling downward momentum. Summer blend typically stabilizes prices mid-week.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.119,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at a recent low of $3.29/gal, down 12¢ week-over-week. WTI crude is rising but current retail pricing reflects the recent national decline. Summer blend is active, supporting current levels.",
+      "why": "NJ gas is at a recent low after a 12-cent weekly drop. WTI crude is falling and the national trend is downward. Summer blend pricing is stable with no immediate supply shocks.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1734,10 +1734,10 @@
       "priceLow": 3.103,
       "weekDelta": -0.137,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped 13.7¢ week-over-week and sit at current lows. WTI crude is rising slightly, but downward momentum and summer blend competition keep prices soft. This is a favorable window.",
+      "why": "New Mexico prices are at their lowest point this week and have dropped 14¢ week-over-week. WTI crude is declining, supporting further downward pressure. National trends show sustained price softening.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.279,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "NY prices have dropped 10.6¢ week-over-week and are at local lows. WTI crude is rising slightly, but current gas is already discounted. Summer blend availability supports stable pricing near current levels.",
+      "why": "NY prices are at their local low and WTI crude is falling. Week-over-week decline of 10.6¢ shows momentum. National average breaking below $4/gal suggests downward pressure may ease soon.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -1848,10 +1848,10 @@
       "priceLow": 3.061,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "NC gas is at a recent low of $3.061/gal with a strong week-over-week drop of 11 cents. WTI crude is rising slightly, which could limit further declines, but current prices remain favorable in a downtrend.",
+      "why": "NC prices have dropped 11¢ week-over-week and match recent lows. WTI crude is falling and national trends show downward momentum. Summer blend premium is active, but the dip suggests a good refill window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1905,10 +1905,10 @@
       "priceLow": 3.192,
       "weekDelta": -0.153,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices have fallen 15¢ week-over-week and are at a recent low. WTI crude is rising slightly, but current pump prices remain favorable. Summer blend demand is stable with no holiday pressure.",
+      "why": "North Dakota prices have dropped 15¢ over the week and match recent lows. WTI crude is declining, supporting further easing. Summer blend transition is complete, and no major supply disruptions are evident.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -1962,10 +1962,10 @@
       "priceLow": 4.016,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at a recent local low of $4.016/gal with flat week-over-week movement. National averages are dropping below $4, suggesting regional stability. WTI crude is rising slightly, but summer blend pricing and current market momentum favor filling up now.",
+      "why": "Ohio is at the lowest nearby price with crude falling $3.97. National average just dropped below $4, signaling downward momentum. Summer blend premium is temporary; further declines likely as WTI continues easing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2014,15 +2014,15 @@
       "city": "Oklahoma City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.837,
       "priceLow": 2.837,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a 7-day low after dropping 12.5¢ this week. WTI crude is rising slightly, but summer blend demand and current low pricing create a favorable fill-up window before potential upward pressure.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "Oklahoma gas is at its lowest point this week as crude oil falls and national average dips below $4/gal. Downward momentum suggests further drops possible in coming days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.88,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 10¢ week-over-week and match recent lows. Despite rising crude oil, national downward momentum and summer blend availability support current pricing. Upward crude pressure may limit further declines.",
+      "why": "Oregon prices have dropped 10¢ week-over-week and are already at a local low. WTI crude is falling, supporting continued downward pressure. Summer blend pricing and lack of holiday disruptions suggest stable supply.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.533,
       "weekDelta": -0.128,
       "weekDeltaDir": "down",
-      "why": "Pennsylvania prices are at a recent low and trending down week-over-week despite rising crude. Summer blend availability supports current pricing. Upward crude pressure suggests limited downside ahead.",
+      "why": "PA prices are at a recent low of $3.533/gal with WTI crude falling sharply. Week-over-week decline of $0.128/gal signals downward momentum, though summer blend and broader market stabilization suggest limited further drops ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.412,
       "weekDelta": -0.124,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices have dropped 12.4¢ this week and are at a recent low. WTI crude is rising slightly, but current retail prices remain favorable. Summer blend is active with no holiday demand spike expected.",
+      "why": "Rhode Island gas is at a recent low of $3.41/gal, down 12¢ week-over-week. WTI crude is declining, supporting continued downward pressure. Summer blend and national trends favor buying now before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2247,10 +2247,10 @@
       "priceLow": 3.061,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "SC prices have dropped 11¢ week-over-week and sit at recent lows. Despite crude edging up, summer blend supply remains adequate and national trends favor consumers. Current pricing is favorable.",
+      "why": "SC prices are at a recent low of $3.061/gal, down 11¢ week-over-week. WTI crude is declining (-$3.97), and national average just dropped below $4—momentum favors buyers now before any potential rebound.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2304,10 +2304,10 @@
       "priceLow": 3.162,
       "weekDelta": -0.152,
       "weekDeltaDir": "down",
-      "why": "South Dakota gas has dropped 15¢ in a week and is at a local low. WTI crude ticked up slightly, but summer blend supply remains ample. National trend supports continued stability.",
-      "advice": "Fill up today",
+      "why": "South Dakota gas is at its lowest point this week as crude oil falls and national averages drop. Downward momentum continues with WTI declining, suggesting prices may stabilize or dip slightly more in the next few days.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.906,
       "weekDelta": -0.128,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.906/gal with strong week-over-week decline of -$0.128. WTI crude is rising slightly, but downward momentum and summer blend pricing remain favorable for filling up now.",
+      "why": "Tennessee gas is at a recent low of $2.906/gal, down $0.13 week-over-week. WTI crude is falling and the national trend is downward, though summer blend costs more. Current pricing offers a solid window before potential stabilization.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.561,
       "weekDelta": -0.191,
       "weekDeltaDir": "down",
-      "why": "Texas prices have dropped 19¢ in a week and are at recent lows despite WTI crude rising slightly. Summer blend demand is typical, and national trends show downward momentum. The local low matches current price, signaling a good fill-up window.",
+      "why": "Texas gas prices have dropped 19¢ this week as WTI crude fell below $85/bbl. You're already at a local low with strong downward momentum. Summer demand and blend changeover provide some floor, but crude direction remains bearish.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.463,
       "weekDelta": -0.111,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 11¢ week-over-week and are at a local low. While crude is ticking up, the downward momentum and current low position create a favorable fill-up window before potential summer demand increases.",
+      "why": "Utah prices have dropped 11¢ week-over-week and are at recent lows. WTI crude is falling (-3.97), signaling continued downward pressure. National trend confirms broader price softening.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.392,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at a recent low of $3.39/gal with a strong week-over-week drop of 12¢. Despite crude oil ticking up slightly, the downward momentum and national trend suggest prices have stabilized near a favorable level.",
+      "why": "Vermont prices have dropped 12.3¢ this week and match the local low. WTI crude is falling, and the national average is trending downward. Summer demand and blend costs are neutral factors, but momentum favors lower prices ahead.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
+      "bestDayIdx": 3,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2589,10 +2589,10 @@
       "priceLow": 3.161,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Virginia prices have dropped 11.5¢ this week and now match the regional low. WTI crude is rising slightly, but summer blend demand and downward momentum suggest a brief window before prices stabilize or tick up.",
+      "why": "Virginia prices are at a recent low of $3.161/gal, matching the lowest nearby. WTI crude is falling (-$3.97), and national averages are trending downward. Summer blend is active, keeping prices stable.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.444,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are stable at $5.44/gal, matching the local low. WTI crude is rising slightly, but national averages are declining. Summer blend premium is in effect. Current pricing offers a reasonable fill-up window before potential mid-week volatility.",
+      "why": "WA prices are at a local low matching the regional floor. Crude is falling sharply (-$3.97/barrel) and national averages are dropping toward $4/gallon, signaling continued downward pressure. Summer blend premiums are minimal now.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2703,10 +2703,10 @@
       "priceLow": 3.191,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "WV gas prices have dropped 11.6¢ week-over-week and sit at a recent low. Despite upward crude pressure, the national downtrend and competitive local pricing create a favorable fill-up window before potential summer demand rebounds.",
+      "why": "WV gas at $3.19/gal is already at a recent low with strong week-over-week decline of $0.12. WTI crude falling and national average dropping below $4 suggest downward momentum may be slowing here.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.292,
       "weekDelta": -0.159,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have fallen 16¢ this week and now match the local low. WTI crude is rising slightly, but seasonal summer blend competition keeps prices competitive. Current levels represent a solid buying opportunity.",
-      "advice": "Fill up today",
+      "why": "Wisconsin prices have dropped 16¢ week-over-week and are at a recent low as WTI crude falls. Summer blend demand is steady but downward momentum in crude suggests prices may stabilize or dip slightly in the next 2–3 days.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.36,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices have dropped 10.8 cents week-over-week and match the lowest nearby, indicating a recent low. While WTI crude is ticking upward, current retail prices remain favorable in the broader downtrend below the national $4 average.",
+      "why": "Wyoming prices have dropped 10.8¢ this week and are already at their local low. WTI crude is falling ($84.65, down $3.97), signaling continued downward pressure. You're in a good buying window right now.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.563,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "DC gas is at a recent low of $3.563/gal, down 12.9¢ week-over-week. Rising WTI crude (+0.68) suggests potential upward pressure ahead, but the national downtrend and summer blend availability provide a favorable near-term window.",
+      "why": "DC prices have dropped 12.9¢ this week and crude is falling. You're at a local low with downward momentum. Summer blend premium is in effect, but the broader trend favors filling now before any stabilization.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2931,10 +2931,10 @@
       "priceLow": 1.605,
       "weekDelta": 0.075,
       "weekDeltaDir": "up",
-      "why": "Alberta prices have risen 7.5¢/L week-over-week and sit 5¢ above the regional low. WTI crude is climbing, signaling upward pressure. However, North American averages are softening, suggesting temporary relief may arrive within days.",
+      "why": "WTI crude is declining and U.S. prices are dropping, signaling downward pressure. Alberta prices are 5¢ above the nearby low, with week-over-week gains likely to reverse soon as crude momentum favors buyers.",
       "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -2983,15 +2983,15 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.947,
       "priceLow": 1.889,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "BC prices are 3.2% above the local low at $1.947/L. WTI crude is rising and summer blend costs more, but U.S. prices are cooling. A modest pull-back is likely within 2–3 days as downstream supply adjusts.",
-      "advice": "Top off partially today",
+      "why": "WTI crude is falling sharply (-$3.97), signaling downward pressure on retail prices. BC sits 6¢ above recent lows, and weak North American demand suggests further decline likely within 3–5 days.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3040,15 +3040,15 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 1.676,
       "priceLow": 1.626,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices are 5¢ above the recent low despite modest week-over-week gains. WTI crude is rising, but North American retail pressure is downward. You're in a narrow window—prices could hold or edge up slightly mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "why": "WTI crude is falling and U.S. prices are declining, signaling downward pressure on Canadian fuel. Manitoba's current price sits 5¢/L above the local low, suggesting room to drop further this week.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3097,15 +3097,15 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.755,
       "priceLow": 1.702,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "New Brunswick prices are 1.8% above recent lows with WTI crude rising. North American downward pressure is offset by upstream strength, suggesting limited near-term relief.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude is falling sharply (-3.97), and North American gas prices are dropping. New Brunswick's 1.755 $/L is slightly above the regional low of 1.702 $/L, suggesting a brief dip before potential stabilization. Downward momentum favors waiting 2–3 days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.789,
       "priceLow": 1.735,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "NL prices are 0.054 $/L above recent lows despite modest weekly gains. WTI crude rising signals upward pressure, but North American trend shows softening. Summer blend costs and current inventory levels suggest limited downside this week.",
-      "advice": "Top up partial today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude dropped nearly $4/barrel and U.S. prices are falling, signaling downward momentum. Newfoundland is slightly elevated versus recent lows at 1.735 $/L, suggesting room to decline in the coming days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3211,15 +3211,15 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.731,
       "priceLow": 1.679,
       "weekDelta": -0.054,
       "weekDeltaDir": "down",
-      "why": "NS prices fell 5.4¢/L week-over-week and sit only 5.2¢ above the local low, suggesting a good buying window. Rising WTI crude (+0.68) may limit further drops, but North American downward pressure is still present.",
-      "advice": "Fill up today",
+      "why": "Nova Scotia prices have dropped 5.4¢/L week-over-week as crude falls below $85/barrel. Current price sits 5.2¢/L above the local low, with downward momentum continuing across North America.",
+      "advice": "Fill up by Wednesday",
       "bestDayIdx": 3,
-      "wtiDir": "up",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3273,10 +3273,10 @@
       "priceLow": 1.633,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ontario prices are 3% above the local low at 1.683 $/L, but WTI crude is rising and week-over-week decline has stalled. Summer blend and stable demand suggest limited downside near-term.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude falling sharply (-$3.97) and U.S. prices dropping suggest North American downward momentum. Ontario at 1.683 $/L is only 0.05 above local low, but further relief likely within 2–5 days as crude weakness filters through.",
+      "advice": "Top off half · wait for Friday",
+      "bestDayIdx": 5,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3325,15 +3325,15 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.744,
       "priceLow": 1.692,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "PEI prices are 0.052 $/L above the regional low, but WTI crude is rising and summer blend demand supports current levels. U.S. price drops suggest North American softness may be temporary given crude's upward momentum.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward pressure on Canadian markets. PEI is currently 0.052 $/L above the recent low, suggesting room for further decline in the next few days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3382,15 +3382,15 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.789,
       "priceLow": 1.735,
       "weekDelta": 0.008,
       "weekDeltaDir": "up",
-      "why": "Quebec prices are 0.054 $/L above the week's low, but WTI is climbing and summer blend costs more. U.S. prices dropped, suggesting downward pressure may ease soon. Current pricing offers modest room before potential increases.",
-      "advice": "Top off partially, watch Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward pressure on Canadian markets. Quebec is 5.4¢/L above its weekly low, suggesting room for further decline in the next 2–3 days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3439,15 +3439,15 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.596,
       "priceLow": 1.548,
       "weekDelta": 0.007,
       "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are 3¢ above the local low, and WTI crude is rising. U.S. prices are falling, but upward crude momentum and summer blend premiums suggest limited downside this week.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
+      "why": "WTI crude is falling sharply and U.S. averages are declining, signaling downward pressure on Canadian prices. Saskatchewan is 0.048 $/L above its local low, with room to drop in the near term.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
@@ -3496,15 +3496,15 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 2.129,
       "priceLow": 2.065,
       "weekDelta": 0.01,
       "weekDeltaDir": "up",
-      "why": "Northern Canada prices are up slightly week-over-week despite U.S. average falling below $4/gallon. WTI crude trending upward limits near-term relief. Current price sits 0.064 $/L above the recent low, suggesting modest room to decline.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "WTI crude is falling (-3.97) and U.S. averages dropping signal downward momentum. Northern Canada prices at 2.129 $/L are 0.064 above the local low, suggesting room to decline over the next few days as the trend filters north.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
