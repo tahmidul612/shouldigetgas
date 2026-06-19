@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-06-19T06:01:35.560003+00:00",
-    "pricesUpdatedAt": "2026-06-19T06:01:18.817679+00:00",
+    "updatedAt": "2026-06-19T12:01:00.116193+00:00",
+    "pricesUpdatedAt": "2026-06-19T12:00:51.914940+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-19T06:33:47.679943+00:00",
-    "nextAnalysisUpdate": "2026-06-19T12:03:47.679959+00:00"
+    "nextPriceUpdate": "2026-06-19T12:37:16.037695+00:00",
+    "nextAnalysisUpdate": "2026-06-19T18:07:16.037707+00:00"
   },
   "wti": {
     "price": 84.65,
@@ -24,11 +24,16 @@
       "priceLow": 2.711,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Alabama gas prices have dropped 9.4¢ this week and hit a recent low of $2.71/gal. WTI crude is falling, supporting continued downward pressure. Current pricing offers a solid fill-up window.",
+      "why": "Alabama prices have dropped 9.4¢ week-over-week and are at recent lows. WTI crude is declining toward pre-conflict levels, but retail pass-through typically lags by days. Summer blend demand may provide some support.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -38,11 +43,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.605,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alaska's price is at its recent low of $3.605/gal, mirroring a broader national decline. WTI crude is falling and week-over-week prices dropped nearly 9 cents, suggesting the downtrend is stabilizing at current levels.",
+      "why": "Alaska prices have dropped 9 cents week-over-week as crude oil slides toward pre-conflict levels. You're at a local low, and while broader downward pressure exists, full national pass-through typically lags 2–5 weeks.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -95,11 +100,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 3.111,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at their lowest point this week as crude oil falls and national averages drop. Summer blend demand is present but downward momentum is strong, suggesting further relief may arrive soon.",
-      "advice": "Top off today · wait for rest",
-      "bestDayIdx": 3,
+      "why": "Arizona prices are at their weekly low as crude oil slides downward. WTI's recent 3.97 drop suggests further softening ahead, but retail gas typically lags wholesale by 2–5 days. Current pricing is near recent local bottom.",
+      "advice": "Top off today, monitor Fri",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -152,11 +157,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -190,16 +190,21 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.654,
       "priceLow": 2.654,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Arkansas prices are at their recent low of $2.654/gal, matching the lowest nearby. Crude is falling ($84.65, down $3.97), and week-over-week prices dropped 9.2 cents—strong downward momentum suggests this is a good window to fill up before any rebound.",
-      "advice": "Fill up today",
+      "why": "Arkansas prices are at their weekly low and crude is declining. Downward momentum suggests further drops over the next few days, but you're already at a favorable point.",
+      "advice": "Fill up today or wait until We",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -209,11 +214,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -247,14 +247,14 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 5.554,
       "priceLow": 5.554,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California gas is at its local low of $5.554/gal with WTI crude falling $3.97. The national trend is downward, and summer blend premiums are already reflected in current pricing. No immediate upward pressure visible.",
-      "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "why": "California prices are flat at $5.55/gal while crude oil is falling. National trends show downward pressure, but California's unique fuel blend keeps prices elevated. Oil weakness should filter into pumps within days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
@@ -263,14 +263,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
           "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -304,16 +304,21 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.95,
       "priceLow": 3.95,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its local low of $3.95/gal with WTI crude falling $3.97. National trend shows prices dropping below $4 for the first time since April, signaling downward momentum continuing.",
-      "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "why": "Colorado prices are flat at $3.95/gal while crude oil is falling sharply. Retail stations lag wholesale drops by days to weeks, so lower prices should arrive within 2–5 days as the supply chain adjusts.",
+      "advice": "Fill up by Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -323,11 +328,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -361,16 +361,21 @@
       "city": "Hartford",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.362,
       "priceLow": 3.362,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "Connecticut gas is at its lowest point this week as crude oil drops and national averages fall below $4/gallon. Downward momentum suggests prices may dip further over the next few days before stabilizing.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Connecticut prices have dropped 6.7¢ week-over-week and are at local lows. Crude oil is sliding downward, but retail gas lags wholesale by days to weeks. Current pricing offers a solid buying window before any rebound.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -380,11 +385,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -418,16 +418,21 @@
       "city": "Wilmington",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.119,
       "priceLow": 3.119,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Delaware gas is at its local low of $3.12/gal with crude falling $3.97. Weekly decline of 6¢ and national downtrend suggest prices are stabilizing near support. Summer blend demand is moderate with no holiday boost expected.",
-      "advice": "Fill up today",
+      "why": "Delaware prices are at their weekly low as crude oil slides downward. WTI's recent drop suggests further relief ahead, but gasoline typically lags oil price moves by days. You're in a decent spot now, but patience could yield better rates.",
+      "advice": "Top off half · wait for Wed",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -437,11 +442,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -475,13 +475,13 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.739,
       "priceLow": 3.694,
       "weekDelta": 0.045,
       "weekDeltaDir": "up",
-      "why": "WTI crude is falling and national average dropped below $4, signaling downward pressure. Florida prices are slightly elevated versus regional low, with summer blend adding a small premium. Expect continued easing over the next few days.",
-      "advice": "Hold until Thursday",
+      "why": "Florida prices are slightly above the week's low, but crude oil is falling and national averages are dropping. Summer blend premiums and holiday-free week suggest downward pressure over the next few days.",
+      "advice": "Top off partially, wait",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
@@ -491,14 +491,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
           "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -532,16 +532,21 @@
       "city": "Atlanta",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.846,
       "priceLow": 2.846,
       "weekDelta": -0.056,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their lowest point this week as crude oil retreats. The national downtrend and WTI weakness suggest continued modest relief ahead, though summer blend costs limit further drops.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Georgia prices are at their local low of $2.85/gal with crude falling and week-over-week decline showing downward momentum. However, refineries typically lag 2–5 weeks behind crude drops, so further decreases may be coming.",
+      "advice": "Fill up today, top off Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -551,11 +556,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -589,16 +589,21 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 4.409,
       "priceLow": 4.409,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Hawaii's pump price matches its recent low while WTI crude slides below $85/barrel. National averages are falling, and week-over-week decline shows momentum. Summer blend transition is complete, reducing near-term cost pressures.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Hawaii gas prices are at their lowest point this week as crude oil slides downward. Mainland U.S. averages have dropped below $4/gallon, and the downward trend suggests further easing ahead, though Hawaii typically lags national price changes by several days.",
+      "advice": "Top off half · wait until Frid",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -608,11 +613,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -651,11 +651,16 @@
       "priceLow": 3.269,
       "weekDelta": -0.072,
       "weekDeltaDir": "down",
-      "why": "Idaho prices are at a recent low with weak crude oil trend (-$3.97/barrel). National averages dropping below $4/gallon suggest continued downward momentum. Summer blend premium is already factored in.",
+      "why": "Idaho prices have dropped 7¢ week-over-week and match the local low. WTI crude is falling and heading toward pre-conflict levels, but full retail pass-through typically lags 2–5 days. You're at a good entry point now.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -665,11 +670,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -708,11 +708,16 @@
       "priceLow": 3.519,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Illinois prices are at a recent low of $3.519/gal, reinforcing a week-long downtrend. WTI crude is declining, and national averages are dropping below $4/gal, signaling continued relief at the pump.",
+      "why": "Illinois prices are at their lowest point this week as crude oil slides downward. While retail gas lags behind wholesale drops, the downward trend is establishing and you're already at a local low.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -722,11 +727,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -760,16 +760,21 @@
       "city": "Indianapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.149,
       "priceLow": 3.149,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Indiana gas prices have dropped 7 cents week-over-week and match the recent low. WTI crude is falling, supporting further easing. Summer blend is in effect, but downward momentum suggests prices may dip slightly more in the next few days.",
-      "advice": "Top off today, wait for rest",
+      "why": "Indiana gas is at a recent low matching the regional floor, supported by falling WTI crude (-3.97). Week-over-week decline of -0.069 shows downward momentum, though full crude-to-pump transmission takes weeks.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -779,11 +784,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -822,11 +822,16 @@
       "priceLow": 2.994,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at a recent low of $2.99/gal, with WTI crude falling sharply. Downward momentum continues, but crude weakness suggests limited further drops this week.",
-      "advice": "Fill up today",
+      "why": "Iowa prices are at a recent low of $2.99/gal, and crude oil is declining with downward momentum. However, retail prices typically lag wholesale drops by several days, so further reductions may arrive this week.",
+      "advice": "Fill up today, watch for Wed d",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -836,11 +841,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -874,16 +874,21 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.935,
       "priceLow": 2.935,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Kansas prices are at a recent low of $2.935/gal, down 6.4¢ week-over-week. WTI crude is falling and national average dropped below $4, signaling continued downward pressure. Summer blend premiums are offset by weakening crude demand.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Kansas gas is at its lowest point this week as crude oil slides downward. Prices have dropped 6.4 cents week-over-week, but retail stations lag behind oil declines by days or weeks, so further drops are likely in the coming days.",
+      "advice": "Top off partially, fill Fri",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -893,11 +898,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -931,16 +931,21 @@
       "city": "Louisville",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.881,
       "priceLow": 2.881,
       "weekDelta": -0.1,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices have dropped 10¢ week-over-week and match recent lows. WTI crude is falling and national average is declining. Summer blend is in effect with stable supply fundamentals.",
-      "advice": "Fill up today",
+      "why": "Kentucky prices are at their weekly low of $2.881/gal, matching the regional bottom. WTI crude is falling and approaching pre-conflict levels, signaling downward momentum. However, the lag between oil price drops and pump prices means further savings may arrive over the next few days.",
+      "advice": "Top off now, monitor for Wed d",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -950,11 +955,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -993,11 +993,16 @@
       "priceLow": 2.758,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Louisiana gas is at its weekly low of $2.758/gal with WTI crude falling $3.97. Downward momentum continues as national averages drop below $4. Summer blend is in effect but no supply disruptions are evident.",
+      "why": "Louisiana prices are at their weekly low after a $0.10 drop week-over-week, tracking falling crude oil ($84.65, down $3.97). However, refineries may lag passing savings to pumps over the next 2–5 days.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1007,11 +1012,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Maine's price matches its local low, and crude is falling with momentum. Week-over-week decline of 6.5¢ signals downward pressure, though summer blend and stable demand may limit further drops over the next few days.",
-      "advice": "Fill up today",
+      "why": "Maine prices are at their lowest point this week as crude oil slides down. Downward momentum suggests further relief ahead, though retail gas typically lags wholesale by 1–2 weeks.",
+      "advice": "Fill up today, monitor for dip",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1064,11 +1069,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1107,11 +1107,16 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Maryland prices are at a recent low of $3.197/gal following a week-long $0.063 decline. WTI crude is falling, and national averages continue dropping below $4/gal, signaling continued downward pressure on pump prices.",
+      "why": "Maryland prices are at a recent low as crude oil slides downward. Week-over-week decline of 6 cents signals momentum, though full refinery pass-through typically lags 2–4 weeks. Current level offers a solid fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1121,11 +1126,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1159,16 +1159,21 @@
       "city": "Boston",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 4.067,
       "priceLow": 4.067,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Massachusetts gas is at its local low and tracking the national downtrend. WTI crude is falling, and you're already below the $4.07 regional peak. This is a solid window to fill up before any potential rebound.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "MA prices are at a recent low matching nearby stations, and crude oil is sliding down. However, retail gas typically lags wholesale by days, so further drops are likely within the week.",
+      "advice": "Top off half · wait for Fri",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1178,11 +1183,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1221,11 +1221,16 @@
       "priceLow": 3.227,
       "weekDelta": -0.07,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at a recent low with crude falling $3.97 today. National trends show sustained downward momentum, and summer blend supply is stable. Current price of $3.227/gal represents good value in this declining cycle.",
+      "why": "Michigan prices are at their weekly low with crude oil falling sharply. Week-over-week decline of 7¢ shows downward momentum, though retail lags wholesale by days. Summer blend premiums may limit further near-term drops.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1235,11 +1240,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1278,11 +1278,16 @@
       "priceLow": 3.834,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices are at their lowest point this week, down nearly 10 cents. WTI crude is falling and the national trend shows continued downward momentum. Summer blend supply is stable with no local disruptions.",
+      "why": "Minnesota prices are at their lowest point this week as crude oil slides down. Downward momentum is strong, but retail gas lags wholesale by several days, so further declines may take time to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1292,11 +1297,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.692,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Mississippi prices have dropped 9¢ week-over-week and are at their recent low. WTI crude is falling, supporting further downward pressure. Summer blend is in effect, but the trend remains favorable for consumers.",
+      "why": "Mississippi gas is at its recent low of $2.69/gal as crude slides toward pre-conflict levels. Downward momentum is strong week-over-week (-9.3¢), but refineries lag in passing full savings to pumps.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1349,11 +1354,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1392,11 +1392,16 @@
       "priceLow": 2.897,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low of $2.90/gal, down 6.3¢ week-over-week. WTI crude is falling ($84.65, down $3.97), signaling continued downward pressure. Summer blend pricing is in effect with no holiday demand spikes expected.",
+      "why": "Missouri prices are at a recent low of $2.897/gal, driven by falling crude (-3.97) and broader national downward trend. However, the lag between crude drops and retail prices means further declines could take weeks.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1406,11 +1411,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1449,11 +1449,16 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Montana prices are at a recent low matching the regional bottom. WTI crude is falling and national averages are dropping below $4/gal, suggesting downward momentum. Summer demand is offsetting some savings, but the trend favors buyers now.",
+      "why": "Montana prices are at local lows matching the regional minimum. WTI crude is declining and has dropped nearly $4/barrel, signaling downward pressure. However, refinery lag means further drops may take days to weeks to reach pumps.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1463,11 +1468,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1506,11 +1506,16 @@
       "priceLow": 3.003,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Nebraska gas is at a 6-week low matching the regional minimum. WTI crude is falling and the national trend shows sustained downward pressure. Summer blend pricing is stable with no immediate upward catalysts.",
+      "why": "Nebraska prices are at their lowest point this week and crude is falling. While full retail pass-through takes time, current pricing offers a solid fill-up window before any lag in downstream adjustments.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1520,11 +1525,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.702,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at their weekly low and have dropped 9¢ week-over-week. WTI crude is declining, supporting downward momentum. Summer blend premium and lack of supply disruptions suggest stable-to-lower prices ahead.",
+      "why": "Nevada prices are at their recent low of $3.702/gal, aligned with a week-over-week drop of 9 cents. WTI crude is falling and headed toward pre-conflict levels, but retail gasoline lags wholesale declines by days to weeks.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1577,11 +1582,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NH prices are at a recent low of $3.197/gal, down 6.3¢ week-over-week. WTI crude is falling and national averages are dropping below $4. Summer blend demand and stable supply support current favorable pricing.",
+      "why": "NH prices have dropped 6.3¢ week-over-week and hit a recent low. WTI crude is declining and approaching pre-conflict levels, but downstream gasoline adjustments lag by weeks. Current pricing represents a favorable window.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1634,11 +1639,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NJ gas is at a recent low matching the regional bottom. WTI crude is falling, and national average just dropped below $4. Week-over-week decline signals downward momentum, though summer blend seasonality may provide modest support.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "NJ prices are at their lowest point this week as crude oil slides downward. Falling WTI suggests further relief ahead, though retail gas lags wholesale by days. Current price is competitive.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1691,11 +1696,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1734,11 +1734,16 @@
       "priceLow": 2.975,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped 10¢ in a week as crude oil falls and national averages decline. Current price matches the regional low, signaling a good buying window before potential stabilization.",
+      "why": "New Mexico prices have dropped 10¢ this week and hit local lows as crude slides toward pre-conflict levels. Summer demand and refinery constraints may slow further gains, but downward momentum is clear.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1748,11 +1753,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1791,7 +1791,7 @@
       "priceLow": 4.19,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "NY prices are at recent lows matching the regional bottom. WTI crude is falling and the national trend shows downward momentum. Summer blend premium is in effect, but you're already catching a favorable window.",
+      "why": "NY prices are at a recent low matching the lowest nearby, and crude oil is sliding down. Week-over-week decline of nearly 9 cents signals downward momentum, though retail lag means further drops may take time.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -1802,14 +1802,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
           "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "NC prices are at a recent low of $2.973/gal, down 5.8¢ week-over-week. WTI crude is sliding downward, but summer blend costs and stable regional supply suggest limited further drops this week.",
+      "why": "NC prices are at a recent low of $2.97/gal, with WTI crude down nearly $4 and week-over-week decline of 5.8¢. Oil momentum is downward, but retail pass-through typically lags by days.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1862,11 +1867,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1905,11 +1905,16 @@
       "priceLow": 3.091,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "North Dakota is at its weekly low of $3.091/gal with crude trending downward. The national average dropping below $4 signals continued softening pressure. Summer blend demand is stable with no major supply disruptions expected.",
+      "why": "ND prices are at their weekly low as crude oil slides. Week-over-week decline shows downward momentum, though retail lag means further drops may take days to fully materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1919,11 +1924,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 4.08,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio gas is at its lowest point with crude oil falling. The national average has dipped below $4/gallon, signaling downward momentum. Summer blend pricing and stable regional supply support current low levels.",
+      "why": "Ohio prices are at their local low of $4.08/gal, matching the week's best rate. Crude oil is falling and national averages have dipped below $4, signaling downward pressure. However, retail pass-through typically lags by days, so further small declines may come.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -1976,11 +1981,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.72,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Oklahoma gas is at a recent low of $2.72/gal, down 9.4¢ week-over-week. WTI crude is falling ($84.65, down $3.97), signaling continued downward pressure. Summer blend demand is active but momentum favors buyers now.",
+      "why": "Oklahoma prices are at their lowest point this week as crude oil slides downward. While national averages are dropping, local prices may take time to fully reflect the decline, creating a good window to fill up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2033,11 +2038,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2071,16 +2071,21 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.76,
       "priceLow": 3.76,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at their lowest point this week as crude oil drops and national averages decline. Summer blend premiums are in effect, but downward momentum suggests further relief ahead.",
-      "advice": "Top off partially, wait 2–3 da",
+      "why": "Oregon prices have dropped 9¢ week-over-week and are at recent lows. Crude oil is falling toward pre-conflict levels, but retail gasoline typically lags by days to weeks. Current pricing offers a solid fill-up window before any seasonal summer demand pushes prices back up.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2090,11 +2095,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2133,7 +2133,7 @@
       "priceLow": 3.431,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "Pennsylvania prices are at their lowest point locally, and crude is falling with downward momentum. National average has dipped below $4/gal, signaling broader softening. Summer blend is active but demand typically peaks mid-week.",
+      "why": "PA prices are at a recent low of $3.43/gal, matching the lowest nearby. WTI crude is falling and national average has dropped below $4. Downward momentum suggests brief window before potential stabilization.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2144,14 +2144,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
           "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.314,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices are at their lowest point this week as crude falls below $85/barrel. National downward momentum and lack of local supply disruptions support continued gradual softening over the next few days.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Rhode Island prices are at their weekly low as crude oil slides downward. Week-over-week decline of 6.5¢ signals momentum, but oil-to-pump lag means further drops may take days to materialize.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2204,11 +2209,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2242,16 +2242,21 @@
       "city": "Columbia",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.973,
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "SC prices are at a recent low of $2.97/gal, down 5.8¢ week-over-week. WTI crude is falling and the national trend is downward. Summer blend demand is typical for the season with no holiday surge.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "SC prices are at their weekly low as crude slides toward pre-conflict levels. Downward momentum is strong, but retail lag means further drops may take days. Current price is fair but not a floor.",
+      "advice": "Top off today, fill rest by Fr",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2261,11 +2266,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2304,11 +2304,16 @@
       "priceLow": 3.062,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices are at their weekly low and tracking national downtrend. WTI crude is falling, signaling continued pressure downward over the next few days.",
+      "why": "Crude oil is falling and SD prices are already at their lowest point this week. While national averages continue dropping, your local market has stabilized at a good level, and further declines may take weeks to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2318,11 +2323,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2361,11 +2361,16 @@
       "priceLow": 2.786,
       "weekDelta": -0.097,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.786/gal, down nearly 10¢ week-over-week. WTI crude is declining, supporting continued downward pressure on prices through the week.",
+      "why": "Tennessee gas is at its lowest point this week as crude oil slides downward. Prices have already dropped 9.7¢ week-over-week, and further declines may take weeks to materialize as the market adjusts.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2375,11 +2380,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2413,14 +2413,14 @@
       "city": "Houston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.432,
       "priceLow": 3.432,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Texas prices are at a recent low of $3.43/gal, down 13 cents week-over-week. WTI crude is declining, supporting continued downward pressure on retail prices over the next few days.",
-      "advice": "Top off today, finish Fri",
-      "bestDayIdx": 5,
+      "why": "Texas gas is at a local low of $3.43/gal with WTI crude falling $3.97. Week-over-week prices dropped 12.9¢, signaling downward momentum. Summer blend costs are stable.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -2429,14 +2429,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
           "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2475,11 +2475,16 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Utah prices are at a recent low of $3.34/gal, matching the lowest nearby. WTI crude is down $3.97 and trending lower, supporting continued price relief. Week-over-week decline of 7.3¢ shows momentum.",
+      "why": "Utah prices are at a local low amid falling crude oil (-$3.97). Week-over-week decline shows downward momentum, though retail lag means further drops may take days. Summer blend adds a modest premium.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2489,11 +2494,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2532,11 +2532,16 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at a recent low of $3.29/gal, down 6.5¢ week-over-week. WTI crude is falling and the national trend shows prices dropping below $4. Summer blend demand is stable with no holiday rush expected.",
+      "why": "Vermont gas is at its lowest point this week as crude oil slides downward. WTI falling below $85 signals continued pressure on pump prices, though retail lag means further drops may take several days to fully materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2546,11 +2551,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 3.07,
       "weekDelta": -0.06,
       "weekDeltaDir": "down",
-      "why": "Virginia prices are at a recent low of $3.07/gal with crude oil trending down. Weekly decline of 6¢ and national momentum suggest a favorable buying window before any reversal.",
+      "why": "Virginia gas prices have dropped 6 cents week-over-week and are at recent lows as crude oil slides. While downstream pump prices lag commodity declines, current pricing represents a solid fill-up window before summer demand peaks.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2603,11 +2608,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 5.343,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their local low and stable week-over-week. WTI crude is declining, suggesting downward pressure on retail prices. Summer blend hasn't prevented competitive pricing in your region.",
+      "why": "WA prices are at their local low while crude oil slides downward. Although national averages are dropping, gas typically lags crude by weeks. You're at a good entry point before potential further declines.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2660,11 +2665,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2698,16 +2698,21 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.099,
       "priceLow": 3.099,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a local low of $3.099/gal, tracking a week-over-week decline of 6¢. WTI crude is falling ($84.65, down $3.97), signaling continued downward pressure on retail prices through mid-week.",
-      "advice": "Fill up today",
+      "why": "WV prices are at a recent low of $3.099/gal, down 6¢ week-over-week. Crude oil is declining and has dropped $3.97, signaling downward momentum. However, retail lag means further drops may take 2–5 days to fully materialize.",
+      "advice": "Fill up today or top off parti",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2717,11 +2722,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2760,11 +2760,16 @@
       "priceLow": 3.188,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at their local low of $3.188/gal, down 6.9¢ week-over-week. WTI crude is declining ($84.65, down $3.97), signaling continued downward pressure on retail prices over the next few days.",
+      "why": "Wisconsin prices are at their weekly low and WTI crude is declining. National averages are dropping, though retail gas typically lags commodity moves by days to weeks. Summer blend is in effect.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2774,11 +2779,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2817,11 +2817,16 @@
       "priceLow": 3.239,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "Wyoming gas is at a recent low of $3.239/gal with WTI crude dropping $3.97. Week-over-week prices fell 7.1 cents, and national trends show continued downward pressure. This is a solid buying opportunity.",
+      "why": "Wyoming prices have dropped 7¢ week-over-week and sit at a recent low. WTI crude is declining and below $85, signaling continued downward pressure. Summer blend is active, but the momentum favors filling up now before any stabilization.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2831,11 +2836,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2869,16 +2869,21 @@
       "city": "Washington",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.46,
       "priceLow": 3.46,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "DC prices are at their lowest point this week as crude oil continues declining. National downward momentum and weak WTI suggest further drops are likely in the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "DC prices are at a local low matching the regional minimum. WTI crude is falling and the national trend shows downward momentum. Summer blend pricing is in effect, and you're already below the $4 national average.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2888,11 +2893,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2926,16 +2926,21 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.38,
       "priceLow": 1.339,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping below $4/gallon, signaling downward pressure on Canadian markets. Alberta prices are 3¢ above recent lows, suggesting room for decline in the next 2–3 days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "WTI crude is falling sharply and remains near recent lows. Alberta prices are only 3¢ above the local floor, with stable week-over-week trends. Downward pressure from crude should continue filtering into retail prices over the next few days.",
+      "advice": "Top off today, fill rest by We",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -2945,11 +2950,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -2988,11 +2988,16 @@
       "priceLow": 1.668,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. gas prices are dropping, signaling downward pressure on BC fuel. Current price (1.720) is only 3.1¢ above recent lows, suggesting further relief coming within days.",
+      "why": "WTI crude is falling sharply and U.S. prices are dropping, signaling downward pressure ahead. BC's current price is 3.1% above the local low, suggesting more room to decline in the next 2–5 days before summer demand peaks.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3002,11 +3007,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3045,11 +3045,16 @@
       "priceLow": 1.436,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward momentum. Manitoba is 3¢/L above the local low, suggesting room for further decline in the next few days.",
+      "why": "WTI crude is falling sharply and U.S. gas prices are declining, signaling downward pressure ahead. Manitoba's current price sits 3¢ above the local low, with retail lag expected as wholesale costs continue easing over the next few days.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3059,11 +3064,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3102,11 +3102,16 @@
       "priceLow": 1.504,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward pressure on Canadian fuel. Current NB price sits 3¢ above the local low, suggesting room to decline further over the next few days.",
+      "why": "WTI crude is falling and U.S. gas prices are declining, signaling downward momentum. New Brunswick prices sit 3¢ above the regional low, with room to drop further over the next few days as the trend filters through.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3116,11 +3121,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3154,16 +3154,21 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.58,
       "priceLow": 1.533,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices dropped below $4/gallon, signaling downward pressure. Newfoundland prices are 3¢ above a recent low with flat week-over-week movement, suggesting room to decline in coming days.",
-      "advice": "Hold until Friday",
-      "bestDayIdx": 5,
+      "why": "Crude oil is falling and already down nearly $4/barrel this week, signaling downward pressure on retail prices. However, Newfoundland's current price sits only 3% above the regional low, and retail lags wholesale by days. A modest further drop is likely within 2–5 days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3173,11 +3178,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3216,11 +3216,16 @@
       "priceLow": 1.504,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward pressure. Nova Scotia is 3 cents above the local low, with stable week-over-week pricing. Further relief likely within days as global trends filter through.",
-      "advice": "Top off halfway · wait for Fri",
+      "why": "WTI crude is falling and approaching pre-conflict levels, signaling downward pressure on retail prices. Nova Scotia prices are 3% above the local low, with modest room to drop over the next few days as wholesale trends filter through.",
+      "advice": "Top off half now, full fill Fr",
       "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3230,11 +3235,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3273,11 +3273,16 @@
       "priceLow": 1.474,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping sharply, signaling downstream pressure on Canadian retail prices. Ontario is tracking 3.1¢ above the regional low, suggesting a modest correction window ahead.",
+      "why": "Oil prices are falling and already down nearly $4/barrel, signaling downward pressure on pump prices. Ontario is currently 3.1% above the local low, suggesting room for further drops in the coming days.",
       "advice": "Top off partially today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3287,11 +3292,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3325,16 +3325,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.54,
       "priceLow": 1.494,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and North American prices are dropping. PEI is 3.5¢/L above the regional low, suggesting a brief pause before further decline. Summer demand and stable week-over-week price indicate a soft downtrend ahead.",
-      "advice": "Top off partially, full by Wed",
-      "bestDayIdx": 3,
+      "why": "Crude oil is falling sharply and U.S. gas prices are dropping, signaling downward momentum. PEI prices are 3¢ above the local low, but the lag between crude declines and retail pump prices means cheaper fuel is likely 2–5 days away.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3344,11 +3349,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3387,11 +3387,16 @@
       "priceLow": 1.533,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling sharply (-$3.97) and U.S. gas prices are dropping nationally. Quebec is 0.047 $/L above its nearby low, suggesting room for further decline over the next few days as the downward momentum reaches the market.",
-      "advice": "Top off halfway, wait until Th",
-      "bestDayIdx": 4,
+      "why": "Oil prices are falling and approaching pre-conflict lows, but retail gas hasn't fully caught up yet. Quebec sits 1.5¢/L above the regional low, with crude momentum favoring further drops in coming days.",
+      "advice": "Top off partially, fill rest F",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3401,11 +3406,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3444,11 +3444,16 @@
       "priceLow": 1.368,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is falling sharply (-$3.97), and U.S. averages are dropping. Saskatchewan prices are only 3¢ above the local low, suggesting limited upside. Downward pressure from global markets should filter in over the next few days.",
+      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward momentum. Saskatchewan is 3¢ above the local low, and retail lag suggests further declines incoming over the next few days.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3458,11 +3463,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
@@ -3496,16 +3496,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.88,
       "priceLow": 1.824,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude is declining ($84.65, down $3.97), and North American prices are softening. You're 3.1¢/L above the recent low, with flat week-over-week movement suggesting downward pressure ahead.",
-      "advice": "Hold until Thursday",
+      "why": "WTI crude is falling and already 3% down, signaling downward pressure on retail prices. Current price sits 3.1% above the nearby low, suggesting room to drop further in coming days as the crude decline filters through.",
+      "advice": "Top off partially · wait",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
         {
           "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
           "source": "Natural News",
@@ -3515,11 +3520,6 @@
           "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
           "source": "The Economic Times",
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        },
-        {
-          "headline": "Petrobras Hikes Gasoline Prices After Brazil Subsidies Approved",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/petrobras-hikes-gasoline-prices-after-brazil-subsidies-approved"
         }
       ],
       "breakdown": {
