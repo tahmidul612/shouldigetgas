@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-06-19T12:01:00.116193+00:00",
-    "pricesUpdatedAt": "2026-06-19T12:00:51.914940+00:00",
+    "updatedAt": "2026-06-19T18:01:08.473397+00:00",
+    "pricesUpdatedAt": "2026-06-19T18:00:56.752807+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-19T12:37:16.037695+00:00",
-    "nextAnalysisUpdate": "2026-06-19T18:07:16.037707+00:00"
+    "nextPriceUpdate": "2026-06-19T18:32:52.886544+00:00",
+    "nextAnalysisUpdate": "2026-06-20T00:02:52.886560+00:00"
   },
   "wti": {
     "price": 84.65,
@@ -24,7 +24,7 @@
       "priceLow": 2.711,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Alabama prices have dropped 9.4¢ week-over-week and are at recent lows. WTI crude is declining toward pre-conflict levels, but retail pass-through typically lags by days. Summer blend demand may provide some support.",
+      "why": "Alabama prices have dropped 9.4¢ this week and match the local low. Crude oil is declining and trending downward, signaling continued weakness. Summer blend costs more, but the momentum favors filling up now before any stabilization.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
@@ -76,14 +76,14 @@
       "city": "Anchorage",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.605,
       "priceLow": 3.605,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alaska prices have dropped 9 cents week-over-week as crude oil slides toward pre-conflict levels. You're at a local low, and while broader downward pressure exists, full national pass-through typically lags 2–5 weeks.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Alaska prices are at their recent low of $3.605/gal with crude sliding down. WTI fell nearly $4 today, signaling further relief ahead, though full pass-through typically takes several days.",
+      "advice": "Half tank now · full by Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
         {
@@ -133,14 +133,14 @@
       "city": "Phoenix",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.111,
       "priceLow": 3.111,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at their weekly low as crude oil slides downward. WTI's recent 3.97 drop suggests further softening ahead, but retail gas typically lags wholesale by 2–5 days. Current pricing is near recent local bottom.",
-      "advice": "Top off today, monitor Fri",
-      "bestDayIdx": 4,
+      "why": "Arizona prices are at a recent low of $3.11/gal with WTI crude falling sharply. Week-over-week decline signals downward momentum, though full retail pass-through typically lags 2–5 days. Current window is favorable.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -190,13 +190,13 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.654,
       "priceLow": 2.654,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Arkansas prices are at their weekly low and crude is declining. Downward momentum suggests further drops over the next few days, but you're already at a favorable point.",
-      "advice": "Fill up today or wait until We",
+      "why": "Arkansas gas is at a recent low matching the lowest nearby price. WTI crude is falling and week-over-week prices dropped 9.2¢. National averages are declining, though full pass-through may lag by weeks.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -252,9 +252,9 @@
       "priceLow": 5.554,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are flat at $5.55/gal while crude oil is falling. National trends show downward pressure, but California's unique fuel blend keeps prices elevated. Oil weakness should filter into pumps within days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "California prices are flat week-over-week at $5.55/gal while crude oil is falling. National average dropped below $4, signaling downward momentum. Summer blend premiums are temporary, but continued oil decline suggests lower prices coming within days.",
+      "advice": "Top off halfway, fill Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
         {
@@ -304,14 +304,14 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.95,
       "priceLow": 3.95,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are flat at $3.95/gal while crude oil is falling sharply. Retail stations lag wholesale drops by days to weeks, so lower prices should arrive within 2–5 days as the supply chain adjusts.",
-      "advice": "Fill up by Friday",
-      "bestDayIdx": 5,
+      "why": "Colorado gas is at its local low of $3.95/gal with crude falling toward pre-conflict levels. Downward pressure exists but retail usually lags wholesale by days. Current price is competitive; further drops may take a week or more.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -366,7 +366,7 @@
       "priceLow": 3.362,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices have dropped 6.7¢ week-over-week and are at local lows. Crude oil is sliding downward, but retail gas lags wholesale by days to weeks. Current pricing offers a solid buying window before any rebound.",
+      "why": "CT prices are at their weekly low with crude oil falling sharply. Though downstream adjustments lag, the downward momentum is clear and sustained. Current levels represent a good fill-up opportunity before any potential stabilization.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -423,9 +423,9 @@
       "priceLow": 3.119,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at their weekly low as crude oil slides downward. WTI's recent drop suggests further relief ahead, but gasoline typically lags oil price moves by days. You're in a decent spot now, but patience could yield better rates.",
-      "advice": "Top off half · wait for Wed",
-      "bestDayIdx": 3,
+      "why": "Delaware gas is at its lowest point this week as crude oil slides downward. However, refineries typically lag 2–4 weeks behind crude drops, so further savings are likely coming but not immediately.",
+      "advice": "Top off now, fill rest Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
         {
@@ -480,8 +480,8 @@
       "priceLow": 3.694,
       "weekDelta": 0.045,
       "weekDeltaDir": "up",
-      "why": "Florida prices are slightly above the week's low, but crude oil is falling and national averages are dropping. Summer blend premiums and holiday-free week suggest downward pressure over the next few days.",
-      "advice": "Top off partially, wait",
+      "why": "Florida prices are slightly elevated at 3.739, but crude is falling sharply (-3.97) and national average is dropping below $4. Summer demand and blend costs keep local prices sticky, but downward momentum suggests relief within days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
@@ -532,14 +532,14 @@
       "city": "Atlanta",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.846,
       "priceLow": 2.846,
       "weekDelta": -0.056,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their local low of $2.85/gal with crude falling and week-over-week decline showing downward momentum. However, refineries typically lag 2–5 weeks behind crude drops, so further decreases may be coming.",
-      "advice": "Fill up today, top off Friday",
-      "bestDayIdx": 5,
+      "why": "Georgia prices are at their recent low of $2.846/gal, matching the lowest nearby. WTI crude is falling and already down nearly $4/barrel, signaling downward momentum. However, gas typically lags oil price drops by days to weeks.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -589,14 +589,14 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.409,
       "priceLow": 4.409,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Hawaii gas prices are at their lowest point this week as crude oil slides downward. Mainland U.S. averages have dropped below $4/gallon, and the downward trend suggests further easing ahead, though Hawaii typically lags national price changes by several days.",
-      "advice": "Top off half · wait until Frid",
-      "bestDayIdx": 5,
+      "why": "Hawaii prices are at their lowest point this week as crude oil slides downward. However, island markets lag mainland trends by days or weeks, and refinery constraints may slow further declines.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -646,14 +646,14 @@
       "city": "Boise",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.269,
       "priceLow": 3.269,
       "weekDelta": -0.072,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 7¢ week-over-week and match the local low. WTI crude is falling and heading toward pre-conflict levels, but full retail pass-through typically lags 2–5 days. You're at a good entry point now.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Idaho prices are at their local low point and WTI crude is falling sharply. However, downstream gasoline typically lags crude by weeks, so further declines are likely over the next few days despite current favorable conditions.",
+      "advice": "Top off partially, wait for mo",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
@@ -708,7 +708,7 @@
       "priceLow": 3.519,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Illinois prices are at their lowest point this week as crude oil slides downward. While retail gas lags behind wholesale drops, the downward trend is establishing and you're already at a local low.",
+      "why": "Illinois prices are at their lowest point this week as crude oil slides lower. Week-over-week decline of 7.6¢ signals downward momentum, though full pump savings lag behind oil price drops by weeks.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -765,7 +765,7 @@
       "priceLow": 3.149,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at a recent low matching the regional floor, supported by falling WTI crude (-3.97). Week-over-week decline of -0.069 shows downward momentum, though full crude-to-pump transmission takes weeks.",
+      "why": "Indiana prices are at their local low and WTI crude is declining sharply. Week-over-week drop of 7 cents signals downward momentum, though retail lag means further drops may take days to fully materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -822,9 +822,9 @@
       "priceLow": 2.994,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at a recent low of $2.99/gal, and crude oil is declining with downward momentum. However, retail prices typically lag wholesale drops by several days, so further reductions may arrive this week.",
-      "advice": "Fill up today, watch for Wed d",
-      "bestDayIdx": 3,
+      "why": "Iowa prices are at a recent low of $2.99/gal, down 6.5¢ week-over-week. Crude oil is declining but refiners typically lag 2–5 days passing savings to pumps. Current price is attractive; further drops may take several days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -874,14 +874,14 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.935,
       "priceLow": 2.935,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at its lowest point this week as crude oil slides downward. Prices have dropped 6.4 cents week-over-week, but retail stations lag behind oil declines by days or weeks, so further drops are likely in the coming days.",
-      "advice": "Top off partially, fill Fri",
-      "bestDayIdx": 5,
+      "why": "Kansas prices are at a recent low of $2.935/gal as crude falls toward pre-conflict levels. Downward momentum continues week-over-week, though full retail pass-through of oil declines typically lags by weeks.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -931,13 +931,13 @@
       "city": "Louisville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.881,
       "priceLow": 2.881,
       "weekDelta": -0.1,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices are at their weekly low of $2.881/gal, matching the regional bottom. WTI crude is falling and approaching pre-conflict levels, signaling downward momentum. However, the lag between oil price drops and pump prices means further savings may arrive over the next few days.",
-      "advice": "Top off now, monitor for Wed d",
+      "why": "Kentucky prices are at their lowest point this week as crude oil slides downward. While full market pass-through takes time, current levels offer a solid fill-up opportunity before any potential stabilization.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -993,9 +993,9 @@
       "priceLow": 2.758,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at their weekly low after a $0.10 drop week-over-week, tracking falling crude oil ($84.65, down $3.97). However, refineries may lag passing savings to pumps over the next 2–5 days.",
+      "why": "Louisiana prices are at their lowest point this week as crude oil slides. Downward momentum is strong with WTI down nearly $4, though retail gas typically lags behind crude drops by several days. Current price represents a good buying opportunity.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1050,9 +1050,9 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at their lowest point this week as crude oil slides down. Downward momentum suggests further relief ahead, though retail gas typically lags wholesale by 1–2 weeks.",
-      "advice": "Fill up today, monitor for dip",
-      "bestDayIdx": 3,
+      "why": "Maine gas is at its lowest point this week as crude oil slides downward. While full retail price declines may lag by weeks, current pricing offers a solid fill-up window before any summer demand uptick.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1107,7 +1107,7 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Maryland prices are at a recent low as crude oil slides downward. Week-over-week decline of 6 cents signals momentum, though full refinery pass-through typically lags 2–4 weeks. Current level offers a solid fill-up window.",
+      "why": "Maryland prices are at their weekly low as crude oil slides downward. National trends show sustained decline, though retail station delays mean further drops may take days. Current pricing offers a solid window before potential additional declines materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -1159,14 +1159,14 @@
       "city": "Boston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.067,
       "priceLow": 4.067,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "MA prices are at a recent low matching nearby stations, and crude oil is sliding down. However, retail gas typically lags wholesale by days, so further drops are likely within the week.",
-      "advice": "Top off half · wait for Fri",
-      "bestDayIdx": 5,
+      "why": "Crude oil is falling sharply and MA prices have already dropped 13¢ week-over-week. You're at a local low right now, and the national trend is downward. Fill up while this window is open.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1221,7 +1221,7 @@
       "priceLow": 3.227,
       "weekDelta": -0.07,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at their weekly low with crude oil falling sharply. Week-over-week decline of 7¢ shows downward momentum, though retail lags wholesale by days. Summer blend premiums may limit further near-term drops.",
+      "why": "Michigan prices are at their weekly low and tracking downward. Crude oil is sliding with negative momentum, but retail gas lags wholesale by days. You're in a decent buying window before any further crude weakness filters through.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -1273,13 +1273,13 @@
       "city": "Minneapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.834,
       "priceLow": 3.834,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices are at their lowest point this week as crude oil slides down. Downward momentum is strong, but retail gas lags wholesale by several days, so further declines may take time to materialize.",
-      "advice": "Fill up today",
+      "why": "Minnesota gas is at its lowest point this week as crude oil slides below $85/bbl. Downward momentum is strong, but retail prices typically lag wholesale declines by several days. You're near a local floor, but further drops are coming.",
+      "advice": "Fill up today or wait until We",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -1330,13 +1330,13 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.692,
       "priceLow": 2.692,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at its recent low of $2.69/gal as crude slides toward pre-conflict levels. Downward momentum is strong week-over-week (-9.3¢), but refineries lag in passing full savings to pumps.",
-      "advice": "Fill up today",
+      "why": "Mississippi prices are at recent lows following a week-over-week drop of 9.3¢ and weakening crude oil ($84.65, down $3.97). Downward momentum suggests further easing ahead, though gas typically lags oil price declines by several days.",
+      "advice": "Top off half · wait for full",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -1392,9 +1392,9 @@
       "priceLow": 2.897,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at a recent low of $2.897/gal, driven by falling crude (-3.97) and broader national downward trend. However, the lag between crude drops and retail prices means further declines could take weeks.",
+      "why": "Missouri gas is at a recent low of $2.897/gal with WTI crude falling $3.97. Week-over-week prices dropped 6.3¢, signaling downward momentum. However, crude-to-pump lag means further drops may take weeks.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -1449,9 +1449,9 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Montana prices are at local lows matching the regional minimum. WTI crude is declining and has dropped nearly $4/barrel, signaling downward pressure. However, refinery lag means further drops may take days to weeks to reach pumps.",
+      "why": "Montana prices are at a recent low with crude falling sharply. Downward momentum continues, but retail lag means further drops could take days. Current pricing offers a good window before potential short-term stabilization.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
@@ -1506,9 +1506,9 @@
       "priceLow": 3.003,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices are at their lowest point this week and crude is falling. While full retail pass-through takes time, current pricing offers a solid fill-up window before any lag in downstream adjustments.",
+      "why": "Nebraska prices are at their lowest point this week as crude oil slides downward. While full market adjustment may take months, current conditions represent a favorable window to fill up before any potential rebound.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1563,9 +1563,9 @@
       "priceLow": 3.702,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at their recent low of $3.702/gal, aligned with a week-over-week drop of 9 cents. WTI crude is falling and headed toward pre-conflict levels, but retail gasoline lags wholesale declines by days to weeks.",
+      "why": "Nevada gas is at its lowest point this week as crude oil slides downward. Prices have dropped 9¢ week-over-week, but full retail relief typically lags oil declines by several days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
@@ -1620,9 +1620,9 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NH prices have dropped 6.3¢ week-over-week and hit a recent low. WTI crude is declining and approaching pre-conflict levels, but downstream gasoline adjustments lag by weeks. Current pricing represents a favorable window.",
+      "why": "NH prices are at their weekly low with crude falling sharply. National averages dropped below $4/gal, signaling downward momentum. However, retail lags wholesale—further drops may take days to materialize.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -1677,9 +1677,9 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at their lowest point this week as crude oil slides downward. Falling WTI suggests further relief ahead, though retail gas lags wholesale by days. Current price is competitive.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "NJ prices are at their local low of $3.197/gal with crude falling toward pre-conflict levels. Week-over-week decline shows downward momentum, but retail lags wholesale—further drops may take days to reach pumps.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -1734,9 +1734,9 @@
       "priceLow": 2.975,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped 10¢ this week and hit local lows as crude slides toward pre-conflict levels. Summer demand and refinery constraints may slow further gains, but downward momentum is clear.",
+      "why": "New Mexico prices have dropped 10¢ this week as crude oil slides lower. You're already at a local low point, and while crude may fall further, retail prices typically lag by days. Current conditions favor filling up now rather than waiting.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1791,7 +1791,7 @@
       "priceLow": 4.19,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "NY prices are at a recent low matching the lowest nearby, and crude oil is sliding down. Week-over-week decline of nearly 9 cents signals downward momentum, though retail lag means further drops may take time.",
+      "why": "NY prices are at a recent low matching the lowest nearby, and crude is declining. Weekly trend is down 8.9¢. However, lag between crude drops and pump prices means further savings may take days to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -1848,9 +1848,9 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "NC prices are at a recent low of $2.97/gal, with WTI crude down nearly $4 and week-over-week decline of 5.8¢. Oil momentum is downward, but retail pass-through typically lags by days.",
+      "why": "NC prices are at a recent low of $2.97/gal and WTI crude is falling. Week-over-week decline shows downward momentum, but oil-to-pump lag means further drops may take weeks to fully materialize.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -1900,13 +1900,13 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.091,
       "priceLow": 3.091,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "ND prices are at their weekly low as crude oil slides. Week-over-week decline shows downward momentum, though retail lag means further drops may take days to fully materialize.",
-      "advice": "Fill up today",
+      "why": "North Dakota prices are at their lowest point this week as crude slides below $85/barrel. Downward momentum is strong, but retail gas lags wholesale moves by days. Prices may dip further mid-week.",
+      "advice": "Top off today · wait for rest",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -1962,7 +1962,7 @@
       "priceLow": 4.08,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their local low of $4.08/gal, matching the week's best rate. Crude oil is falling and national averages have dipped below $4, signaling downward pressure. However, retail pass-through typically lags by days, so further small declines may come.",
+      "why": "Ohio prices are at their local low and aligned with the national downtrend. Crude oil is falling and may take weeks to fully translate to pumps, but you're already at a favorable point.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2019,7 +2019,7 @@
       "priceLow": 2.72,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at their lowest point this week as crude oil slides downward. While national averages are dropping, local prices may take time to fully reflect the decline, creating a good window to fill up now.",
+      "why": "Oklahoma prices have dropped 9.4¢ week-over-week and are at a recent low. WTI crude is falling and headed toward pre-Iran war levels, but gas station price lags mean further drops may take weeks to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
@@ -2076,7 +2076,7 @@
       "priceLow": 3.76,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 9¢ week-over-week and are at recent lows. Crude oil is falling toward pre-conflict levels, but retail gasoline typically lags by days to weeks. Current pricing offers a solid fill-up window before any seasonal summer demand pushes prices back up.",
+      "why": "Oregon prices are at their local low with crude falling $3.97 and national averages dropping below $4. Downward momentum is real, but retail lag means further declines take weeks to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2128,13 +2128,13 @@
       "city": "Philadelphia",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.431,
       "priceLow": 3.431,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "PA prices are at a recent low of $3.43/gal, matching the lowest nearby. WTI crude is falling and national average has dropped below $4. Downward momentum suggests brief window before potential stabilization.",
-      "advice": "Fill up today",
+      "why": "Pennsylvania gas is at its weekly low of $3.43/gal with WTI crude falling $3.97. National trends show downward momentum, though full retail pass-through typically lags crude by days. Current price offers a reasonable window before further drops materialize.",
+      "advice": "Top off today, watch for Wed-T",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -2190,9 +2190,9 @@
       "priceLow": 3.314,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices are at their weekly low as crude oil slides downward. Week-over-week decline of 6.5¢ signals momentum, but oil-to-pump lag means further drops may take days to materialize.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Rhode Island prices have dropped 6.5¢ week-over-week and are at local lows. WTI crude is declining steeply, but retail gas typically lags oil price cuts by several days. Current price is competitive for the season.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
@@ -2247,8 +2247,8 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "SC prices are at their weekly low as crude slides toward pre-conflict levels. Downward momentum is strong, but retail lag means further drops may take days. Current price is fair but not a floor.",
-      "advice": "Top off today, fill rest by Fr",
+      "why": "SC prices are at their lowest point this week as crude oil slides toward pre-conflict levels. Downward momentum is strong, but retail gas lags wholesale declines by days. You're near a local floor with further drops likely within 2–5 days.",
+      "advice": "Top off halfway today, fill Fr",
       "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
@@ -2299,14 +2299,14 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.062,
       "priceLow": 3.062,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Crude oil is falling and SD prices are already at their lowest point this week. While national averages continue dropping, your local market has stabilized at a good level, and further declines may take weeks to materialize.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "South Dakota gas is at its weekly low of $3.062/gal, supported by a WTI crude decline. Downward momentum in oil suggests further relief may come, but the lag between crude and pump prices means savings could take days to fully materialize.",
+      "advice": "Top off half now, wait for res",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
@@ -2361,7 +2361,7 @@
       "priceLow": 2.786,
       "weekDelta": -0.097,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at its lowest point this week as crude oil slides downward. Prices have already dropped 9.7¢ week-over-week, and further declines may take weeks to materialize as the market adjusts.",
+      "why": "Tennessee prices are at their lowest point this week as crude slides below $85/barrel. The downward momentum is strong, but retail gas typically lags wholesale drops by several days. Filling up now locks in current lows before any lag catches up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
@@ -2418,7 +2418,7 @@
       "priceLow": 3.432,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Texas gas is at a local low of $3.43/gal with WTI crude falling $3.97. Week-over-week prices dropped 12.9¢, signaling downward momentum. Summer blend costs are stable.",
+      "why": "Texas prices are at a recent low matching the lowest nearby rate. WTI crude is sliding downward, and national trends show sustained downward pressure. Summer blend demand is active, but the momentum favors continued gradual easing.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2475,7 +2475,7 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Utah prices are at a local low amid falling crude oil (-$3.97). Week-over-week decline shows downward momentum, though retail lag means further drops may take days. Summer blend adds a modest premium.",
+      "why": "Utah prices are at local lows with crude sliding below $84.65/barrel. WTI is down nearly $4 and trending downward, signaling further retail price relief ahead over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2532,7 +2532,7 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its lowest point this week as crude oil slides downward. WTI falling below $85 signals continued pressure on pump prices, though retail lag means further drops may take several days to fully materialize.",
+      "why": "Vermont prices are at their weekly low and WTI crude is declining. National averages are dropping below $4, signaling downward momentum. However, the retail-to-crude lag means further drops may take a few days to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2589,7 +2589,7 @@
       "priceLow": 3.07,
       "weekDelta": -0.06,
       "weekDeltaDir": "down",
-      "why": "Virginia gas prices have dropped 6 cents week-over-week and are at recent lows as crude oil slides. While downstream pump prices lag commodity declines, current pricing represents a solid fill-up window before summer demand peaks.",
+      "why": "Virginia prices are at their lowest point this week as crude oil slides downward. Falling WTI and national average trends suggest further relief may take weeks to materialize, but current pricing offers a solid window before potential summer demand spikes.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2646,7 +2646,7 @@
       "priceLow": 5.343,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices are at their local low while crude oil slides downward. Although national averages are dropping, gas typically lags crude by weeks. You're at a good entry point before potential further declines.",
+      "why": "WA prices are at their local low while crude oil is declining. National trends show downward momentum, but retail prices lag wholesale by weeks. Summer blend premiums are currently active.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
@@ -2698,13 +2698,13 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.099,
       "priceLow": 3.099,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a recent low of $3.099/gal, down 6¢ week-over-week. Crude oil is declining and has dropped $3.97, signaling downward momentum. However, retail lag means further drops may take 2–5 days to fully materialize.",
-      "advice": "Fill up today or top off parti",
+      "why": "WV prices are at a recent low of $3.099/gal with crude falling toward pre-conflict levels. Week-over-week decline of 6¢ shows downward momentum, though full gas price recovery typically lags oil drops by weeks.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -2760,7 +2760,7 @@
       "priceLow": 3.188,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at their weekly low and WTI crude is declining. National averages are dropping, though retail gas typically lags commodity moves by days to weeks. Summer blend is in effect.",
+      "why": "Wisconsin prices are at a recent low of $3.188/gal, matching the lowest nearby. WTI crude is declining ($84.65, down $3.97), signaling downward pressure, but full retail pass-through typically takes weeks. Current prices offer a solid fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2817,9 +2817,9 @@
       "priceLow": 3.239,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices have dropped 7¢ week-over-week and sit at a recent low. WTI crude is declining and below $85, signaling continued downward pressure. Summer blend is active, but the momentum favors filling up now before any stabilization.",
+      "why": "Wyoming prices are at their weekly low as crude oil slides downward. While downstream gasoline effects lag behind oil price drops, current pricing offers a solid entry point before potential further volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -2874,7 +2874,7 @@
       "priceLow": 3.46,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a local low matching the regional minimum. WTI crude is falling and the national trend shows downward momentum. Summer blend pricing is in effect, and you're already below the $4 national average.",
+      "why": "DC gas is at a local low matching the week's bottom. Oil prices are falling and already down nearly $4, signaling downward momentum. However, refinery lag means further drops may take weeks to materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2926,13 +2926,355 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
+      "verdict": "wait",
+      "price": 1.617,
+      "priceLow": 1.568,
+      "weekDelta": -0.053,
+      "weekDeltaDir": "down",
+      "why": "Crude is falling and prices dropped 5.3¢ week-over-week, signaling downward momentum. You're currently 4.9¢ above the local low, with further decreases likely as the crude decline filters through.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 7,
+        "taxes": 19,
+        "dist": 4
+      },
+      "trend": [
+        1.58,
+        1.569,
+        1.581,
+        1.678,
+        1.692,
+        1.688,
+        1.67,
+        1.655,
+        1.647,
+        1.605,
+        1.612,
+        1.635,
+        1.629,
+        1.617
+      ],
+      "priceSource": "nrcan"
+    },
+    {
+      "id": "bc",
+      "state": "British Columbia",
+      "abbr": "BC",
+      "city": "Vancouver",
+      "country": "CA",
+      "unit": "L",
       "verdict": "partial",
-      "price": 1.38,
-      "priceLow": 1.339,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling sharply and remains near recent lows. Alberta prices are only 3¢ above the local floor, with stable week-over-week trends. Downward pressure from crude should continue filtering into retail prices over the next few days.",
-      "advice": "Top off today, fill rest by We",
+      "price": 1.849,
+      "priceLow": 1.794,
+      "weekDelta": -0.126,
+      "weekDeltaDir": "down",
+      "why": "BC prices have dropped 12.6¢/L week-over-week as crude falls toward pre-conflict levels. Current price sits 5.5¢ above the regional low, with downward momentum likely continuing over the next few days.",
+      "advice": "Top off partial, fill Friday",
+      "bestDayIdx": 5,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 54,
+        "refining": 6,
+        "taxes": 36,
+        "dist": 4
+      },
+      "trend": [
+        1.939,
+        1.982,
+        2.0,
+        2.0,
+        1.98,
+        1.977,
+        1.975,
+        1.947,
+        1.947,
+        1.926,
+        1.924,
+        1.873,
+        1.845,
+        1.849
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "mb",
+      "state": "Manitoba",
+      "abbr": "MB",
+      "city": "Winnipeg",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.591,
+      "priceLow": 1.543,
+      "weekDelta": -0.109,
+      "weekDeltaDir": "down",
+      "why": "Oil prices are falling and Manitoba is already 3% below its recent local peak. Crude weakness suggests further decline, but gas stations typically lag by days. Current price offers a decent window before deeper cuts arrive.",
+      "advice": "Fill up today, top off Thu",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 51,
+        "refining": 8,
+        "taxes": 37,
+        "dist": 4
+      },
+      "trend": [
+        1.668,
+        1.705,
+        1.721,
+        1.721,
+        1.703,
+        1.702,
+        1.7,
+        1.676,
+        1.676,
+        1.658,
+        1.656,
+        1.612,
+        1.588,
+        1.591
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nb",
+      "state": "New Brunswick",
+      "abbr": "NB",
+      "city": "Moncton",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.666,
+      "priceLow": 1.616,
+      "weekDelta": -0.114,
+      "weekDeltaDir": "down",
+      "why": "Oil prices are falling and NB is down 11.4¢/L week-over-week, but you're still 5¢ above the local low. Crude momentum is downward, suggesting further relief is coming in the next few days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 50,
+        "refining": 7,
+        "taxes": 39,
+        "dist": 4
+      },
+      "trend": [
+        1.747,
+        1.786,
+        1.802,
+        1.802,
+        1.784,
+        1.782,
+        1.78,
+        1.755,
+        1.755,
+        1.736,
+        1.734,
+        1.688,
+        1.663,
+        1.666
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nl",
+      "state": "Newfoundland",
+      "abbr": "NL",
+      "city": "St. John's",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.698,
+      "priceLow": 1.647,
+      "weekDelta": -0.116,
+      "weekDeltaDir": "down",
+      "why": "Crude is falling and prices have already dropped 11.6¢/L week-over-week, but you're still 5.1¢/L above the local low. Refineries lag in passing savings—further drops likely within days.",
+      "advice": "Top off half · wait for Fri",
+      "bestDayIdx": 5,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 50,
+        "refining": 7,
+        "taxes": 39,
+        "dist": 4
+      },
+      "trend": [
+        1.781,
+        1.821,
+        1.837,
+        1.837,
+        1.819,
+        1.816,
+        1.814,
+        1.789,
+        1.789,
+        1.77,
+        1.768,
+        1.721,
+        1.695,
+        1.698
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "ns",
+      "state": "Nova Scotia",
+      "abbr": "NS",
+      "city": "Halifax",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.653,
+      "priceLow": 1.603,
+      "weekDelta": -0.078,
+      "weekDeltaDir": "down",
+      "why": "WTI crude is falling and prices have dropped 7.8¢/L week-over-week, signaling downward momentum. However, you're 5¢/L above the local low, and full retail pass-through typically lags by 2–5 days.",
+      "advice": "Top off half · wait for Friday",
+      "bestDayIdx": 5,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 50,
+        "refining": 7,
+        "taxes": 39,
+        "dist": 4
+      },
+      "trend": [
+        1.785,
+        1.784,
+        1.784,
+        1.731,
+        1.731,
+        1.731,
+        1.731,
+        1.731,
+        1.698,
+        1.698,
+        1.698,
+        1.698,
+        1.698,
+        1.653
+      ],
+      "priceSource": "nrcan"
+    },
+    {
+      "id": "on",
+      "state": "Ontario",
+      "abbr": "ON",
+      "city": "Toronto",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.58,
+      "priceLow": 1.533,
+      "weekDelta": -0.139,
+      "weekDeltaDir": "down",
+      "why": "Ontario prices have fallen 13.9¢/L week-over-week as crude slides toward pre-conflict levels. Current price sits 4.7¢ above the regional low, with downward momentum still in play but retail pass-through lagging wholesale drops.",
+      "advice": "Top off today · full tank Wed",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -2953,44 +3295,44 @@
         }
       ],
       "breakdown": {
-        "crude": 65,
-        "refining": 9,
-        "taxes": 21,
-        "dist": 5
+        "crude": 50,
+        "refining": 8,
+        "taxes": 38,
+        "dist": 4
       },
       "trend": [
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38,
-        1.38
+        1.687,
+        1.754,
+        1.779,
+        1.755,
+        1.721,
+        1.725,
+        1.719,
+        1.683,
+        1.685,
+        1.662,
+        1.658,
+        1.592,
+        1.562,
+        1.58
       ],
-      "priceSource": "baseline"
+      "priceSource": "nrcan"
     },
     {
-      "id": "bc",
-      "state": "British Columbia",
-      "abbr": "BC",
-      "city": "Vancouver",
+      "id": "pe",
+      "state": "Prince Edward Island",
+      "abbr": "PE",
+      "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
-      "price": 1.72,
-      "priceLow": 1.668,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling sharply and U.S. prices are dropping, signaling downward pressure ahead. BC's current price is 3.1% above the local low, suggesting more room to decline in the next 2–5 days before summer demand peaks.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "verdict": "partial",
+      "price": 1.655,
+      "priceLow": 1.605,
+      "weekDelta": -0.114,
+      "weekDeltaDir": "down",
+      "why": "PEI prices have dropped 11.4¢/L week-over-week as crude slides toward pre-conflict levels. You're only 5¢ above the regional low, and downward momentum continues, but retail lag means further drops may take days to fully materialize.",
+      "advice": "Top off today, wait for rest",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -3016,151 +3358,94 @@
         "dist": 4
       },
       "trend": [
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72,
-        1.72
+        1.736,
+        1.774,
+        1.79,
+        1.79,
+        1.772,
+        1.771,
+        1.769,
+        1.744,
+        1.744,
+        1.725,
+        1.723,
+        1.677,
+        1.652,
+        1.655
       ],
-      "priceSource": "baseline"
+      "priceSource": "nrcan_est"
     },
     {
-      "id": "mb",
-      "state": "Manitoba",
-      "abbr": "MB",
-      "city": "Winnipeg",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "wait",
-      "price": 1.48,
-      "priceLow": 1.436,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling sharply and U.S. gas prices are declining, signaling downward pressure ahead. Manitoba's current price sits 3¢ above the local low, with retail lag expected as wholesale costs continue easing over the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 48,
-        "refining": 8,
-        "taxes": 39,
-        "dist": 5
-      },
-      "trend": [
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48,
-        1.48
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "nb",
-      "state": "New Brunswick",
-      "abbr": "NB",
-      "city": "Moncton",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "wait",
-      "price": 1.55,
-      "priceLow": 1.504,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. gas prices are declining, signaling downward momentum. New Brunswick prices sit 3¢ above the regional low, with room to drop further over the next few days as the trend filters through.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 46,
-        "refining": 8,
-        "taxes": 41,
-        "dist": 5
-      },
-      "trend": [
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "nl",
-      "state": "Newfoundland",
-      "abbr": "NL",
-      "city": "St. John's",
+      "id": "qc",
+      "state": "Quebec",
+      "abbr": "QC",
+      "city": "Montreal",
       "country": "CA",
       "unit": "L",
       "verdict": "partial",
-      "price": 1.58,
-      "priceLow": 1.533,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Crude oil is falling and already down nearly $4/barrel this week, signaling downward pressure on retail prices. However, Newfoundland's current price sits only 3% above the regional low, and retail lags wholesale by days. A modest further drop is likely within 2–5 days.",
+      "price": 1.698,
+      "priceLow": 1.647,
+      "weekDelta": -0.116,
+      "weekDeltaDir": "down",
+      "why": "Quebec prices are down 11.6¢/L week-over-week as crude slides. While a 5¢/L gap to the local low exists, broader downward momentum and weakening WTI suggest further relief is coming over the next few days.",
       "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
+      "news": [
+        {
+          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+        },
+        {
+          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
+          "source": "Natural News",
+          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+        },
+        {
+          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 7,
+        "taxes": 30,
+        "dist": 4
+      },
+      "trend": [
+        1.781,
+        1.821,
+        1.837,
+        1.837,
+        1.819,
+        1.816,
+        1.814,
+        1.789,
+        1.789,
+        1.77,
+        1.768,
+        1.721,
+        1.695,
+        1.698
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "sk",
+      "state": "Saskatchewan",
+      "abbr": "SK",
+      "city": "Regina",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "wait",
+      "price": 1.516,
+      "priceLow": 1.471,
+      "weekDelta": -0.103,
+      "weekDeltaDir": "down",
+      "why": "WTI crude is falling sharply and Saskatchewan prices dropped 10¢ week-over-week, signaling downward momentum. However, you're still 3¢ above the regional low, suggesting further easing is likely in the next 2–3 days as the market adjusts.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
@@ -3183,311 +3468,26 @@
       "breakdown": {
         "crude": 47,
         "refining": 8,
-        "taxes": 41,
-        "dist": 4
-      },
-      "trend": [
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "ns",
-      "state": "Nova Scotia",
-      "abbr": "NS",
-      "city": "Halifax",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.55,
-      "priceLow": 1.504,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and approaching pre-conflict levels, signaling downward pressure on retail prices. Nova Scotia prices are 3% above the local low, with modest room to drop over the next few days as wholesale trends filter through.",
-      "advice": "Top off half now, full fill Fr",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 46,
-        "refining": 8,
-        "taxes": 41,
+        "taxes": 40,
         "dist": 5
       },
       "trend": [
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55,
-        1.55
+        1.589,
+        1.625,
+        1.639,
+        1.639,
+        1.623,
+        1.621,
+        1.619,
+        1.596,
+        1.596,
+        1.579,
+        1.577,
+        1.536,
+        1.513,
+        1.516
       ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "on",
-      "state": "Ontario",
-      "abbr": "ON",
-      "city": "Toronto",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.52,
-      "priceLow": 1.474,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Oil prices are falling and already down nearly $4/barrel, signaling downward pressure on pump prices. Ontario is currently 3.1% above the local low, suggesting room for further drops in the coming days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 48,
-        "refining": 8,
-        "taxes": 39,
-        "dist": 5
-      },
-      "trend": [
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52,
-        1.52
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "pe",
-      "state": "Prince Edward Island",
-      "abbr": "PE",
-      "city": "Charlottetown",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "wait",
-      "price": 1.54,
-      "priceLow": 1.494,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Crude oil is falling sharply and U.S. gas prices are dropping, signaling downward momentum. PEI prices are 3¢ above the local low, but the lag between crude declines and retail pump prices means cheaper fuel is likely 2–5 days away.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 48,
-        "refining": 8,
-        "taxes": 39,
-        "dist": 5
-      },
-      "trend": [
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54,
-        1.54
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "qc",
-      "state": "Quebec",
-      "abbr": "QC",
-      "city": "Montreal",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.58,
-      "priceLow": 1.533,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Oil prices are falling and approaching pre-conflict lows, but retail gas hasn't fully caught up yet. Quebec sits 1.5¢/L above the regional low, with crude momentum favoring further drops in coming days.",
-      "advice": "Top off partially, fill rest F",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 56,
-        "refining": 8,
-        "taxes": 32,
-        "dist": 4
-      },
-      "trend": [
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58,
-        1.58
-      ],
-      "priceSource": "baseline"
-    },
-    {
-      "id": "sk",
-      "state": "Saskatchewan",
-      "abbr": "SK",
-      "city": "Regina",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "wait",
-      "price": 1.41,
-      "priceLow": 1.368,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and U.S. prices are dropping, signaling downward momentum. Saskatchewan is 3¢ above the local low, and retail lag suggests further declines incoming over the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
-        },
-        {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
-        },
-        {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 44,
-        "refining": 9,
-        "taxes": 42,
-        "dist": 5
-      },
-      "trend": [
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41,
-        1.41
-      ],
-      "priceSource": "baseline"
+      "priceSource": "nrcan_est"
     },
     {
       "id": "north",
@@ -3497,13 +3497,13 @@
       "country": "CA",
       "unit": "L",
       "verdict": "partial",
-      "price": 1.88,
-      "priceLow": 1.824,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "WTI crude is falling and already 3% down, signaling downward pressure on retail prices. Current price sits 3.1% above the nearby low, suggesting room to drop further in coming days as the crude decline filters through.",
-      "advice": "Top off partially · wait",
-      "bestDayIdx": 4,
+      "price": 2.021,
+      "priceLow": 1.96,
+      "weekDelta": -0.138,
+      "weekDeltaDir": "down",
+      "why": "WTI crude is declining and you're only 3¢/L above recent lows. Downward momentum suggests further drops over the next few days, though retail lag means station prices trail wholesale by 24–48 hours.",
+      "advice": "Half now · full Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -3523,28 +3523,28 @@
         }
       ],
       "breakdown": {
-        "crude": 65,
+        "crude": 67,
         "refining": 6,
-        "taxes": 25,
-        "dist": 4
+        "taxes": 24,
+        "dist": 3
       },
       "trend": [
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88,
-        1.88
+        2.119,
+        2.166,
+        2.186,
+        2.186,
+        2.164,
+        2.161,
+        2.159,
+        2.129,
+        2.129,
+        2.106,
+        2.103,
+        2.047,
+        2.017,
+        2.021
       ],
-      "priceSource": "baseline"
+      "priceSource": "nrcan_est"
     }
   ]
 }
