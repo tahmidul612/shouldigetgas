@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-06-24T12:00:57.016765+00:00",
-    "pricesUpdatedAt": "2026-06-24T12:00:36.609016+00:00",
+    "updatedAt": "2026-06-24T18:00:58.026991+00:00",
+    "pricesUpdatedAt": "2026-06-24T18:00:40.969322+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-24T12:32:32.705663+00:00",
-    "nextAnalysisUpdate": "2026-06-24T18:02:32.705679+00:00"
+    "nextPriceUpdate": "2026-06-24T18:32:04.303393+00:00",
+    "nextAnalysisUpdate": "2026-06-25T00:02:04.303407+00:00"
   },
   "wti": {
-    "price": 84.65,
+    "price": 78.94,
     "dir": "down",
-    "change": -3.97
+    "change": -1.41
   },
   "regions": [
     {
@@ -24,25 +24,25 @@
       "priceLow": 2.711,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Alabama prices are at a recent low of $2.711/gal with WTI crude falling sharply. Week-over-week decline of -$0.094 shows momentum, though crude-to-pump lag means further drops may take weeks to fully materialize.",
+      "why": "Prices have dropped 9.4¢ this week and sit at recent lows. Crude is trending down on weak demand signals. Current pricing reflects the downward momentum, making this a favorable fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -81,25 +81,25 @@
       "priceLow": 3.605,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at their lowest point this week as crude oil slides downward. While national averages are dropping, Alaska's remote supply chain means local prices lag broader trends—but current levels offer a solid fill-up window before any temporary upticks.",
+      "why": "Alaska prices are at their lowest point with WTI crude falling and week-over-week decline showing downward momentum. Summer blend and stable supply conditions support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -138,25 +138,25 @@
       "priceLow": 3.111,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at their weekly low and WTI crude is falling sharply. Downward momentum is building, but retail lag means further drops may take a few days to materialize at pumps.",
+      "why": "Arizona prices have dropped 7.6¢ week-over-week and sit at recent lows. WTI crude is declining, reducing upward pressure. Summer blend costs are factored in, but the downtrend suggests further modest relief may come within days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -195,25 +195,25 @@
       "priceLow": 2.654,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Arkansas prices have dropped 9¢ week-over-week and are at their lowest point. WTI crude is falling and trending downward, signaling continued relief at the pump. Summer blend is in effect, but the price momentum is solidly bearish.",
+      "why": "Arkansas prices have dropped 9.2¢ week-over-week and match recent lows. WTI crude is declining, suggesting downward momentum continues. Summer blend premium and stable supply support current favorable pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -247,13 +247,13 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 5.554,
       "priceLow": 5.554,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "CA prices are at a recent low matching the nearby minimum. WTI crude is declining and national averages are dropping, suggesting downward momentum. Summer blend premiums are in effect, but the trend is favorable.",
-      "advice": "Fill up today",
+      "why": "California prices are at current lows with crude declining. Summer blend premiums and regional refinery constraints typically support prices here, but downward crude momentum suggests further relief possible within days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -263,14 +263,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         }
       ],
       "breakdown": {
@@ -304,30 +304,30 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.95,
       "priceLow": 3.95,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at a recent low of $3.95/gal while crude oil is declining. However, retail prices typically lag wholesale drops by 1–2 weeks, so further reductions are likely coming in the next few days.",
-      "advice": "Top off today · fill rest by F",
-      "bestDayIdx": 5,
+      "why": "Colorado prices are at their local low with flat week-over-week movement. Crude oil is declining, which typically supports lower pump prices ahead. Summer blend premium is currently factored in.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -361,30 +361,30 @@
       "city": "Hartford",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.362,
       "priceLow": 3.362,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices are at their weekly low as crude oil slides and national averages drop. The downward momentum is established, though retail price lag means further declines may take 2–5 days to fully materialize.",
-      "advice": "Half now · full Thu",
-      "bestDayIdx": 4,
+      "why": "Connecticut prices have dropped 6.7¢ this week as crude oil weakens. You're at a local low point with downward momentum. Political scrutiny on pricing may add temporary volatility but underlying fundamentals suggest modest softness ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -423,25 +423,25 @@
       "priceLow": 3.119,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low of $3.119/gal, tracking a week-over-week decline of 6¢. WTI crude is falling and heading toward pre-conflict levels, though retail gas typically lags wholesale drops by several days.",
+      "why": "Delaware prices have dropped 6¢ week-over-week and match the regional low. WTI crude is declining, signaling continued downward pressure. Summer blend transition is complete with no supply disruptions reported.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -475,14 +475,14 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.739,
       "priceLow": 3.694,
       "weekDelta": 0.045,
       "weekDeltaDir": "up",
-      "why": "WTI crude is falling sharply and national averages are dropping below $4. Florida's current price is only 1.2% above the lowest nearby station, with summer blend demand peaking. Prices should continue easing over the next few days as crude weakness filters through.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 2,
+      "why": "Florida prices are slightly elevated at 3.739, but WTI crude is declining and national averages are dipping. Summer blend premiums are in effect, but downward momentum suggests better pricing within days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
@@ -491,14 +491,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         }
       ],
       "breakdown": {
@@ -537,25 +537,25 @@
       "priceLow": 2.846,
       "weekDelta": -0.056,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their local low while crude oil is falling sharply. Week-over-week decline of 5.6¢ signals downward momentum, though retail margins typically lag wholesale drops by several days.",
+      "why": "Georgia prices have dropped 5.6¢ this week and are at a recent low. WTI crude is declining, and summer blend typically stabilizes prices. Political scrutiny on pricing may add downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -594,25 +594,25 @@
       "priceLow": 4.409,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Hawaii gas is at its lowest point this week as crude slides toward pre-conflict levels. National averages are dropping, and the downward pressure should continue, though island supply chains mean Hawaii lags mainland price shifts by several days.",
-      "advice": "Fill up today, monitor Fri",
+      "why": "Hawaii prices have dropped 11¢/week and are at a recent low. WTI crude is falling with downward momentum. Current price represents a solid buying opportunity in this high-cost market.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -651,25 +651,25 @@
       "priceLow": 3.269,
       "weekDelta": -0.072,
       "weekDeltaDir": "down",
-      "why": "Idaho prices are at their weekly low and WTI crude is declining sharply. National trends show sustained downward pressure, though full retail pass-through takes time. Current pricing offers a good fill-up window before any temporary upticks.",
+      "why": "Idaho prices are at their lowest point, down 7 cents week-over-week. WTI crude is declining and summer blend is in effect. Political scrutiny on pricing may add downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -708,25 +708,25 @@
       "priceLow": 3.519,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Illinois gas is at its lowest point this week as crude oil falls sharply. Prices have dropped 7.6¢ week-over-week and are now near recent lows. Oil may continue downward, but retail gas typically lags by several days.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Illinois prices have dropped 7.6 cents week-over-week and sit at recent lows. WTI crude is declining, and summer blend costs are stabilizing. Political pressure on pricing may add downward momentum.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -765,25 +765,25 @@
       "priceLow": 3.149,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Indiana prices match recent lows as crude slides toward pre-conflict levels. Weekly decline of 7 cents shows downward momentum, but retail lag means further drops may take weeks to materialize.",
+      "why": "Indiana prices have dropped 7¢ week-over-week and are at a recent low. WTI crude is declining, supporting further downside potential. Political scrutiny on pricing may add temporary pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -822,25 +822,25 @@
       "priceLow": 2.994,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at a recent low of $2.99/gal with WTI crude falling. Week-over-week decline of 6.5¢ shows downward momentum, though retail lags wholesale—full savings may take weeks to materialize.",
+      "why": "Iowa prices have dropped 6.5¢ this week and hit recent lows near $2.99/gal. Crude oil is declining, suggesting continued downward pressure. Current levels offer a solid fill-up window before any potential rebound.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -879,25 +879,25 @@
       "priceLow": 2.935,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Kansas prices have dropped 6.4¢ week-over-week and match the local low. WTI crude is falling and below recent highs, suggesting the downtrend may continue, but momentum could slow as the market stabilizes.",
-      "advice": "Fill up today, monitor Friday",
-      "bestDayIdx": 3,
+      "why": "Kansas prices have dropped 6.4¢ this week as crude oil weakens. Current price matches the regional low, and downward momentum suggests a temporary floor. Political pressure on pricing adds uncertainty but doesn't immediately shift market fundamentals.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -931,30 +931,30 @@
       "city": "Louisville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.881,
       "priceLow": 2.881,
       "weekDelta": -0.1,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices have dropped 10¢ this week as crude oil slides toward pre-conflict levels. You're already at the local low, and downward momentum suggests further relief ahead, though refineries may lag in passing savings through.",
-      "advice": "Top off today, wait for rest",
-      "bestDayIdx": 3,
+      "why": "Kentucky prices have dropped 10 cents week-over-week and match recent lows. WTI crude is declining, suggesting downward pressure continues. Summer blend premiums are in effect, but the trend favors consumers now.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -993,25 +993,25 @@
       "priceLow": 2.758,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at their weekly low with WTI crude down nearly $4/barrel and falling. Broader market trends show national prices dropping, but full retail pass-through typically lags by 2–5 days.",
+      "why": "Louisiana prices have dropped 9.6¢ this week and are at their recent low. WTI crude is declining, suggesting continued downward pressure. Summer blend and stable supply support current favorable pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1045,30 +1045,30 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.294,
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at their lowest point this week as crude oil slides downward. While refineries take time to pass savings through, current prices represent a good buying window before any rebound.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Maine prices are at their lowest point in recent days as crude fell $1.41. Summer blend and downward crude momentum suggest prices may dip further over the next 2–3 days before any rebound.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1107,25 +1107,25 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Maryland gas is at its lowest point this week as crude oil slides down. Prices have already dropped 6¢ week-over-week, but full retail pass-through typically lags 2–5 days behind wholesale moves.",
+      "why": "Maryland prices are at their local low of $3.197/gal, with WTI crude down $1.41 and week-over-week declining 6.3 cents. Political pressure on pricing may create near-term volatility, but current fundamentals support filling up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1164,25 +1164,25 @@
       "priceLow": 4.067,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Oil prices are falling sharply and MA prices have already dropped 13¢ this week, hitting current lows. National averages are breaking below $4/gal, signaling downward momentum. However, full retail pass-through typically lags by days.",
+      "why": "MA prices hit a recent low at $4.067/gal with strong week-over-week decline of 13 cents. Crude is falling and summer blend costs are normalizing. Political scrutiny on pricing may further cap upside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1221,25 +1221,25 @@
       "priceLow": 3.227,
       "weekDelta": -0.07,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at their weekly low of $3.23/gal, with crude sliding down $3.97 and national averages declining. Summer blend premiums are active, but downward momentum suggests further drops over the next few days.",
-      "advice": "Fill up today, monitor Wed",
-      "bestDayIdx": 3,
+      "why": "Michigan prices are at their local low after a week-long decline. WTI crude is falling, and summer blend supplies are stable. Political scrutiny on pricing may add downward pressure in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1278,25 +1278,25 @@
       "priceLow": 3.834,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices are at a recent low and falling. Oil prices have dropped nearly $4/barrel, signaling downward pressure. However, full transmission to pumps takes weeks, so current prices represent a decent window before further declines materialize.",
+      "why": "Minnesota prices have dropped nearly 10¢ week-over-week and match recent lows. WTI crude is falling, and summer blend supply is stable. Political scrutiny may add downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1330,30 +1330,30 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.692,
       "priceLow": 2.692,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Crude oil is falling and you're already at the local low. Gas prices typically lag crude declines by several days, so further drops are likely in the coming week as refineries pass savings along.",
-      "advice": "Top off half now, fill rest Th",
-      "bestDayIdx": 4,
+      "why": "Mississippi prices have dropped 9.3¢ week-over-week and sit at recent lows. WTI crude is declining, and summer blend typically keeps prices elevated, but current pricing reflects downward momentum with no immediate catalysts for reversal.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1392,25 +1392,25 @@
       "priceLow": 2.897,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at its local low of $2.897/gal with crude down $3.97. Prices have dropped 6.3¢ week-over-week, but oil analysts warn full gasoline declines take months to materialize.",
+      "why": "Prices have dropped 6.3¢ week-over-week and crude is declining. You're at the local low with summer blend in effect. Political scrutiny on pricing may add downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1449,25 +1449,25 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Montana prices are at a local low and tracking a broader national decline. WTI crude is falling but downstream gasoline adjustments lag by weeks. You're in a good window now before summer driving season intensifies.",
+      "why": "Montana prices have dropped 7.3¢ week-over-week and match the regional low. WTI crude is declining, suggesting downward pressure continues. Summer blend premium and stable supply support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1506,25 +1506,25 @@
       "priceLow": 3.003,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices are at a recent low of $3.00/gal, down 6.6¢ week-over-week. WTI crude is falling and near pre-conflict levels, but downstream gasoline adjustments lag by days. Current pricing offers a solid window before any further drops materialize.",
+      "why": "Nebraska prices are at recent lows with week-over-week decline of 6.6 cents. WTI crude is falling and currently $78.94/barrel. Summer blend premiums are active, but downward momentum suggests further relief possible within days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1563,25 +1563,25 @@
       "priceLow": 3.702,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Nevada gas is at its local low of $3.70/gal with crude falling sharply. Week-over-week decline of 9¢ shows downward momentum, though full pass-through to pumps typically lags 2–5 days. Current price is attractive relative to recent trends.",
+      "why": "Nevada prices are at their local low and trending down week-over-week. Crude oil is falling, and summer blend costs are stable. Political pressure on pricing may create near-term uncertainty, but current rates offer a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1615,30 +1615,30 @@
       "city": "Manchester",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.197,
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NH prices are at a recent low with WTI crude sliding down. Weekly trend is negative and national average is dropping, suggesting momentum favors consumers. Summer blend premium is already factored in.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "NH prices match the regional low at $3.197/gal, down 6.3¢ week-over-week. WTI crude is declining, suggesting downward momentum may continue over the next few days.",
+      "advice": "Top off most of tank today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1677,25 +1677,25 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at recent lows and falling steadily. Crude is sliding toward pre-conflict levels, signaling downward momentum. Summer blend and stable supply support near-term stability.",
+      "why": "NJ prices have dropped 6.3¢ week-over-week and hit a local low. WTI crude is declining, supporting further softness. Summer blend premium is in effect, but momentum favors buyers now.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1734,25 +1734,25 @@
       "priceLow": 2.975,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped 10¢ week-over-week and are at their lowest point. WTI crude is falling and below $85/barrel. Current price represents a good buying window before seasonal summer demand pushes prices back up.",
+      "why": "Prices have dropped 10¢ this week and crude is declining. You're at a recent low point. Summer blend and stable supply conditions support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1786,14 +1786,14 @@
       "city": "New York City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 4.19,
       "priceLow": 4.19,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "NY prices have dropped 8.9¢ week-over-week and are at a local low. WTI crude is sliding downward, signaling continued weakness. However, refinery lags mean further retail drops may take weeks.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "NY prices are at their lowest point this week as crude oil softens. Summer blend costs are factored in, and downward momentum suggests further easing ahead. Current price matches the recent low, but crude's continued decline may drive deeper cuts within 2–3 days.",
+      "advice": "Top off half now, fill Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
         {
@@ -1802,14 +1802,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         }
       ],
       "breakdown": {
@@ -1843,30 +1843,30 @@
       "city": "Charlotte",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.973,
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "NC prices are at their lowest point this week as crude oil slides downward. Demand is typical for summer, and the downward trend suggests relief is coming, though full price drops lag crude movements by days.",
-      "advice": "Fill up today",
+      "why": "NC prices have dropped 5.8¢ this week and sit at recent lows. WTI crude is declining, supporting further downside. Summer blend adds a small premium, but overall momentum favors lower prices in the coming days.",
+      "advice": "Top off partial · fill Wed",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1905,25 +1905,25 @@
       "priceLow": 3.091,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at their recent low of $3.09/gal, matching the downward momentum in crude oil (-$3.97). WTI is sliding toward pre-conflict levels, signaling continued pressure on pump prices over the next few days.",
+      "why": "North Dakota prices are at a recent low of $3.091/gal with week-over-week decline of $0.067. WTI crude is trending downward, suggesting further modest relief ahead. Current price is attractive but slight softness may persist.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -1962,25 +1962,25 @@
       "priceLow": 4.08,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their lowest point with crude falling sharply. National average has dipped below $4, signaling downward momentum. However, retail prices typically lag crude drops by several days.",
+      "why": "Ohio prices are at their lowest point with no week-over-week change. Crude is declining, and summer blend is in effect. Political scrutiny on pricing may create downward pressure in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2019,25 +2019,25 @@
       "priceLow": 2.72,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are already at their lowest point this week as crude slides toward pre-conflict levels. Week-over-week decline of 9.4¢ signals downward momentum, though retail lags wholesale by days. Summer blend and stable supply support further modest declines ahead.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Oklahoma prices have dropped 9¢ week-over-week and sit at recent lows. WTI crude is declining, suggesting continued downward pressure. Summer blend and stable supply support current pricing.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2076,25 +2076,25 @@
       "priceLow": 3.76,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at recent lows while WTI crude is falling and national averages dipping below $4. Downward momentum is established, though retail lag means further drops may take days to fully materialize.",
+      "why": "Oregon prices have dropped 9.3¢ week-over-week and match the local low. WTI crude is declining, reducing upward pressure. Summer blend costs are stable with no holiday demand spike.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2133,7 +2133,7 @@
       "priceLow": 3.431,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "PA prices are at a recent low matching the lowest nearby, and crude is declining. Week-over-week drop of 6.7¢ signals downward momentum. However, retail lags wholesale—further drops may take weeks to fully materialize.",
+      "why": "Pennsylvania gas is at its local low of $3.43/gal with crude falling and week-over-week decline showing downward momentum. Summer blend transition is complete, and no supply disruptions are indicated.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
@@ -2144,14 +2144,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         }
       ],
       "breakdown": {
@@ -2190,25 +2190,25 @@
       "priceLow": 3.314,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Rhode Island gas is at a local low of $3.31/gal, down 6.5¢ week-over-week. WTI crude is sliding (down $3.97) and trending lower. Price momentum is favorable now, though full market adjustment may lag.",
+      "why": "Rhode Island prices have dropped 6.5¢ this week and sit at recent lows. WTI crude is declining, suggesting continued downward pressure. Summer blend premiums are offset by weakening global oil demand.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2247,25 +2247,25 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "SC prices are at their lowest point this week as crude slides below $85/barrel. Downward momentum is strong, but retail lag means further drops may take days. Current level offers a solid entry point.",
+      "why": "SC prices are at their lowest point this week as crude slides below $80/barrel. Summer blend and downward momentum suggest temporary stability, but political scrutiny on pricing adds uncertainty.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2299,30 +2299,30 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.062,
       "priceLow": 3.062,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "SD prices are at their lowest point this week as crude slides toward pre-conflict levels. Downward momentum is strong, but retail gas lags wholesale by days. You're near a local low, but further drops likely within 2–5 days as crude weakness filters through.",
-      "advice": "Top off halfway today, fill re",
-      "bestDayIdx": 5,
+      "why": "Prices have dropped 6.6¢ week-over-week and match recent lows. WTI crude is declining, signaling continued downward pressure. Summer blend costs remain elevated, but current pricing offers a reasonable fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2361,25 +2361,25 @@
       "priceLow": 2.786,
       "weekDelta": -0.097,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at its weekly low of $2.786/gal, with crude falling $3.97 and week-over-week prices down 9.7¢. Oil momentum is downward, but retail lag means further drops may take several days to materialize.",
+      "why": "Tennessee prices have dropped 9.7¢ week-over-week and match the local low. WTI crude is declining, signaling downward momentum. Summer blend premium is in effect, but current pricing reflects recent weakness.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2413,13 +2413,13 @@
       "city": "Houston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.432,
       "priceLow": 3.432,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Texas prices are at a recent low with crude sliding down $3.97. Week-over-week decline of 12.9¢ signals momentum, though full crude-to-pump lag means prices may dip further over the next few days.",
-      "advice": "Top off partially today",
+      "why": "Texas prices are at their lowest point this week as crude oil continues declining. Summer blend costs remain stable with downward momentum from falling WTI. Current pump price represents good value in the near-term window.",
+      "advice": "Fill up today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
@@ -2429,14 +2429,14 @@
           "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
         },
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         }
       ],
       "breakdown": {
@@ -2470,30 +2470,30 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.339,
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 7.3¢ this week as crude oil weakens. You're already at a local low, and downward momentum suggests further relief ahead, though the pass-through typically lags by several days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "Utah prices are at their lowest point, down 7.3¢ week-over-week. WTI crude is declining and summer blend transition is complete. Political scrutiny on pricing may create near-term stability.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2532,25 +2532,25 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Vermont prices have dropped 6.5¢ this week and are at local lows. Crude oil is sliding and national averages are falling, signaling continued downward momentum over the next few days.",
+      "why": "Vermont prices have dropped 6.5¢ this week as crude oil weakens. You're at the regional low with downward momentum, but summer blend premium and potential political volatility create uncertainty. Fill up now while prices are favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2589,25 +2589,25 @@
       "priceLow": 3.07,
       "weekDelta": -0.06,
       "weekDeltaDir": "down",
-      "why": "Virginia prices are at their lowest point this week as crude oil drops toward pre-conflict levels. Downward momentum is solid, but gas station prices lag crude by weeks, so further declines are coming.",
+      "why": "Virginia prices are at their lowest point this week as crude trends downward. Summer demand and blend requirements support current levels, with no immediate supply disruptions signaled.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2646,25 +2646,25 @@
       "priceLow": 5.343,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices hold at current lows while crude slides downward. National trend shows falling prices, but regional adjustments lag 2–5 weeks. You're at a local floor right now with tailwinds ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "WA prices are at a recent low with flat week-over-week movement. Crude oil is declining, suggesting downward pressure ahead. However, summer blend and stable current conditions create a reasonable fill-up window.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2703,25 +2703,25 @@
       "priceLow": 3.099,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its recent low of $3.099/gal, and crude oil is sliding downward. Prices have dropped 6¢ week-over-week, signaling a downtrend. However, refinery lag means further drops may take days to materialize.",
+      "why": "WV prices have dropped 6¢ week-over-week and sit at a local low. WTI crude is declining and summer blend pricing is stable. Political pressure on 'gouging' may add downward momentum short-term.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2760,25 +2760,25 @@
       "priceLow": 3.188,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have dropped 7¢ week-over-week and are at a recent low. WTI crude is falling and heading toward pre-conflict levels, but downstream price adjustments typically lag by days. Summer blend and stable supply support current conditions.",
+      "why": "Wisconsin prices are at their lowest point after a week-long decline. Crude oil is falling and summer blend is active. Political scrutiny on pricing may create downward pressure, but current lows present a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2817,25 +2817,25 @@
       "priceLow": 3.239,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "Wyoming gas is at its lowest point this week as crude oil weakens. Falling WTI suggests downward pressure, but refineries lag 1–2 weeks behind. You're at a good window now before summer demand peaks.",
+      "why": "Wyoming prices are at their lowest point this week, down 7 cents from last week. WTI crude is declining and summer blend pricing is stable. Current conditions favor filling up now before any potential price recovery.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2874,25 +2874,25 @@
       "priceLow": 3.46,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "DC prices are at their lowest point this week, and crude oil is falling sharply. Though pump prices lag wholesale declines by weeks, current levels offer a good fill-up window before any brief rebound.",
+      "why": "DC prices are at their lowest point with crude trending down and summer blend in effect. Week-over-week decline suggests downward momentum, though political scrutiny on pricing may create short-term volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2926,30 +2926,30 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.617,
       "priceLow": 1.568,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "WTI crude fell $3.97 and prices are down week-over-week, signaling downward momentum. You're 3.1% above the local low, suggesting further drops are likely over the next few days as the market adjusts to softer oil.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Alberta prices have fallen 5.3¢/L week-over-week with WTI crude dropping. Current price of 1.617 $/L is close to the 1.568 $/L low, suggesting we're near a floor. Political scrutiny on pricing may further stabilize or limit increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -2983,30 +2983,30 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.849,
       "priceLow": 1.794,
       "weekDelta": -0.126,
       "weekDeltaDir": "down",
-      "why": "BC prices are down 12.6¢ week-over-week and crude is falling sharply. Current price sits 5.5¢ above the local low, suggesting room to drop further over the next few days as market adjusts.",
-      "advice": "Hold until Thursday",
+      "why": "BC prices are down 12.6¢ week-over-week with crude falling and a 5.5¢ gap to local lows. Political pressure on pricing may create further downward pressure in the coming days.",
+      "advice": "Top up half · wait until Thurs",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3040,30 +3040,30 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.591,
       "priceLow": 1.543,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Oil prices are sliding with WTI down nearly $4, and week-over-week prices fell 10.9¢/L. Current price sits just 4.8¢ above the regional low, signaling a favorable window before potential summer demand spikes.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Manitoba prices dropped 11¢ week-over-week as crude fell below $79/barrel. Current price sits 4.8¢ above the recent low, with downward momentum continuing. Political attention on gas pricing adds uncertainty but doesn't fundamentally change the supply-demand outlook.",
+      "advice": "Top off today, watch for Wed",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3097,30 +3097,30 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.666,
       "priceLow": 1.616,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Oil prices are falling and NB prices have dropped 11.4¢/L week-over-week, though you're still 5¢ above the regional low. Further declines expected over coming days as crude momentum continues downward.",
-      "advice": "Top off half today, full fill ",
-      "bestDayIdx": 5,
+      "why": "Prices have dropped 11.4¢/L week-over-week and crude is declining. Current price sits just 5¢ above the recent low, suggesting the downtrend may be stabilizing near support levels.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3159,25 +3159,25 @@
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Oil prices are falling and Newfoundland has already dropped 11.6¢/L week-over-week, but current price sits 5.1¢ above the recent low. Further declines likely as crude momentum continues downward.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Prices have dropped 11.6¢ over the week as crude falls. Current price sits 5.1¢ above the regional low, with downward momentum continuing. Political scrutiny on pricing may add further pressure.",
+      "advice": "Top off today · wait for Frida",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3211,30 +3211,30 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 1.653,
       "priceLow": 1.603,
       "weekDelta": -0.078,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices are down 7.8¢/L week-over-week and crude is sliding. You're 5¢/L above the local low, but downward momentum is clear. Full retail pass-through may take weeks, so the window to buy is narrowing but still open.",
-      "advice": "Fill up by Thursday",
-      "bestDayIdx": 4,
+      "why": "Nova Scotia prices have dropped 7.8¢/L week-over-week and crude is declining. Current price sits 5¢/L above the regional low, suggesting modest room to fall further as crude momentum remains downward.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3268,30 +3268,30 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.58,
       "priceLow": 1.533,
       "weekDelta": -0.139,
       "weekDeltaDir": "down",
-      "why": "Oil prices are falling and Ontario is down 13.9¢/L week-over-week, signaling continued downward pressure. However, retail lag means pump prices typically follow crude drops by 2–5 days, so current prices aren't yet at their lowest.",
-      "advice": "Top up partially now, fill up ",
-      "bestDayIdx": 3,
+      "why": "Prices have fallen 13.9¢/L week-over-week and crude is trending down. Current price sits 4.7¢ above the regional low, suggesting further decline likely in the next few days as downstream effects catch up.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3330,25 +3330,25 @@
       "priceLow": 1.605,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "PEI prices have dropped significantly week-over-week as crude oil slides toward lower levels. Current price is only 5¢ above the local low, and downward momentum suggests further relief may arrive, but the lag between crude and pump prices means full savings take time.",
-      "advice": "Top up today, monitor for Frid",
-      "bestDayIdx": 5,
+      "why": "Prices dropped 11.4¢ this week and crude is falling. Current price is only 5¢ above the regional low, suggesting we're near a temporary floor. Political pressure on gouging may add downward momentum in coming days.",
+      "advice": "Top off today, monitor Thu",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3387,25 +3387,25 @@
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Quebec prices have dropped 11.6¢/L week-over-week as crude slides toward pre-conflict levels. Current price is 3% above the regional low, with downward momentum continuing but refinement lag means further drops may take weeks.",
-      "advice": "Fill up today · top off Friday",
-      "bestDayIdx": 5,
+      "why": "Quebec prices have dropped 11.6¢/L week-over-week and crude is declining. Current price sits 5.1¢ above the regional low, suggesting further modest decreases likely in the next 2–3 days as downstream inventory adjusts.",
+      "advice": "Top off Wed–Thu",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3439,30 +3439,30 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Crude oil is falling and approaching pre-conflict lows, with WTI down nearly $4. Saskatchewan prices have already dropped 10¢ this week, but retail typically lags wholesale by 2–5 days. Further declines likely as the trend continues.",
-      "advice": "Top off today, fill rest by Fr",
-      "bestDayIdx": 5,
+      "why": "Prices have dropped 10.3¢/L week-over-week and crude is trending down. Current price is 4.5¢/L above the regional low, suggesting further decline is likely in the next few days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
@@ -3496,30 +3496,30 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.021,
       "priceLow": 1.96,
       "weekDelta": -0.138,
       "weekDeltaDir": "down",
-      "why": "Crude oil is falling sharply and has dropped 3.97 this week, signaling downward pressure on retail prices. You're currently 3.1% above the local low, and the trend suggests further easing over the next few days.",
-      "advice": "Top off partially, fill rest F",
-      "bestDayIdx": 5,
+      "why": "Prices have fallen 6.8% week-over-week and crude is declining. Current price is only 3.1% above the local low, suggesting the downtrend may be moderating. Political pressure on pricing adds uncertainty but unlikely to shift fundamentals immediately.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
-          "headline": "Oil prices slide near pre-Iran war levels - but it could take months for gasoline to fully drop",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/18/business/oil-prices-slide-near-pre-iran-war-levels-but-it-could-take-months-for-gasoline-to-fully-drop/"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/trump-calls-for-probe-into-gasoline-price-gouging-ce7f5fdbda8dff22"
         },
         {
-          "headline": "U.S. Average Gas Price Drops Below $4 Per Gallon for First Time Since April",
-          "source": "Natural News",
-          "url": "https://www.naturalnews.com/2026-06-16-us-average-gas-cost-drops-below-4.html"
+          "headline": "Trump calls for probe into gasoline price 'gouging'",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3939779-trump-calls-for-probe-into-gasoline-price-gouging"
         },
         {
-          "headline": "Gas Prices Today, June 5: Check fuel latest rates in California, Texas, Florida, New York, and Pennsylvania as National Average sees a dip",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/us/news/gas-prices-today-june-5-check-fuel-latest-rates-in-california-texas-florida-new-york-and-pennsylvania-as-national-average-sees-a-dip/articleshow/131527132.cms"
+          "headline": "Trump Orders Gas Price Gouging Probe",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Orders-Gas-Price-Gouging-Probe.html"
         }
       ],
       "breakdown": {
