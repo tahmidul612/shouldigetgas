@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-06-25T12:01:22.530720+00:00",
-    "pricesUpdatedAt": "2026-06-25T12:00:53.177454+00:00",
+    "updatedAt": "2026-06-25T18:01:27.609349+00:00",
+    "pricesUpdatedAt": "2026-06-25T18:00:57.004360+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-25T12:37:30.356475+00:00",
-    "nextAnalysisUpdate": "2026-06-25T18:07:30.356486+00:00"
+    "nextPriceUpdate": "2026-06-25T18:33:34.702121+00:00",
+    "nextAnalysisUpdate": "2026-06-26T00:03:34.702132+00:00"
   },
   "wti": {
-    "price": 78.94,
-    "dir": "down",
-    "change": -1.41
+    "price": 71.2,
+    "dir": "flat",
+    "change": 0.0
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.711,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9¢ in a week and are at recent lows. WTI crude is falling, and summer blend is in effect. Political scrutiny on oil companies may add downward pressure.",
+      "why": "Alabama prices have dropped 9.4¢ week-over-week and are at their lowest point. WTI crude is flat, suggesting stable near-term costs. Summer blend demand is supporting current levels, but no immediate pressure indicates further drops.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -81,10 +81,10 @@
       "priceLow": 3.605,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low and declining week-over-week. WTI crude is falling, supporting downward pressure. Political scrutiny on oil companies may temporarily stabilize prices, but fundamental supply costs are trending down.",
+      "why": "Alaska prices are at their lowest point this week and trending downward (down 8.9¢). Crude is flat and summer blend is in effect. Political scrutiny on oil companies may create near-term price volatility, but current lows make this a favorable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -138,10 +138,10 @@
       "priceLow": 3.111,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Arizona prices have dropped 7.6¢ week-over-week and match the regional low. WTI crude is declining, and summer blend typically stabilizes mid-week. Political pressure on oil companies may create uncertainty, but current pricing is favorable.",
+      "why": "Arizona prices are at their weekly low of $3.11/gal, down 7.6¢ week-over-week. WTI crude is flat, suggesting stable near-term pricing. Summer blend costs are elevated seasonally, but current levels offer a reasonable fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -195,10 +195,10 @@
       "priceLow": 2.654,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Arkansas prices have dropped 9¢ week-over-week and are at recent lows. WTI crude is declining, supporting continued downward pressure. Summer blend and stable fundamentals suggest prices may hold or edge lower in the near term.",
+      "why": "Arkansas gas is at its lowest point this week after a 9¢ drop. WTI crude is flat, and summer blend supply is stable. Political scrutiny on oil companies may add short-term uncertainty, but current pricing reflects recent strength.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -252,10 +252,10 @@
       "priceLow": 5.554,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at their recent low of $5.554/gal with flat week-over-week movement. WTI crude is declining, suggesting modest downward pressure ahead. Summer blend costs and political scrutiny on pricing add uncertainty.",
+      "why": "California prices are flat at $5.55/gal with no recent downward pressure. Summer blend costs and stable crude ($71) suggest prices may hold or drift slightly higher. Political scrutiny unlikely to lower pump prices immediately.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -309,10 +309,10 @@
       "priceLow": 3.95,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its local low with crude trending down. Stable pricing and falling oil suggest prices have plateaued near current levels. Political pressure on oil may add downward momentum in coming days.",
+      "why": "Colorado prices are at their recent low with flat week-over-week movement and stable crude oil. Summer blend demand is typical for the season. Political pressure on oil companies creates uncertainty but unlikely to impact prices immediately.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -366,10 +366,10 @@
       "priceLow": 3.362,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices are at a recent low and trending down week-over-week. WTI crude is declining, suggesting modest downward pressure. Political scrutiny on oil companies may create temporary uncertainty but unlikely to reverse the current favorable pricing window.",
+      "why": "Connecticut prices are at their lowest point with WTI crude flat. Week-over-week decline shows downward momentum. Political pressure on oil companies may create uncertainty but current prices reflect fair value.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -423,10 +423,10 @@
       "priceLow": 3.119,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low of $3.119/gal, supported by declining WTI crude (-1.41/bbl). Week-over-week drop of 6.1¢ shows downward momentum. Political scrutiny on oil companies may add volatility but current pricing favors consumers.",
+      "why": "Delaware prices are at their lowest point this week and have dropped 6¢ year-over-year. Crude oil is stable, and political scrutiny on pricing may add downward pressure. Current conditions favor filling up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -475,15 +475,15 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.739,
       "priceLow": 3.694,
       "weekDelta": 0.045,
       "weekDeltaDir": "up",
-      "why": "Prices rose 4.5¢ this week despite crude falling. WTI decline suggests downward pressure ahead. Political scrutiny on oil may add volatility, but fundamentals point to easing prices in 2–4 days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Florida prices rose 4.5¢ this week despite flat crude oil, suggesting regional supply tightness. Summer blend demand remains steady. Political pressure on oil companies may create uncertainty but won't immediately lower prices.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -532,15 +532,15 @@
       "city": "Atlanta",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.846,
       "priceLow": 2.846,
       "weekDelta": -0.056,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their lowest point this week as crude oil dips. Week-over-week decline of 5.6¢ signals downward momentum, and WTI's drop suggests further relief may come within days.",
-      "advice": "Top off today, wait for rest",
+      "why": "Georgia gas is at its lowest point this week as crude remains flat. Prices dropped 5.6¢ week-over-week, and you're currently at a local floor. Political pressure on oil companies may add downward momentum, but summer demand is stabilizing prices.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -594,10 +594,10 @@
       "priceLow": 4.409,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices are at a recent low of $4.409/gal, down 11¢ week-over-week. WTI crude is declining, and political pressure on oil companies may further suppress prices in the near term.",
+      "why": "Hawaii prices have dropped 11¢ this week and are at their local low. WTI crude is flat, suggesting stability. Summer blend and stable crude support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -651,10 +651,10 @@
       "priceLow": 3.269,
       "weekDelta": -0.072,
       "weekDeltaDir": "down",
-      "why": "Idaho prices are at a recent low of $3.27/gal, reinforced by a week-over-week drop of 7¢. WTI crude is declining and political pressure on oil companies may add downward momentum. Summer blend availability supports competitive pricing.",
+      "why": "Idaho prices are at a local low after a modest weekly decline. Crude is stable and flat, with no immediate pressure upward. Political scrutiny on oil companies may add uncertainty, but near-term fundamentals don't signal a sharp drop.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -708,10 +708,10 @@
       "priceLow": 3.519,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Illinois prices are at a recent low after dropping 7.6¢ week-over-week. WTI crude is falling and summer blend is in effect. Political scrutiny on oil may add downward pressure.",
+      "why": "Illinois prices have declined 7.6¢ week-over-week and are at a local low. WTI crude is flat, suggesting stable near-term supply costs. Summer blend demand remains steady with no major disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -765,10 +765,10 @@
       "priceLow": 3.149,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have fallen 7¢ week-over-week and match recent lows. WTI crude is declining, supporting further downward pressure. Summer blend and stable supply conditions suggest prices may soften slightly more in the next few days.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "why": "Indiana prices are at a recent low of $3.149/gal with week-over-week declines. WTI crude is flat, and summer blend competition is steady. Political pressure on oil pricing adds short-term uncertainty but doesn't signal imminent drops.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -822,10 +822,10 @@
       "priceLow": 2.994,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Iowa prices have dropped 6.5¢ week-over-week and are at their recent low. WTI crude is sliding, signaling continued downward pressure. Summer blend and stable supply support modest further declines ahead.",
+      "why": "Iowa prices have dropped 6.5¢ this week and are at a local low. WTI crude is flat, suggesting stable near-term supply costs. Political pressure on oil companies may create downward momentum, but current levels offer a good fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -879,10 +879,10 @@
       "priceLow": 2.935,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Kansas prices are at their lowest point this week as WTI crude drops. Downward momentum continues with a 6.4¢ weekly decline. Summer blend transitions and potential regulatory scrutiny create uncertainty, but current pricing is favorable.",
+      "why": "Kansas prices have dropped 6.4¢ week-over-week and are at their lowest point. WTI crude is flat, suggesting stability ahead. Political pressure on oil companies may create near-term uncertainty, but current prices represent a good value window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -936,10 +936,10 @@
       "priceLow": 2.881,
       "weekDelta": -0.1,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices have dropped 10¢ week-over-week and currently sit at a recent low. WTI crude is declining, supporting downward pressure. Political scrutiny on oil companies may add near-term volatility, but current prices offer good value.",
+      "why": "Kentucky prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is flat, suggesting stability ahead. Political rhetoric about price gouging adds short-term uncertainty but doesn't change near-term fundamentals.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -993,10 +993,10 @@
       "priceLow": 2.758,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Louisiana gas is at its lowest point this week as crude oil trends downward. Week-over-week savings of 9.6¢/gal signal momentum toward lower prices, with crude declining further.",
+      "why": "Louisiana prices have dropped 9.6¢ week-over-week and sit at recent lows. WTI crude is flat, suggesting stable near-term costs. Summer blend demand and political pressure on oil companies create uncertainty, but current pricing offers a good fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at recent lows matching the week-over-week decline. WTI crude is trending down, supporting current modest pricing. Summer blend and stable market conditions suggest minimal near-term relief.",
+      "why": "Maine prices have fallen 6.5¢/gal week-over-week and are at a recent low. Crude is flat and stable. Political pressure for a DOJ probe may add uncertainty, but current pricing favors filling up now rather than waiting.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Maryland prices are at their lowest point this week, and crude oil is declining. The downward trend suggests prices may stabilize or drop slightly over the next few days, but current levels offer a solid window to fill up.",
+      "why": "Maryland prices are at a recent low of $3.197/gal with steady crude oil and a modest week-over-week decline. Political pressure on oil companies may create near-term uncertainty, but current pricing offers a favorable window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1164,10 +1164,10 @@
       "priceLow": 4.067,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "MA prices have dropped 13¢ week-over-week and are at a recent low. WTI crude is declining, signaling continued downward pressure. Summer blend premium adds cost, but the trend favors filling soon before any geopolitical shifts reverse gains.",
+      "why": "Massachusetts gas is at a recent low matching the lowest nearby price. Week-over-week decline of 13¢ shows downward momentum. WTI crude is flat, limiting further near-term drops, but current pricing reflects recent gains from consumers.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.227,
       "weekDelta": -0.07,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a weekly low of $3.227/gal with crude down $1.41. WTI momentum is negative and prices have dropped 7¢ week-over-week. Political pressure on oil companies may add downward momentum over the next few days.",
+      "why": "Michigan prices are at their recent low of $3.227/gal with steady crude oil and a week-over-week decline. Political pressure on oil companies may create uncertainty, but current pricing reflects fair market conditions.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.834,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices are at a recent low of $3.83/gal, down nearly 10¢ week-over-week. WTI crude is declining, and summer blend supply is stable. Political pressure on oil companies may create short-term volatility but doesn't signal immediate price drops.",
+      "why": "Minnesota prices are at their lowest point this week after a 9.8¢ drop. WTI crude is flat and stable at $71.20/barrel, with no immediate catalyst for further declines. Current price represents a good fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.692,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Mississippi prices have dropped 9¢ week-over-week and sit at recent lows. WTI crude is declining, supporting downward pressure. Summer blend costs remain elevated, but the trend is favorable for consumers.",
+      "why": "Mississippi prices have fallen 9¢ this week and sit at a local low. WTI crude is flat, suggesting stability near-term. Political pressure on oil companies may create uncertainty, but current pricing offers a solid opportunity.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.897,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at a recent low of $2.897/gal with week-over-week decline of 6.3 cents. WTI crude is falling and summer blend typically stabilizes mid-season. Current level offers a solid fill-up window.",
+      "why": "Missouri prices have dropped 6¢ this week and are at a recent low. WTI crude is flat and stable. Summer blend is in effect with no holiday demand spikes expected. Political scrutiny on oil companies may add downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Montana prices are at a recent low and WTI crude is falling. Week-over-week decline of 7¢ suggests downward momentum. Political pressure on oil companies may add uncertainty, but near-term fundamentals favor current levels.",
+      "why": "Montana prices have dropped 7.3¢ week-over-week and are at their local low. WTI crude is flat, suggesting stable near-term costs. Political scrutiny on oil may create temporary price pressure, but current levels reflect good value.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1506,10 +1506,10 @@
       "priceLow": 3.003,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices are at a recent low of $3.00/gal, supported by falling WTI crude (-$1.41). Week-over-week decline of -6.6¢ signals weakening momentum. Political pressure on oil companies may add downward uncertainty but current prices offer good value.",
+      "why": "Nebraska prices are at a recent low of $3.00/gal with steady week-over-week declines. WTI crude is flat, suggesting stability. Political scrutiny on oil pricing may create near-term uncertainty, but current levels offer a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.702,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at a recent low of $3.702/gal, down 9¢ week-over-week. WTI crude is declining, and regulatory scrutiny may add downward pressure on margins. Summer blend demand remains steady.",
+      "why": "Nevada prices are at a 7-day low with WTI crude flat. Week-over-week decline of 9¢ shows downward momentum. Political scrutiny on oil may add uncertainty, but current pricing is attractive relative to recent history.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NH prices are at a recent low with WTI crude down 1.4%. Week-over-week decline of 6.3¢ shows downward momentum. Regulatory scrutiny on oil companies adds uncertainty but doesn't change near-term supply dynamics.",
+      "why": "NH prices are at their lowest point this week after a 6-cent drop. Crude remains flat with no immediate upward pressure. Political scrutiny on oil companies may add downward momentum in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.197,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at their weekly low with crude trending down (-1.41/barrel). Week-over-week decline of 6.3¢ shows downward momentum. Political pressure on oil companies may add temporary volatility, but fundamentals support further easing.",
+      "why": "NJ prices are at their weekly low of $3.197/gal with modest WTI crude stability. Week-over-week decline of 6.3¢ signals recent softening. Political pressure on oil companies may create uncertainty, but current pricing is competitive.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1734,10 +1734,10 @@
       "priceLow": 2.975,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "NM prices have dropped 10¢ week-over-week and are at recent lows. WTI crude is declining, suggesting downward momentum. Political pressure on oil companies may create near-term uncertainty, but current pricing is favorable.",
+      "why": "NM prices have dropped 10¢ this week and are at their lowest point. WTI crude is flat, suggesting stability. Political pressure on oil companies may create uncertainty, but current pricing is favorable for consumers.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.19,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9¢ week-over-week and are at local lows. WTI crude is falling, signaling further downward pressure. Summer blend costs more, but the trend is favorable.",
+      "why": "NY prices are at a recent low with week-over-week decline of 8.9¢. WTI crude is flat, and summer blend demand typically stabilizes mid-week. Political scrutiny on oil may create short-term volatility but doesn't suggest immediate downward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "NC prices are at their lowest point this week and trending down with crude oil declining. Summer blend is in effect, and weekly momentum is negative—a good window to fill up before any potential rebound.",
+      "why": "NC prices are at their lowest point this week after a 5.8¢ decline. WTI crude is flat, and summer blend costs are stable. Political pressure on oil companies may create short-term uncertainty, but current pricing offers a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1905,10 +1905,10 @@
       "priceLow": 3.091,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at their lowest point this week while crude oil trends downward. The recent 6.7¢ weekly decline signals continued softness, though political scrutiny on oil companies adds uncertainty to the near-term outlook.",
+      "why": "North Dakota prices have dropped 6.7¢ this week and sit at a local low. WTI crude is flat, suggesting stability near current levels. Summer blend demand remains steady with no major supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -1962,10 +1962,10 @@
       "priceLow": 4.08,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their lowest point with flat week-over-week movement. WTI crude is declining, suggesting downward pressure ahead. Political scrutiny on oil companies may create brief volatility but doesn't change the fundamental downtrend.",
+      "why": "Ohio gas is at a local low of $4.08/gal with flat crude prices and no week-over-week change. Summer blend pricing is stable, and political pressure on oil companies may create downward momentum in coming days.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.72,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices have dropped 9.4¢ week-over-week and sit at a recent low. WTI crude is declining, signaling downward pressure on retail prices. Political scrutiny on oil companies may add volatility but won't reverse the current downtrend immediately.",
+      "why": "Oklahoma prices have dropped 9.4¢ this week and sit at a recent low. Crude is flat, and summer blend supply remains stable. Political pressure on oil companies may create short-term uncertainty, but current pricing favors filling up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.76,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 9 cents week-over-week and are at recent lows. WTI crude is declining, and summer blend typically stabilizes prices. Political pressure on oil companies may add downward momentum in coming days.",
+      "why": "Oregon prices have dropped 9¢ this week and are at their lowest point. Crude oil is flat and stable. Summer blend is in effect with no major supply disruptions expected.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2128,15 +2128,15 @@
       "city": "Philadelphia",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.431,
       "priceLow": 3.431,
       "weekDelta": -0.067,
       "weekDeltaDir": "down",
-      "why": "PA prices are at a 7-cent weekly low with crude falling. Summer blend and downward momentum suggest room for further drops in the next few days as crude pressure continues.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "PA prices are at their recent low of $3.43/gal with a weak WTI crude market and modest week-over-week decline. Uncertainty from political pressure on oil companies creates near-term volatility, but current pricing offers a solid fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.314,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "RI prices are at a recent low of $3.31/gal after a 6.5¢ weekly drop. WTI crude is declining, and political pressure on oil companies may cap near-term increases. Summer blend and stable demand support current levels.",
+      "why": "RI prices have dropped 6.5¢ this week and are at the lowest level nearby. WTI crude is flat, suggesting stability. Political pressure on oil companies may create near-term uncertainty, but current pricing reflects recent strength.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.973,
       "weekDelta": -0.058,
       "weekDeltaDir": "down",
-      "why": "SC prices have dropped 5.8¢ this week and are at recent lows. WTI crude is declining and summer blend maintains competitive pricing. Political pressure on oil companies may create short-term uncertainty, but fundamentals favor current prices.",
+      "why": "SC gas is at its local low of $2.97/gal with week-over-week decline. WTI crude is flat, and summer blend pricing is stable. Political pressure on oil companies may create near-term uncertainty, but current prices reflect solid value.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2304,10 +2304,10 @@
       "priceLow": 3.062,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "South Dakota gas is at a recent low of $3.062/gal with week-over-week decline of 6.6¢. WTI crude is dropping and summer blend is in effect. Political pressure on oil companies may create near-term price uncertainty, but downward momentum is solid.",
+      "why": "SD prices have dropped 6.6¢ week-over-week and are at recent lows. WTI crude is flat around $71/barrel, suggesting stable wholesale costs. Political pressure on oil companies may add downward sentiment, but current pricing offers a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.786,
       "weekDelta": -0.097,
       "weekDeltaDir": "down",
-      "why": "Tennessee prices have dropped 9.7¢ this week and sit at a recent low. WTI crude is declining, and summer blend supply is stable. Political pressure on oil may add short-term uncertainty, but current pricing is favorable.",
+      "why": "Tennessee gas is at a recent low of $2.79/gal with a strong week-over-week drop of 9.7 cents. WTI crude is flat, suggesting stable near-term pricing. Political scrutiny on oil companies adds downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.432,
       "weekDelta": -0.129,
       "weekDeltaDir": "down",
-      "why": "Texas prices have dropped 12.9¢ in a week and sit at recent lows. WTI crude is declining, suggesting downward momentum. Political pressure on oil companies may create short-term uncertainty but unlikely to reverse the current trend quickly.",
+      "why": "Texas prices have dropped 13¢ week-over-week and are at a recent low. Crude is flat and stable. Political pressure on oil companies may create uncertainty, but current pricing is favorable for consumers.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.339,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 7.3¢ week-over-week and sit at recent lows. WTI crude is declining, suggesting downward pressure continues. Political scrutiny on oil companies may add uncertainty, but current prices offer a solid fill-up window.",
+      "why": "Utah prices have dropped 7¢ week-over-week and are at their lowest point. WTI crude is stable, and summer blend supply is steady. Political pressure on oil companies may create near-term volatility, but current conditions favor filling up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.294,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at a recent low after a 6.5-cent weekly drop. WTI crude is falling and prices have stabilized near bottom levels. Political scrutiny on oil companies adds downward pressure.",
+      "why": "Vermont gas is at its lowest point this week, down 6.5¢ from last week. WTI crude is flat, suggesting prices have stabilized. Political pressure on oil companies may create near-term volatility, but current pricing represents fair value.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2589,10 +2589,10 @@
       "priceLow": 3.07,
       "weekDelta": -0.06,
       "weekDeltaDir": "down",
-      "why": "Virginia prices are at recent lows ($3.07/gal) with week-over-week declines and crude trending downward. Summer blend costs may ease further as crude weakness persists, though political pressure on oil companies adds short-term uncertainty.",
+      "why": "Virginia gas is at a 6-cent weekly low with flat crude prices and stable market conditions. Summer blend driving season supports current pricing without imminent downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.343,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their lowest point with WTI crude declining. Summer blend premium and political pressure on oil companies create uncertainty, but current conditions favor filling up now before any potential market shifts.",
+      "why": "WA prices are at their lowest point with flat crude oil and stable week-over-week trends. Summer blend costs are holding steady with no downward pressure visible. Political scrutiny may create short-term uncertainty but won't immediately lower prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2703,10 +2703,10 @@
       "priceLow": 3.099,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a recent low of $3.099/gal with week-over-week decline of 6 cents. WTI crude is falling and summer blend is active. Political pressure on oil companies may create short-term uncertainty but current pricing is favorable.",
+      "why": "West Virginia prices are at a recent low of $3.099/gal with steady week-over-week decline. WTI crude is flat with no major upward pressure. Political scrutiny on oil companies may temporarily stabilize prices.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.188,
       "weekDelta": -0.069,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at a recent low of $3.188/gal, down 6.9¢ week-over-week. WTI crude is declining, and summer blend supply is stable. Current pricing offers a good fill-up window before potential volatility from policy scrutiny.",
+      "why": "Wisconsin prices are at a recent low of $3.188/gal with steady crude oil and a week-over-week decline of 6.9¢. Summer blend availability supports current pricing, and political pressure on oil companies may create short-term uncertainty but unlikely to drive immediate drops.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.239,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices are at a recent low of $3.24/gal, down 7¢ week-over-week. WTI crude is declining and you're already at the bottom of the current range. Political pressure on oil companies may create short-term uncertainty, but fundamentals support current levels.",
+      "why": "Wyoming prices have dropped 7¢ week-over-week and sit at recent lows. WTI crude is flat with no immediate pressure upward. Summer blend is in effect, and political scrutiny on oil pricing adds downside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.46,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a recent low and WTI crude is declining. Week-over-week drops suggest downward momentum, though political scrutiny may create short-term volatility. Summer blend premiums are in effect.",
+      "why": "DC gas prices are at their lowest point in the region, down 7 cents week-over-week. Crude oil is flat and stable, suggesting no immediate upward pressure. Current pricing represents a good opportunity.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.617,
       "priceLow": 1.568,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "Prices dropped 5.3¢/L week-over-week and crude is falling. Current price sits 4.9¢ above the local low, suggesting modest downward momentum. Political scrutiny adds uncertainty but won't shift fundamentals immediately.",
-      "advice": "Top off today, monitor Thu",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Alberta prices have dropped 5.3¢/L week-over-week and sit just 4.9¢ above the recent low. WTI crude is flat with no upward pressure. Political scrutiny on oil companies may add downward pressure in coming days.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -2983,15 +2983,15 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.849,
       "priceLow": 1.794,
       "weekDelta": -0.126,
       "weekDeltaDir": "down",
-      "why": "BC prices dropped 12.6¢ this week as crude fell. Current price sits 5.5¢ above the nearby low, with downward momentum continuing. Political pressure on oil companies may accelerate price relief.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "BC prices dropped 12.6¢/L week-over-week and sit only 5.5¢ above the regional low. WTI crude is flat, and summer blend is in effect. Political pressure on oil companies may add downward momentum in coming days.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3045,10 +3045,10 @@
       "priceLow": 1.543,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices have dropped 10.9¢/L week-over-week and crude is falling. Current price sits only 4.8¢ above the local low, suggesting the downtrend is stabilizing near bottom. Political scrutiny on oil may add downward pressure.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "why": "Manitoba prices dropped 11¢/L week-over-week and sit only 4.8¢ above the local low. WTI crude is flat, suggesting stability. Political pressure on oil companies adds uncertainty but unlikely to shift prices sharply in the next 2–3 days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3102,10 +3102,10 @@
       "priceLow": 1.616,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "New Brunswick prices dropped 11.4¢/L week-over-week and crude is trending down. Current price is only 5¢ above the regional low, suggesting the downtrend may be stabilizing near support.",
+      "why": "Prices have dropped 11.4¢/L week-over-week and are near recent lows. WTI crude is stable, and political pressure on oil companies may support further downward momentum over the next few days.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.698,
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Newfoundland prices have dropped 11.6¢/L week-over-week and sit 5.1¢/L above the recent low. WTI crude is declining, and political pressure on oil companies may add downward momentum to prices in the coming days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Prices have dropped 11.6¢/L week-over-week and sit just 5¢ above the local low. WTI crude is flat, suggesting stability. Political scrutiny on oil may add downward pressure in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.603,
       "weekDelta": -0.078,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices have dropped 7.8¢/L week-over-week and sit just 5¢/L above the recent low. WTI crude is declining, and regulatory scrutiny on oil companies may add downward pressure. You're near a good filling window.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Nova Scotia prices have fallen 7.8¢/L week-over-week and sit only 5¢ above the regional low. WTI crude is flat, and summer blend is active. Political pressure on oil companies may create near-term uncertainty but doesn't signal immediate drops.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3268,15 +3268,15 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.58,
       "priceLow": 1.533,
       "weekDelta": -0.139,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are down 13.9¢ week-over-week and WTI crude is falling. Current price sits 4.7¢ above the regional low, suggesting further softening is likely as the downtrend continues.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Ontario prices have dropped 13.9¢/L week-over-week and sit only 4.7¢ above the local low. WTI crude is flat, and summer blend is in effect. Trump's DOJ probe may create short-term uncertainty but likely won't push prices lower immediately.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3330,10 +3330,10 @@
       "priceLow": 1.605,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "PEI prices dropped 11.4¢ in a week as crude slips. You're only 5¢ above the local low, and downward momentum continues. Political pressure on oil companies adds uncertainty but unlikely to reverse the trend quickly.",
+      "why": "PEI prices dropped 11.4¢/L week-over-week and sit only 5¢ above the local low. WTI crude is flat, suggesting stability ahead. Political uncertainty around potential oil probes could create volatility, but current pricing offers a solid window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3387,10 +3387,10 @@
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Quebec prices have dropped 11.6¢/L week-over-week and crude is falling. Current price sits just 5¢ above the local low, with downward momentum continuing. Political scrutiny on oil pricing adds uncertainty but typically supports longer-term consumer relief.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Quebec prices dropped 11.6¢/L week-over-week and sit only 5.1¢ above the local low. WTI crude is flat, suggesting stability. Political scrutiny on oil companies may create brief volatility but doesn't signal imminent price drops.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3444,10 +3444,10 @@
       "priceLow": 1.471,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 10.3¢ in a week and crude is trending down. Current price is only 4.5¢ above the local low, suggesting we're near a floor. Political pressure on oil companies may create temporary volatility.",
+      "why": "Saskatchewan prices dropped 10¢/L week-over-week and are only 4.5¢ above the local low. WTI is flat, signaling stability. Political pressure on oil companies may create brief uncertainty but won't reverse the downtrend immediately.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
@@ -3501,10 +3501,10 @@
       "priceLow": 1.96,
       "weekDelta": -0.138,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 6.8% week-over-week and crude is falling. You're only 3¢/L above the recent low, with downward momentum continuing. Political pressure on oil companies may add headwinds to prices.",
+      "why": "Prices have dropped 6.8% week-over-week and sit only 3.1% above the recent low. WTI crude is flat with no momentum, and summer blend supply is stable. Political pressure on oil companies may add downside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
