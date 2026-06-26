@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-06-26T12:01:10.174866+00:00",
-    "pricesUpdatedAt": "2026-06-26T12:00:59.859472+00:00",
+    "updatedAt": "2026-06-26T18:00:32.902330+00:00",
+    "pricesUpdatedAt": "2026-06-26T18:00:12.742426+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-26T12:32:45.862846+00:00",
-    "nextAnalysisUpdate": "2026-06-26T18:02:45.862858+00:00"
+    "nextPriceUpdate": "2026-06-26T18:32:08.640348+00:00",
+    "nextAnalysisUpdate": "2026-06-27T00:02:08.640359+00:00"
   },
   "wti": {
     "price": 78.94,
@@ -24,11 +24,16 @@
       "priceLow": 2.645,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Alabama prices have dropped 6.4¢ this week and sit at a local low. WTI crude is declining, suggesting downward momentum. Political scrutiny on oil companies may add temporary pressure, but near-term supply conditions favor current pricing.",
+      "why": "Alabama prices are at a recent low after a week-long decline of 6.4¢. WTI crude is sliding, supporting downward pressure. Summer blend production is steady with no supply disruptions, creating a favorable near-term window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -38,11 +43,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.483,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low of $3.48/gal, down 12¢ week-over-week. WTI crude is falling and sentiment around potential price investigations may create uncertainty, but current pricing favors filling up now rather than risking a rebound.",
+      "why": "Alaska prices have dropped 12¢ week-over-week and are at a recent low. WTI crude is declining, suggesting downward pressure. Summer blend and stable supply conditions support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -95,11 +100,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 3.006,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at their lowest point this week, down 10¢ from last week. WTI crude is declining and summer blend doesn't support further drops. Political scrutiny on oil companies may create short-term uncertainty.",
+      "why": "Arizona prices have dropped 10¢ this week and sit at recent lows. WTI crude is falling, supporting continued downward pressure. Summer blend premium should ease as we move past peak driving season.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -152,11 +157,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -195,11 +195,16 @@
       "priceLow": 2.59,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its recent low of $2.59/gal with WTI crude falling. Week-over-week decline of 6.3¢ shows downward momentum. Political pressure on oil companies may add uncertainty, but fundamentals favor lower prices ahead.",
+      "why": "Arkansas prices are at their lowest point this week, down 6.3¢ in seven days. WTI crude is declining, supporting stable-to-lower prices near-term. Summer blend and no holiday disruptions mean steady supply.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -209,11 +214,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -252,11 +252,16 @@
       "priceLow": 5.387,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at a local low with flat weekly movement. WTI crude is declining, signaling downward pressure. Summer blend premium and political scrutiny on pricing may create brief volatility, but fundamentals support modest easing.",
+      "why": "California prices are at a local low with WTI crude declining. Summer blend premiums and refinery constraints typically support higher prices, but downward crude momentum suggests stability or modest softening ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -266,11 +271,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -309,11 +309,16 @@
       "priceLow": 3.666,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at a recent low with flat week-over-week movement. WTI crude is declining, suggesting downward pressure ahead. Political scrutiny on oil companies may create uncertainty but unlikely to lower prices immediately.",
+      "why": "Colorado prices are at their recent low with flat week-over-week movement. WTI crude is declining, supporting stable-to-lower prices ahead. Summer blend demand remains steady.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -323,11 +328,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -366,11 +366,16 @@
       "priceLow": 3.234,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "CT prices are at a recent low of $3.234/gal, down 11.6¢ week-over-week. WTI crude is falling and summer blend typically stabilizes mid-season. Political scrutiny on oil may create near-term price pressure.",
+      "why": "CT prices are at their lowest point this week and down 11.6¢ year-over-year. WTI crude is declining, supporting further easing. Summer blend and stable demand mean minimal upward pressure near-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -380,11 +385,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -423,11 +423,16 @@
       "priceLow": 3.0,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Delaware prices have fallen 10.8¢ week-over-week and sit at a recent low. WTI crude is declining, supporting downward pressure. Political scrutiny on oil companies may create near-term uncertainty but hasn't yet shifted market direction materially.",
+      "why": "Delaware prices are at a recent low of $3.00/gal with week-over-week decline of 10.8¢. WTI crude is falling, supporting downward momentum. Summer blend and lack of holidays suggest stable supply conditions.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -437,11 +442,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -480,11 +480,16 @@
       "priceLow": 3.567,
       "weekDelta": -0.172,
       "weekDeltaDir": "down",
-      "why": "Florida prices are at a recent low and down 17¢ week-over-week. WTI crude is declining, and summer demand typically peaks mid-week. Political scrutiny on pricing may further suppress near-term increases.",
+      "why": "Florida gas prices have dropped 17¢ week-over-week and sit at a recent low. WTI crude is falling, supporting continued downward pressure. Summer blend premiums are in effect, but momentum favors buyers now.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -494,11 +499,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -537,11 +537,16 @@
       "priceLow": 2.737,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Georgia prices have dropped 10¢ week-over-week and are at recent lows. WTI crude is declining, supporting further downward pressure. Summer blend inventory is adequate.",
+      "why": "Georgia prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is declining, supporting downward pressure. Summer blend premium is in effect, but momentum favors buyers now.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -551,11 +556,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -594,11 +594,16 @@
       "priceLow": 4.26,
       "weekDelta": -0.145,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices dropped 14.5¢ this week as WTI crude fell. You're at the local low with downward momentum. Crude direction remains uncertain despite recent dip, but weekly trend is favorable.",
+      "why": "Hawaii prices dropped 14.5¢ week-over-week and sit at recent lows. WTI crude is declining, supporting downward pressure. Summer blend costs are elevated seasonally, but current pricing offers a favorable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -608,11 +613,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -651,11 +651,16 @@
       "priceLow": 3.052,
       "weekDelta": -0.205,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 20.5¢ week-over-week and are at a recent low. WTI crude is declining, and summer blend typically offers competitive pricing. Political scrutiny on oil companies may add downward pressure.",
+      "why": "Idaho prices have dropped 20¢ week-over-week and match the regional low. WTI crude is declining, suggesting downward pressure may continue. Summer blend premiums are in effect, but the trend is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -665,11 +670,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -708,11 +708,16 @@
       "priceLow": 3.373,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Illinois prices have dropped 12.5¢ this week and are at a recent low. WTI crude is falling, suggesting continued downward pressure. Political scrutiny may add temporary uncertainty, but fundamentals favor lower prices ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Illinois gas is at a weekly low of $3.373/gal with WTI crude falling. Week-over-week prices dropped 12.5¢, signaling downward momentum. Crude direction remains negative, suggesting further relief may arrive mid-week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -722,11 +727,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -765,11 +765,16 @@
       "priceLow": 3.019,
       "weekDelta": -0.112,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 11¢ in a week and are at their recent low. WTI crude is declining, supporting continued downward pressure. Political scrutiny on oil companies adds uncertainty but doesn't change near-term fundamentals.",
+      "why": "Indiana gas is at its lowest point this week after a strong -0.112 $/gal drop. WTI crude is declining and you're already at local lows. Summer blend pricing is stable with no holiday premium.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -779,11 +784,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -817,16 +817,21 @@
       "city": "Des Moines",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.87,
       "priceLow": 2.87,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at their lowest point after dropping 11¢ this week. WTI crude is falling and summer blend is in effect. Political pressure on oil companies may create short-term uncertainty, but current fundamentals favor filling up now.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Iowa prices have dropped 10.6¢ week-over-week and are at recent lows. WTI crude is declining, supporting further softness. Summer blend premiums are in effect, but downward momentum suggests waiting may yield better prices.",
+      "advice": "Top off now, monitor for Fri",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -836,11 +841,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -879,11 +879,16 @@
       "priceLow": 2.814,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Kansas prices have dropped 10¢ in a week and match the regional low. WTI crude is declining, signaling continued downward pressure. You're at a favorable entry point with momentum in your favor.",
+      "why": "Kansas prices have dropped 10¢ this week and sit at a recent low. WTI crude is declining and currently trading near $79/barrel, supporting continued downward pressure on retail prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -893,11 +898,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -936,11 +936,16 @@
       "priceLow": 2.811,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices are at their lowest point this week as crude falls. Week-over-week decline of 6.8¢ signals downward momentum, though political pressure on oil companies adds short-term uncertainty. Summer blend costs remain moderate.",
+      "why": "Kentucky prices have dropped 6.8¢ this week and are at a local low. WTI crude is declining, signaling continued downward pressure. Summer blend premium is in effect but offset by weak crude fundamentals.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -950,11 +955,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -993,11 +993,16 @@
       "priceLow": 2.691,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at a recent low of $2.691/gal with WTI crude falling. Week-over-week decline signals downward momentum. Summer blend costs and stable supply support current pricing.",
+      "why": "LA prices are at a recent low of $2.691/gal after a week-long decline of 6.6¢. WTI crude is falling, supporting downward pressure. Summer blend and stable demand suggest prices have stabilized near current lows.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1007,11 +1012,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 11¢ week-over-week and are at their lowest point. WTI crude is declining and summer blend maintains competitive pricing. Current levels represent a good buying window.",
+      "why": "Maine prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is declining, supporting downward pressure. Summer blend and stable supply conditions favor current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1064,11 +1069,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1107,11 +1107,16 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 11¢ week-over-week and are at recent lows. WTI crude is declining, and summer blend typically stabilizes mid-season. Political scrutiny on oil may create temporary uncertainty, but fundamentals support current pricing.",
+      "why": "Maryland gas is at its local low of $3.075/gal with a solid week-over-week drop of $0.11. Crude is declining and summer blend pricing is in effect. Political noise around pricing doesn't change near-term fundamentals.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1121,11 +1126,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1164,11 +1164,16 @@
       "priceLow": 3.949,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "MA prices are at a recent low with WTI crude trending downward. Week-over-week decline of 12¢ suggests downward momentum. Political pressure on oil companies may create near-term uncertainty, but fundamentals point to continued softness.",
+      "why": "Prices have dropped 12¢ week-over-week and are at local lows. WTI crude is declining, supporting further downward pressure. Summer blend inventory is stable with no supply disruptions.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1178,11 +1183,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1221,11 +1221,16 @@
       "priceLow": 3.093,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at a recent low of $3.093/gal and down 11.5¢ week-over-week. WTI crude is declining, and summer blend demand typically softens mid-summer. Political pressure on oil companies may add downward momentum.",
+      "why": "Michigan prices have dropped 11.5¢ this week and sit at a recent low. WTI crude is falling, supporting downward momentum. Summer blend is active but prices aren't elevated relative to the downtrend.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1235,11 +1240,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1278,11 +1278,16 @@
       "priceLow": 3.719,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices have dropped 11.5¢ this week and match recent lows. WTI crude is declining, and summer blend inventory is adequate. Political scrutiny on oil may add downward pressure.",
+      "why": "Minnesota prices are at a recent low of $3.719/gal, down $0.115 week-over-week. WTI crude is declining ($78.94, down $1.41), suggesting downward pressure on pump prices should continue through the week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1292,11 +1297,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.626,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "MS gas is at a recent low of $2.626/gal with WTI crude falling. Week-over-week decline of 6.5¢ signals downward momentum. Political scrutiny on oil pricing adds uncertainty but doesn't change near-term supply fundamentals.",
+      "why": "Mississippi prices are at a recent low of $2.626/gal with downward week-over-week momentum (-6.5¢). WTI crude is declining, suggesting continued softening. Summer blend and no holiday demand support stable-to-lower conditions.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1349,11 +1354,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1392,11 +1392,16 @@
       "priceLow": 2.777,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at their lowest point this week, down 10¢ from last week. WTI crude is declining and summer demand typically stabilizes mid-week. Political scrutiny on oil companies may create price uncertainty ahead.",
+      "why": "Missouri gas is at its lowest point this week, down 10¢ from last week. WTI crude is falling, suggesting downward pressure on prices will continue through mid-week.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1406,11 +1411,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1449,11 +1449,16 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Montana prices have dropped 21¢ week-over-week and are at a recent low. WTI crude is falling, and political pressure on oil companies may create near-term uncertainty but doesn't signal immediate price relief.",
+      "why": "Montana prices are at a recent low of $3.117/gal after a strong week-over-week drop of $0.21. WTI crude is declining, suggesting downward pressure will likely continue over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1463,11 +1468,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1506,11 +1506,16 @@
       "priceLow": 2.879,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Nebraska gas is at a recent low of $2.879/gal with WTI crude falling. Week-over-week prices dropped 10.7¢, and downward momentum continues. Political pressure on oil companies may add uncertainty, but current fundamentals favor filling up now.",
+      "why": "Nebraska prices have dropped 10.7¢ this week and match recent lows. WTI crude is falling, suggesting continued downward pressure. Summer blend is in effect, supporting current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1520,11 +1525,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.577,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Nevada prices have dropped 12¢ this week and are at their lowest point. WTI crude is declining, and summer blend supply is stable. Political scrutiny on oil companies may create temporary price uncertainty, but fundamentals support continued softness.",
+      "why": "Nevada prices have dropped 12¢ week-over-week and are at recent lows. WTI crude is declining, supporting continued downward pressure. Summer blend premium and stable market conditions suggest favorable timing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1577,11 +1582,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ this week and sit at a recent low. WTI crude is declining, suggesting downward momentum may continue. Political pressure on oil companies adds uncertainty but current prices offer a solid refueling opportunity.",
+      "why": "NH prices have dropped 11¢ this week and sit at recent lows. WTI crude is falling, supporting downward pressure. Summer blend and stable supply suggest prices may drift slightly lower over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1634,11 +1639,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "NJ prices have dropped 11¢ over the week and now sit at a recent low. WTI crude is declining, and summer blend is in effect. Political pressure on oil companies may create short-term volatility, but near-term downside looks limited.",
+      "why": "NJ prices are at a recent low of $3.075/gal with week-over-week decline of 11¢. WTI crude is down and trending lower, supporting continued downward pressure on pump prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1691,11 +1696,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1734,11 +1734,16 @@
       "priceLow": 2.903,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices are at their lowest point this week and trending down. WTI crude is falling, and week-over-week prices dropped 7.1 cents. While political uncertainty around DOJ probes could create volatility, current conditions favor filling up now.",
+      "why": "Prices are at their lowest point this week and crude is declining. Summer blend and stable supply suggest no imminent spike. Current level is a good fill-up window before any potential rebound.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1748,11 +1753,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1791,11 +1791,16 @@
       "priceLow": 4.075,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 11.5¢ week-over-week and match recent lows. WTI crude is declining, suggesting downward momentum. Summer blend premium adds cost, but current levels offer a solid window before any potential volatility from political investigations.",
+      "why": "NY prices have dropped 11.5¢ this week and sit at recent lows. WTI crude is declining, supporting further downward pressure. Summer blend premium and stable supply suggest prices have found a temporary floor.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1805,11 +1810,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "NC prices have dropped 10¢ in a week and match recent lows. WTI crude is falling and summer blend typically stabilizes mid-season. Political pressure on oil companies may add downward momentum.",
+      "why": "NC prices have dropped 10¢ this week and sit at recent lows. WTI crude is declining, suggesting continued downward pressure. Summer blend premiums are in effect, but the trend remains favorable.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1862,11 +1867,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1905,11 +1905,16 @@
       "priceLow": 2.963,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices have dropped 11¢ week-over-week and sit at recent lows. WTI crude is declining, and summer blend competition keeps margins tight. Political pressure on oil companies may create temporary volatility but doesn't reverse the downtrend.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "North Dakota prices have dropped 11 cents week-over-week and match the regional low. WTI crude is declining, supporting downward momentum. Summer blend premiums are in effect, but the downtrend suggests further relief may arrive soon.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1919,11 +1924,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 3.862,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at a recent low with flat weekly movement. Crude is falling, supporting downward pressure. Political scrutiny on oil may add uncertainty, but current pricing reflects a near-term floor.",
+      "why": "Ohio gas is at its local low with flat week-over-week movement. Crude oil is declining, suggesting downward pressure ahead. Summer blend and stable supply support gradual easing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -1976,11 +1981,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.654,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at their lowest point this week as WTI crude slides downward. Week-over-week decline of 6.5¢ shows positive momentum, and crude direction remains bearish. Political scrutiny may add temporary downward pressure.",
+      "why": "Oklahoma prices are at a recent low of $2.654/gal following a week-over-week drop of 6.5¢. WTI crude is trending downward, suggesting modest continued relief. Summer blend costs are stable with no major supply disruptions reported.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2033,11 +2038,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2076,11 +2076,16 @@
       "priceLow": 3.633,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 12¢ week-over-week and match recent lows. WTI crude is declining, and summer blend pricing is stable. Political pressure on oil companies may add downward sentiment.",
+      "why": "Oregon prices are at recent lows after a strong week-over-week decline of 12.3 cents. WTI crude is trending downward, and summer blend supply remains adequate. Current pricing offers a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2090,11 +2095,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2128,16 +2128,21 @@
       "city": "Philadelphia",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.3,
       "priceLow": 3.3,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "PA prices are at a recent low of $3.30/gal with WTI crude falling. Week-over-week decline of $0.12 shows downward momentum. Political pressure on oil companies may create near-term volatility, but fundamentals support stable or slightly lower prices ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "PA prices are at their weekly low of $3.30/gal with solid downward momentum (-$0.12 WoW). Crude oil is declining, suggesting further easing ahead. Summer blend premiums are in effect, but the trend favors patience.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2147,11 +2152,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.187,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices have dropped 11.5¢ week-over-week and match the regional low. WTI crude is declining, and summer blend availability supports current rates. Political scrutiny on oil pricing may create uncertainty but doesn't immediately pressure prices downward.",
+      "why": "Rhode Island prices are at their lowest point this week, down 11.5¢ from last week. WTI crude is declining, suggesting continued downward pressure. Summer blend remains in effect with stable supply.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2204,11 +2209,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2247,11 +2247,16 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "SC prices have dropped 10¢ this week and are at local lows. WTI crude is declining, signaling downward pressure. Summer blend costs more, but the trend is favorable now.",
+      "why": "SC prices have dropped 10¢ week-over-week and sit at recent lows. Crude oil is declining and summer blend pricing is stable. Political scrutiny on gas prices may add downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2261,11 +2266,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2304,11 +2304,16 @@
       "priceLow": 2.935,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices dropped 11¢ week-over-week and are at recent lows. WTI crude is declining, suggesting downward pressure on pump prices may continue, but the current price is already competitive.",
-      "advice": "Fill up today or tomorrow",
+      "why": "South Dakota prices have dropped 11¢ week-over-week and are at their lowest point. WTI crude is falling, signaling continued downward pressure. Current pricing represents a favorable fill-up window.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2318,11 +2323,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2361,11 +2361,16 @@
       "priceLow": 2.719,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.719/gal with crude down $1.41. Week-over-week prices fell 6.6 cents, signaling downward momentum. Political pressure on oil companies may add temporary volatility but doesn't change near-term supply dynamics.",
+      "why": "Tennessee prices are at a recent low and have dropped 6.6¢ week-over-week. WTI crude is declining, supporting further downward momentum. Summer blend premiums are modest.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2375,11 +2380,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2418,11 +2418,16 @@
       "priceLow": 3.371,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Texas prices are at their lowest point this week as crude oil trends downward. Summer blend demand and political scrutiny on pricing create uncertainty, but current levels offer a favorable fill-up window before potential volatility.",
+      "why": "Texas gas is at a recent low of $3.37/gal, down 6¢ week-over-week. WTI crude is declining, suggesting continued downward pressure. Summer blend and stable supply support current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2432,11 +2437,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2470,16 +2470,21 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.117,
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 21¢ over the week and now match the regional low. WTI crude is declining, and summer blend pricing is competitive. Political pressure on oil companies may add downward momentum.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Utah prices have dropped 21¢ week-over-week and are at a recent low. WTI crude is falling, supporting further declines. Summer blend premiums and stable supply suggest prices may edge lower in coming days.",
+      "advice": "Top off today, wait for rest",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2489,11 +2494,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2532,11 +2532,16 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its recent low after a 11-cent weekly drop. WTI crude is declining, and summer blend supply is stable. Political pressure on oil companies adds uncertainty, but fundamentals point to steady or slightly lower prices ahead.",
+      "why": "Vermont gas is at a recent low of $3.168/gal with week-over-week decline of 11.4 cents. WTI crude trending down supports continued stability. Summer blend premium is modest.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2546,11 +2551,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 2.953,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Virginia prices have dropped 10.6¢ week-over-week and sit at recent lows. WTI crude is declining, suggesting downward pressure may continue. Political scrutiny on oil pricing adds uncertainty but hasn't reversed the current downtrend.",
+      "why": "Virginia prices have dropped 10.6¢ this week and now match the regional low. WTI crude is declining, suggesting downward momentum. Summer blend premium and political scrutiny on pricing add tailwinds for continued relief.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2603,11 +2608,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 5.152,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices are at their lowest point with flat week-over-week movement. WTI crude is declining, suggesting downward pressure ahead. Political scrutiny on oil companies may add uncertainty but unlikely to reverse the current low.",
+      "why": "WA gas is at a recent low with flat week-over-week prices. Crude is declining and you're already at the lowest nearby price. Summer blend premium is in effect, but downward crude momentum suggests stability or modest softness ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2660,11 +2665,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2703,11 +2703,16 @@
       "priceLow": 2.981,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its lowest point this week, down 10.7¢ year-over-year. WTI crude is falling and political pressure may temper future price hikes. Summer blend adds slight cost, but downward momentum suggests a solid fill-up window.",
+      "why": "WV gas prices are at a recent low of $2.98/gal with crude trending downward. Week-over-week decline of 10.7¢ shows strong downward momentum, though political scrutiny may create short-term volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2717,11 +2722,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2760,11 +2760,16 @@
       "priceLow": 3.056,
       "weekDelta": -0.113,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at a recent low of $3.056/gal, down 11¢ week-over-week. WTI crude is declining and political pressure on oil companies may create uncertainty, but current prices offer a solid filling window.",
+      "why": "Wisconsin gas is at a recent low of $3.056/gal with week-over-week decline of $0.113. WTI crude is falling and summer blend pricing is stable. Political noise around pricing won't shift near-term fundamentals.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2774,11 +2779,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2817,11 +2817,16 @@
       "priceLow": 3.024,
       "weekDelta": -0.204,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices have dropped 20¢ in a week and are at recent lows. WTI crude is declining, and summer blend supply is adequate. Political pressure on oil companies may create short-term volatility, but downward momentum is present.",
+      "why": "Wyoming prices are at a week-long low of $3.024/gal with crude down $1.41. Strong downtrend suggests refiner margins are contracting. Political pressure on pricing adds uncertainty but doesn't override the favorable current level.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2831,11 +2836,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2874,11 +2874,16 @@
       "priceLow": 3.328,
       "weekDelta": -0.12,
       "weekDeltaDir": "down",
-      "why": "DC prices hit a weekly low of $3.328/gal with WTI crude falling. Week-over-week decline of $0.12 shows downward momentum. Political scrutiny on oil may add near-term uncertainty, but fundamentals favor lower prices ahead.",
+      "why": "DC prices are at a recent low after a 12-cent weekly drop. WTI crude is falling and momentum is downward. Summer blend typically stabilizes mid-week, making now a good refill window before potential weekend volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2888,11 +2893,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2931,11 +2931,16 @@
       "priceLow": 1.568,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "Alberta prices fell 5.3¢ week-over-week as crude dropped below $79/barrel. Current price is only 4.9¢ above the local low, and downward momentum continues. Political scrutiny on oil companies may add short-term pressure.",
+      "why": "Alberta prices have dropped 5.3¢ in a week and WTI crude is falling. Current price sits only 4.9¢ above the local low, suggesting we're near the bottom of this cycle.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -2945,11 +2950,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -2988,11 +2988,16 @@
       "priceLow": 1.794,
       "weekDelta": -0.126,
       "weekDeltaDir": "down",
-      "why": "BC prices have dropped 12.6¢/L week-over-week and crude is trending down. Current price sits 5.5¢/L above the recent low, suggesting modest room to fall further in the near term.",
-      "advice": "Top off halfway today",
-      "bestDayIdx": 4,
+      "why": "BC prices fell 12.6¢/L week-over-week and crude is declining. Current price sits 5.5¢ above the local low, suggesting further downward pressure in the next few days as the trend continues.",
+      "advice": "Top off partially, fill Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3002,11 +3007,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3045,11 +3045,16 @@
       "priceLow": 1.543,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices fell 10.9¢/L week-over-week and crude is declining. Current price sits 4.8¢ above the nearby low, suggesting modest room to drop further. Political pressure on oil companies may add downward momentum.",
-      "advice": "Top off partial · wait 2–3 day",
+      "why": "Prices down 11¢/L week-over-week with crude falling. Current price sits 4.8¢ above the local low, suggesting slight room to drop further over the next few days as market momentum continues downward.",
+      "advice": "Top off partially, wait until ",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3059,11 +3064,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3097,16 +3097,21 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.666,
       "priceLow": 1.616,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Prices have fallen 11.4¢/L week-over-week and crude is declining. Current price is 5¢ above the local low, suggesting modest room to drop further in the near term.",
-      "advice": "Top off partially, wait for mi",
-      "bestDayIdx": 3,
+      "why": "NB prices have fallen 11.4¢/L week-over-week and crude is declining. Current price sits just 5¢ above the recent low, suggesting the downtrend may be pausing or stabilizing near support.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3116,11 +3121,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3154,16 +3154,21 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.698,
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Newfoundland prices have dropped 11.6¢/L week-over-week as crude falls. Current price sits 5.1¢ above the recent low, with downward momentum continuing. Political rhetoric on fuel prices adds uncertainty but crude fundamentals remain bearish.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Newfoundland prices have dropped 11.6¢/L week-over-week and crude is trending down. Current price sits only 5.1¢ above the local low, suggesting the downtrend may be stabilizing near support levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3173,11 +3178,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3216,11 +3216,16 @@
       "priceLow": 1.603,
       "weekDelta": -0.078,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices have dropped 7.8¢/L week-over-week and WTI crude is falling. Current price sits 5¢ above the regional low, with downward momentum continuing. Political scrutiny on oil prices adds uncertainty but doesn't immediately affect supply.",
-      "advice": "Top off partially, fill rest T",
-      "bestDayIdx": 4,
+      "why": "Nova Scotia prices are down 7.8¢/L week-over-week and crude is falling. Current price sits 5¢/L above the regional low, suggesting room for further decline in the near term.",
+      "advice": "Top off partially, fill rest F",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3230,11 +3235,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3268,16 +3268,21 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.58,
       "priceLow": 1.533,
       "weekDelta": -0.139,
       "weekDeltaDir": "down",
-      "why": "Ontario prices have dropped 13.9¢/L week-over-week and crude is falling. Current price of 1.580 $/L is close to the 1.533 $/L low. Political pressure on oil companies may add downward momentum in coming days.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Ontario prices have dropped 13.9¢/L week-over-week and crude is trending down. Current price is only 4.7¢/L above the local low, with downward momentum likely continuing over the next few days.",
+      "advice": "Top off half · wait for Friday",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3287,11 +3292,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3325,16 +3325,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.655,
       "priceLow": 1.605,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Prices are down 11.4¢/L week-over-week and crude is falling. Current price is only 5¢ above the regional low, suggesting we're near a temporary floor. Political pressure on oil companies may create short-term volatility but won't reverse the downtrend immediately.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "PEI prices fell 11.4¢/L week-over-week and crude is declining. Current price is 5¢/L above the regional low, suggesting modest room to drop further as the downtrend continues.",
+      "advice": "Top off partially, wait for Fr",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3344,11 +3349,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3382,16 +3382,21 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.698,
       "priceLow": 1.647,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Quebec prices have dropped 11.6¢ over the week as crude falls. Current price is 5¢ above the local low, suggesting modest room to decline further. Crude momentum is downward, supporting lower prices ahead.",
-      "advice": "Wait until midweek",
-      "bestDayIdx": 3,
+      "why": "Quebec prices have dropped 11.6¢/L week-over-week and crude is falling. Current price is only 5.1¢/L above the regional low, with downward momentum continuing.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3401,11 +3406,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3439,16 +3439,21 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices fell 10.3¢ this week as crude drops. Current price is 4.5¢ above the regional low, with downward momentum continuing. Summer blend and falling WTI suggest further easing ahead.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Saskatchewan prices dropped 10.3¢/L week-over-week and crude is declining. Current price sits only 4.5¢ above the local low, suggesting the downtrend is stabilizing near support levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3458,11 +3463,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
@@ -3496,16 +3496,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.021,
       "priceLow": 1.96,
       "weekDelta": -0.138,
       "weekDeltaDir": "down",
-      "why": "Prices have fallen 6.8¢ this week and crude is declining. You're only 3¢ above the local low, with downward momentum likely to continue over the next few days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Prices fell 13.8¢/L week-over-week and crude is declining. Current price is only 3% above the recent low, suggesting the downtrend may be stabilizing near support.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        },
         {
           "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
           "source": "TIME",
@@ -3515,11 +3520,6 @@
           "headline": "Trump calls for probe into gasoline price 'gouging'",
           "source": "New York Post",
           "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
-        },
-        {
-          "headline": "Trump Orders DOJ Probe Into Big Oil, Says Americans Are Being 'Gouged' At The Pump: 'Gasoline Prices Bett",
-          "source": "Benzinga",
-          "url": "https://www.benzinga.com/news/politics/26/06/60062541/trump-orders-doj-probe-into-big-oil-says-americans-are-being-gouged-at-the-pump-gasoline-prices-better-start"
         }
       ],
       "breakdown": {
