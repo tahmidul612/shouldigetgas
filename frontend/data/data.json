@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-06-27T06:00:50.432177+00:00",
-    "pricesUpdatedAt": "2026-06-27T06:00:20.900414+00:00",
+    "updatedAt": "2026-06-27T12:01:04.122021+00:00",
+    "pricesUpdatedAt": "2026-06-27T12:00:25.294154+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-06-27T06:32:56.167794+00:00",
-    "nextAnalysisUpdate": "2026-06-27T12:02:56.167803+00:00"
+    "nextPriceUpdate": "2026-06-27T12:32:40.352064+00:00",
+    "nextAnalysisUpdate": "2026-06-27T18:02:40.352076+00:00"
   },
   "wti": {
-    "price": 78.94,
-    "dir": "down",
-    "change": -1.41
+    "price": 71.2,
+    "dir": "flat",
+    "change": 0.0
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.645,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Alabama prices are at a recent low of $2.645/gal with week-over-week declines and crude oil trending downward. However, political rhetoric about price gouging introduces short-term uncertainty.",
+      "why": "Alabama prices have dropped 6.4¢ this week and are at their lowest point. Crude oil is flat around $71, offering no upward pressure. Summer blend and stable market conditions support current lows.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -81,10 +81,10 @@
       "priceLow": 3.483,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Alaska prices dropped 12¢ week-over-week and are at recent lows. WTI crude is falling and summer blend is in effect. No immediate upward pressure signals suggest this is a favorable window.",
+      "why": "Alaska prices hit a weekly low at $3.483/gal with WTI crude flat. Week-over-week decline of $0.12 shows downward momentum. Summer blend and stable crude suggest prices have stabilized near current lows.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -138,10 +138,10 @@
       "priceLow": 3.006,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at a weekly low of $3.01/gal, down 10¢ from last week. WTI crude is falling, and summer blend inventory typically remains stable mid-season. Current pricing offers a solid fill-up window.",
+      "why": "Arizona prices have dropped 10¢ this week and hit a local low at $3.01/gal. WTI crude is flat with no upward pressure. Summer blend costs are stable, and political noise about price gouging won't immediately impact supply or demand.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -190,15 +190,15 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.59,
       "priceLow": 2.59,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its lowest point this week as crude oil trends downward. Weak momentum combined with falling WTI suggests prices may dip further over the next few days before any potential rebound.",
-      "advice": "Top off halfway, wait for Frid",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
+      "why": "Arkansas gas is at its lowest point this week and crude oil is flat, indicating stable conditions. Prices have dropped 6.3¢ week-over-week, suggesting we're near a local bottom with little downward momentum remaining.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -247,15 +247,15 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 5.387,
       "priceLow": 5.387,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at their recent low with flat week-over-week movement. Crude is declining, suggesting downward pressure ahead. Summer blend costs are elevated but stable currently.",
-      "advice": "Top off today · watch for dips",
+      "why": "California prices are flat at $5.39/gal with crude stable at $71.20. Summer blend costs and regional refinery constraints keep prices elevated, but no immediate upward pressure. Political focus on prices may create short-term volatility.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -309,10 +309,10 @@
       "priceLow": 3.666,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at their recent low with flat week-over-week movement. Crude oil is declining, suggesting downward pressure, but summer blend and current market stability indicate minimal immediate savings ahead.",
+      "why": "Colorado prices are at their lowest point with no weekly change. WTI crude is flat and stable. Summer blend is in effect but shows no upward pressure. Current price represents a local floor.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -366,10 +366,10 @@
       "priceLow": 3.234,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices are at their lowest point this week, down 11.6¢ year-over-year. WTI crude is declining, suggesting downward momentum. Summer blend premiums remain, but current pricing reflects recent weakness.",
+      "why": "Connecticut prices have dropped 12¢ this week and are at their local low. WTI crude is flat, suggesting stable wholesale costs. Summer blend adds a slight premium, but current pricing reflects recent downward momentum.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -423,10 +423,10 @@
       "priceLow": 3.0,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low of $3.00/gal with week-over-week decline of $0.11. WTI crude is falling, supporting continued downward pressure. Summer blend and stable conditions suggest no immediate spike risk.",
+      "why": "Delaware prices are at a recent low of $3.00/gal with week-over-week decline of 10.8 cents. WTI crude is flat, suggesting stable near-term supply. Summer blend and stable demand conditions support current pricing.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -480,10 +480,10 @@
       "priceLow": 3.567,
       "weekDelta": -0.172,
       "weekDeltaDir": "down",
-      "why": "Florida prices have dropped 17¢ week-over-week and are at local lows. WTI crude is declining, supporting downward momentum. Summer blend premiums are modest currently.",
+      "why": "Florida gas prices have dropped 17¢ this week and sit at their local low. WTI crude is flat, suggesting stability ahead. Summer blend premiums are in effect, but the downward trend and current floor make this a solid fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -537,10 +537,10 @@
       "priceLow": 2.737,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their weekly low of $2.737/gal, down nearly 10 cents week-over-week. WTI crude is declining and summer blend supplies remain adequate. Political rhetoric about price gouging creates short-term uncertainty but doesn't fundamentally change supply dynamics.",
+      "why": "Georgia gas prices have dropped 10 cents week-over-week and are at their lowest point. WTI crude is flat around $71, suggesting stable wholesale costs. Summer blend premiums are minimal right now.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -594,10 +594,10 @@
       "priceLow": 4.26,
       "weekDelta": -0.145,
       "weekDeltaDir": "down",
-      "why": "Hawaii gas at $4.26/gal is at its lowest point this week, down 14.5¢ week-over-week. WTI crude is declining, suggesting downward momentum. Summer blend premium and limited supply options mean this is a relatively good refill window.",
+      "why": "Hawaii prices have dropped 14.5¢ this week and sit at recent lows. WTI crude is flat, suggesting stability. Summer blend premiums are typical, and no supply disruptions are evident.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -651,10 +651,10 @@
       "priceLow": 3.052,
       "weekDelta": -0.205,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 20.5¢ week-over-week and are at a recent low. WTI crude is trending down, suggesting continued downward pressure. Summer blend demand and political scrutiny on pricing further support filling up now.",
+      "why": "Idaho prices have dropped 20¢ in a week and are at their lowest point. WTI crude is flat, suggesting stable wholesale costs. Summer blend is in effect with no major disruptions anticipated.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -708,10 +708,10 @@
       "priceLow": 3.373,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Illinois prices have dropped 12.5¢ this week and are at a recent low. WTI crude is declining, signaling downward pressure. Summer blend costs more, but the trend favors filling up now before any potential rebound.",
+      "why": "Illinois prices have dropped 12.5¢ this week and are at a recent low. WTI crude is flat around $71, suggesting stable wholesale costs. Summer blend premiums are in effect, but the downtrend provides a favorable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -765,10 +765,10 @@
       "priceLow": 3.019,
       "weekDelta": -0.112,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at its lowest point this week following a decline in WTI crude. Summer blend pricing is stable with no supply disruptions expected. Current levels offer a good fill-up window before potential volatility.",
+      "why": "Indiana prices have dropped 11¢ in a week and match recent lows. WTI crude is flat, suggesting stability. Summer blend and no holiday demand provide a favorable window to fill up without immediate pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -822,10 +822,10 @@
       "priceLow": 2.87,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Iowa prices have dropped 10¢ week-over-week and are at a local low. WTI crude is falling, supporting further downward pressure. Summer blend is active but supply remains adequate.",
+      "why": "Iowa prices dropped 11¢ this week and now sit at a recent low. Crude oil is flat with no immediate pressure upward. Summer blend premiums are stabilizing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -879,10 +879,10 @@
       "priceLow": 2.814,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Kansas prices are at a recent low of $2.814/gal following a strong week-over-week drop of 10.4 cents. WTI crude is declining, and current pump prices reflect that weakness. This is a favorable window to fill up.",
+      "why": "Kansas prices are at their lowest point of the week after a 10-cent decline. Crude oil is flat, suggesting stability. Summer blend premiums are in effect, but current pricing reflects recent market softness with no imminent pressure upward.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -936,10 +936,10 @@
       "priceLow": 2.811,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a recent low of $2.811/gal with week-over-week decline of 6.8¢. WTI crude is falling and summer blend is in effect. Political noise around price gouging doesn't change near-term fundamentals.",
+      "why": "Kentucky prices are at their lowest point this week, down 6.8¢ from last week. Crude oil is flat with no immediate upward pressure, and summer blend supply is stable. This is a favorable fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -993,10 +993,10 @@
       "priceLow": 2.691,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Louisiana gas is at its recent low of $2.691/gal after dropping $0.066 week-over-week. WTI crude is declining, suggesting downward pressure may ease soon. Summer blend costs and stable market conditions make this a solid fill-up window.",
+      "why": "Prices are at a recent low with modest week-over-week decline. WTI crude is flat and stable. Political rhetoric about gouging investigations creates uncertainty, but current pricing remains favorable for consumers.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is declining, supporting continued downward pressure. Summer blend and stable supply favor near-term stability.",
+      "why": "Maine prices have dropped 11¢ week-over-week and are at their local low. WTI crude is stable at $71.20/barrel with no upward pressure, and summer blend supply remains steady. Political rhetoric about price gouging is unlikely to reverse current downward momentum in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 11¢ week-over-week and are at a local low. WTI crude is declining, supporting further softness. Summer blend premium is active but downward momentum is established.",
+      "why": "Maryland prices have dropped 11 cents week-over-week and sit at recent lows. WTI crude is flat, suggesting stable wholesale costs. Summer blend premiums are already factored in, with no immediate supply disruptions expected.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1164,10 +1164,10 @@
       "priceLow": 3.949,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 12¢ week-over-week and are at a local low. WTI crude is declining, suggesting further downward pressure ahead. Summer blend costs more, but current levels offer a good window.",
+      "why": "Prices have dropped 12¢ week-over-week and sit at recent lows. WTI crude is flat around $71, suggesting stable wholesale costs. Summer blend and stable fundamentals create a favorable window.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.093,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a 7-day low matching current prices, with WTI crude falling and week-over-week decline of 11.5¢. Summer blend premiums are in effect, but downward momentum suggests continued softness ahead.",
+      "why": "Michigan gas is at its recent low of $3.093/gal, down 11.5¢ week-over-week. Crude oil is flat, and summer blend costs are stable. Political noise around pricing won't shift markets immediately.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.719,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices are at their lowest point this week and WTI crude is declining. The week-over-week drop of 11.5¢ shows downward momentum, with no immediate supply disruptions signaled.",
+      "why": "Minnesota prices have dropped 11.5¢ this week and are at their local low. WTI crude is stable and summer blend availability supports competitive pricing. Political pressure on pricing suggests minimal upside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.626,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at a seven-day low of $2.626/gal with crude trending down. Week-over-week decline of 6.5¢ suggests downward momentum. Summer blend premium and stable supply support further softening.",
+      "why": "Mississippi prices have dropped 6.5¢ week-over-week and are at their recent low. WTI crude remains flat around $71, offering stability. Summer blend demand is typical for the season with no holiday pressures.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.777,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low of $2.777/gal with WTI crude falling. Prices dropped 10¢ week-over-week, signaling downward momentum. Summer blend premium and weak crude direction suggest continued softness.",
+      "why": "Missouri prices have dropped 10¢ week-over-week and sit at a recent low. WTI crude is flat around $71, offering no immediate upward pressure. Summer blend costs are stable with no supply disruptions reported.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Montana gas is at a recent low of $3.117/gal after a strong week-over-week drop of $0.21. WTI crude is declining, suggesting downward pressure may continue in the near term.",
+      "why": "Montana prices are at their lowest point this week and have dropped 21¢ year-over-week. WTI crude is stable, and summer blend supplies are adequate. Current pricing reflects a favorable window with no immediate downward pressure expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1506,10 +1506,10 @@
       "priceLow": 2.879,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices have dropped 10.7¢ week-over-week and match recent lows. WTI crude is declining, supporting downward pressure. Summer blend requirements keep baseline costs elevated, but momentum favors buyers this week.",
+      "why": "Nebraska prices are at a recent low of $2.879/gal with strong week-over-week decline of -$0.107. WTI crude is flat, and summer blend supply is stable. Political rhetoric about price gouging adds uncertainty but doesn't change near-term fundamentals.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.577,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at their lowest point this week, down 12¢ from last week. WTI crude is falling and summer blend supply remains steady. Political rhetoric about price gouging creates uncertainty but doesn't immediately affect commodity markets.",
+      "why": "Nevada prices dropped 12¢ week-over-week and are at their recent low. WTI crude is flat, suggesting stability. Summer blend premiums are already factored in, with no major supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "NH prices have dropped $0.11 this week and are at their local low. Crude oil is falling and summer demand typically moderates mid-week. Current price reflects recent downward momentum.",
+      "why": "NH prices have dropped 11¢ week-over-week and now sit at a recent low. WTI crude is flat, suggesting stability. Summer blend premiums are offset by the downward momentum.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1672,15 +1672,15 @@
       "city": "Newark",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.075,
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "NJ prices have dropped 11¢ week-over-week and sit at recent lows. WTI crude is declining, supporting further softness. Summer blend and stable supply suggest prices may drift lower through mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "NJ prices have dropped 11¢ week-over-week and are at recent lows. WTI crude is flat with no major upward pressure. Summer blend maintenance costs are stable, and political scrutiny may discourage aggressive price hikes near-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1734,10 +1734,10 @@
       "priceLow": 2.903,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices are at a recent low and WTI crude is trending downward. Week-over-week decline of 7¢ shows positive momentum. Political noise around pricing unlikely to trigger immediate volatility.",
+      "why": "New Mexico prices are at their weekly low of $2.90/gal with a solid week-over-week decline of 7¢. WTI crude is flat, and summer blend is in effect. Political pressure on pricing may create short-term volatility, but current conditions are favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 3,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.075,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "NY gas prices have dropped 11.5¢ this week and sit at recent lows. WTI crude is declining, suggesting downward pressure may continue. Summer blend premiums remain active but the trend is favorable.",
+      "why": "NY gas prices have dropped 11.5¢ this week and now match the local low. WTI crude is flat, suggesting stable wholesale costs. Summer blend pricing is standard seasonal behavior with no supply disruptions expected.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "NC prices have dropped 10¢ week-over-week and currently match the local low. WTI crude is declining, supporting further downward pressure. Summer blend premiums are minimal right now.",
+      "why": "NC gas prices have dropped 10¢ week-over-week and sit at a recent low. WTI crude is flat around $71, suggesting stable wholesale costs with no immediate upward pressure. Summer blend pricing remains competitive.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1905,10 +1905,10 @@
       "priceLow": 2.963,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at a recent low of $2.96/gal with WTI crude declining. Week-over-week drops $0.11, signaling downward momentum. Summer blend and falling crude suggest limited upside pressure near-term.",
+      "why": "North Dakota prices are at a 7-day low after dropping 11 cents week-over-week. WTI crude is stable at $71.20, and summer blend supply is adequate. Political rhetoric about price gouging adds uncertainty but doesn't immediately affect fundamentals.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -1962,10 +1962,10 @@
       "priceLow": 3.862,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their lowest point this week with flat WTI crude trending downward. Summer blend demand is steady but crude weakness suggests modest relief ahead over the next few days.",
+      "why": "Ohio gas is at its lowest point with no week-over-week change. Crude oil is flat at $71.20, and summer blend pricing is stable. Political scrutiny on prices may create downward pressure, but current levels are already competitive.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.654,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a weekly low with WTI crude trending downward. Summer blend adds typical seasonal cost, but the recent drop and stable current pricing suggest a good fill-up window before any potential reversal.",
+      "why": "Oklahoma prices have dropped 6.5¢ this week and are at their recent low. Crude is flat around $71, providing stability. Summer blend is active but shows no immediate pressure for further gains.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.633,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at a weekly low and WTI crude is declining. Week-over-week drop of 12 cents shows downward momentum. Political noise around pricing won't shift fundamentals in the next few days.",
+      "why": "Oregon prices have dropped 12¢ week-over-week and sit at a local low. WTI crude is flat, suggesting stable wholesale costs. Summer blend premiums are offset by recent downward momentum, creating a favorable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.3,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "PA prices are at a week-low after dropping 12¢, matching the lowest nearby station. WTI crude is falling, suggesting continued downward pressure. Summer blend doesn't offset the favorable trend.",
+      "why": "PA prices have dropped 12 cents week-over-week and are at local lows. WTI crude is flat, suggesting stable near-term supply costs. Summer blend pricing remains competitive with no major upward pressure expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.187,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices are at their lowest point this week, down 11.5¢ from last week. WTI crude is declining and provides downward momentum. Current levels represent a solid buying opportunity before potential summer demand spikes.",
+      "why": "Rhode Island prices have dropped 11.5¢ this week and are at a recent low. WTI crude is flat, suggesting stable wholesale costs. Summer blend and stable market conditions support filling up now.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is declining, supporting further downward pressure. Summer blend transition is complete with no major supply disruptions expected.",
+      "why": "SC prices have dropped 10¢ week-over-week and sit at recent lows. Crude is flat around $71, offering no immediate upward pressure. Summer blend costs are stable with no major supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2304,10 +2304,10 @@
       "priceLow": 2.935,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "South Dakota gas is at a recent low of $2.935/gal with week-over-week decline of 11¢. WTI crude trending downward suggests continued relief at the pump. Summer blend pricing is stable with no immediate upward pressure.",
+      "why": "South Dakota prices have dropped 11 cents week-over-week and are at their lowest point. WTI crude is flat, suggesting stable wholesale costs with no immediate upward pressure expected this week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.719,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Tennessee prices are at their lowest point this week after a $0.07 drop. WTI crude is declining, and summer blend supply remains stable. Political noise about price gouging doesn't change near-term fundamentals.",
+      "why": "Tennessee gas is at its local low of $2.719/gal with week-over-week decline of 6.6 cents. WTI crude is flat, suggesting stable near-term pricing. Summer blend premium and lack of disruptive news support filling up now before potential political volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.371,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Texas prices are at a recent low of $3.371/gal, down 6¢ week-over-week. WTI crude is declining, supporting further softness. Summer blend demand and stable supply suggest prices are unlikely to drop much further this week.",
+      "why": "Texas gas is at a recent low of $3.371/gal with a week-over-week decline of 6 cents. WTI crude is flat around $71, suggesting stable near-term pricing. Summer blend adds slight cost, but current conditions favor filling up now.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 21¢ week-over-week and sit at recent lows. WTI crude is declining, signaling continued downward pressure. Summer blend costs remain manageable.",
+      "why": "Utah prices have dropped 21¢ week-over-week and are at a recent low. WTI crude is flat, suggesting no immediate upward pressure. Summer blend pricing is stable with no supply disruptions expected.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its lowest point with steady week-over-week decline of 11¢. Crude oil is falling and summer blend transition is complete. Current price represents a favorable buying window.",
+      "why": "Vermont gas is at its local low after a 11-cent weekly decline. Crude oil is flat and stable. Summer blend and absence of holiday demand support steady prices near current lows.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2589,10 +2589,10 @@
       "priceLow": 2.953,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 10.6¢ week-over-week and are at local lows. WTI crude is declining, supporting further softness. Summer blend fuel and stable market conditions create a favorable buying window.",
+      "why": "Virginia gas prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is flat, suggesting stable wholesale costs. Summer blend pricing and steady market conditions create a favorable filling window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.152,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices are at a local low with flat week-over-week movement. Crude is declining, signaling potential downward pressure. Summer blend premium and stable supply suggest prices have stabilized near a floor.",
+      "why": "Washington prices are at their recent low with flat crude and no week-over-week change. Summer blend demand is stable, and no supply disruptions are signaled. This is a good window to fill up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2703,10 +2703,10 @@
       "priceLow": 2.981,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a recent low of $2.98/gal, down 10.7¢ week-over-week. WTI crude is declining and currently trading lower, suggesting modest downward pressure on retail prices may continue over the next few days.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "why": "WV prices are at a recent low of $2.98/gal with a solid week-over-week decline of 10¢. Crude oil is flat, suggesting stable near-term pricing. Summer blend and stable market conditions support filling up now.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.056,
       "weekDelta": -0.113,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have dropped 11¢ this week and now sit at recent lows. WTI crude is declining, supporting further potential easing. Summer blend premiums are active, but downward momentum suggests a favorable fill-up window.",
+      "why": "Wisconsin gas is at its lowest point this week, down 11¢ from last week. Crude oil is flat with no immediate pressure. Summer blend premiums are in effect, but current pricing reflects recent downward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.024,
       "weekDelta": -0.204,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices are at a recent low of $3.024/gal, down 20¢ week-over-week. WTI crude is declining and prices have stabilized at current levels with no immediate downward momentum expected.",
+      "why": "Wyoming gas is at a recent low of $3.024/gal, down $0.20 week-over-week. WTI crude is flat, and summer blend pricing is stable. Political noise around price gouging won't immediately shift market fundamentals.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.328,
       "weekDelta": -0.12,
       "weekDeltaDir": "down",
-      "why": "DC prices have dropped 12¢ week-over-week and match recent lows. WTI crude is declining, supporting further downward pressure. Summer blend seasonal peak is behind us.",
+      "why": "DC prices have dropped $0.12 over the week and sit at a local low. WTI crude is flat, suggesting stability ahead. Summer blend and current market conditions support filling up now without risk of further declines.",
       "advice": "Fill up today",
       "bestDayIdx": 1,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2931,10 +2931,10 @@
       "priceLow": 1.572,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are down week-over-week and WTI crude is declining. Current price sits just 0.049 $/L above the recent low, with downward momentum likely continuing through the week.",
-      "advice": "Top up Thursday",
+      "why": "Alberta prices are 3% above the local low at 1.621 $/L, with modest weekly decline. Flat crude and summer blend stability suggest limited downside near-term. Political scrutiny on pricing may add volatility but won't dramatically shift costs in the next few days.",
+      "advice": "Top up today, monitor Thu",
       "bestDayIdx": 4,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -2983,15 +2983,15 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.85,
       "priceLow": 1.794,
       "weekDelta": -0.023,
       "weekDeltaDir": "down",
-      "why": "BC prices are 0.056 $/L above the recent low, and crude is falling. Downward pressure is building, with week-over-week decline signaling more relief ahead in the next 2–3 days.",
-      "advice": "Hold until Thursday",
+      "why": "BC prices are 3.1% above the recent low of $1.794/L. Crude is flat and seasonal summer blend demand is stable. Slight weekly decline suggests modest downward pressure, but you're not at an optimal fill-up window yet.",
+      "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3040,15 +3040,15 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.592,
       "priceLow": 1.544,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices are 3¢/L above the local low with downward momentum. Crude is falling and week-over-week trends negative. A small price dip is likely within 2–3 days as supply adjusts.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Manitoba prices are 3% above the week's low at 1.592 $/L, and crude remains flat. Modest downward momentum (-0.020 $/L WoW) suggests modest relief ahead, but current levels aren't critically high.",
+      "advice": "Top up partially, monitor",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3102,10 +3102,10 @@
       "priceLow": 1.617,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 2.1¢/L week-over-week and crude is declining. Current price sits 5¢/L above the regional low, with downward momentum continuing.",
+      "why": "New Brunswick prices are 3 cents above the local low, with WTI crude flat and week-over-week decline stalling. Political pressure on pricing may create volatility, but downward momentum has paused.",
       "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.699,
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Newfoundland prices are 3¢ above the recent low, with WTI crude falling. Week-over-week decline shows softening momentum. Political rhetoric on price gouging adds uncertainty but doesn't immediately shift supply dynamics.",
-      "advice": "Top off today, hold rest",
+      "why": "Newfoundland prices are 3¢ above the recent low and trending down week-over-week. WTI crude is flat, suggesting gradual easing continues. Summer blend costs are stable with no major supply disruptions expected.",
+      "advice": "Fill up by Wednesday",
       "bestDayIdx": 3,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.638,
       "weekDelta": -0.009,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices are 0.8% above the week's low and trending downward. WTI crude is falling and summer blend maintenance costs are stabilizing. Modest room remains to drop further over the next few days.",
-      "advice": "Top off partially, watch Tue",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "Prices are 0.8% above the local low and trending slightly downward. Crude is flat, suggesting modest relief ahead. Summer blend and stable market conditions support further modest decreases in the next few days.",
+      "advice": "Top off half · fill Friday",
+      "bestDayIdx": 5,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3268,15 +3268,15 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.581,
       "priceLow": 1.534,
       "weekDelta": -0.011,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are 0.047 $/L above the local low, with crude falling and week-over-week softening. Summer blend demand remains steady, but downward crude pressure suggests further relief ahead in the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Ontario prices are 1.5¢/L above the regional low with flat crude oil. Week-over-week decline shows modest downward momentum, but summer blend costs and political rhetoric around pricing create uncertainty. A small gap to the low suggests modest room to drop.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3325,15 +3325,15 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.656,
       "priceLow": 1.606,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "PE prices are 5¢ above the week's low and trending down. WTI crude is falling, suggesting further relief ahead. Current pump prices reflect lag in wholesale cost decreases.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "PEI prices are 5¢/L above the local low with a weak downward trend. WTI crude is flat, and summer blend seasonal factors are stabilizing supply. Political rhetoric around pricing poses short-term uncertainty but doesn't change underlying fundamentals.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3382,15 +3382,15 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.699,
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Prices are down week-over-week and crude oil is falling. Current price at 1.699 is only 3.1% above the nearby low, signaling a stable market with modest downside potential ahead.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "why": "Quebec prices are down 2.2¢ week-over-week with crude flat at $71. Current price is 5¢ above the regional low, suggesting modest room to drop further in the next few days.",
+      "advice": "Top off partially, wait for Th",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3439,15 +3439,15 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices are down 2¢ week-over-week and WTI crude is falling. You're currently 3.8¢ above the nearby low, with downward momentum likely continuing over the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Saskatchewan prices are down slightly week-over-week and near recent lows. WTI crude is flat, suggesting stable wholesale costs. Summer blend is in effect. Political pressure on pricing may create uncertainty, but no immediate supply disruption signals warrant waiting.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
@@ -3496,15 +3496,15 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.022,
       "priceLow": 1.961,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Prices down week-over-week and crude trending lower, but current price 3.1¢ above recent low. Summer blend and stable demand suggest modest further softening possible within 2–3 days.",
-      "advice": "Top off half now, fill Friday",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
+      "why": "Northern Canada prices are down week-over-week and near recent lows at $2.022/L. WTI crude is flat with no immediate upward pressure. Summer blend pricing is stable, and political noise around price gouging doesn't signal imminent drops.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
