@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-01T00:00:40.139546+00:00",
-    "pricesUpdatedAt": "2026-07-01T00:00:22.100840+00:00",
+    "updatedAt": "2026-07-01T06:00:47.862164+00:00",
+    "pricesUpdatedAt": "2026-07-01T06:00:26.199632+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-01T00:32:47.348859+00:00",
-    "nextAnalysisUpdate": "2026-07-01T06:02:47.348871+00:00"
+    "nextPriceUpdate": "2026-07-01T07:08:11.507205+00:00",
+    "nextAnalysisUpdate": "2026-07-01T12:38:11.507222+00:00"
   },
   "wti": {
     "price": 78.94,
@@ -19,30 +19,30 @@
       "city": "Birmingham",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.645,
       "priceLow": 2.645,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low and down week-over-week. WTI crude is falling, supporting further relief at the pump. Holiday week demand may create minor volatility, but the downtrend suggests patience could yield even better prices.",
-      "advice": "Fill up today or wait until We",
-      "bestDayIdx": 3,
+      "why": "Alabama gas is at a local low of $2.645/gal with crude trending downward. Week-over-week decline of 6.4¢ and political pressure on retailers suggests prices may hold or edge lower through the holiday week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -81,25 +81,25 @@
       "priceLow": 3.483,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low of $3.483/gal with WTI crude declining. Week-over-week dropped 11.8¢, signaling downward momentum. Holiday week demand is typically lighter, supporting stable-to-lower prices.",
+      "why": "Alaska prices are at a recent low of $3.48/gal with week-over-week decline of $0.12. WTI crude is falling and political scrutiny on gas stations may create temporary downward pressure. Summer blend and holiday week support current favorable conditions.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -138,25 +138,25 @@
       "priceLow": 3.006,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Arizona prices have fallen 10¢ week-over-week and hit recent lows at $3.01/gal. WTI crude is declining, and summer blend demand typically softens after holiday week. Current price is near bottom of range.",
+      "why": "Arizona gas is at a recent low of $3.01/gal with WTI crude falling. Week-over-week decline of 10¢ signals downward momentum, though holiday week demand and political price scrutiny create uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -195,25 +195,25 @@
       "priceLow": 2.59,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its recent low of $2.59/gal with steady week-over-week declines. WTI crude is trending down, and holiday week demand is typically softer. Current pricing offers a solid fill-up window.",
+      "why": "Arkansas gas is at a recent low of $2.59/gal with WTI crude declining. Week-over-week prices dropped 6.3 cents, and political pressure on retailers may keep upward momentum limited near-term.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -252,25 +252,25 @@
       "priceLow": 5.387,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at a recent low with flat week-over-week movement. Crude is declining and summer blend costs are stabilizing. Holiday week demand may create temporary volatility, but the downward crude trend suggests prices could edge lower mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "California prices are at their lowest point with flat week-over-week movement. Crude oil is declining and political pressure on retailers may cap further increases. Summer blend premiums and holiday demand provide some upside risk, but current conditions favor filling up now.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -309,25 +309,25 @@
       "priceLow": 3.666,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its recent low of $3.67/gal with flat week-over-week movement. Crude is declining and summer blend pricing is stable. Holiday week typically sees moderate demand.",
+      "why": "Colorado prices are at recent lows with flat week-over-week movement. WTI crude is declining, and summer blend is in effect. Political pressure on retailers may create short-term volatility, but fundamentals support current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -366,25 +366,25 @@
       "priceLow": 3.234,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Connecticut gas is at its lowest point this week following a week-over-week drop of 11.6¢. WTI crude is declining and summer blend supply is adequate. Holiday week demand may provide some support, but momentum favors buyers now.",
+      "why": "Connecticut prices are at their lowest point in recent days, down 11.6¢ week-over-week. WTI crude is declining and political pressure on retailers may keep prices competitive this holiday week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -418,30 +418,30 @@
       "city": "Wilmington",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.0,
       "priceLow": 3.0,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at their lowest point this week amid falling crude oil ($78.94, down $1.41). Holiday-week demand is typically lighter, and the downward trend suggests further relief ahead within 2–3 days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Delaware gas is at a recent low of $3.00/gal with crude falling and week-over-week decline of -$0.11. Holiday week demand may stabilize prices, but downward crude momentum suggests potential for further dips in the next few days.",
+      "advice": "Top off today, wait for rest",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -480,25 +480,25 @@
       "priceLow": 3.567,
       "weekDelta": -0.172,
       "weekDeltaDir": "down",
-      "why": "Florida gas is at its lowest point this week, down 17¢ year-over-year. WTI crude is falling and summer blend supply is adequate. Holiday week demand may ease after the peak.",
+      "why": "Florida gas is at its lowest point this week, down 17¢ year-over-year. WTI crude is falling and holiday demand may ease post-week. Political pressure on retailers could keep upward movement limited short-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -537,25 +537,25 @@
       "priceLow": 2.737,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at a recent low after declining $0.10 week-over-week. Crude oil is falling and summer blend supply is stable. Holiday demand and political scrutiny may create short-term volatility, but downward pressure persists.",
+      "why": "Georgia gas is at its lowest point this week as crude falls. Holiday demand and political pressure on retailers create uncertainty, but current pricing offers a solid fill-up window before potential holiday travel spikes.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -594,25 +594,25 @@
       "priceLow": 4.26,
       "weekDelta": -0.145,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices have dropped 14.5¢ week-over-week and now match the regional low. WTI crude is declining, and summer blend pricing is stabilizing. Holiday week demand may soften further in coming days.",
+      "why": "Hawaii prices are at a recent low after dropping 14.5¢ week-over-week. WTI crude is falling and political pressure on retailers may keep prices competitive. Summer demand and holiday travel create volatility, but current pricing offers a good window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -651,25 +651,25 @@
       "priceLow": 3.052,
       "weekDelta": -0.205,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 20.5¢ in a week and are at their lowest point. WTI crude is falling and summer blend regulations are in effect. Holiday week demand may be modest, supporting continued softness.",
+      "why": "Idaho prices have dropped 20¢ this week and sit at a recent low. WTI crude is declining and political pressure may keep retail margins tight. Holiday week demand is moderate, creating a favorable window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -708,25 +708,25 @@
       "priceLow": 3.373,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Illinois prices have fallen 12.5¢ week-over-week and are at a recent low. WTI crude is declining, and summer blend supply is adequate. Holiday week demand may ease further, supporting continued downward pressure.",
+      "why": "Illinois prices have dropped 12.5¢ week-over-week and sit at a recent low. WTI crude is declining, and summer blend production is ramping up. Holiday week demand is typically softer, supporting downward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -765,25 +765,25 @@
       "priceLow": 3.019,
       "weekDelta": -0.112,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is declining, and summer blend supply remains adequate. Holiday week demand is typically moderate.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Indiana gas is at a local low of $3.019/gal with week-over-week decline of $0.112. WTI crude is falling and holiday week demand may ease further mid-week. Current pricing is favorable for filling up.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -817,30 +817,30 @@
       "city": "Des Moines",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.87,
       "priceLow": 2.87,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Iowa gas is at a recent low after a 10.6¢ week-over-week drop, with crude trending down. Holiday week demand may provide temporary support, but downward momentum suggests prices could edge lower in the coming days.",
-      "advice": "Top off half · monitor Fri",
-      "bestDayIdx": 5,
+      "why": "Iowa prices are at their recent low point after dropping 10.6¢ week-over-week. WTI crude is declining, and political scrutiny may keep retail margins tight. Holiday week demand could add minor upward pressure, but the downtrend is your friend.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -879,25 +879,25 @@
       "priceLow": 2.814,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at a recent low of $2.814/gal, down 10¢ week-over-week. WTI crude is declining and prices have room to fall further, but you're already at a local bottom. Holiday week demand may support prices.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Kansas gas is at its local low of $2.814/gal after dropping 10¢ week-over-week. Crude oil is falling and political pressure on retailers may keep prices competitive. Summer blend premium is offset by downward momentum.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -936,25 +936,25 @@
       "priceLow": 2.811,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a recent low of $2.81/gal with WTI crude falling. Week-over-week decline of 6.8¢ shows downward momentum, though holiday week demand may provide some support.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Kentucky prices are at a recent low of $2.81/gal, down 6.8¢ week-over-week. WTI crude is declining, and holiday week demand typically softens mid-week. Political pressure on retailers may create brief pricing volatility but doesn't alter the current favorable window.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -993,25 +993,25 @@
       "priceLow": 2.691,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at a recent low of $2.691/gal with steady weekly decline of -$0.066. WTI crude is falling and holiday week demand may ease midweek, creating a favorable fill-up window.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Louisiana prices are at a recent low of $2.691/gal with downward week-over-week momentum (-0.066). WTI crude is declining and holiday week demand is typically lighter, supporting softer prices near-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1050,25 +1050,25 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Maine gas is at its lowest point this week, down 11¢ year-over-year. WTI crude is falling and prices have stabilized near recent lows. Holiday week demand typically supports current levels.",
+      "why": "Maine prices hit a weekly low at $3.168/gal with WTI crude falling. Week-over-week decline of 11¢ shows downward momentum, but holiday week demand and political price scrutiny create uncertainty for further drops.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1107,25 +1107,25 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 11¢ week-over-week and are at a local low. WTI crude is declining, supporting continued downward pressure. Summer blend and holiday week typically see stable-to-lower pricing midweek.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Maryland prices are at a recent low of $3.075/gal with WTI crude falling. Week-over-week decline of $0.11 shows downward momentum. Holiday week demand may stabilize prices near current levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1164,25 +1164,25 @@
       "priceLow": 3.949,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Massachusetts gas is at a recent low of $3.949/gal with week-over-week decline of $0.118. WTI crude is falling and prices are unlikely to drop significantly further in the near term given summer blend costs.",
+      "why": "MA prices are at a recent low and trending down week-over-week. WTI crude is falling, supporting further easing. Holiday week demand is typically lighter, keeping upward pressure minimal.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1216,30 +1216,30 @@
       "city": "Detroit",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.093,
       "priceLow": 3.093,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at its lowest point this week amid falling crude oil ($78.94, down $1.41). Holiday week demand may soften prices further over the next 2–3 days. Current price reflects recent weakness.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Michigan prices are at a recent low of $3.093/gal and have dropped $0.115 week-over-week. WTI crude is declining, and holiday week demand typically stabilizes prices. Political pressure on retailers may cap upside movement.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1278,25 +1278,25 @@
       "priceLow": 3.719,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices have dropped 11.5¢ week-over-week and sit at recent lows. WTI crude is declining, and summer blend supply remains adequate. Holiday week demand may be mixed, but downward momentum supports filling now.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Minnesota gas is at its local low after a 11.5¢ weekly drop. WTI crude is declining and holiday week demand typically softens mid-week. Political pressure for price cuts adds downward momentum.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1330,30 +1330,30 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.626,
       "priceLow": 2.626,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at a recent low with week-over-week decline of 6.5¢. WTI crude is falling and currently stable. Holiday week demand may be elevated, but downward crude pressure suggests prices could ease further in the next few days.",
-      "advice": "Top off today, monitor for dip",
-      "bestDayIdx": 4,
+      "why": "Mississippi gas is at its local low of $2.626/gal after a week-long decline of 6.5 cents. WTI crude is falling, and political pressure on retailers may cap price increases. Summer blend and holiday week demand typically support prices, but downward momentum is strong.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1387,30 +1387,30 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.777,
       "priceLow": 2.777,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at a 7-day low and fell 10¢ week-over-week. Crude is declining and summer blend typically stabilizes mid-week. Holiday demand may create short-term volatility, but current levels are favorable.",
-      "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "why": "Missouri prices are at their weekly low with crude falling and week-over-week decline of 10¢. Holiday week demand may support prices, but downward crude momentum suggests further relief possible mid-week.",
+      "advice": "Top off today, monitor Wed",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1449,25 +1449,25 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Montana gas is at a recent low of $3.117/gal after dropping $0.21 week-over-week. Crude oil is declining, and summer blend inventory typically stabilizes mid-week. Holiday week demand may be moderate.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Montana prices have dropped 21¢ week-over-week and sit at a recent low. WTI crude is declining, and summer blend competition is keeping retail margins tight. Holiday week demand may be offset by continued downward crude pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1506,25 +1506,25 @@
       "priceLow": 2.879,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices are at a recent low after dropping 11¢ week-over-week. WTI crude is declining and summer blend competition is high. Holiday week demand is typically lighter, supporting lower prices.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "why": "Nebraska prices have dropped 10.7¢ this week and now sit at a recent low. WTI crude is declining, and holiday week demand typically softens mid-week. Current price is favorable for filling up.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1563,25 +1563,25 @@
       "priceLow": 3.577,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Nevada prices have dropped 12¢ week-over-week and are at recent lows. WTI crude is declining, and summer blend supply is adequate. Holiday week demand may support current levels, but downward momentum suggests prices could drift lower mid-week.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Nevada gas is at its lowest point this week, down 12¢ year-over-year. WTI crude is falling and political pressure on retail margins may keep upward momentum limited. Holiday week demand is typically lighter.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1620,25 +1620,25 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "New Hampshire gas is at a recent low of $3.075/gal with prices down 11¢ week-over-week. WTI crude is declining, suggesting downward momentum may continue into the holiday week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "NH prices are at their lowest point with crude falling and week-over-week decline of 11¢. Holiday week demand typically softens, and political pressure on retailers may keep prices competitive. Current level is a good fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1677,25 +1677,25 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped $0.11 week-over-week and sit at a recent low. Crude is falling with downward momentum. Holiday week typically sees softer demand, supporting lower prices.",
+      "why": "Prices are at a local low following a week-long decline of 11¢. WTI crude is falling and seasonal summer blend is in effect. Political pressure on retailers may create temporary volatility, but current pricing reflects favorable market conditions.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1734,25 +1734,25 @@
       "priceLow": 2.903,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "NM prices are at a local low of $2.90/gal, down 7¢ week-over-week. WTI crude is declining and holiday-week demand typically softens mid-week. Current pricing offers a solid fill-up window before any potential rebound.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Prices are at a weekly low and WTI crude is declining. Holiday week demand may create temporary volatility, but the downward trend and current retail-station scrutiny suggest limited near-term upside pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1791,25 +1791,25 @@
       "priceLow": 4.075,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "NY gas prices have dropped 11.5¢ week-over-week and are at their lowest point. Crude oil is declining and summer blend demand typically softens after holiday week. Current price is a solid entry point.",
+      "why": "NY prices are at a recent low following a week-over-week drop of 11.5 cents. WTI crude is declining and political pressure on retailers may keep upward momentum limited in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1848,25 +1848,25 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 10¢ week-over-week and currently match the local low. WTI crude is declining, and summer blend transitions may ease soon. Holiday week demand typically moderates post-peak.",
+      "why": "NC prices have dropped 10¢ week-over-week and now sit at recent lows. WTI crude is declining and political pressure may cap further increases. Holiday week demand could shift, but current levels offer good value.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1905,25 +1905,25 @@
       "priceLow": 2.963,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at a recent low of $2.963/gal, down 11¢ week-over-week. WTI crude is declining and currently weak. Holiday week demand may provide temporary support, but downward pressure persists.",
+      "why": "Prices have dropped 11¢ week-over-week and are at local lows. WTI crude is declining, and holiday-week demand typically softens after the peak. Current levels represent a good fill-up window before potential volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -1962,25 +1962,25 @@
       "priceLow": 3.862,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their lowest point this week with no upward momentum. Crude oil is declining and summer blend supply is stable. Holiday week typically sees softer demand, creating a favorable window.",
+      "why": "Ohio prices are at recent lows with crude falling. Holiday week demand may create slight upward pressure, but current $3.862/gal is a solid entry point before potential mid-week fluctuations.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2014,30 +2014,30 @@
       "city": "Oklahoma City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.654,
       "priceLow": 2.654,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Oklahoma gas is at a recent low of $2.654/gal with WTI crude falling. Week-over-week prices dropped 6.5 cents, and crude momentum remains downward. Holiday week demand may provide temporary support, but the overall trend favors lower prices ahead.",
-      "advice": "Top off today, monitor Thu",
-      "bestDayIdx": 4,
+      "why": "Oklahoma prices are at a recent low of $2.654/gal with crude falling $1.41. Holiday week demand may limit further drops, but downward momentum supports current value. WTI weakness suggests limited upside risk short-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2076,25 +2076,25 @@
       "priceLow": 3.633,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at their weekly low of $3.633/gal, down 12¢ week-over-week. WTI crude is declining, and summer blend supply is stable. Holiday week demand is lighter, supporting current lower levels.",
+      "why": "Oregon gas is at its local low after a week-long decline. WTI crude is falling and regulatory pressure on retailers may keep prices competitive. Summer blend and holiday week demand are offset by downward crude momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2133,25 +2133,25 @@
       "priceLow": 3.3,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "PA prices have dropped 12¢ this week and are at recent lows. WTI crude is declining, and summer blend transition is complete. Holiday week demand may be unpredictable, but the downtrend suggests prices could hold or dip slightly further.",
+      "why": "PA prices are at recent lows with week-over-week decline of 11.8¢. WTI crude is falling and political pressure on retailers suggests downward momentum may continue, though holiday week demand could provide temporary support.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2190,25 +2190,25 @@
       "priceLow": 3.187,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "RI prices hit a recent low matching the lowest nearby. Week-over-week dropped $0.115, and WTI crude is declining. Holiday week demand may stabilize prices rather than push them lower.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Rhode Island gas is at its lowest point this week, down 11.5¢ year-over-year. WTI crude is declining and political pressure on retailers suggests prices may stabilize or edge lower in coming days, but current prices remain competitive.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2247,25 +2247,25 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is declining, and holiday week demand may soften further. Current levels offer a solid fill-up window before potential summer blend premiums.",
+      "why": "SC prices have dropped 10¢ week-over-week and are at their local low. WTI crude is declining, and summer blend supply is adequate. Holiday week demand is mixed, but momentum favors lower prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2304,25 +2304,25 @@
       "priceLow": 2.935,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices have dropped 11¢ week-over-week and sit at recent lows. WTI crude is declining, and holiday week demand typically softens. Current pricing offers a solid window to fill up before potential summer travel increases demand.",
+      "why": "South Dakota prices have dropped 11¢ week-over-week and are at a local low. Crude oil is falling, and summer blend demand typically peaks mid-week. Holiday week volatility is offset by strong downward momentum.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2356,30 +2356,30 @@
       "city": "Nashville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.719,
       "priceLow": 2.719,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Tennessee prices have dropped 6.6¢ week-over-week and are at their lowest point. WTI crude is declining, and summer blend pricing is stable. Holiday week demand may support current levels, but downward momentum suggests prices could ease further.",
-      "advice": "Top off today, wait for rest",
-      "bestDayIdx": 0,
+      "why": "Tennessee prices are at a recent low with week-over-week decline of 6.6¢. WTI crude is falling and political pressure may keep retail margins tight. Holiday week demand typically softens midweek.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2418,25 +2418,25 @@
       "priceLow": 3.371,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Texas gas is at its lowest point this week as crude fell. Holiday demand and summer blend typically support prices, but downward crude momentum and political pressure on refiners may keep prices soft through mid-week.",
+      "why": "Texas prices are at a recent low of $3.371/gal with downward momentum (WTI crude falling). Holiday week typically sees stable demand, and summer blend is in effect. Political pressure on retail margins may support lower prices short-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2475,25 +2475,25 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 21¢ week-over-week and are already at local lows. WTI crude is declining, and summer blend supplies are stable. Holiday week demand may provide temporary support, but downward pressure persists.",
+      "why": "Utah gas is at a recent low of $3.117/gal with strong week-over-week decline (-$0.21). WTI crude falling and political pressure on retailers may cap upside, but holiday week demand could provide support.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2532,25 +2532,25 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its recent low of $3.168/gal, down 11¢ week-over-week. WTI crude is falling and holiday demand may ease after the week. This is a favorable window to fill up.",
+      "why": "Vermont is at its lowest recent price following a week-over-week drop of 11¢. WTI crude is falling, and summer blend pricing is competitive. Holiday week demand may support current levels, but downward momentum suggests minor further softening possible.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2584,30 +2584,30 @@
       "city": "Richmond",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.953,
       "priceLow": 2.953,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Virginia prices have dropped 10.6 cents week-over-week and are at their lowest point. WTI crude is falling, and summer blend supply remains steady. Holiday week demand may provide temporary support, but downward momentum favors waiting slightly.",
-      "advice": "Top off today, hold rest",
-      "bestDayIdx": 3,
+      "why": "Prices are at a recent low with WTI crude declining. Week-over-week drop of 10.6¢ shows downward momentum. Holiday week demand may stabilize prices near current levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2646,25 +2646,25 @@
       "priceLow": 5.152,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their recent low of $5.15/gal with flat week-over-week movement. WTI crude is declining, and holiday week demand may ease post-peak. Summer blend premium has likely already priced in.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Washington prices are at a recent low and stable. WTI crude is declining, suggesting downward pressure ahead. However, holiday week demand and summer blend requirements may support prices short-term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2698,30 +2698,30 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.981,
       "priceLow": 2.981,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its lowest point this week following a 10.7¢ decline. Crude oil is trending down and you're already at the regional floor. Holiday week demand may spike prices slightly, but the downward momentum suggests waiting won't help much.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "WV gas is at its recent low of $2.981/gal with crude falling and week-over-week declining 10.7 cents. Holiday week demand and political price pressure create uncertainty, but downward momentum suggests holding for potential further drops.",
+      "advice": "Top off today · wait for rest",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2760,25 +2760,25 @@
       "priceLow": 3.056,
       "weekDelta": -0.113,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at their weekly low of $3.056/gal, down 11¢ week-over-week. Crude is sliding ($78.94, -1.41), and summer blend demand typically softens post-holiday. Current levels offer a solid fill-up window.",
+      "why": "Wisconsin gas is at its lowest point this week with WTI crude falling. Holiday week demand is typically lower, and downward pressure continues. You're in a favorable pricing window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2817,25 +2817,25 @@
       "priceLow": 3.024,
       "weekDelta": -0.204,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices hit a recent low of $3.024/gal with strong week-over-week decline of -$0.204. WTI crude is falling and holiday week demand typically softens post-peak. Current pricing offers a solid fill-up window.",
+      "why": "Wyoming prices have dropped 20¢ week-over-week and are at local lows. WTI crude is declining and political pressure on retailers may keep upward momentum limited near-term. Summer blend and holiday driving create some volatility, but current levels favor near-term fills.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2874,25 +2874,25 @@
       "priceLow": 3.328,
       "weekDelta": -0.12,
       "weekDeltaDir": "down",
-      "why": "DC prices have dropped 12¢ week-over-week and are at their local low. Crude is declining and summer blend is in effect. Holiday week demand may ease prices further, but current levels offer a solid entry point.",
+      "why": "DC prices have dropped 12¢ week-over-week and are at their local low. WTI crude is declining, and holiday week demand typically softens midweek. Political pressure on retailers may cap upside movement.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2926,30 +2926,30 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.621,
       "priceLow": 1.572,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are down week-over-week and near recent lows. WTI crude is declining, supporting further downward pressure. Holiday week demand may stabilize prices, but the downtrend suggests waiting could yield better rates.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Alberta prices are 3.1¢/L above the week's low, with WTI crude declining and summer blend demand moderating. Holiday week demand is typically softer, and political scrutiny on retailers may create downward pressure.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -2983,30 +2983,30 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.85,
       "priceLow": 1.794,
       "weekDelta": -0.023,
       "weekDeltaDir": "down",
-      "why": "BC prices have dipped 2.3¢ this week and sit only 5.6¢ above the local low. WTI is falling and summer blend demand is seasonal. Holiday week volatility is possible, but the downtrend supports filling soon.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "BC prices are 3.1¢/L above the weekly low, and WTI crude is falling. Holiday week demand and summer blend add upward pressure, but downward crude momentum and retailer scrutiny suggest prices may soften further in the next 2–3 days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3040,30 +3040,30 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.592,
       "priceLow": 1.544,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices are 0.5% above the week's low and crude is declining. Holiday week demand typically softens mid-week, and downward crude pressure suggests further dips ahead.",
-      "advice": "Hold until Wed–Thu",
-      "bestDayIdx": 3,
+      "why": "Prices have declined week-over-week and WTI crude is falling, suggesting downward momentum. However, you're currently 3.1¢/L above the local low, and holiday week demand plus political scrutiny on retailers could create volatility.",
+      "advice": "Top off half now, full fill Fr",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3097,30 +3097,30 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.667,
       "priceLow": 1.617,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "Prices are down week-over-week and crude is falling. Current price sits just 5¢ above the local low, suggesting we're near a temporary floor. Holiday week demand may create minor upward pressure, but the trend favors patience.",
-      "advice": "Top off partially today",
+      "why": "Prices down week-over-week and crude falling. Current price 1.667 is only 5¢ above the local low, suggesting we're near a floor. Holiday week demand may support prices, limiting further drops.",
+      "advice": "Fill up by Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3154,30 +3154,30 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.699,
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 2.2¢/L week-over-week and crude is falling. Current price at 1.699 is only 5.1¢ above the regional low, suggesting we're in a favorable window. Holiday week demand may provide some support.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Prices have dropped 2.2¢ week-over-week and WTI crude is falling. Current price is 5¢ above the regional low, suggesting room to negotiate further before a holiday-week spike.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3216,25 +3216,25 @@
       "priceLow": 1.638,
       "weekDelta": -0.009,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices are 0.5¢/L above the local low, with crude down and weak week-over-week momentum. Holiday week demand is typically lighter, and downward crude pressure suggests prices may edge lower mid-week.",
-      "advice": "Top off today, rest by Wed",
-      "bestDayIdx": 3,
+      "why": "Nova Scotia prices are 0.051 $/L above the regional low, but crude is falling and week-over-week momentum is down. Holiday week typically softens demand. A small gap remains to the best local price.",
+      "advice": "Top off now, full fill Fri",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3273,25 +3273,25 @@
       "priceLow": 1.534,
       "weekDelta": -0.011,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are 1.5% above the week's low and trending down slightly. WTI crude fell $1.41, signaling continued downward momentum. Holiday week demand typically softens mid-week, creating a better fill-up window Thursday–Friday.",
-      "advice": "Top off now, refill Thu–Fri",
+      "why": "Ontario prices are 3% above the week's low and WTI crude is declining. Holiday week demand and political scrutiny on retailers create uncertainty, but downward crude pressure suggests better prices ahead within days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3325,30 +3325,30 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.656,
       "priceLow": 1.606,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "PEI prices are 5¢ above the local low and trending down week-over-week. WTI crude is falling, and summer blend supply is ample during a holiday week. Prices should continue softening over the next few days.",
-      "advice": "Hold until Thursday",
+      "why": "PEI prices are 5¢/L above the local low with week-over-week decline and falling crude signaling further downward pressure. Holiday week demand is elevated, but political scrutiny on retailers may temper aggressive price hikes.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
         {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3382,30 +3382,30 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.699,
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Quebec prices are down week-over-week and crude is falling. Current price sits 3¢ above the local low, with downward momentum continuing. Holiday week demand may stabilize prices, but the trend favors waiting.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Quebec prices are down week-over-week and crude is falling. You're 5 cents above the regional low, with political pressure on retailers to cut prices. Summer blend and holiday week typically see volatile swings, but the downward trend suggests further relief may come.",
+      "advice": "Top up today, wait for rest",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3439,30 +3439,30 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices have dropped 2¢ week-over-week and crude is trending down. Current price sits only 4.5¢ above the regional low, suggesting we're near a temporary floor. Holiday week demand is typically stable.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Saskatchewan prices are 3¢/L above the local low and WTI crude is falling. Holiday week demand typically softens mid-week, and political pressure on retailers may suppress prices further in the next 2–3 days.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
@@ -3496,30 +3496,30 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 2.022,
       "priceLow": 1.961,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Prices are down week-over-week and crude is falling. You're 3¢/L above recent lows, but summer demand and holiday week may create temporary floor. Downward momentum favors waiting slightly longer.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices down week-over-week and crude falling. Holiday week and political pressure on retailers may prompt further cuts. Current 2.022 $/L is 3.1¢ above nearby low—reasonable entry point.",
+      "advice": "Fill up by midweek",
+      "bestDayIdx": 2,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
         {
           "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
           "source": "Seeking Alpha",
           "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        },
-        {
-          "headline": "Trump Claims Gasoline Price 'Gouging,’ Calls for DOJ Probe",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/24/trump-doj-probe-into-gasoline-price-gouging-experts-explain-timeline/"
-        },
-        {
-          "headline": "Trump calls for probe into gasoline price 'gouging'",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/06/24/business/trump-calls-for-probe-into-gasoline-price-gouging/"
         }
       ],
       "breakdown": {
