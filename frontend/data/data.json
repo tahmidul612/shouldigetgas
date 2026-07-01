@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-07-01T06:00:47.862164+00:00",
-    "pricesUpdatedAt": "2026-07-01T06:00:26.199632+00:00",
+    "updatedAt": "2026-07-01T12:01:08.382111+00:00",
+    "pricesUpdatedAt": "2026-07-01T12:00:30.380601+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-01T07:08:11.507205+00:00",
-    "nextAnalysisUpdate": "2026-07-01T12:38:11.507222+00:00"
+    "nextPriceUpdate": "2026-07-01T12:37:47.243513+00:00",
+    "nextAnalysisUpdate": "2026-07-01T18:07:47.243529+00:00"
   },
   "wti": {
-    "price": 78.94,
-    "dir": "down",
-    "change": -1.41
+    "price": 71.2,
+    "dir": "flat",
+    "change": 0.0
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.645,
       "weekDelta": -0.064,
       "weekDeltaDir": "down",
-      "why": "Alabama gas is at a local low of $2.645/gal with crude trending downward. Week-over-week decline of 6.4¢ and political pressure on retailers suggests prices may hold or edge lower through the holiday week.",
+      "why": "Alabama gas is at its local low of $2.645/gal with steady week-over-week decline. WTI crude is flat, and holiday week demand may stabilize prices near current levels. Political pressure on retailers adds uncertainty but no immediate downward catalyst.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -81,10 +81,10 @@
       "priceLow": 3.483,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low of $3.48/gal with week-over-week decline of $0.12. WTI crude is falling and political scrutiny on gas stations may create temporary downward pressure. Summer blend and holiday week support current favorable conditions.",
+      "why": "Alaska prices have dropped 11.8¢ this week and sit at a recent low. WTI crude is flat around $71/barrel with no immediate upward pressure. Holiday week demand and political scrutiny on retailers add downside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -138,10 +138,10 @@
       "priceLow": 3.006,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Arizona gas is at a recent low of $3.01/gal with WTI crude falling. Week-over-week decline of 10¢ signals downward momentum, though holiday week demand and political price scrutiny create uncertainty.",
+      "why": "Arizona prices are at recent lows after a solid week-over-week decline of 10 cents. WTI crude is flat and stable. Holiday week demand may provide brief support, but the downward momentum and current floor pricing create a favorable buying window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -195,10 +195,10 @@
       "priceLow": 2.59,
       "weekDelta": -0.063,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at a recent low of $2.59/gal with WTI crude declining. Week-over-week prices dropped 6.3 cents, and political pressure on retailers may keep upward momentum limited near-term.",
+      "why": "Arkansas gas is at its recent low of $2.59/gal with steady week-over-week decline. WTI crude is flat, and political pressure on retailers may keep prices competitive near-term. Summer blend and holiday week demand are priced in.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -252,10 +252,10 @@
       "priceLow": 5.387,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at their lowest point with flat week-over-week movement. Crude oil is declining and political pressure on retailers may cap further increases. Summer blend premiums and holiday demand provide some upside risk, but current conditions favor filling up now.",
+      "why": "California prices are at their recent low with no week-over-week change. Crude is flat and summer blend supplies are stable. Holiday week demand is typically moderate, creating a neutral window.",
       "advice": "Fill up today",
       "bestDayIdx": 2,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -309,10 +309,10 @@
       "priceLow": 3.666,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at recent lows with flat week-over-week movement. WTI crude is declining, and summer blend is in effect. Political pressure on retailers may create short-term volatility, but fundamentals support current pricing.",
+      "why": "Prices are at a recent low with flat crude and no week-over-week change. Summer blend and holiday demand typically support steady-to-rising prices, but political pressure on retailers may create brief windows. Current level is fair.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -366,10 +366,10 @@
       "priceLow": 3.234,
       "weekDelta": -0.116,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices are at their lowest point in recent days, down 11.6¢ week-over-week. WTI crude is declining and political pressure on retailers may keep prices competitive this holiday week.",
+      "why": "Connecticut gas is at its lowest point this week, down 11.6¢ from last week. Flat crude prices and holiday-week demand stabilization suggest prices have found near-term support. Political pressure on retailers creates uncertainty but unlikely to push prices lower immediately.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -418,15 +418,15 @@
       "city": "Wilmington",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.0,
       "priceLow": 3.0,
       "weekDelta": -0.108,
       "weekDeltaDir": "down",
-      "why": "Delaware gas is at a recent low of $3.00/gal with crude falling and week-over-week decline of -$0.11. Holiday week demand may stabilize prices, but downward crude momentum suggests potential for further dips in the next few days.",
-      "advice": "Top off today, wait for rest",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "Delaware prices are at a recent low of $3.00/gal with steady crude and a -$0.11 week-over-week decline. Summer blend costs and political scrutiny on pricing create mixed near-term signals, but current levels offer a reasonable fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -480,10 +480,10 @@
       "priceLow": 3.567,
       "weekDelta": -0.172,
       "weekDeltaDir": "down",
-      "why": "Florida gas is at its lowest point this week, down 17¢ year-over-year. WTI crude is falling and holiday demand may ease post-week. Political pressure on retailers could keep upward movement limited short-term.",
+      "why": "Florida gas is at a 7-day low after dropping 17¢ week-over-week. WTI crude is flat near $71, and summer blend inventory is adequate. Political pressure on retailers may create brief volatility, but no major supply disruptions.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -537,10 +537,10 @@
       "priceLow": 2.737,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Georgia gas is at its lowest point this week as crude falls. Holiday demand and political pressure on retailers create uncertainty, but current pricing offers a solid fill-up window before potential holiday travel spikes.",
+      "why": "Georgia prices have dropped 10¢ week-over-week and are at a recent low of $2.737/gal. WTI crude is flat, and summer blend demand typically peaks during holiday weeks, but current pricing reflects recent weakness. Political pressure on retailers may create downward momentum.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -594,10 +594,10 @@
       "priceLow": 4.26,
       "weekDelta": -0.145,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices are at a recent low after dropping 14.5¢ week-over-week. WTI crude is falling and political pressure on retailers may keep prices competitive. Summer demand and holiday travel create volatility, but current pricing offers a good window.",
+      "why": "Hawaii prices dropped 14.5¢ week-over-week and are at a recent low. WTI crude is flat, and summer blend demand is seasonal. Political pressure on retailers adds downside uncertainty, but current price is competitive.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -651,10 +651,10 @@
       "priceLow": 3.052,
       "weekDelta": -0.205,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 20¢ this week and sit at a recent low. WTI crude is declining and political pressure may keep retail margins tight. Holiday week demand is moderate, creating a favorable window.",
+      "why": "Idaho prices have dropped 20¢ week-over-week and sit at a recent low. WTI crude is flat, and summer blend supplies are stable. Holiday week demand may add slight upward pressure, but current pricing reflects recent weakness.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -708,10 +708,10 @@
       "priceLow": 3.373,
       "weekDelta": -0.125,
       "weekDeltaDir": "down",
-      "why": "Illinois prices have dropped 12.5¢ week-over-week and sit at a recent low. WTI crude is declining, and summer blend production is ramping up. Holiday week demand is typically softer, supporting downward pressure.",
+      "why": "Illinois prices have dropped 12.5¢ week-over-week and sit at recent lows. WTI crude is flat, and holiday week demand may keep upward pressure limited. Political scrutiny on gas prices suggests retailers may resist raising them.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -765,10 +765,10 @@
       "priceLow": 3.019,
       "weekDelta": -0.112,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at a local low of $3.019/gal with week-over-week decline of $0.112. WTI crude is falling and holiday week demand may ease further mid-week. Current pricing is favorable for filling up.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Indiana prices have dropped 11¢ this week and are at a local low. WTI crude is stable, and summer blend supplies are adequate. Political pressure on retailers may create short-term volatility, but current levels represent good value.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -822,10 +822,10 @@
       "priceLow": 2.87,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at their recent low point after dropping 10.6¢ week-over-week. WTI crude is declining, and political scrutiny may keep retail margins tight. Holiday week demand could add minor upward pressure, but the downtrend is your friend.",
+      "why": "Iowa prices have dropped 10.6¢ week-over-week and are at local lows. Crude is flat and summer blend is in effect. Holiday week demand may provide slight support, but the downtrend and price scrutiny suggest minimal upside risk.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -879,10 +879,10 @@
       "priceLow": 2.814,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at its local low of $2.814/gal after dropping 10¢ week-over-week. Crude oil is falling and political pressure on retailers may keep prices competitive. Summer blend premium is offset by downward momentum.",
+      "why": "Kansas prices have dropped 10¢ over the past week and are now at a recent low. WTI crude is flat, offering no immediate upward pressure. Holiday week demand may be lighter, supporting continued stability.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -936,10 +936,10 @@
       "priceLow": 2.811,
       "weekDelta": -0.068,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices are at a recent low of $2.81/gal, down 6.8¢ week-over-week. WTI crude is declining, and holiday week demand typically softens mid-week. Political pressure on retailers may create brief pricing volatility but doesn't alter the current favorable window.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Prices are at a recent low of $2.81/gal with a modest week-over-week decline. Crude oil is flat, and holiday-week demand may keep prices stable near current levels. Political scrutiny could add downward pressure, but upside risk is limited.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -993,10 +993,10 @@
       "priceLow": 2.691,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at a recent low of $2.691/gal with downward week-over-week momentum (-0.066). WTI crude is declining and holiday week demand is typically lighter, supporting softer prices near-term.",
+      "why": "Louisiana prices are at their weekly low of $2.691/gal with a 6.6¢ decline week-over-week. Crude is flat and summer blend supply is stable. Holiday week demand may keep prices steady or rise slightly.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Maine prices hit a weekly low at $3.168/gal with WTI crude falling. Week-over-week decline of 11¢ shows downward momentum, but holiday week demand and political price scrutiny create uncertainty for further drops.",
+      "why": "Maine prices have dropped 11¢ week-over-week and are at a recent low. WTI crude is flat, and summer blend supply is stable. Holiday week demand may create minor volatility, but the downtrend is solid.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Maryland prices are at a recent low of $3.075/gal with WTI crude falling. Week-over-week decline of $0.11 shows downward momentum. Holiday week demand may stabilize prices near current levels.",
+      "why": "Maryland gas is at a recent low of $3.075/gal with a strong week-over-week drop of 11¢. WTI crude is flat, and holiday week demand typically stabilizes prices. Political pressure on retailers may keep prices competitive short-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1164,10 +1164,10 @@
       "priceLow": 3.949,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "MA prices are at a recent low and trending down week-over-week. WTI crude is falling, supporting further easing. Holiday week demand is typically lighter, keeping upward pressure minimal.",
+      "why": "MA prices are at a weekly low of $3.949/gal with a -$0.118 drop week-over-week. WTI crude is flat at $71.20, and summer blend demand is steady. Political scrutiny on gas pricing may create short-term volatility, but current levels offer a solid fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.093,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at a recent low of $3.093/gal and have dropped $0.115 week-over-week. WTI crude is declining, and holiday week demand typically stabilizes prices. Political pressure on retailers may cap upside movement.",
+      "why": "Michigan prices dropped 11.5¢ this week and hit a local low. WTI crude is flat, and summer blend costs are stabilizing. Political pressure on retailers may limit near-term increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.719,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Minnesota gas is at its local low after a 11.5¢ weekly drop. WTI crude is declining and holiday week demand typically softens mid-week. Political pressure for price cuts adds downward momentum.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Minnesota prices have dropped 11.5¢ this week and are at their recent low. WTI crude is flat, suggesting stability near current levels. Holiday week demand and summer blend remain supportive factors.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.626,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at its local low of $2.626/gal after a week-long decline of 6.5 cents. WTI crude is falling, and political pressure on retailers may cap price increases. Summer blend and holiday week demand typically support prices, but downward momentum is strong.",
+      "why": "MS prices are at a recent low of $2.626/gal with WTI crude flat. Week-over-week decline of 6.5¢ shows downward momentum. Holiday week typically sees stable demand, and political pressure on retailers may keep margins tight.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1387,15 +1387,15 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.777,
       "priceLow": 2.777,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at their weekly low with crude falling and week-over-week decline of 10¢. Holiday week demand may support prices, but downward crude momentum suggests further relief possible mid-week.",
-      "advice": "Top off today, monitor Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Missouri prices are at a recent low of $2.777/gal with a strong week-over-week drop of 10¢. WTI crude is flat, and holiday-week demand volatility is limited. Retail scrutiny may keep upward pressure minimal in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Montana prices have dropped 21¢ week-over-week and sit at a recent low. WTI crude is declining, and summer blend competition is keeping retail margins tight. Holiday week demand may be offset by continued downward crude pressure.",
+      "why": "Montana prices have dropped 21¢ in a week and sit at a recent low. WTI crude is flat, and summer blend supply is stable. Political pressure on retailers may briefly hold prices down, but holiday week demand could shift dynamics.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1506,10 +1506,10 @@
       "priceLow": 2.879,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices have dropped 10.7¢ this week and now sit at a recent low. WTI crude is declining, and holiday week demand typically softens mid-week. Current price is favorable for filling up.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Nebraska prices are at a recent low of $2.879/gal after a strong week-over-week drop of 10.7 cents. WTI crude is flat, and political pressure on retailers may keep prices stable or lower in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.577,
       "weekDelta": -0.121,
       "weekDeltaDir": "down",
-      "why": "Nevada gas is at its lowest point this week, down 12¢ year-over-year. WTI crude is falling and political pressure on retail margins may keep upward momentum limited. Holiday week demand is typically lighter.",
+      "why": "Nevada gas is at its lowest point this week, down 12¢ from last week. Flat crude prices and holiday-week demand suggest stability, though political pressure on retailers adds uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "NH prices are at their lowest point with crude falling and week-over-week decline of 11¢. Holiday week demand typically softens, and political pressure on retailers may keep prices competitive. Current level is a good fill-up window.",
+      "why": "NH prices hit a weekly low at $3.075/gal with a solid -$0.11 drop. Crude oil is flat, and holiday week demand typically supports current levels. Political pressure on retailers may create brief volatility but unlikely to trigger major drops soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Prices are at a local low following a week-long decline of 11¢. WTI crude is falling and seasonal summer blend is in effect. Political pressure on retailers may create temporary volatility, but current pricing reflects favorable market conditions.",
+      "why": "NJ prices have dropped $0.11 in a week and are at a recent low. WTI crude is flat, suggesting stability. Holiday week demand and political scrutiny on retailers may create temporary support, but no immediate upward pressure.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1734,10 +1734,10 @@
       "priceLow": 2.903,
       "weekDelta": -0.071,
       "weekDeltaDir": "down",
-      "why": "Prices are at a weekly low and WTI crude is declining. Holiday week demand may create temporary volatility, but the downward trend and current retail-station scrutiny suggest limited near-term upside pressure.",
+      "why": "New Mexico prices are at their lowest point this week and have fallen 7 cents year-over-year. WTI crude is flat around $71, offering stability. Holiday week demand may create volatility, but current pricing is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.075,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "NY prices are at a recent low following a week-over-week drop of 11.5 cents. WTI crude is declining and political pressure on retailers may keep upward momentum limited in the near term.",
+      "why": "NY prices have dropped 11.5¢ week-over-week and are at recent lows. WTI crude is flat around $71, suggesting stable wholesale costs. Holiday week demand and political scrutiny on retail markups create uncertainty, but current pricing favors buyers.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "NC prices have dropped 10¢ week-over-week and now sit at recent lows. WTI crude is declining and political pressure may cap further increases. Holiday week demand could shift, but current levels offer good value.",
+      "why": "NC prices have dropped 10¢ week-over-week and are at recent lows. Crude is flat and summer blend is in effect. Holiday week demand may ease further, creating favorable conditions for filling up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1900,15 +1900,15 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.963,
       "priceLow": 2.963,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ week-over-week and are at local lows. WTI crude is declining, and holiday-week demand typically softens after the peak. Current levels represent a good fill-up window before potential volatility.",
-      "advice": "Fill up today",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "North Dakota prices hit a weekly low at $2.963/gal with a strong -$0.11 drop week-over-week. WTI crude is flat, and holiday week demand may ease prices further in coming days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -1962,10 +1962,10 @@
       "priceLow": 3.862,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at recent lows with crude falling. Holiday week demand may create slight upward pressure, but current $3.862/gal is a solid entry point before potential mid-week fluctuations.",
+      "why": "Ohio prices are at a recent low with flat week-over-week movement. WTI crude is stable at $71.20, and summer blend demand is typical. Political pressure on retailers may create downside risk, but current pricing offers a reasonable fill-up window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.654,
       "weekDelta": -0.065,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a recent low of $2.654/gal with crude falling $1.41. Holiday week demand may limit further drops, but downward momentum supports current value. WTI weakness suggests limited upside risk short-term.",
+      "why": "Oklahoma gas is at a recent low with WTI crude flat. Week-over-week prices dropped 6.5¢, and you're already at the lowest nearby price. Holiday week demand typically stabilizes prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.633,
       "weekDelta": -0.123,
       "weekDeltaDir": "down",
-      "why": "Oregon gas is at its local low after a week-long decline. WTI crude is falling and regulatory pressure on retailers may keep prices competitive. Summer blend and holiday week demand are offset by downward crude momentum.",
+      "why": "Oregon prices are at their lowest point with a 12-cent weekly drop. Crude is flat and summer blend demand typically softens post-holiday. Political pressure on retailers suggests limited upside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.3,
       "weekDelta": -0.118,
       "weekDeltaDir": "down",
-      "why": "PA prices are at recent lows with week-over-week decline of 11.8¢. WTI crude is falling and political pressure on retailers suggests downward momentum may continue, though holiday week demand could provide temporary support.",
+      "why": "PA prices are at a recent low of $3.30/gal with a solid week-over-week drop of 11.8¢. WTI crude is flat and political pressure on retailers may keep upward momentum limited through the holiday week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.187,
       "weekDelta": -0.115,
       "weekDeltaDir": "down",
-      "why": "Rhode Island gas is at its lowest point this week, down 11.5¢ year-over-year. WTI crude is declining and political pressure on retailers suggests prices may stabilize or edge lower in coming days, but current prices remain competitive.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "RI prices have dropped 11.5¢ this week and hit local lows. WTI crude is flat, suggesting stability. Holiday week demand may ease post-holiday, but current prices are already competitive.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.859,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "SC prices have dropped 10¢ week-over-week and are at their local low. WTI crude is declining, and summer blend supply is adequate. Holiday week demand is mixed, but momentum favors lower prices.",
+      "why": "Prices dropped 10¢ week-over-week and are at recent lows. WTI crude is flat, and summer blend is active. Holiday week demand may create mild upward pressure, but current pricing offers a solid fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2304,10 +2304,10 @@
       "priceLow": 2.935,
       "weekDelta": -0.109,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices have dropped 11¢ week-over-week and are at a local low. Crude oil is falling, and summer blend demand typically peaks mid-week. Holiday week volatility is offset by strong downward momentum.",
+      "why": "Prices have dropped 11¢ week-over-week and are at their local low. WTI crude is flat, suggesting stability. Holiday week demand and summer blend typically support prices, but current momentum favors buyers.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.719,
       "weekDelta": -0.066,
       "weekDeltaDir": "down",
-      "why": "Tennessee prices are at a recent low with week-over-week decline of 6.6¢. WTI crude is falling and political pressure may keep retail margins tight. Holiday week demand typically softens midweek.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Tennessee gas is at a weekly low with WTI crude flat. Summer blend premium and holiday-week demand could support prices, but political pressure on retailers may create downward volatility. Current pricing offers a reasonable entry point.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.371,
       "weekDelta": -0.061,
       "weekDeltaDir": "down",
-      "why": "Texas prices are at a recent low of $3.371/gal with downward momentum (WTI crude falling). Holiday week typically sees stable demand, and summer blend is in effect. Political pressure on retail margins may support lower prices short-term.",
+      "why": "Texas prices are at their recent low of $3.371/gal with modest week-over-week decline. Crude is flat and summer blend is in effect. Political scrutiny on gas stations may create near-term pricing pressure, but holiday week demand could offset that.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.117,
       "weekDelta": -0.21,
       "weekDeltaDir": "down",
-      "why": "Utah gas is at a recent low of $3.117/gal with strong week-over-week decline (-$0.21). WTI crude falling and political pressure on retailers may cap upside, but holiday week demand could provide support.",
+      "why": "Utah prices have dropped 21¢ this week and sit at a recent low. WTI crude is flat, and summer blend costs are stable. Political pressure on retailers may create brief volatility, but current pricing reflects recent weakness.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.168,
       "weekDelta": -0.114,
       "weekDeltaDir": "down",
-      "why": "Vermont is at its lowest recent price following a week-over-week drop of 11¢. WTI crude is falling, and summer blend pricing is competitive. Holiday week demand may support current levels, but downward momentum suggests minor further softening possible.",
+      "why": "Vermont prices have dropped 11¢ in a week and are at local lows. WTI crude is flat, suggesting stability. Holiday week demand and political scrutiny on retail margins create uncertainty, but current pricing is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2589,10 +2589,10 @@
       "priceLow": 2.953,
       "weekDelta": -0.106,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low with WTI crude declining. Week-over-week drop of 10.6¢ shows downward momentum. Holiday week demand may stabilize prices near current levels.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "why": "Virginia gas prices have dropped 10¢ this week and are at a recent low. WTI crude is flat, suggesting stable wholesale costs. Holiday week demand typically softens mid-week, offering a brief window before potential rebound.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.152,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at a recent low and stable. WTI crude is declining, suggesting downward pressure ahead. However, holiday week demand and summer blend requirements may support prices short-term.",
+      "why": "WA prices are at their local low with flat crude and no week-over-week movement. Summer blend and holiday demand create stable conditions. Political pressure on retailers may provide some downside protection.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2698,15 +2698,15 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.981,
       "priceLow": 2.981,
       "weekDelta": -0.107,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its recent low of $2.981/gal with crude falling and week-over-week declining 10.7 cents. Holiday week demand and political price pressure create uncertainty, but downward momentum suggests holding for potential further drops.",
-      "advice": "Top off today · wait for rest",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "West Virginia prices have dropped 10.7¢ week-over-week and sit at a recent low. WTI crude is flat, and summer blend supply is stable. Holiday week demand may ease post-holiday, but current levels offer good value.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.056,
       "weekDelta": -0.113,
       "weekDeltaDir": "down",
-      "why": "Wisconsin gas is at its lowest point this week with WTI crude falling. Holiday week demand is typically lower, and downward pressure continues. You're in a favorable pricing window.",
+      "why": "Wisconsin gas is at a local low after dropping 11¢ this week. WTI crude is flat, and summer blend premiums are stable. Holiday week demand may provide temporary support, but no immediate pressure to push prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.024,
       "weekDelta": -0.204,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices have dropped 20¢ week-over-week and are at local lows. WTI crude is declining and political pressure on retailers may keep upward momentum limited near-term. Summer blend and holiday driving create some volatility, but current levels favor near-term fills.",
+      "why": "Wyoming gas is at its lowest point this week, down 20¢ from a week ago. Flat crude prices and summer blend stability suggest minimal downward pressure ahead. Political scrutiny on retailers may cap further drops.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.328,
       "weekDelta": -0.12,
       "weekDeltaDir": "down",
-      "why": "DC prices have dropped 12¢ week-over-week and are at their local low. WTI crude is declining, and holiday week demand typically softens midweek. Political pressure on retailers may cap upside movement.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "DC prices have dropped 12¢ week-over-week and sit at a recent low. WTI crude is flat, and summer blend supply is stable. Holiday-week demand may provide modest support, but no immediate price cuts are expected.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.621,
       "priceLow": 1.572,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are 3.1¢/L above the week's low, with WTI crude declining and summer blend demand moderating. Holiday week demand is typically softer, and political scrutiny on retailers may create downward pressure.",
-      "advice": "Hold until Thursday",
+      "why": "Alberta prices are 3% above the week's low at 1.621 $/L, with crude flat and downward pressure easing. Holiday week demand and summer blend supply constraints support current levels, but political scrutiny may limit further increases.",
+      "advice": "Top off partially, monitor",
       "bestDayIdx": 4,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -2988,10 +2988,10 @@
       "priceLow": 1.794,
       "weekDelta": -0.023,
       "weekDeltaDir": "down",
-      "why": "BC prices are 3.1¢/L above the weekly low, and WTI crude is falling. Holiday week demand and summer blend add upward pressure, but downward crude momentum and retailer scrutiny suggest prices may soften further in the next 2–3 days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "BC prices are 3.1¢/L above the week's low and trending down slightly. WTI crude is flat, but holiday-week demand and summer blend keep upward pressure. Political scrutiny on retailers may temporarily stabilize prices rather than drive them lower.",
+      "advice": "Top up partially, wait for mid",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3045,10 +3045,10 @@
       "priceLow": 1.544,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Prices have declined week-over-week and WTI crude is falling, suggesting downward momentum. However, you're currently 3.1¢/L above the local low, and holiday week demand plus political scrutiny on retailers could create volatility.",
-      "advice": "Top off half now, full fill Fr",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
+      "why": "Manitoba prices are 3¢/L above the recent low, but WTI crude is flat and week-over-week shows modest decline. Holiday week demand may support current levels, though retail scrutiny could pressure prices downward slightly in 2–3 days.",
+      "advice": "Top off now, fill rest Wed",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3097,15 +3097,15 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.667,
       "priceLow": 1.617,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "Prices down week-over-week and crude falling. Current price 1.667 is only 5¢ above the local low, suggesting we're near a floor. Holiday week demand may support prices, limiting further drops.",
-      "advice": "Fill up by Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "New Brunswick prices are 5¢/L above the recent low and trending downward week-over-week. WTI crude is flat, but retail pressure and holiday-week demand may create brief volatility. Expect continued modest declines.",
+      "advice": "Top off today, fill Friday",
+      "bestDayIdx": 5,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3159,10 +3159,10 @@
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 2.2¢ week-over-week and WTI crude is falling. Current price is 5¢ above the regional low, suggesting room to negotiate further before a holiday-week spike.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Newfoundland prices are 3¢/L above the recent low and trending down week-over-week. WTI crude is flat, and holiday week volatility may create dips. Political pressure on retailers could add downward momentum over the next few days.",
+      "advice": "Half tank now, full up Fri",
+      "bestDayIdx": 5,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.638,
       "weekDelta": -0.009,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices are 0.051 $/L above the regional low, but crude is falling and week-over-week momentum is down. Holiday week typically softens demand. A small gap remains to the best local price.",
-      "advice": "Top off now, full fill Fri",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
+      "why": "Nova Scotia prices are 0.051 $/L above the regional low, with flat crude and modest weekly declines. Holiday week demand and political scrutiny on retailers create uncertainty, but no strong downward momentum yet.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3273,10 +3273,10 @@
       "priceLow": 1.534,
       "weekDelta": -0.011,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are 3% above the week's low and WTI crude is declining. Holiday week demand and political scrutiny on retailers create uncertainty, but downward crude pressure suggests better prices ahead within days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Ontario prices are 1.5¢/L above the regional low with steady WTI crude. Week-over-week decline is modest, and holiday-week volatility may prevent further drops near-term.",
+      "advice": "Top off today · monitor",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3330,10 +3330,10 @@
       "priceLow": 1.606,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "PEI prices are 5¢/L above the local low with week-over-week decline and falling crude signaling further downward pressure. Holiday week demand is elevated, but political scrutiny on retailers may temper aggressive price hikes.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "PEI prices are 5¢ above the week's low and trending downward slightly. WTI crude is flat, and holiday week demand typically softens mid-week. Political scrutiny on retail margins may accelerate downward pressure.",
+      "advice": "Top off today, fill fully by W",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3387,10 +3387,10 @@
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Quebec prices are down week-over-week and crude is falling. You're 5 cents above the regional low, with political pressure on retailers to cut prices. Summer blend and holiday week typically see volatile swings, but the downward trend suggests further relief may come.",
-      "advice": "Top up today, wait for rest",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "Quebec prices are 3¢/L above the local low, with a slight downward trend week-over-week. WTI crude is flat and political pressure on retailers may moderate prices further in the coming days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3439,15 +3439,15 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices are 3¢/L above the local low and WTI crude is falling. Holiday week demand typically softens mid-week, and political pressure on retailers may suppress prices further in the next 2–3 days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Saskatchewan prices are 3¢/L above the recent low and trending down week-over-week. Crude is flat and political pressure on retailers may cap further gains. Holiday week demand is seasonal, but downward momentum suggests better pricing ahead.",
+      "advice": "Top off partially, wait for di",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
@@ -3501,10 +3501,10 @@
       "priceLow": 1.961,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Prices down week-over-week and crude falling. Holiday week and political pressure on retailers may prompt further cuts. Current 2.022 $/L is 3.1¢ above nearby low—reasonable entry point.",
-      "advice": "Fill up by midweek",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "Prices are down week-over-week and near a recent low of 1.961 $/L. WTI crude is flat, suggesting stability. Holiday week demand and political price pressure create uncertainty, but current pricing offers a reasonable fill-up window.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
