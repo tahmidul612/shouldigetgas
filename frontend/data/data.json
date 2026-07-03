@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-03T12:00:24.051179+00:00",
-    "pricesUpdatedAt": "2026-07-03T12:00:03.268297+00:00",
+    "updatedAt": "2026-07-03T18:01:31.914693+00:00",
+    "pricesUpdatedAt": "2026-07-03T18:01:06.138674+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-03T12:36:32.563166+00:00",
-    "nextAnalysisUpdate": "2026-07-03T18:06:32.563177+00:00"
+    "nextPriceUpdate": "2026-07-03T18:34:08.251160+00:00",
+    "nextAnalysisUpdate": "2026-07-04T00:04:08.251170+00:00"
   },
   "wti": {
     "price": 71.87,
@@ -20,11 +20,2348 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.645,
-      "priceLow": 2.645,
-      "weekDelta": -0.064,
+      "price": 2.57,
+      "priceLow": 2.57,
+      "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alabama prices are at a 7-day low despite WTI crude rising. Week-over-week decline of 6.4¢ shows downward momentum. Holiday week demand and summer blend typically support prices, but retail pressure from federal scrutiny may keep them competitive near-term.",
+      "why": "Prices have dropped 8.9¢ week-over-week and sit at a recent low. However, WTI crude is rising and political pressure on retailers could shift supply dynamics unpredictably during the holiday week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 15,
+        "taxes": 15,
+        "dist": 12
+      },
+      "trend": [
+        2.715,
+        2.705,
+        2.696,
+        2.687,
+        2.678,
+        2.668,
+        2.659,
+        2.646,
+        2.634,
+        2.621,
+        2.608,
+        2.595,
+        2.583,
+        2.57
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ak",
+      "state": "Alaska",
+      "abbr": "AK",
+      "city": "Anchorage",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.403,
+      "priceLow": 3.403,
+      "weekDelta": -0.096,
+      "weekDeltaDir": "down",
+      "why": "Alaska prices have dropped 9.6¢ this week and are at their local low. Despite WTI crude rising, regional supply remains favorable. Political pressure on retailers may temporarily cap increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 76,
+        "refining": 11,
+        "taxes": 4,
+        "dist": 9
+      },
+      "trend": [
+        3.601,
+        3.584,
+        3.567,
+        3.55,
+        3.533,
+        3.516,
+        3.499,
+        3.485,
+        3.472,
+        3.458,
+        3.444,
+        3.43,
+        3.417,
+        3.403
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "az",
+      "state": "Arizona",
+      "abbr": "AZ",
+      "city": "Phoenix",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.937,
+      "priceLow": 2.937,
+      "weekDelta": -0.082,
+      "weekDeltaDir": "down",
+      "why": "Arizona prices dropped 8¢ week-over-week and match the local low. WTI crude rising suggests upward pressure ahead, but summer blend and holiday week demand may stabilize prices near current levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 13,
+        "taxes": 13,
+        "dist": 10
+      },
+      "trend": [
+        3.107,
+        3.093,
+        3.078,
+        3.063,
+        3.048,
+        3.034,
+        3.019,
+        3.007,
+        2.996,
+        2.984,
+        2.972,
+        2.96,
+        2.949,
+        2.937
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ar",
+      "state": "Arkansas",
+      "abbr": "AR",
+      "city": "Little Rock",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.516,
+      "priceLow": 2.516,
+      "weekDelta": -0.088,
+      "weekDeltaDir": "down",
+      "why": "Arkansas gas is at its lowest point this week, down 8.8¢ from last week. Rising crude oil (+1.57) and holiday demand could push prices higher in days ahead. Current timing is favorable despite upward pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 15,
+        "taxes": 16,
+        "dist": 12
+      },
+      "trend": [
+        2.658,
+        2.649,
+        2.64,
+        2.631,
+        2.622,
+        2.613,
+        2.604,
+        2.591,
+        2.579,
+        2.566,
+        2.554,
+        2.541,
+        2.529,
+        2.516
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ca",
+      "state": "California",
+      "abbr": "CA",
+      "city": "Los Angeles",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 5.245,
+      "priceLow": 5.245,
+      "weekDelta": -0.142,
+      "weekDeltaDir": "down",
+      "why": "California gas at a weekly low of $5.245/gal, down 14¢ week-over-week. Despite rising crude (+$1.57), retail competition and political pressure on pricing create a favorable short-term window. Holiday week demand may shift prices unpredictably.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 69,
+        "refining": 11,
+        "taxes": 14,
+        "dist": 6
+      },
+      "trend": [
+        5.387,
+        5.387,
+        5.387,
+        5.387,
+        5.387,
+        5.387,
+        5.387,
+        5.367,
+        5.346,
+        5.326,
+        5.306,
+        5.286,
+        5.265,
+        5.245
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "co",
+      "state": "Colorado",
+      "abbr": "CO",
+      "city": "Denver",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.563,
+      "priceLow": 3.563,
+      "weekDelta": -0.103,
+      "weekDeltaDir": "down",
+      "why": "Colorado gas hit a weekly low of $3.563/gal with a $0.10 drop week-over-week, signaling downward momentum. However, WTI crude is rising and political pressure on retailers may temporarily stabilize prices. Holiday week demand could create volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 11,
+        "taxes": 11,
+        "dist": 8
+      },
+      "trend": [
+        3.666,
+        3.666,
+        3.666,
+        3.666,
+        3.666,
+        3.666,
+        3.666,
+        3.651,
+        3.637,
+        3.622,
+        3.607,
+        3.592,
+        3.578,
+        3.563
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ct",
+      "state": "Connecticut",
+      "abbr": "CT",
+      "city": "Hartford",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.206,
+      "priceLow": 3.206,
+      "weekDelta": -0.03,
+      "weekDeltaDir": "down",
+      "why": "Connecticut prices are at a local low, but rising crude (+1.57) and political pressure on retailers create uncertainty. Holiday week demand may push prices up mid-week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 14,
+        "taxes": 19,
+        "dist": 9
+      },
+      "trend": [
+        3.336,
+        3.32,
+        3.303,
+        3.286,
+        3.269,
+        3.253,
+        3.236,
+        3.232,
+        3.227,
+        3.223,
+        3.219,
+        3.215,
+        3.21,
+        3.206
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "de",
+      "state": "Delaware",
+      "abbr": "DE",
+      "city": "Wilmington",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.974,
+      "priceLow": 2.974,
+      "weekDelta": -0.028,
+      "weekDeltaDir": "down",
+      "why": "Delaware prices are at a recent low of $2.974/gal with modest weekly decline. WTI crude ticking up and holiday week demand may pressure prices higher soon. Political scrutiny on retailers creates uncertainty.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        3.095,
+        3.079,
+        3.064,
+        3.048,
+        3.033,
+        3.017,
+        3.002,
+        2.998,
+        2.994,
+        2.99,
+        2.986,
+        2.982,
+        2.978,
+        2.974
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "fl",
+      "state": "Florida",
+      "abbr": "FL",
+      "city": "Miami",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.689,
+      "priceLow": 3.567,
+      "weekDelta": 0.122,
+      "weekDeltaDir": "up",
+      "why": "Florida prices rose 12¢ this week amid climbing crude oil and summer blend costs. Political pressure on retailers may create temporary relief, but crude's upward momentum suggests limited near-term savings. Holiday week demand typically keeps prices firm.",
+      "advice": "Top off today · monitor Wed",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 10,
+        "taxes": 16,
+        "dist": 8
+      },
+      "trend": [
+        3.567,
+        3.567,
+        3.567,
+        3.567,
+        3.567,
+        3.567,
+        3.567,
+        3.584,
+        3.602,
+        3.619,
+        3.637,
+        3.654,
+        3.672,
+        3.689
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ga",
+      "state": "Georgia",
+      "abbr": "GA",
+      "city": "Atlanta",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.714,
+      "priceLow": 2.714,
+      "weekDelta": -0.025,
+      "weekDeltaDir": "down",
+      "why": "Georgia gas is at a recent low with modest weekly decline. However, rising WTI crude (+1.57) and political price-cut pressure create uncertainty. Summer blend and holiday week support current pricing, but upward crude momentum suggests potential increases ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 14,
+        "taxes": 18,
+        "dist": 11
+      },
+      "trend": [
+        2.824,
+        2.81,
+        2.796,
+        2.781,
+        2.767,
+        2.753,
+        2.739,
+        2.735,
+        2.732,
+        2.728,
+        2.725,
+        2.721,
+        2.718,
+        2.714
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "hi",
+      "state": "Hawaii",
+      "abbr": "HI",
+      "city": "Honolulu",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 4.163,
+      "priceLow": 4.163,
+      "weekDelta": -0.117,
+      "weekDeltaDir": "down",
+      "why": "Hawaii prices are at a 7-day low despite WTI crude rising. Week-over-week decline of 11.7¢ suggests strong local competition. Holiday week demand may stabilize prices near current levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 12,
+        "taxes": 15,
+        "dist": 7
+      },
+      "trend": [
+        4.404,
+        4.384,
+        4.363,
+        4.342,
+        4.321,
+        4.301,
+        4.28,
+        4.263,
+        4.247,
+        4.23,
+        4.213,
+        4.196,
+        4.18,
+        4.163
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "id",
+      "state": "Idaho",
+      "abbr": "ID",
+      "city": "Boise",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.956,
+      "priceLow": 2.956,
+      "weekDelta": -0.103,
+      "weekDeltaDir": "down",
+      "why": "Idaho prices have dropped 10¢ week-over-week and sit at a recent low, despite rising crude oil. Summer blend and holiday demand create a narrow window before potential rebound as crude stabilizes.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 13,
+        "taxes": 17,
+        "dist": 10
+      },
+      "trend": [
+        3.236,
+        3.206,
+        3.177,
+        3.147,
+        3.118,
+        3.088,
+        3.059,
+        3.044,
+        3.03,
+        3.015,
+        3.0,
+        2.985,
+        2.971,
+        2.956
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "il",
+      "state": "Illinois",
+      "abbr": "IL",
+      "city": "Chicago",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.287,
+      "priceLow": 3.287,
+      "weekDelta": -0.089,
+      "weekDeltaDir": "down",
+      "why": "Illinois prices are at a recent low of $3.287/gal after a 9¢ week-over-week decline. WTI crude is rising, but holiday week demand may be softer. Political pressure on retailers creates short-term uncertainty.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 52,
+        "refining": 15,
+        "taxes": 24,
+        "dist": 9
+      },
+      "trend": [
+        3.484,
+        3.466,
+        3.448,
+        3.43,
+        3.412,
+        3.394,
+        3.376,
+        3.363,
+        3.351,
+        3.338,
+        3.325,
+        3.312,
+        3.3,
+        3.287
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "in",
+      "state": "Indiana",
+      "abbr": "IN",
+      "city": "Indianapolis",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.942,
+      "priceLow": 2.942,
+      "weekDelta": -0.08,
+      "weekDeltaDir": "down",
+      "why": "Indiana gas is at its lowest point this week, down 8¢ from last week. Despite rising crude oil and political pressure on retailers, current prices offer a solid fill-up window before potential volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 55,
+        "refining": 13,
+        "taxes": 22,
+        "dist": 10
+      },
+      "trend": [
+        3.118,
+        3.102,
+        3.086,
+        3.07,
+        3.054,
+        3.038,
+        3.022,
+        3.011,
+        2.999,
+        2.988,
+        2.976,
+        2.965,
+        2.953,
+        2.942
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ia",
+      "state": "Iowa",
+      "abbr": "IA",
+      "city": "Des Moines",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.797,
+      "priceLow": 2.797,
+      "weekDelta": -0.076,
+      "weekDeltaDir": "down",
+      "why": "Iowa prices are at their lowest point, down 7.6¢ week-over-week despite crude rising. Holiday week demand is typically moderate, and regulatory scrutiny on retailers may limit margin increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 14,
+        "taxes": 17,
+        "dist": 11
+      },
+      "trend": [
+        2.964,
+        2.949,
+        2.934,
+        2.918,
+        2.903,
+        2.888,
+        2.873,
+        2.862,
+        2.851,
+        2.84,
+        2.83,
+        2.819,
+        2.808,
+        2.797
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ks",
+      "state": "Kansas",
+      "abbr": "KS",
+      "city": "Wichita",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.743,
+      "priceLow": 2.743,
+      "weekDelta": -0.074,
+      "weekDeltaDir": "down",
+      "why": "Kansas prices are at their weekly low with a solid -7.4¢ drop week-over-week. However, WTI crude is rising (+1.57), and holiday week volatility plus retail scrutiny could pressure pumps upward soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 14,
+        "taxes": 16,
+        "dist": 11
+      },
+      "trend": [
+        2.906,
+        2.891,
+        2.876,
+        2.862,
+        2.847,
+        2.832,
+        2.817,
+        2.806,
+        2.796,
+        2.785,
+        2.775,
+        2.764,
+        2.754,
+        2.743
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ky",
+      "state": "Kentucky",
+      "abbr": "KY",
+      "city": "Louisville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.731,
+      "priceLow": 2.731,
+      "weekDelta": -0.095,
+      "weekDeltaDir": "down",
+      "why": "Kentucky gas is at its lowest point this week amid falling crude prices. However, rising WTI crude and political pressure on retailers create uncertainty. Holiday week demand may support prices, but the downward trend suggests caution.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 14,
+        "taxes": 18,
+        "dist": 11
+      },
+      "trend": [
+        2.885,
+        2.875,
+        2.865,
+        2.856,
+        2.846,
+        2.836,
+        2.826,
+        2.812,
+        2.799,
+        2.785,
+        2.772,
+        2.758,
+        2.745,
+        2.731
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "la",
+      "state": "Louisiana",
+      "abbr": "LA",
+      "city": "New Orleans",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.614,
+      "priceLow": 2.614,
+      "weekDelta": -0.092,
+      "weekDeltaDir": "down",
+      "why": "Louisiana prices are at a recent low despite WTI crude climbing. Week-over-week decline of 9¢ shows downward momentum, though rising crude and holiday demand could reverse gains soon. Current pricing offers a good fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 15,
+        "taxes": 15,
+        "dist": 11
+      },
+      "trend": [
+        2.763,
+        2.753,
+        2.744,
+        2.734,
+        2.725,
+        2.715,
+        2.706,
+        2.693,
+        2.68,
+        2.667,
+        2.653,
+        2.64,
+        2.627,
+        2.614
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "me",
+      "state": "Maine",
+      "abbr": "ME",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.141,
+      "priceLow": 3.141,
+      "weekDelta": -0.03,
+      "weekDeltaDir": "down",
+      "why": "Maine prices are at a recent low matching the area minimum. Weekly decline of 3¢ shows downward momentum, though WTI crude ticked up 1.57%. Holiday week demand typically supports prices, but retailer scrutiny may cap increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        3.269,
+        3.252,
+        3.236,
+        3.22,
+        3.204,
+        3.187,
+        3.171,
+        3.167,
+        3.162,
+        3.158,
+        3.154,
+        3.15,
+        3.145,
+        3.141
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "md",
+      "state": "Maryland",
+      "abbr": "MD",
+      "city": "Baltimore",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.048,
+      "priceLow": 3.048,
+      "weekDelta": -0.029,
+      "weekDeltaDir": "down",
+      "why": "Maryland gas is at its weekly low of $3.048/gal with a modest week-over-week decline. However, crude oil is rising (+$1.57) and holiday-week demand typically supports prices. Political pressure on retailers may create temporary volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 12,
+        "taxes": 21,
+        "dist": 10
+      },
+      "trend": [
+        3.172,
+        3.156,
+        3.14,
+        3.125,
+        3.109,
+        3.093,
+        3.077,
+        3.073,
+        3.069,
+        3.065,
+        3.06,
+        3.056,
+        3.052,
+        3.048
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ma",
+      "state": "Massachusetts",
+      "abbr": "MA",
+      "city": "Boston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.839,
+      "priceLow": 3.839,
+      "weekDelta": -0.11,
+      "weekDeltaDir": "down",
+      "why": "MA prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is rising (+1.57), but holiday week demand and political pressure on retailers suggest near-term stability. Summer blend adds slight upward pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 69,
+        "refining": 11,
+        "taxes": 12,
+        "dist": 8
+      },
+      "trend": [
+        3.949,
+        3.949,
+        3.949,
+        3.949,
+        3.949,
+        3.949,
+        3.949,
+        3.933,
+        3.918,
+        3.902,
+        3.886,
+        3.87,
+        3.855,
+        3.839
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "mi",
+      "state": "Michigan",
+      "abbr": "MI",
+      "city": "Detroit",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.015,
+      "priceLow": 3.015,
+      "weekDelta": -0.082,
+      "weekDeltaDir": "down",
+      "why": "Michigan prices are at a weekly low despite rising crude. Holiday week demand typically supports prices, but political scrutiny on retailers may limit increases. Crude momentum upward suggests prices could firm soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 13,
+        "taxes": 20,
+        "dist": 10
+      },
+      "trend": [
+        3.195,
+        3.178,
+        3.162,
+        3.146,
+        3.13,
+        3.113,
+        3.097,
+        3.085,
+        3.074,
+        3.062,
+        3.05,
+        3.038,
+        3.027,
+        3.015
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mn",
+      "state": "Minnesota",
+      "abbr": "MN",
+      "city": "Minneapolis",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.614,
+      "priceLow": 3.614,
+      "weekDelta": -0.105,
+      "weekDeltaDir": "down",
+      "why": "Minnesota gas hit a weekly low at $3.614/gal amid political pressure on retailers. WTI crude rising slightly suggests support, but holiday week demand and retail scrutiny could keep prices stable or create local volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 67,
+        "refining": 11,
+        "taxes": 14,
+        "dist": 8
+      },
+      "trend": [
+        3.719,
+        3.719,
+        3.719,
+        3.719,
+        3.719,
+        3.719,
+        3.719,
+        3.704,
+        3.689,
+        3.674,
+        3.659,
+        3.644,
+        3.629,
+        3.614
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ms",
+      "state": "Mississippi",
+      "abbr": "MS",
+      "city": "Jackson",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.552,
+      "priceLow": 2.552,
+      "weekDelta": -0.089,
+      "weekDeltaDir": "down",
+      "why": "MS prices hit a weekly low at $2.552/gal despite WTI crude rising. Week-over-week decline of 9¢ shows downward momentum. Holiday week demand and political scrutiny on pricing may keep stations competitive short-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 15,
+        "taxes": 14,
+        "dist": 12
+      },
+      "trend": [
+        2.696,
+        2.687,
+        2.678,
+        2.668,
+        2.659,
+        2.65,
+        2.641,
+        2.628,
+        2.616,
+        2.603,
+        2.59,
+        2.577,
+        2.565,
+        2.552
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mo",
+      "state": "Missouri",
+      "abbr": "MO",
+      "city": "Kansas City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.706,
+      "priceLow": 2.706,
+      "weekDelta": -0.073,
+      "weekDeltaDir": "down",
+      "why": "Missouri prices have dropped 7.3¢ week-over-week and sit at a local low. Despite WTI crude rising, summer blend demand and holiday-week volatility create near-term uncertainty. Political pressure on retailers adds downside risk.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 14,
+        "taxes": 13,
+        "dist": 11
+      },
+      "trend": [
+        2.867,
+        2.853,
+        2.838,
+        2.823,
+        2.808,
+        2.794,
+        2.779,
+        2.769,
+        2.758,
+        2.748,
+        2.737,
+        2.727,
+        2.716,
+        2.706
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mt",
+      "state": "Montana",
+      "abbr": "MT",
+      "city": "Billings",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.019,
+      "priceLow": 3.019,
+      "weekDelta": -0.105,
+      "weekDeltaDir": "down",
+      "why": "Montana gas is at a recent low after a 10-cent weekly drop. WTI crude is rising, suggesting upward pressure ahead. Holiday week demand and summer blend costs may support prices near current levels.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 13,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        3.305,
+        3.275,
+        3.245,
+        3.214,
+        3.184,
+        3.154,
+        3.124,
+        3.109,
+        3.094,
+        3.079,
+        3.064,
+        3.049,
+        3.034,
+        3.019
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ne",
+      "state": "Nebraska",
+      "abbr": "NE",
+      "city": "Omaha",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.806,
+      "priceLow": 2.806,
+      "weekDelta": -0.076,
+      "weekDeltaDir": "down",
+      "why": "Nebraska prices are at their recent low of $2.806/gal after a week-long decline of 7.6 cents. Rising WTI crude and political scrutiny of retailers create uncertainty, but current levels represent a solid window before potential volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 14,
+        "taxes": 17,
+        "dist": 11
+      },
+      "trend": [
+        2.974,
+        2.958,
+        2.943,
+        2.928,
+        2.913,
+        2.897,
+        2.882,
+        2.871,
+        2.86,
+        2.849,
+        2.839,
+        2.828,
+        2.817,
+        2.806
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nv",
+      "state": "Nevada",
+      "abbr": "NV",
+      "city": "Las Vegas",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.495,
+      "priceLow": 3.495,
+      "weekDelta": -0.098,
+      "weekDeltaDir": "down",
+      "why": "Nevada prices are at a recent low despite crude rising $1.57. Week-over-week decline of 9.8¢ shows downward momentum. Holiday week demand and summer blend typically support prices, but regulatory scrutiny may keep retailers competitive.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 11,
+        "taxes": 20,
+        "dist": 9
+      },
+      "trend": [
+        3.698,
+        3.68,
+        3.663,
+        3.645,
+        3.628,
+        3.61,
+        3.593,
+        3.579,
+        3.565,
+        3.551,
+        3.537,
+        3.523,
+        3.509,
+        3.495
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nh",
+      "state": "New Hampshire",
+      "abbr": "NH",
+      "city": "Manchester",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.048,
+      "priceLow": 3.048,
+      "weekDelta": -0.029,
+      "weekDeltaDir": "down",
+      "why": "NH prices are at their lowest point this week as crude climbs. Holiday demand and summer blend typically support higher prices, but current retail competition is keeping prices flat. Upward crude pressure suggests limited downside ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 12,
+        "taxes": 12,
+        "dist": 10
+      },
+      "trend": [
+        3.172,
+        3.156,
+        3.14,
+        3.125,
+        3.109,
+        3.093,
+        3.077,
+        3.073,
+        3.069,
+        3.065,
+        3.06,
+        3.056,
+        3.052,
+        3.048
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nj",
+      "state": "New Jersey",
+      "abbr": "NJ",
+      "city": "Newark",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.048,
+      "priceLow": 3.048,
+      "weekDelta": -0.029,
+      "weekDeltaDir": "down",
+      "why": "NJ prices are at a recent low and down week-over-week despite rising crude. Summer blend and holiday demand normally support prices, but political scrutiny on retailers may suppress margins. Current window is favorable.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 56,
+        "refining": 14,
+        "taxes": 20,
+        "dist": 10
+      },
+      "trend": [
+        3.172,
+        3.156,
+        3.14,
+        3.125,
+        3.109,
+        3.093,
+        3.077,
+        3.073,
+        3.069,
+        3.065,
+        3.06,
+        3.056,
+        3.052,
+        3.048
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nm",
+      "state": "New Mexico",
+      "abbr": "NM",
+      "city": "Albuquerque",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.82,
+      "priceLow": 2.82,
+      "weekDelta": -0.099,
+      "weekDeltaDir": "down",
+      "why": "New Mexico gas is at its lowest point this week as crude edges higher. Holiday demand and political price scrutiny create short-term uncertainty, but current prices are attractive relative to the upward crude trend.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 13,
+        "dist": 11
+      },
+      "trend": [
+        2.98,
+        2.97,
+        2.96,
+        2.949,
+        2.939,
+        2.929,
+        2.919,
+        2.905,
+        2.891,
+        2.877,
+        2.862,
+        2.848,
+        2.834,
+        2.82
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ny",
+      "state": "New York",
+      "abbr": "NY",
+      "city": "New York City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.978,
+      "priceLow": 3.978,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "NY prices are at a recent low with stable week-over-week pricing. Crude is rising slightly, but summer blend and holiday week demand may keep prices steady. Political scrutiny on retailers could maintain competitive pricing in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 11,
+        "taxes": 18,
+        "dist": 8
+      },
+      "trend": [
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978,
+        3.978
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "nc",
+      "state": "North Carolina",
+      "abbr": "NC",
+      "city": "Charlotte",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.835,
+      "priceLow": 2.835,
+      "weekDelta": -0.026,
+      "weekDeltaDir": "down",
+      "why": "NC prices are at recent lows despite rising crude oil and holiday week demand. Political pressure on retailers may temporarily suppress prices, but upward crude trends suggest limited downside ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 13,
+        "taxes": 18,
+        "dist": 11
+      },
+      "trend": [
+        2.949,
+        2.935,
+        2.92,
+        2.905,
+        2.89,
+        2.876,
+        2.861,
+        2.857,
+        2.854,
+        2.85,
+        2.846,
+        2.842,
+        2.839,
+        2.835
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nd",
+      "state": "North Dakota",
+      "abbr": "ND",
+      "city": "Fargo",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.888,
+      "priceLow": 2.888,
+      "weekDelta": -0.078,
+      "weekDeltaDir": "down",
+      "why": "North Dakota prices are at their lowest point with a week-over-week drop of 7.8¢. Despite WTI crude ticking up, retail prices remain competitive. Holiday week demand and political pressure on retailers create uncertainty, but current levels offer a solid fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        3.06,
+        3.045,
+        3.029,
+        3.013,
+        2.997,
+        2.982,
+        2.966,
+        2.955,
+        2.944,
+        2.933,
+        2.921,
+        2.91,
+        2.899,
+        2.888
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "oh",
+      "state": "Ohio",
+      "abbr": "OH",
+      "city": "Columbus",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.772,
+      "priceLow": 3.772,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Ohio prices are at their recent low with flat week-over-week movement. However, crude is rising and political pressure on retailers may create temporary volatility. Summer blend premiums and holiday week demand could push prices higher soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 67,
+        "refining": 10,
+        "taxes": 15,
+        "dist": 8
+      },
+      "trend": [
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772,
+        3.772
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ok",
+      "state": "Oklahoma",
+      "abbr": "OK",
+      "city": "Oklahoma City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.578,
+      "priceLow": 2.578,
+      "weekDelta": -0.091,
+      "weekDeltaDir": "down",
+      "why": "Oklahoma prices are at a 7-day low after dropping 9¢ week-over-week. WTI crude is rising (+1.57), which could push prices up soon. Holiday week demand and summer blend maintain upward pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 15,
+        "taxes": 14,
+        "dist": 12
+      },
+      "trend": [
+        2.725,
+        2.715,
+        2.706,
+        2.697,
+        2.688,
+        2.678,
+        2.669,
+        2.656,
+        2.643,
+        2.63,
+        2.617,
+        2.604,
+        2.591,
+        2.578
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "or",
+      "state": "Oregon",
+      "abbr": "OR",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.55,
+      "priceLow": 3.55,
+      "weekDelta": -0.099,
+      "weekDeltaDir": "down",
+      "why": "Oregon prices are at a recent low with week-over-week decline of 9.9¢. Rising WTI crude (+1.57) and holiday week demand may support prices, but political scrutiny on retail margins creates downward pressure. Current level offers a solid filling window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 15,
+        "taxes": 15,
+        "dist": 8
+      },
+      "trend": [
+        3.756,
+        3.738,
+        3.72,
+        3.703,
+        3.685,
+        3.667,
+        3.649,
+        3.635,
+        3.621,
+        3.607,
+        3.592,
+        3.578,
+        3.564,
+        3.55
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "pa",
+      "state": "Pennsylvania",
+      "abbr": "PA",
+      "city": "Philadelphia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.272,
+      "priceLow": 3.272,
+      "weekDelta": -0.03,
+      "weekDeltaDir": "down",
+      "why": "PA prices are at a local low and down week-over-week despite rising crude oil. Holiday week demand and political pressure on retailers create uncertainty, but current pricing is favorable relative to likely near-term volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 55,
+        "refining": 12,
+        "taxes": 24,
+        "dist": 9
+      },
+      "trend": [
+        3.404,
+        3.387,
+        3.37,
+        3.353,
+        3.336,
+        3.319,
+        3.302,
+        3.298,
+        3.293,
+        3.289,
+        3.285,
+        3.281,
+        3.276,
+        3.272
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ri",
+      "state": "Rhode Island",
+      "abbr": "RI",
+      "city": "Providence",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.16,
+      "priceLow": 3.16,
+      "weekDelta": -0.03,
+      "weekDeltaDir": "down",
+      "why": "Rhode Island gas is at its lowest point this week as prices declined 3¢. Despite rising crude oil (+1.57%), current pump prices remain favorable. Holiday week demand and summer blend maintenance could support prices, but crude upward pressure may limit further drops.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 9
+      },
+      "trend": [
+        3.288,
+        3.271,
+        3.255,
+        3.239,
+        3.223,
+        3.206,
+        3.19,
+        3.186,
+        3.181,
+        3.177,
+        3.173,
+        3.169,
+        3.164,
+        3.16
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sc",
+      "state": "South Carolina",
+      "abbr": "SC",
+      "city": "Columbia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.835,
+      "priceLow": 2.835,
+      "weekDelta": -0.026,
+      "weekDeltaDir": "down",
+      "why": "SC prices are at recent lows despite rising crude oil. Week-over-week decline and holiday week demand create a favorable window. Political scrutiny on retail markups may prevent sharp increases near-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 61,
+        "refining": 13,
+        "taxes": 15,
+        "dist": 11
+      },
+      "trend": [
+        2.949,
+        2.935,
+        2.92,
+        2.905,
+        2.89,
+        2.876,
+        2.861,
+        2.857,
+        2.854,
+        2.85,
+        2.846,
+        2.842,
+        2.839,
+        2.835
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sd",
+      "state": "South Dakota",
+      "abbr": "SD",
+      "city": "Sioux Falls",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.861,
+      "priceLow": 2.861,
+      "weekDelta": -0.077,
+      "weekDeltaDir": "down",
+      "why": "SD prices hit a weekly low at $2.861/gal despite WTI crude rising. Holiday week demand and political scrutiny may create volatility, but current pricing represents a good fill-up window before potential summer demand spikes.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 13,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        3.031,
+        3.016,
+        3.0,
+        2.985,
+        2.969,
+        2.954,
+        2.938,
+        2.927,
+        2.916,
+        2.905,
+        2.894,
+        2.883,
+        2.872,
+        2.861
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "tn",
+      "state": "Tennessee",
+      "abbr": "TN",
+      "city": "Nashville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.641,
+      "priceLow": 2.641,
+      "weekDelta": -0.092,
+      "weekDeltaDir": "down",
+      "why": "Tennessee gas is at its local low after a 9¢ weekly drop. WTI crude is rising, but summer blend pricing and holiday week competition keep retail margins thin. Price momentum suggests a near-term floor.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -53,548 +2390,35 @@
       },
       "trend": [
         2.79,
-        2.776,
-        2.763,
-        2.749,
-        2.736,
-        2.722,
-        2.709,
-        2.7,
-        2.691,
-        2.682,
-        2.672,
-        2.663,
+        2.781,
+        2.771,
+        2.762,
+        2.752,
+        2.743,
+        2.733,
+        2.72,
+        2.707,
+        2.694,
+        2.68,
+        2.667,
         2.654,
-        2.645
+        2.641
       ],
       "priceSource": "eia_padd"
     },
     {
-      "id": "ak",
-      "state": "Alaska",
-      "abbr": "AK",
-      "city": "Anchorage",
+      "id": "tx",
+      "state": "Texas",
+      "abbr": "TX",
+      "city": "Houston",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.483,
-      "priceLow": 3.483,
-      "weekDelta": -0.118,
-      "weekDeltaDir": "down",
-      "why": "Alaska prices are at a local low after dropping 12¢ week-over-week. Rising crude oil (+$1.57) signals upward pressure ahead, but current pricing offers a solid fill-up window before momentum shifts.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 76,
-        "refining": 11,
-        "taxes": 4,
-        "dist": 9
-      },
-      "trend": [
-        3.677,
-        3.665,
-        3.652,
-        3.639,
-        3.626,
-        3.614,
-        3.601,
-        3.584,
-        3.567,
-        3.55,
-        3.534,
-        3.517,
-        3.5,
-        3.483
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "az",
-      "state": "Arizona",
-      "abbr": "AZ",
-      "city": "Phoenix",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.006,
-      "priceLow": 3.006,
-      "weekDelta": -0.102,
-      "weekDeltaDir": "down",
-      "why": "Arizona prices have dropped 10¢ week-over-week and sit at recent lows despite rising crude. Political scrutiny on gas retailers may add downward pressure short-term, though summer blend and holiday demand could support floors.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 13,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        3.173,
-        3.162,
-        3.151,
-        3.141,
-        3.13,
-        3.119,
-        3.108,
-        3.093,
-        3.079,
-        3.064,
-        3.05,
-        3.035,
-        3.021,
-        3.006
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ar",
-      "state": "Arkansas",
-      "abbr": "AR",
-      "city": "Little Rock",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.59,
-      "priceLow": 2.59,
-      "weekDelta": -0.063,
-      "weekDeltaDir": "down",
-      "why": "Arkansas gas is at a recent low after a 6.3¢ weekly drop. WTI crude is rising, but holiday week demand and political pressure on retailers create near-term uncertainty. Current pricing is favorable compared to seasonal norms.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 57,
-        "refining": 15,
-        "taxes": 16,
-        "dist": 12
-      },
-      "trend": [
-        2.732,
-        2.719,
-        2.706,
-        2.692,
-        2.679,
-        2.666,
-        2.653,
-        2.644,
-        2.635,
-        2.626,
-        2.617,
-        2.608,
-        2.599,
-        2.59
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ca",
-      "state": "California",
-      "abbr": "CA",
-      "city": "Los Angeles",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 5.387,
-      "priceLow": 5.387,
+      "price": 3.23,
+      "priceLow": 3.23,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California gas is at its local low with flat week-over-week movement, despite crude creeping up. Holiday week demand and summer blend premium limit further drops, but current price offers a solid fill-up window before potential seasonal pressure.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 69,
-        "refining": 11,
-        "taxes": 14,
-        "dist": 6
-      },
-      "trend": [
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387,
-        5.387
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "co",
-      "state": "Colorado",
-      "abbr": "CO",
-      "city": "Denver",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.666,
-      "priceLow": 3.666,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Colorado gas is at a recent low with no weekly change, despite WTI crude rising. Holiday week demand and summer blend production create stable conditions. Political pressure on retailers may keep prices competitive short-term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 71,
-        "refining": 10,
-        "taxes": 11,
-        "dist": 8
-      },
-      "trend": [
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666,
-        3.666
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ct",
-      "state": "Connecticut",
-      "abbr": "CT",
-      "city": "Hartford",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.234,
-      "priceLow": 3.234,
-      "weekDelta": -0.116,
-      "weekDeltaDir": "down",
-      "why": "Connecticut prices are at a recent low after a 12-cent week-over-week drop. WTI crude is rising, which may push prices up soon, but current levels offer a good fill-up window before momentum shifts upward.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 14,
-        "taxes": 19,
-        "dist": 9
-      },
-      "trend": [
-        3.407,
-        3.397,
-        3.388,
-        3.378,
-        3.369,
-        3.359,
-        3.35,
-        3.333,
-        3.317,
-        3.3,
-        3.284,
-        3.267,
-        3.251,
-        3.234
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "de",
-      "state": "Delaware",
-      "abbr": "DE",
-      "city": "Wilmington",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.0,
-      "priceLow": 3.0,
-      "weekDelta": -0.108,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ week-over-week and hit local lows, but crude is rising and political pressure on retailers creates uncertainty. Summer blend and holiday demand add upward pressure.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        3.16,
-        3.152,
-        3.143,
-        3.134,
-        3.125,
-        3.117,
-        3.108,
-        3.093,
-        3.077,
-        3.062,
-        3.046,
-        3.031,
-        3.015,
-        3.0
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "fl",
-      "state": "Florida",
-      "abbr": "FL",
-      "city": "Miami",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.567,
-      "priceLow": 3.567,
-      "weekDelta": -0.172,
-      "weekDeltaDir": "down",
-      "why": "Florida prices have dropped 17¢ week-over-week and are at a local low. WTI crude is rising, but holiday week demand and political pressure on retailers may keep pump prices stable short-term. Summer blend adds slight cost premium.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 11,
-        "taxes": 17,
-        "dist": 8
-      },
-      "trend": [
-        3.739,
-        3.739,
-        3.739,
-        3.739,
-        3.739,
-        3.739,
-        3.739,
-        3.714,
-        3.69,
-        3.665,
-        3.641,
-        3.616,
-        3.592,
-        3.567
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ga",
-      "state": "Georgia",
-      "abbr": "GA",
-      "city": "Atlanta",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.737,
-      "priceLow": 2.737,
-      "weekDelta": -0.099,
-      "weekDeltaDir": "down",
-      "why": "Georgia prices hit a weekly low at $2.737/gal after a 10-cent drop. WTI crude is rising, but holiday week demand and political scrutiny on pricing create near-term uncertainty. Current price represents a solid buying opportunity.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 57,
-        "refining": 14,
-        "taxes": 18,
-        "dist": 11
-      },
-      "trend": [
-        2.884,
-        2.876,
-        2.868,
-        2.86,
-        2.852,
-        2.844,
-        2.836,
-        2.822,
-        2.808,
-        2.794,
-        2.779,
-        2.765,
-        2.751,
-        2.737
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "hi",
-      "state": "Hawaii",
-      "abbr": "HI",
-      "city": "Honolulu",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 4.26,
-      "priceLow": 4.26,
-      "weekDelta": -0.145,
-      "weekDeltaDir": "down",
-      "why": "Hawaii prices have dropped 14.5¢ week-over-week and are at their lowest point. Despite upward crude pressure and holiday-week demand, retail scrutiny and political pressure on gas stations may limit further increases near-term.",
+      "why": "Texas gas is at its recent low of $3.23/gal with flat week-over-week pricing. WTI crude is rising, but holiday week demand and political pressure on retailers create near-term price stability. Summer blend premium offsets some upside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -618,382 +2442,40 @@
       "breakdown": {
         "crude": 67,
         "refining": 12,
-        "taxes": 14,
-        "dist": 7
-      },
-      "trend": [
-        4.498,
-        4.483,
-        4.467,
-        4.452,
-        4.436,
-        4.421,
-        4.405,
-        4.384,
-        4.364,
-        4.343,
-        4.322,
-        4.301,
-        4.281,
-        4.26
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "id",
-      "state": "Idaho",
-      "abbr": "ID",
-      "city": "Boise",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.052,
-      "priceLow": 3.052,
-      "weekDelta": -0.205,
-      "weekDeltaDir": "down",
-      "why": "Idaho gas is at a recent low after a strong week-over-week drop of 20.5 cents. WTI is rising, but summer blend and holiday week demand may keep prices stable. Current pricing represents good value.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 12,
-        "taxes": 17,
-        "dist": 10
-      },
-      "trend": [
-        3.319,
-        3.308,
-        3.298,
-        3.288,
-        3.278,
-        3.267,
-        3.257,
-        3.228,
-        3.198,
-        3.169,
-        3.14,
-        3.111,
-        3.081,
-        3.052
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "il",
-      "state": "Illinois",
-      "abbr": "IL",
-      "city": "Chicago",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.373,
-      "priceLow": 3.373,
-      "weekDelta": -0.125,
-      "weekDeltaDir": "down",
-      "why": "Illinois gas is at a recent low after a 12¢ weekly drop. Summer blend and holiday demand typically push prices up, but political pressure on retailers may cap increases. WTI rising slightly—monitor for upstream cost pass-through.",
-      "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 54,
-        "refining": 14,
-        "taxes": 23,
+        "taxes": 12,
         "dist": 9
       },
       "trend": [
-        3.563,
-        3.552,
-        3.541,
-        3.531,
-        3.52,
-        3.509,
-        3.498,
-        3.48,
-        3.462,
-        3.444,
-        3.427,
-        3.409,
-        3.391,
-        3.373
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23,
+        3.23
       ],
-      "priceSource": "eia_padd"
+      "priceSource": "eia_state"
     },
     {
-      "id": "in",
-      "state": "Indiana",
-      "abbr": "IN",
-      "city": "Indianapolis",
+      "id": "ut",
+      "state": "Utah",
+      "abbr": "UT",
+      "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
       "price": 3.019,
       "priceLow": 3.019,
-      "weekDelta": -0.112,
+      "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 11¢ week-over-week and are at a local low of $3.019/gal. WTI crude is rising slightly, but political scrutiny on gas retailers may keep pump prices competitive short-term. Summer demand and holiday week support current levels.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 55,
-        "refining": 13,
-        "taxes": 22,
-        "dist": 10
-      },
-      "trend": [
-        3.189,
-        3.18,
-        3.17,
-        3.16,
-        3.15,
-        3.141,
-        3.131,
-        3.115,
-        3.099,
-        3.083,
-        3.067,
-        3.051,
-        3.035,
-        3.019
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ia",
-      "state": "Iowa",
-      "abbr": "IA",
-      "city": "Des Moines",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.87,
-      "priceLow": 2.87,
-      "weekDelta": -0.106,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 10.6¢ week-over-week and are at recent lows. Rising crude (+1.57%) and holiday-week demand could reverse momentum, but current levels offer a good fill-up window before potential increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 13,
-        "taxes": 17,
-        "dist": 10
-      },
-      "trend": [
-        3.032,
-        3.022,
-        3.013,
-        3.004,
-        2.995,
-        2.985,
-        2.976,
-        2.961,
-        2.946,
-        2.931,
-        2.915,
-        2.9,
-        2.885,
-        2.87
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ks",
-      "state": "Kansas",
-      "abbr": "KS",
-      "city": "Wichita",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.814,
-      "priceLow": 2.814,
-      "weekDelta": -0.104,
-      "weekDeltaDir": "down",
-      "why": "Kansas prices have dropped 10¢ week-over-week and match the local low. WTI crude rising slightly, but summer blend and holiday-week demand may keep upward pressure limited near-term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 14,
-        "taxes": 15,
-        "dist": 11
-      },
-      "trend": [
-        2.973,
-        2.964,
-        2.955,
-        2.945,
-        2.936,
-        2.927,
-        2.918,
-        2.903,
-        2.888,
-        2.873,
-        2.859,
-        2.844,
-        2.829,
-        2.814
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ky",
-      "state": "Kentucky",
-      "abbr": "KY",
-      "city": "Louisville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.811,
-      "priceLow": 2.811,
-      "weekDelta": -0.068,
-      "weekDeltaDir": "down",
-      "why": "Kentucky prices are at a recent low after a week-long decline. WTI crude is rising, which could pressure prices upward soon. Holiday week demand and political scrutiny add uncertainty to the near-term outlook.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 14,
-        "taxes": 17,
-        "dist": 11
-      },
-      "trend": [
-        2.965,
-        2.95,
-        2.936,
-        2.922,
-        2.908,
-        2.893,
-        2.879,
-        2.869,
-        2.86,
-        2.85,
-        2.84,
-        2.83,
-        2.821,
-        2.811
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "la",
-      "state": "Louisiana",
-      "abbr": "LA",
-      "city": "New Orleans",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.691,
-      "priceLow": 2.691,
-      "weekDelta": -0.066,
-      "weekDeltaDir": "down",
-      "why": "Louisiana gas is at a recent low of $2.691/gal with week-over-week decline of 6.6¢. WTI crude is rising, but political pressure on retailers may keep pump prices temporarily suppressed. Summer blend and holiday week demand support current levels.",
+      "why": "Utah gas is at a local low after a week-long decline of 10.5¢. WTI crude is rising, and holiday week demand typically supports prices, but you've caught a favorable window before upward pressure builds.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1016,41 +2498,41 @@
       ],
       "breakdown": {
         "crude": 61,
-        "refining": 14,
-        "taxes": 14,
-        "dist": 11
+        "refining": 13,
+        "taxes": 16,
+        "dist": 10
       },
       "trend": [
-        2.838,
-        2.825,
-        2.811,
-        2.798,
-        2.784,
-        2.771,
-        2.757,
-        2.748,
-        2.738,
-        2.729,
-        2.719,
-        2.71,
-        2.7,
-        2.691
+        3.305,
+        3.275,
+        3.245,
+        3.214,
+        3.184,
+        3.154,
+        3.124,
+        3.109,
+        3.094,
+        3.079,
+        3.064,
+        3.049,
+        3.034,
+        3.019
       ],
       "priceSource": "eia_padd"
     },
     {
-      "id": "me",
-      "state": "Maine",
-      "abbr": "ME",
-      "city": "Portland",
+      "id": "vt",
+      "state": "Vermont",
+      "abbr": "VT",
+      "city": "Burlington",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.168,
-      "priceLow": 3.168,
-      "weekDelta": -0.114,
+      "price": 3.141,
+      "priceLow": 3.141,
+      "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 11¢ week-over-week and sit at a recent low despite WTI crude rising. Summer blend and holiday week support stable supply. Political pressure on retailers adds uncertainty but hasn't lifted prices yet.",
+      "why": "Vermont gas is at its lowest point this week during a holiday period. WTI crude is rising slightly, but current retail prices haven't fully caught up yet. This is a favorable window before potential downstream cost increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1072,43 +2554,43 @@
         }
       ],
       "breakdown": {
-        "crude": 63,
+        "crude": 62,
         "refining": 12,
         "taxes": 16,
-        "dist": 9
+        "dist": 10
       },
       "trend": [
-        3.338,
-        3.328,
-        3.319,
-        3.31,
-        3.301,
-        3.291,
-        3.282,
-        3.266,
-        3.249,
-        3.233,
-        3.217,
-        3.201,
-        3.184,
-        3.168
+        3.269,
+        3.252,
+        3.236,
+        3.22,
+        3.204,
+        3.187,
+        3.171,
+        3.167,
+        3.162,
+        3.158,
+        3.154,
+        3.15,
+        3.145,
+        3.141
       ],
       "priceSource": "eia_padd"
     },
     {
-      "id": "md",
-      "state": "Maryland",
-      "abbr": "MD",
-      "city": "Baltimore",
+      "id": "va",
+      "state": "Virginia",
+      "abbr": "VA",
+      "city": "Richmond",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.075,
-      "priceLow": 3.075,
-      "weekDelta": -0.11,
+      "price": 2.928,
+      "priceLow": 2.928,
+      "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "Maryland gas prices have dropped 11¢ week-over-week and are now at a local low. Despite crude oil rising, retail prices remain competitive. Holiday week demand and summer blend typically support stable pricing here.",
-      "advice": "Fill up today",
+      "why": "Virginia gas is at its recent low of $2.928/gal with modest weekly decline. Rising WTI crude (+1.57) signals upward pressure ahead, but holiday week retail scrutiny may temporarily cap increases. A brief buying window exists before crude momentum lifts pump prices.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
@@ -1129,441 +2611,42 @@
         }
       ],
       "breakdown": {
-        "crude": 58,
-        "refining": 12,
-        "taxes": 20,
-        "dist": 10
-      },
-      "trend": [
-        3.239,
-        3.23,
-        3.221,
-        3.212,
-        3.203,
-        3.194,
-        3.185,
-        3.169,
-        3.154,
-        3.138,
-        3.122,
-        3.106,
-        3.091,
-        3.075
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ma",
-      "state": "Massachusetts",
-      "abbr": "MA",
-      "city": "Boston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.949,
-      "priceLow": 3.949,
-      "weekDelta": -0.118,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 12¢ week-over-week and are at a local low, but WTI crude rising and political pressure on retailers create uncertainty. Summer blend and holiday demand add upward risk.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 70,
-        "refining": 11,
-        "taxes": 11,
-        "dist": 8
-      },
-      "trend": [
-        4.067,
-        4.067,
-        4.067,
-        4.067,
-        4.067,
-        4.067,
-        4.067,
-        4.05,
-        4.033,
-        4.016,
-        4.0,
-        3.983,
-        3.966,
-        3.949
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "mi",
-      "state": "Michigan",
-      "abbr": "MI",
-      "city": "Detroit",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.093,
-      "priceLow": 3.093,
-      "weekDelta": -0.115,
-      "weekDeltaDir": "down",
-      "why": "Michigan prices have dropped 11.5¢ week-over-week and sit at recent lows despite crude climbing. Holiday week demand may pressure prices slightly upward, but current pricing is favorable relative to recent trends.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 12,
-        "taxes": 20,
-        "dist": 10
-      },
-      "trend": [
-        3.268,
-        3.258,
-        3.248,
-        3.238,
-        3.228,
-        3.218,
-        3.208,
-        3.192,
-        3.175,
-        3.159,
-        3.142,
-        3.126,
-        3.109,
-        3.093
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mn",
-      "state": "Minnesota",
-      "abbr": "MN",
-      "city": "Minneapolis",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.719,
-      "priceLow": 3.719,
-      "weekDelta": -0.115,
-      "weekDeltaDir": "down",
-      "why": "Prices are at a recent low after a -0.115 $/gal weekly drop, but WTI crude is rising (+1.57). Holiday week demand and political scrutiny on retailers create uncertainty. The window to buy is narrow before upward pressure builds.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 68,
-        "refining": 10,
-        "taxes": 14,
-        "dist": 8
-      },
-      "trend": [
-        3.834,
-        3.834,
-        3.834,
-        3.834,
-        3.834,
-        3.834,
-        3.834,
-        3.818,
-        3.801,
-        3.785,
-        3.768,
-        3.752,
-        3.735,
-        3.719
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ms",
-      "state": "Mississippi",
-      "abbr": "MS",
-      "city": "Jackson",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.626,
-      "priceLow": 2.626,
-      "weekDelta": -0.065,
-      "weekDeltaDir": "down",
-      "why": "Mississippi prices have dropped 6.5¢ this week and are at their recent low. WTI crude is rising, but summer blend supply and holiday demand dynamics are currently balanced. Prices may stabilize or tick up slightly.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 14,
-        "taxes": 14,
-        "dist": 11
-      },
-      "trend": [
-        2.771,
-        2.757,
-        2.744,
-        2.731,
-        2.718,
-        2.704,
-        2.691,
-        2.682,
-        2.672,
-        2.663,
-        2.654,
-        2.645,
-        2.635,
-        2.626
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mo",
-      "state": "Missouri",
-      "abbr": "MO",
-      "city": "Kansas City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.777,
-      "priceLow": 2.777,
-      "weekDelta": -0.102,
-      "weekDeltaDir": "down",
-      "why": "Missouri prices hit a weekly low at $2.777/gal, down 10¢ week-over-week. Rising crude (+$1.57) and holiday-week demand could reverse gains soon, but current level is competitive.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
         "crude": 62,
-        "refining": 14,
-        "taxes": 13,
-        "dist": 11
-      },
-      "trend": [
-        2.933,
-        2.924,
-        2.915,
-        2.906,
-        2.897,
-        2.888,
-        2.879,
-        2.864,
-        2.85,
-        2.835,
-        2.821,
-        2.806,
-        2.792,
-        2.777
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mt",
-      "state": "Montana",
-      "abbr": "MT",
-      "city": "Billings",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.117,
-      "priceLow": 3.117,
-      "weekDelta": -0.21,
-      "weekDeltaDir": "down",
-      "why": "Montana gas is at a recent low despite rising crude oil. Week-over-week decline of 21¢ suggests retail margins are being pressured. Holiday week demand may provide brief stability before potential further adjustments.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
+        "refining": 13,
         "taxes": 15,
         "dist": 10
       },
       "trend": [
-        3.39,
-        3.379,
-        3.369,
-        3.358,
-        3.348,
-        3.337,
-        3.327,
-        3.297,
-        3.267,
-        3.237,
-        3.207,
-        3.177,
-        3.147,
-        3.117
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ne",
-      "state": "Nebraska",
-      "abbr": "NE",
-      "city": "Omaha",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.879,
-      "priceLow": 2.879,
-      "weekDelta": -0.107,
-      "weekDeltaDir": "down",
-      "why": "Nebraska prices have dropped 10.7¢ this week and sit at a recent low of $2.879/gal. WTI crude is rising slightly, but holiday week demand typically remains soft. Political pressure on retailers may temporarily suppress margins.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 13,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        3.042,
-        3.032,
-        3.023,
-        3.014,
-        3.005,
-        2.995,
-        2.986,
-        2.971,
+        3.046,
+        3.031,
+        3.016,
+        3.0,
+        2.985,
+        2.97,
         2.955,
+        2.951,
+        2.947,
+        2.943,
         2.94,
-        2.925,
-        2.91,
-        2.894,
-        2.879
+        2.936,
+        2.932,
+        2.928
       ],
       "priceSource": "eia_padd"
     },
     {
-      "id": "nv",
-      "state": "Nevada",
-      "abbr": "NV",
-      "city": "Las Vegas",
+      "id": "wa",
+      "state": "Washington",
+      "abbr": "WA",
+      "city": "Seattle",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.577,
-      "priceLow": 3.577,
-      "weekDelta": -0.121,
-      "weekDeltaDir": "down",
-      "why": "Nevada prices have dropped 12¢ week-over-week and are at recent lows despite rising crude. Summer blend and holiday week typically support higher prices, but retail scrutiny and political pressure may cap near-term increases. Current prices offer a favorable fill-up window.",
+      "price": 5.029,
+      "priceLow": 5.029,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Washington prices are at their lowest point with no weekly change. WTI crude is rising, but summer blend production and holiday demand dynamics are currently balanced. This is a favorable window before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1585,270 +2668,99 @@
         }
       ],
       "breakdown": {
-        "crude": 62,
+        "crude": 67,
         "refining": 11,
-        "taxes": 19,
-        "dist": 8
+        "taxes": 16,
+        "dist": 6
       },
       "trend": [
-        3.777,
-        3.764,
-        3.751,
-        3.737,
-        3.724,
-        3.711,
-        3.698,
-        3.681,
-        3.663,
-        3.646,
-        3.629,
-        3.612,
-        3.594,
-        3.577
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nh",
-      "state": "New Hampshire",
-      "abbr": "NH",
-      "city": "Manchester",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.075,
-      "priceLow": 3.075,
-      "weekDelta": -0.11,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 11 cents week-over-week and sit at a recent low. Rising crude oil (+1.57) suggests upward pressure ahead, but current levels remain favorable. Holiday week demand may support or lift prices soon.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 12,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        3.239,
-        3.23,
-        3.221,
-        3.212,
-        3.203,
-        3.194,
-        3.185,
-        3.169,
-        3.154,
-        3.138,
-        3.122,
-        3.106,
-        3.091,
-        3.075
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nj",
-      "state": "New Jersey",
-      "abbr": "NJ",
-      "city": "Newark",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.075,
-      "priceLow": 3.075,
-      "weekDelta": -0.11,
-      "weekDeltaDir": "down",
-      "why": "NJ gas is at a recent low after dropping 11¢ week-over-week. However, WTI crude is climbing and political pressure on retailers may ease downward momentum. Holiday week demand could support prices.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 57,
-        "refining": 14,
-        "taxes": 19,
-        "dist": 10
-      },
-      "trend": [
-        3.239,
-        3.23,
-        3.221,
-        3.212,
-        3.203,
-        3.194,
-        3.185,
-        3.169,
-        3.154,
-        3.138,
-        3.122,
-        3.106,
-        3.091,
-        3.075
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nm",
-      "state": "New Mexico",
-      "abbr": "NM",
-      "city": "Albuquerque",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.903,
-      "priceLow": 2.903,
-      "weekDelta": -0.071,
-      "weekDeltaDir": "down",
-      "why": "New Mexico prices are at recent lows despite upward crude pressure. Holiday week demand and summer blend add cost, but week-over-week decline shows downward momentum. Political scrutiny on retailers may temporarily cap markup room.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 13,
-        "taxes": 13,
-        "dist": 10
-      },
-      "trend": [
-        3.062,
-        3.048,
-        3.033,
-        3.018,
-        3.003,
-        2.989,
-        2.974,
-        2.964,
-        2.954,
-        2.944,
-        2.933,
-        2.923,
-        2.913,
-        2.903
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ny",
-      "state": "New York",
-      "abbr": "NY",
-      "city": "New York City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 4.075,
-      "priceLow": 4.075,
-      "weekDelta": -0.115,
-      "weekDeltaDir": "down",
-      "why": "Prices hit a weekly low and dropped 11.5¢ from last week, despite rising crude oil. Political scrutiny may keep retailers competitive short-term, though summer blend costs and holiday week demand create upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 11,
-        "taxes": 18,
-        "dist": 7
-      },
-      "trend": [
-        4.19,
-        4.19,
-        4.19,
-        4.19,
-        4.19,
-        4.19,
-        4.19,
-        4.174,
-        4.157,
-        4.141,
-        4.124,
-        4.108,
-        4.091,
-        4.075
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029,
+        5.029
       ],
       "priceSource": "eia_state"
     },
     {
-      "id": "nc",
-      "state": "North Carolina",
-      "abbr": "NC",
-      "city": "Charlotte",
+      "id": "wv",
+      "state": "West Virginia",
+      "abbr": "WV",
+      "city": "Charleston",
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.859,
-      "priceLow": 2.859,
-      "weekDelta": -0.103,
+      "price": 2.956,
+      "priceLow": 2.956,
+      "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "NC prices are at a recent low after a 10-cent weekly drop. Crude is rising, but summer blend and holiday week demand typically stabilize prices short-term. Political scrutiny on retailers adds downward pressure.",
+      "why": "WV gas is at a local low of $2.956/gal with week-over-week decline. Rising crude (+$1.57) and holiday week demand may push prices up soon, but current retail scrutiny could keep station margins tight temporarily.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
+          "source": "Fox Business",
+          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
+        },
+        {
+          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 13,
+        "taxes": 17,
+        "dist": 10
+      },
+      "trend": [
+        3.076,
+        3.06,
+        3.045,
+        3.029,
+        3.014,
+        2.998,
+        2.983,
+        2.979,
+        2.975,
+        2.971,
+        2.968,
+        2.964,
+        2.96,
+        2.956
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wi",
+      "state": "Wisconsin",
+      "abbr": "WI",
+      "city": "Milwaukee",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.979,
+      "priceLow": 2.979,
+      "weekDelta": -0.08,
+      "weekDeltaDir": "down",
+      "why": "Wisconsin prices are at a recent low of $2.979/gal with a positive weekly decline of -$0.080. WTI crude is rising (+$1.57), which could put upward pressure soon, but holiday-week demand typically supports current pricing. Political pressure on retailers adds uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1876,932 +2788,20 @@
         "dist": 10
       },
       "trend": [
-        3.012,
-        3.003,
-        2.995,
-        2.987,
-        2.979,
-        2.97,
-        2.962,
-        2.947,
-        2.933,
-        2.918,
-        2.903,
-        2.888,
-        2.874,
-        2.859
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nd",
-      "state": "North Dakota",
-      "abbr": "ND",
-      "city": "Fargo",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.963,
-      "priceLow": 2.963,
-      "weekDelta": -0.11,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ week-over-week and sit at recent lows despite rising crude. Holiday week demand and political scrutiny on retail markups create uncertainty, but current pricing reflects favorable conditions.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        3.13,
-        3.121,
-        3.111,
-        3.102,
-        3.092,
-        3.083,
-        3.073,
-        3.057,
-        3.042,
-        3.026,
-        3.01,
-        2.994,
-        2.979,
-        2.963
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "oh",
-      "state": "Ohio",
-      "abbr": "OH",
-      "city": "Columbus",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.862,
-      "priceLow": 3.862,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Ohio prices sit at recent lows with flat week-over-week movement. WTI crude is rising, which may push prices up soon. Holiday week demand and summer blend add upward pressure, but political scrutiny on retailers may temper increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 67,
-        "refining": 10,
-        "taxes": 15,
-        "dist": 8
-      },
-      "trend": [
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862,
-        3.862
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ok",
-      "state": "Oklahoma",
-      "abbr": "OK",
-      "city": "Oklahoma City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.654,
-      "priceLow": 2.654,
-      "weekDelta": -0.065,
-      "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a weekly low despite rising crude oil (+1.57). Political pressure on retailers may temporarily cap increases. Summer blend and holiday demand create upward pressure, but current pricing is attractive.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 14,
-        "taxes": 13,
-        "dist": 11
-      },
-      "trend": [
-        2.8,
-        2.786,
-        2.773,
-        2.759,
-        2.746,
-        2.732,
-        2.719,
-        2.71,
-        2.7,
-        2.691,
-        2.682,
-        2.673,
-        2.663,
-        2.654
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "or",
-      "state": "Oregon",
-      "abbr": "OR",
-      "city": "Portland",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.633,
-      "priceLow": 3.633,
-      "weekDelta": -0.123,
-      "weekDeltaDir": "down",
-      "why": "Oregon prices have dropped 12¢ week-over-week and sit at a recent low. WTI crude is rising but summer blend and holiday week demand may keep local prices stable near current levels in the near term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 14,
-        "taxes": 15,
-        "dist": 8
-      },
-      "trend": [
-        3.836,
-        3.822,
-        3.809,
-        3.796,
-        3.783,
-        3.769,
-        3.756,
-        3.738,
-        3.721,
-        3.703,
-        3.686,
-        3.668,
-        3.651,
-        3.633
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "pa",
-      "state": "Pennsylvania",
-      "abbr": "PA",
-      "city": "Philadelphia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.3,
-      "priceLow": 3.3,
-      "weekDelta": -0.118,
-      "weekDeltaDir": "down",
-      "why": "PA prices are at their recent low after a week-long decline of 12 cents. Rising crude oil (+1.57) and holiday-week demand pressures suggest limited room for further drops, though retail scrutiny may create brief competitive windows.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 56,
-        "refining": 12,
-        "taxes": 23,
-        "dist": 9
-      },
-      "trend": [
-        3.476,
-        3.467,
-        3.457,
-        3.447,
-        3.437,
-        3.428,
-        3.418,
-        3.401,
-        3.384,
-        3.367,
-        3.351,
-        3.334,
-        3.317,
-        3.3
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ri",
-      "state": "Rhode Island",
-      "abbr": "RI",
-      "city": "Providence",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.187,
-      "priceLow": 3.187,
-      "weekDelta": -0.115,
-      "weekDeltaDir": "down",
-      "why": "Rhode Island gas is at a recent low after dropping 11.5¢ week-over-week. WTI crude is rising, but summer blend pricing and holiday week retail pressure are keeping pumps competitive. Prices may inch up soon.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 9
-      },
-      "trend": [
-        3.358,
-        3.348,
-        3.339,
-        3.33,
-        3.321,
-        3.311,
-        3.302,
-        3.286,
-        3.269,
-        3.253,
-        3.236,
-        3.22,
-        3.203,
-        3.187
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sc",
-      "state": "South Carolina",
-      "abbr": "SC",
-      "city": "Columbia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.859,
-      "priceLow": 2.859,
-      "weekDelta": -0.103,
-      "weekDeltaDir": "down",
-      "why": "SC prices fell 10¢ week-over-week and are at local lows. WTI crude rising slightly, but holiday week demand may support current levels. Political scrutiny on retailers creates uncertainty about near-term direction.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 13,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        3.012,
-        3.003,
-        2.995,
-        2.987,
-        2.979,
-        2.97,
-        2.962,
-        2.947,
-        2.933,
-        2.918,
-        2.903,
-        2.888,
-        2.874,
-        2.859
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sd",
-      "state": "South Dakota",
-      "abbr": "SD",
-      "city": "Sioux Falls",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.935,
-      "priceLow": 2.935,
-      "weekDelta": -0.109,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ week-over-week and are at local lows. However, crude is rising and political pressure on retailers may ease downward momentum. Summer blend and holiday week typically support stability or modest increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        3.101,
-        3.091,
-        3.082,
-        3.072,
-        3.063,
-        3.053,
-        3.044,
-        3.028,
-        3.013,
-        2.997,
-        2.982,
-        2.966,
-        2.951,
-        2.935
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tn",
-      "state": "Tennessee",
-      "abbr": "TN",
-      "city": "Nashville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.719,
-      "priceLow": 2.719,
-      "weekDelta": -0.066,
-      "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.719/gal with week-over-week declines. Despite rising crude oil, retail prices remain pressured by political scrutiny on pricing. Holiday week demand typically softens midweek.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 14,
-        "taxes": 15,
-        "dist": 11
-      },
-      "trend": [
-        2.868,
-        2.854,
-        2.84,
-        2.827,
-        2.813,
-        2.799,
-        2.785,
-        2.776,
-        2.766,
-        2.757,
-        2.747,
-        2.738,
-        2.728,
-        2.719
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tx",
-      "state": "Texas",
-      "abbr": "TX",
-      "city": "Houston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.371,
-      "priceLow": 3.371,
-      "weekDelta": -0.061,
-      "weekDeltaDir": "down",
-      "why": "Texas prices have dropped 6¢ week-over-week and are at a recent low. WTI crude is rising, but holiday week demand and summer blend requirements create near-term support. Political pressure on retailers may limit upside moves.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 69,
-        "refining": 11,
-        "taxes": 11,
-        "dist": 9
-      },
-      "trend": [
-        3.432,
-        3.432,
-        3.432,
-        3.432,
-        3.432,
-        3.432,
-        3.432,
-        3.423,
-        3.415,
-        3.406,
-        3.397,
-        3.388,
-        3.38,
-        3.371
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ut",
-      "state": "Utah",
-      "abbr": "UT",
-      "city": "Salt Lake City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.117,
-      "priceLow": 3.117,
-      "weekDelta": -0.21,
-      "weekDeltaDir": "down",
-      "why": "Utah prices have dropped 21¢ week-over-week and are at their recent low. Despite WTI crude ticking up and summer blend costs, retail margins are under political pressure to stay competitive. Holiday week demand typically supports prices, but current levels offer a good fill-up window.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        3.39,
-        3.379,
-        3.369,
-        3.358,
-        3.348,
-        3.337,
-        3.327,
-        3.297,
-        3.267,
-        3.237,
-        3.207,
-        3.177,
-        3.147,
-        3.117
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "vt",
-      "state": "Vermont",
-      "abbr": "VT",
-      "city": "Burlington",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.168,
-      "priceLow": 3.168,
-      "weekDelta": -0.114,
-      "weekDeltaDir": "down",
-      "why": "Vermont gas is at a local low after a strong week-over-week decline of $0.11/gal. WTI crude is rising, but retail scrutiny and political pressure may temporarily cap pump increases. Holiday week demand is typically lighter mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 9
-      },
-      "trend": [
-        3.338,
-        3.328,
-        3.319,
-        3.31,
-        3.301,
-        3.291,
-        3.282,
-        3.266,
-        3.249,
-        3.233,
-        3.217,
-        3.201,
-        3.184,
-        3.168
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "va",
-      "state": "Virginia",
-      "abbr": "VA",
-      "city": "Richmond",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.953,
-      "priceLow": 2.953,
-      "weekDelta": -0.106,
-      "weekDeltaDir": "down",
-      "why": "Virginia prices are at their recent low after a week-long decline of 10.6 cents. WTI crude is rising, but holiday demand and political scrutiny on retailers may keep local prices stable short-term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 13,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        3.11,
-        3.102,
-        3.093,
-        3.085,
-        3.076,
-        3.068,
-        3.059,
-        3.044,
-        3.029,
-        3.014,
-        2.998,
-        2.983,
-        2.968,
-        2.953
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wa",
-      "state": "Washington",
-      "abbr": "WA",
-      "city": "Seattle",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 5.152,
-      "priceLow": 5.152,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Washington prices are at their local low with flat week-over-week movement. Rising WTI crude (+1.57) suggests upward pressure ahead, but summer blend and holiday week volatility create uncertainty. Political pressure on retailers may temporarily cap increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 67,
-        "refining": 11,
-        "taxes": 16,
-        "dist": 6
-      },
-      "trend": [
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152,
-        5.152
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "wv",
-      "state": "West Virginia",
-      "abbr": "WV",
-      "city": "Charleston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.981,
-      "priceLow": 2.981,
-      "weekDelta": -0.107,
-      "weekDeltaDir": "down",
-      "why": "WV gas is at its lowest point this week after dropping 10.7¢. Despite rising crude oil (+$1.57), retail prices remain competitive. Holiday week demand and political pressure on retailers suggest prices may stabilize here rather than fall further.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 13,
-        "taxes": 17,
-        "dist": 10
-      },
-      "trend": [
+        3.157,
         3.14,
-        3.132,
-        3.123,
-        3.114,
-        3.105,
-        3.097,
-        3.088,
-        3.073,
-        3.057,
-        3.042,
-        3.027,
-        3.012,
-        2.996,
-        2.981
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wi",
-      "state": "Wisconsin",
-      "abbr": "WI",
-      "city": "Milwaukee",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.056,
-      "priceLow": 3.056,
-      "weekDelta": -0.113,
-      "weekDeltaDir": "down",
-      "why": "Wisconsin prices have dropped 11¢ week-over-week and are at a local low. WTI crude is rising slightly, but holiday week demand is typically lighter. Summer blend and current station competition suggest a stable near-term floor.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
-          "source": "Fox Business",
-          "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 12,
-        "taxes": 18,
-        "dist": 10
-      },
-      "trend": [
-        3.228,
-        3.218,
-        3.208,
-        3.199,
-        3.189,
-        3.179,
-        3.169,
-        3.153,
-        3.137,
-        3.121,
-        3.104,
-        3.088,
-        3.072,
-        3.056
+        3.124,
+        3.108,
+        3.092,
+        3.075,
+        3.059,
+        3.048,
+        3.036,
+        3.025,
+        3.013,
+        3.002,
+        2.99,
+        2.979
       ],
       "priceSource": "eia_padd"
     },
@@ -2813,13 +2813,13 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.024,
-      "priceLow": 3.024,
-      "weekDelta": -0.204,
+      "price": 2.929,
+      "priceLow": 2.929,
+      "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices have dropped 20¢ week-over-week and are at local lows, despite WTI crude rising. Holiday week demand and summer blend requirements provide support, but political pressure on retailers creates uncertainty for the next few days.",
+      "why": "Wyoming prices are at a recent low after dropping 10¢ week-over-week. WTI crude is rising, but summer blend and holiday demand create near-term support. Political pressure on retailers may limit upside moves.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2845,20 +2845,20 @@
         "dist": 10
       },
       "trend": [
-        3.288,
-        3.278,
-        3.268,
-        3.258,
-        3.248,
-        3.238,
-        3.228,
-        3.199,
-        3.17,
-        3.141,
-        3.111,
-        3.082,
-        3.053,
-        3.024
+        3.206,
+        3.177,
+        3.148,
+        3.118,
+        3.089,
+        3.06,
+        3.031,
+        3.016,
+        3.002,
+        2.987,
+        2.973,
+        2.958,
+        2.944,
+        2.929
       ],
       "priceSource": "eia_padd"
     },
@@ -2870,11 +2870,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.328,
-      "priceLow": 3.328,
-      "weekDelta": -0.12,
+      "price": 3.299,
+      "priceLow": 3.299,
+      "weekDelta": -0.031,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a recent low after a week-long decline of 12¢/gal. WTI crude is rising, but summer blend supply and holiday week demand dynamics keep prices stable. Political pressure on retailers may temporarily cap increases.",
+      "why": "DC prices are at local lows despite rising crude oil. Political pressure on retailers may temper increases short-term, but summer demand and upward crude momentum suggest prices will rise within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2896,26 +2896,26 @@
         }
       ],
       "breakdown": {
-        "crude": 67,
-        "refining": 11,
+        "crude": 66,
+        "refining": 12,
         "taxes": 13,
         "dist": 9
       },
       "trend": [
-        3.505,
-        3.496,
-        3.486,
-        3.477,
-        3.467,
-        3.458,
-        3.448,
-        3.431,
-        3.414,
-        3.397,
-        3.379,
-        3.362,
-        3.345,
-        3.328
+        3.433,
+        3.416,
+        3.399,
+        3.381,
+        3.364,
+        3.347,
+        3.33,
+        3.326,
+        3.321,
+        3.317,
+        3.312,
+        3.308,
+        3.303,
+        3.299
       ],
       "priceSource": "eia_padd"
     },
@@ -2931,9 +2931,9 @@
       "priceLow": 1.572,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are 3.1¢ above the weekly low, but crude is climbing and holiday-week demand typically supports prices. Downward momentum is slowing despite political pressure on retailers.",
-      "advice": "Top off today · wait for dips",
-      "bestDayIdx": 4,
+      "why": "Alberta prices are 3.1¢/L above the recent low, but week-over-week decline shows downward momentum. Rising WTI crude (+1.57) and political pressure on retailers create uncertainty—prices could dip further or stabilize mid-week.",
+      "advice": "Top off now, wait for rest",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2983,13 +2983,13 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.85,
       "priceLow": 1.794,
       "weekDelta": -0.023,
       "weekDeltaDir": "down",
-      "why": "BC prices are 3.1¢/L above the week's low, and WTI crude is rising. Summer blend and holiday week create supply constraints. Political pressure on retailers may offer temporary relief, but upward crude momentum suggests prices could firm further.",
-      "advice": "Fill up today or tomorrow",
+      "why": "BC prices are 3.1¢/L above the local low, and WTI crude is rising. Holiday week demand and summer blend typically support higher prices. Downward trend is modest, but crude headwinds suggest limited near-term relief.",
+      "advice": "Top off today, hold rest",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -3045,9 +3045,9 @@
       "priceLow": 1.544,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices are 3¢/L above the local low and trending down week-over-week. WTI crude is rising, but retail pressure and holiday week dynamics may keep downward momentum alive through mid-week.",
-      "advice": "Top off half · wait until Wed",
-      "bestDayIdx": 3,
+      "why": "Manitoba prices are 3% above the week's low despite a weekly decline. WTI crude is rising and political pressure on retailers may stabilize prices. Holiday demand and summer blend support current levels.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
       "wtiDir": "up",
       "news": [
         {
@@ -3102,9 +3102,9 @@
       "priceLow": 1.617,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "Prices fell slightly week-over-week and sit just 3¢ above the local low. Crude is rising, but holiday demand and political pressure on retailers create short-term uncertainty. Current levels offer a reasonable window before potential upward pressure.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "NB prices are 3¢ above the week's low, but WTI is rising and holiday demand typically strengthens. Retail pressure from political scrutiny may offer temporary relief, but upward crude momentum suggests limited downside ahead.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -3154,14 +3154,14 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.699,
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Newfoundland prices are 3¢/L above the local low despite a modest weekly decline. WTI crude is rising, and holiday-week demand typically sustains prices. Political pressure on retailers adds uncertainty but unlikely to yield immediate cuts.",
-      "advice": "Top off today · wait for Thurs",
-      "bestDayIdx": 4,
+      "why": "Prices have declined week-over-week and sit just 3% above the recent low of 1.648 $/L. WTI crude is rising, which may limit further downside, but current levels offer reasonable value. Holiday week demand may support prices.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -3216,9 +3216,9 @@
       "priceLow": 1.638,
       "weekDelta": -0.009,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices are 0.051 $/L above the local low, and WTI is rising. Holiday-week demand and summer blend add upward pressure. Political pressure on retailers may create brief relief, but crude momentum suggests prices won't drop significantly soon.",
-      "advice": "Top up partially today",
-      "bestDayIdx": 2,
+      "why": "Nova Scotia prices are 0.051 $/L above the local low, and crude is rising. Holiday week demand plus political pressure on retailers creates uncertainty. A small dip to the nearby low is plausible within 2–3 days.",
+      "advice": "Top off half · wait for dip",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -3273,9 +3273,9 @@
       "priceLow": 1.534,
       "weekDelta": -0.011,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are 3% above the week's low, but WTI is rising and holiday demand typically supports prices. Political pressure on retailers may create brief relief, but summer blend costs and upward crude momentum suggest limited downside this week.",
-      "advice": "Top off today, wait for rest",
-      "bestDayIdx": 1,
+      "why": "Ontario prices are 3.5¢/L above the local low, with WTI crude rising. Holiday week demand and summer blend costs support current levels. Prices may stabilize or drift slightly higher in coming days.",
+      "advice": "Top off today · wait",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -3325,14 +3325,14 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.656,
       "priceLow": 1.606,
       "weekDelta": -0.021,
       "weekDeltaDir": "down",
-      "why": "PE prices are 5¢/L above the local low and declining week-over-week. WTI is rising, but summer demand and holiday week create short-term stability. Political pressure on retailers may limit upside.",
-      "advice": "Top up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "PEI prices are 5¢/L above the local low, but WTI crude is rising and holiday week demand typically pushes prices upward. Week-over-week trend is slightly negative, but upward crude pressure may reverse gains soon.",
+      "advice": "Top up halfway today",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -3387,8 +3387,8 @@
       "priceLow": 1.648,
       "weekDelta": -0.022,
       "weekDeltaDir": "down",
-      "why": "Quebec prices are 3.1¢/L above the week's low, and WTI crude is rising. Summer blend and holiday demand may keep pressure on. A small dip is possible mid-week before potential renewed strength.",
-      "advice": "Top off half now · wait for We",
+      "why": "Quebec prices are 3.1¢/L above the regional low, with weak downward momentum offset by rising WTI crude (+1.57). Holiday week and summer blend support current levels. Political pressure on retailers creates uncertainty.",
+      "advice": "Top off partially today",
       "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
@@ -3439,14 +3439,14 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.516,
       "priceLow": 1.471,
       "weekDelta": -0.02,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices are 3¢ above the recent low and down week-over-week, showing downward momentum. WTI crude is rising slightly, but summer blend and holiday week demand may stabilize prices near current levels rather than push them sharply higher.",
-      "advice": "Top off today · wait for dip",
-      "bestDayIdx": 2,
+      "why": "Saskatchewan prices have dropped 2¢/L week-over-week and sit 3.5¢ above the local low. WTI crude is rising, but holiday week retail pressure and scrutiny may keep pumps competitive. A small window exists before momentum shifts.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -3501,8 +3501,8 @@
       "priceLow": 1.961,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Northern Canada prices are 3% above the local low at $2.022/L. WTI crude is rising (+$1.57), but week-over-week trend is slightly negative. Holiday week demand and political pressure on retailers create mixed signals.",
-      "advice": "Top up half now, rest by Frida",
+      "why": "Northern Canada prices are 3% above recent lows despite a weekly decline. WTI crude is rising and political pressure on retailers creates uncertainty. Summer demand and holiday travel could support prices in the near term.",
+      "advice": "Half now · full Friday",
       "bestDayIdx": 5,
       "wtiDir": "up",
       "news": [
