@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-07T06:00:52.456867+00:00",
-    "pricesUpdatedAt": "2026-07-07T06:00:26.078238+00:00",
+    "updatedAt": "2026-07-07T12:00:59.384172+00:00",
+    "pricesUpdatedAt": "2026-07-07T12:00:35.083628+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-07T06:32:07.714829+00:00",
-    "nextAnalysisUpdate": "2026-07-07T12:02:07.714845+00:00"
+    "nextPriceUpdate": "2026-07-07T12:38:49.654652+00:00",
+    "nextAnalysisUpdate": "2026-07-07T18:08:49.654664+00:00"
   },
   "wti": {
     "price": 71.87,
@@ -24,11 +24,16 @@
       "priceLow": 2.57,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alabama gas is at a recent low of $2.57/gal, down 8.9¢ week-over-week despite WTI crude rising. Holiday week demand and political pressure on retailers create uncertainty, but current pricing is attractive.",
+      "why": "Prices are at a local low after a 8.9¢ drop week-over-week, though WTI crude is climbing. Holiday week demand and political pressure on retailers create uncertainty for the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -38,11 +43,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.403,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low after a week-long decline of 9.6¢/gal. Rising crude oil (+1.57) and political scrutiny on retailers create uncertainty, but current pricing reflects competitive pressure.",
+      "why": "Alaska prices have dropped 9.6¢ week-over-week and are at a recent low. Despite rising crude oil (+$1.57) and political pressure on retailers, current pricing reflects competitive market conditions. Holiday week demand may provide temporary stability.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -95,11 +100,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 2.937,
       "weekDelta": -0.082,
       "weekDeltaDir": "down",
-      "why": "Arizona gas is at a weekly low despite crude oil rising. Summer blend and holiday week typically support higher prices, but current pricing remains favorable. Political pressure on retailers may create near-term volatility.",
+      "why": "Arizona prices are at recent lows despite crude oil rising. Holiday week demand and political pressure on retailers create uncertainty, but current pricing offers a solid fill-up window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -152,11 +157,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -195,11 +195,16 @@
       "priceLow": 2.516,
       "weekDelta": -0.088,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at a recent low after a week-long decline of 8.8¢. WTI crude is rising, but holiday week demand and summer blend production typically support stable prices. You're near an opportune window.",
+      "why": "Arkansas prices have dropped 8.8¢ week-over-week and are at a local low. Despite crude rising and political pressure on retailers, current pricing represents a solid buying opportunity before potential volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -209,11 +214,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -252,11 +252,16 @@
       "priceLow": 5.245,
       "weekDelta": -0.142,
       "weekDeltaDir": "down",
-      "why": "California prices are at a recent low despite WTI crude rising. Week-over-week decline and current equilibrium at 5.245 suggest a stable floor. Summer blend and holiday week add marginal upward pressure, but political scrutiny on retailers may cap increases.",
+      "why": "California prices have dropped 14¢ week-over-week and hit local lows. Despite crude climbing and summer blend costs, competitive pressure from Trump administration scrutiny on retailers is keeping prices down temporarily. Holiday week demand may shift this.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -266,11 +271,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -309,11 +309,16 @@
       "priceLow": 3.563,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Colorado prices are at their weekly low after a -10¢ drop week-over-week. Rising WTI crude and holiday-week demand typically support prices, but political pressure on retailers may cap near-term increases. Current level represents a solid buying window.",
+      "why": "Prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is climbing, but holiday week demand and political pressure on retailers suggest a stable near-term floor. Current pricing offers good value.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -323,11 +328,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -366,11 +366,16 @@
       "priceLow": 3.206,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "CT prices are at their weekly low with modest WTI gains. Holiday week demand and political scrutiny on retailers create uncertainty, but summer blend costs are stable. Prices unlikely to drop further near-term.",
+      "why": "You're already at the lowest local price. While WTI is rising and political pressure on retailers adds uncertainty, the holiday week typically sees steady demand. Current price is a fair fill-up window before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -380,11 +385,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -423,11 +423,16 @@
       "priceLow": 2.974,
       "weekDelta": -0.028,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low despite rising WTI crude and summer blend premiums. Political pressure on retailers may provide temporary price relief, but holiday demand and upward crude trajectory suggest limited downside ahead.",
+      "why": "Delaware is at a recent low of $2.974/gal with modest weekly declines. However, rising WTI crude (+$1.57) and political pressure on retailers create uncertainty. Summer demand and holiday travel could push prices up over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -437,11 +442,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -475,16 +475,21 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.689,
       "priceLow": 3.567,
       "weekDelta": 0.122,
       "weekDeltaDir": "up",
-      "why": "Florida prices are 3.4% above the week's low and climbing on rising crude ($71.87, +$1.57). Summer blend and holiday driving boost demand. Political pressure on retailers may cap near-term gains, but upward crude momentum suggests further increases likely.",
-      "advice": "Top off today, hold rest",
+      "why": "Prices rose 12¢ week-over-week amid crude gains and summer blend premiums. Holiday week demand and political scrutiny create uncertainty, but crude momentum suggests prices may hold or edge higher near-term.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -494,11 +499,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -537,11 +537,16 @@
       "priceLow": 2.714,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at a recent low of $2.714/gal with week-over-week decline. Rising WTI crude (+$1.57) may reverse gains soon, but holiday week demand and political pressure on retailers create near-term uncertainty.",
+      "why": "Georgia prices are at their recent low of $2.714/gal with modest week-over-week decline. However, WTI crude is rising and political pressure on retailers may create volatility. Summer blend and holiday week add uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -551,11 +556,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -594,11 +594,16 @@
       "priceLow": 4.163,
       "weekDelta": -0.117,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices have dropped 12¢ week-over-week and are at their lowest point. Despite WTI crude rising, local supply appears stable. Holiday week demand may spike prices soon.",
+      "why": "Hawaii prices have dropped 11.7¢ this week and are at a recent low. Despite rising crude oil and political pressure on retailers, current pricing offers a solid fill-up window before potential summer demand spikes.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -608,11 +613,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -651,11 +651,16 @@
       "priceLow": 2.956,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Idaho prices have dropped 10¢ this week and sit at the recent low. However, WTI crude is rising and political pressure on retailers may create volatility. Summer blend and holiday week typically support stable–to-higher pricing ahead.",
+      "why": "Idaho prices have dropped 10¢ week-over-week and sit at recent lows. WTI crude is rising, but summer blend and holiday week demand may support current levels. Political pressure on retailers adds uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -665,11 +670,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -708,11 +708,16 @@
       "priceLow": 3.287,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Illinois gas is at its lowest point this week as crude edges up. Holiday week demand typically stabilizes prices, but political pressure on retailers may keep margins thin. Current price represents a solid buying window before potential seasonal increases.",
+      "why": "Illinois prices hit a weekly low and are down 8.9¢ year-over-week despite rising crude. Holiday week demand and political pressure on retailers create uncertainty, but current pricing is competitive. WTI uptick suggests limited downside soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -722,11 +727,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -765,11 +765,16 @@
       "priceLow": 2.942,
       "weekDelta": -0.08,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at its local low after a week-long decline, despite WTI crude rising today. Holiday week demand and summer blend premiums typically support prices, but retail pressure and political scrutiny may keep them flat or soften them further.",
+      "why": "Indiana prices hit a weekly low at $2.942/gal amid political pressure on retailers. WTI crude rising slightly, but holiday week dynamics and summer blend support current levels. Prices may stabilize here rather than drop further.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -779,11 +784,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -822,11 +822,16 @@
       "priceLow": 2.797,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at their lowest point this week after a 7.6¢ drop. WTI crude is rising, but holiday-week demand and political scrutiny on retailers suggest a short window before upward pressure. Summer blend adds slight cost.",
+      "why": "Iowa prices are at a recent low of $2.797/gal and have dropped 7.6¢ week-over-week. Rising WTI crude and political pressure on pricing create uncertainty, but current levels offer a solid opportunity before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -836,11 +841,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -879,11 +879,16 @@
       "priceLow": 2.743,
       "weekDelta": -0.074,
       "weekDeltaDir": "down",
-      "why": "Kansas prices hit a weekly low at $2.743/gal despite rising crude oil (+$1.57). WTI momentum is upward, signaling potential near-term increases. Holiday week demand and political scrutiny on retailers create uncertainty.",
+      "why": "Kansas prices are at a recent low despite crude climbing. Holiday week demand and political pressure on retailers create uncertainty, but current pricing offers a solid fill-up window before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -893,11 +898,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -936,11 +936,16 @@
       "priceLow": 2.731,
       "weekDelta": -0.095,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a recent low after a 9.5¢ weekly drop. WTI crude is rising, but current retail prices haven't caught up yet. Holiday week demand and political scrutiny on pricing create near-term stability.",
+      "why": "Kentucky prices have dropped 9.5¢ week-over-week and sit at a recent low. Despite upward crude pressure and holiday-week demand, current retail pricing reflects competitive pressure from political scrutiny on gas stations.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -950,11 +955,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -993,11 +993,16 @@
       "priceLow": 2.614,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Louisiana gas is at a recent low after dropping 9¢ week-over-week. Despite WTI crude rising today, summer blend supply and holiday week demand remain balanced. Political pressure on retailers may briefly suppress prices.",
+      "why": "Louisiana is at a recent low after dropping 9¢ week-over-week. WTI crude is rising and political pressure on retailers may soon ease supply incentives. Summer blend and holiday demand add upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1007,11 +1012,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.141,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at a recent low of $3.14/gal despite WTI crude rising. Political pressure on retailers may temporarily suppress pump prices. Summer blend and holiday week demand could push prices up soon.",
+      "why": "Maine prices are at their weekly low despite crude oil rising. Holiday week demand and political pressure on retailers create uncertainty, but current pricing offers a solid entry point before potential summer travel surges.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1064,11 +1069,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1107,11 +1107,16 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "Maryland prices are at their lowest point this week as crude edges up. Holiday demand typically supports prices, but political pressure on retailers and mixed inflation signals suggest limited upside risk near-term.",
+      "why": "Prices are at a local low and down week-over-week despite rising crude. Holiday week demand and political pressure on retailers create uncertainty, but current levels offer a favorable fill-up window before potential volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1121,11 +1126,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1164,11 +1164,16 @@
       "priceLow": 3.839,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 11¢ week-over-week and sit at a local low. WTI rising slightly and holiday week demand could provide upward pressure, but current levels offer a solid window before potential increases.",
+      "why": "Prices have dropped 11¢ week-over-week and are at local lows, but crude is rising and political pressure on retailers could shift supply dynamics unpredictably during the holiday week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1178,11 +1183,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1221,11 +1221,16 @@
       "priceLow": 3.015,
       "weekDelta": -0.082,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a recent low of $3.015/gal with strong week-over-week decline of -8.2¢. WTI crude rising slightly, but holiday week typically sees softer demand. Political pressure on retailers may cap upside.",
+      "why": "Michigan prices are at a recent low after a weekly decline of 8¢. However, rising WTI crude (+$1.57) and political pressure on retailers create near-term uncertainty. Summer demand and holiday travel may support prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1235,11 +1240,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1278,11 +1278,16 @@
       "priceLow": 3.614,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices have fallen 10.5¢ week-over-week and are at a local low. WTI crude is rising, but holiday week demand and summer blend supply create a favorable window. Political pressure on retailers may briefly stabilize prices.",
+      "why": "Minnesota prices have dropped 10.5¢ this week and hit a local low. Despite crude climbing and political pressure on retailers, current pricing is favorable. Holiday demand and summer blend typically support prices, but the recent downtrend and retail scrutiny create a brief window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1292,11 +1297,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.552,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Prices are at a 7-day low despite crude rising, suggesting retail competition is strong. Holiday week demand typically peaks mid-week, so early fills avoid potential spikes.",
+      "why": "Mississippi prices have dropped 8.9¢ week-over-week and are at their local low. Despite crude rising today and political pressure potentially volatilizing the market, current pricing offers a solid window before holiday-week demand and upstream cost increases ripple through.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1349,11 +1354,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1392,11 +1392,16 @@
       "priceLow": 2.706,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low after dropping 7 cents week-over-week, but WTI crude is rising and political pressure on retailers creates uncertainty. Summer blend and holiday week may add volatility.",
+      "why": "Missouri gas is at its weekly low after a 7-cent drop. WTI crude is rising and political pressure on retailers may stabilize prices near current levels. Holiday week demand could push prices higher by week-end.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1406,11 +1411,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1449,11 +1449,16 @@
       "priceLow": 3.019,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Montana prices have dropped 10.5¢ week-over-week and sit at a recent low. WTI crude is rising, but summer blend supply remains adequate during the holiday week. Political pressure on retailers may temporarily cap further increases.",
+      "why": "Montana prices have dropped 10.5¢ week-over-week and sit at a recent low. WTI is rising and political pressure on gas prices creates near-term uncertainty, but current pricing remains favorable for filling up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1463,11 +1468,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1506,11 +1506,16 @@
       "priceLow": 2.806,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Nebraska gas is at a recent low of $2.806/gal after a week-over-week drop of 7.6¢. WTI crude is rising, but political pressure on retailers may temporarily cap increases. Holiday week demand could shift prices unpredictably.",
+      "why": "You're at a recent low with week-over-week decline of 7.6¢. Crude is rising and political pressure on retailers may limit downside, but holiday week demand and summer blend support current levels. This is a solid window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1520,11 +1525,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.495,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at a recent low after dropping nearly 10¢ week-over-week. WTI crude is rising and political pressure on retailers adds uncertainty, but current prices represent a solid refill opportunity before potential summer demand spikes.",
+      "why": "Nevada gas is at a local low after a week-long decline. Crude is rising and political pressure on retailers adds uncertainty, but current pricing remains favorable. Holiday week demand may keep prices stable or push them up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1577,11 +1582,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "NH prices are at a recent low despite crude rising $1.57. Week-over-week decline shows downward momentum. Holiday week demand may provide temporary support, but political pressure on retailers could limit increases.",
+      "why": "NH prices are at a recent low and down week-over-week despite rising crude. Holiday week demand and political scrutiny on retailers may limit further drops. Current pricing offers a solid fill-up window before potential summer travel surges.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1634,11 +1639,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at a recent low with week-over-week decline. Crude oil is rising, but holiday week demand and political scrutiny on pricing create near-term stability. Summer blend and current equilibrium suggest limited downside.",
+      "why": "NJ prices are at a recent low, but WTI crude is rising and political pressure on retailers may ease downward momentum. Holiday week demand adds volatility. Current price is a reasonable opportunity with slight downside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1691,11 +1696,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1734,11 +1734,16 @@
       "priceLow": 2.82,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices are at a local low of $2.82/gal after a strong weekly decline of 9.9¢. However, crude is rising and political pressure on retailers creates unpredictability. Summer blend and holiday week demand may support prices or trigger volatility.",
+      "why": "Prices have dropped 10¢ week-over-week and are at local lows despite rising crude. Holiday week demand and political pressure on retailers create uncertainty, but current levels offer a good fill-up window before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1748,11 +1753,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1791,11 +1791,16 @@
       "priceLow": 3.978,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "NY prices are at a recent low with flat week-over-week movement. Rising WTI crude (+1.57) suggests upward pressure ahead, but summer blend competition and retail scrutiny may cap increases short-term.",
+      "why": "Prices are at a local low with flat week-over-week movement, but rising crude (+$1.57) and political pressure create uncertainty. Holiday week demand may support prices short-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1805,11 +1810,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.835,
       "weekDelta": -0.026,
       "weekDeltaDir": "down",
-      "why": "NC prices are at their lowest point this week despite rising crude oil, suggesting retailers are absorbing costs amid political pressure. Holiday week demand typically supports prices, but current competitive environment favors buyers.",
+      "why": "You're at a recent low of $2.835/gal with a slight week-over-week decline. Despite upward crude pressure and political scrutiny on pricing, current retail levels remain favorable. Holiday week demand may support prices or trigger brief dips.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1862,11 +1867,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1905,11 +1905,16 @@
       "priceLow": 2.888,
       "weekDelta": -0.078,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at a 7-week low despite crude climbing. Holiday week demand typically softens mid-week, and political pressure on retailers may keep margins thin. Summer blend costs are elevated, but downward momentum favors quick action.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "North Dakota prices have dropped 7.8¢ this week and are at the lowest point nearby. Despite rising crude oil and holiday-week demand, current pricing reflects recent downward momentum. Political pressure on retailers may temporarily suppress further increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1919,11 +1924,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 3.772,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at their local low with flat week-over-week movement. However, rising WTI crude (+1.57) and political pressure on retailers create uncertainty. Holiday week demand may support current levels.",
+      "why": "Prices are at a local low with flat week-over-week movement. Rising WTI crude (+1.57) suggests upward pressure ahead, but holiday week volatility and political scrutiny on retailers may keep near-term prices stable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -1976,11 +1981,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.578,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a local low after dropping 9¢ week-over-week. Rising WTI crude and political scrutiny create mixed signals, but current pricing is favorable relative to recent movement. Holiday week demand may lift prices by mid-week.",
+      "why": "Oklahoma prices hit a weekly low at $2.578/gal after dropping 9¢ week-over-week. Despite rising crude (+$1.57), retail margins remain compressed under political scrutiny. Summer demand and holiday travel create upside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2033,11 +2038,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2076,11 +2076,16 @@
       "priceLow": 3.55,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at a recent low despite rising crude oil. Week-over-week decline of 9.9¢ suggests downward momentum, though summer blend and holiday demand may provide support. Political scrutiny on pricing could keep retailers competitive.",
+      "why": "Prices have dropped 10¢ week-over-week and are at local lows despite rising crude oil, suggesting retail margins are being squeezed. Holiday week demand and political pressure on pricing create uncertainty ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2090,11 +2095,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2133,11 +2133,16 @@
       "priceLow": 3.272,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "PA prices are at their recent low of $3.272/gal, down slightly week-over-week. Despite rising crude oil (+$1.57) and holiday week demand, current retail pricing remains competitive. Political pressure on gas stations may cap near-term increases.",
+      "why": "You're at the lowest local price with crude rising and political pressure on retailers creating uncertainty. Summer blend and holiday week typically support steady demand. Prices may hold or edge up as crude climbs.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2147,11 +2152,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.16,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Rhode Island prices are at their weekly low with modest week-over-week decline. Rising crude oil and political pressure on retailers create uncertainty, but current pricing offers a reasonable entry point during summer driving season.",
+      "why": "Rhode Island prices are at a local low after a modest weekly decline. WTI crude is rising and political pressure on gas stations creates short-term uncertainty, but current pricing reflects recent weakness.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2204,11 +2209,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2247,11 +2247,16 @@
       "priceLow": 2.835,
       "weekDelta": -0.026,
       "weekDeltaDir": "down",
-      "why": "SC prices are at a 7-day low despite WTI crude rising $1.57. Holiday week demand and summer blend typically support prices, but current local pricing is competitive. Crude upward momentum suggests limited downside ahead.",
+      "why": "SC prices are at a recent low despite rising crude oil and political pressure on retailers. Holiday week demand and summer blend keep upward pressure, but current rates offer a solid fill-up window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2261,11 +2266,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2304,11 +2304,16 @@
       "priceLow": 2.861,
       "weekDelta": -0.077,
       "weekDeltaDir": "down",
-      "why": "South Dakota prices are at their lowest point this week and down 7.7¢ year-over-year. WTI crude is rising slightly, but political pressure on retailers may be keeping pump prices artificially soft—a rare opportunity before potential increases.",
+      "why": "You're at the lowest local price after a solid weekly drop of 7.7¢. WTI crude is rising, and political pressure on gas stations adds uncertainty, but current pricing is favorable and unlikely to fall much further this week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2318,11 +2323,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2361,11 +2361,16 @@
       "priceLow": 2.641,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at its lowest point this week, down 9¢ year-over-year. Despite crude oil rising, retail competition and holiday week pressure are keeping pump prices down. Political scrutiny on pricing adds uncertainty.",
+      "why": "Tennessee prices have dropped 9¢ week-over-week and sit at a recent low. Despite upward crude pressure and holiday-week demand, current pricing offers a solid fill-up window before potential summer travel pushes prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2375,11 +2380,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2418,11 +2418,16 @@
       "priceLow": 3.23,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas gas is at its lowest point with no recent movement. Summer blend and holiday week typically support prices, but political pressure on retailers may create uncertainty. WTI crude rising slightly suggests limited downside in coming days.",
+      "why": "Texas prices are at a recent low with flat week-over-week movement. Rising WTI crude (+1.57) and holiday demand suggest upward pressure ahead, but current pricing offers a brief opportunity before typical holiday-week increases materialize.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2432,11 +2437,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2475,11 +2475,16 @@
       "priceLow": 3.019,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Utah gas hit a weekly low of $3.019/gal with a strong -10.5¢ drop week-over-week. Crude is rising (+$1.57) and political pressure on retailers creates near-term uncertainty, but current pricing remains favorable in the current cycle.",
+      "why": "Utah prices have dropped 10.5¢ week-over-week and sit at recent lows despite crude ticking up. Holiday week demand and political pressure on retailers create uncertainty, but current pricing remains favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2489,11 +2494,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2532,11 +2532,16 @@
       "priceLow": 3.141,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its recent low of $3.14/gal after a modest weekly decline. Despite rising crude oil (+$1.57), retail pressure from political scrutiny may temporarily cap increases. Summer blend and holiday demand typically support prices.",
+      "why": "Vermont gas is at a recent low of $3.14/gal with modest week-over-week decline. WTI crude is rising and political pressure on gas stations may be temporary. Holiday week demand could push prices up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2546,11 +2551,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 2.928,
       "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "Virginia gas is at its local low of $2.928/gal with modest week-over-week decline. However, crude is rising (+1.57) and political pressure on retailers could create volatility. Holiday week adds unpredictability to typical supply patterns.",
+      "why": "Virginia prices are at their lowest point this week as crude edges higher. Holiday week demand and political pressure on retailers create short-term uncertainty, but current pricing reflects a favorable window before potential summer-blend cost increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2603,11 +2608,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 5.029,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their lowest point with zero week-over-week change. Despite rising crude oil (+$1.57), retail competition and political scrutiny on pricing may cap increases near-term. Summer blend and holiday week typically support stable demand.",
+      "why": "Prices are at a local low point with flat week-over-week movement. Rising crude and political pressure create uncertainty, but current retail rates reflect stable market conditions. Holiday week demand typically supports prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2660,11 +2665,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2703,11 +2703,16 @@
       "priceLow": 2.956,
       "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a recent low point with modest week-over-week decline. Rising crude (+1.57) and holiday-week demand pressures may limit further drops. Current price is a reasonable fill-up window before potential upside.",
+      "why": "WV gas is at a recent low and holding steady despite crude ticking up. Holiday week demand and political scrutiny on prices create uncertainty, but current levels offer a fair fill-up window before potential summer volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2717,11 +2722,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2760,11 +2760,16 @@
       "priceLow": 2.979,
       "weekDelta": -0.08,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices are at a recent low after declining 8¢ week-over-week, despite rising crude oil. Political pressure on retailers may temporarily suppress prices, but summer blend and holiday demand could reverse gains.",
+      "why": "Wisconsin prices have dropped 8¢ this week and sit at a local low. Despite crude climbing and political pressure on retailers, current pricing reflects competitive market conditions. Holiday week demand may support prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2774,11 +2779,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2817,11 +2817,16 @@
       "priceLow": 2.929,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Wyoming prices are at a recent low after dropping 10¢ week-over-week. WTI crude is rising and political pressure on retailers adds uncertainty, but current levels offer a good fill-up window before potential volatility.",
+      "why": "Wyoming prices have dropped 10¢ week-over-week and sit at recent lows despite crude climbing. Political pressure on retailers may cap further increases, though holiday demand could push prices up mid-week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2831,11 +2836,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2874,11 +2874,16 @@
       "priceLow": 3.299,
       "weekDelta": -0.031,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a recent low despite crude ticking up. Holiday week demand may push prices higher mid-week. Summer blend and political scrutiny suggest volatility ahead, but current pricing offers a solid fill-up window before potential increases.",
+      "why": "DC prices are at their lowest point with modest weekly declines. Rising crude prices (+1.57) and political pressure on retailers create uncertainty, but current levels offer a fair entry point before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2888,11 +2893,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2931,11 +2931,16 @@
       "priceLow": 1.504,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are 4.7¢/L above the weekly low despite modest downward WoW momentum. WTI crude rising +1.57 suggests upward pressure ahead. Political scrutiny may temporarily temper increases, but summer blend and holiday demand support current levels.",
-      "advice": "Top up by Thursday",
+      "why": "Alberta prices are 3% above the week's low despite a modest weekly decline. WTI crude is rising and political pressure on retailers may cause temporary volatility, but summer demand and holiday week dynamics suggest limited downside near-term.",
+      "advice": "Top off today, monitor Thursda",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -2945,11 +2950,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -2988,11 +2988,16 @@
       "priceLow": 1.813,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "BC prices are 5.6¢ above the regional low despite a slight weekly decline. WTI crude is rising and holiday week demand typically supports higher prices. Summer blend adds cost. A modest gap remains before a compelling fill-up signal.",
+      "why": "BC prices are 3% above recent lows despite flat weekly trends. WTI crude climbing and political pressure on retailers create uncertainty. Summer blend and holiday week typically support steady-to-higher pricing ahead.",
       "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3002,11 +3007,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3040,16 +3040,21 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.608,
       "priceLow": 1.56,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are near the 3¢ low with flat week-over-week trend. Rising WTI (+1.57) suggests upward pressure ahead, but holiday week volatility and retail scrutiny may cap increases short-term.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Manitoba prices are 3¢ above recent lows despite slight weekly decline. WTI crude rising and political pressure on retailers creates uncertainty. Holiday week demand may support current levels, but no immediate sharp increase expected.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3059,11 +3064,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3097,16 +3097,21 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.684,
       "priceLow": 1.633,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are 3.1¢/L above the local low, and crude is rising. Holiday week demand may push prices higher before they stabilize. Current pricing offers a modest window before potential increases.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "New Brunswick prices are 3¢/L above the regional low. WTI crude is rising and political pressure on retailers may ease downward momentum. Holiday week demand typically supports higher prices through mid-week.",
+      "advice": "Top off today · wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3116,11 +3121,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3159,11 +3159,16 @@
       "priceLow": 1.665,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Newfoundland prices are 3.2 cents above recent low, with crude rising and political pressure on retailers creating uncertainty. Holiday week demand and summer blend support current levels, but retailer scrutiny may create downward pressure soon.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "Prices are 3.1¢/L above the recent low and WTI crude is rising despite political pressure on retailers. Holiday week demand and summer blend costs keep upward tension, though scrutiny may temporarily cap increases.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3173,11 +3178,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3211,16 +3211,21 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.767,
       "priceLow": 1.714,
       "weekDelta": 0.114,
       "weekDeltaDir": "up",
-      "why": "Nova Scotia prices are 3.3% above the week's low and up 11.4¢ from last week. WTI crude is rising and summer blend costs more. Political pressure on retailers adds uncertainty, but holiday week demand typically keeps prices elevated.",
-      "advice": "Hold until Thursday",
+      "why": "Prices jumped 11.4¢/L week-over-week and remain 5.3¢ above the local low. Crude is rising and political pressure on retailers may be theater—fundamentals favor higher prices into the holiday week.",
+      "advice": "Top off today, wait for dips",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3230,11 +3235,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3273,11 +3273,16 @@
       "priceLow": 1.576,
       "weekDelta": 0.014,
       "weekDeltaDir": "up",
-      "why": "Ontario prices are 3.1¢/L above the recent low and rising with crude climbing. Political scrutiny may create short-term volatility, but summer blend and holiday week demand suggest upward pressure persists.",
+      "why": "Prices are 3.1¢ above the regional low and rising with crude oil climbing. Holiday week demand and political scrutiny on retailers create uncertain near-term momentum, but summer blend costs remain relatively stable.",
       "advice": "Top off partially today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3287,11 +3292,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3325,16 +3325,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.673,
       "priceLow": 1.623,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "PE prices are 5¢/L above the recent low despite flat week-over-week trends. WTI crude is rising and holiday week demand typically supports prices. Political pressure on retailers may create temporary volatility, but upward crude momentum suggests limited near-term savings.",
-      "advice": "Top up today · monitor",
-      "bestDayIdx": 0,
+      "why": "PEI prices are 3¢ above local low with crude rising and political pressure creating uncertainty. Holiday week demand and summer blend support current levels, but retail scrutiny may limit further increases.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3344,11 +3349,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3387,11 +3387,16 @@
       "priceLow": 1.665,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Quebec prices are 3.1¢/L above the local low despite a flat week trend. WTI crude is rising and holiday-week demand typically pressures pumps. Political scrutiny may create temporary retail hesitation, but upward crude signals suggest limited downside.",
-      "advice": "Top off by Wednesday",
-      "bestDayIdx": 3,
+      "why": "Quebec prices are 3.2¢ above the week's low, but WTI is climbing and political pressure on retailers may limit further drops. Holiday week demand and summer blend pricing support current levels.",
+      "advice": "Top off today, monitor",
+      "bestDayIdx": 2,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3401,11 +3406,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3439,16 +3439,21 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.532,
       "priceLow": 1.486,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Saskatchewan prices are 1.5¢/L above the regional low, with crude climbing and holiday demand pushing margins. Political pressure on retailers may briefly cap increases, but WTI's upward trend suggests limited downside this week.",
-      "advice": "Top off today · watch Thu",
-      "bestDayIdx": 4,
+      "why": "Saskatchewan prices are 1.5¢ above the recent low, but crude is rising and political pressure on retailers may be temporary. Holiday week demand and summer blend support current levels, with upside risk if geopolitical tensions escalate.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3458,11 +3463,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
@@ -3501,11 +3501,16 @@
       "priceLow": 1.982,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Northern Canada prices are 3¢/L above the recent low of $1.982. WTI crude is rising (+1.57), but week-over-week decline and political pressure on retailers suggest a brief window before summer demand peaks. Holiday week may create volatility.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Current price is near recent lows despite upward crude momentum. Holiday week demand and political scrutiny on retailers create uncertainty. Summer blend maintains baseline costs.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
         {
           "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
           "source": "NewsBreak",
@@ -3515,11 +3520,6 @@
           "headline": "Gas prices under scrutiny as Bessent vows to hold retailers accountable",
           "source": "Fox Business",
           "url": "https://www.foxbusiness.com/media/bessent-warns-gas-stations-were-watching-threat-trump-demands-immediate-price-cuts"
-        },
-        {
-          "headline": "Inflation In 'Core Services' Surges, Plus AI’s Impact On Electricity And Goods",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/article/4917914-inflation-in-core-services-surges-plus-ai-impact-on-electricity-goods-inflation-beyond-gasoline"
         }
       ],
       "breakdown": {
