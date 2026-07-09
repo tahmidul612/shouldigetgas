@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-07-09T06:01:02.151269+00:00",
-    "pricesUpdatedAt": "2026-07-09T06:00:07.827014+00:00",
+    "updatedAt": "2026-07-09T12:00:35.497796+00:00",
+    "pricesUpdatedAt": "2026-07-09T12:00:11.915321+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-09T06:32:40.611241+00:00",
-    "nextAnalysisUpdate": "2026-07-09T12:02:40.611253+00:00"
+    "nextPriceUpdate": "2026-07-09T12:33:43.153960+00:00",
+    "nextAnalysisUpdate": "2026-07-09T18:03:43.153986+00:00"
   },
   "wti": {
-    "price": 71.2,
-    "dir": "flat",
-    "change": 0.0
+    "price": 69.6,
+    "dir": "down",
+    "change": -0.13
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.57,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Alabama prices have dropped 8.9¢ week-over-week and sit at recent lows. WTI crude is flat, suggesting no immediate pressure upward. Political scrutiny on gas prices may keep retailers competitive short-term.",
+      "why": "Alabama prices are at a 7-day low of $2.57/gal with crude trending downward. Week-over-week decline of 8.9¢ signals momentum. Political pressure on retailers may temporarily support lower prices, but volatility remains.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -81,10 +81,10 @@
       "priceLow": 3.403,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at their lowest point this week with WTI crude flat. Downward momentum (-9.6¢ WoW) suggests stability near current lows. Summer blend and no holiday factors support steady supply conditions.",
+      "why": "Alaska prices are at a recent low after a week-over-week decline. WTI crude is trending downward, and summer blend fuel is in effect. Political pressure on gas stations may temporarily suppress prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -133,15 +133,15 @@
       "city": "Phoenix",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.937,
       "priceLow": 2.937,
       "weekDelta": -0.082,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at a recent low of $2.937/gal with a solid week-over-week drop of 8.2 cents. WTI crude is flat around $71, suggesting limited upward pressure. Political scrutiny on gas prices may keep retailers competitive short-term.",
-      "advice": "Fill up today",
+      "why": "Prices have dropped 8¢ week-over-week and are at their local low. WTI crude is declining, suggesting downward momentum may continue, but current pricing offers a reasonable fill-up window before any political intervention effects stabilize.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -195,10 +195,10 @@
       "priceLow": 2.516,
       "weekDelta": -0.088,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its lowest point this week as crude holds steady. Prices dropped 8.8¢ week-over-week and there's no immediate pressure from oil markets. Political scrutiny on retailers may keep prices competitive.",
+      "why": "Arkansas gas is at its lowest point this week as crude falls and political pressure mounts on retailers to cut prices. Current price matches the local low, creating a favorable buying window before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -252,10 +252,10 @@
       "priceLow": 5.245,
       "weekDelta": -0.142,
       "weekDeltaDir": "down",
-      "why": "California prices dropped 14¢ week-over-week and are at recent lows. WTI crude is flat, suggesting stability. Summer blend premium and political pressure on retailers create uncertainty about near-term direction.",
+      "why": "California prices have dropped 14¢ week-over-week and now sit at a local low. WTI crude is declining, and retail pressure from political scrutiny may keep upward pressure limited in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -309,10 +309,10 @@
       "priceLow": 3.563,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Colorado prices have dropped 10¢ this week and now match the local low. WTI crude is stable at $71, and summer blend is in effect. Political pressure on retailers may create temporary volatility, but current pricing reflects fair market conditions.",
+      "why": "Colorado prices are at their lowest point this week and have dropped 10¢ year-over-year. WTI crude is declining, and summer blend supplies are stable. Political pressure on retailers may keep prices competitive near-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -366,10 +366,10 @@
       "priceLow": 3.206,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Connecticut gas is at its lowest point with flat crude oil. Week-over-week decline shows downward momentum has stabilized. Political pressure on retailers may create brief volatility, but current pricing reflects a local low with minimal further downside expected.",
+      "why": "Connecticut gas is at a recent low with crude declining. Week-over-week drop of 3¢ signals downward momentum, though political pressure on retailers adds uncertainty. Current price is a solid entry point.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -423,10 +423,10 @@
       "priceLow": 2.974,
       "weekDelta": -0.028,
       "weekDeltaDir": "down",
-      "why": "Delaware's gas price is at its recent low of $2.97/gal with mild week-over-week decline. WTI crude is flat, and political pressure on retailers may temporarily suppress prices, but summer demand typically keeps upward pressure.",
+      "why": "Delaware prices are at their recent low of $2.974/gal with WTI crude trending down. Week-over-week decline shows downward momentum, and political pressure on retailers may create further downside in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -480,10 +480,10 @@
       "priceLow": 3.567,
       "weekDelta": 0.122,
       "weekDeltaDir": "up",
-      "why": "Florida prices are up 12¢ week-over-week and 12¢ above the regional low. Crude is flat and political pressure on retailers creates uncertainty. Summer blend costs more, but retail margins may tighten under scrutiny.",
-      "advice": "Top off today · wait for cuts",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Florida prices are 3.4% above the week's low and up significantly week-over-week, though crude is falling. Political pressure on retailers may temporarily cap further rises, but summer demand and refinery constraints typically support elevated prices.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -537,10 +537,10 @@
       "priceLow": 2.714,
       "weekDelta": -0.025,
       "weekDeltaDir": "down",
-      "why": "Georgia gas is at its lowest point this week with flat crude prices and mild weekly decline. Summer blend availability supports stable pricing near current lows. Political pressure on retailers may create short-term volatility but doesn't fundamentally change near-term trajectory.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Georgia prices are at a recent low of $2.71/gal with WTI crude declining. Week-over-week decline shows downward momentum, though political pressure on retailers adds short-term uncertainty. Summer blend typically stabilizes mid-week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -594,10 +594,10 @@
       "priceLow": 4.163,
       "weekDelta": -0.117,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices have dropped 12 cents week-over-week and are at their local low. WTI crude is flat, suggesting no immediate upward pressure. Summer blend and stable crude support current pricing as a reasonable fill-up window.",
+      "why": "Hawaii prices are at their lowest point this week as crude edges downward. Political pressure on retailers may create brief stability, but summer demand typically supports prices. Current level is a reasonable window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -651,10 +651,10 @@
       "priceLow": 2.956,
       "weekDelta": -0.103,
       "weekDeltaDir": "down",
-      "why": "Idaho gas is at a recent low after dropping 10¢ this week. WTI crude is flat and political pressure on retailers may keep prices contained near current levels. Summer blend and stable crude support a good fill-up window.",
+      "why": "Idaho prices are at their lowest point this week and down significantly year-over-year. WTI crude is trending downward, but political pressure on retailers and summer blend premiums may limit further drops in the short term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -708,10 +708,10 @@
       "priceLow": 3.287,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Illinois prices hit a recent low at $3.287/gal and are down 9¢ week-over-week. Crude is flat and political pressure on retailers may cap near-term increases. Current levels offer a solid fill-up window.",
+      "why": "Illinois gas is at a recent low after a week-over-week decline. WTI crude is trending downward, and summer blend pricing is stable. Current conditions favor filling up now before potential volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -765,10 +765,10 @@
       "priceLow": 2.942,
       "weekDelta": -0.08,
       "weekDeltaDir": "down",
-      "why": "Indiana prices have dropped 8¢ week-over-week and are at a local low. WTI crude is flat, suggesting stability. Summer blend and lack of supply disruptions support current pricing.",
+      "why": "Indiana prices are at their lowest point this week and crude is declining. Political pressure on retailers may temporarily cap upward movement, creating a favorable fill-up window before any rebound.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -822,10 +822,10 @@
       "priceLow": 2.797,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Iowa prices are at a recent low of $2.797/gal with steady WTI crude. Week-over-week decline shows downward momentum. Political pressure on retailers may create short-term volatility, but current pricing offers a solid fill-up window.",
+      "why": "Iowa prices are at a recent low of $2.797/gal with crude trending down. Weekly decline of 7.6¢ shows momentum, and political pressure on retailers may keep upward movement limited near-term.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -879,10 +879,10 @@
       "priceLow": 2.743,
       "weekDelta": -0.074,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at its lowest point this week after a 7¢ drop. WTI crude is flat and stable. Political pressure on retailers may keep prices competitive short-term, creating a favorable buying window.",
+      "why": "Kansas prices are at a recent low with WTI crude trending downward. Week-over-week decline of 7.4¢ suggests momentum is favorable. Political pressure on retailers may cap further increases.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -936,10 +936,10 @@
       "priceLow": 2.731,
       "weekDelta": -0.095,
       "weekDeltaDir": "down",
-      "why": "Kentucky gas is at a recent low of $2.73/gal with steady crude prices and downward week-over-week momentum. Political pressure on retailers may temporarily suppress prices, creating a favorable fill-up window before potential summer demand increases.",
+      "why": "Kentucky prices have dropped 9.5¢ week-over-week and are at recent lows. WTI crude is declining, and current pricing reflects favorable market conditions. Political pressure on retailers may create uncertainty but hasn't driven prices lower yet.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -993,10 +993,10 @@
       "priceLow": 2.614,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices have dropped 9¢ week-over-week and sit at a recent low. WTI crude is flat, suggesting stable near-term supply. Summer blend is in effect and political pressure on retailers may keep margins competitive.",
+      "why": "Louisiana prices have dropped 9 cents week-over-week and match recent lows. WTI crude is declining, suggesting downward momentum. Political pressure on retailers may create short-term volatility, but current pricing is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.141,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at their recent low of $3.14/gal with modest week-over-week decline. Crude is flat and political pressure on retailers may create short-term volatility, but current levels offer a fair fill-up window.",
+      "why": "Maine prices are at their lowest point this week amid crude oil decline. Political pressure on retailers may temporarily cap increases, creating a stable low-price window before potential summer demand surge.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped slightly week-over-week and are at their local low. Crude oil is flat with no immediate pressure, and summer blend is standard. Political scrutiny on gas stations may create downward pressure short-term.",
+      "why": "Maryland prices are at their lowest point with downward WTI momentum. Crude is declining and week-over-week prices dropped nearly 3¢. Political pressure on retailers may provide short-term stability, but fundamentals suggest further modest easing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1164,10 +1164,10 @@
       "priceLow": 3.839,
       "weekDelta": -0.11,
       "weekDeltaDir": "down",
-      "why": "MA prices have dropped 11¢ week-over-week and sit at a recent low. WTI crude is flat, suggesting stable wholesale costs. Political pressure on retailers may keep pump prices competitive in the near term.",
+      "why": "MA prices have dropped 11¢ week-over-week and are at a recent low. WTI crude is declining and political pressure on retailers may keep upward momentum limited in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.015,
       "weekDelta": -0.082,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at its local low of $3.015/gal with steady WTI crude. Week-over-week decline suggests downward momentum has stalled. Political pressure on retailers may create artificial support, reducing further near-term drops.",
+      "why": "Michigan prices are at a recent low of $3.015/gal with WTI crude trending down. Week-over-week decline of $0.082 signals downward momentum, though political pressure on retailers adds short-term uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.614,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices have dropped 10.5¢ this week and hit local lows. WTI crude is flat, suggesting stability ahead. Summer blend and no holiday pressure mean no imminent spikes.",
+      "why": "Minnesota prices have dropped 10.5¢ week-over-week and are at a recent low. WTI crude is sliding, and summer blend supply is stable. Political pressure on retailers may create near-term volatility, but current pricing offers a solid entry point.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.552,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at its lowest point this week, down 9 cents. WTI crude is flat, and summer blend inventory is stable. Political pressure on retailers may temporarily suppress prices, but fundamentals don't suggest further near-term drops.",
+      "why": "Mississippi gas is at a recent low after dropping 9 cents week-over-week. Crude is declining and prices have stabilized at current levels. Political pressure on retailers may create short-term volatility, but fundamentals support current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.706,
       "weekDelta": -0.073,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at their lowest point this week, down 7¢ year-over-year. Crude is flat and political pressure on retailers may keep pump prices competitive short-term. Current price is a solid fill-up window.",
+      "why": "Missouri prices are at a 7-week low after declining 7 cents. WTI crude is falling and political pressure on retailers may keep downward momentum alive through the week.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.019,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Montana prices have dropped 10.5¢ this week and are at their lowest point. WTI crude is flat, suggesting stability. Political pressure on gas prices may create short-term volatility, but current levels represent a good buying window.",
+      "why": "Montana gas hit a recent low at $3.019/gal with week-over-week drops of 10.5¢. WTI crude is declining and political pressure on retailers may cap further increases. Current conditions favor filling up now.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1506,10 +1506,10 @@
       "priceLow": 2.806,
       "weekDelta": -0.076,
       "weekDeltaDir": "down",
-      "why": "Nebraska prices are at a recent low of $2.806/gal, and WTI crude is flat with no upward pressure expected. Week-over-week decline shows downward momentum, but further drops are unlikely in the near term.",
+      "why": "Nebraska gas is at its lowest point this week as crude edges down. Political pressure on retailers and weakening crude momentum suggest prices may hold steady or dip slightly in the next few days.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.495,
       "weekDelta": -0.098,
       "weekDeltaDir": "down",
-      "why": "Nevada prices hit a recent low of $3.495/gal with a solid weekly decline of -$0.098. WTI crude is flat, and summer blend supply remains stable. Political pressure on retailers may create short-term volatility but current pricing is favorable.",
+      "why": "Nevada prices are at a recent low of $3.495/gal with crude trending down. Week-over-week decline of nearly 10¢ shows momentum, though political pressure on retailers adds uncertainty to near-term direction.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "Prices are at a local low with modest week-over-week decline. Crude is flat and summer blend is standard. Political pressure on retailers may temporarily cap prices, but no major drop expected soon.",
+      "why": "NH gas is at its lowest point this week as crude dips. Political pressure on retailers may create short-term volatility, but current prices reflect recent lows with modest downward momentum.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.048,
       "weekDelta": -0.029,
       "weekDeltaDir": "down",
-      "why": "New Jersey prices are at a recent low with modest week-over-week decline. WTI crude is flat, signaling stability. Summer blend and political scrutiny on pricing suggest limited downside risk near-term.",
+      "why": "NJ prices sit at recent lows with WTI crude declining. Week-over-week drop of 2.9¢ shows downward momentum, though political pressure on retailers creates short-term uncertainty. Summer blend and stable supply support current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1734,10 +1734,10 @@
       "priceLow": 2.82,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped nearly 10¢ in a week and are at local lows. WTI crude is flat around $71, and summer blend supplies are stable. Political pressure on retailers may keep downward momentum brief.",
+      "why": "Prices have dropped 9.9¢ week-over-week and are at a local low. WTI crude is declining, and summer blend supply remains steady. Political pressure on retailers may create temporary floor on cuts.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1791,10 +1791,10 @@
       "priceLow": 3.978,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "NY gas is at a local low of $3.978/gal with flat WTI crude and zero week-over-week change. No immediate pressure to fall further, and summer blend demand remains steady. Current pricing offers a good window without risk of significant drops.",
-      "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "NY gas is at a recent low of $3.98/gal with WTI crude declining. Political pressure on retailers suggests prices may hold steady or dip slightly in coming days, but upward risk exists if crude stabilizes.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.835,
       "weekDelta": -0.026,
       "weekDeltaDir": "down",
-      "why": "NC prices are at their recent low of $2.835/gal with slight weekly decline. Crude oil is flat and political pressure on retailers creates near-term price stability, though upside risks exist from policy uncertainty.",
+      "why": "NC prices are at a recent low of $2.835/gal with downward momentum week-over-week. Crude oil is declining, but political pressure on retailers creates uncertainty. Summer blend costs more, limiting further drops.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1905,10 +1905,10 @@
       "priceLow": 2.888,
       "weekDelta": -0.078,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 7.8 cents week-over-week and are at a local low. WTI crude is flat, suggesting stability. Political pressure on retailers may create short-term volatility, but current prices offer a solid entry point.",
+      "why": "North Dakota is at a recent low of $2.888/gal with crude falling and week-over-week decline of 7.8 cents. Summer blend and downward crude momentum suggest prices have stabilized near short-term floor.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -1962,10 +1962,10 @@
       "priceLow": 3.772,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are flat week-over-week at $3.77/gal, matching the local low. WTI crude is stable with no downward pressure expected. Political scrutiny may add unpredictability, but current pricing offers no advantage to waiting.",
+      "why": "Prices are at a local low with crude trending downward. Political pressure on retailers may create brief volatility, but fundamentals support stable-to-lower pricing in the near term.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 3,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.578,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at their lowest point, down 9¢ week-over-week. Crude is flat and political pressure on retailers may cap near-term increases. Current levels offer a solid filling opportunity.",
+      "why": "Oklahoma prices are at their lowest point this week and WTI crude is falling. Political pressure on retailers may create temporary friction, but fundamentals support lower prices ahead. Current timing is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.55,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at a recent low of $3.55/gal and have dropped nearly 10¢ week-over-week. Crude is flat, and summer blend supply is stable. Political pressure on gas prices may create short-term volatility, but current conditions favor filling up now.",
+      "why": "Oregon prices are at a recent low of $3.55/gal with crude trending down. Week-over-week decline of 9.9 cents signals momentum. Political pressure on retailers may create short-term uncertainty but doesn't override the current favorable pricing window.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.272,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "PA prices are at their weekly low of $3.272/gal with modest decline momentum. Crude oil is flat, and political pressure on retailers may create brief downside, but summer blend costs limit major drops.",
+      "why": "Prices are at a local low with crude trending downward, but political pressure on retailers creates uncertainty. Summer blend costs are elevated, though WTI weakness suggests modest relief ahead.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 3,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.16,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Rhode Island gas is at its local low of $3.16/gal with slight weekly decline. Crude is flat and political pressure on retailers may create short-term volatility, but current pricing represents a decent fill-up window.",
-      "advice": "Fill up today",
+      "why": "Rhode Island prices are at their local low of $3.16/gal with weak crude momentum (down to $69.60). WOW decline and downward pressure suggest further softening likely within days as political scrutiny may keep retail margins tight.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.835,
       "weekDelta": -0.026,
       "weekDeltaDir": "down",
-      "why": "SC prices are at their lowest point this week with flat crude markets. Political pressure on retailers may create short-term volatility, but current pricing offers a solid entry point with no immediate downward catalyst.",
+      "why": "SC prices are at their recent low of $2.835/gal with crude trending down. Weekly decline of 2.6¢ shows downward momentum, though political pressure on retailers creates short-term uncertainty.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2304,10 +2304,10 @@
       "priceLow": 2.861,
       "weekDelta": -0.077,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 7.7¢ week-over-week and are at a local low. WTI crude is flat, suggesting limited near-term pressure. Political scrutiny may keep retail margins compressed.",
+      "why": "South Dakota prices are at their lowest point with crude trending downward. Week-over-week decline of 7.7¢ signals softening demand and supply ease. Political pressure on retailers may temporarily cap upside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.641,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low of $2.64/gal with week-over-week decline of 9 cents. WTI crude is flat, and political pressure on retailers may keep prices competitive in the near term.",
+      "why": "TN gas is at its lowest point this week with crude trending downward. Political pressure on retailers and falling oil prices create a favorable window to fill up before sentiment shifts.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.23,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are at a recent low with flat crude and stable week-over-week movement. Summer blend demand is typical, and no supply disruptions are signaled. Political pressure on retailers may create brief volatility but doesn't fundamentally change current market conditions.",
+      "why": "Texas prices are at their lowest point with no weekly change. WTI crude is declining, suggesting downward pressure may continue. Political scrutiny on gas pricing could keep stations competitive.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.019,
       "weekDelta": -0.105,
       "weekDeltaDir": "down",
-      "why": "Utah gas is at a recent low with week-over-week drops and flat crude prices. Summer blend inventory is adequate, and political pressure on retailers suggests prices may hold steady rather than rise significantly.",
+      "why": "Utah prices are at a recent low and trending downward week-over-week. Crude oil is declining, and political pressure on retailers may keep prices competitive. Summer blend transition is complete.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.141,
       "weekDelta": -0.03,
       "weekDeltaDir": "down",
-      "why": "Vermont prices are at their recent low of $3.14/gal with modest week-over-week decline. Crude is flat and political pressure on retailers may cap near-term increases, though summer blend costs remain steady.",
+      "why": "Vermont gas is at a local low of $3.14/gal with crude trending downward. Week-over-week decline and falling WTI suggest modest relief, though political pressure on retailers creates near-term uncertainty.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2589,10 +2589,10 @@
       "priceLow": 2.928,
       "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "Virginia gas is at its lowest point this week with flat crude prices and stable market conditions. Political pressure on retailers may temporarily suppress prices, but no immediate downward trend is visible.",
+      "why": "Virginia prices are at a recent low of $2.928/gal with modest week-over-week decline. WTI crude trending down slightly, but political pressure on gas prices creates short-term uncertainty. Current pricing window is favorable.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.029,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their lowest point with no week-over-week change. Crude oil is flat at $71.20/barrel with no momentum either direction. Political pressure on retailers may temporarily suppress prices, but summer blend costs keep margins tight.",
+      "why": "Washington prices are at their lowest point with no week-over-week change. Crude is declining and political pressure on retailers may keep prices flat or lower. Current conditions favor filling up now before any potential summer demand spike.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2703,10 +2703,10 @@
       "priceLow": 2.956,
       "weekDelta": -0.027,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its lowest point this week with flat crude prices and stable market conditions. Summer blend maintains current pricing with no immediate downward pressure expected.",
+      "why": "West Virginia gas is at its recent low of $2.956/gal with week-over-week decline and crude trending down. Political pressure on retailers may temporarily cap further rises, though summer blend typically holds prices steady.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2760,10 +2760,10 @@
       "priceLow": 2.979,
       "weekDelta": -0.08,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have dropped 8¢ this week and are at a local low. WTI crude is flat, suggesting stable wholesale costs. Current price of $2.979 is a solid fill-up window before potential volatility from political pressure on retailers.",
+      "why": "Wisconsin prices are at a recent low and WTI crude is declining. Week-over-week drop of 8 cents suggests downward momentum, though political pressure on retailers adds uncertainty to short-term direction.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2817,10 +2817,10 @@
       "priceLow": 2.929,
       "weekDelta": -0.102,
       "weekDeltaDir": "down",
-      "why": "Wyoming gas is at its lowest point this week with a 10¢ decline. Crude oil is flat and political pressure on retailers may keep prices stable short-term. Current levels offer a solid fill-up window.",
+      "why": "Wyoming prices have dropped 10¢ week-over-week and sit at a recent low. WTI crude is trending down, and summer blend supply is stable. Political pressure on retailers may create temporary volatility, but fundamentals support current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.299,
       "weekDelta": -0.031,
       "weekDeltaDir": "down",
-      "why": "DC prices are at their recent low of $3.299/gal with flat crude. Week-over-week decline shows downward momentum, though political pressure on retailers adds uncertainty. Summer blend is in effect with no immediate supply disruptions signaled.",
+      "why": "DC gas prices are at a local low of $3.299/gal with crude trending down. Week-over-week decline suggests downward momentum, though political scrutiny on retailers may create volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.551,
       "priceLow": 1.504,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Alberta prices are 1.4¢ above the week's low and trending down slightly. Crude is flat, but political pressure on retailers may create downward momentum. Summer blend adds modest cost, but the trajectory favors waiting.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Alberta prices are 3¢ above the recent low and WTI crude is declining. Week-over-week drops suggest downward momentum, though political pressure on retailers adds uncertainty. A small gap remains to the low.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -2988,10 +2988,10 @@
       "priceLow": 1.813,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "BC prices are 3% above the week's low at $1.869/L. WTI crude is flat and political pressure on retailers may create downward tension in the next few days. Current price offers no urgency to fill up immediately.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "BC prices are 3% above the local low despite crude sliding and week-over-week decline. Political pressure on retailers and downward crude momentum suggest further softening is likely within days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3040,15 +3040,15 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.608,
       "priceLow": 1.56,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Manitoba prices are slightly elevated at 1.608 $/L versus the 1.560 $/L low. WTI crude is flat and political pressure on retailers may create downward momentum in the next few days. Week-over-week decline is minimal, suggesting stability rather than urgency.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Manitoba prices are near their recent low of $1.560/L, with crude trending downward and weak week-over-week momentum. Political pressure on retailers may temporarily support lower prices, creating a favorable fill-up window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3102,10 +3102,10 @@
       "priceLow": 1.633,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "New Brunswick prices are 3¢ above the local low with flat crude momentum. Week-over-week decline is minimal, and political pressure on retailers may create short-term volatility but no clear downward trend yet.",
+      "why": "Prices are 3% above the week's low and crude is drifting down. Political pressure on retailers may accelerate cuts in coming days, but summer demand supports current levels.",
       "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3159,10 +3159,10 @@
       "priceLow": 1.665,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices have dipped slightly week-over-week and sit only 0.052 $/L above the local low. WTI crude is flat with no major upward pressure expected near-term. Political scrutiny on gas prices adds downward sentiment.",
+      "why": "Prices are only 3¢/L above the recent low, and crude is trending downward. Political pressure on retailers may cap further increases, making now a reasonable window to fill up before any potential volatility.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 2,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.714,
       "weekDelta": 0.114,
       "weekDeltaDir": "up",
-      "why": "Nova Scotia prices are 3% above the week's low and up $0.11/L week-over-week. Crude is flat and political pressure on retailers may cap further gains, but prices haven't broken down yet. Current levels offer modest risk-reward.",
-      "advice": "Top up today · wait for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Nova Scotia prices jumped 11.4¢/L week-over-week and sit 5.3¢ above the regional low. WTI crude is declining, but political pressure on retailers may keep pump prices sticky. A brief dip is possible soon.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3268,15 +3268,15 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.625,
       "priceLow": 1.576,
       "weekDelta": 0.014,
       "weekDeltaDir": "up",
-      "why": "Ontario prices are 3.1¢ above the week's low and trending upward despite flat crude. Political pressure on retailers may provide temporary relief, but summer blend costs and rising margins suggest prices could hold or climb further.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "why": "Ontario prices are 3% above the week's low and crude is declining, suggesting downward pressure ahead. Political scrutiny on gas retailers may also cool prices in the near term.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3325,15 +3325,15 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.673,
       "priceLow": 1.623,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "PE prices are 3¢ above the local low with flat crude and minimal weekly movement. Political pressure on retailers may create downward momentum, but no immediate relief is signaled.",
-      "advice": "Top off today · wait for dip",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "PE prices are 3% above the local low and crude is declining. Political pressure on retailers may accelerate downward momentum over the next few days, making early-week filling less attractive.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3382,15 +3382,15 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.717,
       "priceLow": 1.665,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Quebec prices are slightly elevated at 1.717 $/L compared to nearby lows of 1.665 $/L, but WTI crude is flat and week-over-week decline is minimal. Political pressure on retailers may create downward volatility in coming days.",
-      "advice": "Top off halfway, wait for dip",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Prices have dipped slightly week-over-week and crude is trending downward. Current price is only 0.05¢/L above the local low, suggesting we're near a temporary floor. Political pressure on retailers may create brief volatility.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3439,15 +3439,15 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 1.532,
       "priceLow": 1.486,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Saskatchewan prices are 1.5¢ above the local low with flat crude momentum. Political pressure on retailers may create downward tension, but current levels remain reasonable for summer driving season.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "why": "Saskatchewan prices are 1.5¢ above the local low, with WTI crude declining and political pressure on retailers to cut prices. A small margin suggests prices may dip further in the near term.",
+      "advice": "Wait until midweek",
+      "bestDayIdx": 3,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
@@ -3496,15 +3496,15 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.043,
       "priceLow": 1.982,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are near recent lows with flat crude and minimal weekly decline. Political pressure on retailers adds uncertainty, but summer blend and stable WTI suggest limited downside risk in the next few days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Northern Canada prices are 3% above the local low, while WTI crude drifts down. Political pressure on retailers may eventually ease prices, but momentum is weak and inventory remains stable.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "down",
       "news": [
         {
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
