@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-18T06:00:50.896987+00:00",
-    "pricesUpdatedAt": "2026-07-18T06:00:36.867518+00:00",
+    "updatedAt": "2026-07-18T12:00:54.617845+00:00",
+    "pricesUpdatedAt": "2026-07-18T12:00:45.356606+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-18T06:49:37.548767+00:00",
-    "nextAnalysisUpdate": "2026-07-18T12:19:37.548785+00:00"
+    "nextPriceUpdate": "2026-07-18T12:46:09.548230+00:00",
+    "nextAnalysisUpdate": "2026-07-18T18:16:09.548241+00:00"
   },
   "wti": {
     "price": 79.2,
@@ -24,7 +24,7 @@
       "priceLow": 2.6,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and WTI sits near $79/bbl, signaling upward pressure. Summer blend premiums are in effect. Current Alabama price is 3% above the local low, but national headlines suggest further increases ahead as crude momentum builds.",
+      "why": "Crude oil up sharply (+$6.75) and national headlines suggest prices pushing toward $4/gal. AL currently 3% above local low, but upward momentum and supply concerns indicate further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -76,13 +76,13 @@
       "city": "Anchorage",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.391,
       "priceLow": 3.391,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Alaska prices are stable at $3.39/gal, but crude is rising sharply (+$6.75) and national forecasts warn of $4/gal imminent. Summer blend and upward crude momentum suggest prices will climb within days.",
-      "advice": "Fill up today",
+      "why": "Alaska prices are stable at $3.39/gal, near recent lows despite crude climbing $6.75. National headlines warn of $4/gal risks, but Alaska's remote supply chain and current equilibrium suggest short-term holding power. Summer blend supports moderate pricing.",
+      "advice": "Top off today, monitor through",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -138,8 +138,8 @@
       "priceLow": 2.926,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Arizona prices are holding steady at $2.93/gal, matching recent lows despite crude rising $6.75. Summer blend and political pressure on oil companies create competing forces—upward crude momentum vs. potential price caps.",
-      "advice": "Fill up today while stable",
+      "why": "Arizona gas is at its recent low of $2.93/gal, but WTI crude jumped $6.75 and headlines suggest upward pressure ahead. Summer blend and rising oil could push prices higher within days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -195,8 +195,8 @@
       "priceLow": 2.546,
       "weekDelta": 0.061,
       "weekDeltaDir": "up",
-      "why": "WTI crude climbing sharply (+$6.75) signals upward pressure on gas prices. Current price is 3% above the week's low, and national headlines warn of potential $4/gallon spikes. Summer blend premiums and rising crude suggest prices are moving higher, not lower.",
-      "advice": "Fill up today",
+      "why": "Crude prices are rising sharply (+$6.75) and headed toward $4/gal nationally. Arkansas is currently 3% above its local low, with upward momentum. Summer blend premiums and geopolitical pressure suggest further increases ahead.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -252,9 +252,9 @@
       "priceLow": 5.175,
       "weekDelta": 0.025,
       "weekDeltaDir": "up",
-      "why": "California gas is near recent lows despite week-over-week gains. Crude is rising and summer blend adds cost, but national pressure and political scrutiny may cap increases short-term. Current price offers a reasonable window.",
+      "why": "California prices are near recent lows despite WTI crude rising $6.75. Political pressure on gas stations and mixed crude signals create short-term uncertainty. Summer blend premiums may stabilize prices around current levels.",
       "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -304,14 +304,14 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.722,
       "priceLow": 3.517,
       "weekDelta": 0.205,
       "weekDeltaDir": "up",
-      "why": "Colorado prices are up 21¢ this week as WTI crude surges $6.75. Summer blend adds cost, and political pressure on oil suggests volatility ahead. Prices could spike toward $4/gal or stabilize—mixed signals warrant caution.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 0,
+      "why": "Colorado prices jumped 20¢ this week as WTI crude surged on geopolitical tensions. Current price sits 20¢ above the regional low, and upward momentum suggests further increases may follow.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -366,9 +366,9 @@
       "priceLow": 3.19,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "CT prices are up 5.6¢ week-over-week with crude rising sharply (+6.75). News suggests upward pressure toward $4/gal, but political pressure on retailers may create volatility. Current levels remain relatively reasonable before potential spike.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
+      "why": "WTI crude surging $6.75 and headed toward $4/gal headlines signal upward momentum. Current price is only 0.056 above last week and 0.056 from local low, but crude strength and political pressure on supply suggest prices may climb further before stabilizing.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -423,7 +423,7 @@
       "priceLow": 2.959,
       "weekDelta": 0.052,
       "weekDeltaDir": "up",
-      "why": "Delaware prices are near recent lows despite WTI crude climbing sharply. Summer blend and rising crude suggest upward pressure ahead, but current levels offer a brief window before potential jumps toward $4/gal reported in headlines.",
+      "why": "WTI crude surged $6.75 to $79.20, signaling upward pressure. Delaware's price is 1.7% above local low and up 5.2¢ week-over-week. National headlines warn of $4/gal prices within days amid geopolitical and policy tensions.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -480,8 +480,8 @@
       "priceLow": 3.667,
       "weekDelta": 0.073,
       "weekDeltaDir": "up",
-      "why": "Florida prices are up 7.3¢ week-over-week as crude climbs above $79. Summer blend and rising WTI suggest upward pressure, though political pressure on retailers may create brief relief windows before potential $4/gal breach.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Florida prices are up 7.3¢ week-over-week with crude rising sharply (+$6.75). Summer blend costs more, and headlines suggest further increases toward $4/gal are likely within days as crude momentum continues upward.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -537,8 +537,8 @@
       "priceLow": 2.7,
       "weekDelta": 0.048,
       "weekDeltaDir": "up",
-      "why": "Georgia prices are up 4.8¢ week-over-week as WTI crude surges. News suggests potential further increases toward $4/gal, but political pressure may create volatility. Current price is only 0.5¢ above the local low.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Crude oil surging $6.75 to $79.20 with upward momentum. Prices up 4.8¢ week-over-week and headlines warn of $4/gallon risk. Summer blend and political pressure create uncertainty, but current 2.748 remains slightly above recent lows.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -594,7 +594,7 @@
       "priceLow": 4.147,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Hawaii gas is near its recent low at $4.148/gal despite WTI crude rising sharply (+$6.75). Summer blend and stable week-over-week prices suggest local supply is adequate. However, crude upward momentum could push prices higher in coming days.",
+      "why": "Hawaii prices are already near recent lows at $4.148/gal despite WTI crude rising $6.75. Summer demand and refinery constraints typically support prices here, but political pressure and inventory levels may create short-term volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -651,9 +651,9 @@
       "priceLow": 2.929,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Idaho prices are up 13¢ week-over-week as crude climbs toward $80/barrel. Summer blend premium adds cost. Political pressure and profit-taking suggest upward momentum, though a $0.13 gap to local lows indicates some relief possible mid-week.",
-      "advice": "Top off today · monitor Wed",
-      "bestDayIdx": 3,
+      "why": "Idaho prices are up 13¢ this week as WTI crude surges $6.75. Summer blend costs more, and crude momentum is upward despite political pressure rhetoric. Prices remain below the $4/gal warnings but haven't hit recent lows yet.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -708,8 +708,8 @@
       "priceLow": 3.219,
       "weekDelta": 0.119,
       "weekDeltaDir": "up",
-      "why": "Illinois prices are up 12¢ week-over-week with WTI crude rising sharply. Summer blend costs more, and market uncertainty from political pressure suggests volatility ahead. Prices could climb toward $4/gal in coming days.",
-      "advice": "Top off today · monitor",
+      "why": "Illinois prices are up 12¢ this week as WTI crude climbs sharply. Market sentiment suggests further pressure toward $4/gal, but you're still 12¢ above the local low. Summer blend and rising crude point to continued upward momentum.",
+      "advice": "Top off halfway today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -765,9 +765,9 @@
       "priceLow": 2.881,
       "weekDelta": 0.107,
       "weekDeltaDir": "up",
-      "why": "Crude is rising sharply (+6.75) and prices jumped 10.7¢ this week. Forecasts suggest $4/gal is imminent. Current price is 3.6% above the local low, signaling further increases ahead.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Indiana prices are up 11¢ this week as crude climbs on geopolitical tension. Summer blend adds cost. Political pressure on oil companies may be temporary noise, but WTI momentum suggests further near-term increases toward $4/gal.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -817,14 +817,14 @@
       "city": "Des Moines",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.84,
       "priceLow": 2.739,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Iowa prices are up 10¢ week-over-week with crude rising $6.75. Retail is 10¢ above the regional low, and headlines suggest upward pressure ahead. Summer blend premiums and tight margins offer little relief.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Iowa prices are up $0.10 this week as crude climbs on geopolitical tension. Current price sits $0.10 above the nearby low, with forecasts suggesting potential volatility ahead. Summer demand and policy uncertainty create upward pressure.",
+      "advice": "Top off today, monitor",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -874,14 +874,14 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.785,
       "priceLow": 2.685,
       "weekDelta": 0.1,
       "weekDeltaDir": "up",
-      "why": "Kansas prices are up 10¢ this week with WTI crude rising sharply. National headlines warn of $4/gal potential, but current KS price remains ~10¢ above local low. Mixed signals suggest modest near-term upside risk before any correction.",
-      "advice": "Top off today, watch Wed",
-      "bestDayIdx": 3,
+      "why": "Kansas prices up 10¢ week-over-week amid rising crude (+$6.75). Prices 10¢ above regional low, and crude momentum is upward. Political pressure on gas prices creates uncertainty, but fundamentals suggest further near-term increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -936,7 +936,7 @@
       "priceLow": 2.763,
       "weekDelta": 0.067,
       "weekDeltaDir": "up",
-      "why": "WTI crude surged $6.75 and prices are up week-over-week despite being near a local low. News suggests upward pressure ahead as crude climbs and political attention intensifies, signaling continued increases likely this week.",
+      "why": "Kentucky prices are up 6.7¢ week-over-week amid rising crude (+$6.75) and political pressure on oil companies. Summer demand and upward crude momentum suggest further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -993,8 +993,8 @@
       "priceLow": 2.645,
       "weekDelta": 0.064,
       "weekDeltaDir": "up",
-      "why": "WTI crude is rising sharply (+$6.75) and prices are 3¢ above the week's low. Summer demand and refinery constraints are supporting upward pressure. Price momentum suggests further increases likely this week.",
-      "advice": "Fill up today or tomorrow",
+      "why": "WTI crude up sharply (+$6.75) and week-over-week prices rose 6.4¢. Headlines signal further upward pressure despite political rhetoric. You're 3.1¢ above the local low.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -1050,9 +1050,9 @@
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Maine prices up 5.5¢ week-over-week amid rising crude ($79.20, +$6.75). Summer blend and upward crude momentum suggest continued pressure. Current price 5.5¢ above regional low—modest cushion.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Crude oil is rising sharply (+$6.75) and already near $79/barrel, pushing gas up 5.5¢ week-over-week. News suggests further pressure toward $4/gallon. You're slightly above the local low with upward momentum.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1107,9 +1107,9 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude oil jumped $6.75 and is heading higher; summer blend premiums are in effect. Prices could breach $4/gal soon. You're already 5¢ above last week's level.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Maryland prices are up 5.3¢ week-over-week amid rising crude ($79.20, +$6.75). News suggests upward pressure toward $4/gal, though political pressure may create brief softness. Current price is only 5.3¢ above local low.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -1164,7 +1164,7 @@
       "priceLow": 3.785,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging +6.75% toward $80 signals further pump increases. Current MA price already up 2.1¢ week-over-week; forecasts suggest $4/gal breach within days. Summer blend typically costs more.",
+      "why": "WTI crude is climbing (+6.75) and headed toward $4/gal nationally. Current MA price is already near recent lows, but upward momentum and political pressure suggest volatility ahead. Summer blend premium adds cost.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1221,7 +1221,7 @@
       "priceLow": 2.952,
       "weekDelta": 0.11,
       "weekDeltaDir": "up",
-      "why": "Michigan prices are up 11¢ week-over-week amid rising crude ($79.20, +6.75) and summer blend costs. News suggests continued upward pressure, though political scrutiny may create volatility. Prices remain 11¢ above the local low.",
+      "why": "Michigan prices are up 11¢ week-over-week and crude is rising sharply (+$6.75). Summer blend premiums apply. While political pressure may create short-term volatility, upward crude momentum and recent 3.7% spike suggest prices will likely test higher levels before retreating.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1273,14 +1273,14 @@
       "city": "Minneapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.749,
       "priceLow": 3.588,
       "weekDelta": 0.161,
       "weekDeltaDir": "up",
-      "why": "Minnesota prices jumped 16¢ this week as WTI crude surged $6.75. Current price ($3.749) sits well above the local low ($3.588), and headlines suggest upward pressure toward $4/gal despite political pressure. Summer blend costs more, amplifying the gap.",
-      "advice": "Top off now · wait for dip",
-      "bestDayIdx": 4,
+      "why": "Minnesota prices are up 16¢ this week as WTI crude surges on geopolitical tension. Current price sits 16¢ above the regional low, with forecasts suggesting prices could approach $4/gal. Summer blend and upward crude momentum create headwinds.",
+      "advice": "Hold until midweek",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1330,14 +1330,14 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.661,
       "priceLow": 2.582,
       "weekDelta": 0.062,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and prices have climbed 6.2¢ this week. Summer blend premiums and upward momentum suggest further increases ahead, though current Mississippi prices remain below recent highs.",
-      "advice": "Top off today, hold larger fil",
-      "bestDayIdx": 0,
+      "why": "Crude oil is rising sharply (+$6.75) and prices have climbed 6¢ week-over-week. Summer blend and upward momentum suggest further increases ahead. Current price is 3¢ above the regional low, with headlines warning of potential $4/gal levels.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -1392,9 +1392,9 @@
       "priceLow": 2.65,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "Missouri prices are up nearly 10¢ week-over-week amid rising crude ($79.20, +6.75). WTI momentum is upward and headline risk suggests further increases possible. Current price is 3.7% above the regional low, indicating room to slip.",
-      "advice": "Fill up today or Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are up nearly 10¢ week-over-week amid rising crude ($79.20, +6.75) and political pressure on oil companies. Summer blend adds costs. WTI momentum is upward, suggesting further increases likely in the next few days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1444,12 +1444,12 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.124,
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Montana prices are up 13¢ this week as crude climbs toward $80. Summer blend costs more, and national headlines suggest further increases are possible. You're 13¢ above the regional low.",
+      "why": "Montana prices are up 13¢ week-over-week with WTI crude climbing $6.75. Summer blend and rising crude suggest upward pressure, though political pressure on oil companies may create short-term volatility. Current price sits 4.4% above the regional low.",
       "advice": "Fill up by Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "up",
@@ -1506,7 +1506,7 @@
       "priceLow": 2.748,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Prices up 10¢ week-over-week with crude climbing $6.75. Summer blend and rising WTI suggest further increases likely in next 2–3 days before potential policy-driven volatility.",
+      "why": "Nebraska prices are up $0.10 this week as crude climbs above $79. National headlines warn of $4/gal risk within days. Summer blend and upward crude momentum suggest further increases are likely in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1563,7 +1563,7 @@
       "priceLow": 3.482,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Nevada is at a recent low of $3.48/gal, but WTI crude is rising sharply (+$6.75) and national headlines warn of $4/gal prices imminent. Summer blend and upward crude momentum suggest prices will climb over the next few days.",
+      "why": "Nevada prices are at a recent low, but crude is rising sharply (+6.75) and national headlines warn of potential $4/gallon prices soon. Summer blend and upward crude momentum suggest prices will climb within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1620,9 +1620,9 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+6.75) and national headlines warn of $4/gal prices incoming. NH prices are up 5.3¢ week-over-week. Upward momentum suggests further increases likely within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "WTI crude surged $6.75 to $79.20, pushing NH prices up 5.3¢ week-over-week. News suggests further upward pressure toward $4/gal, though political pressure may create volatility. You're 5.3¢ above the recent low.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -1677,7 +1677,7 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude oil surged $6.75 and prices are up 5¢ week-over-week with forecasts warning of $4/gal levels. Summer blend and upward crude momentum suggest prices will continue climbing over the next few days.",
+      "why": "Crude oil surged $6.75 and prices are up 5.3¢ week-over-week with headlines warning of $4/gal imminent. Summer blend and upward momentum suggest further increases likely in the next 2–3 days before potentially stabilizing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1734,7 +1734,7 @@
       "priceLow": 2.854,
       "weekDelta": 0.068,
       "weekDeltaDir": "up",
-      "why": "WTI crude is rising sharply (+$6.75) and gasoline prices climbed 6.8¢ week-over-week. Summer blend premium and upward momentum suggest prices may test $3.00+ soon. Current price is 3¢ above regional low.",
+      "why": "WTI crude is rising sharply (+$6.75) and prices have climbed 6.8¢ week-over-week. National headlines warn of $4/gallon pressure. NM is 8.7¢ above its recent low, suggesting further upward momentum before any relief.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1791,8 +1791,8 @@
       "priceLow": 3.984,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at a recent low and stable this week. However, WTI crude is rising sharply (+$6.75), signaling upward pressure. Political pressure from the administration may temporarily cap increases, but summer demand and crude momentum suggest prices could approach $4/gal soon.",
-      "advice": "Fill up today",
+      "why": "NY prices have plateaued at $3.98/gal after a week-long hold. WTI crude jumped 6.75% and is trending up, but political pressure on refiners and stations may create temporary downward friction. Summer blend and holiday-free week offer no tailwinds.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -1848,8 +1848,8 @@
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "Crude oil surged 6.75% to $79.20/barrel amid Trump administration pressure and profit-driven supply dynamics. NC prices rose 5¢ week-over-week and are only slightly above the local low. Upward momentum suggests further increases toward $4/gallon are likely within days.",
-      "advice": "Fill up today",
+      "why": "Crude is rising sharply (+6.75) and prices have climbed 5¢ week-over-week. Summer blend and upward momentum suggest further increases likely this week. You're only 5¢ above the local low—a small window.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -1905,7 +1905,7 @@
       "priceLow": 2.828,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "North Dakota prices are up 10¢ this week and crude is climbing sharply (+$6.75). Political pressure and record profits suggest temporary volatility, but rising crude typically drives prices higher over the next few days before stabilizing.",
+      "why": "ND prices are up 10¢ week-over-week while WTI crude surges +$6.75. Political pressure and record profits may temporarily suppress pump prices, but rising crude fundamentals suggest upward pressure. Current price sits 10¢ above the local low.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1962,8 +1962,8 @@
       "priceLow": 3.799,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at a recent low of $3.799, but crude is rising sharply (+$6.75). News signals potential push toward $4/gallon within days as political pressure mounts. Summer blend and upward crude momentum suggest prices may climb soon.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Ohio is at a recent low of $3.799/gal, but WTI crude is rising sharply (+$6.75) and news suggests prices could breach $4/gal soon. Summer blend and upward crude momentum signal near-term increases.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2019,9 +2019,9 @@
       "priceLow": 2.609,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "WTI crude is rising sharply (+$6.75) and prices are already up week-over-week. Summer blend and upward crude momentum suggest further increases are likely. Current price is 3% above the regional low, but the trend is unfavorable.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Crude oil is climbing sharply (+$6.75), and national headlines suggest prices could spike toward $4/gal soon. Oklahoma is already up 6.3¢ week-over-week. Summer blend costs more, and upward momentum is clear.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2076,8 +2076,8 @@
       "priceLow": 3.536,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Oregon prices are near recent lows at $3.537/gal, but crude is climbing (+6.75) and national headlines warn of $4/gal risks within days. Summer blend costs more, and upward momentum suggests limited window.",
-      "advice": "Fill up today",
+      "why": "Oregon prices are essentially at their weekly low, but crude oil jumped $6.75 and forecasts suggest prices could approach $4/gal soon. Summer blend and upward crude momentum create headwinds ahead.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2133,8 +2133,8 @@
       "priceLow": 3.255,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "WTI crude surged $6.75 and is pushing prices up; current PA price is 1.75% above the local low. With political pressure and rising oil, prices may spike further before stabilizing. The $4/gallon threshold is within reach.",
-      "advice": "Fill up today",
+      "why": "WTI crude rising sharply (+$6.75) and heading toward $4/gal nationally signals upward pressure. PA prices already up week-over-week; summer blend adds cost. Current price near but not at local low.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2190,7 +2190,7 @@
       "priceLow": 3.144,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging +$6.75 and news signals prices approaching $4/gal nationally. RI is 55¢ above recent low, with upward momentum. Summer blend and political pressure create volatility—prices may spike further before stabilizing.",
+      "why": "Rhode Island prices are rising sharply (+5.5¢ week-over-week) as crude climbs and summer blend premiums apply. Political pressure on oil companies may create short-term volatility, but upward momentum and $4/gal forecasts suggest limited near-term relief.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2247,7 +2247,7 @@
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging $6.75 and news suggests upward price pressure despite political pressure for cuts. Current SC price is 1.8% above local low, with week-over-week gains indicating momentum. Summer blend adds seasonal cost.",
+      "why": "Prices up 5¢ this week amid rising crude ($79.20, +6.75) and summer blend costs. Crude momentum and political pressure create uncertainty, but current SC price remains modest. Upward trend suggests waiting may miss a brief window.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2299,14 +2299,14 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.905,
       "priceLow": 2.801,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "Prices jumped 10¢ this week as crude oil rose sharply to $79.20. Summer blend and upward crude momentum suggest further increases likely. Current price sits 10¢ above the regional low, indicating room to climb.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Prices have jumped 10¢ this week amid crude climbing on geopolitical pressure. You're 10¢ above the regional low, and crude momentum is upward. Political pressure may create short-term volatility, but summer demand keeps floors higher.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2361,8 +2361,8 @@
       "priceLow": 2.673,
       "weekDelta": 0.065,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+6.75) and prices have jumped week-over-week (+0.065). News signals upward pressure ahead, but political pressure may create volatility. You're 3¢ above the local low.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Crude oil is rising sharply (+$6.75) and prices have jumped 6.5¢ week-over-week. News signals potential climb toward $4/gal. You're 8¢ above the regional low, so better deals may evaporate soon.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2418,7 +2418,7 @@
       "priceLow": 3.371,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are at a recent low, but WTI crude surging +6.75 and headlines warning of $4/gal imminent creates upward pressure. Summer blend and rising crude suggest prices could jump within days.",
+      "why": "Texas gas is at a recent low, but crude is rising sharply (+6.75) and national headlines warn of $4/gal prices within days. Summer blend and upward crude momentum suggest prices will climb soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2475,9 +2475,9 @@
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Utah prices are up 13¢ week-over-week as WTI crude surges $6.75. Summer blend costs more, and headlines suggest further increases toward $4/gal are possible. You're 13¢ above the recent low.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Utah prices are up 13¢ week-over-week with WTI crude rising sharply (+6.75). National headlines warn of $4/gal potential, and political pressure on oil suggests volatility ahead. You're 13¢ above the regional low.",
+      "advice": "Hold until midweek",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2527,14 +2527,14 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.18,
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Vermont prices are up 5.5¢ this week amid rising crude ($79.20, +$6.75) and summer blend costs. News suggests further price increases possible, though political pressure may create volatility. Current price is only 0.55¢ above the local low.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Vermont prices are up 5.5¢ week-over-week as crude climbs toward $80/barrel. National headlines suggest further pressure toward $4/gal, though current VT price remains 5.5¢ above the lowest nearby option.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2589,8 +2589,8 @@
       "priceLow": 2.913,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and national headlines warn of $4/gal prices imminent. Virginia's current price is already up 5¢ week-over-week. Summer blend and upward momentum suggest further increases ahead.",
-      "advice": "Fill up today",
+      "why": "Crude oil is rising sharply (+$6.75) and prices have climbed 5 cents week-over-week. Market signals and news suggest upward pressure ahead. You're currently 5 cents above the regional low.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2646,7 +2646,7 @@
       "priceLow": 4.849,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices are at a local low with flat week-over-week movement, but WTI crude is climbing sharply (+$6.75). Summer blend and political pressure create mixed signals—prices could rise soon or face downward intervention.",
+      "why": "Washington is at its local low of $4.85/gal, but crude is rising sharply (+$6.75). Political pressure on gas prices creates near-term uncertainty. Summer blend and upward crude momentum suggest prices may climb if geopolitical tensions persist.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2703,8 +2703,8 @@
       "priceLow": 2.941,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "WV prices are near recent lows despite WTI crude rising sharply (+$6.75). Summer blend demand and political pressure on oil may create volatility, but current $2.99 level offers reasonable value before potential further increases.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Crude oil is surging ($79.20, +$6.75) and heading toward $4/gal nationally. WV is already up 5¢ week-over-week. Political pressure may offer short-term relief, but underlying cost pressures are strong.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2760,9 +2760,9 @@
       "priceLow": 2.916,
       "weekDelta": 0.109,
       "weekDeltaDir": "up",
-      "why": "Wisconsin prices are 3.7% above the regional low and up 11 cents week-over-week. WTI crude is climbing (+$6.75) with summer blend demand ongoing. Political pressure may create short-term volatility, but underlying fundamentals suggest prices could test $4/gal soon.",
-      "advice": "Top off today, avoid full tank",
-      "bestDayIdx": 0,
+      "why": "Wisconsin gas is up 11¢ week-over-week as crude climbs on geopolitical pressure. Summer blend adds costs, and political rhetoric suggests prices may spike further before stabilizing. A 3.6% gap to local lows signals room to drop.",
+      "advice": "Top off today, monitor Wed",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2817,7 +2817,7 @@
       "priceLow": 2.902,
       "weekDelta": 0.129,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are up 12.9¢ week-over-week amid rising crude oil ($79.20, +6.75). National headlines suggest potential push toward $4/gal, but current WY price remains below recent low. Mixed pressure: crude momentum up, but political scrutiny on pricing may create brief stability window.",
+      "why": "Wyoming prices are up 12.9¢ week-over-week amid rising crude ($79.20, +6.75) and summer blend costs. National headlines suggest further upward pressure, though the $0.13 gap to local lows indicates some regional variation.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2874,9 +2874,9 @@
       "priceLow": 3.283,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "Crude oil surging (+$6.75) and political pressure on pricing creates near-term volatility. Current DC price is 1.7% above local low, but upward momentum suggests further increases likely within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "DC prices are up 5.7¢ week-over-week with crude rising sharply (+$6.75). News suggests upward pressure toward $4/gal, though political pressure may create volatility. Current price is 1.7% above the local low.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -2926,14 +2926,14 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
-      "price": 1.68,
-      "priceLow": 1.63,
-      "weekDelta": 0.075,
+      "verdict": "buy",
+      "price": 1.759,
+      "priceLow": 1.706,
+      "weekDelta": 0.091,
       "weekDeltaDir": "up",
-      "why": "Alberta prices are up 7.5¢ this week as crude climbs above $79/barrel. U.S. political pressure on oil markets creates near-term volatility, but summer demand and refinery constraints limit downside. A 5¢ gap to the regional low suggests modest room to fall.",
-      "advice": "Top off today · wait for Fri",
-      "bestDayIdx": 5,
+      "why": "Alberta prices are up 9.1¢ this week as WTI crude surges on geopolitical tensions. U.S. prices climbing toward $4/gallon will likely push Canadian prices higher. Summer blend and upward crude momentum suggest further increases ahead.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2959,11 +2959,6 @@
         "dist": 4
       },
       "trend": [
-        1.588,
-        1.565,
-        1.587,
-        1.621,
-        1.609,
         1.605,
         1.605,
         1.576,
@@ -2972,7 +2967,12 @@
         1.563,
         1.668,
         1.682,
-        1.68
+        1.68,
+        1.616,
+        1.609,
+        1.59,
+        1.696,
+        1.759
       ],
       "priceSource": "nrcan"
     },
@@ -2984,13 +2984,13 @@
       "country": "CA",
       "unit": "L",
       "verdict": "partial",
-      "price": 1.964,
-      "priceLow": 1.905,
-      "weekDelta": 0.111,
+      "price": 2.027,
+      "priceLow": 1.966,
+      "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "BC prices are up 11¢ in a week amid crude rising to $79.20/barrel. U.S. market pressure and potential tariff impacts suggest further near-term upward momentum, though prices remain 6¢ above recent lows.",
-      "advice": "Top off today · watch Wed",
-      "bestDayIdx": 3,
+      "why": "BC prices jumped nearly 10¢/L this week as crude oil climbed above $79. U.S. pressure on gas prices and summer demand are pushing margins higher. Prices remain 6¢ above the local floor, suggesting room to drop if crude stabilizes.",
+      "advice": "Top off half now, wait for Fri",
+      "bestDayIdx": 5,
       "wtiDir": "up",
       "news": [
         {
@@ -3010,17 +3010,12 @@
         }
       ],
       "breakdown": {
-        "crude": 56,
+        "crude": 58,
         "refining": 6,
-        "taxes": 34,
-        "dist": 4
+        "taxes": 33,
+        "dist": 3
       },
       "trend": [
-        1.875,
-        1.871,
-        1.869,
-        1.85,
-        1.854,
         1.853,
         1.853,
         1.87,
@@ -3029,7 +3024,12 @@
         1.883,
         1.929,
         1.914,
-        1.964
+        1.964,
+        1.914,
+        1.913,
+        1.965,
+        2.002,
+        2.027
       ],
       "priceSource": "nrcan_est"
     },
@@ -3041,11 +3041,239 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.69,
-      "priceLow": 1.639,
-      "weekDelta": 0.095,
+      "price": 1.744,
+      "priceLow": 1.692,
+      "weekDelta": 0.084,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices have jumped 9.5¢ in a week amid rising crude ($79.20, up $6.75). U.S. political pressure and supply concerns are pushing North American prices higher. Summer blend adds seasonal cost pressure.",
+      "why": "Manitoba prices are 3% above the recent low and rising sharply this week (+8.4¢). WTI crude is climbing toward $80/barrel amid geopolitical pressure. Summer blend and upward momentum suggest prices will hold firm or drift higher over the next few days.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
+        },
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        }
+      ],
+      "breakdown": {
+        "crude": 54,
+        "refining": 7,
+        "taxes": 35,
+        "dist": 4
+      },
+      "trend": [
+        1.595,
+        1.595,
+        1.609,
+        1.608,
+        1.616,
+        1.62,
+        1.66,
+        1.647,
+        1.69,
+        1.647,
+        1.646,
+        1.691,
+        1.723,
+        1.744
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nb",
+      "state": "New Brunswick",
+      "abbr": "NB",
+      "city": "Moncton",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.827,
+      "priceLow": 1.772,
+      "weekDelta": 0.089,
+      "weekDeltaDir": "up",
+      "why": "NB prices jumped 8.9¢/L week-over-week amid rising WTI crude (+6.75%) and U.S. market pressure. Current 1.827 $/L is 5.5¢ above the regional low, with crude trending up and political pressure unlikely to ease prices downward quickly.",
+      "advice": "Top off now, wait for dip",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
+        },
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        }
+      ],
+      "breakdown": {
+        "crude": 52,
+        "refining": 7,
+        "taxes": 37,
+        "dist": 4
+      },
+      "trend": [
+        1.67,
+        1.67,
+        1.685,
+        1.684,
+        1.692,
+        1.697,
+        1.738,
+        1.725,
+        1.77,
+        1.725,
+        1.724,
+        1.771,
+        1.804,
+        1.827
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nl",
+      "state": "Newfoundland",
+      "abbr": "NL",
+      "city": "St. John's",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "buy",
+      "price": 1.862,
+      "priceLow": 1.806,
+      "weekDelta": 0.09,
+      "weekDeltaDir": "up",
+      "why": "Newfoundland prices are up 9¢/L week-over-week amid rising crude ($79.20, +$6.75). WTI momentum is upward and U.S. prices are climbing toward $4/gallon, suggesting regional pressure will persist through the week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
+        },
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        }
+      ],
+      "breakdown": {
+        "crude": 53,
+        "refining": 6,
+        "taxes": 37,
+        "dist": 4
+      },
+      "trend": [
+        1.702,
+        1.702,
+        1.718,
+        1.717,
+        1.725,
+        1.73,
+        1.772,
+        1.758,
+        1.804,
+        1.758,
+        1.757,
+        1.805,
+        1.839,
+        1.862
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "ns",
+      "state": "Nova Scotia",
+      "abbr": "NS",
+      "city": "Halifax",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "buy",
+      "price": 1.869,
+      "priceLow": 1.813,
+      "weekDelta": 0.102,
+      "weekDeltaDir": "up",
+      "why": "Nova Scotia prices jumped 10¢/L week-over-week as crude rallied $6.75. U.S. gasoline approaching $4/gal signals upward pressure. Political pressure on pricing may create brief relief, but summer demand and rising crude suggest prices stay elevated this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
+        },
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        }
+      ],
+      "breakdown": {
+        "crude": 54,
+        "refining": 6,
+        "taxes": 36,
+        "dist": 4
+      },
+      "trend": [
+        1.689,
+        1.689,
+        1.689,
+        1.767,
+        1.767,
+        1.767,
+        1.767,
+        1.767,
+        1.831,
+        1.831,
+        1.831,
+        1.831,
+        1.831,
+        1.869
+      ],
+      "priceSource": "nrcan"
+    },
+    {
+      "id": "on",
+      "state": "Ontario",
+      "abbr": "ON",
+      "city": "Toronto",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "buy",
+      "price": 1.765,
+      "priceLow": 1.712,
+      "weekDelta": 0.096,
+      "weekDeltaDir": "up",
+      "why": "Ontario prices are up 9.6¢/L week-over-week as crude climbs sharply (+6.75). U.S. price pressure and geopolitical rhetoric suggest continued upward momentum over the next few days before any stabilization.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -3073,239 +3301,6 @@
         "dist": 4
       },
       "trend": [
-        1.614,
-        1.61,
-        1.608,
-        1.592,
-        1.596,
-        1.595,
-        1.595,
-        1.609,
-        1.608,
-        1.616,
-        1.62,
-        1.66,
-        1.647,
-        1.69
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "nb",
-      "state": "New Brunswick",
-      "abbr": "NB",
-      "city": "Moncton",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.77,
-      "priceLow": 1.717,
-      "weekDelta": 0.1,
-      "weekDeltaDir": "up",
-      "why": "NB prices jumped 10¢/L this week as crude rallied above $79. Current price sits 5.3¢ above the regional low, with upward momentum driven by WTI strength and U.S. political pressure on oil markets creating uncertainty.",
-      "advice": "Top off today, monitor Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
-        },
-        {
-          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        }
-      ],
-      "breakdown": {
-        "crude": 52,
-        "refining": 7,
-        "taxes": 37,
-        "dist": 4
-      },
-      "trend": [
-        1.69,
-        1.686,
-        1.684,
-        1.667,
-        1.671,
-        1.67,
-        1.67,
-        1.685,
-        1.684,
-        1.692,
-        1.697,
-        1.738,
-        1.725,
-        1.77
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "nl",
-      "state": "Newfoundland",
-      "abbr": "NL",
-      "city": "St. John's",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "buy",
-      "price": 1.804,
-      "priceLow": 1.75,
-      "weekDelta": 0.102,
-      "weekDeltaDir": "up",
-      "why": "Newfoundland prices are 3¢ above the recent low and climbing sharply (+10¢ week-over-week) as crude rebounds. U.S. market signals suggest upward momentum, though political pressure may create volatility.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
-        },
-        {
-          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        }
-      ],
-      "breakdown": {
-        "crude": 52,
-        "refining": 7,
-        "taxes": 37,
-        "dist": 4
-      },
-      "trend": [
-        1.723,
-        1.719,
-        1.717,
-        1.699,
-        1.703,
-        1.702,
-        1.702,
-        1.718,
-        1.717,
-        1.725,
-        1.73,
-        1.772,
-        1.758,
-        1.804
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "ns",
-      "state": "Nova Scotia",
-      "abbr": "NS",
-      "city": "Halifax",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "buy",
-      "price": 1.831,
-      "priceLow": 1.776,
-      "weekDelta": 0.142,
-      "weekDeltaDir": "up",
-      "why": "Nova Scotia prices are 5.5¢ above the local low and up sharply week-over-week. WTI crude is rising and U.S. prices are climbing toward $4/gal, signaling upward pressure. Political pressure on oil may create volatility, but near-term trends favor higher prices.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
-        },
-        {
-          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        }
-      ],
-      "breakdown": {
-        "crude": 52,
-        "refining": 7,
-        "taxes": 37,
-        "dist": 4
-      },
-      "trend": [
-        1.653,
-        1.653,
-        1.653,
-        1.689,
-        1.689,
-        1.689,
-        1.689,
-        1.689,
-        1.767,
-        1.767,
-        1.767,
-        1.767,
-        1.767,
-        1.831
-      ],
-      "priceSource": "nrcan"
-    },
-    {
-      "id": "on",
-      "state": "Ontario",
-      "abbr": "ON",
-      "city": "Toronto",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.708,
-      "priceLow": 1.657,
-      "weekDelta": 0.113,
-      "weekDeltaDir": "up",
-      "why": "Ontario prices are up 11.3¢ this week as WTI crude surges $6.75/barrel. U.S. pressure and market volatility suggest further upward momentum in the near term, though a 3.1¢ gap to the regional low signals some localized relief may exist.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
-        },
-        {
-          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        }
-      ],
-      "breakdown": {
-        "crude": 53,
-        "refining": 7,
-        "taxes": 36,
-        "dist": 4
-      },
-      "trend": [
-        1.618,
-        1.611,
-        1.61,
-        1.581,
-        1.593,
         1.595,
         1.595,
         1.624,
@@ -3314,7 +3309,12 @@
         1.64,
         1.669,
         1.65,
-        1.708
+        1.708,
+        1.659,
+        1.657,
+        1.731,
+        1.749,
+        1.765
       ],
       "priceSource": "nrcan"
     },
@@ -3325,14 +3325,14 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
-      "price": 1.759,
-      "priceLow": 1.706,
-      "weekDelta": 0.1,
+      "verdict": "wait",
+      "price": 1.815,
+      "priceLow": 1.761,
+      "weekDelta": 0.088,
       "weekDeltaDir": "up",
-      "why": "PEI prices jumped 10¢/L week-over-week amid rising crude (+6.75%) and U.S. political pressure on oil companies. Current price is 5.3¢ above the regional low, suggesting some room to fall if crude stabilizes or political rhetoric cools.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "Prices are up 8.8¢/L this week as crude climbs on geopolitical tensions. Current price sits 5.4¢ above the local low, suggesting some room to fall before stabilizing.",
+      "advice": "Hold until Friday",
+      "bestDayIdx": 5,
       "wtiDir": "up",
       "news": [
         {
@@ -3352,17 +3352,12 @@
         }
       ],
       "breakdown": {
-        "crude": 53,
+        "crude": 54,
         "refining": 7,
-        "taxes": 36,
+        "taxes": 35,
         "dist": 4
       },
       "trend": [
-        1.679,
-        1.675,
-        1.673,
-        1.656,
-        1.66,
         1.659,
         1.659,
         1.674,
@@ -3371,7 +3366,12 @@
         1.686,
         1.727,
         1.714,
-        1.759
+        1.759,
+        1.714,
+        1.713,
+        1.76,
+        1.792,
+        1.815
       ],
       "priceSource": "nrcan_est"
     },
@@ -3382,12 +3382,69 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 1.804,
-      "priceLow": 1.75,
-      "weekDelta": 0.102,
+      "verdict": "partial",
+      "price": 1.862,
+      "priceLow": 1.806,
+      "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Quebec prices are up significantly week-over-week amid rising crude (+6.75%) and U.S. political pressure on oil markets. Summer blend costs and upward crude momentum suggest further near-term increases are likely.",
+      "why": "Quebec prices have jumped 9¢/L week-over-week amid rising crude ($79.20, up $6.75). U.S. pressure and supply tightness suggest continued upward momentum near-term, though a 5.6¢ gap to the regional low indicates some stations may offer relief soon.",
+      "advice": "Top off today; watch Wed",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
+        },
+        {
+          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
+        },
+        {
+          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
+          "source": "NewsBreak",
+          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
+        }
+      ],
+      "breakdown": {
+        "crude": 61,
+        "refining": 6,
+        "taxes": 29,
+        "dist": 4
+      },
+      "trend": [
+        1.702,
+        1.702,
+        1.718,
+        1.717,
+        1.725,
+        1.73,
+        1.772,
+        1.758,
+        1.804,
+        1.758,
+        1.757,
+        1.805,
+        1.839,
+        1.862
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "sk",
+      "state": "Saskatchewan",
+      "abbr": "SK",
+      "city": "Regina",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "buy",
+      "price": 1.662,
+      "priceLow": 1.612,
+      "weekDelta": 0.081,
+      "weekDeltaDir": "up",
+      "why": "Saskatchewan prices are up 8¢ week-over-week amid rising crude ($79.20, +6.75). U.S. market pressure and oil company profit-taking suggest further upward momentum in the near term, though political pressure may create volatility.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -3409,74 +3466,12 @@
         }
       ],
       "breakdown": {
-        "crude": 60,
+        "crude": 51,
         "refining": 7,
-        "taxes": 29,
+        "taxes": 38,
         "dist": 4
       },
       "trend": [
-        1.723,
-        1.719,
-        1.717,
-        1.699,
-        1.703,
-        1.702,
-        1.702,
-        1.718,
-        1.717,
-        1.725,
-        1.73,
-        1.772,
-        1.758,
-        1.804
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "sk",
-      "state": "Saskatchewan",
-      "abbr": "SK",
-      "city": "Regina",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.61,
-      "priceLow": 1.562,
-      "weekDelta": 0.091,
-      "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are up 9.1¢ this week as crude climbs toward $80/barrel. U.S. pump pressures and supply dynamics suggest upward momentum may persist through mid-week before stabilizing.",
-      "advice": "Top off by Wednesday",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
-        },
-        {
-          "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
-        }
-      ],
-      "breakdown": {
-        "crude": 50,
-        "refining": 7,
-        "taxes": 39,
-        "dist": 4
-      },
-      "trend": [
-        1.537,
-        1.534,
-        1.532,
-        1.516,
-        1.52,
         1.519,
         1.519,
         1.533,
@@ -3485,7 +3480,12 @@
         1.544,
         1.581,
         1.569,
-        1.61
+        1.61,
+        1.569,
+        1.568,
+        1.611,
+        1.641,
+        1.662
       ],
       "priceSource": "nrcan_est"
     },
@@ -3497,12 +3497,12 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 2.147,
-      "priceLow": 2.083,
-      "weekDelta": 0.121,
+      "price": 2.216,
+      "priceLow": 2.15,
+      "weekDelta": 0.108,
       "weekDeltaDir": "up",
-      "why": "Crude is rising sharply (+$6.75) and prices already up 12¢/L week-over-week. U.S. market pressure and supply concerns suggest further increases likely in next 2–5 days before stabilizing.",
-      "advice": "Fill up today",
+      "why": "Crude is climbing sharply (+$6.75) amid geopolitical pressure, pushing Northern Canada prices up 10.8¢/L week-over-week. Political pressure on retailers may provide short-term relief, but upward crude momentum suggests prices could firm further.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -3523,17 +3523,12 @@
         }
       ],
       "breakdown": {
-        "crude": 68,
-        "refining": 6,
-        "taxes": 23,
+        "crude": 70,
+        "refining": 5,
+        "taxes": 22,
         "dist": 3
       },
       "trend": [
-        2.05,
-        2.045,
-        2.043,
-        2.022,
-        2.027,
         2.026,
         2.026,
         2.044,
@@ -3542,7 +3537,12 @@
         2.058,
         2.108,
         2.092,
-        2.147
+        2.147,
+        2.092,
+        2.091,
+        2.148,
+        2.188,
+        2.216
       ],
       "priceSource": "nrcan_est"
     }
