@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-20T18:00:31.868066+00:00",
-    "pricesUpdatedAt": "2026-07-20T18:00:17.875615+00:00",
+    "updatedAt": "2026-07-21T00:00:49.631834+00:00",
+    "pricesUpdatedAt": "2026-07-21T00:00:21.928270+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-20T18:33:08.730317+00:00",
-    "nextAnalysisUpdate": "2026-07-21T00:03:08.730328+00:00"
+    "nextPriceUpdate": "2026-07-21T00:36:58.446565+00:00",
+    "nextAnalysisUpdate": "2026-07-21T06:06:58.446603+00:00"
   },
   "wti": {
     "price": 79.2,
@@ -19,16 +19,21 @@
       "city": "Birmingham",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.68,
       "priceLow": 2.6,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "Crude oil jumped $6.75 and forecasts warn of $4/gallon prices within days. Current Alabama prices are 3% above local lows, and week-over-week gains signal upward momentum. Summer blend and rising WTI suggest further increases ahead.",
-      "advice": "Half tank now · wait",
+      "why": "Crude oil rising sharply (+$6.75) on geopolitical tension, pushing regional prices up 6.3¢ week-over-week. Prices currently 3% above local low with upward momentum expected to continue.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -38,11 +43,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.391,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Alaska prices are stable at $3.39/gal, but crude is rising sharply (+6.75) and national forecasts warn of $4/gal prices imminent. Summer blend and upward crude momentum suggest prices will climb within days.",
+      "why": "Alaska prices are stable at $3.39/gal, but crude is climbing (+$6.75) and national tensions are pushing prices toward $4. Summer blend adds cost. The upward momentum suggests prices will rise in 2–5 days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -95,11 +100,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 2.926,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Arizona gas is at a recent low with flat week-over-week movement, but crude oil is rising sharply (+6.75) and national headlines warn of potential $4/gal prices within days. Summer blend premiums and upward crude momentum suggest prices will climb soon.",
+      "why": "Arizona prices are flat at $2.93/gal, but crude oil jumped $6.75 and geopolitical tensions are pushing national prices toward $4/gal. Summer demand and supply concerns suggest upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -152,11 +157,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -195,11 +195,16 @@
       "priceLow": 2.546,
       "weekDelta": 0.061,
       "weekDeltaDir": "up",
-      "why": "Arkansas prices are 3% above the local low and WTI crude is climbing sharply (+6.75). Summer blend and upward momentum suggest prices will likely edge higher through mid-week before any potential relief.",
+      "why": "WTI crude jumped $6.75 and geopolitical tensions are driving prices upward. Arkansas is 3% above its recent low, and forecasts suggest prices could spike further toward $4/gal in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -209,11 +214,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -252,11 +252,16 @@
       "priceLow": 5.175,
       "weekDelta": 0.025,
       "weekDeltaDir": "up",
-      "why": "California prices are near recent lows despite WTI crude rising sharply. Summer blend premium and political price-cut pressure create conflicting signals, but the upward crude trend suggests prices may climb further in coming days.",
+      "why": "WTI crude surging +$6.75 and geopolitical tensions pushing prices higher. Summer blend premium is in effect. Prices likely to climb further in coming days as market responds to supply concerns.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -266,11 +271,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -304,16 +304,21 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.722,
       "priceLow": 3.517,
       "weekDelta": 0.205,
       "weekDeltaDir": "up",
-      "why": "Colorado gas jumped 20.5¢ week-over-week as crude rallies. Current price sits 20¢ above the regional low, with forecasts suggesting prices could breach $4/gal amid supply concerns and policy pressure.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Colorado prices up 20¢ this week as WTI crude climbs on geopolitical tension. Current price 3.72 is 20¢ above local low, with national average approaching $4. Upward momentum likely to persist short-term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -323,11 +328,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -366,11 +366,16 @@
       "priceLow": 3.19,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "WTI crude surged $6.75 and is trending upward, signaling further pump price increases ahead. Current CT prices are already 0.5% above the week's low, and headlines warn of potential $4/gallon moves within days.",
+      "why": "WTI crude jumped $6.75 and geopolitical tensions are pushing prices toward $4/gal nationally. CT is already up 5.6¢ week-over-week. Summer blend premium and rising crude suggest further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -380,11 +385,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -423,11 +423,16 @@
       "priceLow": 2.959,
       "weekDelta": 0.052,
       "weekDeltaDir": "up",
-      "why": "Crude oil surging toward $80/barrel and political pressure on pricing creates upward momentum. Current price is slightly above the local low, with summer demand still strong. Market signals suggest further increases likely in the near term.",
+      "why": "Delaware prices are up 5.2¢ this week as WTI crude surges on geopolitical tensions. Prices could reach $4/gal nationally soon. Current 3.01 is only 0.5¢ above local low but likely to climb further over next 2–3 days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -437,11 +442,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -480,11 +480,16 @@
       "priceLow": 3.667,
       "weekDelta": 0.073,
       "weekDeltaDir": "up",
-      "why": "Florida prices are up 7.3¢ week-over-week amid rising crude ($79.20, +6.75) and summer blend costs. News suggests potential push toward $4/gal, but current price remains 7¢ above the local low—a narrow window exists before further increases.",
+      "why": "Florida gas jumped 7¢ this week as crude surges on geopolitical tension. Prices are climbing toward $4/gal with upward momentum, and summer demand keeps pressure high. A 3-5 day window before potential further increases suggests acting soon.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -494,11 +499,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -537,11 +537,16 @@
       "priceLow": 2.7,
       "weekDelta": 0.048,
       "weekDeltaDir": "up",
-      "why": "Crude oil rising sharply (+$6.75) and summer blend adds cost. Political pressure on prices creates uncertainty, but current GA price is near recent lows. Upward momentum suggests limited window before further increases.",
+      "why": "WTI crude surged $6.75 and geopolitical tensions are pushing prices toward $4/gal nationally. Georgia's $2.748 is still reasonable but trending up. Summer blend and rising crude suggest further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -551,11 +556,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -594,11 +594,16 @@
       "priceLow": 4.147,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Hawaii gas is near its lowest point at $4.15/gal with minimal week-over-week change. WTI crude rising signals potential future increases, but current prices remain stable and competitive for the region.",
+      "why": "Hawaii gas sits near its recent low despite crude climbing on geopolitical tension. WTI's sharp rise (+6.75) signals upstream pressure, but your local market hasn't fully repriced yet. This window is closing—fill up before refiners pass increases downstream.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -608,11 +613,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -646,16 +646,21 @@
       "city": "Boise",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.059,
       "priceLow": 2.929,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Idaho prices have risen 13¢ this week while WTI crude jumped $6.75, signaling upward momentum. However, you're still 13¢ above the regional low, and political pressure on oil companies may create a temporary ceiling.",
-      "advice": "Top off today, watch Wed",
-      "bestDayIdx": 3,
+      "why": "Crude oil is rising sharply (+6.75) amid geopolitical tensions, and national prices are climbing toward $4/gal. Idaho's current price is 13¢ above the regional low, with week-over-week gains of 13¢ signaling continued upward pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -665,11 +670,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -703,16 +703,21 @@
       "city": "Chicago",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.338,
       "priceLow": 3.219,
       "weekDelta": 0.119,
       "weekDeltaDir": "up",
-      "why": "Illinois prices have jumped 12¢ in a week amid rising crude (+6.75) and political pressure on oil companies. Prices could approach $4/gal soon, but current volatility and potential supply responses create uncertainty over the next few days.",
-      "advice": "Top off today · monitor",
+      "why": "Illinois prices rose 12¢ week-over-week as WTI crude jumped on geopolitical tensions. Prices are 12¢ above the regional low and forecasts suggest further increases toward $4/gal in coming days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -722,11 +727,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -765,11 +765,16 @@
       "priceLow": 2.881,
       "weekDelta": 0.107,
       "weekDeltaDir": "up",
-      "why": "Indiana prices rose 10¢ this week as crude climbed above $79. Summer blend costs more, and upward pressure from crude suggests further increases likely. Current price sits 11¢ above the local low.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Indiana prices are up 11¢ week-over-week and crude is climbing on geopolitical tension. Summer blend costs more, and forecasts suggest prices could reach $4/gal soon. Current 2.988 is elevated but not yet at predicted peaks.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -779,11 +784,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -822,11 +822,16 @@
       "priceLow": 2.739,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Iowa prices are 3.6% above the week's low and crude is rising sharply (+6.75). Summer blend premiums and upward momentum suggest further increases likely this week.",
+      "why": "Iowa prices jumped 10¢ this week as crude oil surged on geopolitical tensions. Current price is 10¢ above the regional low, with further upward pressure likely from conflict concerns and summer demand.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -836,11 +841,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -874,16 +874,21 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.785,
       "priceLow": 2.685,
       "weekDelta": 0.1,
       "weekDeltaDir": "up",
-      "why": "Prices rose 10¢ this week as crude climbed sharply. WTI momentum is upward and market headlines suggest further pressure. However, you're only 10¢ above the local low, leaving room to wait for a pullback.",
-      "advice": "Top off half · wait until Thu",
-      "bestDayIdx": 4,
+      "why": "Kansas prices are up 10¢ this week as crude climbs on geopolitical tension. Current 2.785 is 10¢ above local lows, with national forecasts suggesting prices could push toward $4/gal in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -893,11 +898,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -936,11 +936,16 @@
       "priceLow": 2.763,
       "weekDelta": 0.067,
       "weekDeltaDir": "up",
-      "why": "Kentucky prices rose 6.7¢ week-over-week amid climbing crude ($79.20, +$6.75). Summer blend and upward crude momentum suggest further increases ahead, though political pressure may create temporary relief.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Kentucky gas is up 6.7¢ this week as crude climbs on geopolitical tensions. Current price sits 8.5¢ above the local low, with forecasts warning of $4/gal nationally within days. Summer blend and upward crude momentum suggest further increases ahead.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -950,11 +955,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -988,16 +988,21 @@
       "city": "New Orleans",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.727,
       "priceLow": 2.645,
       "weekDelta": 0.064,
       "weekDeltaDir": "up",
-      "why": "WTI crude surged $6.75 to $79.20, and headlines warn of $4/gal prices within days. LA is already up 6.4¢ week-over-week and sits 3.2¢ above the local low. Upward momentum suggests further increases ahead.",
-      "advice": "Top off today · wait for dip",
+      "why": "WTI crude is up $6.75 and heading higher amid Iran tensions. Current LA price is 3.1¢ above the local low, and national averages are approaching $4/gal. Summer blend and geopolitical risk suggest upward pressure ahead.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1007,11 +1012,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging +$6.75 and heading toward $4/gal signals continued upward pressure. Current Maine price is 0.055 above last week with more gains likely this week given crude momentum and political pressure on supply.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Maine prices are up 5.5¢ this week as crude climbs on geopolitical tension. WTI rallying and news signals further pressure toward $4/gal nationally. Current 3.18 is still 5.5¢ above the local low, but upward momentum suggests limited downside.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1064,11 +1069,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1102,16 +1102,21 @@
       "city": "Baltimore",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.086,
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude oil rose sharply (+6.75) and prices climbed week-over-week. News suggests further upward pressure toward $4/gal, though you're still 5¢ above the local low. Summer blend and political pressure create volatility.",
-      "advice": "Top off today · monitor",
-      "bestDayIdx": 0,
+      "why": "WTI crude surging on geopolitical tensions, prices up week-over-week with forecasts showing potential $4/gallon spike within days. Current Maryland price sits above local low, and upward momentum suggests timing is closing.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1121,11 +1126,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1164,11 +1164,16 @@
       "priceLow": 3.785,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging $6.75 and news signals prices may breach $4/gal soon. Current MA price is only $0.02 above the low, but upward momentum and political pressure on oil suggest limited window before further increases.",
+      "why": "WTI crude surging $6.75 on geopolitical tensions, pushing prices up week-over-week. Forecasts suggest $4/gal imminent. Current MA price near recent low but upward momentum strong.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1178,11 +1183,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1216,16 +1216,21 @@
       "city": "Detroit",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.062,
       "priceLow": 2.952,
       "weekDelta": 0.11,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and prices have climbed 11¢ week-over-week. Summer blend and political pressure create uncertainty, but momentum suggests further increases likely in the next 2–3 days before stabilizing.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Michigan prices have risen 11¢ this week as crude climbs on geopolitical tension. Current price sits 11¢ above the recent low, with forecasts suggesting further pressure toward $4/gal.",
+      "advice": "Half now · full Friday",
+      "bestDayIdx": 5,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1235,11 +1240,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1273,16 +1273,21 @@
       "city": "Minneapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.749,
       "priceLow": 3.588,
       "weekDelta": 0.161,
       "weekDeltaDir": "up",
-      "why": "Minnesota prices are up 16¢ week-over-week as WTI crude rallies sharply (+6.75). Summer blend and upward crude momentum suggest further increases likely this week. Prices remain 16¢ above the regional low, indicating a poor fill-up window.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Minnesota gas has jumped 16¢ this week as WTI crude surges on geopolitical tensions. Prices are 16¢ above the regional low and climbing toward $4/gal. Further upside pressure likely in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1292,11 +1297,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.582,
       "weekDelta": 0.062,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and prices are up week-over-week despite being 3¢ above the regional low. Summer blend and upward crude momentum suggest further increases are likely in the next few days.",
+      "why": "MS prices are 3¢ above the local low and WTI crude is climbing sharply (+6.75). Geopolitical tensions and supply concerns are pushing prices upward with risk of $4/gallon nationally within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1349,11 +1354,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1387,16 +1387,21 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.748,
       "priceLow": 2.65,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "Missouri prices are up nearly 10¢ week-over-week amid rising crude ($79+), and national headlines warn of $4/gal within days. Summer blend and upward crude momentum suggest further increases ahead.",
-      "advice": "Half tank now, wait for dip",
-      "bestDayIdx": 2,
+      "why": "Missouri prices have jumped nearly 10¢ in a week as crude climbs on geopolitical tensions. Current price sits 10¢ above the local low, and forecasts suggest further gains toward $4/gallon in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1406,11 +1411,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1444,16 +1444,21 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.124,
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Montana gas is up 13¢ this week as crude rises sharply (+$6.75). National headlines warn of $4/gal prices imminent, and political pressure on oil suggests volatility ahead. Current price sits 4.4% above the local low.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
+      "why": "Montana prices are up 4.4% week-over-week as crude climbs on geopolitical tension. Current pump is 4.2% above regional low, with upward pressure from Iran conflict headlines and potential $4/gal national average looming.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1463,11 +1468,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1501,16 +1501,21 @@
       "city": "Omaha",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 2.849,
       "priceLow": 2.748,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Nebraska prices have jumped 10¢ in a week as crude climbs toward $80/barrel. Summer blend and upward momentum suggest further increases likely. Current price sits 10¢ above the recent low, signaling a temporary peak before potential relief.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Crude prices are climbing amid geopolitical tensions, and WTI is up sharply. Nebraska prices are already +10¢ week-over-week and sit 10¢ above the local low. Further increases likely as tensions escalate.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1520,11 +1525,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.482,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Nevada prices are at recent lows, but crude oil is climbing sharply (+$6.75) and market signals suggest prices may approach $4/gallon soon. Summer blend and upward crude momentum indicate pressure ahead.",
+      "why": "WTI crude jumped 6.75% to $79.20 and geopolitical tensions are driving prices upward. Nevada is already at a local low, but refiner margins and summer blend demand suggest upward pressure is imminent.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1577,11 +1582,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude oil jumped $6.75 and climbed above $79, pushing NH prices up 5.3¢ this week. News suggests further pressure toward $4/gal, signaling more increases ahead despite political rhetoric.",
+      "why": "NH prices are up 5.3¢ this week as crude climbs on geopolitical tensions. Forecasts suggest $4/gal is possible within days. Current price sits just 5.3¢ above the regional low, but upward momentum is strong.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1634,11 +1639,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing sharply (+6.75) and prices are already up 5.3¢ week-over-week. Summer blend premium and upward momentum suggest further gains ahead. Current price is 5.3¢ above nearby low.",
-      "advice": "Fill up within 24 hours",
+      "why": "WTI crude jumped $6.75 and geopolitical tensions are pushing prices upward. NJ prices are already 5¢ higher week-over-week, and forecasts suggest a push toward $4/gal soon. Current 3.086 is still below that threshold but the trend is clearly upward.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1691,11 +1696,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1734,11 +1734,16 @@
       "priceLow": 2.854,
       "weekDelta": 0.068,
       "weekDeltaDir": "up",
-      "why": "Crude is rising sharply (+$6.75) and national headlines warn of $4/gal prices imminent. NM prices already up 6.8¢ week-over-week. Summer blend premium and upward momentum suggest further increases ahead.",
+      "why": "NM prices have risen 6.8¢ week-over-week as crude climbs on geopolitical tensions. Current price sits 8.7¢ above the local low, and upward momentum suggests further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1748,11 +1753,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1791,11 +1791,16 @@
       "priceLow": 3.984,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "NY prices are at a recent low of $3.984/gal, but WTI crude is rising sharply (+$6.75) and headlines warn of prices approaching $4/gal within days. Summer blend and upward momentum suggest limited window before increases kick in.",
+      "why": "NY prices are at $3.984, right at the local low. WTI crude is rising sharply (+6.75) on Iran tensions, pushing prices toward $4/gallon. Summer blend adds cost. Geopolitical risk suggests further upside over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1805,11 +1810,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "WTI crude surging $6.75 with upward momentum, and news indicates potential push toward $4/gal. Current NC price is 1.7% above the week's low, suggesting a short-term peak before further increases hit pumps.",
+      "why": "WTI crude surged $6.75 and geopolitical tensions are pushing prices higher. NC is already up $0.05 week-over-week, with warnings of $4/gal prices imminent. Current $2.87 is likely near a local peak before the next leg up.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1862,11 +1867,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1900,16 +1900,21 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.932,
       "priceLow": 2.828,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "Prices have jumped 10¢ this week as crude rallies above $79/bbl. Political pressure on gas stations may create temporary volatility, but upward crude momentum suggests prices could test $3.00+ soon. Current level is still 10¢ above the recent low.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
+      "why": "WTI crude is rising sharply (+6.75) and geopolitical tensions are pushing gas toward $4/gallon nationally. ND prices are up 10¢ week-over-week and 10¢ above the regional low, with upward momentum likely to continue.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1919,11 +1924,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 3.799,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are at recent lows, but crude oil is rising sharply (+$6.75) and analyst forecasts suggest prices could breach $4/gal within days. Summer blend and upward crude momentum create near-term upside risk.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Ohio prices are stable at $3.80/gal, but crude oil is rising sharply (+$6.75) amid geopolitical tensions. Prices could breach $4/gal within days as refineries adjust to higher input costs.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -1976,11 +1981,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.609,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "Crude is rising sharply (+$6.75) and summer demand is high. Prices are already up 6.3¢ week-over-week and could climb further. You're 8¢ above the local low, suggesting more upside risk before any pullback.",
+      "why": "WTI crude surged $6.75 and geopolitical tensions are pushing prices upward. At $2.689/gal, you're 8¢ above the local low with further increases likely in coming days as market sentiment hardens.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2033,11 +2038,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2076,11 +2076,16 @@
       "priceLow": 3.536,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Oregon prices hover at recent lows despite crude oil climbing sharply. Summer blend and political pressure on retailers create uncertainty, but upward crude momentum signals potential increases ahead within days.",
+      "why": "WTI crude jumped $6.75 and geopolitical tensions are pushing prices toward $4/gal nationally. Oregon is still below that threshold at $3.537, near its weekly low. Upward momentum suggests prices will climb in the next 2–3 days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2090,11 +2095,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2133,11 +2133,16 @@
       "priceLow": 3.255,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "Crude oil rising sharply (+6.75) signals upward pressure, but current PA price trails the low by 5.7¢. Political pressure on oil companies may create brief stability. Summer blend typically peaks mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "WTI crude surged $6.75 and geopolitical tensions are driving prices upward. PA prices are already 0.057 above last week, with forecasts pointing toward $4/gal soon. Summer blend adds cost pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2147,11 +2152,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.144,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "WTI crude up sharply to $79.20, pushing RI prices 5.5¢ higher week-over-week. Summer blend and upward crude momentum suggest further near-term increases toward $4/gal are likely within days.",
+      "why": "RI prices up 5.5¢ week-over-week amid rising crude ($79.20, +$6.75) and geopolitical tensions. National average approaching $4/gal signals upward momentum. Summer blend and crude trajectory suggest further increases likely within 48–72 hours.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2204,11 +2209,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2247,11 +2247,16 @@
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "Crude oil is rising sharply (+$6.75) and prices have climbed 5¢ week-over-week. Summer blend and upward momentum suggest further increases likely in the coming days.",
+      "why": "Crude oil climbing on geopolitical tensions, prices up 5¢ week-over-week and poised to breach $4/gal nationally. Summer blend adds cost. Current SC price near recent low but upward momentum suggests limited window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2261,11 +2266,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2299,16 +2299,21 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.905,
       "priceLow": 2.801,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "SD prices are up 10¢ week-over-week amid rising WTI crude (+$6.75). News signals potential upward pressure toward $4/gal, but current 2.905 remains below that threshold. Summer demand and political attention create near-term uncertainty.",
-      "advice": "Fill up today · monitor",
+      "why": "WTI crude surging on Iran tensions with prices climbing toward $4/gal nationally. SD at $2.905 is moderately elevated and tracking upward. Geopolitical risk suggests further pressure this week.",
+      "advice": "Top off today · monitor",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2318,11 +2323,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2361,11 +2361,16 @@
       "priceLow": 2.673,
       "weekDelta": 0.065,
       "weekDeltaDir": "up",
-      "why": "Prices rose $0.065 this week as crude climbed 6.75% to $79.20. News suggests further upward pressure, but political pressure may create volatility. You're 3¢ above the local low.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "TN prices up 6.5¢ week-over-week amid geopolitical tensions and rising crude ($79.20, up $6.75). National headlines warn of $4/gal imminent. Current 2.755 still 8¢ above regional low, but upward momentum suggests window closing.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2375,11 +2380,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2418,11 +2418,16 @@
       "priceLow": 3.371,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are at their lowest point, but crude oil is rising sharply (+6.75) and headlines suggest upward pressure ahead. Summer blend and potential supply concerns create mixed signals for the next few days.",
+      "why": "Texas gas is at a recent low, but crude is climbing sharply (+6.75%) on geopolitical tensions. Prices could breach $4/gal within days as summer demand peaks and Iran conflict escalates.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2432,11 +2437,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2470,16 +2470,21 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.124,
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Utah prices have jumped 13¢ in a week while WTI crude climbs sharply. National headlines suggest further upward pressure near-term, though political pressure may create volatility. Current price sits 4.4% above the local low.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
+      "why": "Utah gas is up 13¢ this week as crude climbs on geopolitical tensions. Prices are 4% above the local low and heading higher—forecasts suggest $4/gal nationally within days. Summer blend adds cost pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2489,11 +2494,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2532,11 +2532,16 @@
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Vermont prices are up 5.5¢ this week as crude climbs toward $80. Trump rhetoric on gas prices creates policy uncertainty, but near-term supply remains stable. Current 3.18 is close to the local low of 3.125.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Vermont prices are up 5.5¢ this week amid rising crude ($79.20, +$6.75) and geopolitical tensions pushing U.S. gas toward $4/gal. Current price is 5.5¢ above local low with upward momentum.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2546,11 +2551,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 2.913,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "Crude oil jumped $6.75 to $79.20, pushing prices up 5¢ week-over-week. Market signals suggest further upward pressure ahead despite political pressure for cuts. Summer blend and rising WTI indicate headwinds.",
+      "why": "WTI crude is rising sharply (+$6.75) amid geopolitical tensions, pushing Virginia prices up 5¢ week-over-week. Prices could approach $4/gal within days as refineries adjust to supply concerns.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2603,11 +2608,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 4.849,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at a recent low with flat week-over-week change, but rising crude oil (+6.75) and geopolitical pressure on gas prices create upward momentum. Summer blend premium adds cost pressure.",
+      "why": "WA prices are at recent lows despite crude climbing $6.75/barrel due to geopolitical tensions. Summer blend and stable local supply are supporting current rates, but upward crude pressure suggests prices may edge higher soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2660,11 +2665,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2703,11 +2703,16 @@
       "priceLow": 2.941,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "WV prices are near recent lows despite WTI crude climbing $6.75. Political pressure on gas stations and summer blend demand create uncertainty. Upward crude momentum suggests prices may rise further in coming days.",
+      "why": "WV prices up 5¢ this week as WTI crude climbs $6.75 on geopolitical tensions. Forecasts suggest prices could reach $4/gal soon. Current price is 5¢ above local low, but upward pressure likely to intensify.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2717,11 +2722,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2755,16 +2755,21 @@
       "city": "Milwaukee",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.025,
       "priceLow": 2.916,
       "weekDelta": 0.109,
       "weekDeltaDir": "up",
-      "why": "Wisconsin prices are up 11 cents week-over-week while crude surges $6.75. Political pressure on gas stations may create short-term volatility, but upward crude momentum suggests prices could test $4/gal soon. Current 3.025 is near recent highs, not lows.",
-      "advice": "Top off halfway today",
-      "bestDayIdx": 4,
+      "why": "Wisconsin prices are up 11¢ this week as crude climbs on geopolitical tensions. Current $3.025 is 11¢ above the local low, and headlines suggest further upward pressure ahead. Summer blend adds cost.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2774,11 +2779,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2812,16 +2812,21 @@
       "city": "Cheyenne",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.031,
       "priceLow": 2.902,
       "weekDelta": 0.129,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are 4.2% above the regional low and climbing. WTI crude surged $6.75 and headlines warn of $4/gallon territory. Summer blend premium and upward momentum suggest further increases ahead in the next 2–3 days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Wyoming gas is up 4.4% week-over-week amid crude climbing on geopolitical tensions. Current price sits 4.4% above the regional low, with WTI rising and headlines suggesting further increases toward $4/gal nationally.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2831,11 +2836,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2874,11 +2874,16 @@
       "priceLow": 3.283,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "DC prices rose 5.7¢ this week as crude climbs toward $80/barrel. Summer blend premium and upward pressure suggest further increases likely in coming days, though political pressure may create volatility.",
+      "why": "DC prices are up 5.7¢ week-over-week as WTI crude surges on geopolitical tensions. Forecasts warn of $4/gal levels within days. Current 3.34 is still 1.7% above local low, but upward momentum is strong.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2888,11 +2893,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2926,16 +2926,21 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.759,
       "priceLow": 1.706,
       "weekDelta": 0.091,
       "weekDeltaDir": "up",
-      "why": "Alberta prices rose 9.1¢ this week as crude climbed above $79/barrel. U.S. market volatility and political pressure on oil companies suggest continued upward pressure in the near term. Current price is 5.3¢ above the recent low.",
-      "advice": "Top off today, hold rest",
+      "why": "Alberta prices have jumped 9.1¢/L week-over-week as WTI crude climbs on geopolitical tensions. Current price (1.759) sits 5.3¢ above the recent low, with upward momentum likely to persist in the near term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -2945,11 +2950,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -2983,16 +2983,21 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.027,
       "priceLow": 1.966,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "BC prices rose 9.8¢/L week-over-week as crude climbed above $79/bbl. Summer blend premiums and upward crude momentum suggest further increases likely in the near term. You're 6¢/L above the local low.",
-      "advice": "Top up today, avoid weekend",
-      "bestDayIdx": 2,
+      "why": "BC prices jumped 9.8¢/L week-over-week on geopolitical tensions and rising crude ($79.20, +6.75). Current 2.027 $/L is 6.1¢ above the nearby low, with upward momentum likely continuing amid Iran conflict headlines.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3002,11 +3007,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3040,16 +3040,21 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.744,
       "priceLow": 1.692,
       "weekDelta": 0.084,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices are up 8.4¢ this week as crude climbs on geopolitical tensions. Current 1.744 $/L is 5.2¢ above the regional low, and U.S. momentum suggests further upward pressure near-term.",
-      "advice": "Top up today, avoid Friday",
+      "why": "Manitoba prices have jumped 8.4¢ this week as crude climbs on geopolitical tension. Current price is 3% above the local low, with upward momentum likely to continue as U.S. markets face supply concerns.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3059,11 +3064,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3097,16 +3097,21 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.827,
       "priceLow": 1.772,
       "weekDelta": 0.089,
       "weekDeltaDir": "up",
-      "why": "NB prices surged 8.9¢/L this week and sit 5.5¢ above the regional low. WTI crude is climbing on geopolitical pressure, and U.S. wholesale futures are rising toward $4/gallon parity. Summer demand and refinery constraints reinforce upward bias.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Prices jumped 8.9¢/L week-over-week as crude climbs on geopolitical tensions. Current NB price is 5.5¢/L above the regional low, suggesting room to drop before stabilizing.",
+      "advice": "Top off half now, wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3116,11 +3121,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3159,11 +3159,16 @@
       "priceLow": 1.806,
       "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Newfoundland prices have jumped 9¢/L week-over-week as crude rises toward $80/barrel. U.S. supply concerns and political pressure on pricing suggest continued upward momentum, though any relief would likely appear mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Crude is rising sharply (+$6.75) amid geopolitical tension, pushing NL prices up 9¢/L week-over-week. Current price sits 5.6¢ above the recent low, with further upward pressure likely as U.S. markets tighten.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3173,11 +3178,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3216,11 +3216,16 @@
       "priceLow": 1.813,
       "weekDelta": 0.102,
       "weekDeltaDir": "up",
-      "why": "NS prices jumped 10¢/L week-over-week as crude rose sharply to $79.20. Current 1.869 $/L is 5.6¢ above the regional low, with upward momentum continuing amid geopolitical tensions and supply concerns.",
-      "advice": "Top off today · watch Fri",
-      "bestDayIdx": 5,
+      "why": "NS prices jumped 10¢/L week-over-week as WTI crude surged on geopolitical tensions. Current price sits 5.6¢ above the local low, with upward momentum likely to persist given conflict concerns and crude direction.",
+      "advice": "Fill up today · monitor",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3230,11 +3235,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3268,16 +3268,21 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.765,
       "priceLow": 1.712,
       "weekDelta": 0.096,
       "weekDeltaDir": "up",
-      "why": "Ontario prices jumped 9.6¢ this week as crude surged on geopolitical tensions. Current price is 5.3¢ above the low, but upward momentum continues with WTI rising and political pressure creating unpredictable swings.",
-      "advice": "Half now · wait for dip",
-      "bestDayIdx": 4,
+      "why": "Ontario prices are up nearly 10¢/L week-over-week as WTI crude climbs on geopolitical tensions. Current price sits 5.3¢ above the local low, with upward momentum expected to continue in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3287,11 +3292,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3325,16 +3325,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.815,
       "priceLow": 1.761,
       "weekDelta": 0.088,
       "weekDeltaDir": "up",
-      "why": "PEI prices are 5.4¢ above the local low and up sharply week-over-week. WTI crude is rising and political pressure on gas stations suggests volatility ahead. Summer blend and upward momentum indicate limited near-term relief.",
-      "advice": "Top off today · watch for dips",
-      "bestDayIdx": 3,
+      "why": "PE prices are up 8.8¢/L week-over-week as WTI crude climbs on geopolitical tensions. Current 1.815 $/L sits 5.4¢ above the regional low, with crude momentum and U.S. supply concerns pointing to further increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3344,11 +3349,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3382,16 +3382,21 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.862,
       "priceLow": 1.806,
       "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Quebec prices are up 9¢/L week-over-week as crude climbs above $79. U.S. market pressures and political rhetoric suggest continued upward momentum in the near term, though current prices remain 5.6¢/L above the local low.",
-      "advice": "Top off today, watch for dips",
-      "bestDayIdx": 3,
+      "why": "Quebec prices have jumped 9¢/L week-over-week amid rising crude (+6.75%) driven by Iran tensions. Current price sits 5.6¢ above the nearby low, with upward pressure expected to persist as geopolitical risk supports crude.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3401,11 +3406,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3444,11 +3444,16 @@
       "priceLow": 1.612,
       "weekDelta": 0.081,
       "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are up 8¢ this week as crude rallies above $79. US market signals suggest further upward pressure despite political rhetoric. You're 5¢ above the local low with momentum still climbing.",
+      "why": "WTI crude is rising sharply (+6.75) amid geopolitical tensions, and SK prices are up 8¢/L week-over-week. Current price sits 5¢ above the local low, with upward momentum likely to continue as global supply concerns persist.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3458,11 +3463,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
@@ -3496,16 +3496,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.216,
       "priceLow": 2.15,
       "weekDelta": 0.108,
       "weekDeltaDir": "up",
-      "why": "Prices are 3% above regional low and rising sharply with crude up $6.75. WTI momentum and U.S. political pressure on pricing suggest continued upward pressure this week in Northern Canada.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "WTI crude surging (+$6.75) and geopolitical tensions pushing U.S. prices toward $4/gal signals upstream cost pressure. Northern Canada typically tracks these shifts within days. Current 2.216 $/L is already 0.066 above regional low; further increases likely in next 2–3 days.",
+      "advice": "Top off today · wait for Wed",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        },
         {
           "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
           "source": "OilPrice",
@@ -3515,11 +3520,6 @@
           "headline": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
           "source": "OilPrice",
           "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html"
-        },
-        {
-          "headline": "Bessent warns gas stations 'we're watching' as Trump demands immediate price cuts",
-          "source": "NewsBreak",
-          "url": "https://www.newsbreak.com/fox-business-1600402/4741641997103-bessent-warns-gas-stations-we-re-watching-as-trump-demands-immediate-price-cuts"
         }
       ],
       "breakdown": {
