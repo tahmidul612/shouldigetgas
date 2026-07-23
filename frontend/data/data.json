@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-07-23T00:01:51.785363+00:00",
-    "pricesUpdatedAt": "2026-07-23T00:00:57.312657+00:00",
+    "updatedAt": "2026-07-23T06:00:20.876772+00:00",
+    "pricesUpdatedAt": "2026-07-23T06:00:01.372165+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-23T00:49:39.192582+00:00",
-    "nextAnalysisUpdate": "2026-07-23T06:19:39.192598+00:00"
+    "nextPriceUpdate": "2026-07-23T06:39:01.604243+00:00",
+    "nextAnalysisUpdate": "2026-07-23T12:09:01.604255+00:00"
   },
   "wti": {
-    "price": 71.2,
-    "dir": "flat",
-    "change": 0.0
+    "price": 84.38,
+    "dir": "up",
+    "change": 0.95
   },
   "regions": [
     {
@@ -24,11 +24,16 @@
       "priceLow": 2.6,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "Alabama prices are up 6.3¢ week-over-week amid national surge toward $4/gal. WTI crude is flat, but geopolitical tensions and summer blend costs are driving retail increases. You're 8¢ above the regional low.",
-      "advice": "Fill up today before further r",
+      "why": "Alabama prices are up 6.3¢ this week as crude oil rises on geopolitical tension with Iran. Summer blend adds cost, and upward momentum suggests further increases likely in the near term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -38,11 +43,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.391,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Alaska gas is at its local low of $3.39/gal while U.S. averages climb past $4. WTI crude is flat, suggesting stability. Summer blend and no holiday pressure mean prices are unlikely to drop further soon.",
+      "why": "Alaska prices are at their local low with flat week-over-week movement. WTI crude is rising amid geopolitical tensions, but current supply remains stable. This represents a near-term floor for the region.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -95,11 +100,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 2.926,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Arizona gas is at a local low of $2.926/gal with flat WTI crude. National headlines warn of prices climbing toward $4, but Arizona remains well below that threshold. Current conditions suggest a stable, favorable window to refuel before broader upward pressure spreads.",
+      "why": "Arizona prices are stable at $2.93/gal, matching the local low. WTI crude is rising (+$0.95) due to Middle East tensions, but current retail prices haven't fully reflected upstream gains yet. Summer blend and stable week-over-week pricing suggest a temporary equilibrium.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -152,11 +157,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -190,16 +190,21 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.624,
       "priceLow": 2.546,
       "weekDelta": 0.061,
       "weekDeltaDir": "up",
-      "why": "Arkansas prices are up 6¢ week-over-week and sit 3% above the local low. National headlines suggest upward pressure as prices approach $4/gal nationally. Summer blend costs and flat crude indicate near-term risk of further increases.",
+      "why": "Arkansas prices are up 6 cents week-over-week amid rising crude ($84.38, +0.95) and geopolitical tension. You're 3 cents above the regional low, with upward momentum likely continuing.",
       "advice": "Fill up within 2 days",
       "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -209,11 +214,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -252,11 +252,16 @@
       "priceLow": 5.175,
       "weekDelta": 0.025,
       "weekDeltaDir": "up",
-      "why": "California prices are elevated at $5.20/gal due to summer blend requirements and geopolitical tensions affecting crude. WTI is flat, suggesting prices have stabilized near current levels with limited near-term downside.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "California gas is near its local low at $5.20/gal, but crude is rising on geopolitical tension (Iran concerns). Summer blend requirements keep CA prices elevated. Week-over-week gains suggest upward momentum.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -266,11 +271,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -304,16 +304,21 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.722,
       "priceLow": 3.517,
       "weekDelta": 0.205,
       "weekDeltaDir": "up",
-      "why": "Colorado prices have jumped 20¢ this week and sit 5.8% above the local low. National headlines show upward momentum toward $4/gal, driven by geopolitical tensions. WTI crude is flat but sentiment remains bullish.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Colorado prices jumped 20¢ this week on geopolitical tensions and crude climbing above $84. You're 21¢ above the local low, and upward crude momentum suggests further pressure ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -323,11 +328,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -361,16 +361,21 @@
       "city": "Hartford",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.246,
       "priceLow": 3.19,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "Connecticut gas is up 5.6¢ this week amid broader U.S. price climbs toward $4/gal. WTI crude is flat, but geopolitical tension and summer demand are pushing retail prices higher. You're 5.6¢ above the local low.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "why": "Connecticut prices are up 5.6¢ this week as crude climbs on geopolitical tensions. You're 5.6¢ above the regional low, and upward pressure from Iran conflict news suggests further increases ahead.",
+      "advice": "Top off today, avoid full tank",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -380,11 +385,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -423,11 +423,16 @@
       "priceLow": 2.959,
       "weekDelta": 0.052,
       "weekDeltaDir": "up",
-      "why": "Delaware prices are up 5.2¢ week-over-week and trending toward $4/gal amid geopolitical tensions. WTI crude is flat but supply concerns are building. You're 5.2¢ above the local low—a modest premium in a rising market.",
+      "why": "Delaware prices are up 5.2¢ this week amid rising crude ($84.38, +0.95) and Iran tensions. You're only 0.5¢ above the local low, and upward momentum is strong. Summer blend adds cost pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -437,11 +442,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -475,16 +475,21 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.74,
       "priceLow": 3.667,
       "weekDelta": 0.073,
       "weekDeltaDir": "up",
-      "why": "Florida prices rose 7.3¢ this week and sit 2% above the local low. WTI crude is flat, but geopolitical tension and national headlines suggest upward pressure. Summer blend premiums add cost.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "why": "Florida prices rose 7.3¢ this week as crude climbed on geopolitical tensions. Current price sits 2.5¢ above the nearby low, with upward momentum continuing. Summer blend and Iran conflict pressures suggest further gains ahead.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -494,11 +499,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -537,11 +537,16 @@
       "priceLow": 2.7,
       "weekDelta": 0.048,
       "weekDeltaDir": "up",
-      "why": "Georgia prices are climbing week-over-week and tracking toward the national $4 trend. WTI is flat but geopolitical tensions and summer demand support upward pressure. You're 0.048 above the recent low—a modest window is closing.",
+      "why": "Georgia prices are up 4.8¢ this week as crude rises on Iran tensions. You're only 0.5¢ above the regional low, and summer blend demand keeps upward pressure likely through the week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -551,11 +556,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -594,11 +594,16 @@
       "priceLow": 4.147,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Hawaii gas is already at $4.15/gal with crude flat at $71.20. Prices are near recent lows and show minimal week-over-week change. Geopolitical tensions could push crude higher, but no immediate pressure expected in the next 2–3 days.",
+      "why": "Hawaii prices are essentially at their weekly low with only a penny variation. Crude is rising and geopolitical tensions support upward pressure. Summer demand and refinery constraints typical for the islands mean prices are unlikely to dip significantly.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -608,11 +613,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -651,11 +651,16 @@
       "priceLow": 2.929,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Idaho prices are up $0.13 week-over-week and $0.13 above the regional low. National headlines show prices climbing toward $4/gal amid geopolitical tensions, but WTI crude is flat. Summer blend and steady crude suggest limited downside near-term.",
+      "why": "Idaho prices are 4.4% above the week's low and climbing due to crude oil strength fueled by Iran tensions. Summer blend adds cost pressure. Upward momentum suggests further near-term increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -665,11 +670,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -708,11 +708,16 @@
       "priceLow": 3.219,
       "weekDelta": 0.119,
       "weekDeltaDir": "up",
-      "why": "Illinois prices are up 12¢ week-over-week and 12¢ above the regional low. Geopolitical tensions and crude volatility are pushing national averages toward $4/gal. Summer blend costs more, and upward pressure suggests limited near-term relief.",
-      "advice": "Top off today, hold remainder",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Illinois prices are up 12¢ this week amid geopolitical tensions pushing crude higher. Current price sits 12¢ above the local low, with WTI climbing. Summer blend adds cost pressure.",
+      "advice": "Top off today · watch for dip",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -722,11 +727,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -765,11 +765,16 @@
       "priceLow": 2.881,
       "weekDelta": 0.107,
       "weekDeltaDir": "up",
-      "why": "Indiana prices are up 10.7¢ week-over-week and currently 10.7¢ above the local low. National headlines warn of prices climbing toward $4/gal amid geopolitical tensions. WTI crude is flat, suggesting momentum may continue upward.",
-      "advice": "Top off today, avoid further w",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Indiana prices are up 10¢ this week as crude climbs on Middle East tensions. You're paying a 10¢ premium over nearby lows, and upward pressure from geopolitical risk may persist short-term.",
+      "advice": "Top off today, wait for dip",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -779,11 +784,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -822,11 +822,16 @@
       "priceLow": 2.739,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Iowa prices are up 10¢ this week and currently 10¢ above the local low. National headlines show upward pressure from geopolitical tensions pushing prices toward $4/gal. WTI crude is flat but sentiment remains bullish.",
+      "why": "Iowa prices rose 10¢ this week as crude climbs on geopolitical tension. Current price trails the regional low by 10¢, and upward momentum suggests further increases ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -836,11 +841,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -874,16 +874,21 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.785,
       "priceLow": 2.685,
       "weekDelta": 0.1,
       "weekDeltaDir": "up",
-      "why": "Kansas prices up 10¢ week-over-week amid national surge toward $4/gal driven by Iran tensions. WTI flat but geopolitical risk keeping upward pressure. Local low 10¢ below current suggests room to fall if tensions ease.",
-      "advice": "Top off today, monitor Thu",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Kansas prices are 10¢ above week-ago levels as crude climbs on geopolitical tensions. Summer blend costs more, and upward momentum suggests further near-term increases. A 10¢ gap to the regional low indicates room to drop.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -893,11 +898,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -931,16 +931,21 @@
       "city": "Louisville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.848,
       "priceLow": 2.763,
       "weekDelta": 0.067,
       "weekDeltaDir": "up",
-      "why": "Kentucky prices are 8.5¢ above the local low and up 6.7¢ week-over-week. National headlines signal upward pressure with prices climbing toward $4/gal amid geopolitical tensions. Summer blend and flat crude suggest near-term stability, but upside risk dominates.",
-      "advice": "Top off today, wait for dip",
+      "why": "Kentucky prices rose 6.7¢ week-over-week as crude climbs on geopolitical tensions. Current price sits 8.5¢ above the regional low, with upward pressure from Middle East conflict. Summer blend and rising WTI suggest further increases likely.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -950,11 +955,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -993,11 +993,16 @@
       "priceLow": 2.645,
       "weekDelta": 0.064,
       "weekDeltaDir": "up",
-      "why": "Louisiana prices are up 6.4¢ this week amid broader U.S. surge toward $4/gal, driven by geopolitical tensions and flat crude. You're still 8.2¢ above the local low, suggesting room to fall before stabilizing.",
-      "advice": "Top off half · wait until Frid",
-      "bestDayIdx": 5,
-      "wtiDir": "flat",
+      "why": "Louisiana prices are up 6.4¢ week-over-week as WTI crude rises on geopolitical tensions. You're 8.2¢ above the local low, and upward momentum from Iran conflict concerns suggests further increases ahead.",
+      "advice": "Half tank now · wait",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1007,11 +1012,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Maine prices up 5.5¢ week-over-week amid national climb toward $4/gal. WTI flat but geopolitical tension and summer blend support upward pressure. Current 3.18 is still 5.5¢ above the lowest nearby station—small cushion remains.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Maine prices up 5.5¢ week-over-week with crude climbing on Iran tensions. Current price 5.5¢ above regional low, and upward momentum suggests further increases likely in coming days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1064,11 +1069,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1107,11 +1107,16 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Maryland prices are up 5.3¢ week-over-week and trending toward the $4 national average amid geopolitical tensions. WTI crude is flat but headline risk remains elevated. You're 5.3¢ above the lowest nearby station.",
-      "advice": "Fill up today at best local pr",
+      "why": "Maryland prices are up 5.3¢ week-over-week as crude climbs on Iran tensions. You're only 5.3¢ above the local low, and summer blend premiums apply. Upward pressure likely continues short-term.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1121,11 +1126,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1164,11 +1164,16 @@
       "priceLow": 3.785,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "MA prices are creeping up week-over-week amid geopolitical tensions pushing crude higher. Current $3.806/gal is near recent lows, but upward momentum and headlines suggest further climbs toward $4/gal are likely within days.",
+      "why": "Massachusetts gas prices are creeping up due to crude oil strength and geopolitical tensions. Current price is only 0.021¢ above last week and near the local low, suggesting limited near-term downside. Summer blend premium is in effect.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1178,11 +1183,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1221,11 +1221,16 @@
       "priceLow": 2.952,
       "weekDelta": 0.11,
       "weekDeltaDir": "up",
-      "why": "Michigan prices are up 11¢ week-over-week and 11¢ above the regional low, driven by geopolitical tension pushing crude higher. Summer blend adds cost, and headlines suggest further pressure toward $4/gal is likely in the coming days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Michigan prices rose 11¢ this week as crude climbed on geopolitical tensions. You're 11¢ above the local low, and crude momentum remains upward. Summer blend costs more, and Middle East risk suggests further pressure ahead.",
+      "advice": "Hold until midweek",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1235,11 +1240,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1273,16 +1273,21 @@
       "city": "Minneapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.749,
       "priceLow": 3.588,
       "weekDelta": 0.161,
       "weekDeltaDir": "up",
-      "why": "Minnesota prices are up 16¢ week-over-week and 16¢ above the regional low. Geopolitical tensions are pushing national averages toward $4/gal, with crude flat but upside risk. Summer demand and tight supplies suggest further near-term pressure.",
-      "advice": "Top off today, avoid full fill",
+      "why": "Minnesota prices are up 16¢ week-over-week as crude climbs on Iran tensions. Current price sits 16¢ above the regional low, and geopolitical risks suggest upward pressure may continue near-term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1292,11 +1297,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.582,
       "weekDelta": 0.062,
       "weekDeltaDir": "up",
-      "why": "Mississippi prices are up 6¢ week-over-week and trading 3% above local lows. National headlines warn of prices climbing toward $4/gal amid geopolitical tensions. WTI crude is flat but upward pressure remains.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Prices rose 6.2¢ this week amid geopolitical tensions and refinery constraints. WTI crude is climbing, signaling continued upward pressure. You're 7.9¢ above the local low, and summer blend costs more.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1349,11 +1354,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1387,16 +1387,21 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.748,
       "priceLow": 2.65,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "Missouri prices are up 10¢ week-over-week and 10¢ above the local low. National headlines warn of rising tensions pushing prices toward $4/gal. WTI crude is flat but geopolitical risk may pressure prices higher in the near term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Missouri prices are up nearly 10¢ this week as crude climbs on Iran tensions. You're 10¢ above the local low, and upward pressure from geopolitical risk suggests further gains ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1406,11 +1411,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1444,16 +1444,21 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.124,
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Montana prices are 4.2% above the regional low and up 4.2% week-over-week. Despite flat crude and summer blend stability, national headlines signal upward pressure as prices approach $4/gal nationally. Geopolitical tensions add uncertainty.",
-      "advice": "Top off today · watch Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Montana prices are 4.4% above the weekly low and climbing as crude surges amid geopolitical tensions. Summer blend and upward pressure suggest further increases likely in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1463,11 +1468,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1501,16 +1501,21 @@
       "city": "Omaha",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 2.849,
       "priceLow": 2.748,
       "weekDelta": 0.101,
       "weekDeltaDir": "up",
-      "why": "Nebraska prices are up 10¢ this week and still 10¢ above the local low. National headlines warn of rising prices heading toward $4/gal amid geopolitical tensions. Crude is flat but upward pressure persists.",
-      "advice": "Top off today, avoid full tank",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Nebraska prices are up 10¢ week-over-week as crude climbs on Iran tensions. You're 10¢ above the local low, and upward pressure from geopolitical risk suggests further increases ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1520,11 +1525,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.482,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Nevada prices are stable at $3.48/gal, below the national surge toward $4. WTI crude is flat and geopolitical tensions remain uncertain. Summer blend and holiday-free week suggest no immediate spikes.",
+      "why": "Nevada prices are at a local low with zero week-over-week change, but crude is climbing (+0.95) and geopolitical tensions (Iran conflict) are pushing national averages above $4. Summer blend demand adds upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1577,11 +1582,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "NH prices up 5.3¢ this week amid national surge toward $4/gal. WTI crude flat but geopolitical tensions pushing pump prices higher. Summer blend and regional upward momentum suggest continued pressure.",
+      "why": "Prices rose 5.3¢ this week as crude climbed on geopolitical tension. You're only 1.7% above the nearby low, and summer blend premiums keep upward pressure likely.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1634,11 +1639,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.033,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "NJ prices are up 5.3¢ week-over-week and climbing toward $4/gal due to geopolitical tensions and crude volatility. You're only 5¢ above the local low, suggesting limited room to fall further this week.",
+      "why": "NJ prices up 5.3¢ week-over-week amid crude strength and geopolitical tensions. Current price near recent low but upward momentum suggests further increases likely over next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1691,11 +1696,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1729,16 +1729,21 @@
       "city": "Albuquerque",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.941,
       "priceLow": 2.854,
       "weekDelta": 0.068,
       "weekDeltaDir": "up",
-      "why": "NM prices up 6.8¢/week and climbing toward $4 nationally amid geopolitical tensions. Current $2.941 is 8.7¢ above the local low, suggesting upward momentum. WTI flat but headlines indicate further pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "WTI crude is climbing (+$0.95) amid Iran tensions, pushing NM prices up 6.8¢ this week. You're 8.7¢ above the recent low, and upward momentum suggests further gains ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1748,11 +1753,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1791,11 +1791,16 @@
       "priceLow": 3.984,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "NY prices just hit $4/gal amid geopolitical tensions and flat crude. You're at a local low with no weekly change, but headlines suggest upward pressure. Summer demand and Iran conflict risks keep prices elevated.",
+      "why": "NY prices are at $3.98/gal, matching the local low. WTI crude is rising (+$0.95) on Iran tensions, but current prices reflect existing geopolitical risk. Summer blend demand supports current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1805,11 +1810,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "NC prices rose 5¢ week-over-week and are 5¢ above the local low. National headlines warn of imminent $4/gal surge amid geopolitical tension. WTI crude is flat but upward pressure is building.",
-      "advice": "Fill up today or tomorrow",
+      "why": "WTI crude rising and geopolitical tensions pushing prices up. NC prices already up 5¢ week-over-week with upward momentum likely continuing. Current price near recent low but trend is northbound.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1862,11 +1867,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1905,11 +1905,16 @@
       "priceLow": 2.828,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "ND prices are up 10¢ this week and sit 10¢ above the local low. National headlines signal upward pressure toward $4/gal amid geopolitical tensions. WTI crude is flat but sentiment is bullish.",
+      "why": "North Dakota prices are 3.6% above the weekly low and rising with crude oil up on geopolitical tensions. Summer blend demand and refining constraints are pushing prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1919,11 +1924,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 3.799,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are holding steady at $3.80/gal while national averages climb toward $4. WTI crude is flat, suggesting no immediate pressure. Current price matches the local low—a rare alignment.",
+      "why": "Ohio prices are stable at $3.80/gal, matching the local low. However, crude oil is rising (+$0.95) and geopolitical tensions are pushing national averages above $4. Summer blend costs and upward pressure suggest prices may climb in coming days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -1976,11 +1981,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.609,
       "weekDelta": 0.063,
       "weekDeltaDir": "up",
-      "why": "Oklahoma prices are up 6.3¢ this week and sit 8¢ above the local low. National headlines warn of $4/gal approaching amid geopolitical tension. WTI crude is flat, suggesting limited near-term relief.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Oklahoma prices rose 6.3¢ this week amid geopolitical tension pushing WTI crude higher. Current price sits 8¢ above the regional low, with upward momentum likely continuing in the near term.",
+      "advice": "Top off today, wait for drop",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2033,11 +2038,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2076,11 +2076,16 @@
       "priceLow": 3.536,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Oregon prices are stable near recent lows at $3.54/gal while national averages spike above $4. WTI crude is flat, suggesting local supply remains steady. Summer demand and geopolitical tensions may push prices higher soon.",
+      "why": "Oregon prices are near recent lows at $3.54/gal with minimal weekly movement. WTI crude is rising on geopolitical tension, but current pump prices haven't spiked yet. Summer blend adds a slight premium, so filling now locks in favorable rates before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2090,11 +2095,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2133,11 +2133,16 @@
       "priceLow": 3.255,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "PA prices have risen 5.7¢ this week and are 5.7¢ above the regional low. WTI crude is flat, but geopolitical tensions are pushing prices toward $4/gal nationally. Summer blend adds upward pressure.",
+      "why": "Pennsylvania prices rose 5.7¢ this week as WTI crude climbed on geopolitical tensions. Current price is 5.7¢ above the local low, with upward momentum likely to continue in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2147,11 +2152,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.144,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "RI prices up 5.5¢ week-over-week and climbing toward $4/gal nationally amid geopolitical tensions. WTI flat but upward momentum in retail prices suggests further increases ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "RI prices up 5.5¢ this week as crude climbs on Iran tensions. You're 5.5¢ above the regional low, and upward pressure likely continues short-term. Summer blend and geopolitical risk suggest limited near-term relief.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2204,11 +2209,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2242,16 +2242,21 @@
       "city": "Columbia",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.87,
       "priceLow": 2.82,
       "weekDelta": 0.05,
       "weekDeltaDir": "up",
-      "why": "SC prices up 5¢ this week and creeping toward $3. National averages exceeding $4 amid geopolitical tensions, but WTI crude flat suggests limited near-term upside. Summer blend premium adds cost.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "flat",
+      "why": "SC prices up 5¢ this week as crude climbs on geopolitical tension. You're 5¢ above the local low, and upward momentum suggests further increases ahead. Summer blend costs more, and tensions may keep pressure on.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2261,11 +2266,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2304,11 +2304,16 @@
       "priceLow": 2.801,
       "weekDelta": 0.104,
       "weekDeltaDir": "up",
-      "why": "SD prices up 10¢ week-over-week amid national surge toward $4/gal driven by Iran tensions. WTI flat but geopolitical risk keeps upward pressure. Local low is 3.7% below current, suggesting recent pullback opportunity.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "SD prices are up 10¢ this week amid rising crude ($84+) and geopolitical tensions. Prices remain 10¢ above recent lows, and upward momentum suggests further gains near-term.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2318,11 +2323,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2356,16 +2356,21 @@
       "city": "Nashville",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.755,
       "priceLow": 2.673,
       "weekDelta": 0.065,
       "weekDeltaDir": "up",
-      "why": "Tennessee gas is up 6.5¢ week-over-week amid national price surge toward $4/gallon. WTI crude is flat, but geopolitical tensions and summer demand are pushing prices higher. A 3¢ gap to the regional low suggests modest room to fall.",
-      "advice": "Top off today, monitor for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Tennessee gas is 3% above the week's low and crude is climbing due to Iran tensions. Summer blend premiums and upward momentum suggest prices may stay elevated or rise further in the near term.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2375,11 +2380,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2418,11 +2418,16 @@
       "priceLow": 3.371,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are holding steady at $3.37/gal, well below the $4+ national average reported in news. WTI crude is flat at $71, suggesting near-term stability. Summer blend premium and stable week-over-week pricing indicate a local price floor.",
+      "why": "Texas prices are at a recent low of $3.371/gal with flat weekly change. However, WTI crude is rising (+0.95) and geopolitical tensions are driving national prices above $4. Upward pressure likely in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2432,11 +2437,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2475,11 +2475,16 @@
       "priceLow": 2.992,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Utah prices are up 4.4% week-over-week and sit 4.2% above the regional low. National headlines warn of prices climbing toward $4/gal amid geopolitical tensions. WTI crude is flat but vulnerable to further upside pressure.",
-      "advice": "Top off today, avoid full fill",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Utah prices are up 4.4% week-over-week as crude climbs on geopolitical tensions. You're 4% above the regional low, and WTI heading higher suggests continued upward pressure near-term.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2489,11 +2494,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2527,16 +2527,21 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.18,
       "priceLow": 3.125,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Vermont gas is up 5.5¢ this week and sitting 5.5¢ above the local low. National headlines warn of prices climbing toward $4/gal amid geopolitical tension. WTI is flat but upward pressure persists.",
-      "advice": "Top off today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Vermont prices are up 5.5¢ week-over-week as crude climbs on Iran tensions. You're 5.5¢ above the regional low, and upward momentum suggests further increases ahead this week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2546,11 +2551,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 2.913,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "VA prices up 5¢ this week amid geopolitical tensions pushing crude higher. Current 2.964 is 5¢ above local low. Flat crude and summer blend stabilization suggest limited near-term upside, but Iran conflict risk keeps volatility elevated.",
-      "advice": "Top off by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Virginia gas is up 5¢ this week as crude climbs on geopolitical tension. Current price sits 5¢ above the local low, with upward momentum likely to persist near-term given Iran conflict headlines and rising WTI.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2603,11 +2608,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 4.849,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at a local low of $4.849/gal with flat crude and no week-over-week change. Summer blend and stable WTI suggest prices have stabilized near current levels with limited near-term downside.",
+      "why": "WA prices are at a local low with flat week-over-week movement, but rising crude (+0.95) and geopolitical tensions signal upward pressure ahead. Summer blend costs more, limiting downside.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2660,11 +2665,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2698,16 +2698,21 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.992,
       "priceLow": 2.941,
       "weekDelta": 0.051,
       "weekDeltaDir": "up",
-      "why": "WV prices are 0.05¢ above last week and tracking toward national $4/gal surge driven by Iran tensions. WTI is flat but geopolitical risk supports upward pressure. You're near the low but momentum is up.",
-      "advice": "Fill up today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "why": "WV prices up 5¢ this week with crude climbing on geopolitical tensions. Current price near recent low but upward momentum suggests further increases ahead. Summer blend adds seasonal support to prices.",
+      "advice": "Top off today, hold rest",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2717,11 +2722,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2760,11 +2760,16 @@
       "priceLow": 2.916,
       "weekDelta": 0.109,
       "weekDeltaDir": "up",
-      "why": "Wisconsin prices are up 11¢ this week and sit 3.7% above the regional low. National headlines warn of prices climbing toward $4/gal amid geopolitical tension, suggesting upward pressure ahead. Summer blend and flat crude offer no relief.",
+      "why": "Wisconsin prices have climbed 11 cents this week as crude rises on Middle East tensions. Current price sits 3.7% above the regional low, suggesting further upward pressure in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2774,11 +2779,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2817,11 +2817,16 @@
       "priceLow": 2.902,
       "weekDelta": 0.129,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are 4.4% above the local low and up 4.3% week-over-week amid national crude volatility and geopolitical tensions. WTI is flat but upstream pressure from Iran conflict could push prices higher in coming days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "why": "Wyoming prices are 4.4% above the week's low and rising with crude oil climbing on geopolitical tensions. Summer demand and refinery constraints are lifting prices across the region, with upward momentum likely to continue short-term.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2831,11 +2836,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2874,11 +2874,16 @@
       "priceLow": 3.283,
       "weekDelta": 0.057,
       "weekDeltaDir": "up",
-      "why": "DC prices up 5.7¢ this week with crude flat. National headlines warn of $4/gal surge driven by Iran tensions, signaling upward pressure ahead. Current 3.34 is near recent lows but climbing.",
+      "why": "DC prices are up 5.7¢ this week as crude climbs on geopolitical tensions. You're 5.7¢ above the regional low, and WTI momentum is upward. Summer blend costs more, and further gains are likely near-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2888,11 +2893,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2931,11 +2931,16 @@
       "priceLow": 1.706,
       "weekDelta": 0.091,
       "weekDeltaDir": "up",
-      "why": "Alberta prices jumped 9.1¢/L week-over-week amid U.S. geopolitical tensions pushing crude higher. Current 1.759 $/L is 5.3¢ above the local low. Crude flat but risk of further upside from Iran conflict concerns.",
-      "advice": "Half tank now · watch",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Alberta prices are up 9.1¢/L week-over-week as crude climbs on geopolitical tension. You're 5.3¢/L above the recent low, and WTI momentum is upward. Summer demand and refinery constraints suggest prices may stay elevated this week.",
+      "advice": "Top up today, wait for dip",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -2945,11 +2950,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -2988,11 +2988,16 @@
       "priceLow": 1.966,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "BC prices rose 9.8¢/L this week while crude remains flat. U.S. tensions are pushing North American prices upward, but WTI stability suggests the surge may ease soon. Current price is 6.1¢ above the local low.",
-      "advice": "Top off halfway, wait for dip",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "BC prices jumped 9.8¢/L week-over-week amid crude gains and geopolitical tension. Current price sits 6.1¢ above the regional low, with WTI climbing and Iran conflict adding upward pressure. Expect continued volatility.",
+      "advice": "Top off today · wait",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3002,11 +3007,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3040,16 +3040,21 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.744,
       "priceLow": 1.692,
       "weekDelta": 0.084,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices are up 8.4¢/L week-over-week and trading 3.2¢/L above the local low. U.S. tensions are pushing North American crude higher, but WTI is currently flat. Summer blend and stable crude suggest limited downside risk in the near term.",
-      "advice": "Fill up today",
+      "why": "Manitoba prices are 3% above the week's low and WTI is climbing on geopolitical tension. Upward momentum suggests further increases likely this week, though you're not at a peak yet.",
+      "advice": "Top off today, wait for rest",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3059,11 +3064,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3097,16 +3097,21 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.827,
       "priceLow": 1.772,
       "weekDelta": 0.089,
       "weekDeltaDir": "up",
-      "why": "New Brunswick prices jumped 8.9¢ this week and sit 5.5¢ above the regional low. U.S. tensions are pushing North American crude higher, but WTI is flat. Prices may stabilize or dip slightly mid-week as market sentiment clarifies.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "NB prices are 5.5¢/L above the regional low and up 8.9¢ week-over-week. WTI crude is rising on Iran tensions, signaling further pressure ahead. Summer blend adds cost. Current prices lack a strong support level.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3116,11 +3121,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3159,11 +3159,16 @@
       "priceLow": 1.806,
       "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Prices jumped 9¢/L week-over-week and sit 5.6¢ above the local low. U.S. tensions are pushing crude flat, but geopolitical risk could sustain upward pressure. Local inventory and refinery logistics may improve prices within days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Prices have risen 9¢/L week-over-week amid crude gains and geopolitical tensions. You're 5.6¢ above the recent low, and upward momentum suggests further increases ahead.",
+      "advice": "Top up partially today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3173,11 +3178,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3216,11 +3216,16 @@
       "priceLow": 1.813,
       "weekDelta": 0.102,
       "weekDeltaDir": "up",
-      "why": "Nova Scotia prices are up 10.2¢/L week-over-week amid U.S. geopolitical tension pushing crude higher. Current 1.869 $/L is 5.6¢ above the local low, with WTI flat but upside risk from Iran conflict headlines.",
-      "advice": "Top off today · wait for dip",
+      "why": "Nova Scotia prices are up 10¢/L week-over-week amid rising crude costs and geopolitical tensions. WTI is climbing, and summer blend adds cost. You're 5.6¢ above the recent low, suggesting modest room to fall if tensions ease.",
+      "advice": "Top off today, monitor Thu",
       "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3230,11 +3235,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3273,11 +3273,16 @@
       "priceLow": 1.712,
       "weekDelta": 0.096,
       "weekDeltaDir": "up",
-      "why": "Ontario prices have jumped 9.6¢/L week-over-week and sit 5.3¢ above the regional low. U.S. tensions are pushing North American crude higher, with WTI flat but geopolitical risk priced in. Summer demand remains firm.",
-      "advice": "Top off today, wait for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Ontario prices jumped 9.6¢/L week-over-week as crude climbs on geopolitical tensions. Current 1.765 is 5.3¢ above the nearby low, and upward momentum suggests further increases ahead.",
+      "advice": "Top off today · wait for dip",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3287,11 +3292,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3325,16 +3325,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 1.815,
       "priceLow": 1.761,
       "weekDelta": 0.088,
       "weekDeltaDir": "up",
-      "why": "PEI prices rose 8.8¢/L week-over-week and sit 5.4¢ above the regional low. U.S. tensions and crude stability near $71 suggest upward pressure may persist. Summer blend and geopolitical factors support holding firm.",
-      "advice": "Wait until midweek",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Prices jumped 8.8¢/L week-over-week amid geopolitical tensions and rising crude. You're 5.4¢/L above the regional low, with upward momentum likely to persist as WTI climbs.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3344,11 +3349,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3382,16 +3382,21 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.862,
       "priceLow": 1.806,
       "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Quebec prices have risen 9¢/L week-over-week and sit 5.6¢ above the regional low. U.S. tensions are pushing North American prices upward, but WTI crude is flat, suggesting the surge may stabilize soon.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "why": "Quebec prices jumped 9¢/L this week as crude climbed on Middle East tensions. Current price sits 5.6¢ above the local low, with upward pressure from geopolitical risks and tight refining capacity.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3401,11 +3406,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3439,16 +3439,21 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.662,
       "priceLow": 1.612,
       "weekDelta": 0.081,
       "weekDeltaDir": "up",
-      "why": "Saskatchewan prices up 8¢/L week-over-week amid U.S. geopolitical tensions pushing crude higher. Current 1.662 $/L sits 5¢ above local lows, with flat WTI suggesting limited immediate relief despite summer blend seasonality.",
-      "advice": "Top off today · watch Thu",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Saskatchewan prices are up 8¢/L week-over-week amid rising crude ($84.38, up trend) driven by Iran tensions and refinery constraints. Current price is 5¢ above the recent low, with crude momentum pointing higher.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3458,11 +3463,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
@@ -3496,16 +3496,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 2.216,
       "priceLow": 2.15,
       "weekDelta": 0.108,
       "weekDeltaDir": "up",
-      "why": "Northern Canada prices are up 10.8¢/L week-over-week amid U.S. geopolitical tensions pushing crude higher. WTI is flat but geopolitical risk premium remains. Prices are 6.6¢/L above recent low, suggesting some room to fall if tensions ease.",
-      "advice": "Half now · rest by Friday",
-      "bestDayIdx": 5,
-      "wtiDir": "flat",
+      "why": "Prices are up 10.8¢/L this week as crude climbs on geopolitical tensions. You're 6.6¢ above the local low, and upward momentum suggests further gains ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
       "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
         {
           "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
           "source": "OilPrice",
@@ -3515,11 +3520,6 @@
           "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
           "source": "Devdiscourse",
           "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html"
         }
       ],
       "breakdown": {
