@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-07-25T12:00:52.716626+00:00",
-    "pricesUpdatedAt": "2026-07-25T12:00:38.891606+00:00",
+    "updatedAt": "2026-07-25T18:01:17.417775+00:00",
+    "pricesUpdatedAt": "2026-07-25T18:00:47.288463+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-07-25T12:32:38.723993+00:00",
-    "nextAnalysisUpdate": "2026-07-25T18:02:38.724006+00:00"
+    "nextPriceUpdate": "2026-07-25T18:34:59.599554+00:00",
+    "nextAnalysisUpdate": "2026-07-26T00:04:59.599582+00:00"
   },
   "wti": {
     "price": 84.38,
@@ -19,14 +19,14 @@
       "city": "Birmingham",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 2.818,
       "priceLow": 2.625,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Alabama prices are up 13¢ this week as WTI crude climbs on geopolitical tensions. You're still 19¢ above the recent low, and crude momentum remains upward with no relief expected near-term.",
-      "advice": "Hold off; fill up midweek",
-      "bestDayIdx": 3,
+      "why": "Prices up 13¢ week-over-week amid crude strength and geopolitical tensions. Current 2.818 is well above the 2.625 low nearby, and upward momentum continues with WTI gaining. Relief unlikely in the next few days.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -76,14 +76,14 @@
       "city": "Anchorage",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.516,
       "priceLow": 3.409,
       "weekDelta": 0.107,
       "weekDeltaDir": "up",
-      "why": "Alaska prices are up 3% week-over-week amid rising crude from geopolitical tensions. Current price sits 3% above the recent low, suggesting some room to fall if tensions ease or crude pulls back in the next few days.",
-      "advice": "Half tank now · wait mid-week",
-      "bestDayIdx": 3,
+      "why": "Alaska prices are up 10.7¢ week-over-week amid rising crude and geopolitical tensions. WTI climbing signals further upside risk. You're 10.7¢ above the recent low, but volatility may persist.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -133,13 +133,13 @@
       "city": "Phoenix",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.034,
       "priceLow": 2.941,
       "weekDelta": 0.092,
       "weekDeltaDir": "up",
-      "why": "Arizona prices rose 9¢ this week as crude climbed on geopolitical tensions. Current price sits 3¢ above the local low, with summer blend premiums active. Further upside pressure likely near-term from elevated crude.",
-      "advice": "Top off today, monitor",
+      "why": "Arizona prices are up 9¢ this week as WTI crude rises on geopolitical tensions. Current price sits 3¢ above the local low, with upward momentum likely continuing through the week.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -190,14 +190,14 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.759,
       "priceLow": 2.57,
       "weekDelta": 0.127,
       "weekDeltaDir": "up",
-      "why": "Arkansas gas is 7.4% above recent low and climbing with crude up on Iran tensions. Summer blend and geopolitical pressure suggest further near-term increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Arkansas prices are 7.4% above the regional low and rising. WTI crude is climbing on geopolitical tension (Iran conflict), signaling continued upward pressure. Summer blend adds seasonal cost.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -247,14 +247,14 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 5.354,
       "priceLow": 5.2,
       "weekDelta": 0.154,
       "weekDeltaDir": "up",
-      "why": "California prices are up 15¢ this week as crude climbs on geopolitical tensions. You're paying a premium above the regional low, and summer blend adds cost. Upward momentum suggests waiting may yield better pricing.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "California prices are elevated at $5.35/gal due to summer blend requirements and geopolitical tensions raising crude costs. WTI is climbing, suggesting upward pressure will persist. You're 15¢ above the week's low, indicating a recent run-up.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -304,14 +304,14 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.901,
       "priceLow": 3.722,
       "weekDelta": 0.179,
       "weekDeltaDir": "up",
-      "why": "Colorado prices are up 18¢ this week and sit 18¢ above the regional low. WTI crude is rising on geopolitical tension (Iran conflict), signaling upward pressure. Summer blend premium adds cost. Prices likely to climb further in the near term.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Colorado prices rose 18¢ this week as crude climbed on Iran tensions. Current price is 18¢ above the local low, and upward momentum suggests further increases ahead. Summer blend costs more, but relief unlikely in the near term.",
+      "advice": "Top off today · wait",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -366,9 +366,9 @@
       "priceLow": 3.192,
       "weekDelta": 0.137,
       "weekDeltaDir": "up",
-      "why": "CT prices are 6% above the local low and climbing on geopolitical tensions. WTI crude is rising with Iran conflict concerns, signaling upward pressure likely to persist through the week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "CT prices are 6% above the week's low and climbing amid geopolitical tensions pushing crude up. Summer blend and upward momentum suggest further near-term increases are likely.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -418,14 +418,14 @@
       "city": "Wilmington",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.14,
       "priceLow": 2.961,
       "weekDelta": 0.127,
       "weekDeltaDir": "up",
-      "why": "Delaware prices are 6% above the week's low and crude is rising on geopolitical tension. Summer blend adds cost. Near-term upward pressure suggests prices won't drop soon.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Delaware gas is 6% above the week's low and WTI crude is rising on Iran tensions. Summer blend costs more, and geopolitical pressure suggests upward momentum. Current pricing doesn't offer a compelling entry point.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -475,14 +475,14 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.891,
       "priceLow": 3.74,
       "weekDelta": 0.151,
       "weekDeltaDir": "up",
-      "why": "Florida prices are up 15¢ this week amid geopolitical tensions and crude climbing. You're 15¢ above the regional low, and summer blend premiums are in effect. Crude direction is upward, suggesting further pressure ahead.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Florida prices are up 15¢ week-over-week amid geopolitical tensions and crude climbing toward $85. Summer blend premiums and refinery constraints are keeping prices elevated. Crude direction remains upward, suggesting further pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -537,9 +537,9 @@
       "priceLow": 2.702,
       "weekDelta": 0.116,
       "weekDeltaDir": "up",
-      "why": "Georgia prices are 4.8% above the week's low and rising with crude oil up on geopolitical tensions. Summer blend and refinery constraints are keeping pressure on pump prices, with no immediate relief expected.",
-      "advice": "Top off soon · monitor",
-      "bestDayIdx": 1,
+      "why": "Georgia prices are 4.8% above the local low and up 11¢ week-over-week. Rising crude ($84+) and geopolitical tensions are pushing prices higher. Summer blend premium adds cost now.",
+      "advice": "Top off today, monitor Wed",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -594,9 +594,9 @@
       "priceLow": 4.169,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Hawaii prices are 3.1% above the week's low and climbing due to geopolitical tensions raising crude costs. WTI is up and momentum remains upward, with summer blend adding seasonal pressure.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Hawaii prices are 3.1% above the week's low and climbing amid geopolitical tensions pushing crude higher. Summer blend and upward WTI momentum suggest continued pressure. Current levels offer a narrow window before further increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -651,9 +651,9 @@
       "priceLow": 2.926,
       "weekDelta": 0.106,
       "weekDeltaDir": "up",
-      "why": "Idaho prices up 10¢ week-over-week as WTI crude rises on geopolitical tensions. Current $3.16 is 8% above the regional low, with upward pressure likely continuing in the near term.",
-      "advice": "Top off now, avoid delay",
-      "bestDayIdx": 0,
+      "why": "Idaho prices are 8% above recent lows and climbing due to geopolitical tensions pushing crude higher. WTI momentum is upward, signaling continued near-term pressure on pump prices.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -703,14 +703,14 @@
       "city": "Chicago",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.452,
       "priceLow": 3.225,
       "weekDelta": 0.107,
       "weekDeltaDir": "up",
-      "why": "Illinois prices rose 10.7¢ this week on geopolitical tensions and refinery constraints. WTI crude is climbing, signaling continued upward pressure. Current price sits 22.7¢ above the regional low, indicating room to fall before stabilizing.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Illinois prices are 7 cents above this week's low and rising with crude oil climbing on Middle East tensions. Summer blend adds cost, and upward momentum suggests further increases likely over the next 2–3 days.",
+      "advice": "Top off today · wait",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -760,14 +760,14 @@
       "city": "Indianapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.09,
       "priceLow": 2.886,
       "weekDelta": 0.097,
       "weekDeltaDir": "up",
-      "why": "Indiana prices are 7¢ above last week and 20¢ above the regional low. WTI crude is rising on geopolitical tensions (Iran conflict), signaling upward pressure. Summer blend and rising crude suggest prices will stay elevated this week.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Indiana prices are 7¢ above the week-ago baseline and 20¢ above regional lows, driven by crude volatility and geopolitical tension. Summer blend costs and rising WTI suggest further near-term pressure.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -822,7 +822,7 @@
       "priceLow": 2.744,
       "weekDelta": 0.091,
       "weekDeltaDir": "up",
-      "why": "Iowa prices are 19¢ above the regional low and climbing on geopolitical tension and crude up $0.95. Summer blend and rising WTI suggest further upside pressure in the near term.",
+      "why": "Iowa prices are 19¢ above the regional low, driven by rising crude and geopolitical tensions. WTI climbing and Iran conflict pressuring supply suggest further upward momentum this week.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "up",
@@ -874,13 +874,13 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.88,
       "priceLow": 2.69,
       "weekDelta": 0.09,
       "weekDeltaDir": "up",
-      "why": "Kansas prices are 19¢ above recent lows and climbing. WTI crude is rising on geopolitical tensions, and national averages have breached $4/gal. Summer blend costs more, and upward momentum suggests further increases in the near term.",
-      "advice": "Top off partially today",
+      "why": "Kansas prices are 19 cents above the recent low and climbing. WTI crude is rising on geopolitical tension, signaling upward pressure. Summer blend and week-over-week gains suggest prices will stay elevated or climb further.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -936,9 +936,9 @@
       "priceLow": 2.79,
       "weekDelta": 0.137,
       "weekDeltaDir": "up",
-      "why": "Kentucky prices are up 4.9% week-over-week amid rising crude costs and geopolitical tensions. WTI crude is climbing, and national averages are breaking above $4/gal. Prices remain 7% above the regional low, suggesting more upside pressure ahead.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Kentucky prices are up 4.9% week-over-week and tracking $0.20 above the regional low. Crude is rising on geopolitical tensions, with summer blend demand high. Further increases likely in the near term.",
+      "advice": "Hold until mid-week",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -988,14 +988,14 @@
       "city": "New Orleans",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.867,
       "priceLow": 2.671,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Louisiana prices are 7.3% above recent lows and climbing amid geopolitical tensions pushing crude oil higher. Summer blend demand and upward momentum suggest further near-term increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Louisiana prices are up 13¢ this week as WTI crude climbs on Middle East tensions. Current price sits 20¢ above the local low, with upward momentum likely to continue in the near term.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -1050,9 +1050,9 @@
       "priceLow": 3.127,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Maine prices are 6% above the week's low and climbing amid crude oil gains and geopolitical tension over Iran. WTI is rising and summer blend adds cost. Further increases are likely in the near term.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 2,
+      "why": "Maine prices are 6% above the week's low and rising on crude strength. Geopolitical tension and refinery constraints are pushing prices upward. Summer demand and supply tightness suggest further near-term increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1107,7 +1107,7 @@
       "priceLow": 3.035,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Maryland prices are 6% above the week's low and climbing due to geopolitical tensions driving crude higher. With WTI trending upward and summer blend demand supporting margins, further near-term increases are likely.",
+      "why": "Prices have jumped 13¢ this week amid crude oil gains and geopolitical tensions. Maryland is above the nearby low, and WTI crude is rising with no near-term relief expected from supply concerns.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1159,13 +1159,13 @@
       "city": "Boston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.997,
       "priceLow": 3.806,
       "weekDelta": 0.191,
       "weekDeltaDir": "up",
-      "why": "Gas surged above $4/gal due to Iran tensions and supply constraints. WTI crude is rising, suggesting further pressure ahead. MA prices lag the regional low by 19¢, indicating room to drop if geopolitical risks ease.",
-      "advice": "Top off partially today",
+      "why": "MA prices just crossed $4/gal amid geopolitical tensions and refinery constraints. WTI is rising and summer blend adds cost. Prices are 19¢ above nearby lows, suggesting room to fall once tensions ease.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
@@ -1216,14 +1216,14 @@
       "city": "Detroit",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.166,
       "priceLow": 2.958,
       "weekDelta": 0.099,
       "weekDeltaDir": "up",
-      "why": "Michigan prices are 7% above the week's low, and crude is rising on geopolitical tensions. Summer blend adds cost. With upward momentum likely to continue, current levels aren't attractive relative to recent lows.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Michigan gas is 7% above the week's low and crude is climbing on geopolitical tension. Summer blend and rising WTI suggest upward pressure continuing through the week.",
+      "advice": "Top off today, avoid delays",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1278,9 +1278,9 @@
       "priceLow": 3.749,
       "weekDelta": 0.095,
       "weekDeltaDir": "up",
-      "why": "Minnesota prices are up 9.5¢ this week as crude climbs on geopolitical tension. You're 9.5¢ above the local low, and upward momentum suggests further increases ahead as summer demand peaks.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Prices jumped 9.5¢ this week amid geopolitical tensions and crude climbing above $84. WTI momentum is upward, but you're still 9.5¢ above the recent low—a modest gap suggesting prices may stabilize or dip slightly before climbing further.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1335,9 +1335,9 @@
       "priceLow": 2.607,
       "weekDelta": 0.129,
       "weekDeltaDir": "up",
-      "why": "MS prices are 7.3% above the week's low and trending up with crude climbing on geopolitical tensions. Summer demand and refinery constraints are keeping upward pressure. Near-term relief unlikely.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "MS prices are 7.3% above the week's low and climbing amid geopolitical tensions pushing crude higher. WTI trending up suggests further increases likely within days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1392,9 +1392,9 @@
       "priceLow": 2.655,
       "weekDelta": 0.089,
       "weekDeltaDir": "up",
-      "why": "Missouri prices are 7% above the week's low and climbing with crude up on geopolitical tension. Summer blend adds cost, and upward momentum suggests further increases likely within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Missouri prices are 7% above recent lows and rising. WTI crude is climbing on geopolitical tensions (Iran conflict), signaling continued upward pressure. Summer blend premiums and tightening supplies support higher prices ahead.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -1444,14 +1444,14 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.229,
       "priceLow": 2.988,
       "weekDelta": 0.108,
       "weekDeltaDir": "up",
-      "why": "Montana prices are 8% above the regional low, driven by crude climbing on geopolitical tensions. Week-over-week gains and upward crude momentum suggest near-term pressure. Summer blend and seasonal demand add cost.",
-      "advice": "Top off half · wait until Frid",
-      "bestDayIdx": 5,
+      "why": "Montana gas is up 10¢ this week as crude climbs on Middle East tensions and refining constraints. You're 24¢ above the local low, and WTI's upward momentum suggests further pressure ahead.",
+      "advice": "Wait until mid-week",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1501,14 +1501,14 @@
       "city": "Omaha",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.947,
       "priceLow": 2.753,
       "weekDelta": 0.092,
       "weekDeltaDir": "up",
-      "why": "Nebraska prices are 19¢ above the regional low and rising week-over-week. WTI crude is climbing on geopolitical tensions, and national averages already exceed $4/gallon. Summer blend adds supply costs, and upward momentum suggests further increases ahead.",
-      "advice": "Half now · full Thursday",
-      "bestDayIdx": 4,
+      "why": "Nebraska prices are 19¢ above recent lows and climbing due to geopolitical tensions pushing crude higher. WTI is rising and prices trended up week-over-week, suggesting continued near-term pressure.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1563,9 +1563,9 @@
       "priceLow": 3.5,
       "weekDelta": 0.109,
       "weekDeltaDir": "up",
-      "why": "Nevada prices are up 11¢ week-over-week amid geopolitical tensions and tight refinery capacity. WTI crude trending upward suggests further pressure. Current 3.61 is 11¢ above the local low, with summer blend demand amplifying volatility.",
-      "advice": "Top off today, wait for dips",
-      "bestDayIdx": 3,
+      "why": "Nevada prices are up $0.11 this week as crude climbs on Iran tensions. You're currently $0.11 above the local low, with upward momentum likely to continue in the near term.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1615,14 +1615,14 @@
       "city": "Manchester",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.218,
       "priceLow": 3.035,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "NH prices are 6% above the week's low and rising amid geopolitical tensions pushing crude higher. WTI's upward momentum and refinery constraints suggest prices will climb further over the next few days.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Prices have risen 13¢ this week amid geopolitical tension and crude climbing above $84. Current price sits 18¢ above the recent low, signaling upward momentum with further gains likely.",
+      "advice": "Hold until midweek",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1677,9 +1677,9 @@
       "priceLow": 3.035,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "NJ prices are 6% above the week's low and climbing. WTI crude is rising on geopolitical tensions (Iran conflict), signaling upward pressure. Summer blend and supply constraints suggest limited near-term relief.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Prices up 13¢ this week as crude climbs on geopolitical tensions. NJ at $3.22 is 18¢ above the regional low, with upward momentum likely to persist short-term given Iran conflict risks.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -1729,14 +1729,14 @@
       "city": "Albuquerque",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.092,
       "priceLow": 2.881,
       "weekDelta": 0.142,
       "weekDeltaDir": "up",
-      "why": "NM prices are up 14¢ this week as crude climbs on Iran tensions. Current $3.09 is 21¢ above the regional low, and WTI momentum is upward. Summer demand and geopolitical risk suggest further pressure short-term.",
-      "advice": "Top off today · wait",
-      "bestDayIdx": 0,
+      "why": "NM prices up 14¢ week-over-week amid geopolitical tensions pushing crude higher. Current price still 21¢ above the recent low, with WTI trending upward and summer blend in effect—headwinds likely to persist near-term.",
+      "advice": "Hold until mid-week",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1791,7 +1791,7 @@
       "priceLow": 4.077,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "NY prices are at their lowest point this week with flat week-over-week movement. However, WTI crude is rising and geopolitical tensions are pushing prices up. Summer blend premiums and refinery constraints add upward pressure.",
+      "why": "NY gas is at a recent low of $4.077/gal with flat week-over-week movement. WTI crude is rising (+0.95) on geopolitical tensions, signaling upward pressure ahead. Summer blend demand and refinery constraints support further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1843,14 +1843,14 @@
       "city": "Charlotte",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.993,
       "priceLow": 2.822,
       "weekDelta": 0.122,
       "weekDeltaDir": "up",
-      "why": "NC prices are 17¢ above the regional low and rising due to geopolitical tensions pushing crude higher. Summer blend costs and upward pressure suggest limited near-term relief.",
-      "advice": "Top off now, monitor for dips",
-      "bestDayIdx": 0,
+      "why": "NC prices are 17¢ above recent lows and climbing due to crude strength and geopolitical tension. Week-over-week gains suggest momentum upward, with summer blend and refinery constraints supporting further increases.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -1900,14 +1900,14 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.033,
       "priceLow": 2.833,
       "weekDelta": 0.095,
       "weekDeltaDir": "up",
-      "why": "Prices rose 9.5¢ this week amid geopolitical tensions and crude climbing above $84/barrel. Regional pump is 20¢ above the nearby low, signaling room to fall once tensions ease.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "ND prices are up 9.5¢ this week as crude climbs on Iran tensions. You're 20¢ above the regional low, suggesting room to fall once geopolitical risk eases.",
+      "advice": "Top off half · wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -1962,7 +1962,7 @@
       "priceLow": 3.86,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio gas is at its lowest point this week with flat week-over-week movement. However, crude oil is rising and geopolitical tensions are pushing prices upward nationally. The current price represents a temporary plateau before likely increases.",
+      "why": "Ohio prices are at their weekly low and stable week-over-week, but crude is rising and national averages are climbing above $4/gal due to geopolitical tensions. Summer blend demand and upward crude momentum suggest prices may drift higher in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2014,13 +2014,13 @@
       "city": "Oklahoma City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 2.827,
       "priceLow": 2.634,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Oklahoma prices are up 13¢ this week as crude climbs on geopolitical tension. Current price sits 19¢ above local lows, and upward momentum suggests further increases likely in the near term.",
-      "advice": "Fill up by Wednesday",
+      "why": "Oklahoma prices are up 13¢ this week as crude climbs on geopolitical tensions. You're paying 19¢ above the local low, suggesting room to fall once tensions ease or supply stabilizes.",
+      "advice": "Hold until mid-week",
       "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
@@ -2071,14 +2071,14 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.667,
       "priceLow": 3.555,
       "weekDelta": 0.111,
       "weekDeltaDir": "up",
-      "why": "Oregon prices are up 11¢ this week amid geopolitical tensions pushing crude higher. You're 11¢ above the local low, and WTI is climbing. Summer blend costs more, and upward pressure likely continues near-term.",
-      "advice": "Top off half now, full fill Fr",
-      "bestDayIdx": 5,
+      "why": "Oregon prices rose 11¢ this week as crude climbed on geopolitical tensions. You're 11¢ above the local low, and upward momentum suggests further increases ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2133,9 +2133,9 @@
       "priceLow": 3.257,
       "weekDelta": 0.14,
       "weekDeltaDir": "up",
-      "why": "PA prices up 14¢ this week amid geopolitical tensions pushing crude higher. Current price is 20¢ above the regional low, and WTI momentum is upward. Summer blend costs more, and near-term crude pressure suggests limited downside.",
-      "advice": "Top off today, avoid waiting",
-      "bestDayIdx": 0,
+      "why": "PA prices are 6% above the week's low and climbing with crude oil rising on geopolitical tension. Summer blend premiums and refinery constraints are pushing prices upward, with national averages exceeding $4/gal.",
+      "advice": "Top off today, wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2190,8 +2190,8 @@
       "priceLow": 3.146,
       "weekDelta": 0.135,
       "weekDeltaDir": "up",
-      "why": "Rhode Island prices are 5.7% above the regional low and rising week-over-week. WTI crude is climbing on geopolitical tension, signaling further upward pressure. Summer blend costs more, and prices are unlikely to drop soon.",
-      "advice": "Fill up today or tomorrow",
+      "why": "RI prices are 5.7% above the regional low and climbing on geopolitical tension pushing crude up. Summer blend adds cost, and upward momentum suggests further increases this week.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2247,9 +2247,9 @@
       "priceLow": 2.822,
       "weekDelta": 0.122,
       "weekDeltaDir": "up",
-      "why": "SC prices up 12¢ in a week amid crude climbing on Middle East tensions. Current $2.99 is 17¢ above the nearby low, and WTI's upward momentum suggests further pressure. Summer blend costs add to the burden.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices jumped 12¢ this week amid geopolitical tension and crude oil climbing above $84. You're paying $0.17/gal above the local low. Upward pressure likely to persist short-term.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2299,14 +2299,14 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.004,
       "priceLow": 2.806,
       "weekDelta": 0.094,
       "weekDeltaDir": "up",
-      "why": "SD prices are 7% above the local low and rising alongside crude. WTI climbing on geopolitical tension suggests further increases ahead. Summer blend premiums and upward momentum indicate this isn't a local low.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Prices rose 9.4¢ this week as crude climbed on Iran tensions. Current price is 20¢ above the nearby low, suggesting room to fall once geopolitical risk eases. Summer blend and upward crude momentum add cost pressure.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2356,14 +2356,14 @@
       "city": "Nashville",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 2.896,
       "priceLow": 2.698,
       "weekDelta": 0.133,
       "weekDeltaDir": "up",
-      "why": "Tennessee prices have jumped 13¢ in a week amid rising crude and geopolitical tension. You're 20¢ above the regional low, and WTI is still climbing. Further upside pressure likely before stabilization.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "TN prices are 6% above the regional low and climbing with crude heading higher. Geopolitical tensions and refinery constraints are pushing costs up. Summer driving season demand adds pressure.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
       "news": [
         {
@@ -2418,7 +2418,7 @@
       "priceLow": 3.546,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are at current lows with flat week-over-week movement, but crude is rising and geopolitical tensions are pushing national averages above $4. Summer demand and refinery constraints suggest upward pressure ahead.",
+      "why": "Texas prices are at local lows despite WTI climbing on Iran tensions. Crude upward pressure suggests prices may rise in coming days, but current rate remains reasonable for summer driving season.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2470,13 +2470,13 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.229,
       "priceLow": 2.988,
       "weekDelta": 0.108,
       "weekDeltaDir": "up",
-      "why": "Utah prices are up 10¢ this week as crude climbs on Iran tensions. You're 24¢ above the regional low, suggesting further upside risk. Summer blend and geopolitical headwinds point to sustained elevated prices.",
-      "advice": "Hold until Thursday",
+      "why": "Utah prices are 8% above the recent low and climbing amid geopolitical tensions raising crude costs. Summer blend premiums and upward WTI momentum suggest further increases likely in the near term.",
+      "advice": "Half now · wait for dip",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
@@ -2527,14 +2527,14 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.316,
       "priceLow": 3.127,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Vermont gas is up 13¢ this week amid geopolitical tensions pushing crude higher. You're paying 19¢ above the local low, with upward momentum likely to continue as supply concerns persist.",
-      "advice": "Wait 2–3 days",
-      "bestDayIdx": 4,
+      "why": "Vermont prices are 3% above the regional low and rising due to geopolitical tensions pushing crude upward. With WTI climbing and summer blend costs elevated, prices may continue drifting higher over the next few days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2584,13 +2584,13 @@
       "city": "Richmond",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.091,
       "priceLow": 2.914,
       "weekDelta": 0.125,
       "weekDeltaDir": "up",
-      "why": "Virginia gas is up 12.5¢ week-over-week amid rising crude and geopolitical tensions. Prices are 18¢ above the regional low, suggesting upward momentum may continue in the near term.",
-      "advice": "Hold until Thursday",
+      "why": "Virginia prices are 6% above the week's low and climbing due to geopolitical tensions raising crude costs. Summer blend premium and upward momentum suggest continued pressure in the near term.",
+      "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
@@ -2646,7 +2646,7 @@
       "priceLow": 4.898,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at current lows with flat week-over-week movement. WTI crude is rising on geopolitical tensions, but supply constraints are the primary driver. Summer blend costs and regional refinery limitations suggest prices may hold or drift higher.",
+      "why": "Washington prices are at their local low of $4.898/gal with flat week-over-week movement. However, WTI crude is rising (+$0.95) and geopolitical tensions are pushing prices higher nationally. Summer blend and upstream supply constraints suggest upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2698,14 +2698,14 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.12,
       "priceLow": 2.942,
       "weekDelta": 0.126,
       "weekDeltaDir": "up",
-      "why": "WV prices are 6% above the week's low and trending upward alongside rising crude oil and geopolitical tensions. Summer blend and elevated WTI suggest continued pressure on prices over the next few days.",
-      "advice": "Top off today, avoid delay",
-      "bestDayIdx": 0,
+      "why": "WV prices are 6% above the regional low and climbing due to crude oil strength and geopolitical tensions. Week-over-week gains suggest upward momentum, with summer blend costs elevated by refinery constraints and Middle East concerns.",
+      "advice": "Fill up today or Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2755,14 +2755,14 @@
       "city": "Milwaukee",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.128,
       "priceLow": 2.922,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "Wisconsin gas is up 10¢ week-over-week amid geopolitical tension and refinery constraints. Crude remains elevated at $84+/barrel. Prices are 21¢ above the nearby low, suggesting further upside risk before stabilization.",
-      "advice": "Top off this week",
-      "bestDayIdx": 3,
+      "why": "Wisconsin prices up 10¢ week-over-week as WTI crude rises on Iran tensions. Current $3.13/gal is 21¢ above the regional low, suggesting further upside risk in near term.",
+      "advice": "Top off now, avoid delays",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2817,9 +2817,9 @@
       "priceLow": 2.899,
       "weekDelta": 0.105,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are 8% above the recent low of $2.90, with crude trending upward on geopolitical tensions. Week-over-week gains suggest continued pressure; however, prices remain below the national $4+ average, offering relative value.",
-      "advice": "Top off this week",
-      "bestDayIdx": 3,
+      "why": "Wyoming prices are 8% above the week's low and rising with crude oil climbing on geopolitical tensions. Summer demand and refinery constraints are pushing prices higher, with broader U.S. averages now above $4/gal.",
+      "advice": "Top off today, hold rest",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2874,7 +2874,7 @@
       "priceLow": 3.284,
       "weekDelta": 0.141,
       "weekDeltaDir": "up",
-      "why": "DC prices are 6% above the regional low and up sharply week-over-week. WTI crude is rising on geopolitical tension (Iran), and summer blend adds a premium. Near-term upward pressure suggests prices may climb further before stabilizing.",
+      "why": "DC prices are 6% above the regional low and up significantly week-over-week. Rising crude prices, geopolitical tensions, and summer blend costs are pushing prices higher. Further increases likely in the near term.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "up",
@@ -2926,14 +2926,14 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 1.759,
-      "priceLow": 1.706,
-      "weekDelta": 0.091,
+      "verdict": "wait",
+      "price": 1.838,
+      "priceLow": 1.783,
+      "weekDelta": 0.248,
       "weekDeltaDir": "up",
-      "why": "Alberta prices are 3.1% above the week's low and climbing with crude up on Iran tensions. Supply constraints and geopolitical pressure suggest further upside risk this week.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Alberta prices surged 24.8¢ in a week amid geopolitical tensions and crude climbing to $84.38/bbl. You're paying 5.5¢ above the local low, and upward pressure from Iran conflict suggests further gains ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -2953,17 +2953,12 @@
         }
       ],
       "breakdown": {
-        "crude": 71,
+        "crude": 72,
         "refining": 7,
-        "taxes": 18,
+        "taxes": 17,
         "dist": 4
       },
       "trend": [
-        1.605,
-        1.605,
-        1.576,
-        1.551,
-        1.517,
         1.563,
         1.668,
         1.682,
@@ -2972,7 +2967,12 @@
         1.609,
         1.59,
         1.696,
-        1.759
+        1.759,
+        1.716,
+        1.714,
+        1.741,
+        1.776,
+        1.838
       ],
       "priceSource": "nrcan"
     },
@@ -2983,13 +2983,13 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 2.027,
-      "priceLow": 1.966,
-      "weekDelta": 0.098,
+      "verdict": "partial",
+      "price": 2.093,
+      "priceLow": 2.03,
+      "weekDelta": 0.128,
       "weekDeltaDir": "up",
-      "why": "BC prices rose 9.8¢/L week-over-week amid geopolitical tensions pushing crude higher. Current price is 6.1¢ above the local low, with upward momentum expected to continue as WTI climbs.",
-      "advice": "Fill up today",
+      "why": "BC prices up 12.8¢ in a week amid rising crude ($84.38, +$0.95) driven by Iran tensions. Current 2.093 $/L sits 6.3¢ above the recent low, with geopolitical risks likely keeping upward pressure through the week.",
+      "advice": "Top off today, wait for dips",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -3016,11 +3016,6 @@
         "dist": 3
       },
       "trend": [
-        1.853,
-        1.853,
-        1.87,
-        1.869,
-        1.878,
         1.883,
         1.929,
         1.914,
@@ -3029,7 +3024,12 @@
         1.913,
         1.965,
         2.002,
-        2.027
+        2.027,
+        2.047,
+        2.046,
+        2.061,
+        2.078,
+        2.093
       ],
       "priceSource": "nrcan_est"
     },
@@ -3041,12 +3041,240 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.744,
-      "priceLow": 1.692,
-      "weekDelta": 0.084,
+      "price": 1.801,
+      "priceLow": 1.747,
+      "weekDelta": 0.11,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices have risen 8.4¢/L week-over-week as crude climbs on geopolitical tensions. Current price sits 5.2¢ above the local low, with upward momentum likely to persist amid Middle East volatility.",
+      "why": "Manitoba prices jumped 11¢/L week-over-week as crude climbs on geopolitical tensions. Current price trails the local low by 5.4¢/L, but upward momentum and Middle East risks suggest further increases likely this week.",
       "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 55,
+        "refining": 7,
+        "taxes": 34,
+        "dist": 4
+      },
+      "trend": [
+        1.62,
+        1.66,
+        1.647,
+        1.69,
+        1.647,
+        1.646,
+        1.691,
+        1.723,
+        1.744,
+        1.762,
+        1.761,
+        1.773,
+        1.788,
+        1.801
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nb",
+      "state": "New Brunswick",
+      "abbr": "NB",
+      "city": "Moncton",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "buy",
+      "price": 1.886,
+      "priceLow": 1.829,
+      "weekDelta": 0.115,
+      "weekDeltaDir": "up",
+      "why": "New Brunswick prices jumped 11.5¢ this week amid rising crude and geopolitical tensions. You're 5.7¢ above the local low, with WTI trending upward. Further increases likely as Middle East risks persist.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 54,
+        "refining": 6,
+        "taxes": 36,
+        "dist": 4
+      },
+      "trend": [
+        1.697,
+        1.738,
+        1.725,
+        1.77,
+        1.725,
+        1.724,
+        1.771,
+        1.804,
+        1.827,
+        1.845,
+        1.844,
+        1.857,
+        1.873,
+        1.886
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "nl",
+      "state": "Newfoundland",
+      "abbr": "NL",
+      "city": "St. John's",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.923,
+      "priceLow": 1.865,
+      "weekDelta": 0.118,
+      "weekDeltaDir": "up",
+      "why": "Newfoundland prices are up 11.8¢/L week-over-week on geopolitical tensions and crude climbing to $84+. You're 5.8¢/L above the recent low, and upward momentum suggests further increases ahead.",
+      "advice": "Top up halfway today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 54,
+        "refining": 6,
+        "taxes": 36,
+        "dist": 4
+      },
+      "trend": [
+        1.73,
+        1.772,
+        1.758,
+        1.804,
+        1.758,
+        1.757,
+        1.805,
+        1.839,
+        1.862,
+        1.881,
+        1.88,
+        1.893,
+        1.909,
+        1.923
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "ns",
+      "state": "Nova Scotia",
+      "abbr": "NS",
+      "city": "Halifax",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.926,
+      "priceLow": 1.868,
+      "weekDelta": 0.095,
+      "weekDeltaDir": "up",
+      "why": "Nova Scotia prices are up 9.5¢/L this week as crude climbs on Iran tensions. Current price sits 5.8¢/L above the nearby low, suggesting room to fall once geopolitical pressure eases.",
+      "advice": "Top up partially today",
+      "bestDayIdx": 4,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 55,
+        "refining": 6,
+        "taxes": 35,
+        "dist": 4
+      },
+      "trend": [
+        1.767,
+        1.767,
+        1.767,
+        1.831,
+        1.831,
+        1.831,
+        1.831,
+        1.831,
+        1.869,
+        1.869,
+        1.869,
+        1.869,
+        1.869,
+        1.926
+      ],
+      "priceSource": "nrcan"
+    },
+    {
+      "id": "on",
+      "state": "Ontario",
+      "abbr": "ON",
+      "city": "Toronto",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.82,
+      "priceLow": 1.765,
+      "weekDelta": 0.089,
+      "weekDeltaDir": "up",
+      "why": "Ontario prices jumped 8.9¢ this week as WTI crude rose on Middle East tensions. Current price sits 5.5¢ above the regional low, with upward momentum likely to persist near-term given geopolitical headwinds and summer demand.",
+      "advice": "Top off today, wait for dip",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -3073,36 +3301,150 @@
         "dist": 4
       },
       "trend": [
-        1.595,
-        1.595,
-        1.609,
-        1.608,
-        1.616,
-        1.62,
-        1.66,
-        1.647,
-        1.69,
-        1.647,
-        1.646,
-        1.691,
-        1.723,
-        1.744
+        1.64,
+        1.669,
+        1.65,
+        1.708,
+        1.659,
+        1.657,
+        1.731,
+        1.749,
+        1.765,
+        1.799,
+        1.799,
+        1.801,
+        1.818,
+        1.82
+      ],
+      "priceSource": "nrcan"
+    },
+    {
+      "id": "pe",
+      "state": "Prince Edward Island",
+      "abbr": "PE",
+      "city": "Charlottetown",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.874,
+      "priceLow": 1.818,
+      "weekDelta": 0.114,
+      "weekDeltaDir": "up",
+      "why": "PE prices are 3.1% above the week's low and climbing on geopolitical tensions pushing crude higher. WTI heading up suggests further pressure this week, but a 5.6¢ gap to nearby lows indicates some stations may offer relief soon.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 55,
+        "refining": 6,
+        "taxes": 35,
+        "dist": 4
+      },
+      "trend": [
+        1.686,
+        1.727,
+        1.714,
+        1.759,
+        1.714,
+        1.713,
+        1.76,
+        1.792,
+        1.815,
+        1.833,
+        1.832,
+        1.845,
+        1.861,
+        1.874
       ],
       "priceSource": "nrcan_est"
     },
     {
-      "id": "nb",
-      "state": "New Brunswick",
-      "abbr": "NB",
-      "city": "Moncton",
+      "id": "qc",
+      "state": "Quebec",
+      "abbr": "QC",
+      "city": "Montreal",
+      "country": "CA",
+      "unit": "L",
+      "verdict": "partial",
+      "price": 1.923,
+      "priceLow": 1.865,
+      "weekDelta": 0.118,
+      "weekDeltaDir": "up",
+      "why": "Quebec prices are up 11.8¢/L week-over-week as crude climbs on Iran tensions. Current 1.923 $/L is 5.8¢ above the nearby low, with upward momentum likely continuing in the short term.",
+      "advice": "Top off today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        },
+        {
+          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
+          "source": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 6,
+        "taxes": 28,
+        "dist": 4
+      },
+      "trend": [
+        1.73,
+        1.772,
+        1.758,
+        1.804,
+        1.758,
+        1.757,
+        1.805,
+        1.839,
+        1.862,
+        1.881,
+        1.88,
+        1.893,
+        1.909,
+        1.923
+      ],
+      "priceSource": "nrcan_est"
+    },
+    {
+      "id": "sk",
+      "state": "Saskatchewan",
+      "abbr": "SK",
+      "city": "Regina",
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.827,
-      "priceLow": 1.772,
-      "weekDelta": 0.089,
+      "price": 1.716,
+      "priceLow": 1.665,
+      "weekDelta": 0.105,
       "weekDeltaDir": "up",
-      "why": "New Brunswick prices are 5.5¢ above the regional low and climbing sharply (+8.9¢ week-over-week). WTI crude is rising on geopolitical tensions, signaling upward pressure ahead.",
+      "why": "Saskatchewan prices are up 10.5¢/L week-over-week as crude climbs on geopolitical tensions. Current price sits 5.1¢ above the nearby low, with upward momentum likely to persist amid Middle East concerns.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -3130,353 +3472,6 @@
         "dist": 4
       },
       "trend": [
-        1.67,
-        1.67,
-        1.685,
-        1.684,
-        1.692,
-        1.697,
-        1.738,
-        1.725,
-        1.77,
-        1.725,
-        1.724,
-        1.771,
-        1.804,
-        1.827
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "nl",
-      "state": "Newfoundland",
-      "abbr": "NL",
-      "city": "St. John's",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.862,
-      "priceLow": 1.806,
-      "weekDelta": 0.09,
-      "weekDeltaDir": "up",
-      "why": "Newfoundland prices are up 9¢/L week-over-week amid crude strength and geopolitical tensions. Current price sits 5.6¢ above the recent low, with WTI climbing and Middle East risks pushing upward pressure likely to persist.",
-      "advice": "Top up partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 53,
-        "refining": 6,
-        "taxes": 37,
-        "dist": 4
-      },
-      "trend": [
-        1.702,
-        1.702,
-        1.718,
-        1.717,
-        1.725,
-        1.73,
-        1.772,
-        1.758,
-        1.804,
-        1.758,
-        1.757,
-        1.805,
-        1.839,
-        1.862
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "ns",
-      "state": "Nova Scotia",
-      "abbr": "NS",
-      "city": "Halifax",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.869,
-      "priceLow": 1.813,
-      "weekDelta": 0.102,
-      "weekDeltaDir": "up",
-      "why": "Nova Scotia prices rose 10¢ in a week amid geopolitical tensions and crude climbing toward $85. Current price sits 5.6¢ above the local low, with upward momentum likely to persist short-term.",
-      "advice": "Top off today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 54,
-        "refining": 6,
-        "taxes": 36,
-        "dist": 4
-      },
-      "trend": [
-        1.689,
-        1.689,
-        1.689,
-        1.767,
-        1.767,
-        1.767,
-        1.767,
-        1.767,
-        1.831,
-        1.831,
-        1.831,
-        1.831,
-        1.831,
-        1.869
-      ],
-      "priceSource": "nrcan"
-    },
-    {
-      "id": "on",
-      "state": "Ontario",
-      "abbr": "ON",
-      "city": "Toronto",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.765,
-      "priceLow": 1.712,
-      "weekDelta": 0.096,
-      "weekDeltaDir": "up",
-      "why": "Ontario prices are 5.3¢/L above the weekly low and up nearly 10¢/L week-over-week. WTI crude is rising on geopolitical tension (Iran conflict), signaling upward pressure. Summer blend and rising crude suggest further gains ahead.",
-      "advice": "Top off today · wait for dip",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 54,
-        "refining": 7,
-        "taxes": 35,
-        "dist": 4
-      },
-      "trend": [
-        1.595,
-        1.595,
-        1.624,
-        1.625,
-        1.64,
-        1.64,
-        1.669,
-        1.65,
-        1.708,
-        1.659,
-        1.657,
-        1.731,
-        1.749,
-        1.765
-      ],
-      "priceSource": "nrcan"
-    },
-    {
-      "id": "pe",
-      "state": "Prince Edward Island",
-      "abbr": "PE",
-      "city": "Charlottetown",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "buy",
-      "price": 1.815,
-      "priceLow": 1.761,
-      "weekDelta": 0.088,
-      "weekDeltaDir": "up",
-      "why": "PE prices are up 8.8¢/L week-over-week amid rising crude ($84.38, climbing) and geopolitical tensions. Current price sits 5.4¢/L above the nearby low, with upward momentum expected to persist.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 54,
-        "refining": 7,
-        "taxes": 35,
-        "dist": 4
-      },
-      "trend": [
-        1.659,
-        1.659,
-        1.674,
-        1.673,
-        1.681,
-        1.686,
-        1.727,
-        1.714,
-        1.759,
-        1.714,
-        1.713,
-        1.76,
-        1.792,
-        1.815
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "qc",
-      "state": "Quebec",
-      "abbr": "QC",
-      "city": "Montreal",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.862,
-      "priceLow": 1.806,
-      "weekDelta": 0.09,
-      "weekDeltaDir": "up",
-      "why": "Quebec prices are up 9¢/L week-over-week as crude climbs on geopolitical tensions. You're 5.6¢ above the recent low, with upward momentum likely continuing short-term.",
-      "advice": "Top off today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 6,
-        "taxes": 29,
-        "dist": 4
-      },
-      "trend": [
-        1.702,
-        1.702,
-        1.718,
-        1.717,
-        1.725,
-        1.73,
-        1.772,
-        1.758,
-        1.804,
-        1.758,
-        1.757,
-        1.805,
-        1.839,
-        1.862
-      ],
-      "priceSource": "nrcan_est"
-    },
-    {
-      "id": "sk",
-      "state": "Saskatchewan",
-      "abbr": "SK",
-      "city": "Regina",
-      "country": "CA",
-      "unit": "L",
-      "verdict": "partial",
-      "price": 1.662,
-      "priceLow": 1.612,
-      "weekDelta": 0.081,
-      "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are up 8.1¢/L week-over-week as crude rises on geopolitical tension. Current price sits 5¢ above the local low, with upward momentum likely to persist given WTI strength and Iran conflict headlines.",
-      "advice": "Top off today · monitor",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        },
-        {
-          "headline": "Fueling Tensions: U.S. Gas Prices Surge Past $4 per Gallon Amid Iran Conflict",
-          "source": "Devdiscourse",
-          "url": "https://www.devdiscourse.com/article/science-environment/3952826-fueling-tensions-us-gas-prices-surge-past-4-per-gallon-amid-iran-conflict"
-        }
-      ],
-      "breakdown": {
-        "crude": 51,
-        "refining": 7,
-        "taxes": 38,
-        "dist": 4
-      },
-      "trend": [
-        1.519,
-        1.519,
-        1.533,
-        1.532,
-        1.539,
         1.544,
         1.581,
         1.569,
@@ -3485,7 +3480,12 @@
         1.568,
         1.611,
         1.641,
-        1.662
+        1.662,
+        1.678,
+        1.677,
+        1.689,
+        1.704,
+        1.716
       ],
       "priceSource": "nrcan_est"
     },
@@ -3496,14 +3496,14 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
-      "price": 2.216,
-      "priceLow": 2.15,
-      "weekDelta": 0.108,
+      "verdict": "buy",
+      "price": 2.288,
+      "priceLow": 2.219,
+      "weekDelta": 0.14,
       "weekDeltaDir": "up",
-      "why": "Northern Canada prices are up 10.8¢/L week-over-week due to crude climbing on Iran tensions. You're 6.6¢/L above the recent low, and WTI momentum is upward. Geopolitical risk suggests further pressure ahead.",
-      "advice": "Top up half now, fill rest Fri",
-      "bestDayIdx": 5,
+      "why": "Northern Canada prices have jumped 14¢/L week-over-week amid geopolitical tensions and crude climbing toward $85. Current price sits 7¢ above the recent low, with upward momentum from Iran conflict risks likely to persist through the week.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -3529,11 +3529,6 @@
         "dist": 3
       },
       "trend": [
-        2.026,
-        2.026,
-        2.044,
-        2.043,
-        2.052,
         2.058,
         2.108,
         2.092,
@@ -3542,7 +3537,12 @@
         2.091,
         2.148,
         2.188,
-        2.216
+        2.216,
+        2.238,
+        2.237,
+        2.252,
+        2.272,
+        2.288
       ],
       "priceSource": "nrcan_est"
     }
