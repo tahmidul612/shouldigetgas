@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-08-08T12:00:54.056275+00:00",
-    "pricesUpdatedAt": "2026-08-08T12:00:36.861288+00:00",
+    "updatedAt": "2026-08-08T18:00:55.200158+00:00",
+    "pricesUpdatedAt": "2026-08-08T18:00:52.068511+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-08-08T12:33:00.226437+00:00",
-    "nextAnalysisUpdate": "2026-08-08T18:03:00.226448+00:00"
+    "nextPriceUpdate": "2026-08-08T18:33:05.849652+00:00",
+    "nextAnalysisUpdate": "2026-08-09T00:03:05.849677+00:00"
   },
   "wti": {
-    "price": 81.96,
-    "dir": "down",
-    "change": -4.2
+    "price": 71.2,
+    "dir": "flat",
+    "change": 0.0
   },
   "regions": [
     {
@@ -19,186 +19,15 @@
       "city": "Birmingham",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 2.894,
-      "priceLow": 2.684,
-      "weekDelta": 0.08,
-      "weekDeltaDir": "up",
-      "why": "AL prices have risen $0.08 this week despite WTI falling $4.20, suggesting local supply tightness. Current price sits $0.21 above the regional low, but crude's downward momentum and cooling geopolitical tensions may ease pressure soon.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.703,
-        2.721,
-        2.74,
-        2.758,
-        2.777,
-        2.795,
-        2.814,
-        2.825,
-        2.837,
-        2.848,
-        2.86,
-        2.871,
-        2.883,
-        2.894
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ak",
-      "state": "Alaska",
-      "abbr": "AK",
-      "city": "Anchorage",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.62,
-      "priceLow": 3.419,
-      "weekDelta": 0.094,
-      "weekDeltaDir": "up",
-      "why": "Alaska prices are up 9¢ this week despite crude falling $4.20, suggesting local supply tightness. WTI weakness should filter through soon, but regional factors are keeping prices elevated above the $3.42 floor.",
-      "advice": "Wait until mid-week",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 78,
-        "refining": 10,
-        "taxes": 4,
-        "dist": 8
-      },
-      "trend": [
-        3.434,
-        3.45,
-        3.465,
-        3.48,
-        3.495,
-        3.511,
-        3.526,
-        3.539,
-        3.553,
-        3.566,
-        3.58,
-        3.593,
-        3.607,
-        3.62
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "az",
-      "state": "Arizona",
-      "abbr": "AZ",
-      "city": "Phoenix",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.124,
-      "priceLow": 2.95,
-      "weekDelta": 0.082,
-      "weekDeltaDir": "up",
-      "why": "Arizona prices are 5.9% above the local low despite WTI declining $4.20. Summer blend premiums and geopolitical tensions are offsetting crude weakness. Prices may consolidate or edge lower in the next few days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 12,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        2.963,
-        2.976,
-        2.989,
-        3.003,
-        3.016,
-        3.029,
-        3.042,
-        3.054,
-        3.065,
-        3.077,
-        3.089,
-        3.101,
-        3.112,
-        3.124
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ar",
-      "state": "Arkansas",
-      "abbr": "AR",
-      "city": "Little Rock",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 2.833,
-      "priceLow": 2.628,
-      "weekDelta": 0.078,
-      "weekDeltaDir": "up",
-      "why": "Arkansas prices are 7.8 cents above last week and 20.5 cents above the regional low, driven by rising crude despite a recent $4.20 drop. Oil rebounded on supply tightening concerns, countering downward momentum. Summer blend adds cost pressure.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "verdict": "buy",
+      "price": 2.83,
+      "priceLow": 2.817,
+      "weekDelta": -0.068,
+      "weekDeltaDir": "down",
+      "why": "Prices have fallen 6.8¢ this week and sit near recent lows despite crude rebounding. WTI flat signals no imminent spike, but geopolitical tension and supply tightness could push prices higher soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -223,20 +52,191 @@
         "dist": 11
       },
       "trend": [
-        2.646,
-        2.664,
-        2.682,
-        2.701,
-        2.719,
-        2.737,
-        2.755,
-        2.766,
-        2.777,
-        2.788,
-        2.8,
-        2.811,
-        2.822,
-        2.833
+        2.829,
+        2.84,
+        2.852,
+        2.863,
+        2.875,
+        2.886,
+        2.898,
+        2.888,
+        2.879,
+        2.869,
+        2.859,
+        2.849,
+        2.84,
+        2.83
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ak",
+      "state": "Alaska",
+      "abbr": "AK",
+      "city": "Anchorage",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.72,
+      "priceLow": 3.72,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Alaska prices are at their recent low of $3.72/gal while crude remains flat. Oil supply tightening headlines suggest upward pressure ahead, but current pricing offers a solid entry point before potential increases materialize.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 78,
+        "refining": 10,
+        "taxes": 4,
+        "dist": 8
+      },
+      "trend": [
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72,
+        3.72
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "az",
+      "state": "Arizona",
+      "abbr": "AZ",
+      "city": "Phoenix",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.21,
+      "priceLow": 3.21,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Arizona gas is at its lowest point with WTI crude flat. Summer blend premiums are factored in, and no major supply disruptions are imminent. Oil's recent rebound suggests prices have stabilized for now.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 67,
+        "refining": 12,
+        "taxes": 12,
+        "dist": 9
+      },
+      "trend": [
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21,
+        3.21
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "ar",
+      "state": "Arkansas",
+      "abbr": "AR",
+      "city": "Little Rock",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.771,
+      "priceLow": 2.759,
+      "weekDelta": -0.066,
+      "weekDeltaDir": "down",
+      "why": "Arkansas gas is down 6.6¢ week-over-week and near a local low of 2.759. WTI crude is flat, but rising geopolitical tension and supply tightening could push prices higher soon. Current conditions offer a brief favorable window.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 14,
+        "taxes": 15,
+        "dist": 11
+      },
+      "trend": [
+        2.77,
+        2.781,
+        2.792,
+        2.804,
+        2.815,
+        2.826,
+        2.837,
+        2.828,
+        2.818,
+        2.809,
+        2.799,
+        2.79,
+        2.78,
+        2.771
       ],
       "priceSource": "eia_padd"
     },
@@ -247,15 +247,15 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 5.489,
-      "priceLow": 5.489,
+      "verdict": "buy",
+      "price": 5.495,
+      "priceLow": 5.495,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California gas is at its local low of $5.49/gal, but crude oil just dropped $4.20 and shows downward momentum. Summer blend and refinery constraints limit quick relief, though softening oil prices may ease pressure in 3–5 days.",
-      "advice": "Top off today, wait for rest",
+      "why": "California prices are at a local low and flat week-over-week despite crude rebounding. Summer blend premium and supply constraints mean prices could edge higher, but current levels offer a reasonable fill-up window.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -280,20 +280,20 @@
         "dist": 5
       },
       "trend": [
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489,
-        5.489
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495,
+        5.495
       ],
       "priceSource": "eia_state"
     },
@@ -305,14 +305,14 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.997,
-      "priceLow": 3.997,
+      "price": 4.051,
+      "priceLow": 4.051,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at recent lows despite crude rebounding. WTI dropped $4.20, signaling downward pressure ahead. Summer blend and stable demand suggest a brief window before potential tightening drives prices up.",
+      "why": "Colorado gas is at its recent low of $4.051/gal with flat week-over-week momentum. Oil prices are stable at $71.20/barrel, though geopolitical tensions could push crude higher. Current pricing offers a fair window before potential supply-driven increases.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -331,26 +331,26 @@
         }
       ],
       "breakdown": {
-        "crude": 72,
-        "refining": 10,
+        "crude": 74,
+        "refining": 9,
         "taxes": 10,
-        "dist": 8
+        "dist": 7
       },
       "trend": [
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051,
+        4.051
       ],
       "priceSource": "eia_state"
     },
@@ -361,15 +361,15 @@
       "city": "Hartford",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 3.441,
-      "priceLow": 3.242,
-      "weekDelta": 0.062,
-      "weekDeltaDir": "up",
-      "why": "CT prices are 6¢ above week-ago levels despite WTI dropping $4.20. Summer blend and supply tightening news suggest upward pressure may persist through the week. Current price sits 20¢ above nearby low.",
-      "advice": "Top off today, hold rest",
+      "verdict": "buy",
+      "price": 3.45,
+      "priceLow": 3.45,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "CT prices are at their recent low of $3.45/gal with flat crude conditions. Oil rebounded on supply tightening concerns, but momentum is not yet strong enough to drive immediate increases. Current conditions offer a stable entry point.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -394,22 +394,22 @@
         "dist": 9
       },
       "trend": [
-        3.262,
-        3.281,
-        3.301,
-        3.32,
-        3.34,
-        3.359,
-        3.379,
-        3.388,
-        3.397,
-        3.406,
-        3.414,
-        3.423,
-        3.432,
-        3.441
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45,
+        3.45
       ],
-      "priceSource": "eia_padd"
+      "priceSource": "baseline"
     },
     {
       "id": "de",
@@ -418,15 +418,15 @@
       "city": "Wilmington",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 3.192,
-      "priceLow": 3.007,
-      "weekDelta": 0.058,
-      "weekDeltaDir": "up",
-      "why": "Delaware gas is 6.2¢ above the week's low and trending up despite crude's recent dip. Summer blend premiums and supply tightening support prices, with crude still elevated at $82/barrel.",
-      "advice": "Top off today, watch for dips",
+      "verdict": "buy",
+      "price": 3.2,
+      "priceLow": 3.2,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Delaware prices are at their recent low of $3.20/gal while crude rebounds on supply tightening concerns. WTI is flat but upward pressure from geopolitical risks suggests prices may rise over the next few days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -451,22 +451,22 @@
         "dist": 9
       },
       "trend": [
-        3.025,
-        3.043,
-        3.061,
-        3.08,
-        3.098,
-        3.116,
-        3.134,
-        3.142,
-        3.151,
-        3.159,
-        3.167,
-        3.175,
-        3.184,
-        3.192
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2,
+        3.2
       ],
-      "priceSource": "eia_padd"
+      "priceSource": "baseline"
     },
     {
       "id": "fl",
@@ -475,15 +475,15 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 3.921,
-      "priceLow": 3.891,
-      "weekDelta": 0.03,
-      "weekDeltaDir": "up",
-      "why": "Florida prices near recent lows despite WTI rebound. Week-over-week gains are modest; crude direction is down. Summer blend premium and regional supply tightness create some upward pressure, but the broader trend favors patience.",
-      "advice": "Top off today, monitor for Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "verdict": "buy",
+      "price": 3.771,
+      "priceLow": 3.771,
+      "weekDelta": -0.15,
+      "weekDeltaDir": "down",
+      "why": "Florida gas is at its local low after a 15¢ weekly drop. Oil rebounded on supply concerns, but current prices remain reasonable. Summer blend and stable crude suggest limited near-term pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -502,26 +502,26 @@
         }
       ],
       "breakdown": {
-        "crude": 67,
+        "crude": 66,
         "refining": 10,
-        "taxes": 15,
+        "taxes": 16,
         "dist": 8
       },
       "trend": [
-        3.891,
-        3.891,
-        3.891,
-        3.891,
-        3.891,
-        3.891,
-        3.891,
-        3.895,
+        3.921,
+        3.921,
+        3.921,
+        3.921,
+        3.921,
+        3.921,
+        3.921,
         3.9,
-        3.904,
-        3.908,
-        3.912,
-        3.917,
-        3.921
+        3.878,
+        3.857,
+        3.835,
+        3.814,
+        3.792,
+        3.771
       ],
       "priceSource": "eia_state"
     },
@@ -532,15 +532,15 @@
       "city": "Atlanta",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 2.913,
-      "priceLow": 2.744,
-      "weekDelta": 0.053,
-      "weekDeltaDir": "up",
-      "why": "Prices rose 5.3¢ this week despite crude falling $4.20, signaling supply tightening outweighs oil declines. Current $2.913 sits well above the $2.744 low—you're not catching a bargain. Crude direction is down but geopolitical tension may cap further gains.",
-      "advice": "Top off today · watch for dips",
+      "verdict": "buy",
+      "price": 2.92,
+      "priceLow": 2.92,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Georgia prices are at recent lows with flat week-over-week movement. Oil rebounded slightly but remains stable around $71/barrel. Summer blend premiums are in effect, but current pricing reflects equilibrium—no immediate downward pressure expected.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -565,22 +565,22 @@
         "dist": 10
       },
       "trend": [
-        2.761,
-        2.777,
-        2.794,
-        2.81,
-        2.827,
-        2.843,
-        2.86,
-        2.868,
-        2.875,
-        2.883,
-        2.89,
-        2.898,
-        2.905,
-        2.913
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92,
+        2.92
       ],
-      "priceSource": "eia_padd"
+      "priceSource": "baseline"
     },
     {
       "id": "hi",
@@ -589,2295 +589,15 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
-      "price": 4.428,
-      "priceLow": 4.182,
-      "weekDelta": 0.116,
-      "weekDeltaDir": "up",
-      "why": "Hawaii prices are 5.9% above recent lows despite WTI falling $4.20 today. Week-over-week gains and supply tightening news suggest upward momentum, but crude direction is downward. Summer blend premium adds cost.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 68,
-        "refining": 11,
-        "taxes": 14,
-        "dist": 7
-      },
-      "trend": [
-        4.201,
-        4.219,
-        4.238,
-        4.256,
-        4.275,
-        4.293,
-        4.312,
-        4.329,
-        4.345,
-        4.362,
-        4.378,
-        4.395,
-        4.411,
-        4.428
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "id",
-      "state": "Idaho",
-      "abbr": "ID",
-      "city": "Boise",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.255,
-      "priceLow": 3.048,
-      "weekDelta": 0.101,
-      "weekDeltaDir": "up",
-      "why": "Idaho prices are 6.8% above the nearby low despite WTI dropping $4.20. Summer blend costs more, and crude rebounded on supply concerns. Prices likely peaked but remain elevated.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 9
-      },
-      "trend": [
-        3.063,
-        3.078,
-        3.093,
-        3.109,
-        3.124,
-        3.139,
-        3.154,
-        3.168,
-        3.183,
-        3.197,
-        3.212,
-        3.226,
-        3.241,
-        3.255
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "il",
-      "state": "Illinois",
-      "abbr": "IL",
-      "city": "Chicago",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.54,
-      "priceLow": 3.339,
-      "weekDelta": 0.093,
-      "weekDeltaDir": "up",
-      "why": "Prices rose 9¢ this week despite crude falling $4.20, suggesting local supply tightness. WTI weakness and crude inventory concerns create conflicting signals—wait 2–3 days to see if retail catches down to fundamentals.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 56,
-        "refining": 14,
-        "taxes": 22,
-        "dist": 8
-      },
-      "trend": [
-        3.354,
-        3.37,
-        3.385,
-        3.401,
-        3.416,
-        3.432,
-        3.447,
-        3.46,
-        3.474,
-        3.487,
-        3.5,
-        3.513,
-        3.527,
-        3.54
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "in",
-      "state": "Indiana",
-      "abbr": "IN",
-      "city": "Indianapolis",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.168,
-      "priceLow": 2.988,
-      "weekDelta": 0.083,
-      "weekDeltaDir": "up",
-      "why": "Prices rose 8.3¢ this week despite crude falling $4.20. Supply tightening concerns are pushing retail prices up faster than crude declines. You're 18¢ above the regional low—a gap likely to narrow as crude headwinds ease over the next few days.",
-      "advice": "Wait until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 12,
-        "taxes": 21,
-        "dist": 9
-      },
-      "trend": [
-        3.002,
-        3.016,
-        3.03,
-        3.043,
-        3.057,
-        3.071,
-        3.085,
-        3.097,
-        3.109,
-        3.121,
-        3.132,
-        3.144,
-        3.156,
-        3.168
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ia",
-      "state": "Iowa",
-      "abbr": "IA",
-      "city": "Des Moines",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.012,
-      "priceLow": 2.841,
-      "weekDelta": 0.08,
-      "weekDeltaDir": "up",
-      "why": "Crude fell $4.20 but gas rose 8¢ week-over-week due to supply tightening concerns offsetting oil declines. Current price sits 17¢ above the nearby low, suggesting room for pullback.",
-      "advice": "Top off partially, wait for di",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 13,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        2.854,
-        2.867,
-        2.88,
-        2.893,
-        2.906,
-        2.919,
-        2.932,
-        2.943,
-        2.955,
-        2.966,
-        2.978,
-        2.989,
-        3.001,
-        3.012
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ks",
-      "state": "Kansas",
-      "abbr": "KS",
-      "city": "Wichita",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 2.953,
-      "priceLow": 2.786,
-      "weekDelta": 0.078,
-      "weekDeltaDir": "up",
-      "why": "Kansas prices are 6% above the local low despite crude falling $4.20. WTI weakness suggests downward pressure, but geopolitical risk and supply tightening are supporting prices. Expect continued volatility this week.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 13,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        2.799,
-        2.811,
-        2.824,
-        2.837,
-        2.85,
-        2.862,
-        2.875,
-        2.886,
-        2.897,
-        2.908,
-        2.92,
-        2.931,
-        2.942,
-        2.953
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ky",
-      "state": "Kentucky",
-      "abbr": "KY",
-      "city": "Louisville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.075,
-      "priceLow": 2.852,
-      "weekDelta": 0.085,
-      "weekDeltaDir": "up",
-      "why": "Kentucky prices are up 8.5¢ week-over-week and sit 22¢ above the regional low. WTI crude is falling but geopolitical tensions and supply tightness are pushing retail prices upward. Summer blend costs more, and the rebound trend suggests further increases ahead.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        2.872,
-        2.891,
-        2.911,
-        2.931,
-        2.951,
-        2.97,
-        2.99,
-        3.002,
-        3.014,
-        3.026,
-        3.039,
-        3.051,
-        3.063,
-        3.075
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "la",
-      "state": "Louisiana",
-      "abbr": "LA",
-      "city": "New Orleans",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 2.944,
-      "priceLow": 2.731,
-      "weekDelta": 0.081,
-      "weekDeltaDir": "up",
-      "why": "Oil rebounded despite recent weakness, and Louisiana prices are still 7.6% above the week's low. Summer demand and refinery constraints are supporting prices. The rebound suggests downward momentum has stalled.",
-      "advice": "Top off today · wait",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 13,
-        "taxes": 13,
-        "dist": 10
-      },
-      "trend": [
-        2.75,
-        2.769,
-        2.788,
-        2.806,
-        2.825,
-        2.844,
-        2.863,
-        2.875,
-        2.886,
-        2.898,
-        2.909,
-        2.921,
-        2.932,
-        2.944
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "me",
-      "state": "Maine",
-      "abbr": "ME",
-      "city": "Portland",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.372,
-      "priceLow": 3.176,
-      "weekDelta": 0.062,
-      "weekDeltaDir": "up",
-      "why": "Maine prices are 6¢ above the week-ago level despite crude dropping $4.20. Supply tightness is offsetting downward crude pressure, but the rebound appears near its peak as WTI momentum weakens.",
-      "advice": "Top off by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.195,
-        3.214,
-        3.233,
-        3.253,
-        3.272,
-        3.291,
-        3.31,
-        3.319,
-        3.328,
-        3.337,
-        3.345,
-        3.354,
-        3.363,
-        3.372
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "md",
-      "state": "Maryland",
-      "abbr": "MD",
-      "city": "Baltimore",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.272,
-      "priceLow": 3.082,
-      "weekDelta": 0.06,
-      "weekDeltaDir": "up",
-      "why": "Maryland gas is 6¢ above week-ago levels despite crude sliding $4.20. Supply tightening concerns are pushing prices up despite weaker oil fundamentals. Summer blend and geopolitical tensions are keeping upward pressure alive.",
-      "advice": "Top off today · wait mid-week",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 12,
-        "taxes": 19,
-        "dist": 9
-      },
-      "trend": [
-        3.101,
-        3.119,
-        3.138,
-        3.156,
-        3.175,
-        3.193,
-        3.212,
-        3.221,
-        3.229,
-        3.238,
-        3.246,
-        3.255,
-        3.263,
-        3.272
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ma",
-      "state": "Massachusetts",
-      "abbr": "MA",
-      "city": "Boston",
-      "country": "US",
-      "unit": "gal",
       "verdict": "buy",
-      "price": 4.084,
-      "priceLow": 3.997,
-      "weekDelta": 0.087,
-      "weekDeltaDir": "up",
-      "why": "MA prices rose 8.7¢ this week despite crude falling $4.20. Supply tightening and geopolitical tensions are offsetting oil weakness. Prices likely consolidating before the next move.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 71,
-        "refining": 11,
-        "taxes": 11,
-        "dist": 7
-      },
-      "trend": [
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        3.997,
-        4.009,
-        4.022,
-        4.034,
-        4.047,
-        4.059,
-        4.072,
-        4.084
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "mi",
-      "state": "Michigan",
-      "abbr": "MI",
-      "city": "Detroit",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.246,
-      "priceLow": 3.062,
-      "weekDelta": 0.085,
-      "weekDeltaDir": "up",
-      "why": "Michigan gas is 6% above the week's low despite crude falling $4.20. Summer blend premiums and tightening supply signals suggest near-term support, but downward crude momentum may offer relief in 2–3 days.",
-      "advice": "Top off partial, wait for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 12,
-        "taxes": 19,
-        "dist": 9
-      },
-      "trend": [
-        3.076,
-        3.09,
-        3.104,
-        3.119,
-        3.133,
-        3.147,
-        3.161,
-        3.173,
-        3.185,
-        3.197,
-        3.21,
-        3.222,
-        3.234,
-        3.246
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mn",
-      "state": "Minnesota",
-      "abbr": "MN",
-      "city": "Minneapolis",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 4.039,
-      "priceLow": 3.844,
-      "weekDelta": 0.195,
-      "weekDeltaDir": "up",
-      "why": "Minnesota gas is 5.2% above the week's low at $4.04/gal. Despite crude falling $4.20, geopolitical tensions and supply constraints are keeping pump prices elevated. A gap remains to cheaper nearby stations.",
-      "advice": "Fill up at cheaper station",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 71,
-        "refining": 9,
-        "taxes": 13,
-        "dist": 7
-      },
-      "trend": [
-        3.844,
-        3.844,
-        3.844,
-        3.844,
-        3.844,
-        3.844,
-        3.844,
-        3.872,
-        3.9,
-        3.928,
-        3.955,
-        3.983,
-        4.011,
-        4.039
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ms",
-      "state": "Mississippi",
-      "abbr": "MS",
-      "city": "Jackson",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 2.873,
-      "priceLow": 2.665,
-      "weekDelta": 0.079,
-      "weekDeltaDir": "up",
-      "why": "MS prices are 7.8¢ above the week's low despite crude falling $4.20. Summer blend costs more, and geopolitical tensions support oil. Prices may stabilize or dip slightly as crude cools, but upward momentum persists.",
-      "advice": "Top off today · wait",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 13,
-        "taxes": 13,
-        "dist": 10
-      },
-      "trend": [
-        2.683,
-        2.702,
-        2.72,
-        2.739,
-        2.757,
-        2.776,
-        2.794,
-        2.805,
-        2.817,
-        2.828,
-        2.839,
-        2.85,
-        2.862,
-        2.873
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mo",
-      "state": "Missouri",
-      "abbr": "MO",
-      "city": "Kansas City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 2.914,
-      "priceLow": 2.749,
-      "weekDelta": 0.077,
-      "weekDeltaDir": "up",
-      "why": "Missouri prices are elevated at $2.91/gal, up 7.7¢ week-over-week despite crude falling $4.20. Supply tightening concerns are offsetting oil weakness. Current price is 16¢ above the regional low, signaling room to drop.",
-      "advice": "Wait until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 13,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        2.762,
-        2.774,
-        2.787,
-        2.799,
-        2.812,
-        2.824,
-        2.837,
-        2.848,
-        2.859,
-        2.87,
-        2.881,
-        2.892,
-        2.903,
-        2.914
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mt",
-      "state": "Montana",
-      "abbr": "MT",
-      "city": "Billings",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.324,
-      "priceLow": 3.113,
-      "weekDelta": 0.103,
-      "weekDeltaDir": "up",
-      "why": "Crude is down $4.20 but regional prices still lag the low by $0.21/gal. Summer blend costs more, and supply tightening news suggests floors may hold here. Prices could stabilize or drift slightly lower this week.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 11,
-        "taxes": 14,
-        "dist": 9
-      },
-      "trend": [
-        3.128,
-        3.144,
-        3.159,
-        3.175,
-        3.19,
-        3.206,
-        3.221,
-        3.236,
-        3.25,
-        3.265,
-        3.28,
-        3.295,
-        3.309,
-        3.324
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ne",
-      "state": "Nebraska",
-      "abbr": "NE",
-      "city": "Omaha",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.021,
-      "priceLow": 2.85,
-      "weekDelta": 0.079,
-      "weekDeltaDir": "up",
-      "why": "Crude fell $4.20 today but gasoline hasn't fully followed in Nebraska. Prices are 5.7% above the week's low, suggesting a lag before stations catch up. Summer blend and supply tightness support gradual decline over next few days.",
-      "advice": "Top off halfway today, fill Fr",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 13,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        2.863,
-        2.876,
-        2.889,
-        2.903,
-        2.916,
-        2.929,
-        2.942,
-        2.953,
-        2.965,
-        2.976,
-        2.987,
-        2.998,
-        3.01,
-        3.021
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nv",
-      "state": "Nevada",
-      "abbr": "NV",
-      "city": "Las Vegas",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.718,
-      "priceLow": 3.511,
-      "weekDelta": 0.098,
-      "weekDeltaDir": "up",
-      "why": "Nevada gas is 5.9% above the week's low despite crude falling $4.20. Summer blend premiums and supply tightness offset oil weakness. Prices remain elevated but may stabilize as crude stabilizes.",
-      "advice": "Top off partially, wait for di",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 10,
-        "taxes": 18,
-        "dist": 8
-      },
-      "trend": [
-        3.527,
-        3.542,
-        3.558,
-        3.573,
-        3.589,
-        3.604,
-        3.62,
-        3.634,
-        3.648,
-        3.662,
-        3.676,
-        3.69,
-        3.704,
-        3.718
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nh",
-      "state": "New Hampshire",
-      "abbr": "NH",
-      "city": "Manchester",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.272,
-      "priceLow": 3.082,
-      "weekDelta": 0.06,
-      "weekDeltaDir": "up",
-      "why": "Crude is down $4.20 and below $82, signaling potential relief ahead. NH prices lag the regional low by 19¢, suggesting a pullback window is forming in the next 2–4 days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 68,
-        "refining": 12,
-        "taxes": 11,
-        "dist": 9
-      },
-      "trend": [
-        3.101,
-        3.119,
-        3.138,
-        3.156,
-        3.175,
-        3.193,
-        3.212,
-        3.221,
-        3.229,
-        3.238,
-        3.246,
-        3.255,
-        3.263,
-        3.272
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nj",
-      "state": "New Jersey",
-      "abbr": "NJ",
-      "city": "Newark",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.272,
-      "priceLow": 3.082,
-      "weekDelta": 0.06,
-      "weekDeltaDir": "up",
-      "why": "NJ prices are 5.8% above the regional low despite crude falling $4.20. Summer blend demand and supply tightening are supporting prices, but the downward crude trend suggests relief ahead. You're in a temporary peak.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 13,
-        "taxes": 18,
-        "dist": 9
-      },
-      "trend": [
-        3.101,
-        3.119,
-        3.138,
-        3.156,
-        3.175,
-        3.193,
-        3.212,
-        3.221,
-        3.229,
-        3.238,
-        3.246,
-        3.255,
-        3.263,
-        3.272
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nm",
-      "state": "New Mexico",
-      "abbr": "NM",
-      "city": "Albuquerque",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.176,
-      "priceLow": 2.946,
-      "weekDelta": 0.088,
-      "weekDeltaDir": "up",
-      "why": "Oil prices dropped $4.20 today but rebounded on supply concerns. NM prices are 7.8% above the local low, and week-over-week gains suggest upward momentum despite crude's pullback. Summer blend premiums add cost pressure.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 67,
-        "refining": 12,
-        "taxes": 12,
-        "dist": 9
-      },
-      "trend": [
-        2.966,
-        2.987,
-        3.007,
-        3.027,
-        3.047,
-        3.068,
-        3.088,
-        3.101,
-        3.113,
-        3.126,
-        3.138,
-        3.151,
-        3.163,
-        3.176
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ny",
-      "state": "New York",
-      "abbr": "NY",
-      "city": "New York City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 4.138,
-      "priceLow": 4.077,
-      "weekDelta": 0.061,
-      "weekDeltaDir": "up",
-      "why": "Crude fell $4.20 but gasoline prices rose 6¢ week-over-week due to supply tightening concerns. Current price is only 0.6¢ above the nearby low, suggesting you're near a local ceiling before potential relief.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 11,
-        "taxes": 18,
-        "dist": 7
-      },
-      "trend": [
-        4.077,
-        4.077,
-        4.077,
-        4.077,
-        4.077,
-        4.077,
-        4.077,
-        4.086,
-        4.094,
-        4.103,
-        4.112,
-        4.121,
-        4.129,
-        4.138
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "nc",
-      "state": "North Carolina",
-      "abbr": "NC",
-      "city": "Charlotte",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.042,
-      "priceLow": 2.866,
-      "weekDelta": 0.055,
-      "weekDeltaDir": "up",
-      "why": "Crude fell $4.20 today but gasoline hasn't caught up yet—NC is 18¢ above the local low. Supply tightening could support prices, so the window to buy near-bottom may close soon.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 12,
-        "taxes": 17,
-        "dist": 10
-      },
-      "trend": [
-        2.883,
-        2.901,
-        2.918,
-        2.935,
-        2.952,
-        2.97,
-        2.987,
-        2.995,
-        3.003,
-        3.011,
-        3.018,
-        3.026,
-        3.034,
-        3.042
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "nd",
-      "state": "North Dakota",
-      "abbr": "ND",
-      "city": "Fargo",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.109,
-      "priceLow": 2.933,
-      "weekDelta": 0.081,
-      "weekDeltaDir": "up",
-      "why": "WTI crude is falling and North Dakota prices are still 6% above the week's low of $2.93/gal. Despite recent geopolitical tensions, downward crude momentum suggests further relief is likely within 2–4 days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 12,
-        "taxes": 13,
-        "dist": 10
-      },
-      "trend": [
-        2.947,
-        2.96,
-        2.974,
-        2.987,
-        3.001,
-        3.014,
-        3.028,
-        3.04,
-        3.051,
-        3.063,
-        3.074,
-        3.086,
-        3.097,
-        3.109
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "oh",
-      "state": "Ohio",
-      "abbr": "OH",
-      "city": "Columbus",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.849,
-      "priceLow": 3.849,
+      "price": 4.55,
+      "priceLow": 4.55,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio gas is at its local low with flat week-over-week prices. While crude fell $4.20, geopolitical tensions and supply constraints are supporting prices. Summer blend adds cost, but current pump price offers a stable window before potential volatility.",
+      "why": "Hawaii prices are at a recent low with flat week-over-week movement. Oil rebounded on supply concerns, but crude remains moderate at $71/barrel. Summer blend and stable regional conditions suggest prices have stabilized near current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 67,
-        "refining": 10,
-        "taxes": 15,
-        "dist": 8
-      },
-      "trend": [
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849,
-        3.849
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ok",
-      "state": "Oklahoma",
-      "abbr": "OK",
-      "city": "Oklahoma City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 2.904,
-      "priceLow": 2.694,
-      "weekDelta": 0.081,
-      "weekDeltaDir": "up",
-      "why": "Oklahoma prices are 21¢ above the regional low, driven by rising crude and supply tightening concerns. WTI's recent $4+ drop suggests temporary relief, but geopolitical tensions and refinery constraints may sustain upward pressure through the week.",
-      "advice": "Top off today · monitor Wed",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 13,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        2.712,
-        2.731,
-        2.749,
-        2.768,
-        2.786,
-        2.805,
-        2.823,
-        2.835,
-        2.846,
-        2.858,
-        2.869,
-        2.881,
-        2.892,
-        2.904
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "or",
-      "state": "Oregon",
-      "abbr": "OR",
-      "city": "Portland",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.776,
-      "priceLow": 3.566,
-      "weekDelta": 0.099,
-      "weekDeltaDir": "up",
-      "why": "Oregon prices are 6% above the week's low despite crude falling $4.20/barrel. The rebound is driven by supply tightening concerns, but the gap between current and nearby lows suggests prices may consolidate or dip further before stabilizing.",
-      "advice": "Top off partially, wait for di",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 14,
-        "taxes": 14,
-        "dist": 8
-      },
-      "trend": [
-        3.582,
-        3.598,
-        3.614,
-        3.629,
-        3.645,
-        3.661,
-        3.677,
-        3.691,
-        3.705,
-        3.719,
-        3.734,
-        3.748,
-        3.762,
-        3.776
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "pa",
-      "state": "Pennsylvania",
-      "abbr": "PA",
-      "city": "Philadelphia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.511,
-      "priceLow": 3.307,
-      "weekDelta": 0.064,
-      "weekDeltaDir": "up",
-      "why": "Pennsylvania prices are elevated at $3.51/gal, up 6.4¢ week-over-week. WTI crude dropped $4.20 but rebounded on supply tightening concerns. Summer blend demand and geopolitical risk support prices; further declines likely if crude stabilizes.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 11,
-        "taxes": 22,
-        "dist": 9
-      },
-      "trend": [
-        3.327,
-        3.347,
-        3.367,
-        3.387,
-        3.407,
-        3.427,
-        3.447,
-        3.456,
-        3.465,
-        3.474,
-        3.484,
-        3.493,
-        3.502,
-        3.511
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ri",
-      "state": "Rhode Island",
-      "abbr": "RI",
-      "city": "Providence",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.392,
-      "priceLow": 3.195,
-      "weekDelta": 0.062,
-      "weekDeltaDir": "up",
-      "why": "RI prices are 6¢ above the week's low despite crude falling $4.20. Upward momentum from supply tightening concerns is offsetting oil's decline. Prices may consolidate or dip slightly midweek as crude stabilizes.",
-      "advice": "Top off today · wait for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.214,
-        3.234,
-        3.253,
-        3.272,
-        3.291,
-        3.311,
-        3.33,
-        3.339,
-        3.348,
-        3.357,
-        3.365,
-        3.374,
-        3.383,
-        3.392
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sc",
-      "state": "South Carolina",
-      "abbr": "SC",
-      "city": "Columbia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.042,
-      "priceLow": 2.866,
-      "weekDelta": 0.055,
-      "weekDeltaDir": "up",
-      "why": "SC prices are 6.1% above the regional low despite crude falling $4.20. Summer demand and supply tightness are pushing prices higher. Crude direction is down, but geopolitical risk and refinery constraints may limit near-term relief.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 12,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.883,
-        2.901,
-        2.918,
-        2.935,
-        2.952,
-        2.97,
-        2.987,
-        2.995,
-        3.003,
-        3.011,
-        3.018,
-        3.026,
-        3.034,
-        3.042
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sd",
-      "state": "South Dakota",
-      "abbr": "SD",
-      "city": "Sioux Falls",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.08,
-      "priceLow": 2.905,
-      "weekDelta": 0.081,
-      "weekDeltaDir": "up",
-      "why": "WTI crude is down $4.20 and trending lower, but regional prices rose 8¢ week-over-week. Current SD price sits 17¢ above the nearby low, suggesting a temporary local spike. Crude momentum favors waiting for retail prices to catch down.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 12,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.918,
-        2.932,
-        2.945,
-        2.959,
-        2.972,
-        2.986,
-        2.999,
-        3.011,
-        3.022,
-        3.034,
-        3.045,
-        3.057,
-        3.068,
-        3.08
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tn",
-      "state": "Tennessee",
-      "abbr": "TN",
-      "city": "Nashville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 2.974,
-      "priceLow": 2.759,
-      "weekDelta": 0.082,
-      "weekDeltaDir": "up",
-      "why": "TN prices rose 8¢ this week despite WTI dropping $4.20, signaling supply tightness overriding crude gains. Summer blend costs and regional constraints are keeping prices elevated above the nearby low of $2.76.",
-      "advice": "Wait until Friday",
-      "bestDayIdx": 5,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.778,
-        2.797,
-        2.816,
-        2.835,
-        2.854,
-        2.873,
-        2.892,
-        2.904,
-        2.915,
-        2.927,
-        2.939,
-        2.951,
-        2.962,
-        2.974
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tx",
-      "state": "Texas",
-      "abbr": "TX",
-      "city": "Houston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.644,
-      "priceLow": 3.546,
-      "weekDelta": 0.098,
-      "weekDeltaDir": "up",
-      "why": "WTI crude is down $4.20 and trending lower, but supply tightening concerns are pushing prices up. Current Texas price is 2.7% above the local low—a modest gap with mixed momentum.",
-      "advice": "Top off today, monitor Thu",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 71,
-        "refining": 10,
-        "taxes": 11,
-        "dist": 8
-      },
-      "trend": [
-        3.546,
-        3.546,
-        3.546,
-        3.546,
-        3.546,
-        3.546,
-        3.546,
-        3.56,
-        3.574,
-        3.588,
-        3.602,
-        3.616,
-        3.63,
-        3.644
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ut",
-      "state": "Utah",
-      "abbr": "UT",
-      "city": "Salt Lake City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "wait",
-      "price": 3.324,
-      "priceLow": 3.113,
-      "weekDelta": 0.103,
-      "weekDeltaDir": "up",
-      "why": "Utah prices are 6.7% above the week's low despite WTI dropping $4.20. Summer blend adds cost, but crude's downward momentum and current rebound signal potential for pullback. Prices likely softening in 2–4 days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.128,
-        3.144,
-        3.159,
-        3.175,
-        3.19,
-        3.206,
-        3.221,
-        3.236,
-        3.25,
-        3.265,
-        3.28,
-        3.295,
-        3.309,
-        3.324
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "vt",
-      "state": "Vermont",
-      "abbr": "VT",
-      "city": "Burlington",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.372,
-      "priceLow": 3.176,
-      "weekDelta": 0.062,
-      "weekDeltaDir": "up",
-      "why": "Vermont prices are 6¢ above the week-ago level and 20¢ above nearby lows, despite crude falling $4.20. Refinery constraints and geopolitical tensions are sustaining margins. Crude's downward trend suggests modest relief ahead.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.195,
-        3.214,
-        3.233,
-        3.253,
-        3.272,
-        3.291,
-        3.31,
-        3.319,
-        3.328,
-        3.337,
-        3.345,
-        3.354,
-        3.363,
-        3.372
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "va",
-      "state": "Virginia",
-      "abbr": "VA",
-      "city": "Richmond",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.142,
-      "priceLow": 2.96,
-      "weekDelta": 0.057,
-      "weekDeltaDir": "up",
-      "why": "Crude fell $4.20 but supply concerns are pushing gas up 5.7¢ week-over-week. You're 18¢ above the regional low, and summer blend costs more. Upward momentum may continue despite weakening oil.",
-      "advice": "Top off partial · wait for dip",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 12,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.978,
-        2.996,
-        3.014,
-        3.031,
-        3.049,
-        3.067,
-        3.085,
-        3.093,
-        3.101,
-        3.109,
-        3.118,
-        3.126,
-        3.134,
-        3.142
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wa",
-      "state": "Washington",
-      "abbr": "WA",
-      "city": "Seattle",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 5.01,
-      "priceLow": 5.01,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Washington prices are at a recent low despite crude rebounding. Summer blend premiums and supply tightening could push prices higher in the coming days. Current level offers a solid window before potential increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 11,
-        "taxes": 17,
-        "dist": 6
-      },
-      "trend": [
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01,
-        5.01
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "wv",
-      "state": "West Virginia",
-      "abbr": "WV",
-      "city": "Charleston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.172,
-      "priceLow": 2.988,
-      "weekDelta": 0.058,
-      "weekDeltaDir": "up",
-      "why": "WV gas is 6% above the regional low despite crude dropping $4.20/barrel today. The rebound signals temporary support, but downward crude momentum and summer blend transition suggest prices may soften in the next few days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
-        "taxes": 16,
-        "dist": 9
-      },
-      "trend": [
-        3.006,
-        3.024,
-        3.042,
-        3.06,
-        3.078,
-        3.096,
-        3.114,
-        3.122,
-        3.131,
-        3.139,
-        3.147,
-        3.155,
-        3.164,
-        3.172
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wi",
-      "state": "Wisconsin",
-      "abbr": "WI",
-      "city": "Milwaukee",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.207,
-      "priceLow": 3.025,
-      "weekDelta": 0.084,
-      "weekDeltaDir": "up",
-      "why": "Wisconsin prices are 6% above the week's low despite crude falling $4.20. Summer blend premium and supply tightening news suggest upward pressure will persist. A modest rebound window exists before potential further rises.",
-      "advice": "Top off today · watch Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 12,
-        "taxes": 17,
-        "dist": 9
-      },
-      "trend": [
-        3.039,
-        3.053,
-        3.067,
-        3.081,
-        3.095,
-        3.109,
-        3.123,
-        3.135,
-        3.147,
-        3.159,
-        3.171,
-        3.183,
-        3.195,
-        3.207
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wy",
-      "state": "Wyoming",
-      "abbr": "WY",
-      "city": "Cheyenne",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.225,
-      "priceLow": 3.02,
-      "weekDelta": 0.1,
-      "weekDeltaDir": "up",
-      "why": "WTI crude is down $4.20 and trading at $81.96, signaling weakening momentum. However, Wyoming's price is $0.20 above the local low, and week-over-week gains suggest upward pressure. Supply tightening headlines may limit further declines this week.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
-      "news": [
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        },
-        {
-          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
-          "source": "Livemint",
-          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 12,
-        "taxes": 13,
-        "dist": 9
-      },
-      "trend": [
-        3.035,
-        3.05,
-        3.065,
-        3.08,
-        3.095,
-        3.11,
-        3.125,
-        3.139,
-        3.154,
-        3.168,
-        3.182,
-        3.196,
-        3.211,
-        3.225
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "dc",
-      "state": "District of Columbia",
-      "abbr": "DC",
-      "city": "Washington",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "partial",
-      "price": 3.541,
-      "priceLow": 3.336,
-      "weekDelta": 0.064,
-      "weekDeltaDir": "up",
-      "why": "DC prices are elevated at $3.54/gal, up 6.4¢ this week despite crude falling. Supply tightening concerns and geopolitical risks are supporting prices. A $0.21 gap to nearby lows suggests room to drop if crude weakness continues.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2898,24 +618,2304 @@
       "breakdown": {
         "crude": 69,
         "refining": 11,
-        "taxes": 12,
+        "taxes": 13,
+        "dist": 7
+      },
+      "trend": [
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55,
+        4.55
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "id",
+      "state": "Idaho",
+      "abbr": "ID",
+      "city": "Boise",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.28,
+      "priceLow": 3.28,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Idaho prices are at their local low and flat week-over-week despite oil rebounding. Summer blend demand is stable, and crude direction is neutral. Prices may drift higher if geopolitical tensions escalate further.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 9
+      },
+      "trend": [
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "il",
+      "state": "Illinois",
+      "abbr": "IL",
+      "city": "Chicago",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.58,
+      "priceLow": 3.444,
+      "weekDelta": 0.043,
+      "weekDeltaDir": "up",
+      "why": "Illinois gas prices are up 4.3¢ this week as crude rebounds on supply tightening concerns. You're currently 13.6¢ above the nearby low, and summer blend premiums plus geopolitical tensions suggest prices may hold firm or edge higher.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 57,
+        "refining": 13,
+        "taxes": 22,
         "dist": 8
       },
       "trend": [
-        3.356,
-        3.376,
-        3.396,
-        3.417,
-        3.437,
         3.457,
-        3.477,
+        3.471,
+        3.484,
+        3.497,
+        3.51,
+        3.524,
+        3.537,
+        3.543,
+        3.549,
+        3.555,
+        3.562,
+        3.568,
+        3.574,
+        3.58
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "in",
+      "state": "Indiana",
+      "abbr": "IN",
+      "city": "Indianapolis",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "wait",
+      "price": 3.204,
+      "priceLow": 3.082,
+      "weekDelta": 0.039,
+      "weekDeltaDir": "up",
+      "why": "Crude rebounded on supply tightening concerns, pushing Indiana prices up 4¢ week-over-week. Current price sits 12¢ above the regional low, suggesting more room to fall before stabilizing.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 12,
+        "taxes": 20,
+        "dist": 9
+      },
+      "trend": [
+        3.094,
+        3.106,
+        3.118,
+        3.129,
+        3.141,
+        3.153,
+        3.165,
+        3.171,
+        3.176,
+        3.182,
+        3.187,
+        3.193,
+        3.198,
+        3.204
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ia",
+      "state": "Iowa",
+      "abbr": "IA",
+      "city": "Des Moines",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.046,
+      "priceLow": 2.93,
+      "weekDelta": 0.037,
+      "weekDeltaDir": "up",
+      "why": "Prices rose 3.7¢ this week as crude rebounded on supply tightening concerns. Iowa sits 11¢ above the regional low, suggesting room for pullback. Summer demand and geopolitical pressure could keep prices firm, but no sharp spike signals imminent.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        2.941,
+        2.953,
+        2.964,
+        2.975,
+        2.986,
+        2.998,
+        3.009,
+        3.014,
+        3.02,
+        3.025,
+        3.03,
+        3.035,
+        3.041,
+        3.046
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ks",
+      "state": "Kansas",
+      "abbr": "KS",
+      "city": "Wichita",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "wait",
+      "price": 2.986,
+      "priceLow": 2.873,
+      "weekDelta": 0.035,
+      "weekDeltaDir": "up",
+      "why": "Kansas prices are up 3.5¢ this week as crude rebounds on supply concerns. You're currently 11¢ above the regional low, with upward momentum likely to continue amid geopolitical tensions.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 13,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        2.884,
+        2.895,
+        2.906,
+        2.918,
+        2.929,
+        2.94,
+        2.951,
+        2.956,
+        2.961,
+        2.966,
+        2.971,
+        2.976,
+        2.981,
+        2.986
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ky",
+      "state": "Kentucky",
+      "abbr": "KY",
+      "city": "Louisville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.008,
+      "priceLow": 2.994,
+      "weekDelta": -0.071,
+      "weekDeltaDir": "down",
+      "why": "Kentucky prices have dropped 7¢ week-over-week and sit just 0.4% above the local low. WTI crude is flat despite geopolitical tensions, suggesting current stability. Summer blend costs remain manageable relative to recent highs.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 61,
+        "refining": 13,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        3.006,
+        3.018,
+        3.03,
+        3.043,
+        3.055,
+        3.067,
+        3.079,
+        3.069,
+        3.059,
+        3.049,
+        3.038,
+        3.028,
+        3.018,
+        3.008
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "la",
+      "state": "Louisiana",
+      "abbr": "LA",
+      "city": "New Orleans",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.879,
+      "priceLow": 2.867,
+      "weekDelta": -0.069,
+      "weekDeltaDir": "down",
+      "why": "Louisiana prices are down 7¢ week-over-week and near recent lows at $2.88/gal. WTI crude is flat around $71, but rising geopolitical tensions and tightening US supplies suggest upward pressure ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 13,
+        "taxes": 13,
+        "dist": 10
+      },
+      "trend": [
+        2.879,
+        2.89,
+        2.902,
+        2.913,
+        2.925,
+        2.936,
+        2.948,
+        2.938,
+        2.928,
+        2.918,
+        2.909,
+        2.899,
+        2.889,
+        2.879
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "me",
+      "state": "Maine",
+      "abbr": "ME",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.38,
+      "priceLow": 3.38,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Maine prices are at a local low and stable at $3.38/gal. WTI crude is flat around $71, and while geopolitical tensions support upside risk, near-term supply tightening hasn't yet pushed prices higher. Summer blend premiums are already factored in.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38,
+        3.38
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "md",
+      "state": "Maryland",
+      "abbr": "MD",
+      "city": "Baltimore",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.28,
+      "priceLow": 3.28,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Maryland prices are at their lowest point with flat week-over-week movement. Oil rebounded on supply concerns, but current equilibrium suggests stability. Summer blend premiums and supply tightening may push prices up soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 12,
+        "taxes": 19,
+        "dist": 9
+      },
+      "trend": [
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "ma",
+      "state": "Massachusetts",
+      "abbr": "MA",
+      "city": "Boston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 4.058,
+      "priceLow": 4.058,
+      "weekDelta": -0.026,
+      "weekDeltaDir": "down",
+      "why": "MA prices are at their weekly low and stable. WTI crude is flat around $71, but recent supply tightening concerns suggest upward pressure ahead. Summer blend adds a premium, limiting near-term drops.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 71,
+        "refining": 11,
+        "taxes": 11,
+        "dist": 7
+      },
+      "trend": [
+        4.084,
+        4.084,
+        4.084,
+        4.084,
+        4.084,
+        4.084,
+        4.084,
+        4.08,
+        4.077,
+        4.073,
+        4.069,
+        4.065,
+        4.062,
+        4.058
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "mi",
+      "state": "Michigan",
+      "abbr": "MI",
+      "city": "Detroit",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.283,
+      "priceLow": 3.158,
+      "weekDelta": 0.039,
+      "weekDeltaDir": "up",
+      "why": "Michigan prices are up 4¢ week-over-week as crude rebounds on supply tightening concerns. You're 12.5¢ above the regional low, and upward momentum suggests further gains likely over the next few days.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 61,
+        "refining": 12,
+        "taxes": 18,
+        "dist": 9
+      },
+      "trend": [
+        3.17,
+        3.183,
+        3.195,
+        3.207,
+        3.219,
+        3.232,
+        3.244,
+        3.25,
+        3.255,
+        3.261,
+        3.266,
+        3.272,
+        3.277,
+        3.283
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mn",
+      "state": "Minnesota",
+      "abbr": "MN",
+      "city": "Minneapolis",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.937,
+      "priceLow": 3.937,
+      "weekDelta": -0.102,
+      "weekDeltaDir": "down",
+      "why": "Minnesota prices have dropped 10¢ week-over-week and sit at a local low. WTI crude is flat around $71, but geopolitical tensions and supply tightening signals suggest upward pressure ahead. Summer blend costs more, so filling now locks in current savings.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 69,
+        "refining": 10,
+        "taxes": 13,
+        "dist": 8
+      },
+      "trend": [
+        4.039,
+        4.039,
+        4.039,
+        4.039,
+        4.039,
+        4.039,
+        4.039,
+        4.024,
+        4.01,
+        3.995,
+        3.981,
+        3.966,
+        3.952,
+        3.937
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ms",
+      "state": "Mississippi",
+      "abbr": "MS",
+      "city": "Jackson",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.81,
+      "priceLow": 2.798,
+      "weekDelta": -0.067,
+      "weekDeltaDir": "down",
+      "why": "Mississippi gas is near a local low after a week-long decline of 6.7¢. WTI crude is flat, but rising supply concerns and geopolitical tension could push prices higher in the coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 14,
+        "taxes": 13,
+        "dist": 11
+      },
+      "trend": [
+        2.809,
+        2.821,
+        2.832,
+        2.843,
+        2.854,
+        2.866,
+        2.877,
+        2.867,
+        2.858,
+        2.848,
+        2.839,
+        2.829,
+        2.82,
+        2.81
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mo",
+      "state": "Missouri",
+      "abbr": "MO",
+      "city": "Kansas City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 2.947,
+      "priceLow": 2.835,
+      "weekDelta": 0.036,
+      "weekDeltaDir": "up",
+      "why": "Missouri prices are 3.9% above the week's low, and crude rebounded on supply tightening concerns. Summer blend premiums and upward momentum suggest prices may continue climbing over the next few days.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 13,
+        "taxes": 12,
+        "dist": 10
+      },
+      "trend": [
+        2.846,
+        2.857,
+        2.868,
+        2.878,
+        2.889,
+        2.9,
+        2.911,
+        2.916,
+        2.921,
+        2.926,
+        2.932,
+        2.937,
+        2.942,
+        2.947
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mt",
+      "state": "Montana",
+      "abbr": "MT",
+      "city": "Billings",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.35,
+      "priceLow": 3.35,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Montana gas is at its local low and WTI crude is flat. Oil supply tightening signals potential upward pressure, but current prices remain stable. Summer blend and no holiday demand shifts suggest limited near-term volatility.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 11,
+        "taxes": 14,
+        "dist": 9
+      },
+      "trend": [
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "ne",
+      "state": "Nebraska",
+      "abbr": "NE",
+      "city": "Omaha",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.055,
+      "priceLow": 2.94,
+      "weekDelta": 0.036,
+      "weekDeltaDir": "up",
+      "why": "Nebraska prices are 3.9% above the week's low and climbing amid rising crude and tightening supply. Current momentum is upward with crude flat but market sentiment bullish. A brief window exists before prices climb further.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 12,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        2.951,
+        2.963,
+        2.974,
+        2.985,
+        2.996,
+        3.008,
+        3.019,
+        3.024,
+        3.029,
+        3.034,
+        3.04,
+        3.045,
+        3.05,
+        3.055
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "nv",
+      "state": "Nevada",
+      "abbr": "NV",
+      "city": "Las Vegas",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.82,
+      "priceLow": 3.82,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Nevada gas is at its recent low of $3.82/gal with flat week-over-week movement. Oil prices are stable at $71.20/bbl, though upward supply tightening could push prices higher in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 10,
+        "taxes": 18,
+        "dist": 8
+      },
+      "trend": [
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82,
+        3.82
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "nh",
+      "state": "New Hampshire",
+      "abbr": "NH",
+      "city": "Manchester",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.28,
+      "priceLow": 3.28,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "NH prices are at a local low with flat week-over-week movement. Oil rebounded but remains moderate at $71/barrel. Summer blend demand is steady with no holiday disruption, suggesting stable near-term pricing.",
+      "advice": "Fill up today",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 68,
+        "refining": 12,
+        "taxes": 11,
+        "dist": 9
+      },
+      "trend": [
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "nj",
+      "state": "New Jersey",
+      "abbr": "NJ",
+      "city": "Newark",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.28,
+      "priceLow": 3.28,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "NJ prices are at their recent low of $3.28/gal with flat week-over-week movement. Oil rebounded on supply tightening concerns, but crude remains stable. Summer blend and stable fundamentals suggest limited near-term upside.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 60,
+        "refining": 13,
+        "taxes": 18,
+        "dist": 9
+      },
+      "trend": [
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28,
+        3.28
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "nm",
+      "state": "New Mexico",
+      "abbr": "NM",
+      "city": "Albuquerque",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.106,
+      "priceLow": 3.092,
+      "weekDelta": -0.074,
+      "weekDeltaDir": "down",
+      "why": "New Mexico prices have dropped 7.4¢ this week and sit near their local low. WTI crude is flat but rising supply concerns could push prices up over the next few days. Current levels offer a good window before potential increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 12,
+        "taxes": 12,
+        "dist": 10
+      },
+      "trend": [
+        3.105,
+        3.117,
+        3.13,
+        3.142,
+        3.155,
+        3.167,
+        3.18,
+        3.169,
+        3.159,
+        3.148,
+        3.138,
+        3.127,
+        3.117,
+        3.106
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ny",
+      "state": "New York",
+      "abbr": "NY",
+      "city": "New York City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 4.103,
+      "priceLow": 4.103,
+      "weekDelta": -0.035,
+      "weekDeltaDir": "down",
+      "why": "NY prices are at a recent low after a week-over-week decline. Oil rebounded on supply tightening concerns, but crude remains flat. Summer blend and stable fundamentals suggest limited near-term upside.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 11,
+        "taxes": 18,
+        "dist": 7
+      },
+      "trend": [
+        4.138,
+        4.138,
+        4.138,
+        4.138,
+        4.138,
+        4.138,
+        4.138,
+        4.133,
+        4.128,
+        4.123,
+        4.118,
+        4.113,
+        4.108,
+        4.103
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "nc",
+      "state": "North Carolina",
+      "abbr": "NC",
+      "city": "Charlotte",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.05,
+      "priceLow": 3.05,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "NC gas sits at $3.05/gal, matching local lows. WTI crude is flat around $71, but upstream supply tightening and geopolitical tension suggest upward pressure ahead. Summer blend demand keeps prices supported.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05,
+        3.05
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "nd",
+      "state": "North Dakota",
+      "abbr": "ND",
+      "city": "Fargo",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.144,
+      "priceLow": 3.025,
+      "weekDelta": 0.037,
+      "weekDeltaDir": "up",
+      "why": "ND prices are 3.7¢ above last week as crude rebounds on supply tightening concerns. Current $3.144 is still 12¢ above the regional low, suggesting room for further rises if geopolitical tensions persist.",
+      "advice": "Top off today · watch",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 12,
+        "taxes": 13,
+        "dist": 10
+      },
+      "trend": [
+        3.037,
+        3.048,
+        3.06,
+        3.072,
+        3.084,
+        3.095,
+        3.107,
+        3.112,
+        3.118,
+        3.123,
+        3.128,
+        3.133,
+        3.139,
+        3.144
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "oh",
+      "state": "Ohio",
+      "abbr": "OH",
+      "city": "Columbus",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 4.085,
+      "priceLow": 4.085,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Ohio gas is at its local low of $4.085/gal with flat crude prices. Oil rebounded on supply tightening concerns, signaling potential upward pressure ahead. Current stability presents a narrow window before prices likely climb.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 9,
+        "taxes": 14,
+        "dist": 7
+      },
+      "trend": [
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085,
+        4.085
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ok",
+      "state": "Oklahoma",
+      "abbr": "OK",
+      "city": "Oklahoma City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.84,
+      "priceLow": 2.827,
+      "weekDelta": -0.068,
+      "weekDeltaDir": "down",
+      "why": "Oklahoma prices are near recent lows and down 6.8¢ week-over-week despite flat crude. Oil supply tightening signals potential upward pressure ahead, but current prices remain favorable for filling up.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 13,
+        "taxes": 12,
+        "dist": 11
+      },
+      "trend": [
+        2.839,
+        2.85,
+        2.862,
+        2.873,
+        2.885,
+        2.896,
+        2.908,
+        2.898,
+        2.889,
+        2.879,
+        2.869,
+        2.859,
+        2.85,
+        2.84
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "or",
+      "state": "Oregon",
+      "abbr": "OR",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.88,
+      "priceLow": 3.88,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Oregon prices are flat at $3.88/gal, matching the local low. Oil rebounded on supply tightening concerns, but crude remains stable at $71.20. Summer blend and steady market conditions suggest minimal downward pressure ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 8
+      },
+      "trend": [
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "pa",
+      "state": "Pennsylvania",
+      "abbr": "PA",
+      "city": "Philadelphia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.466,
+      "priceLow": 3.448,
+      "weekDelta": -0.046,
+      "weekDeltaDir": "down",
+      "why": "Prices are near a recent low and have declined week-over-week. Oil is flat at $71, but upstream supply concerns suggest upward pressure ahead. Summer blend and stable crude support current lows.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 11,
+        "taxes": 22,
+        "dist": 9
+      },
+      "trend": [
+        3.457,
+        3.466,
+        3.475,
+        3.485,
+        3.494,
+        3.503,
+        3.512,
+        3.505,
+        3.499,
+        3.492,
         3.486,
-        3.495,
-        3.504,
+        3.479,
+        3.473,
+        3.466
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ri",
+      "state": "Rhode Island",
+      "abbr": "RI",
+      "city": "Providence",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.347,
+      "priceLow": 3.33,
+      "weekDelta": -0.045,
+      "weekDeltaDir": "down",
+      "why": "Rhode Island gas is near its weekly low at $3.347/gal with a declining trend (down $0.045 WoW). WTI crude is flat, and while supply tightening headlines suggest upward pressure, current momentum favors buyers in the short term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.339,
+        3.348,
+        3.357,
+        3.365,
+        3.374,
+        3.383,
+        3.392,
+        3.386,
+        3.379,
+        3.373,
+        3.366,
+        3.36,
+        3.353,
+        3.347
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sc",
+      "state": "South Carolina",
+      "abbr": "SC",
+      "city": "Columbia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.003,
+      "priceLow": 2.988,
+      "weekDelta": -0.04,
+      "weekDeltaDir": "down",
+      "why": "SC prices are near weekly lows and down 4¢ week-over-week despite crude rebounding. Oil supply tightening concerns may push prices higher soon, but current levels offer a brief window before further gains.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        2.996,
+        3.004,
+        3.012,
+        3.019,
+        3.027,
+        3.035,
+        3.043,
+        3.037,
+        3.032,
+        3.026,
+        3.02,
+        3.014,
+        3.009,
+        3.003
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sd",
+      "state": "South Dakota",
+      "abbr": "SD",
+      "city": "Sioux Falls",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "wait",
+      "price": 3.115,
+      "priceLow": 2.997,
+      "weekDelta": 0.037,
+      "weekDeltaDir": "up",
+      "why": "Crude prices rebounded on supply tightening concerns, pushing regional prices up 3.7¢ this week. Current price sits 11¢ above the nearby low, with upward momentum likely continuing as geopolitical tensions persist.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 12,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        3.009,
+        3.02,
+        3.032,
+        3.043,
+        3.055,
+        3.066,
+        3.078,
+        3.083,
+        3.089,
+        3.094,
+        3.099,
+        3.104,
+        3.11,
+        3.115
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "tn",
+      "state": "Tennessee",
+      "abbr": "TN",
+      "city": "Nashville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.909,
+      "priceLow": 2.896,
+      "weekDelta": -0.069,
+      "weekDeltaDir": "down",
+      "why": "Tennessee prices have fallen 7¢ over the week and are near a recent low. WTI crude is flat around $71, suggesting stable near-term supply. Summer blend adds a small premium, but the downtrend momentum gives you a favorable window.",
+      "advice": "Fill up today",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        2.908,
+        2.919,
+        2.931,
+        2.943,
+        2.955,
+        2.966,
+        2.978,
+        2.968,
+        2.958,
+        2.948,
+        2.939,
+        2.929,
+        2.919,
+        2.909
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "tx",
+      "state": "Texas",
+      "abbr": "TX",
+      "city": "Houston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.532,
+      "priceLow": 3.532,
+      "weekDelta": -0.112,
+      "weekDeltaDir": "down",
+      "why": "Texas gas is at a recent low after a week-over-week drop of 11¢. WTI crude is flat but rising supply concerns and geopolitical tensions suggest upward pressure ahead. Summer blend prices typically firm into the week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 11,
+        "taxes": 11,
+        "dist": 8
+      },
+      "trend": [
+        3.644,
+        3.644,
+        3.644,
+        3.644,
+        3.644,
+        3.644,
+        3.644,
+        3.628,
+        3.612,
+        3.596,
+        3.58,
+        3.564,
+        3.548,
+        3.532
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ut",
+      "state": "Utah",
+      "abbr": "UT",
+      "city": "Salt Lake City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.35,
+      "priceLow": 3.35,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Utah prices are at a recent low with flat week-over-week movement. Oil rebounded on supply tightening concerns, but crude remains moderate. Summer blend premium is active. Prices may edge higher this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35,
+        3.35
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "vt",
+      "state": "Vermont",
+      "abbr": "VT",
+      "city": "Burlington",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.328,
+      "priceLow": 3.311,
+      "weekDelta": -0.044,
+      "weekDeltaDir": "down",
+      "why": "Vermont prices have dropped 4.4¢ this week and sit just 0.5% above the local low. Oil prices are flat and supply concerns may push them higher in coming days, but current pricing offers a reasonable window before potential increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.32,
+        3.328,
+        3.337,
+        3.346,
+        3.355,
+        3.363,
+        3.372,
+        3.366,
+        3.359,
+        3.353,
+        3.347,
+        3.341,
+        3.334,
+        3.328
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "va",
+      "state": "Virginia",
+      "abbr": "VA",
+      "city": "Richmond",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.101,
+      "priceLow": 3.086,
+      "weekDelta": -0.042,
+      "weekDeltaDir": "down",
+      "why": "Virginia prices fell 4.2¢ this week and sit near recent lows. Oil rebounded on supply concerns, but fundamentals remain uncertain. Summer blend premium is in effect.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 12,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        3.094,
+        3.102,
+        3.11,
+        3.119,
+        3.127,
+        3.135,
+        3.143,
+        3.137,
+        3.131,
+        3.125,
+        3.119,
+        3.113,
+        3.107,
+        3.101
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wa",
+      "state": "Washington",
+      "abbr": "WA",
+      "city": "Seattle",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 5.045,
+      "priceLow": 5.045,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "WA prices are at their local low with flat crude markets and no immediate supply disruptions. Summer blend adds slight cost, but current $5.045/gal represents a stable entry point with minimal recent movement.",
+      "advice": "Fill up today",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 67,
+        "refining": 11,
+        "taxes": 16,
+        "dist": 6
+      },
+      "trend": [
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045,
+        5.045
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "wv",
+      "state": "West Virginia",
+      "abbr": "WV",
+      "city": "Charleston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.131,
+      "priceLow": 3.115,
+      "weekDelta": -0.042,
+      "weekDeltaDir": "down",
+      "why": "WV prices down 4.2¢ week-over-week and near recent lows at $3.131/gal. Oil rebounded but crude remains flat; summer blend adds marginal pressure. Downward momentum suggests a brief window before potential increase.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        3.123,
+        3.132,
+        3.14,
+        3.148,
+        3.156,
+        3.165,
+        3.173,
+        3.167,
+        3.161,
+        3.155,
+        3.149,
+        3.143,
+        3.137,
+        3.131
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wi",
+      "state": "Wisconsin",
+      "abbr": "WI",
+      "city": "Milwaukee",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.243,
+      "priceLow": 3.12,
+      "weekDelta": 0.038,
+      "weekDeltaDir": "up",
+      "why": "Wisconsin prices are 3.9% above the local low and rising on crude rebound. Summer blend and supply tightening support further gains in the near term.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 17,
+        "dist": 9
+      },
+      "trend": [
+        3.132,
+        3.144,
+        3.156,
+        3.169,
+        3.181,
+        3.193,
+        3.205,
+        3.21,
+        3.216,
+        3.221,
+        3.227,
+        3.232,
+        3.238,
+        3.243
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wy",
+      "state": "Wyoming",
+      "abbr": "WY",
+      "city": "Cheyenne",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.25,
+      "priceLow": 3.25,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Wyoming prices are at a local low of $3.25/gal with flat week-over-week movement. Oil rebounded on supply tightening concerns, signaling potential upward pressure ahead. Summer blend and rising national trends suggest limited downside.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 12,
+        "taxes": 13,
+        "dist": 9
+      },
+      "trend": [
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25,
+        3.25
+      ],
+      "priceSource": "baseline"
+    },
+    {
+      "id": "dc",
+      "state": "District of Columbia",
+      "abbr": "DC",
+      "city": "Washington",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.495,
+      "priceLow": 3.477,
+      "weekDelta": -0.047,
+      "weekDeltaDir": "down",
+      "why": "DC gas prices have dropped 4.7¢ week-over-week and sit near a local low of $3.48. Despite oil rebounding on supply concerns, current pricing offers a favorable window before potential further increases materialize.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
+      "news": [
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        },
+        {
+          "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
+          "source": "Livemint",
+          "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
+        },
+        {
+          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
+          "source": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
+        }
+      ],
+      "breakdown": {
+        "crude": 68,
+        "refining": 11,
+        "taxes": 12,
+        "dist": 9
+      },
+      "trend": [
+        3.486,
+        3.496,
+        3.505,
         3.514,
         3.523,
-        3.532,
-        3.541
+        3.533,
+        3.542,
+        3.535,
+        3.529,
+        3.522,
+        3.515,
+        3.508,
+        3.502,
+        3.495
       ],
       "priceSource": "eia_padd"
     },
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.713,
       "priceLow": 1.662,
       "weekDelta": -0.028,
       "weekDeltaDir": "down",
-      "why": "WTI crude is down $4.20 and trending lower, though recent supply concerns caused a rebound. Alberta prices are 3% above the week's low, with downward momentum continuing. A dip toward 1.67–1.68 $/L is likely within 2–3 days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Alberta prices have declined week-over-week and remain just 3.1¢ above the local low. WTI crude is flat despite geopolitical noise, suggesting near-term stability. Summer blend typically supports moderate pricing.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2983,15 +2983,15 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.056,
       "priceLow": 1.994,
       "weekDelta": -0.005,
       "weekDeltaDir": "down",
-      "why": "BC prices are 3% above recent lows despite WTI declining $4.20. US crude supply tightening and geopolitical tensions are offsetting downward pressure. Summer blend and holiday-free week suggest modest stability.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "BC prices are 3¢/L above the local low, with flat crude and modest weekly decline. US supply tightening signals could support prices, but summer blend and stable WTI suggest no sharp moves imminent.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3040,15 +3040,15 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.769,
       "priceLow": 1.716,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Manitoba prices are 0.8% above the week's low at 1.769 $/L. WTI fell $4.20 today but crude rebounded on supply tightening concerns. Summer blend and modest downward trend suggest modest room for dips, but geopolitical risk supports current levels.",
-      "advice": "Top off today, watch Thu",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Manitoba prices are 0.5% above the local low, with crude flat and supply concerns emerging. Recent rebounds suggest upward pressure may continue, making current levels relatively attractive before potential increases.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3097,15 +3097,15 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.853,
       "priceLow": 1.797,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI is down $4.20 but rebounding signals suggest crude volatility ahead. Current price sits 3.1% above the nearby low, with week-over-week decline stalling. Summer blend costs remain elevated despite modest downward pressure.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Prices are 5.6¢/L above the local low and crude is flat with upward pressure from supply concerns. WTI rebound signals potential for further gains this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.889,
       "priceLow": 1.832,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI is down $4.20 but crude rebounded on supply tightening concerns. Newfoundland prices are 5.7¢ above the local low, suggesting room to fall. Weak week-over-week trend indicates consolidation, not strength.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "Prices have dipped slightly week-over-week and remain 5.7¢ above the local low. Oil prices are flat despite supply tightening headlines, suggesting limited upward momentum in the near term. Summer blend and stable crude conditions favor a modest window.",
+      "advice": "Fill up by midweek",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.849,
       "weekDelta": 0.037,
       "weekDeltaDir": "up",
-      "why": "Prices rose 3.7¢ this week despite crude falling $4.20, suggesting local supply constraints. WTI direction is down but geopolitical tensions may support prices. Current 1.906 $/L is 5.7¢ above the nearby low.",
+      "why": "Nova Scotia prices rose 3.7¢/L week-over-week as crude rebounds on supply tightening concerns. Current price is 5.7¢/L above the recent low, suggesting upward momentum may continue near-term.",
       "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3273,10 +3273,10 @@
       "priceLow": 1.733,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Ontario prices are 5.4¢ above the regional low, but crude is declining and week-over-week trends are downward. Recent geopolitical rebounds suggest short-term volatility, but the overall trajectory favors patience for better rates.",
-      "advice": "Top off partially, wait until ",
-      "bestDayIdx": 3,
-      "wtiDir": "down",
+      "why": "Ontario prices are 5.4¢/L above the local low, but WTI is flat and week-over-week decline suggests downward pressure persists. Oil supply tightening could support prices, but current momentum is mixed.",
+      "advice": "Top up partially, watch for di",
+      "bestDayIdx": 4,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3325,15 +3325,15 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.841,
       "priceLow": 1.786,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "PEI prices are 3% above the local low despite weak week-over-week trends. WTI is down but rebounding on supply concerns, creating short-term volatility. Summer demand and refinery constraints keep upward pressure alive.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "down",
+      "why": "PEI prices are 3% above the recent low despite flat crude. US supply tightening and geopolitical tensions are supporting prices. Weak downward momentum suggests prices may stabilize or inch higher.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3387,10 +3387,10 @@
       "priceLow": 1.832,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Quebec prices are 0.6% above the week's low despite WTI declining $4.20. Oil prices rebounded on supply tightening concerns, but downward momentum is weakening. Summer blend premiums apply.",
+      "why": "Quebec prices are 0.057 $/L above the local low, and crude is flat despite recent rebounds. Summer blend premiums and geopolitical tensions suggest upward pressure ahead, but the week-over-week decline shows softening momentum.",
       "advice": "Top off partially today",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "bestDayIdx": 2,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3439,15 +3439,15 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.686,
       "priceLow": 1.635,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude dropped $4.20 today, but oil rebounded on supply tightening concerns. Saskatchewan prices are 0.8% above the week's low, suggesting modest downward pressure may ease. Summer blend and stable demand create a balanced outlook.",
-      "advice": "Top off today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "down",
+      "why": "Saskatchewan prices are 0.8% above the nearby low, with crude flat and supply tightening concerns emerging. WTI stability combined with weak week-over-week decline suggests limited downside risk this week.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3496,15 +3496,15 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 2.248,
       "priceLow": 2.181,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WTI crude dropped $4.20 today, but oil rebounded on US supply tightening concerns. Northern Canada prices are 3.6¢ above the local low, suggesting room to fall further before stabilizing.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
-      "wtiDir": "down",
+      "why": "WTI crude is flat at $71.20, but upstream supply tightening and geopolitical tensions are supporting prices. Northern Canada sits 3.4% above regional lows. Week-over-week decline has stalled, signaling a floor.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
