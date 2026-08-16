@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-08-16T00:03:08.519413+00:00",
-    "pricesUpdatedAt": "2026-08-16T00:02:38.329147+00:00",
+    "updatedAt": "2026-08-16T06:01:48.850513+00:00",
+    "pricesUpdatedAt": "2026-08-16T06:00:46.094715+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-08-16T00:34:51.763153+00:00",
-    "nextAnalysisUpdate": "2026-08-16T06:04:51.763163+00:00"
+    "nextPriceUpdate": "2026-08-16T06:33:24.577784+00:00",
+    "nextAnalysisUpdate": "2026-08-16T12:03:24.577795+00:00"
   },
   "wti": {
-    "price": 84.77,
-    "dir": "up",
-    "change": 1.01
+    "price": 71.2,
+    "dir": "flat",
+    "change": 0.0
   },
   "regions": [
     {
@@ -20,14 +20,14 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.87,
-      "priceLow": 2.87,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Alabama prices are at their recent low of $2.87/gal with flat week-over-week movement. However, WTI crude is climbing (+$1.01) on supply tightening concerns, signaling upward pressure ahead. Summer blend and rising oil suggest prices will likely trend higher in coming days.",
+      "price": 2.802,
+      "priceLow": 2.802,
+      "weekDelta": -0.048,
+      "weekDeltaDir": "down",
+      "why": "Alabama prices are at a recent low after a week-over-week decline. Oil prices have rebounded but remain flat, suggesting stable near-term costs. Summer blend pricing is in effect with no holiday pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -46,28 +46,28 @@
         }
       ],
       "breakdown": {
-        "crude": 63,
-        "refining": 13,
+        "crude": 61,
+        "refining": 14,
         "taxes": 14,
-        "dist": 10
+        "dist": 11
       },
       "trend": [
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87,
-        2.87
+        2.908,
+        2.899,
+        2.889,
+        2.879,
+        2.869,
+        2.86,
+        2.85,
+        2.843,
+        2.836,
+        2.829,
+        2.823,
+        2.816,
+        2.809,
+        2.802
       ],
-      "priceSource": "baseline"
+      "priceSource": "eia_padd"
     },
     {
       "id": "ak",
@@ -81,10 +81,10 @@
       "priceLow": 3.63,
       "weekDelta": -0.039,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at a recent low despite rising crude oil and national trends. WTI is up and supply tightening signals potential increases ahead. Current $3.63/gal represents a favorable window before broader market pressures push prices higher.",
+      "why": "Alaska prices are at a recent low of $3.63/gal with modest week-over-week decline. WTI crude is flat around $71, but oil news suggests upward pressure from supply tightening concerns. Summer blend and stable conditions support current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -138,10 +138,10 @@
       "priceLow": 3.132,
       "weekDelta": -0.034,
       "weekDeltaDir": "down",
-      "why": "Arizona prices are at a recent low and WTI crude is rising on supply tightening concerns. Summer blend premiums and geopolitical tension suggest limited downside; prices likely stable to higher over the next few days.",
+      "why": "Arizona prices are at a recent low of $3.13/gal with flat crude trends. Week-over-week decline shows cooling momentum, but oil rebound signals potential upward pressure soon. Summer blend and geopolitical tensions suggest limited downside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -195,10 +195,10 @@
       "priceLow": 2.743,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low after a week-long decline, but crude is rising on supply tightening concerns. Summer blend and upward oil momentum suggest prices will climb in the near term.",
+      "why": "Arkansas prices are at their lowest point, down 4.7¢ week-over-week. While crude is flat and national prices are climbing back above $4, local supply appears favorable right now. This is a solid window to fill up before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -252,10 +252,10 @@
       "priceLow": 5.428,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are flat at a recent low while crude rebounds on supply concerns. Summer blend costs and geopolitical tension suggest upward pressure ahead, but you're currently at a favorable entry point before likely increases.",
+      "why": "California gas is at its local low of $5.43/gal with flat crude prices. Oil rebounded on supply tightening concerns, but no immediate pressure suggests prices could drift higher in coming days as summer demand peaks.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -309,10 +309,10 @@
       "priceLow": 4.046,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at their lowest point with flat week-over-week movement. Rising crude prices and geopolitical tensions suggest upward pressure ahead, but you're currently at a regional low—a narrow window to fill up before gains accelerate.",
+      "why": "Colorado gas is at its local low of $4.046/gal with flat WTI crude. Oil supply tightening news suggests upward pressure ahead, but current stability offers a brief window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -366,10 +366,10 @@
       "priceLow": 3.367,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "CT prices are at a local low after a week-long decline, but crude oil is climbing on supply tightening concerns. Summer demand and geopolitical tensions suggest upward pressure ahead.",
+      "why": "Connecticut prices are at a recent low of $3.367/gal after a 5-cent weekly drop. Oil rebounded $2/barrel on supply tightening concerns, signaling upward pressure ahead. Summer blend premiums and geopolitical tensions suggest prices may creep up over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -423,10 +423,10 @@
       "priceLow": 3.123,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low after a 4.8¢ weekly drop. However, crude oil just rebounded $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend costs add stability but won't prevent near-term increases.",
+      "why": "Delaware prices are at their lowest point this week and crude has stabilized after recent volatility. Summer blend demand remains steady, but geopolitical tensions and supply tightening may push prices higher in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -480,10 +480,10 @@
       "priceLow": 3.771,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "Crude prices are climbing on supply tightening concerns, and Florida gas has risen week-over-week. You're near recent lows, but upward momentum suggests prices may continue rising over the next few days.",
+      "why": "Florida prices are near recent lows despite crude rebound and summer blend premium. WTI flat at $71 suggests limited upside pressure. Week-over-week gain is modest; geopolitical risks remain contained.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -537,10 +537,10 @@
       "priceLow": 2.85,
       "weekDelta": -0.044,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at their lowest point this week as WTI crude rebounds. However, rising crude and tightening supply signals suggest upward pressure ahead. Current price represents a near-term floor before likely increases.",
+      "why": "Georgia prices are at a recent low of $2.85/gal with modest week-over-week decline. Oil rebounded $2+/barrel on supply tightening concerns, signaling upward pressure ahead. Summer blend and geopolitical risks suggest limited downside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -594,10 +594,10 @@
       "priceLow": 4.44,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Hawaii gas is at its recent low of $4.44/gal, but WTI crude is rising sharply (+$1.01) on tightening US supply concerns. Prices may edge higher through the week as crude momentum strengthens.",
+      "why": "Hawaii prices are at their local low after a modest week-over-week dip. Oil rebounded on supply tightening concerns, but crude remains relatively flat. Summer blend and stable fundamentals suggest prices have stabilized near current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -651,10 +651,10 @@
       "priceLow": 3.262,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "WTI crude is rising sharply (+$1.01) on tightening US supplies and geopolitical tension. Current Idaho price is only 0.3¢ above the local low, suggesting limited room lower. Expect upward pressure this week.",
+      "why": "Idaho prices are near recent lows at $3.29/gal with weak week-over-week decline. Oil rebounded $2/barrel on supply tightening concerns, signaling upward pressure ahead. Summer blend demand remains steady.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -708,10 +708,10 @@
       "priceLow": 3.513,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Illinois gas is at a recent low after a 10-cent weekly drop. However, WTI crude is rising on tightening supply concerns, suggesting upward pressure ahead. Summer blend and geopolitical tensions may limit further discounts.",
+      "why": "Illinois gas is at a recent low after falling 10¢ week-over-week. Oil prices are flat but upward pressure from tightening US crude supplies suggests prices may rise soon. Summer blend adds a slight cost premium.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -765,10 +765,10 @@
       "priceLow": 3.145,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at a recent low of $3.145/gal after a strong weekly decline. However, crude oil just jumped $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend premium adds cost. Prices may rise in coming days.",
+      "why": "Indiana gas is at a recent low of $3.145/gal after dropping $0.093 this week. Oil prices are flat around $71, but supply tightening concerns may push prices higher in the coming days. Current pricing offers a good fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -822,10 +822,10 @@
       "priceLow": 2.989,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9¢ week-over-week and are at a recent low. However, WTI crude is rising on supply concerns, signaling potential upward pressure. Summer blend and stable local supply keep current pricing favorable.",
+      "why": "Iowa prices have dropped 9¢ week-over-week and sit at recent lows. Oil rebounded on supply tightening concerns, but current retail pricing remains favorable. Summer blend premiums are modest.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -879,10 +879,10 @@
       "priceLow": 2.931,
       "weekDelta": -0.087,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at a recent low after a 8.7¢ weekly drop. However, crude oil just rebounded $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend and rising WTI suggest prices may climb in the coming days.",
+      "why": "Kansas prices are at a local low after a week-over-week decline of 8.7 cents. Oil rebounded slightly but remains stable. Summer blend costs are already elevated nationwide, and supply tightening could push prices higher within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -936,10 +936,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices are at a recent low despite crude rebounding $1+ today. Week-over-week decline suggests downward momentum, but rising WTI and tightening supplies signal prices may stabilize or climb soon.",
+      "why": "Kentucky gas is at a local low of $2.977/gal after dropping 5.2¢ week-over-week. Oil prices are flat but sentiment is mixed—supply tightening concerns could push prices up soon, though current levels remain reasonable for summer.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -993,10 +993,10 @@
       "priceLow": 2.851,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 5¢ week-over-week and are at a recent low. However, crude is rising on supply tightening concerns, signaling upward pressure ahead. Summer blend costs more, so fill up before further increases.",
+      "why": "Louisiana prices are at a local low after a week-long decline. Oil rebounded slightly but remains stable around $71/barrel. Summer blend and steady crude suggest prices have found near-term support.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Maine prices are at a recent low of $3.30/gal, down 5¢ week-over-week. However, WTI crude is rising on supply tightening concerns, and national prices are climbing back above $4. The upward momentum suggests prices may inch higher in coming days.",
+      "why": "Maine prices are at a recent low of $3.30/gal after a 5¢ weekly drop. WTI crude is flat, but geopolitical risks and refinery constraints are pushing national averages higher. Current conditions offer a favorable fill-up window before broader price recovery.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "Maryland prices have dropped 5¢ week-over-week and match the local low. Despite crude rebounding $1+ on supply tightness concerns, current retail prices haven't caught up yet. Summer blend premium and upward crude momentum suggest prices may rise soon.",
+      "why": "Maryland gas is at its lowest point this week after a small decline. Oil rebounded on supply tightening concerns, signaling potential upward pressure ahead. Summer blend and geopolitical tensions suggest prices may rise in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1164,10 +1164,10 @@
       "priceLow": 3.964,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "MA gas is at a recent low after a week-long decline, but crude prices are rebounding sharply on supply concerns. Upward momentum suggests prices may rise over the next few days.",
+      "why": "Prices have dropped 9.4¢ week-over-week and sit at a recent low. Oil rebounded on supply tightening concerns, but current prices remain reasonable. Summer blend costs more, but you're at an attractive entry point.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.222,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a local low after a week-long decline. WTI crude is rising on supply tightening concerns, signaling upward pressure ahead. Current price represents a good window before broader increases take hold.",
+      "why": "Michigan prices have dropped 9.6¢ this week and are at local lows. WTI crude is flat around $71, but recent news shows oil rebounded on supply concerns and national prices are climbing back above $4. Expect upward pressure soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.838,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Minnesota gas is at a recent low after a week-long decline, but crude oil just rebounded $1+ on supply tightening concerns. Upward pressure is building, though summer blend typically moderates volatility.",
+      "why": "Minnesota prices are at a recent low after a week-long decline. Oil rebounded $2/barrel on supply tightening signals, but crude remains flat overall. Summer blend and stable conditions suggest prices have stabilized near current levels.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.782,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Mississippi gas is at its local low of $2.782/gal after dropping 4.8¢ this week. However, crude just rebounded $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend and rising geopolitical tensions suggest prices will climb in coming days.",
+      "why": "MS prices are at a recent low of $2.782/gal with week-over-week decline. Oil rebounded but crude remains stable around $71. Summer blend and flat crude trajectory suggest limited upside pressure near-term.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "bestDayIdx": 3,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.892,
       "weekDelta": -0.086,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low after a 8.6¢ weekly drop. However, crude is rising on tightening supply concerns, signaling upward pressure ahead. Summer blend and geopolitical factors suggest prices may climb over the next few days.",
+      "why": "Missouri prices are at a recent low after a 8.6¢ weekly drop. Oil is flat around $71, but news of tightening US crude supplies suggests upward pressure ahead. Summer demand and geopolitical risks support higher prices in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Montana prices are near recent lows despite crude climbing $1+ today. WTI momentum is upward, signaling potential pump increases in 2–3 days. Current slight dip offers a brief window before supply tightening pushes prices higher.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
-      "wtiDir": "up",
+      "why": "Montana prices are near recent lows despite crude climbing on supply concerns. Weak week-over-week trend suggests temporary stability, but geopolitical tension and refinery constraints could push prices higher within days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1506,10 +1506,10 @@
       "priceLow": 2.999,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Nebraska gas is at a recent low of $2.999/gal after dropping $0.089 week-over-week. However, crude just rebounded $1.01 and supply tightening news suggests upward pressure ahead. Summer blend premium also applies.",
+      "why": "Nebraska prices are at a recent low of $2.999/gal after a week-long decline. WTI crude is flat but supply tightening concerns are emerging. Summer blend costs remain stable, but upward pressure from geopolitical factors suggests prices may rise soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.727,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at a recent low after a week-long decline, but crude is rising and national prices are climbing back above $4. Summer demand and supply tightening suggest upward pressure ahead.",
+      "why": "Nevada prices are at a recent low of $3.73/gal after a week-long decline. WTI crude is flat around $71, but rising geopolitical tensions and supply tightening could push prices higher in the coming days. Summer blend fuels add cost pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "NH gas is at a local low after a week-long decline. However, crude oil just jumped $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend adds cost. Prices likely to rise in the next 2–3 days.",
+      "why": "NH prices are at their local low with modest week-over-week decline. Oil rebounded $2+ on supply tightening concerns, signaling upward pressure ahead. Summer blend premium keeps prices elevated.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "You're at the lowest regional price after a week-long decline. Oil rebounded on supply tightening concerns, signaling upward pressure ahead. Summer blend costs support prices near current lows.",
+      "why": "NJ prices are at a recent low of $3.20/gal after a 5¢ weekly drop. Oil rebounded $2/barrel on supply tightening concerns, but crude remains flat overall. Summer blend and stable WTI suggest near-term consolidation before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1734,10 +1734,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "New Mexico prices have dropped 5¢ this week and are at a local low. However, WTI crude is rising sharply on supply tightening concerns, signaling upward pressure ahead. Summer blend costs add a seasonal premium.",
+      "why": "New Mexico prices are at a recent low after a week-long decline. Oil rebounded today but remains flat overall. Summer blend and stable supply conditions suggest this is a favorable window to fill up before potential further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.044,
       "weekDelta": -0.059,
       "weekDeltaDir": "down",
-      "why": "NY prices are at a recent low and down week-over-week, but crude is rising on supply tightening concerns. Summer blend premiums and geopolitical pressures suggest upward momentum ahead.",
+      "why": "Prices are at a recent low after a modest week-over-week drop. Oil is flat but supply tightening news suggests upward pressure ahead. Summer blend and geopolitical concerns support potential price increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent local low while WTI crude is climbing on supply tightening concerns. Upward momentum in oil futures suggests retail prices will follow in the coming days.",
+      "why": "NC prices are at their recent low after a week-long decline. Oil rebounded slightly on supply tightening concerns, but crude remains stable. Summer blend and stable WTI suggest limited near-term downside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1905,10 +1905,10 @@
       "priceLow": 3.086,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices have dropped 9¢ this week and sit at a local low. However, crude is rising on supply concerns, signaling upward pressure ahead. Summer demand and geopolitical risk suggest prices may climb in the next few days.",
+      "why": "ND prices are at a local low after a 9-cent weekly drop. Oil rebounded but remains moderate at $71. Summer blend and flat crude direction suggest near-term stability with modest upward risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -1962,10 +1962,10 @@
       "priceLow": 3.899,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Oil prices are rising on supply concerns, and gas prices have climbed back above $4. You're currently at a local low point with no recent decline trend, making this a reasonable window before prices push higher.",
+      "why": "Ohio gas is at a local low of $3.90/gal with flat crude prices. Oil rebounded on supply tightening concerns, but momentum is uncertain. Summer blend and stable week-over-week trends suggest a temporary equilibrium.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.812,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at their lowest point this week as WTI crude rebounds. Although oil is rising, regional supply remains adequate and prices have fallen week-over-week. Summer blend costs stay moderate despite broader national increases.",
+      "why": "Oklahoma prices are at their local low after a week-long decline. WTI crude is flat near $71, and supply tightening signals could push prices up soon. Summer blend costs remain moderate relative to national trends.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.786,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Oregon is at a recent low after a week-long decline. WTI crude is rising on supply tightening concerns, but current pump prices haven't caught up yet. Summer blend requirements keep baseline costs higher.",
+      "why": "Oregon prices are at a recent low of $3.79/gal with modest week-over-week decline. WTI crude is flat around $71, but geopolitical tensions and supply tightening could push prices higher within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.435,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "PA gas is at a recent low after a week-long dip, but crude oil just rebounded sharply on supply tightening concerns. Upward momentum in oil suggests pump prices will likely follow within days.",
+      "why": "PA gas is at a local low of $3.435/gal after a week-long decline. Oil prices are flat but news suggests upward pressure from supply tightening. Summer blend and stable crude create a brief favorable window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.318,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "RI gas is at a local low point and down week-over-week, but crude just rebounded sharply on supply tightening concerns. Rising oil prices suggest upward pressure on retail gas in the next few days.",
+      "why": "RI prices are at a local low after a 5-cent weekly decline. WTI crude is flat around $71, but recent news signals upward pressure from supply tightening and geopolitical risks. Summer blend adds cost. Fill up now before the rebound takes hold.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "SC prices have dropped 4.6¢ this week and are at their lowest point. However, rising crude (+$1/barrel) and tightening US supplies signal upward pressure ahead. Summer blend costs and geopolitical tensions suggest prices may climb within days.",
+      "why": "SC prices are at a recent low after a modest weekly decline. Oil rebounded on supply tightening concerns, but crude remains stable. Summer demand and geopolitical risks suggest upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2304,10 +2304,10 @@
       "priceLow": 3.057,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9¢ week-over-week and sit at a local low. However, crude is rising on supply tightening concerns, signaling upward pressure ahead. Summer blend adds a structural premium.",
+      "why": "South Dakota prices are at their weekly low with modest WTI support. Crude is flat but geopolitical tensions could push prices higher mid-week. Current pricing offers a favorable window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.88,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low, but crude is rising sharply (+$1.01) on supply tightening concerns. Prices may climb in the next few days as refineries adjust to higher oil costs.",
+      "why": "Tennessee prices are at their lowest point this week following a slight decline. WTI crude is flat around $71, but rising geopolitical tensions and tightening US crude supplies suggest upward pressure ahead. Summer blend demand remains steady.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.513,
       "weekDelta": -0.019,
       "weekDeltaDir": "down",
-      "why": "Texas gas is at a recent low and stable, but crude just jumped $1+ on supply tightening concerns. Summer blend and rising oil suggest upward pressure ahead. Current price is a fair window before further increases.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Texas gas is at its lowest point this week as crude stabilizes around $71/barrel. Upward pressure from supply tightening and geopolitical tensions suggests prices may edge higher in coming days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Utah gas is slightly above the local low and trending down week-over-week, but crude oil is rebounding on supply concerns. Summer blend adds seasonal cost. The $1+ crude jump suggests upward pressure ahead despite current modest weakness.",
+      "why": "Utah prices are near recent lows and WTI is flat. Week-over-week decline suggests downward momentum, but geopolitical tensions and supply tightening could limit further drops. Current 3.36 $/gal is a reasonable fill-up window.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Vermont prices are at a recent low after a week-long decline, but crude oil is rising on supply concerns. Upward momentum in oil markets suggests prices may climb in the coming days.",
+      "why": "Vermont prices are at a recent low and stable at $3.299/gal. WTI crude is flat around $71, but upward pressure from supply tightening and geopolitical risks suggests prices may rise over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2589,10 +2589,10 @@
       "priceLow": 3.074,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Virginia gas is at its lowest point this week as crude rebounds sharply. Oil prices are rising on supply tightening concerns, signaling upward pressure on retail prices within 2–3 days. Current pricing offers a brief window before the climb.",
+      "why": "Virginia gas is at a recent low after a week-long decline. Oil rebounded sharply on supply tightening concerns, signaling upward pressure ahead. Summer blend premiums and geopolitical tension suggest prices will likely rise in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.056,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at recent lows with flat week-over-week movement, but crude is rising on supply tightening concerns. Summer blend premium is in effect. Upward momentum in oil suggests prices may climb in the coming days.",
+      "why": "Washington gas prices are flat week-over-week at $5.06/gal, matching the local low. Oil rebounded on supply tightening concerns, but crude remains stable at $71.20. Summer blend markup is in effect.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2703,10 +2703,10 @@
       "priceLow": 3.104,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "WV prices are at a recent low despite crude rebounding $1+ today. Week-over-week decline shows downward momentum, but rising WTI and tightening US supplies suggest upward pressure ahead. Summer blend adds slight cost.",
+      "why": "WV gas is at a recent low of $3.10/gal with week-over-week decline of 4.7¢. Oil prices are flat but geopolitical risks and supply tightening could push prices higher in coming days. Summer blend maintains current pricing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.183,
       "weekDelta": -0.095,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have dropped 9.5¢ this week and are at a local low. WTI crude is rising on supply concerns, signaling potential upward pressure ahead. Summer blend and stable regional supply suggest a brief window before prices climb.",
+      "why": "Wisconsin prices have dropped 9.5¢ this week and sit at a local low. Oil rebounded on supply tightening concerns, but current crude remains moderate. Summer blend demand and geopolitical tension may push prices up in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.232,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "WTI crude is climbing (+$1.01) and oil markets are tightening, signaling upward pressure on pump prices. Wyoming is currently 0.3¢ above the local low, and summer blend adds cost. Momentum favors prices rising over the next few days.",
+      "why": "Wyoming prices are near recent lows despite flat crude and broader national rise to $4+. WOW trend is slightly negative, signaling local supply strength. Upward crude pressure from geopolitical risk may emerge this week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.465,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a local low after a week-over-week decline, but crude oil is rising on supply concerns. Summer blend adds seasonal cost. Prices may drift upward as WTI momentum continues.",
+      "why": "DC prices are at their local low after a week-long decline. Oil rebounded sharply on supply tightening concerns, signaling potential upward pressure ahead. Summer blend and geopolitical tensions suggest prices may rise in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2931,10 +2931,10 @@
       "priceLow": 1.525,
       "weekDelta": -0.183,
       "weekDeltaDir": "down",
-      "why": "Alberta prices dropped 18.3¢/L week-over-week and remain near recent lows at 1.572 $/L. However, crude is rising on tightening US supplies, signaling upward pressure ahead. Current pricing offers a favorable window before momentum shifts.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Alberta prices have dropped 18.3¢ over the week and sit only 4.7¢ above the local low. WTI is flat despite geopolitical headlines, suggesting the recent rebound is stabilizing. Summer demand and supply tightness may support prices, but downside room remains limited.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -2988,10 +2988,10 @@
       "priceLow": 1.809,
       "weekDelta": -0.176,
       "weekDeltaDir": "down",
-      "why": "BC prices fell 17.6¢/L week-over-week and sit only 5.6¢ above the local low, suggesting the downtrend is stabilizing. Rising WTI (+$1.01) and tightening US crude supplies signal upward pressure ahead, so the window to buy near current lows is closing.",
+      "why": "BC prices have dropped 17.6¢/L week-over-week and sit only 5.6¢ above the regional low. Oil prices are flat despite supply tightening news, suggesting limited near-term upside pressure. Summer demand and blend costs provide some support, but downward momentum persists.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3045,10 +3045,10 @@
       "priceLow": 1.557,
       "weekDelta": -0.151,
       "weekDeltaDir": "down",
-      "why": "Manitoba prices fell 15¢/L week-over-week and sit just 3¢ above the recent low. However, WTI crude is rising on supply concerns, suggesting upward pressure ahead. Summer blend and geopolitical tensions create headwinds.",
+      "why": "Manitoba prices fell 15¢/L week-over-week and sit only 4.8¢ above the local low. Oil rebounded on supply tightening concerns, but crude remains flat. Summer blend and stable fundamentals suggest limited downside risk.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3102,10 +3102,10 @@
       "priceLow": 1.631,
       "weekDelta": -0.158,
       "weekDeltaDir": "down",
-      "why": "Prices dropped 15.8¢ this week and sit near recent lows. However, crude is climbing on supply concerns, signaling upward pressure ahead. Current pricing offers a decent fill-up window before potential increases.",
+      "why": "New Brunswick prices dropped 15.8¢/L week-over-week and sit only 5¢ above the regional low. Oil rebounded on supply concerns, but current momentum favors buyers. Summer blend and stable crude suggest prices have stabilized near a local floor.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3159,10 +3159,10 @@
       "priceLow": 1.663,
       "weekDelta": -0.161,
       "weekDeltaDir": "down",
-      "why": "Prices dropped 16¢/L week-over-week and sit only 5¢ above the regional low. However, crude is rising on supply concerns, signaling potential upward pressure in the next few days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "why": "Newfoundland prices have dropped 16¢/L week-over-week and sit only 5¢ above the recent low. WTI is flat despite geopolitical tension, suggesting stable near-term crude costs. Summer blend demand is typical for the season.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3216,10 +3216,10 @@
       "priceLow": 1.654,
       "weekDelta": -0.221,
       "weekDeltaDir": "down",
-      "why": "Nova Scotia prices have dropped sharply week-over-week (-0.221 $/L), but WTI crude is rising on supply concerns. Current price sits 3% above the local low, suggesting a brief window before upward pressure hits retail pumps.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "why": "Nova Scotia prices fell 22¢/L week-over-week and sit just 3¢ above the local low. Oil rebounded $2 today, but crude remains flat overall. Summer demand and supply tightening suggest prices may stabilize or edge higher soon.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3273,10 +3273,10 @@
       "priceLow": 1.545,
       "weekDelta": -0.178,
       "weekDeltaDir": "down",
-      "why": "Ontario prices dropped significantly week-over-week (-17.8¢/L), but crude oil is climbing on supply concerns. Current price sits 4.8¢ above the regional low. Upward momentum in crude suggests the discount window is closing.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "Ontario prices have dropped significantly week-over-week (-0.178 $/L) and sit near recent lows. WTI crude is flat but geopolitical tensions and supply tightening could push prices up in the next few days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3330,10 +3330,10 @@
       "priceLow": 1.62,
       "weekDelta": -0.157,
       "weekDeltaDir": "down",
-      "why": "PE prices dropped 15.7¢/L week-over-week and sit just 5¢ above the local low, signaling a brief relief window. However, WTI crude is rising on supply concerns, which may soon push prices higher.",
+      "why": "PEI prices fell 15.7¢ over the week and sit only 5¢ above the local low. WTI is flat but crude supply tightening headlines suggest upward pressure ahead. Summer demand and geopolitical risk make further drops unlikely.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "up",
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3382,15 +3382,15 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.714,
       "priceLow": 1.663,
       "weekDelta": -0.161,
       "weekDeltaDir": "down",
-      "why": "Quebec prices fell 16¢ this week, but crude rebounded $1+ on supply tightening concerns. Current price sits 3¢ above the local low. Upward momentum likely continues short-term despite summer blend.",
-      "advice": "Top off today · wait for Wed",
-      "bestDayIdx": 3,
-      "wtiDir": "up",
+      "why": "Quebec prices dropped 16¢/L week-over-week and sit only 5¢ above the local low. Oil rebounded slightly on supply concerns, but fundamentals remain soft. Summer blend pricing is stable with no major disruptions expected.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3444,10 +3444,10 @@
       "priceLow": 1.483,
       "weekDelta": -0.144,
       "weekDeltaDir": "down",
-      "why": "Saskatchewan prices have dropped 14.4¢/L week-over-week and sit just 4.6¢ above the local low. However, crude oil is climbing on supply tightening concerns, which typically feeds into pump prices within days. You're in a decent window but momentum is shifting upward.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 2,
-      "wtiDir": "up",
+      "why": "Saskatchewan prices have dropped 14.4¢/L week-over-week and sit just 4.6¢ above the local low. WTI crude is flat around $71, but geopolitical tensions and US supply tightening could push prices higher soon. This is a decent window before potential upward pressure.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
@@ -3501,10 +3501,10 @@
       "priceLow": 1.978,
       "weekDelta": -0.192,
       "weekDeltaDir": "down",
-      "why": "Prices dropped 19¢ this week and sit only 6¢ above the local low, but crude is rising on supply concerns. Summer blend and upward crude momentum suggest prices may stabilize or tick higher soon.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
+      "why": "Prices dropped 19¢ this week and sit only 6¢ above the local low. Oil markets are flat despite geopolitical tension. Summer demand is stable but supply tightness suggests limited further decline.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
+      "wtiDir": "flat",
       "news": [
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
