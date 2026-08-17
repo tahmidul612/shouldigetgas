@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-08-17T12:00:32.619595+00:00",
-    "pricesUpdatedAt": "2026-08-17T12:00:07.325143+00:00",
+    "updatedAt": "2026-08-17T18:00:48.072156+00:00",
+    "pricesUpdatedAt": "2026-08-17T18:00:15.707578+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-08-17T12:33:09.712955+00:00",
-    "nextAnalysisUpdate": "2026-08-17T18:03:09.712965+00:00"
+    "nextPriceUpdate": "2026-08-17T18:33:25.111067+00:00",
+    "nextAnalysisUpdate": "2026-08-18T00:03:25.111084+00:00"
   },
   "wti": {
     "price": 84.77,
@@ -24,11 +24,16 @@
       "priceLow": 2.802,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Alabama prices are at a local low after a week-long decline, but crude oil is rebounding on tighter supply concerns. Rising crude and summer blend premium suggest upward pressure ahead.",
+      "why": "Prices are at a recent low and have dropped week-over-week, but crude is rising toward $90 on geopolitical tensions. Summer demand and supply tightening could push prices up in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -38,11 +43,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -81,11 +81,16 @@
       "priceLow": 3.63,
       "weekDelta": -0.039,
       "weekDeltaDir": "down",
-      "why": "Alaska gas is at its local low after a week-long decline. WTI crude is rising on supply tightening concerns, signaling upward pressure ahead. Summer blend premiums and geopolitical tensions suggest prices will climb in the coming days.",
+      "why": "Alaska prices are at their lowest point locally while WTI crude rises toward $90 on Middle East tensions and tightening US supplies. Upward pressure on crude suggests retail prices may soon follow the wholesale trend.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -95,11 +100,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -138,11 +138,16 @@
       "priceLow": 3.132,
       "weekDelta": -0.034,
       "weekDeltaDir": "down",
-      "why": "Arizona gas is at a recent low after a week-long dip. However, WTI crude is climbing on supply tightening concerns, signaling upward pressure ahead. Summer blend and rising crude suggest prices may increase over the next few days.",
+      "why": "You're at a recent low with WTI rising toward $90 on geopolitical tension. Crude momentum is upward, suggesting prices will climb in the next few days despite summer blend availability.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -152,11 +157,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -195,11 +195,16 @@
       "priceLow": 2.743,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at its recent low after a week-long decline. WTI crude is rising on supply concerns, signaling potential upward pressure ahead. Summer blend fuels and geopolitical tensions suggest prices may climb in the next few days.",
+      "why": "Prices are at a local low matching nearby minimums, but crude is rising toward $90 on geopolitical tensions. Summer blend demand and upward oil pressure suggest limited downside ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -209,11 +214,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -252,11 +252,16 @@
       "priceLow": 5.428,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California gas is at its recent low of $5.428/gal with flat week-over-week movement. However, crude oil is rising (+$1.01) on supply tightening concerns, suggesting upward pressure ahead. Summer blend costs add to baseline prices.",
+      "why": "California gas is at its recent low with flat week-over-week movement. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies. Summer blend premiums and supply concerns suggest upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -266,11 +271,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -309,11 +309,16 @@
       "priceLow": 4.046,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its local low of $4.05/gal with flat week-over-week movement. However, crude oil is rising (+$1.01) on tightening supply concerns, signaling upward pressure ahead. Summer blend premium and geopolitical tensions may push prices higher in coming days.",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Current price matches the local low, but upward momentum suggests further increases likely within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -323,11 +328,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -366,11 +366,16 @@
       "priceLow": 3.367,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "Connecticut is at a local low of $3.37/gal after a 5-cent weekly drop. However, crude rebounded over $1 today on supply concerns, signaling upward pressure ahead. Summer blend costs and geopolitical risk suggest prices may rise in coming days.",
+      "why": "You're at a local low matching the regional bottom. WTI is rising toward $90 on geopolitical tension and supply tightening, signaling upward pressure ahead. Summer blend and decent week-over-week decline suggest this is a narrow window before prices climb.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -380,11 +385,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -423,11 +423,16 @@
       "priceLow": 3.123,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Delaware gas is at a recent low after a week-long dip, but crude is rising on supply tightening concerns. Upward pressure from oil markets suggests prices will likely climb in the next few days.",
+      "why": "Delaware gas is at a recent low with WTI climbing toward $90 on geopolitical tensions. Crude momentum is upward, signaling potential price increases in the coming days as supply concerns tighten.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -437,11 +442,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -480,11 +480,16 @@
       "priceLow": 3.771,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "Crude prices rising on supply tightening concerns, and gasoline has climbed back above $4 nationally. Florida's current price is near recent lows but upward momentum is building. Summer demand and geopolitical tension suggest further increases likely within days.",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Prices have risen 2¢ week-over-week and are unlikely to drop soon. Summer blend costs add pressure, with upside risk from Iran developments.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -494,11 +499,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -537,11 +537,16 @@
       "priceLow": 2.85,
       "weekDelta": -0.044,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at a recent low after a week-long decline. However, crude oil is climbing on supply tightening concerns, and national prices are pushing above $4/gal. Expect modest upward pressure in the coming days.",
+      "why": "Prices are at a recent low with week-over-week decline, but crude is rising toward $90 on geopolitical tension. Summer blend adds upward pressure. Current pricing offers a solid window before potential further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -551,11 +556,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -594,11 +594,16 @@
       "priceLow": 4.44,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices are at their recent low of $4.44/gal despite WTI crude rising $1+ today. Week-over-week decline shows downward momentum, but rising oil prices and geopolitical tensions may reverse gains soon.",
+      "why": "Hawaii prices are at a recent low with WTI crude rising toward $90 amid geopolitical tensions. Week-over-week decline suggests momentum has stalled. Upward crude pressure and Iran concerns point to higher prices in the near term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -608,11 +613,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -651,11 +651,16 @@
       "priceLow": 3.262,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Idaho prices are near recent lows despite crude rebounding strongly. Summer blend and tight supply dynamics suggest upward pressure ahead, but current levels remain favorable before the next leg up.",
+      "why": "Crude is rising toward $90 on geopolitical tensions and supply concerns, pushing gas prices up despite a slight week-over-week dip. You're near the low end, but upward momentum suggests prices will climb in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -665,11 +670,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -708,11 +708,16 @@
       "priceLow": 3.513,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Illinois gas is at a recent low after dropping 10¢ this week. However, crude just rebounded strongly on supply concerns, and national prices are climbing back above $4. Upward momentum likely continues.",
+      "why": "You're at a recent low ($3.513/gal) with week-over-week savings of $0.10. However, crude is rising toward $90 on geopolitical tension and supply concerns, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -722,11 +727,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -765,11 +765,16 @@
       "priceLow": 3.145,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at its recent low after a week-long decline. However, crude oil is rising on supply tightening concerns, signaling upward pressure ahead. Summer blend and geopolitical tensions suggest prices may climb in the coming days.",
+      "why": "You're at a recent low after a 9¢ weekly drop. Crude is rising toward $90 on geopolitical tension, but current pump prices haven't caught up yet. This is a brief window before prices climb.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -779,11 +784,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -822,11 +822,16 @@
       "priceLow": 2.989,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Iowa gas is at a recent low after a week-long decline. Oil rebounded on supply tightening concerns, but current prices still reflect last week's drop. Summer blend adds slight cost pressure ahead.",
+      "why": "Prices have dropped 9¢ week-over-week and are at local lows, but crude is rising toward $90 on geopolitical tensions. This is a brief window before potential increases filter through.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -836,11 +841,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -879,11 +879,16 @@
       "priceLow": 2.931,
       "weekDelta": -0.087,
       "weekDeltaDir": "down",
-      "why": "Kansas prices are at their recent low after a week-long decline. Rising crude oil (+$1.01) and supply tightening signals suggest upward pressure ahead. Current $2.93/gal represents a favorable window before prices likely climb.",
+      "why": "Kansas gas is at a recent low after a week-long decline. However, crude oil is climbing toward $90/barrel on geopolitical tension, signaling upward pressure ahead. Current pricing offers a narrow window before costs likely rise.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -893,11 +898,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -936,11 +936,16 @@
       "priceLow": 2.977,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices are at their lowest point after a week-long decline. WTI crude is rising on supply concerns, but current retail prices haven't caught up yet. Summer blend demand keeps upward pressure in play.",
+      "why": "Kentucky prices are at a recent low after a modest week-over-week decline. WTI is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead. Current pricing offers a solid fill-up window before crude gains translate to pump increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -950,11 +955,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -993,11 +993,16 @@
       "priceLow": 2.851,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at a recent low after a week-long decline. However, crude oil is rising on tightening supply concerns, signaling upward pressure on gas prices ahead. The window to fill up at current levels is closing.",
+      "why": "Prices are at a local low, but crude is climbing toward $90 on geopolitical tension. Weekly trend is down, but upward momentum suggests the window is closing soon.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1007,11 +1012,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1050,11 +1050,16 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Maine prices have dropped 5¢ week-over-week and sit at a local low. However, crude oil is rising sharply (+$1.01) on supply tightening concerns, signaling upward pressure ahead. Summer blend adds cost, but the current window remains favorable.",
+      "why": "Maine prices are at a local low point after a modest weekly decline. Crude is rising toward $90 on geopolitical tension (Iran), signaling upward pressure ahead. Current levels offer a brief window before prices climb.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1064,11 +1069,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1107,11 +1107,16 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "Maryland gas is at its local low of $3.20/gal after a weekly decline. However, crude just rebounded $1+ and is climbing, signaling upward pressure on retail prices in the coming days.",
+      "why": "You're at the lowest local price after a 5-cent weekly drop. WTI is rising toward $90 on geopolitical tensions and supply concerns, signaling upward pressure ahead. Lock in today's rate.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1121,11 +1126,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1164,11 +1164,16 @@
       "priceLow": 3.964,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Crude rebounded $1+ today on supply tightness concerns, pushing gas back above $4. Week-over-week decline has stalled. Upward momentum likely continues short-term as geopolitical risks persist.",
+      "why": "Prices are at a recent low, but crude is rising toward $90 on geopolitical tensions and supply concerns. Upward momentum suggests prices may climb in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1178,11 +1183,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1221,11 +1221,16 @@
       "priceLow": 3.222,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Michigan gas is at a local low after a week-long 9¢ drop, but crude oil is rising and climbing back above $4 nationally signals upward pressure ahead. Summer blend and geopolitical tensions support further increases in the next few days.",
+      "why": "Michigan gas is at its lowest point this week as crude edges higher toward $90/barrel on geopolitical tensions. Summer blend and weak supply signals suggest prices may firm up mid-week, making today an attractive fill-up window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1235,11 +1240,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1278,11 +1278,16 @@
       "priceLow": 3.838,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Minnesota prices have dropped 10¢ this week and are at a local low. However, crude oil just jumped $1+ and is trending upward due to tightening US supplies, signaling potential pump price increases in the next few days.",
+      "why": "Minnesota gas is at its recent low after a week-long dip. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead. Summer blend adds cost, and Iran conflict risk could push prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1292,11 +1297,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1335,11 +1335,16 @@
       "priceLow": 2.782,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "MS prices are at their local low after a week-long decline. However, rising WTI crude (+$1.01) and broader national price momentum signal upward pressure ahead. Summer blend premiums apply.",
+      "why": "Mississippi gas is at a local low despite crude climbing toward $90 on Middle East tensions. Prices fell week-over-week, but geopolitical risk and tight US supplies suggest upward pressure ahead in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1349,11 +1354,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1392,11 +1392,16 @@
       "priceLow": 2.892,
       "weekDelta": -0.086,
       "weekDeltaDir": "down",
-      "why": "Missouri prices are at a recent low after a week-over-week drop of 8.6¢. However, crude oil rebounded $1+ today and is climbing, signaling upward pressure on retail prices ahead. Summer blend costs more, so the window to lock in current rates is narrowing.",
-      "advice": "Fill up today",
+      "why": "Missouri prices are at a local low after a weekly drop of 8.6¢. However, crude is rising toward $90 on geopolitical tensions and supply tightening. Prices may edge up in the next few days as crude gains persist.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1406,11 +1411,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1449,11 +1449,16 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "WTI crude is rising on supply tightening concerns, and national prices are climbing back above $4. Montana's current price is only 1% above the local low, but upward momentum suggests prices may edge higher through the week.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Crude is climbing toward $90 on geopolitical tension and supply tightening. Montana's price is only 1% above the local low, and week-over-week decline suggests momentum may be stalling. Upward pressure likely this week.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1463,11 +1468,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1506,11 +1506,16 @@
       "priceLow": 2.999,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low after a week-long decline, but crude is rising on supply concerns. Summer blend and geopolitical tension suggest upward pressure ahead, likely in the next few days.",
+      "why": "Prices are at a recent low after a week-long decline, but crude is rising on geopolitical tensions and supply tightening concerns. Summer blend supports current pricing, though upward pressure may build within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1520,11 +1525,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1563,11 +1563,16 @@
       "priceLow": 3.727,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at their recent low of $3.73/gal, though WTI crude is rising on supply concerns. Weekly trend is down, but geopolitical tensions and refinery constraints may push prices higher over the next few days.",
+      "why": "Nevada gas is at its local low after a weekly decline. However, crude is rising toward $90 on geopolitical tension and supply tightening, signaling upward pressure ahead. Current prices offer a good filling opportunity before the spike.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1577,11 +1582,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1620,11 +1620,16 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "NH gas is at a local low after a week-long decline, but crude just rebounded sharply on supply concerns. Summer blend premiums and geopolitical tensions suggest upward pressure ahead despite current stability.",
+      "why": "You're at a local low with WTI rising toward $90 on geopolitical tension. Crude momentum is upward, suggesting prices will likely climb over the next few days as market fears solidify.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1634,11 +1639,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1677,11 +1677,16 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "NJ gas is at a recent low of $3.20/gal after a 5¢ weekly drop. However, crude oil just jumped $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend premiums add cost.",
+      "why": "NJ prices are at a recent low with week-over-week decline. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies. Summer blend adds upward pressure, but current pricing offers a good window before further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1691,11 +1696,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1734,11 +1734,16 @@
       "priceLow": 3.075,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "New Mexico is at a recent low after a week-long decline. However, crude prices are rising on supply tightening concerns, signaling upward pressure ahead. Summer demand and geopolitical tensions suggest prices may climb over the next few days.",
+      "why": "New Mexico gas is at a recent low after a 5¢ weekly drop. Crude is rising toward $90 on geopolitical tensions and supply concerns, but you're catching prices before momentum kicks in.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1748,11 +1753,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1791,11 +1791,16 @@
       "priceLow": 4.044,
       "weekDelta": -0.059,
       "weekDeltaDir": "down",
-      "why": "NY gas is at a recent low after a week-long decline, but crude oil is rising sharply on supply concerns. Summer blend and geopolitical tensions suggest upward pressure ahead. Current price offers a brief window before further increases.",
+      "why": "Prices have fallen 6¢ week-over-week and are at a local low. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1805,11 +1810,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1848,11 +1848,16 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "NC gas prices are at their recent low of $2.977/gal despite crude climbing $1+ today. Summer blend and falling week-over-week trends suggest a temporary sweet spot before upward pressure intensifies.",
+      "why": "Prices have dropped 4.6¢ this week and sit at local lows, but crude is rising toward $90 on geopolitical tension. Upward momentum suggests prices may climb in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1862,11 +1867,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1905,11 +1905,16 @@
       "priceLow": 3.086,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices have dropped 9¢ week-over-week and sit at a recent low. However, WTI crude is rising on supply tightening concerns, suggesting upward pressure ahead. Summer blend and geopolitical tensions point to potential increases in the next few days.",
+      "why": "North Dakota prices are at a recent low despite crude climbing toward $90 on geopolitical tensions. Supply tightening and Iran concerns could push prices higher in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1919,11 +1924,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -1962,11 +1962,16 @@
       "priceLow": 3.899,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are holding steady at $3.90/gal, matching the local low. WTI crude is rising on supply tightening concerns, signaling upward pressure ahead. Summer blend pricing and geopolitical tensions suggest prices may climb in the coming days.",
+      "why": "Ohio prices are at their lowest point with crude rising toward $90 on geopolitical tensions and supply concerns. Summer blend demand remains steady, but upward oil pressure suggests prices may climb in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -1976,11 +1981,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2019,11 +2019,16 @@
       "priceLow": 2.812,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Oklahoma prices are at a recent low after a week-long decline, but crude oil is rebounding strongly on supply concerns. Summer demand and geopolitical risks suggest upward pressure ahead.",
+      "why": "You're at a local low after a week-long decline. Crude is rising toward $90 on geopolitical tension, signaling potential upward pressure soon. Summer blend keeps margins stable, but the trend is shifting.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2033,11 +2038,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2076,11 +2076,16 @@
       "priceLow": 3.786,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at their lowest point this week as crude rebounds. Summer blend premiums and tightening supply suggest prices may rise in coming days, but you're currently at a local low with modest downward momentum.",
+      "why": "Oregon prices are at a recent low with week-over-week decline. However, crude is rising toward $90 amid geopolitical tensions in Iran, signaling potential upward pressure on retail prices in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2090,11 +2095,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2133,11 +2133,16 @@
       "priceLow": 3.435,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low after a week-long decline, but crude oil is rebounding on supply concerns. Summer blend premiums and geopolitical tension could push prices higher in the coming days.",
+      "why": "PA gas is at its local low after a weekly decline, but crude is rising toward $90 on geopolitical tensions and tightening US supplies. Upward pressure likely in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2147,11 +2152,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2190,11 +2190,16 @@
       "priceLow": 3.318,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "You're already at a local low with prices down week-over-week. However, rising crude oil (+$1 today) and supply tightening signals suggest upward pressure ahead. Current window is favorable but narrow.",
+      "why": "RI gas is at a recent low matching the lowest nearby price. WTI is rising toward $90 on geopolitical tension, but current retail prices haven't caught up yet. This is a solid window before crude gains push pumps higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2204,11 +2209,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2247,11 +2247,16 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "Gas prices have fallen 4.6¢ this week and you're at a local low. However, crude just jumped $1+ on supply tightening concerns, signaling upward pressure ahead. Summer blend adds seasonal cost.",
+      "why": "You're at a local low after a modest weekly drop. Crude is rising toward $90 on geopolitical tension and tightening US supplies, which will likely push pump prices up over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2261,11 +2266,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2304,11 +2304,16 @@
       "priceLow": 3.057,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9¢ this week and sit at a local low, but crude is rising on supply concerns. Summer blend costs and geopolitical tension suggest upward pressure ahead.",
+      "why": "You're at a recent low with WTI rising toward $90 on geopolitical tension. Crude momentum is upward, signaling prices will likely climb in the next few days as supply concerns tighten.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2318,11 +2323,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2361,11 +2361,16 @@
       "priceLow": 2.88,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at a recent low after a week-long decline, but crude prices are rising on supply tightening concerns. Summer blend and upward oil momentum suggest prices may climb over the next few days.",
+      "why": "Tennessee gas is at a recent low of $2.88/gal with week-over-week decline, but crude oil is rising toward $90 on geopolitical tensions and supply concerns. Prices may tick up over the next few days as oil momentum continues.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2375,11 +2380,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2418,11 +2418,16 @@
       "priceLow": 3.513,
       "weekDelta": -0.019,
       "weekDeltaDir": "down",
-      "why": "Texas gas is at a recent low after a week-long decline, but crude just rebounded strongly (+$1.01) on supply tightening concerns. Summer blend premiums and geopolitical risk suggest upward pressure ahead.",
+      "why": "You're at a recent low with crude rising toward $90 on geopolitical tensions. Summer blend and supply concerns suggest upward pressure ahead. Current pricing is near the floor of this cycle.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2432,11 +2437,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2475,11 +2475,16 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Utah prices are near a local low and slightly down week-over-week, but crude is rising on supply tightening concerns. Summer blend and upward crude momentum suggest prices may climb in the next few days.",
+      "why": "Utah prices are near recent lows despite crude ticking upward. Geopolitical tensions and supply concerns may push prices higher in coming days, but current levels remain favorable relative to the week's range.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2489,11 +2494,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2532,11 +2532,16 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Vermont gas is at its local low of $3.30/gal with week-over-week decline, but crude oil is rising on supply tightening concerns. Upward momentum in oil suggests prices may stabilize or creep higher in coming days.",
+      "why": "Vermont gas is at a recent low after a weekly dip of 5¢. Crude oil is rising toward $90 on geopolitical tensions, signaling upward pressure ahead. Current prices offer a solid fill-up window before the rally accelerates.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2546,11 +2551,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2589,11 +2589,16 @@
       "priceLow": 3.074,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Virginia gas is at a local low of $3.07/gal with a week-over-week decline, but crude prices are rising on supply tightening concerns. Summer blend premiums and geopolitical tensions suggest upward pressure ahead.",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening US supplies. You're at the weekly low now, but upward momentum suggests prices will climb over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2603,11 +2608,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2646,11 +2646,16 @@
       "priceLow": 5.056,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "WA prices are at recent lows with flat week-over-week movement, but crude is rising on supply tightening concerns. Summer blend adds slight cost pressure. Short-term upside risk exists, though momentum is early.",
+      "why": "Gas is at a recent low with flat week-over-week movement. Crude is rising toward $90 on geopolitical tensions and supply concerns, but you're currently at an optimal fill-up window before prices climb further.",
       "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 5,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2660,11 +2665,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2703,11 +2703,16 @@
       "priceLow": 3.104,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "WV gas is at a recent low after a week-long decline. However, crude just jumped $1+ and is climbing on supply concerns, signaling upward pressure ahead. Summer blend and geopolitical tension suggest prices may rise over the next few days.",
+      "why": "WV gas is at a recent low with week-over-week decline of 4.7¢. However, crude is rising (+$1.01) and geopolitical tension (Iran) threatens further increases. Summer blend adds cost. Current price represents a brief window before potential upward pressure.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2717,11 +2722,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2760,11 +2760,16 @@
       "priceLow": 3.183,
       "weekDelta": -0.095,
       "weekDeltaDir": "down",
-      "why": "Wisconsin prices have fallen 9.5¢ this week and are at their local low. However, crude is rising on supply concerns and U.S. averages are climbing above $4/gal, signaling upward pressure ahead. Summer blend adds cost.",
+      "why": "Wisconsin prices have dropped 9.5¢ this week and sit at a local low. However, crude is climbing toward $90 on geopolitical tension, suggesting upward pressure ahead. Summer blend adds a small premium currently.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2774,11 +2779,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2817,11 +2817,16 @@
       "priceLow": 3.232,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "WTI crude is climbing on supply tightening concerns, and national prices are pushing above $4/gal. Wyoming's current price is only 0.3¢ above the local low, but upward momentum suggests prices may rise further in the near term.",
+      "why": "WY prices are near recent lows despite crude climbing toward $90. Geopolitical tension and supply tightness suggest upward pressure ahead, but current local pricing remains favorable relative to incoming cost pressures.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2831,11 +2836,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2874,11 +2874,16 @@
       "priceLow": 3.465,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "DC prices are at a local low despite crude rebounding $1+ today. Week-over-week decline suggests downward momentum, but rising WTI and supply tightening signals could push prices up soon. Summer blend costs are elevated.",
+      "why": "DC prices are at a recent low with week-over-week decline. However, crude is rising toward $90 amid geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
-      "bestDayIdx": 2,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2888,11 +2893,6 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
@@ -2926,16 +2926,21 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 1.572,
-      "priceLow": 1.525,
-      "weekDelta": -0.183,
-      "weekDeltaDir": "down",
-      "why": "Alberta prices dropped 18¢ this week and remain near recent lows. WTI crude is rising on supply tightness concerns, signaling potential upward pressure ahead. Current 1.572 $/L offers good value before prices climb.",
-      "advice": "Fill up today or tomorrow",
+      "verdict": "partial",
+      "price": 1.669,
+      "priceLow": 1.619,
+      "weekDelta": 0.077,
+      "weekDeltaDir": "up",
+      "why": "Alberta prices are up 7.7¢ this week as crude climbs toward $90 on geopolitical tensions and supply concerns. Current price sits 5¢ above the recent low, with upward momentum likely to continue short-term.",
+      "advice": "Top up today · wait for dip",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -2945,26 +2950,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 69,
-        "refining": 8,
+        "crude": 70,
+        "refining": 7,
         "taxes": 19,
         "dist": 4
       },
       "trend": [
-        1.714,
-        1.741,
-        1.776,
-        1.838,
-        1.79,
-        1.778,
         1.755,
         1.731,
         1.713,
@@ -2972,7 +2966,13 @@
         1.646,
         1.637,
         1.592,
-        1.572
+        1.572,
+        1.538,
+        1.521,
+        1.675,
+        1.719,
+        1.71,
+        1.669
       ],
       "priceSource": "nrcan"
     },
@@ -2984,15 +2984,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.865,
-      "priceLow": 1.809,
-      "weekDelta": -0.176,
-      "weekDeltaDir": "down",
-      "why": "BC prices have fallen 17.6¢ over the week, but WTI crude is rebounding (+$1.01) on supply concerns. Current price sits 5.6¢ above the local low, suggesting modest upward pressure ahead despite the recent decline.",
-      "advice": "Fill up today or tomorrow",
+      "price": 1.97,
+      "priceLow": 1.911,
+      "weekDelta": 0.066,
+      "weekDeltaDir": "up",
+      "why": "BC prices are 3.1% above the recent low and climbing. WTI crude is rising toward $90 on geopolitical tension and tightening US supplies. Summer blend and upward momentum suggest prices will stay elevated or climb further over the next few days.",
+      "advice": "Fill up within 24 hours",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3002,26 +3007,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 55,
+        "crude": 56,
         "refining": 6,
-        "taxes": 35,
+        "taxes": 34,
         "dist": 4
       },
       "trend": [
-        2.046,
-        2.061,
-        2.078,
-        2.093,
-        2.067,
-        2.064,
         2.041,
         2.041,
         2.056,
@@ -3029,7 +3023,13 @@
         1.981,
         1.972,
         1.904,
-        1.865
+        1.865,
+        1.884,
+        1.883,
+        1.956,
+        1.965,
+        1.975,
+        1.97
       ],
       "priceSource": "nrcan_est"
     },
@@ -3041,15 +3041,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.605,
-      "priceLow": 1.557,
-      "weekDelta": -0.151,
-      "weekDeltaDir": "down",
-      "why": "Manitoba prices are down 15¢/L week-over-week and sit just 5¢ above the local low, indicating a strong downtrend. However, crude oil is rising on supply concerns, which could reverse the decline in the next few days.",
-      "advice": "Fill up today or tomorrow",
+      "price": 1.695,
+      "priceLow": 1.644,
+      "weekDelta": 0.056,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Manitoba prices are 0.8% above the local low and up week-over-week. Further gains likely in the near term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3059,26 +3064,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 52,
+        "crude": 54,
         "refining": 7,
-        "taxes": 37,
+        "taxes": 35,
         "dist": 4
       },
       "trend": [
-        1.761,
-        1.773,
-        1.788,
-        1.801,
-        1.779,
-        1.776,
         1.756,
         1.756,
         1.769,
@@ -3086,7 +3080,13 @@
         1.704,
         1.697,
         1.639,
-        1.605
+        1.605,
+        1.621,
+        1.62,
+        1.683,
+        1.691,
+        1.7,
+        1.695
       ],
       "priceSource": "nrcan_est"
     },
@@ -3098,15 +3098,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.681,
-      "priceLow": 1.631,
-      "weekDelta": -0.158,
-      "weekDeltaDir": "down",
-      "why": "New Brunswick prices fell 15.8¢/L week-over-week and sit only 5¢ above the local low, suggesting the downtrend is stabilizing. However, WTI crude just jumped $1+ on supply tightening concerns, signaling potential upward pressure ahead.",
+      "price": 1.775,
+      "priceLow": 1.722,
+      "weekDelta": 0.059,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and supply tightening. NB prices are up 6¢ week-over-week and still 5¢ above the regional low. Upward momentum likely continues near-term.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3116,26 +3121,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 50,
+        "crude": 52,
         "refining": 7,
-        "taxes": 39,
+        "taxes": 37,
         "dist": 4
       },
       "trend": [
-        1.844,
-        1.857,
-        1.873,
-        1.886,
-        1.863,
-        1.86,
         1.839,
         1.839,
         1.853,
@@ -3143,7 +3137,13 @@
         1.785,
         1.777,
         1.716,
-        1.681
+        1.681,
+        1.698,
+        1.697,
+        1.763,
+        1.771,
+        1.78,
+        1.775
       ],
       "priceSource": "nrcan_est"
     },
@@ -3155,15 +3155,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.714,
-      "priceLow": 1.663,
-      "weekDelta": -0.161,
-      "weekDeltaDir": "down",
-      "why": "Newfoundland prices have dropped 16¢ over the week, but crude is climbing on supply concerns. Current price sits 5¢ above the recent low, and upward pressure from oil markets suggests gains ahead.",
+      "price": 1.809,
+      "priceLow": 1.755,
+      "weekDelta": 0.06,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tension and supply tightening. NL prices are 5.4¢ above this week's low and up 6¢ week-over-week. Further upside pressure likely in coming days.",
       "advice": "Fill up today",
-      "bestDayIdx": 3,
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3173,26 +3178,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 50,
+        "crude": 52,
         "refining": 7,
-        "taxes": 39,
+        "taxes": 37,
         "dist": 4
       },
       "trend": [
-        1.88,
-        1.893,
-        1.909,
-        1.923,
-        1.899,
-        1.896,
         1.875,
         1.875,
         1.889,
@@ -3200,7 +3194,13 @@
         1.82,
         1.811,
         1.749,
-        1.714
+        1.714,
+        1.731,
+        1.73,
+        1.797,
+        1.805,
+        1.814,
+        1.809
       ],
       "priceSource": "nrcan_est"
     },
@@ -3212,15 +3212,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.705,
-      "priceLow": 1.654,
-      "weekDelta": -0.221,
-      "weekDeltaDir": "down",
-      "why": "Nova Scotia prices have dropped 22¢/L week-over-week and sit only 5¢ above the regional low, suggesting the downtrend is stabilizing. However, crude is rising on supply concerns, which may limit further gains.",
-      "advice": "Fill up today",
+      "price": 1.814,
+      "priceLow": 1.76,
+      "weekDelta": 0.012,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tension and supply tightening. Current NS price is 3% above the recent low, and WTI momentum is upward. Prices likely to climb further in the near term.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3230,26 +3235,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 51,
+        "crude": 52,
         "refining": 7,
-        "taxes": 38,
+        "taxes": 37,
         "dist": 4
       },
       "trend": [
-        1.869,
-        1.869,
-        1.869,
-        1.926,
-        1.926,
-        1.926,
         1.926,
         1.926,
         1.906,
@@ -3257,7 +3251,13 @@
         1.906,
         1.802,
         1.802,
-        1.705
+        1.705,
+        1.705,
+        1.705,
+        1.77,
+        1.77,
+        1.814,
+        1.814
       ],
       "priceSource": "nrcan"
     },
@@ -3269,15 +3269,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.593,
-      "priceLow": 1.545,
-      "weekDelta": -0.178,
-      "weekDeltaDir": "down",
-      "why": "Ontario prices have dropped 17.8¢/L week-over-week and remain just 4.8¢ above the local low. Despite crude rebounding on supply concerns, the downtrend is strong. Further gains likely capped by summer glut.",
-      "advice": "Fill up today or tomorrow",
+      "price": 1.691,
+      "priceLow": 1.64,
+      "weekDelta": 0.088,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tension and supply concerns. Ontario prices are up 8.8¢ week-over-week and still 5.1¢ above the local low. Upward momentum suggests further increases likely in the next few days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3287,26 +3292,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 50,
-        "refining": 8,
-        "taxes": 38,
+        "crude": 52,
+        "refining": 7,
+        "taxes": 37,
         "dist": 4
       },
       "trend": [
-        1.799,
-        1.801,
-        1.818,
-        1.82,
-        1.8,
-        1.8,
         1.771,
         1.77,
         1.787,
@@ -3314,7 +3308,13 @@
         1.712,
         1.712,
         1.603,
-        1.593
+        1.593,
+        1.627,
+        1.631,
+        1.683,
+        1.676,
+        1.689,
+        1.691
       ],
       "priceSource": "nrcan"
     },
@@ -3326,15 +3326,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.67,
-      "priceLow": 1.62,
-      "weekDelta": -0.157,
-      "weekDeltaDir": "down",
-      "why": "PE prices have dropped 15.7¢/L week-over-week and sit only 5¢ above the local low. However, crude oil is rising on supply concerns, signaling upward pressure ahead. The current dip provides a narrow window before prices likely climb.",
+      "price": 1.764,
+      "priceLow": 1.711,
+      "weekDelta": 0.059,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. PE prices already up 5.9¢/L week-over-week and sit 5.3¢ above the recent low. Further gains likely in the near term.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3344,26 +3349,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 52,
+        "crude": 53,
         "refining": 7,
-        "taxes": 37,
+        "taxes": 36,
         "dist": 4
       },
       "trend": [
-        1.832,
-        1.845,
-        1.861,
-        1.874,
-        1.851,
-        1.848,
         1.827,
         1.827,
         1.841,
@@ -3371,7 +3365,13 @@
         1.773,
         1.766,
         1.705,
-        1.67
+        1.67,
+        1.687,
+        1.686,
+        1.752,
+        1.76,
+        1.769,
+        1.764
       ],
       "priceSource": "nrcan_est"
     },
@@ -3383,15 +3383,20 @@
       "country": "CA",
       "unit": "L",
       "verdict": "buy",
-      "price": 1.714,
-      "priceLow": 1.663,
-      "weekDelta": -0.161,
-      "weekDeltaDir": "down",
-      "why": "Quebec prices dropped 16¢/L week-over-week and sit just 5¢ above the local low, showing strong downward momentum. However, crude oil is rising on supply tightening concerns, which may halt the decline soon.",
-      "advice": "Fill up today",
+      "price": 1.809,
+      "priceLow": 1.755,
+      "weekDelta": 0.06,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening US supplies. Quebec prices are 5.4¢ above the local low and up 6¢ week-over-week. Further upside pressure likely in coming days.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3401,26 +3406,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 59,
+        "crude": 60,
         "refining": 7,
-        "taxes": 30,
+        "taxes": 29,
         "dist": 4
       },
       "trend": [
-        1.88,
-        1.893,
-        1.909,
-        1.923,
-        1.899,
-        1.896,
         1.875,
         1.875,
         1.889,
@@ -3428,7 +3422,13 @@
         1.82,
         1.811,
         1.749,
-        1.714
+        1.714,
+        1.731,
+        1.73,
+        1.797,
+        1.805,
+        1.814,
+        1.809
       ],
       "priceSource": "nrcan_est"
     },
@@ -3439,16 +3439,21 @@
       "city": "Regina",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 1.529,
-      "priceLow": 1.483,
-      "weekDelta": -0.144,
-      "weekDeltaDir": "down",
-      "why": "Saskatchewan prices dropped 14.4¢ this week and sit only 4.6¢ above the local low. WTI crude is climbing on supply tightening concerns, signaling potential upward pressure ahead. Fill up soon before momentum shifts.",
-      "advice": "Fill up today or tomorrow",
+      "verdict": "partial",
+      "price": 1.615,
+      "priceLow": 1.567,
+      "weekDelta": 0.054,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Saskatchewan prices are 3% above the week's low and summer blend adds cost. Upward momentum suggests further gains ahead.",
+      "advice": "Top off today, delay full tank",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3458,26 +3463,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 47,
-        "refining": 8,
-        "taxes": 40,
-        "dist": 5
+        "crude": 50,
+        "refining": 7,
+        "taxes": 39,
+        "dist": 4
       },
       "trend": [
-        1.677,
-        1.689,
-        1.704,
-        1.716,
-        1.695,
-        1.692,
         1.673,
         1.673,
         1.686,
@@ -3485,7 +3479,13 @@
         1.624,
         1.616,
         1.561,
-        1.529
+        1.529,
+        1.545,
+        1.544,
+        1.604,
+        1.611,
+        1.619,
+        1.615
       ],
       "priceSource": "nrcan_est"
     },
@@ -3496,16 +3496,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
-      "price": 2.039,
-      "priceLow": 1.978,
-      "weekDelta": -0.192,
-      "weekDeltaDir": "down",
-      "why": "Prices fell 19¢/L week-over-week and sit only 6¢ above the local low, but crude is rising on supply concerns. Summer blend and upward oil momentum suggest prices may stabilize or edge higher soon.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "verdict": "partial",
+      "price": 2.153,
+      "priceLow": 2.088,
+      "weekDelta": 0.072,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is rising toward $90 on geopolitical tensions and supply concerns. Northern Canada prices are up 7¢/L week-over-week and still 6.5¢ above the local low. Further upside pressure likely in the near term.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
         {
           "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
           "source": "The Economic Times",
@@ -3515,26 +3520,15 @@
           "headline": "Gasoline price rise: Iran war worsened the pain, but the bottleneck began years ago",
           "source": "Livemint",
           "url": "https://www.livemint.com/economy/gasoline-price-rise-iran-war-worsened-the-pain-but-the-bottleneck-began-years-ago-read-here-11784722276331.html"
-        },
-        {
-          "headline": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-          "source": "OilPrice",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html"
         }
       ],
       "breakdown": {
-        "crude": 67,
+        "crude": 68,
         "refining": 6,
-        "taxes": 24,
+        "taxes": 23,
         "dist": 3
       },
       "trend": [
-        2.237,
-        2.252,
-        2.272,
-        2.288,
-        2.26,
-        2.256,
         2.231,
         2.231,
         2.248,
@@ -3542,7 +3536,13 @@
         2.165,
         2.155,
         2.081,
-        2.039
+        2.039,
+        2.06,
+        2.058,
+        2.138,
+        2.148,
+        2.159,
+        2.153
       ],
       "priceSource": "nrcan_est"
     }
