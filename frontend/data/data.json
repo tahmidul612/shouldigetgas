@@ -1,15 +1,15 @@
 {
   "meta": {
-    "updatedAt": "2026-08-18T00:01:04.629491+00:00",
-    "pricesUpdatedAt": "2026-08-18T00:00:16.986941+00:00",
+    "updatedAt": "2026-08-18T06:00:44.761952+00:00",
+    "pricesUpdatedAt": "2026-08-18T06:00:20.950277+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-08-18T00:33:48.234033+00:00",
-    "nextAnalysisUpdate": "2026-08-18T06:03:48.234045+00:00"
+    "nextPriceUpdate": "2026-08-18T06:33:28.289172+00:00",
+    "nextAnalysisUpdate": "2026-08-18T12:03:28.289184+00:00"
   },
   "wti": {
-    "price": 71.2,
-    "dir": "flat",
-    "change": 0.0
+    "price": 84.77,
+    "dir": "up",
+    "change": 1.01
   },
   "regions": [
     {
@@ -24,10 +24,10 @@
       "priceLow": 2.802,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low with flat crude and weak week-over-week decline. Iran tensions could push oil higher soon, but current stability suggests a narrow buying window before potential upside.",
+      "why": "Prices are at a recent low, but crude is rising toward $90 on geopolitical tensions and tightening supplies. Summer blend and upward momentum suggest prices may climb within days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -81,10 +81,10 @@
       "priceLow": 3.63,
       "weekDelta": -0.039,
       "weekDeltaDir": "down",
-      "why": "Alaska prices are at recent lows with flat crude. WTI holding steady at $71.20 suggests no immediate downside, but geopolitical tensions (Iran) and supply tightening create upside risk. Summer blend supports current pricing.",
+      "why": "Alaska prices are at a recent low after a modest week-over-week drop. Crude is rising toward $90 on geopolitical tensions and tightening US supplies, which will likely push retail prices higher in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -138,10 +138,10 @@
       "priceLow": 3.132,
       "weekDelta": -0.034,
       "weekDeltaDir": "down",
-      "why": "Arizona gas is at a recent low and WTI crude is flat. Week-over-week decline signals stability. Geopolitical tensions could push prices up in coming days, but current supply outlook remains steady.",
+      "why": "You're at a recent low with WTI rising toward $90 on geopolitical tensions. Crude momentum is upward and summer blend keeps prices elevated. Fill up now before the next leg up hits pumps.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -195,10 +195,10 @@
       "priceLow": 2.743,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "Arkansas gas is at a recent low of $2.743/gal with week-over-week decline of $0.047. Crude is flat around $71, but geopolitical tensions and supply tightening could push prices higher in coming days.",
+      "why": "Prices are at a recent low after a week-over-week drop, but crude is climbing toward $90 on geopolitical tensions and supply tightening. Summer blend costs more, and upward momentum suggests limited downside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -252,10 +252,10 @@
       "priceLow": 5.428,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at their local low with flat week-over-week movement. Crude is stable at $71.20, but geopolitical tensions (Iran) and supply tightness could push prices higher in coming days. Summer blend premiums add cost pressure.",
+      "why": "California prices are at a recent low with flat week-over-week movement. However, crude is rising toward $90 amid geopolitical tensions and supply concerns. Summer blend premiums apply. Upward pressure likely in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -309,10 +309,10 @@
       "priceLow": 4.046,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado gas is at its local low with flat week-over-week movement. Crude is steady at $71.20, but geopolitical tensions (Iran talks) and supply tightening headlines suggest upward pressure ahead. Current pricing offers a solid entry point before potential increases.",
+      "why": "You're at a recent low with flat week-over-week pricing. Crude is rising toward $90 on geopolitical tensions, but supplies remain tight. Summer blend premium is in effect, limiting downside.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -366,10 +366,10 @@
       "priceLow": 3.367,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "Connecticut prices are at their local low after a modest week-over-week dip. Crude remains flat near $71, but geopolitical tensions (Iran) and supply tightness could push prices up in the coming days.",
+      "why": "You're at a local low after a week-long decline of 5¢. However, crude is rising on geopolitical tension and supply concerns. Prices may edge up in the next 2–3 days as the market reacts.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -423,10 +423,10 @@
       "priceLow": 3.123,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at a recent low with flat crude conditions. Week-over-week decline signals downward momentum, though geopolitical tensions could shift direction in coming days.",
+      "why": "Delaware prices are at a recent low while crude edges up toward $90 on geopolitical tensions. WTI's upward momentum and unresolved Iran concerns suggest prices may rise in the coming days. Current price is a decent entry point before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -480,10 +480,10 @@
       "priceLow": 3.771,
       "weekDelta": 0.021,
       "weekDeltaDir": "up",
-      "why": "Florida prices are near a recent low with minimal week-over-week gain (+0.021 $/gal). Crude is flat at $71.20, but geopolitical tension and supply tightening risks could push prices higher in coming days.",
+      "why": "WTI crude climbing toward $90 on geopolitical tensions and supply tightening. Current Florida price is near recent lows, but upward momentum suggests further increases likely within days. Summer blend premium adds cost pressure.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -537,10 +537,10 @@
       "priceLow": 2.85,
       "weekDelta": -0.044,
       "weekDeltaDir": "down",
-      "why": "Georgia prices are at a local low of $2.85/gal with modest week-over-week decline. Crude remains flat around $71, but geopolitical tensions in Iran could push oil higher within days. Summer blend and stable supply conditions support current pricing.",
+      "why": "Prices are at a recent low, but crude is climbing toward $90 on geopolitical tensions and supply concerns. Summer demand and potential further crude gains suggest prices may rise in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -594,10 +594,10 @@
       "priceLow": 4.44,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Hawaii prices are at their local low of $4.44/gal with modest week-over-week decline. Crude remains flat around $71, but geopolitical tensions and potential supply tightening could push prices higher in coming days.",
+      "why": "Hawaii gas is at its local low of $4.44/gal with modest week-over-week decline. However, crude is rising toward $90 on geopolitical tensions and supply concerns, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -651,10 +651,10 @@
       "priceLow": 3.262,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Idaho prices are near their weekly low with crude flat around $71. Week-over-week decline suggests downward momentum, though geopolitical tensions could spark volatility. Current 3.29 level offers reasonable value.",
+      "why": "Crude oil is rising toward $90 on geopolitical tensions and tightening US supplies. Your local price is only 0.9¢ above the week's low, but upward pressure suggests prices may climb over the next few days.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -708,10 +708,10 @@
       "priceLow": 3.513,
       "weekDelta": -0.104,
       "weekDeltaDir": "down",
-      "why": "Illinois gas is at a recent low after a 10¢ weekly drop. Crude is flat around $71, but geopolitical tensions and supply tightening could push prices higher in the next few days. Current pricing offers a good window before potential increases.",
-      "advice": "Fill up today",
+      "why": "Illinois gas is at a recent low after a strong week-over-week drop. However, crude is rising toward $90 on geopolitical tension and supply concerns, signaling upward pressure ahead. Current pricing offers a solid window before potential increases.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -765,10 +765,10 @@
       "priceLow": 3.145,
       "weekDelta": -0.093,
       "weekDeltaDir": "down",
-      "why": "Indiana gas is at a recent low of $3.145/gal after a strong weekly drop of 9.3¢. Crude remains flat around $71, though geopolitical tensions could push prices higher in coming days. Current pricing offers a solid fill-up window before potential summer demand spikes.",
+      "why": "Indiana gas is at a recent low after a 9¢ weekly drop. Crude is rising toward $90 on geopolitical tension, but current pricing reflects yesterday's equilibrium. Summer blend costs remain moderate.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -822,10 +822,10 @@
       "priceLow": 2.989,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Iowa gas is at a recent low of $2.989/gal with a strong weekly decline of -$0.089. Crude is flat at $71.20, but geopolitical tension and supply concerns could push prices higher soon.",
+      "why": "Prices have dropped 9¢ this week and are at a local low. However, crude is rising toward $90 on geopolitical tensions, signaling upward pressure ahead. Current levels offer a brief window before costs climb further.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -879,10 +879,10 @@
       "priceLow": 2.931,
       "weekDelta": -0.087,
       "weekDeltaDir": "down",
-      "why": "Kansas gas is at a recent low matching the lowest nearby price. Week-over-week decline of 8.7¢ shows downward momentum, though crude remains flat and geopolitical tensions could spark volatility. Summer blend adds cost but current pricing favors filling up now.",
+      "why": "Prices are at a local low after a week-long decline, but crude is rising on geopolitical tensions and supply concerns. The upward momentum suggests prices may climb in the next few days before settling.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -936,10 +936,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.052,
       "weekDeltaDir": "down",
-      "why": "Kentucky prices have dropped 5¢ week-over-week and are at a local low. Crude oil is flat around $71, but geopolitical tensions could push it higher soon. Current pricing offers a good window before potential supply tightness.",
+      "why": "Kentucky gas is at a recent low of $2.977/gal with week-over-week decline. However, crude is rising toward $90 on geopolitical tension and tightening US supplies. Price momentum suggests upward pressure in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -993,10 +993,10 @@
       "priceLow": 2.851,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Louisiana prices are at a recent low after a week-over-week decline. WTI crude is flat near $71, but geopolitical tensions and supply tightening could push prices higher in the coming days.",
+      "why": "You're at the lowest local price after a 5-cent weekly drop. However, crude is rising toward $90 on geopolitical tensions and tightening supplies. Prices may climb in the next few days despite current weakness.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1050,10 +1050,10 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Maine gas is at a recent low matching nearby stations. Crude is flat around $71, but geopolitical tensions could push prices higher within days. Week-over-week decline suggests momentum may slow.",
+      "why": "Prices are at a recent low and WTI is rising toward $90 due to Iran tensions and tightening US supplies. Summer blend demand and geopolitical risks suggest upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1107,10 +1107,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "Maryland gas is at its recent low of $3.20/gal with steady crude around $71. Week-over-week prices fell 5¢, signaling stability. Geopolitical tensions could push crude higher, but near-term supply outlook supports holding current levels.",
+      "why": "Maryland prices are at a local low despite crude climbing toward $90 on geopolitical tensions. Week-over-week decline and summer blend support current value, but rising crude signals upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1164,10 +1164,10 @@
       "priceLow": 3.964,
       "weekDelta": -0.094,
       "weekDeltaDir": "down",
-      "why": "Prices have dropped 9.4¢ this week and are at a local low. Crude is flat near $71, but geopolitical tensions around Iran could push prices higher in coming days. Current pricing offers a decent window before potential upward pressure.",
+      "why": "Prices are at a recent low after a week-long decline, but crude is climbing toward $90 on geopolitical tensions. Summer blend pricing and potential supply tightening suggest limited downside ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1221,10 +1221,10 @@
       "priceLow": 3.222,
       "weekDelta": -0.096,
       "weekDeltaDir": "down",
-      "why": "Michigan prices are at a recent low after a weekly drop of 9.6¢. Crude is flat near $71, but geopolitical tensions could push oil higher soon. Summer blend adds a small premium, but current pricing offers a solid fill-up window.",
+      "why": "Michigan prices are at local lows after a -9.6¢ weekly drop. However, crude is rising toward $90 on geopolitical tension and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1278,10 +1278,10 @@
       "priceLow": 3.838,
       "weekDelta": -0.099,
       "weekDeltaDir": "down",
-      "why": "Minnesota gas is at a recent low matching the lowest nearby price, down nearly 10¢ week-over-week. Crude is flat at $71.20, but geopolitical risks (Iran tensions) could push prices higher in coming days.",
+      "why": "Minnesota prices are at a recent low after a week-long decline. Crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead. Summer blend pricing may also stiffen as the season peaks.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1335,10 +1335,10 @@
       "priceLow": 2.782,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "You're at the lowest local price after a week-long decline. Crude is flat around $71, but geopolitical tensions could push prices higher soon. Summer demand remains steady.",
+      "why": "Current price matches the local low, but crude is climbing toward $90 on geopolitical tensions and tighter US supplies. Upward momentum suggests prices may rise in the coming days despite this week's 4.8¢ drop.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1392,10 +1392,10 @@
       "priceLow": 2.892,
       "weekDelta": -0.086,
       "weekDeltaDir": "down",
-      "why": "Missouri gas is at a recent low with week-over-week decline of 8.6¢. Crude is flat around $71, but geopolitical tensions (Iran) create upside risk. Summer blend premium is active.",
+      "why": "Missouri prices are at a local low after a 8.6¢ weekly drop, but crude is rising toward $90 on geopolitical tension and tightening supplies. Summer blend support helps, but upward pressure is building.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1449,10 +1449,10 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Montana gas is within 1¢ of local lows and trending down week-over-week. Crude remains flat around $71, but geopolitical tensions could push prices higher in coming days. Current prices offer a reasonable window before potential upward pressure.",
+      "why": "Crude is rising toward $90 on geopolitical tension and tightening supplies. MT prices are slightly above the local low and have dropped marginally week-over-week, but upward oil momentum suggests further gains ahead.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1506,10 +1506,10 @@
       "priceLow": 2.999,
       "weekDelta": -0.089,
       "weekDeltaDir": "down",
-      "why": "Nebraska gas is at a recent low of $2.999/gal with week-over-week decline of $0.089. Crude is flat at $71.20, but geopolitical tensions could push prices higher in coming days as supply tightens.",
+      "why": "Prices have dropped 9¢ this week and are at a local low of $2.999. However, crude is rising toward $90 on geopolitical tension and tightening US supplies. Expect upward pressure in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1563,10 +1563,10 @@
       "priceLow": 3.727,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Nevada prices are at a local low matching the nearby minimum. Crude is flat at $71.20, but geopolitical tensions and supply tightening could push prices higher within days. Current window is favorable before potential escalation.",
+      "why": "Nevada gas is at its lowest point this week as crude rebounds toward $90. Geopolitical tensions and tightening supply suggest upward pressure ahead, but current pricing offers a solid entry point before likely increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1620,10 +1620,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "NH prices are at their lowest point this week with modest WTI decline. Geopolitical tensions (Iran) create upside risk, but current flat crude and week-over-week drop suggest a brief window before potential rebound.",
+      "why": "Prices are at a recent low with modest week-over-week decline. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1677,10 +1677,10 @@
       "priceLow": 3.201,
       "weekDelta": -0.05,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at a recent low with steady week-over-week decline. Crude is flat around $71, but geopolitical tensions and supply tightening could push prices higher in the coming days. Current window is favorable.",
+      "why": "NJ gas is at a recent low and WTI crude is rising toward $90, signaling upward pressure ahead. Summer blend costs are elevated, but current pricing offers a favorable window before geopolitical tensions push prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1734,10 +1734,10 @@
       "priceLow": 3.075,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "Current price matches the lowest nearby and week-over-week shows a 5¢ decline. Crude is flat at $71.20, but geopolitical tensions could push it higher. Summer blend premium is in effect, limiting further drops.",
+      "why": "You're at the lowest price point locally. WTI is climbing toward $90 on geopolitical tensions and tightening crude supplies, signaling upward pressure on retail prices soon. Summer blend premium adds cost.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1791,10 +1791,10 @@
       "priceLow": 4.044,
       "weekDelta": -0.059,
       "weekDeltaDir": "down",
-      "why": "NY prices are at a recent low after a 5.9¢ week-over-week drop. WTI crude is flat near $71/barrel, but geopolitical tensions (Iran) could push oil higher in coming days. Current pricing offers a solid window before potential upward pressure.",
+      "why": "You're at the lowest price point available locally. Crude is rising toward $90 on geopolitical tensions, signaling upward pressure ahead. Filling up now locks in current rates before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1848,10 +1848,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "NC prices are at their lowest point this week after a 4.6¢ decline. Crude is flat around $71, but geopolitical tensions could push it higher in coming days. Current pricing offers a solid fill-up window before potential summer demand and supply tightening drive prices up.",
+      "why": "Prices are at a recent low after a week-over-week decline, but crude is climbing toward $90 on geopolitical tension. Summer blend and stable supply currently support holding at $2.977.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1905,10 +1905,10 @@
       "priceLow": 3.086,
       "weekDelta": -0.092,
       "weekDeltaDir": "down",
-      "why": "North Dakota prices are at a recent low of $3.086/gal with a strong weekly decline of -$0.092. Crude is flat near $71, but geopolitical risks and supply tightening could push prices higher in coming days.",
+      "why": "North Dakota is at a recent low of $3.086/gal after a 9¢ weekly drop. However, crude is climbing toward $90 on geopolitical tension and supply concerns, signaling upward pressure ahead. The current dip is a brief window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -1962,10 +1962,10 @@
       "priceLow": 3.899,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at a local low with flat WTI, but geopolitical tensions (Iran) and supply tightening create upside risk. Summer blend and stable week-over-week suggest a brief window before potential increases.",
+      "why": "Oil prices rising toward $90 on geopolitical tensions and tightening US supplies. You're at a recent low with flat week-over-week movement, but upward crude momentum suggests prices will climb in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2019,10 +2019,10 @@
       "priceLow": 2.812,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Oklahoma gas is at its lowest point this week, with crude flat around $71. Geopolitical tensions could push prices higher in coming days, but current stability suggests a brief buying window.",
+      "why": "Prices are at a recent low of $2.812/gal, but crude is rising toward $90 on geopolitical tensions. WTI could push higher if Iran tensions escalate, likely lifting gas prices in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2076,10 +2076,10 @@
       "priceLow": 3.786,
       "weekDelta": -0.041,
       "weekDeltaDir": "down",
-      "why": "Oregon prices are at their local low point after a modest weekly decline. Crude oil is flat around $71, but geopolitical tensions could push it higher in coming days. Current conditions offer a decent fill-up window before potential supply tightening.",
+      "why": "Oregon prices are at a recent low of $3.786/gal after a modest week-over-week decline. However, crude is climbing toward $90 amid Iran tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
-      "bestDayIdx": 6,
-      "wtiDir": "flat",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2133,10 +2133,10 @@
       "priceLow": 3.435,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "PA prices are at their local low after a week-long decline. WTI crude is flat at $71, but geopolitical tensions could push it higher in coming days. Current pricing offers a solid fill-up window before potential upward pressure.",
+      "why": "You're at a local low of $3.435/gal with a positive weekly trend (-5.3¢). However, crude is climbing toward $90 on geopolitical tension and supply concerns, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2190,10 +2190,10 @@
       "priceLow": 3.318,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "RI gas is at its local low of $3.318/gal with week-over-week decline. Crude remains flat around $71, but geopolitical tensions (Iran) and supply tightening could push prices higher in coming days.",
+      "why": "Rhode Island is at a recent low ($3.318/gal) despite WTI climbing toward $90 on geopolitical tensions and supply concerns. Crude momentum is upward, signaling potential retail price increases in the coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2247,10 +2247,10 @@
       "priceLow": 2.977,
       "weekDelta": -0.046,
       "weekDeltaDir": "down",
-      "why": "SC gas is at a recent low of $2.977/gal with week-over-week decline. Crude is flat at $71.20, but geopolitical tensions (Iran) could push prices higher in coming days. Current window is favorable before potential spike.",
+      "why": "SC gas is at a recent low of $2.977/gal with week-over-week decline of 4.6¢. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2304,10 +2304,10 @@
       "priceLow": 3.057,
       "weekDelta": -0.091,
       "weekDeltaDir": "down",
-      "why": "South Dakota gas is at its lowest point this week, down 9¢ from last week. Crude remains flat around $71, but geopolitical tensions and potential supply tightening could push prices higher in days ahead.",
+      "why": "You're at the lowest price point currently available in your area. WTI is rising toward $90 on geopolitical tensions, but summer blend discounts are still helping keep retail prices competitive. This is a solid entry point before potential further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2361,10 +2361,10 @@
       "priceLow": 2.88,
       "weekDelta": -0.049,
       "weekDeltaDir": "down",
-      "why": "Tennessee gas is at its lowest point this week following a modest decline. Crude remains flat around $71, but geopolitical tension could push prices higher soon. Current price offers a solid opportunity before potential upward pressure.",
+      "why": "Tennessee gas is at its local low of $2.88/gal after a 5¢ weekly decline. However, crude is rising toward $90 on geopolitical tensions and supply tightening concerns, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2418,10 +2418,10 @@
       "priceLow": 3.513,
       "weekDelta": -0.019,
       "weekDeltaDir": "down",
-      "why": "You're at the lowest price point with flat crude trends. Week-over-week decline shows downward momentum, but geopolitical tension and potential supply tightness could trigger a rebound in coming days.",
+      "why": "You're at the current low of $3.513/gal with a slight week-over-week decline. However, crude is rising toward $90 amid Iran tensions and tightening US supplies, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2475,10 +2475,10 @@
       "priceLow": 3.331,
       "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Utah prices are near a recent low with modest week-over-week decline. Crude is flat at $71.20, but geopolitical tensions (Iran) and supply tightening could push prices higher in days ahead. Summer blend adds slight premium.",
+      "why": "Utah gas is near its weekly low with modest downward momentum, but crude oil is climbing toward $90 on geopolitical tensions. Supply tightness and Iran risk suggest upward pressure ahead, narrowing the current discount window.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2532,10 +2532,10 @@
       "priceLow": 3.299,
       "weekDelta": -0.051,
       "weekDeltaDir": "down",
-      "why": "Vermont prices are at their lowest point with WTI crude flat around $71. Week-over-week decline suggests downward momentum. Iran tensions create upside risk, but current fundamentals don't signal imminent drops.",
+      "why": "Vermont gas is at its local low of $3.299/gal with week-over-week decline, but crude is rising toward $90 on geopolitical tensions. Summer blend premium and tightening supplies suggest prices may stabilize or climb in coming days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2589,10 +2589,10 @@
       "priceLow": 3.074,
       "weekDelta": -0.048,
       "weekDeltaDir": "down",
-      "why": "Virginia gas is at a recent low of $3.074/gal with week-over-week decline. Oil remains flat around $71, but geopolitical tensions could push prices higher within days.",
+      "why": "Virginia gas is at a recent low matching the lowest nearby price. WTI crude is rising toward $90 on geopolitical tensions, but current pump prices haven't caught up yet. This represents a brief window before refinery costs push prices higher.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2646,10 +2646,10 @@
       "priceLow": 5.056,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at a local low with flat week-over-week movement. Crude oil remains stable at $71.20, though geopolitical tensions could push prices higher. Summer blend and current market conditions suggest a stable but potentially rising environment.",
+      "why": "WA prices are at a local low with flat week-over-week movement. However, crude is rising toward $90 on Iran tensions and tightening US supplies, signaling upward pressure ahead. Summer blend adds cost.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2703,10 +2703,10 @@
       "priceLow": 3.104,
       "weekDelta": -0.047,
       "weekDeltaDir": "down",
-      "why": "WV gas is at its local low of $3.104/gal with week-over-week decline. Crude is flat at $71.20, but geopolitical tensions (Iran) and supply tightening could lift prices in coming days. Current window is favorable.",
+      "why": "WV gas is at a recent low matching the nearby floor. However, crude is rising toward $90 on geopolitical tension, signaling upward pressure ahead. Week-over-week decline suggests the dip may be stabilizing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2760,10 +2760,10 @@
       "priceLow": 3.183,
       "weekDelta": -0.095,
       "weekDeltaDir": "down",
-      "why": "Wisconsin gas is at its lowest point this week after a -9.5¢ decline. WTI crude is flat around $71, but geopolitical tensions could push prices higher in coming days. Current levels represent good value.",
-      "advice": "Fill up today",
+      "why": "Wisconsin gas is at a recent low after a 9.5¢ weekly drop. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies. Prices may edge up over the next few days.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2817,10 +2817,10 @@
       "priceLow": 3.232,
       "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Wyoming gas is near a recent low with modest week-over-week decline. Crude is flat around $71, but geopolitical tension (Iran war talks) creates upside risk. Current price offers a reasonable entry point before potential supply tightening.",
+      "why": "Wyoming gas is near recent lows despite crude climbing toward $90 on geopolitical tension. Week-over-week decline shows downward momentum, but upward crude pressure may cap further drops this week.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2874,10 +2874,10 @@
       "priceLow": 3.465,
       "weekDelta": -0.053,
       "weekDeltaDir": "down",
-      "why": "DC gas is at a recent low with flat crude prices. Week-over-week decline shows downward momentum, though geopolitical tensions (Iran) could push prices up. Current levels offer a solid fill-up window before potential summer demand spikes.",
+      "why": "DC prices are at a local low after a week-over-week decline. However, crude is rising and geopolitical tensions could push prices higher in coming days. Current levels offer a decent entry point before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2926,15 +2926,15 @@
       "city": "Calgary",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.669,
       "priceLow": 1.619,
       "weekDelta": 0.077,
       "weekDeltaDir": "up",
-      "why": "Alberta prices have risen 7.7¢ in a week amid geopolitical tension and tightening crude supplies. Current price is 5¢ above the local low, with upward momentum likely to persist if Iran tensions escalate.",
-      "advice": "Top up now, monitor Wed",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. You're 5¢ above the week's low, and upward momentum suggests prices will keep rising over the next few days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -2983,15 +2983,15 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.97,
       "priceLow": 1.911,
       "weekDelta": 0.066,
       "weekDeltaDir": "up",
-      "why": "BC prices are 3% above the week's low at $1.97/L, driven by geopolitical tension pushing crude higher. Flat WTI today suggests momentum may pause, but upside risk from Iran tensions remains near-term.",
-      "advice": "Top up halfway today",
+      "why": "BC prices are up 6.6¢/L week-over-week as crude climbs toward $90 on geopolitical tensions and tightening US supplies. You're currently 5.9¢ above the regional low, with upward momentum likely continuing.",
+      "advice": "Fill up by Wednesday",
       "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3040,15 +3040,15 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.695,
       "priceLow": 1.644,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.6¢/L week-over-week and sit 5.1¢/L above the nearby low. Geopolitical tensions (Iran) and tightening US supplies are pushing crude higher. Summer blend adds cost, but the upward momentum may pause as WTI stabilizes.",
-      "advice": "Top off half · wait for dip",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Crude oil is climbing toward $90/barrel on geopolitical tensions and tightening US supplies. Manitoba prices are 3% above recent lows and up 5.6¢ week-over-week. Further increases likely as oil momentum continues.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3097,15 +3097,15 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.775,
       "priceLow": 1.722,
       "weekDelta": 0.059,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.9¢/L this week as crude rebounds on geopolitical tension and supply concerns. Current price sits 5.3¢/L above the regional low, suggesting room for further decline before stabilization.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Crude is climbing toward $90 on geopolitical tension and tightening US supplies. You're 5.3¢ above the regional low, and upward momentum suggests prices won't retreat soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3154,15 +3154,15 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.809,
       "priceLow": 1.755,
       "weekDelta": 0.06,
       "weekDeltaDir": "up",
-      "why": "Newfoundland prices are 5.4¢/L above recent lows after a week-over-week gain. Crude remains flat near $71, but geopolitical tensions and supply tightening headlines suggest upward pressure ahead. Current levels are elevated for the region.",
-      "advice": "Top off partially today",
+      "why": "Prices are up 6¢ this week and crude is rising toward $90 on geopolitical tension. You're currently 5.4¢ above the local low, with upward momentum likely to continue short-term.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3211,15 +3211,15 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.814,
       "priceLow": 1.76,
       "weekDelta": 0.012,
       "weekDeltaDir": "up",
-      "why": "Nova Scotia prices are 3¢/L above the regional low, and crude is flat near $71/barrel. Geopolitical tensions (Iran) are creating upward pressure, but no imminent spike signals. A small gap to the low suggests modest room to fall.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "why": "Crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Current NS price is 3¢ above the local low, with upward momentum expected to continue. Summer blend and rising WTI suggest prices will stay elevated or drift higher over the next few days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3268,15 +3268,15 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.691,
       "priceLow": 1.64,
       "weekDelta": 0.088,
       "weekDeltaDir": "up",
-      "why": "Ontario prices are up 8.8¢/L week-over-week and trading 5.1¢ above the local low. Geopolitical tension around Iran and tightening US crude supplies are pushing oil higher. Summer blend premiums add upward pressure.",
-      "advice": "Top off now, monitor for dips",
-      "bestDayIdx": 2,
-      "wtiDir": "flat",
+      "why": "Crude oil is rising toward $90 amid geopolitical tensions and tightening US supplies. Ontario prices are up 8.8¢/L week-over-week and sit 5.1¢ above the local low. Further upward pressure expected in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3325,15 +3325,15 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.764,
       "priceLow": 1.711,
       "weekDelta": 0.059,
       "weekDeltaDir": "up",
-      "why": "PEI prices have jumped 5.9¢/L week-over-week and sit 5.3¢ above the regional low. Crude remains flat around $71, but geopolitical tensions and supply tightening are supporting prices. Summer blend typically holds firm through August.",
-      "advice": "Top off today · wait for dip",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "PE prices are 5.3¢/L above the regional low and rising on geopolitical tension pushing crude toward $90. WTI momentum is upward with no near-term relief expected from Iran talks.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3382,15 +3382,15 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.809,
       "priceLow": 1.755,
       "weekDelta": 0.06,
       "weekDeltaDir": "up",
-      "why": "Prices rose 6¢ this week and sit 5.4¢ above the regional low. Geopolitical tensions (Iran) are supporting crude, but WTI is flat today. A 3–5 day pullback is possible if tensions ease.",
-      "advice": "Top up halfway today",
-      "bestDayIdx": 4,
-      "wtiDir": "flat",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening US supplies. Quebec prices are up 6¢ week-over-week and sit 5¢ above the recent low. Upward momentum likely continues short-term.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3444,10 +3444,10 @@
       "priceLow": 1.567,
       "weekDelta": 0.054,
       "weekDeltaDir": "up",
-      "why": "Saskatchewan prices are up 5.4¢/L week-over-week and sit 4.8¢ above the regional low. Crude is flat but geopolitical tensions and supply tightening could push prices higher in the near term.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
-      "wtiDir": "flat",
+      "why": "Crude oil is climbing toward $90/barrel on geopolitical tensions and tightening US supplies. Saskatchewan prices are 3% above recent lows and up 5.4¢ week-over-week. Upward momentum suggests further increases ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
@@ -3501,10 +3501,10 @@
       "priceLow": 2.088,
       "weekDelta": 0.072,
       "weekDeltaDir": "up",
-      "why": "Prices are up 7.2¢ this week and currently 6.5¢ above the local low. Geopolitical tensions and tightening US crude supplies are supporting prices, with WTI flat but risk tilted upward.",
-      "advice": "Top off today · wait",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening US supplies. Northern Canada prices are up 7.2¢/L week-over-week and still 6.5¢/L above the local low. Further increases likely in next 2–3 days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 0,
-      "wtiDir": "flat",
+      "wtiDir": "up",
       "news": [
         {
           "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
