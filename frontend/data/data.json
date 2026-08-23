@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-08-23T00:00:46.092837+00:00",
-    "pricesUpdatedAt": "2026-08-23T00:00:41.744353+00:00",
+    "updatedAt": "2026-08-23T06:02:12.746159+00:00",
+    "pricesUpdatedAt": "2026-08-23T06:02:06.085931+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-08-23T00:33:23.734080+00:00",
-    "nextAnalysisUpdate": "2026-08-23T06:03:23.734091+00:00"
+    "nextPriceUpdate": "2026-08-23T06:34:19.276834+00:00",
+    "nextAnalysisUpdate": "2026-08-23T12:04:19.276848+00:00"
   },
   "wti": {
     "price": 86.48,
@@ -20,11 +20,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.802,
-      "priceLow": 2.802,
-      "weekDelta": -0.048,
-      "weekDeltaDir": "down",
-      "why": "AL prices are at their recent low as crude rebounds toward $90. Summer blend premiums and tightening US supply suggest upward pressure ahead. Current window is favorable before further increases likely.",
+      "price": 2.883,
+      "priceLow": 2.82,
+      "weekDelta": 0.063,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is rising toward $90/barrel on supply concerns and geopolitical tensions. AL prices are 0.063 above week-ago levels and 0.063 above the regional low. Upward momentum suggests further increases likely.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -41,26 +41,26 @@
         }
       ],
       "breakdown": {
-        "crude": 61,
-        "refining": 14,
+        "crude": 63,
+        "refining": 13,
         "taxes": 14,
-        "dist": 11
+        "dist": 10
       },
       "trend": [
-        2.908,
-        2.899,
-        2.889,
-        2.879,
-        2.869,
-        2.86,
-        2.85,
-        2.843,
-        2.836,
+        2.862,
+        2.855,
+        2.848,
+        2.841,
+        2.834,
+        2.827,
+        2.82,
         2.829,
-        2.823,
-        2.816,
-        2.809,
-        2.802
+        2.838,
+        2.847,
+        2.856,
+        2.865,
+        2.874,
+        2.883
       ],
       "priceSource": "eia_padd"
     },
@@ -72,11 +72,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.63,
-      "priceLow": 3.63,
-      "weekDelta": -0.039,
-      "weekDeltaDir": "down",
-      "why": "Alaska prices are at a local low with crude rising toward $90 on geopolitical tensions and tightening US supplies. Summer blend keeps prices slightly elevated, but current level offers a reasonable window before potential increases.",
+      "price": 3.664,
+      "priceLow": 3.656,
+      "weekDelta": 0.008,
+      "weekDeltaDir": "up",
+      "why": "Alaska prices are near a local low and stable. Crude is climbing toward $90 on supply tightening concerns, suggesting upward pressure ahead. Summer blend transition keeps costs elevated, but current levels offer a reasonable window before further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -99,20 +99,20 @@
         "dist": 8
       },
       "trend": [
-        3.661,
-        3.663,
-        3.664,
-        3.665,
-        3.666,
-        3.668,
-        3.669,
-        3.663,
+        3.69,
+        3.685,
+        3.679,
+        3.673,
+        3.667,
+        3.662,
+        3.656,
+        3.657,
         3.658,
-        3.652,
-        3.647,
-        3.641,
-        3.636,
-        3.63
+        3.659,
+        3.661,
+        3.662,
+        3.663,
+        3.664
       ],
       "priceSource": "eia_padd"
     },
@@ -124,63 +124,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.132,
-      "priceLow": 3.132,
-      "weekDelta": -0.034,
-      "weekDeltaDir": "down",
-      "why": "Arizona prices are at a recent low and stable. WTI is rising toward $90 on supply concerns, but current retail prices haven't caught up yet. Summer blend costs are moderate. This is a good window before potential further increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 66,
-        "refining": 12,
-        "taxes": 12,
-        "dist": 10
-      },
-      "trend": [
-        3.159,
-        3.16,
-        3.161,
-        3.163,
-        3.164,
-        3.165,
-        3.166,
-        3.161,
-        3.156,
-        3.151,
-        3.147,
-        3.142,
-        3.137,
-        3.132
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ar",
-      "state": "Arkansas",
-      "abbr": "AR",
-      "city": "Little Rock",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.743,
-      "priceLow": 2.743,
-      "weekDelta": -0.047,
-      "weekDeltaDir": "down",
-      "why": "Prices are at a local low and have dropped 4.7¢ week-over-week. However, crude is rising toward $90 and geopolitical tension may push prices higher soon. Current window is favorable but narrow.",
+      "price": 3.162,
+      "priceLow": 3.155,
+      "weekDelta": 0.007,
+      "weekDeltaDir": "up",
+      "why": "Arizona gas is near recent lows at $3.16/gal, but crude is climbing toward $90 on geopolitical tensions and tightening US supplies. Summer blend demand and upward price momentum suggest prices may rise over the next few days.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -197,26 +145,78 @@
         }
       ],
       "breakdown": {
-        "crude": 60,
-        "refining": 14,
-        "taxes": 15,
+        "crude": 67,
+        "refining": 12,
+        "taxes": 12,
+        "dist": 9
+      },
+      "trend": [
+        3.184,
+        3.179,
+        3.174,
+        3.17,
+        3.165,
+        3.16,
+        3.155,
+        3.156,
+        3.157,
+        3.158,
+        3.159,
+        3.16,
+        3.161,
+        3.162
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ar",
+      "state": "Arkansas",
+      "abbr": "AR",
+      "city": "Little Rock",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.823,
+      "priceLow": 2.761,
+      "weekDelta": 0.062,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on supply tightening concerns and geopolitical tension. Arkansas prices are 2.2% above the regional low, and upward momentum suggests further increases likely within days.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 13,
+        "taxes": 14,
         "dist": 11
       },
       "trend": [
-        2.847,
-        2.838,
-        2.828,
-        2.819,
-        2.809,
-        2.8,
-        2.79,
-        2.783,
-        2.777,
+        2.802,
+        2.795,
+        2.788,
+        2.782,
+        2.775,
+        2.768,
+        2.761,
         2.77,
-        2.763,
-        2.756,
-        2.75,
-        2.743
+        2.779,
+        2.788,
+        2.796,
+        2.805,
+        2.814,
+        2.823
       ],
       "priceSource": "eia_padd"
     },
@@ -228,11 +228,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 5.428,
-      "priceLow": 5.428,
+      "price": 5.397,
+      "priceLow": 5.397,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "California prices are at their local low with flat week-over-week movement. However, crude is rising toward $90 on supply tightening concerns and Iran tensions, suggesting upward pressure ahead.",
+      "why": "California prices are at a local low with crude rising toward $90 on supply tightening concerns. Summer blend premiums and geopolitical tensions suggest upward pressure ahead. Current price represents a brief window before increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -249,26 +249,26 @@
         }
       ],
       "breakdown": {
-        "crude": 70,
+        "crude": 69,
         "refining": 11,
-        "taxes": 13,
+        "taxes": 14,
         "dist": 6
       },
       "trend": [
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428,
-        5.428
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397,
+        5.397
       ],
       "priceSource": "eia_state"
     },
@@ -280,11 +280,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 4.046,
-      "priceLow": 4.046,
+      "price": 4.255,
+      "priceLow": 4.255,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Colorado prices are at a recent low with flat week-over-week movement. However, crude is rising toward $90/barrel on geopolitical tensions and supply tightening, signaling upward pressure ahead.",
+      "why": "Prices are at recent lows with WTI rising toward $90 on supply tightening concerns. Summer blend demand remains steady. Current price represents a good window before likely further increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -301,26 +301,26 @@
         }
       ],
       "breakdown": {
-        "crude": 74,
+        "crude": 75,
         "refining": 9,
-        "taxes": 10,
+        "taxes": 9,
         "dist": 7
       },
       "trend": [
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046,
-        4.046
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255,
+        4.255
       ],
       "priceSource": "eia_state"
     },
@@ -332,11 +332,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.367,
-      "priceLow": 3.367,
-      "weekDelta": -0.052,
+      "price": 3.377,
+      "priceLow": 3.377,
+      "weekDelta": -0.019,
       "weekDeltaDir": "down",
-      "why": "You're at the lowest local price with crude rising toward $90 on supply concerns. Summer blend keeps costs elevated, but geopolitical tensions could push prices higher in coming days.",
+      "why": "CT prices are at their local low and stable. Crude is rising toward $90 on supply concerns, but current retail reflects recent weakness. Geopolitical risk could push prices higher in days ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -359,20 +359,20 @@
         "dist": 9
       },
       "trend": [
-        3.458,
-        3.452,
-        3.445,
-        3.439,
-        3.432,
+        3.441,
+        3.433,
         3.426,
-        3.419,
-        3.412,
-        3.404,
-        3.397,
-        3.389,
+        3.418,
+        3.411,
+        3.403,
+        3.396,
+        3.393,
+        3.391,
+        3.388,
+        3.385,
         3.382,
-        3.374,
-        3.367
+        3.38,
+        3.377
       ],
       "priceSource": "eia_padd"
     },
@@ -384,11 +384,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.123,
-      "priceLow": 3.123,
-      "weekDelta": -0.048,
+      "price": 3.133,
+      "priceLow": 3.133,
+      "weekDelta": -0.017,
       "weekDeltaDir": "down",
-      "why": "Delaware prices are at their local low and week-over-week decline has stalled. Crude is rising toward $90 on supply tightening concerns, signaling upward pressure ahead. Current pricing offers a good fill-up window before likely increases.",
+      "why": "Delaware prices are at their local low with WTI crude rising toward $90. Summer blend demand remains steady, but geopolitical uncertainty and supply tightening signals suggest volatility ahead. Current pricing offers a decent window before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -411,20 +411,20 @@
         "dist": 10
       },
       "trend": [
-        3.208,
-        3.202,
-        3.196,
-        3.189,
-        3.183,
+        3.191,
+        3.184,
         3.177,
         3.171,
         3.164,
         3.157,
         3.15,
-        3.144,
-        3.137,
-        3.13,
-        3.123
+        3.148,
+        3.145,
+        3.143,
+        3.14,
+        3.138,
+        3.135,
+        3.133
       ],
       "priceSource": "eia_padd"
     },
@@ -436,11 +436,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.792,
-      "priceLow": 3.771,
-      "weekDelta": 0.021,
-      "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tension. Florida prices are near recent lows but upward momentum suggests further increases ahead. Summer blend premiums and tight supplies support higher prices through the week.",
+      "price": 3.768,
+      "priceLow": 3.768,
+      "weekDelta": -0.024,
+      "weekDeltaDir": "down",
+      "why": "Prices are at a local low and stable this week. Crude is rising toward $90 on geopolitical tension and supply tightening, but summer blend keeps retail prices competitive. Filling now locks in current rates before likely increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -463,20 +463,20 @@
         "dist": 8
       },
       "trend": [
-        3.771,
-        3.771,
-        3.771,
-        3.771,
-        3.771,
-        3.771,
-        3.771,
-        3.774,
-        3.777,
-        3.78,
-        3.783,
-        3.786,
+        3.792,
+        3.792,
+        3.792,
+        3.792,
+        3.792,
+        3.792,
+        3.792,
         3.789,
-        3.792
+        3.785,
+        3.782,
+        3.778,
+        3.775,
+        3.771,
+        3.768
       ],
       "priceSource": "eia_state"
     },
@@ -488,11 +488,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.85,
-      "priceLow": 2.85,
-      "weekDelta": -0.044,
+      "price": 2.859,
+      "priceLow": 2.859,
+      "weekDelta": -0.015,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low and stable, but crude is rising toward $90 on supply tightening concerns. Summer demand and geopolitical tensions suggest upward pressure ahead.",
+      "why": "Gas prices are at a local low while crude oil climbs toward $90 on supply concerns. Current stability won't last long as geopolitical tensions and tightening supplies push costs higher over the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -509,26 +509,26 @@
         }
       ],
       "breakdown": {
-        "crude": 59,
+        "crude": 60,
         "refining": 13,
         "taxes": 17,
-        "dist": 11
+        "dist": 10
       },
       "trend": [
-        2.927,
-        2.922,
-        2.916,
-        2.911,
-        2.905,
+        2.913,
+        2.906,
         2.9,
-        2.894,
-        2.888,
-        2.881,
-        2.875,
-        2.869,
+        2.893,
+        2.887,
+        2.88,
+        2.874,
+        2.872,
+        2.87,
+        2.868,
+        2.865,
         2.863,
-        2.856,
-        2.85
+        2.861,
+        2.859
       ],
       "priceSource": "eia_padd"
     },
@@ -540,11 +540,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 4.44,
-      "priceLow": 4.44,
-      "weekDelta": -0.048,
-      "weekDeltaDir": "down",
-      "why": "Hawaii prices are at a recent low with modest week-over-week decline. WTI crude is rising toward $90 and geopolitical tensions could push prices higher. Summer demand and tight supply suggest limited downside ahead.",
+      "price": 4.482,
+      "priceLow": 4.472,
+      "weekDelta": 0.01,
+      "weekDeltaDir": "up",
+      "why": "Hawaii prices are near recent lows with only a 1¢ difference. Crude is rising toward $90 on supply tightening concerns, but you're already at a favorable point. Summer blend and stable local supply suggest minimal near-term relief.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -567,20 +567,20 @@
         "dist": 7
       },
       "trend": [
+        4.513,
+        4.506,
+        4.499,
+        4.493,
+        4.486,
+        4.479,
+        4.472,
+        4.473,
+        4.475,
+        4.476,
         4.478,
         4.479,
         4.481,
-        4.483,
-        4.485,
-        4.486,
-        4.488,
-        4.481,
-        4.474,
-        4.467,
-        4.461,
-        4.454,
-        4.447,
-        4.44
+        4.482
       ],
       "priceSource": "eia_padd"
     },
@@ -591,12 +591,168 @@
       "city": "Boise",
       "country": "US",
       "unit": "gal",
+      "verdict": "partial",
+      "price": 3.428,
+      "priceLow": 3.297,
+      "weekDelta": 0.131,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply concerns and stalled Iran negotiations. Idaho prices are 4% above the week's low, and upward momentum suggests further increases ahead.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.309,
+        3.307,
+        3.305,
+        3.303,
+        3.301,
+        3.299,
+        3.297,
+        3.316,
+        3.334,
+        3.353,
+        3.372,
+        3.391,
+        3.409,
+        3.428
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "il",
+      "state": "Illinois",
+      "abbr": "IL",
+      "city": "Chicago",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.657,
+      "priceLow": 3.543,
+      "weekDelta": 0.114,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening supply. Illinois prices are 3.2% above the week's low, and summer blend adds cost. Upward momentum suggests limited near-term relief.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 13,
+        "taxes": 21,
+        "dist": 8
+      },
+      "trend": [
+        3.633,
+        3.618,
+        3.603,
+        3.588,
+        3.573,
+        3.558,
+        3.543,
+        3.559,
+        3.576,
+        3.592,
+        3.608,
+        3.624,
+        3.641,
+        3.657
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "in",
+      "state": "Indiana",
+      "abbr": "IN",
+      "city": "Indianapolis",
+      "country": "US",
+      "unit": "gal",
       "verdict": "buy",
-      "price": 3.292,
-      "priceLow": 3.262,
-      "weekDelta": -0.014,
-      "weekDeltaDir": "down",
-      "why": "Idaho prices are near recent lows and down week-over-week. However, crude is rising toward $90 on supply tightening concerns and geopolitical tension. Prices may climb in the next few days.",
+      "price": 3.273,
+      "priceLow": 3.171,
+      "weekDelta": 0.102,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is rising toward $90/barrel on supply tightening concerns and geopolitical tension. Indiana prices are up significantly week-over-week and still 3¢ above the regional low. Further increases likely in the near term.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 2,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 59,
+        "refining": 12,
+        "taxes": 20,
+        "dist": 9
+      },
+      "trend": [
+        3.252,
+        3.238,
+        3.225,
+        3.211,
+        3.198,
+        3.184,
+        3.171,
+        3.186,
+        3.2,
+        3.215,
+        3.229,
+        3.244,
+        3.258,
+        3.273
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ia",
+      "state": "Iowa",
+      "abbr": "IA",
+      "city": "Des Moines",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.111,
+      "priceLow": 3.015,
+      "weekDelta": 0.096,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply concerns and geopolitical tension. Iowa prices are 3.2% above the week's low and climbing. Summer blend adds cost. Expect further upward pressure in near term.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -615,180 +771,24 @@
       "breakdown": {
         "crude": 63,
         "refining": 12,
-        "taxes": 16,
-        "dist": 9
-      },
-      "trend": [
-        3.268,
-        3.275,
-        3.281,
-        3.287,
-        3.293,
-        3.3,
-        3.306,
-        3.304,
-        3.302,
-        3.3,
-        3.298,
-        3.296,
-        3.294,
-        3.292
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "il",
-      "state": "Illinois",
-      "abbr": "IL",
-      "city": "Chicago",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.513,
-      "priceLow": 3.513,
-      "weekDelta": -0.104,
-      "weekDeltaDir": "down",
-      "why": "Prices are at their lowest point this week after a sharp $0.10 drop. Crude is rising toward $90 on supply concerns, but current retail prices haven't caught up yet. This is a solid window before costs climb further.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 55,
-        "refining": 14,
-        "taxes": 22,
-        "dist": 9
-      },
-      "trend": [
-        3.58,
-        3.586,
-        3.592,
-        3.599,
-        3.605,
-        3.611,
-        3.617,
-        3.602,
-        3.587,
-        3.572,
-        3.558,
-        3.543,
-        3.528,
-        3.513
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "in",
-      "state": "Indiana",
-      "abbr": "IN",
-      "city": "Indianapolis",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.145,
-      "priceLow": 3.145,
-      "weekDelta": -0.093,
-      "weekDeltaDir": "down",
-      "why": "Indiana prices are at a recent low and holding steady despite crude climbing toward $90. Summer blend demand remains stable, but geopolitical tensions and supply tightening could push prices higher within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 57,
-        "refining": 12,
-        "taxes": 21,
+        "taxes": 15,
         "dist": 10
       },
       "trend": [
-        3.205,
-        3.21,
-        3.216,
-        3.221,
-        3.227,
-        3.232,
-        3.238,
-        3.225,
-        3.211,
-        3.198,
-        3.185,
-        3.172,
-        3.158,
-        3.145
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ia",
-      "state": "Iowa",
-      "abbr": "IA",
-      "city": "Des Moines",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.989,
-      "priceLow": 2.989,
-      "weekDelta": -0.089,
-      "weekDeltaDir": "down",
-      "why": "Iowa gas is at a recent low of $2.989/gal with week-over-week decline of $0.089. However, crude is rising toward $90/barrel on geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 13,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        3.046,
-        3.052,
-        3.057,
-        3.062,
-        3.067,
-        3.073,
-        3.078,
-        3.065,
+        3.091,
+        3.079,
+        3.066,
         3.053,
         3.04,
-        3.027,
-        3.014,
-        3.002,
-        2.989
+        3.028,
+        3.015,
+        3.029,
+        3.042,
+        3.056,
+        3.07,
+        3.084,
+        3.097,
+        3.111
       ],
       "priceSource": "eia_padd"
     },
@@ -800,168 +800,12 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.931,
-      "priceLow": 2.931,
-      "weekDelta": -0.087,
-      "weekDeltaDir": "down",
-      "why": "Kansas gas sits at a recent low after a week-long decline. Crude is rising toward $90 on geopolitical tensions and supply tightening, signaling upward pressure ahead. Current pricing offers a good fill-up window before larger increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 13,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        2.987,
-        2.992,
-        2.997,
-        3.003,
-        3.008,
-        3.013,
-        3.018,
-        3.006,
-        2.993,
-        2.981,
-        2.968,
-        2.956,
-        2.943,
-        2.931
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ky",
-      "state": "Kentucky",
-      "abbr": "KY",
-      "city": "Louisville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.977,
-      "priceLow": 2.977,
-      "weekDelta": -0.052,
-      "weekDeltaDir": "down",
-      "why": "Kentucky prices have dropped 5.2¢ week-over-week and sit at recent lows. While crude is climbing toward $90 on supply concerns, current retail prices haven't caught up yet. This is a favorable window before further increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 13,
-        "taxes": 16,
-        "dist": 10
-      },
-      "trend": [
-        3.091,
-        3.08,
-        3.07,
-        3.06,
-        3.05,
-        3.039,
-        3.029,
-        3.022,
-        3.014,
-        3.007,
-        2.999,
-        2.992,
-        2.984,
-        2.977
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "la",
-      "state": "Louisiana",
-      "abbr": "LA",
-      "city": "New Orleans",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.851,
-      "priceLow": 2.851,
-      "weekDelta": -0.049,
-      "weekDeltaDir": "down",
-      "why": "Crude oil is rising toward $90/barrel due to geopolitical tension and tightening supply. You're already at a local low, but upward momentum suggests prices may climb further this week.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 13,
-        "dist": 11
-      },
-      "trend": [
-        2.959,
-        2.949,
-        2.939,
-        2.93,
-        2.92,
-        2.91,
-        2.9,
-        2.893,
-        2.886,
-        2.879,
-        2.872,
-        2.865,
-        2.858,
-        2.851
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "me",
-      "state": "Maine",
-      "abbr": "ME",
-      "city": "Portland",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.299,
-      "priceLow": 3.299,
-      "weekDelta": -0.051,
-      "weekDeltaDir": "down",
-      "why": "Maine prices are at a recent low and match the regional floor. Oil is climbing toward $90 on supply concerns, but current retail prices haven't caught up yet. Summer blend adds modest cost, but the downward week-over-week trend suggests a brief window.",
-      "advice": "Fill up today",
+      "price": 3.051,
+      "priceLow": 2.956,
+      "weekDelta": 0.095,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tensions. Kansas prices are up nearly 10¢ week-over-week and sit 3¢ above the regional low. Further rises likely if tensions escalate.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -979,24 +823,180 @@
       "breakdown": {
         "crude": 64,
         "refining": 12,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        3.031,
+        3.019,
+        3.006,
+        2.994,
+        2.981,
+        2.969,
+        2.956,
+        2.97,
+        2.983,
+        2.997,
+        3.01,
+        3.024,
+        3.037,
+        3.051
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ky",
+      "state": "Kentucky",
+      "abbr": "KY",
+      "city": "Louisville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "wait",
+      "price": 3.064,
+      "priceLow": 2.997,
+      "weekDelta": 0.067,
+      "weekDeltaDir": "up",
+      "why": "Prices rose 6.7¢ week-over-week as crude climbs toward $90 on supply concerns. You're 6.7¢ above the regional low, and upward momentum suggests further increases ahead.",
+      "advice": "Hold until mid-week",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 62,
+        "refining": 12,
+        "taxes": 16,
+        "dist": 10
+      },
+      "trend": [
+        3.042,
+        3.034,
+        3.027,
+        3.019,
+        3.012,
+        3.004,
+        2.997,
+        3.007,
+        3.016,
+        3.026,
+        3.035,
+        3.045,
+        3.054,
+        3.064
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "la",
+      "state": "Louisiana",
+      "abbr": "LA",
+      "city": "New Orleans",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.933,
+      "priceLow": 2.869,
+      "weekDelta": 0.064,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply concerns and geopolitical tensions. LA prices are up 6¢ week-over-week and sit 6¢ above the regional low. Upward momentum suggests further increases likely in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 13,
+        "taxes": 13,
+        "dist": 10
+      },
+      "trend": [
+        2.912,
+        2.905,
+        2.898,
+        2.89,
+        2.883,
+        2.876,
+        2.869,
+        2.878,
+        2.887,
+        2.896,
+        2.906,
+        2.915,
+        2.924,
+        2.933
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "me",
+      "state": "Maine",
+      "abbr": "ME",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.309,
+      "priceLow": 3.309,
+      "weekDelta": -0.018,
+      "weekDeltaDir": "down",
+      "why": "Maine is at its lowest price point this week as crude edges toward $90. Geopolitical tensions and supply tightening could push prices higher in days ahead, but current local lows offer a solid fill-up window.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
         "taxes": 15,
         "dist": 9
       },
       "trend": [
-        3.389,
-        3.382,
-        3.376,
-        3.369,
+        3.371,
         3.363,
         3.356,
-        3.35,
-        3.343,
-        3.335,
-        3.328,
-        3.321,
+        3.349,
+        3.342,
+        3.334,
+        3.327,
+        3.324,
+        3.322,
+        3.319,
+        3.317,
         3.314,
-        3.306,
-        3.299
+        3.312,
+        3.309
       ],
       "priceSource": "eia_padd"
     },
@@ -1008,11 +1008,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.201,
-      "priceLow": 3.201,
-      "weekDelta": -0.05,
+      "price": 3.211,
+      "priceLow": 3.211,
+      "weekDelta": -0.018,
       "weekDeltaDir": "down",
-      "why": "Prices are at a recent low and stable, but crude is rising toward $90 on geopolitical tension and supply tightening. A small window exists now before upward pressure hits pumps.",
+      "why": "You're at the lowest price available locally. Oil is climbing toward $90 on supply tightness and geopolitical tension, signaling upward pressure ahead. Summer blend ends soon, which typically brings cheaper prices.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1035,20 +1035,20 @@
         "dist": 9
       },
       "trend": [
-        3.288,
-        3.282,
-        3.276,
-        3.269,
-        3.263,
+        3.271,
+        3.264,
         3.257,
-        3.251,
-        3.244,
-        3.237,
-        3.23,
-        3.222,
-        3.215,
-        3.208,
-        3.201
+        3.25,
+        3.243,
+        3.236,
+        3.229,
+        3.226,
+        3.224,
+        3.221,
+        3.219,
+        3.216,
+        3.214,
+        3.211
       ],
       "priceSource": "eia_padd"
     },
@@ -1060,11 +1060,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.964,
-      "priceLow": 3.964,
-      "weekDelta": -0.094,
+      "price": 3.95,
+      "priceLow": 3.95,
+      "weekDelta": -0.014,
       "weekDeltaDir": "down",
-      "why": "Prices are at a local low after a week-long decline. However, crude is rising toward $90 and geopolitical tensions could push it higher in coming days. Summer blend adds cost pressure.",
+      "why": "Prices are at a local low with modest week-over-week decline. However, crude is rising toward $90 and supply tightening signals suggest upward pressure ahead. Summer blend premiums add cost.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1087,20 +1087,20 @@
         "dist": 8
       },
       "trend": [
-        4.058,
-        4.058,
-        4.058,
-        4.058,
-        4.058,
-        4.058,
-        4.058,
-        4.045,
-        4.031,
-        4.018,
-        4.004,
-        3.991,
-        3.977,
-        3.964
+        3.964,
+        3.964,
+        3.964,
+        3.964,
+        3.964,
+        3.964,
+        3.964,
+        3.962,
+        3.96,
+        3.958,
+        3.956,
+        3.954,
+        3.952,
+        3.95
       ],
       "priceSource": "eia_state"
     },
@@ -1111,118 +1111,14 @@
       "city": "Detroit",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
-      "price": 3.222,
-      "priceLow": 3.222,
-      "weekDelta": -0.096,
-      "weekDeltaDir": "down",
-      "why": "You're at a recent low of $3.22/gal with a strong week-over-week decline. However, crude is rising toward $90 on supply concerns and geopolitical tension, signaling upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 60,
-        "refining": 12,
-        "taxes": 19,
-        "dist": 9
-      },
-      "trend": [
-        3.284,
-        3.289,
-        3.295,
-        3.301,
-        3.307,
-        3.312,
-        3.318,
-        3.304,
-        3.291,
-        3.277,
-        3.263,
-        3.249,
-        3.236,
-        3.222
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "mn",
-      "state": "Minnesota",
-      "abbr": "MN",
-      "city": "Minneapolis",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.838,
-      "priceLow": 3.838,
-      "weekDelta": -0.099,
-      "weekDeltaDir": "down",
-      "why": "Minnesota prices are at their recent low and have dropped 10¢ week-over-week. Despite crude climbing toward $90, supply tightening concerns are offsetting larger gains. Summer blend availability supports current pricing stability.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 68,
-        "refining": 10,
-        "taxes": 14,
-        "dist": 8
-      },
-      "trend": [
-        3.937,
-        3.937,
-        3.937,
-        3.937,
-        3.937,
-        3.937,
-        3.937,
-        3.923,
-        3.909,
-        3.895,
-        3.88,
-        3.866,
-        3.852,
-        3.838
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ms",
-      "state": "Mississippi",
-      "abbr": "MS",
-      "city": "Jackson",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.782,
-      "priceLow": 2.782,
-      "weekDelta": -0.048,
-      "weekDeltaDir": "down",
-      "why": "Mississippi prices are at a recent low with week-over-week decline. However, crude is rising toward $90 on supply tightening concerns and geopolitical tension, signaling upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "verdict": "partial",
+      "price": 3.354,
+      "priceLow": 3.25,
+      "weekDelta": 0.104,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is climbing toward $90/barrel on supply concerns and geopolitical tension. Michigan prices are 10¢ above the week-ago average and haven't yet reached local lows. Further upside pressure likely in near term.",
+      "advice": "Top off halfway · wait",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -1238,25 +1134,129 @@
       ],
       "breakdown": {
         "crude": 62,
-        "refining": 14,
-        "taxes": 13,
-        "dist": 11
+        "refining": 11,
+        "taxes": 18,
+        "dist": 9
       },
       "trend": [
-        2.888,
-        2.879,
-        2.869,
-        2.859,
-        2.849,
-        2.84,
-        2.83,
-        2.823,
-        2.816,
+        3.332,
+        3.319,
+        3.305,
+        3.291,
+        3.277,
+        3.264,
+        3.25,
+        3.265,
+        3.28,
+        3.295,
+        3.309,
+        3.324,
+        3.339,
+        3.354
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "mn",
+      "state": "Minnesota",
+      "abbr": "MN",
+      "city": "Minneapolis",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.948,
+      "priceLow": 3.838,
+      "weekDelta": 0.11,
+      "weekDeltaDir": "up",
+      "why": "Minnesota prices are up 11¢ this week as crude rebounds toward $90 on supply concerns. Current price sits 11¢ above the nearby low, and geopolitical tensions suggest further upside pressure in coming days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 69,
+        "refining": 10,
+        "taxes": 13,
+        "dist": 8
+      },
+      "trend": [
+        3.838,
+        3.838,
+        3.838,
+        3.838,
+        3.838,
+        3.838,
+        3.838,
+        3.854,
+        3.869,
+        3.885,
+        3.901,
+        3.917,
+        3.932,
+        3.948
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ms",
+      "state": "Mississippi",
+      "abbr": "MS",
+      "city": "Jackson",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.863,
+      "priceLow": 2.8,
+      "weekDelta": 0.063,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on geopolitical tensions and tightening US supplies. Mississippi prices are 2.2% above the local low and climbing week-over-week. Further upside pressure likely in the near term.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 13,
+        "taxes": 13,
+        "dist": 10
+      },
+      "trend": [
+        2.842,
+        2.835,
+        2.828,
+        2.821,
+        2.814,
+        2.807,
+        2.8,
         2.809,
-        2.803,
-        2.796,
-        2.789,
-        2.782
+        2.818,
+        2.827,
+        2.836,
+        2.845,
+        2.854,
+        2.863
       ],
       "priceSource": "eia_padd"
     },
@@ -1268,11 +1268,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.892,
-      "priceLow": 2.892,
-      "weekDelta": -0.086,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 8.6¢ week-over-week and are at a recent low. However, crude is rising toward $90 on supply tightening concerns, which could push pump prices higher within days.",
+      "price": 3.01,
+      "priceLow": 2.917,
+      "weekDelta": 0.093,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply concerns and geopolitical tensions. Missouri prices are up 9¢ week-over-week and 3¢ above regional low. Upward momentum suggests further gains ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1295,20 +1295,20 @@
         "dist": 10
       },
       "trend": [
-        2.947,
-        2.952,
-        2.957,
-        2.963,
-        2.968,
-        2.973,
+        2.991,
         2.978,
         2.966,
-        2.953,
-        2.941,
+        2.954,
+        2.942,
         2.929,
         2.917,
-        2.904,
-        2.892
+        2.93,
+        2.944,
+        2.957,
+        2.97,
+        2.983,
+        2.997,
+        3.01
       ],
       "priceSource": "eia_padd"
     },
@@ -1319,14 +1319,14 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
-      "price": 3.362,
-      "priceLow": 3.331,
-      "weekDelta": -0.015,
-      "weekDeltaDir": "down",
-      "why": "Montana prices are near recent lows and slightly down week-over-week. However, crude is rising toward $90 on geopolitical tension and supply tightening concerns, suggesting upward pressure ahead. The window to fill up cheaply is narrowing.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "verdict": "partial",
+      "price": 3.501,
+      "priceLow": 3.367,
+      "weekDelta": 0.134,
+      "weekDeltaDir": "up",
+      "why": "Montana prices are 4% above the week's low and crude is rising on Middle East tensions and tightening US supplies. Summer blend adds cost. Upward momentum suggests prices may stay elevated or climb further.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1341,26 +1341,26 @@
         }
       ],
       "breakdown": {
-        "crude": 66,
+        "crude": 67,
         "refining": 11,
-        "taxes": 14,
+        "taxes": 13,
         "dist": 9
       },
       "trend": [
-        3.338,
-        3.344,
-        3.351,
-        3.357,
-        3.364,
-        3.37,
-        3.377,
-        3.375,
+        3.38,
+        3.378,
+        3.376,
         3.373,
         3.371,
-        3.368,
-        3.366,
-        3.364,
-        3.362
+        3.369,
+        3.367,
+        3.386,
+        3.405,
+        3.424,
+        3.444,
+        3.463,
+        3.482,
+        3.501
       ],
       "priceSource": "eia_padd"
     },
@@ -1372,13 +1372,13 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.999,
-      "priceLow": 2.999,
-      "weekDelta": -0.089,
-      "weekDeltaDir": "down",
-      "why": "Nebraska prices are at a recent low of $2.999/gal with week-over-week decline. However, crude is rising toward $90/bbl on supply tightening concerns and geopolitical tensions, signaling upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "price": 3.121,
+      "priceLow": 3.025,
+      "weekDelta": 0.096,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply tightening concerns and geopolitical tensions. Nebraska is 9¢ above recent lows with WTI trending up. Summer blend adds cost, and momentum suggests further gains ahead.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -1393,26 +1393,26 @@
         }
       ],
       "breakdown": {
-        "crude": 62,
-        "refining": 13,
+        "crude": 63,
+        "refining": 12,
         "taxes": 15,
         "dist": 10
       },
       "trend": [
-        3.056,
-        3.062,
-        3.067,
-        3.072,
-        3.077,
-        3.083,
-        3.088,
-        3.075,
+        3.101,
+        3.089,
+        3.076,
         3.063,
         3.05,
-        3.037,
-        3.024,
-        3.012,
-        2.999
+        3.038,
+        3.025,
+        3.039,
+        3.052,
+        3.066,
+        3.08,
+        3.094,
+        3.107,
+        3.121
       ],
       "priceSource": "eia_padd"
     },
@@ -1424,11 +1424,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.727,
-      "priceLow": 3.727,
-      "weekDelta": -0.041,
-      "weekDeltaDir": "down",
-      "why": "Nevada prices are at their recent low of $3.727/gal, but crude is rising toward $90 on geopolitical tensions and supply concerns. Summer blend and upward pressure suggest prices may climb in the next 2–3 days.",
+      "price": 3.763,
+      "priceLow": 3.754,
+      "weekDelta": 0.009,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is climbing toward $90/barrel on tight US supply concerns and geopolitical tensions. Nevada prices are already near their recent low, and upward momentum suggests further increases ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1451,20 +1451,20 @@
         "dist": 8
       },
       "trend": [
+        3.789,
+        3.783,
+        3.777,
+        3.772,
+        3.766,
+        3.76,
+        3.754,
+        3.755,
+        3.757,
+        3.758,
         3.759,
-        3.761,
+        3.76,
         3.762,
-        3.764,
-        3.765,
-        3.767,
-        3.768,
-        3.762,
-        3.756,
-        3.75,
-        3.745,
-        3.739,
-        3.733,
-        3.727
+        3.763
       ],
       "priceSource": "eia_padd"
     },
@@ -1476,11 +1476,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.201,
-      "priceLow": 3.201,
-      "weekDelta": -0.05,
+      "price": 3.211,
+      "priceLow": 3.211,
+      "weekDelta": -0.018,
       "weekDeltaDir": "down",
-      "why": "You're already at the lowest local price. WTI is climbing toward $90 on supply concerns and geopolitical tension, signaling upward pressure ahead. Summer blend premiums are in effect.",
+      "why": "You're at the lowest nearby price as crude edges upward toward $90. Supply tightening signals suggest prices will rise over the next few days. This is a good window to fill up before the climb accelerates.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1503,20 +1503,20 @@
         "dist": 9
       },
       "trend": [
-        3.288,
-        3.282,
-        3.276,
-        3.269,
-        3.263,
+        3.271,
+        3.264,
         3.257,
-        3.251,
-        3.244,
-        3.237,
-        3.23,
-        3.222,
-        3.215,
-        3.208,
-        3.201
+        3.25,
+        3.243,
+        3.236,
+        3.229,
+        3.226,
+        3.224,
+        3.221,
+        3.219,
+        3.216,
+        3.214,
+        3.211
       ],
       "priceSource": "eia_padd"
     },
@@ -1528,11 +1528,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.201,
-      "priceLow": 3.201,
-      "weekDelta": -0.05,
+      "price": 3.211,
+      "priceLow": 3.211,
+      "weekDelta": -0.018,
       "weekDeltaDir": "down",
-      "why": "NJ prices are at a recent low with week-over-week decline. However, crude is rising toward $90 on supply concerns and geopolitical tensions, signaling upward pressure ahead. Current price is a good entry point before likely increases.",
+      "why": "NJ prices are at a recent low despite crude rising toward $90 on geopolitical tensions. Supply tightening could push prices up soon, but current level offers a good entry point before potential increases.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1555,20 +1555,20 @@
         "dist": 9
       },
       "trend": [
-        3.288,
-        3.282,
-        3.276,
-        3.269,
-        3.263,
+        3.271,
+        3.264,
         3.257,
-        3.251,
-        3.244,
-        3.237,
-        3.23,
-        3.222,
-        3.215,
-        3.208,
-        3.201
+        3.25,
+        3.243,
+        3.236,
+        3.229,
+        3.226,
+        3.224,
+        3.221,
+        3.219,
+        3.216,
+        3.214,
+        3.211
       ],
       "priceSource": "eia_padd"
     },
@@ -1580,12 +1580,12 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.075,
-      "priceLow": 3.075,
-      "weekDelta": -0.053,
-      "weekDeltaDir": "down",
-      "why": "NM prices hit a recent low at $3.075/gal with week-over-week declines. However, crude is rising toward $90/barrel on supply tightening and Iran tensions, signaling upward pressure ahead.",
-      "advice": "Fill up today",
+      "price": 3.164,
+      "priceLow": 3.095,
+      "weekDelta": 0.069,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is rising toward $90 on supply tightening concerns and geopolitical tensions. NM prices are 2.2% above the weekly low, and upward momentum suggests further increases ahead.",
+      "advice": "Fill up within 2 days",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -1601,26 +1601,26 @@
         }
       ],
       "breakdown": {
-        "crude": 66,
+        "crude": 67,
         "refining": 12,
         "taxes": 12,
-        "dist": 10
+        "dist": 9
       },
       "trend": [
-        3.192,
-        3.182,
-        3.171,
-        3.16,
-        3.149,
-        3.139,
-        3.128,
-        3.12,
-        3.113,
+        3.141,
+        3.134,
+        3.126,
+        3.118,
+        3.11,
+        3.103,
+        3.095,
         3.105,
-        3.098,
-        3.09,
-        3.083,
-        3.075
+        3.115,
+        3.125,
+        3.134,
+        3.144,
+        3.154,
+        3.164
       ],
       "priceSource": "eia_padd"
     },
@@ -1632,11 +1632,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 4.044,
-      "priceLow": 4.044,
-      "weekDelta": -0.059,
-      "weekDeltaDir": "down",
-      "why": "NY prices are at a recent low after a week-long decline. Crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead. Summer blend availability supports current pricing.",
+      "price": 4.042,
+      "priceLow": 4.042,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Prices are at a recent low, but crude is rising on supply concerns and geopolitical tension. Summer blend costs may increase soon as oil approaches $90/barrel.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1659,20 +1659,20 @@
         "dist": 7
       },
       "trend": [
-        4.103,
-        4.103,
-        4.103,
-        4.103,
-        4.103,
-        4.103,
-        4.103,
-        4.095,
-        4.086,
-        4.078,
-        4.069,
-        4.061,
-        4.052,
-        4.044
+        4.044,
+        4.044,
+        4.044,
+        4.044,
+        4.044,
+        4.044,
+        4.044,
+        4.044,
+        4.043,
+        4.043,
+        4.043,
+        4.043,
+        4.042,
+        4.042
       ],
       "priceSource": "eia_state"
     },
@@ -1684,11 +1684,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 2.977,
-      "priceLow": 2.977,
-      "weekDelta": -0.046,
+      "price": 2.986,
+      "priceLow": 2.986,
+      "weekDelta": -0.016,
       "weekDeltaDir": "down",
-      "why": "NC prices are at a recent low despite crude climbing toward $90. Geopolitical tension and supply tightening could push prices higher within days. Current levels offer a good fill-up window before the next upswing.",
+      "why": "NC prices are at a recent low while crude edges higher on supply concerns. Current level offers a decent window before potential further increases, though upward momentum is building.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -1711,20 +1711,20 @@
         "dist": 10
       },
       "trend": [
-        3.057,
-        3.052,
-        3.046,
-        3.04,
-        3.034,
+        3.042,
+        3.036,
         3.029,
-        3.023,
-        3.016,
-        3.01,
-        3.003,
+        3.022,
+        3.015,
+        3.009,
+        3.002,
+        3.0,
         2.997,
-        2.99,
-        2.984,
-        2.977
+        2.995,
+        2.993,
+        2.991,
+        2.988,
+        2.986
       ],
       "priceSource": "eia_padd"
     },
@@ -1736,843 +1736,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.086,
-      "priceLow": 3.086,
-      "weekDelta": -0.092,
-      "weekDeltaDir": "down",
-      "why": "ND prices are at their recent low, but crude is climbing toward $90 on supply tightness and geopolitical tension. Upward pressure likely in the next few days as refineries adjust to tighter crude.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 12,
-        "taxes": 13,
-        "dist": 10
-      },
-      "trend": [
-        3.145,
-        3.151,
-        3.156,
-        3.162,
-        3.167,
-        3.173,
-        3.178,
-        3.165,
-        3.152,
-        3.139,
-        3.125,
-        3.112,
-        3.099,
-        3.086
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "oh",
-      "state": "Ohio",
-      "abbr": "OH",
-      "city": "Columbus",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.899,
-      "priceLow": 3.899,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Prices are at a local low with crude climbing toward $90 on supply tightening concerns. Summer blend adds cost. Upward momentum likely continues over next few days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 68,
-        "refining": 10,
-        "taxes": 14,
-        "dist": 8
-      },
-      "trend": [
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899,
-        3.899
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ok",
-      "state": "Oklahoma",
-      "abbr": "OK",
-      "city": "Oklahoma City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.812,
-      "priceLow": 2.812,
-      "weekDelta": -0.048,
-      "weekDeltaDir": "down",
-      "why": "Oklahoma prices sit at a recent low of $2.812/gal as crude rebounds toward $90. Supply tightening concerns and geopolitical tensions suggest upward pressure ahead over the next few days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 14,
-        "taxes": 13,
-        "dist": 11
-      },
-      "trend": [
-        2.918,
-        2.909,
-        2.899,
-        2.889,
-        2.879,
-        2.87,
-        2.86,
-        2.853,
-        2.846,
-        2.839,
-        2.833,
-        2.826,
-        2.819,
-        2.812
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "or",
-      "state": "Oregon",
-      "abbr": "OR",
-      "city": "Portland",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.786,
-      "priceLow": 3.786,
-      "weekDelta": -0.041,
-      "weekDeltaDir": "down",
-      "why": "Oregon prices are at their recent low, and while crude is rising toward $90, current retail is competitive. Summer blend and steady supply keep costs stable this week.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 14,
-        "taxes": 14,
-        "dist": 8
-      },
-      "trend": [
-        3.818,
-        3.82,
-        3.821,
-        3.823,
-        3.824,
-        3.826,
-        3.827,
-        3.821,
-        3.815,
-        3.809,
-        3.804,
-        3.798,
-        3.792,
-        3.786
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "pa",
-      "state": "Pennsylvania",
-      "abbr": "PA",
-      "city": "Philadelphia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.435,
-      "priceLow": 3.435,
-      "weekDelta": -0.053,
-      "weekDeltaDir": "down",
-      "why": "PA prices are at their local low while crude edges upward toward $90 on geopolitical tensions and tightening US supplies. Summer blend costs and rising oil suggest limited downside ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 58,
-        "refining": 11,
-        "taxes": 22,
-        "dist": 9
-      },
-      "trend": [
-        3.528,
-        3.522,
-        3.515,
-        3.508,
-        3.501,
-        3.495,
-        3.488,
-        3.48,
-        3.473,
-        3.465,
-        3.458,
-        3.45,
-        3.443,
-        3.435
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "ri",
-      "state": "Rhode Island",
-      "abbr": "RI",
-      "city": "Providence",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.318,
-      "priceLow": 3.318,
-      "weekDelta": -0.051,
-      "weekDeltaDir": "down",
-      "why": "Rhode Island gas is at its recent low of $3.318/gal with week-over-week decline of 5¢. However, crude is rising toward $90 on geopolitical tensions and tightening US supplies, signaling upward pressure ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.408,
-        3.402,
-        3.395,
-        3.389,
-        3.382,
-        3.376,
-        3.369,
-        3.362,
-        3.354,
-        3.347,
-        3.34,
-        3.333,
-        3.325,
-        3.318
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sc",
-      "state": "South Carolina",
-      "abbr": "SC",
-      "city": "Columbia",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.977,
-      "priceLow": 2.977,
-      "weekDelta": -0.046,
-      "weekDeltaDir": "down",
-      "why": "Prices are at a recent low, but crude is climbing toward $90 on supply tightening concerns. Summer blend adds cost. Upward momentum suggests prices may rise in coming days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        3.057,
-        3.052,
-        3.046,
-        3.04,
-        3.034,
-        3.029,
-        3.023,
-        3.016,
-        3.01,
-        3.003,
-        2.997,
-        2.99,
-        2.984,
-        2.977
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "sd",
-      "state": "South Dakota",
-      "abbr": "SD",
-      "city": "Sioux Falls",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.057,
-      "priceLow": 3.057,
-      "weekDelta": -0.091,
-      "weekDeltaDir": "down",
-      "why": "SD prices are at their lowest point, having dropped 9¢ this week. Despite crude edging up toward $90 on geopolitical tension and supply concerns, local retail hasn't caught up yet. This is a favorable window before potential margin expansion.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 12,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        3.115,
-        3.121,
-        3.126,
-        3.132,
-        3.137,
-        3.143,
-        3.148,
-        3.135,
-        3.122,
-        3.109,
-        3.096,
-        3.083,
-        3.07,
-        3.057
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tn",
-      "state": "Tennessee",
-      "abbr": "TN",
-      "city": "Nashville",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 2.88,
-      "priceLow": 2.88,
-      "weekDelta": -0.049,
-      "weekDeltaDir": "down",
-      "why": "Prices have dropped 5 cents weekly and match local lows. However, crude is rising toward $90 amid geopolitical tension and tightening US supplies, signaling potential upward pressure on retail prices within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 13,
-        "taxes": 14,
-        "dist": 10
-      },
-      "trend": [
-        2.989,
-        2.979,
-        2.969,
-        2.959,
-        2.949,
-        2.939,
-        2.929,
-        2.922,
-        2.915,
-        2.908,
-        2.901,
-        2.894,
-        2.887,
-        2.88
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "tx",
-      "state": "Texas",
-      "abbr": "TX",
-      "city": "Houston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.513,
-      "priceLow": 3.513,
-      "weekDelta": -0.019,
-      "weekDeltaDir": "down",
-      "why": "You're at a local low after a small weekly decline. Crude is rising toward $90 on supply tightening concerns, suggesting upward pressure ahead. Summer blend keeps costs higher, but current price is competitive.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 69,
-        "refining": 11,
-        "taxes": 11,
-        "dist": 9
-      },
-      "trend": [
-        3.532,
-        3.532,
-        3.532,
-        3.532,
-        3.532,
-        3.532,
-        3.532,
-        3.529,
-        3.527,
-        3.524,
-        3.521,
-        3.518,
-        3.516,
-        3.513
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "ut",
-      "state": "Utah",
-      "abbr": "UT",
-      "city": "Salt Lake City",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.362,
-      "priceLow": 3.331,
-      "weekDelta": -0.015,
-      "weekDeltaDir": "down",
-      "why": "Utah prices are near recent lows and slightly down week-over-week. Despite crude rising toward $90 on supply concerns, current retail prices remain favorable. Summer blend premium has stabilized.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 65,
-        "refining": 11,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.338,
-        3.344,
-        3.351,
-        3.357,
-        3.364,
-        3.37,
-        3.377,
-        3.375,
-        3.373,
-        3.371,
-        3.368,
-        3.366,
-        3.364,
-        3.362
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "vt",
-      "state": "Vermont",
-      "abbr": "VT",
-      "city": "Burlington",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.299,
-      "priceLow": 3.299,
-      "weekDelta": -0.051,
-      "weekDeltaDir": "down",
-      "why": "Vermont gas is at a recent low matching nearby stations. While crude is rising toward $90 on geopolitical tensions and supply concerns, current retail prices haven't caught up yet. This is a favorable window before further increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 64,
-        "refining": 12,
-        "taxes": 15,
-        "dist": 9
-      },
-      "trend": [
-        3.389,
-        3.382,
-        3.376,
-        3.369,
-        3.363,
-        3.356,
-        3.35,
-        3.343,
-        3.335,
-        3.328,
-        3.321,
-        3.314,
-        3.306,
-        3.299
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "va",
-      "state": "Virginia",
-      "abbr": "VA",
-      "city": "Richmond",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.074,
-      "priceLow": 3.074,
-      "weekDelta": -0.048,
-      "weekDeltaDir": "down",
-      "why": "Prices are at a recent low and stable. However, crude is rising toward $90 on supply concerns and geopolitical tension. Summer blend adds cost. Refill now while at the low point before upstream pressure pushes prices higher.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 63,
-        "refining": 12,
-        "taxes": 15,
-        "dist": 10
-      },
-      "trend": [
-        3.158,
-        3.152,
-        3.146,
-        3.14,
-        3.134,
-        3.128,
-        3.122,
-        3.115,
-        3.108,
-        3.101,
-        3.095,
-        3.088,
-        3.081,
-        3.074
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wa",
-      "state": "Washington",
-      "abbr": "WA",
-      "city": "Seattle",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 5.056,
-      "priceLow": 5.056,
-      "weekDelta": 0.0,
-      "weekDeltaDir": "flat",
-      "why": "Prices are at a local low and stable this week. Crude is rising toward $90 on supply concerns, but summer blend keeps retail prices competitive. A brief window before potential increases.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 67,
-        "refining": 11,
-        "taxes": 16,
-        "dist": 6
-      },
-      "trend": [
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056,
-        5.056
-      ],
-      "priceSource": "eia_state"
-    },
-    {
-      "id": "wv",
-      "state": "West Virginia",
-      "abbr": "WV",
-      "city": "Charleston",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.104,
-      "priceLow": 3.104,
-      "weekDelta": -0.047,
-      "weekDeltaDir": "down",
-      "why": "WV gas is at its recent low of $3.104/gal after a strong week-over-week drop. Crude is rising toward $90 on geopolitical tension and supply tightening, but current retail prices haven't caught up yet. This is a favorable window before wholesale costs fully reflect upward pressure.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 61,
-        "refining": 12,
-        "taxes": 17,
-        "dist": 10
-      },
-      "trend": [
-        3.188,
-        3.182,
-        3.176,
-        3.169,
-        3.163,
-        3.157,
-        3.151,
-        3.144,
-        3.138,
-        3.131,
-        3.124,
-        3.117,
-        3.111,
-        3.104
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wi",
-      "state": "Wisconsin",
-      "abbr": "WI",
-      "city": "Milwaukee",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.183,
-      "priceLow": 3.183,
-      "weekDelta": -0.095,
-      "weekDeltaDir": "down",
-      "why": "Wisconsin prices sit at a recent low as crude rebounds toward $90. Summer blend adds supply cost, but week-over-week decline signals temporary relief. Geopolitical tension could push prices higher in coming days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
-      "wtiDir": "up",
-      "news": [
-        {
-          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
-        },
-        {
-          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
-          "source": "The Economic Times",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
-        }
-      ],
-      "breakdown": {
-        "crude": 62,
-        "refining": 12,
-        "taxes": 17,
-        "dist": 9
-      },
-      "trend": [
-        3.244,
-        3.249,
-        3.255,
-        3.261,
-        3.267,
-        3.272,
-        3.278,
-        3.264,
-        3.251,
-        3.237,
-        3.224,
-        3.21,
-        3.197,
-        3.183
-      ],
-      "priceSource": "eia_padd"
-    },
-    {
-      "id": "wy",
-      "state": "Wyoming",
-      "abbr": "WY",
-      "city": "Cheyenne",
-      "country": "US",
-      "unit": "gal",
-      "verdict": "buy",
-      "price": 3.262,
-      "priceLow": 3.232,
-      "weekDelta": -0.014,
-      "weekDeltaDir": "down",
-      "why": "WY prices are near a recent low and only 0.3% above the week's minimum. Crude is rising toward $90 on supply concerns, but current retail prices haven't fully caught up yet—this is a brief window before the next climb.",
+      "price": 3.212,
+      "priceLow": 3.113,
+      "weekDelta": 0.099,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tension. ND prices are 3.2% above the local low, and upward momentum suggests further increases in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2595,20 +1763,852 @@
         "dist": 9
       },
       "trend": [
+        3.192,
+        3.179,
+        3.166,
+        3.152,
+        3.139,
+        3.126,
+        3.113,
+        3.127,
+        3.141,
+        3.155,
+        3.17,
+        3.184,
+        3.198,
+        3.212
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "oh",
+      "state": "Ohio",
+      "abbr": "OH",
+      "city": "Columbus",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 4.18,
+      "priceLow": 4.18,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Oil prices rising toward $90 on geopolitical tensions and tightening US supplies. You're at current lows now, but upward pressure suggests prices may climb further in coming days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 9,
+        "taxes": 14,
+        "dist": 7
+      },
+      "trend": [
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18,
+        4.18
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ok",
+      "state": "Oklahoma",
+      "abbr": "OK",
+      "city": "Oklahoma City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.893,
+      "priceLow": 2.83,
+      "weekDelta": 0.063,
+      "weekDeltaDir": "up",
+      "why": "Oklahoma prices are up 6¢ week-over-week as crude climbs toward $90. Geopolitical tensions and tight US supplies are pushing oil higher. Brief relief may come, but the trend favors further increases.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 13,
+        "taxes": 12,
+        "dist": 10
+      },
+      "trend": [
+        2.872,
+        2.865,
+        2.858,
+        2.851,
+        2.844,
+        2.837,
+        2.83,
+        2.839,
+        2.848,
+        2.857,
+        2.866,
+        2.875,
+        2.884,
+        2.893
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "or",
+      "state": "Oregon",
+      "abbr": "OR",
+      "city": "Portland",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.822,
+      "priceLow": 3.813,
+      "weekDelta": 0.009,
+      "weekDeltaDir": "up",
+      "why": "Crude is climbing toward $90 on supply tightening concerns and geopolitical tension. Oregon prices are already near a local low and likely to track upward as crude strengthens this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 14,
+        "taxes": 14,
+        "dist": 8
+      },
+      "trend": [
+        3.849,
+        3.843,
+        3.837,
+        3.831,
+        3.825,
+        3.819,
+        3.813,
+        3.814,
+        3.816,
+        3.817,
+        3.818,
+        3.819,
+        3.821,
+        3.822
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "pa",
+      "state": "Pennsylvania",
+      "abbr": "PA",
+      "city": "Philadelphia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.446,
+      "priceLow": 3.446,
+      "weekDelta": -0.019,
+      "weekDeltaDir": "down",
+      "why": "PA prices are at a local low with modest week-over-week decline. Crude is rising toward $90 on supply tightening concerns, signaling upward pressure ahead. Summer blend demand remains steady.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 58,
+        "refining": 11,
+        "taxes": 22,
+        "dist": 9
+      },
+      "trend": [
+        3.51,
+        3.503,
+        3.495,
+        3.488,
+        3.48,
+        3.473,
+        3.465,
+        3.462,
+        3.46,
+        3.457,
+        3.454,
+        3.451,
+        3.449,
+        3.446
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "ri",
+      "state": "Rhode Island",
+      "abbr": "RI",
+      "city": "Providence",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.329,
+      "priceLow": 3.329,
+      "weekDelta": -0.018,
+      "weekDeltaDir": "down",
+      "why": "RI prices are at their local low and stable. Crude is rising toward $90 on supply concerns, but current retail price hasn't caught up yet. This narrow window won't last long as wholesale costs climb.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.391,
+        3.383,
+        3.376,
+        3.369,
+        3.362,
+        3.354,
+        3.347,
+        3.344,
+        3.342,
+        3.339,
+        3.337,
+        3.334,
+        3.332,
+        3.329
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sc",
+      "state": "South Carolina",
+      "abbr": "SC",
+      "city": "Columbia",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.986,
+      "priceLow": 2.986,
+      "weekDelta": -0.016,
+      "weekDeltaDir": "down",
+      "why": "SC prices are at a recent low and stable. Rising crude towards $90 and tightening US supplies suggest upward pressure ahead. Summer blend adds cost, but current window is favorable.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        3.042,
+        3.036,
+        3.029,
+        3.022,
+        3.015,
+        3.009,
+        3.002,
+        3.0,
+        2.997,
+        2.995,
+        2.993,
+        2.991,
+        2.988,
+        2.986
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "sd",
+      "state": "South Dakota",
+      "abbr": "SD",
+      "city": "Sioux Falls",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.182,
+      "priceLow": 3.083,
+      "weekDelta": 0.099,
+      "weekDeltaDir": "up",
+      "why": "Crude is rising toward $90 on supply concerns and geopolitical tension. SD prices are 3¢ above the local low and up 10¢ week-over-week. Upward momentum suggests further increases likely in the near term.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 12,
+        "taxes": 13,
+        "dist": 9
+      },
+      "trend": [
+        3.162,
+        3.149,
+        3.136,
+        3.122,
+        3.109,
+        3.096,
+        3.083,
+        3.097,
+        3.111,
+        3.125,
+        3.14,
+        3.154,
+        3.168,
+        3.182
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "tn",
+      "state": "Tennessee",
+      "abbr": "TN",
+      "city": "Nashville",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 2.963,
+      "priceLow": 2.899,
+      "weekDelta": 0.064,
+      "weekDeltaDir": "up",
+      "why": "Crude oil is climbing toward $90 amid geopolitical tensions and tightening US supplies. Tennessee prices have risen 6.4¢ this week and remain 6.4¢ above the local low. Further upward pressure likely as tensions persist.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 13,
+        "taxes": 14,
+        "dist": 10
+      },
+      "trend": [
+        2.942,
+        2.935,
+        2.928,
+        2.92,
+        2.913,
+        2.906,
+        2.899,
+        2.908,
+        2.917,
+        2.926,
+        2.936,
+        2.945,
+        2.954,
+        2.963
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "tx",
+      "state": "Texas",
+      "abbr": "TX",
+      "city": "Houston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "partial",
+      "price": 3.619,
+      "priceLow": 3.513,
+      "weekDelta": 0.106,
+      "weekDeltaDir": "up",
+      "why": "Texas prices are up 11¢ week-over-week as crude approaches $90 on geopolitical tensions and tightening US supplies. Summer blend and rising WTI suggest upward pressure may continue over the next few days.",
+      "advice": "Top off today, hold rest",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 70,
+        "refining": 11,
+        "taxes": 11,
+        "dist": 8
+      },
+      "trend": [
+        3.513,
+        3.513,
+        3.513,
+        3.513,
+        3.513,
+        3.513,
+        3.513,
+        3.528,
+        3.543,
+        3.558,
+        3.574,
+        3.589,
+        3.604,
+        3.619
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "ut",
+      "state": "Utah",
+      "abbr": "UT",
+      "city": "Salt Lake City",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.501,
+      "priceLow": 3.367,
+      "weekDelta": 0.134,
+      "weekDeltaDir": "up",
+      "why": "Utah prices are up 13¢ this week as crude climbs toward $90 on geopolitical tensions. You're paying a 13¢ premium over the local low, and upward momentum suggests further increases if Iran tensions persist.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 66,
+        "refining": 11,
+        "taxes": 14,
+        "dist": 9
+      },
+      "trend": [
+        3.38,
+        3.378,
+        3.376,
+        3.373,
+        3.371,
+        3.369,
+        3.367,
+        3.386,
+        3.405,
+        3.424,
+        3.444,
+        3.463,
+        3.482,
+        3.501
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "vt",
+      "state": "Vermont",
+      "abbr": "VT",
+      "city": "Burlington",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.309,
+      "priceLow": 3.309,
+      "weekDelta": -0.018,
+      "weekDeltaDir": "down",
+      "why": "Vermont gas is at its local low of $3.309/gal with modest week-over-week decline. However, crude is rising toward $90 on geopolitical tensions and supply concerns, signaling upward pressure ahead.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 65,
+        "refining": 11,
+        "taxes": 15,
+        "dist": 9
+      },
+      "trend": [
+        3.371,
+        3.363,
+        3.356,
+        3.349,
+        3.342,
+        3.334,
+        3.327,
+        3.324,
+        3.322,
+        3.319,
+        3.317,
+        3.314,
+        3.312,
+        3.309
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "va",
+      "state": "Virginia",
+      "abbr": "VA",
+      "city": "Richmond",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.084,
+      "priceLow": 3.084,
+      "weekDelta": -0.017,
+      "weekDeltaDir": "down",
+      "why": "Virginia prices are at their lowest point this week as crude rebounds toward $90. Geopolitical tensions and tightening US supplies suggest upward pressure ahead, but summer blend keeps local costs competitive. Current price represents a brief dip before likely increases.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 63,
+        "refining": 12,
+        "taxes": 15,
+        "dist": 10
+      },
+      "trend": [
+        3.141,
+        3.135,
+        3.128,
+        3.121,
+        3.114,
+        3.108,
+        3.101,
+        3.099,
+        3.096,
+        3.094,
+        3.091,
+        3.089,
+        3.086,
+        3.084
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wa",
+      "state": "Washington",
+      "abbr": "WA",
+      "city": "Seattle",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 5.121,
+      "priceLow": 5.121,
+      "weekDelta": 0.0,
+      "weekDeltaDir": "flat",
+      "why": "Washington prices are at their lowest point with flat week-over-week movement. Crude is rising toward $90 on supply tightening concerns, but current retail prices haven't caught up yet. Summer blend premium may push prices higher soon.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 67,
+        "refining": 11,
+        "taxes": 16,
+        "dist": 6
+      },
+      "trend": [
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121,
+        5.121
+      ],
+      "priceSource": "eia_state"
+    },
+    {
+      "id": "wv",
+      "state": "West Virginia",
+      "abbr": "WV",
+      "city": "Charleston",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.113,
+      "priceLow": 3.113,
+      "weekDelta": -0.017,
+      "weekDeltaDir": "down",
+      "why": "WV prices are at their local low with modest week-over-week decline. Crude is rising toward $90 on supply tightness concerns, signaling upward pressure ahead. Summer blend and stable inventory suggest a brief window before prices climb.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 61,
+        "refining": 12,
+        "taxes": 17,
+        "dist": 10
+      },
+      "trend": [
+        3.171,
+        3.164,
+        3.157,
+        3.151,
+        3.144,
+        3.137,
+        3.13,
+        3.128,
+        3.125,
+        3.123,
+        3.12,
+        3.118,
+        3.115,
+        3.113
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wi",
+      "state": "Wisconsin",
+      "abbr": "WI",
+      "city": "Milwaukee",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "buy",
+      "price": 3.313,
+      "priceLow": 3.211,
+      "weekDelta": 0.102,
+      "weekDeltaDir": "up",
+      "why": "Wisconsin prices are up 10¢ this week as crude rallies toward $90 on supply concerns and Iran tensions. Current price sits 10¢ above the regional low, with upward momentum likely to continue.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 64,
+        "refining": 11,
+        "taxes": 16,
+        "dist": 9
+      },
+      "trend": [
+        3.292,
+        3.279,
+        3.265,
+        3.252,
         3.238,
-        3.245,
-        3.251,
-        3.257,
-        3.263,
-        3.27,
-        3.276,
-        3.274,
-        3.272,
-        3.27,
-        3.268,
-        3.266,
-        3.264,
-        3.262
+        3.225,
+        3.211,
+        3.226,
+        3.24,
+        3.255,
+        3.269,
+        3.284,
+        3.298,
+        3.313
+      ],
+      "priceSource": "eia_padd"
+    },
+    {
+      "id": "wy",
+      "state": "Wyoming",
+      "abbr": "WY",
+      "city": "Cheyenne",
+      "country": "US",
+      "unit": "gal",
+      "verdict": "wait",
+      "price": 3.397,
+      "priceLow": 3.267,
+      "weekDelta": 0.13,
+      "weekDeltaDir": "up",
+      "why": "Wyoming prices have risen 13¢ this week as crude climbs toward $90 on supply concerns. You're 13¢ above the regional low, and upward momentum suggests further increases ahead.",
+      "advice": "Hold until midweek",
+      "bestDayIdx": 3,
+      "wtiDir": "up",
+      "news": [
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        },
+        {
+          "headline": "Oil prices rebound by more than $2 a barrel on prospect of tightening US crude supplies",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rebound-by-more-than-2-a-barrel-on-prospect-of-tightening-us-crude-supplies/articleshow/132697532.cms"
+        }
+      ],
+      "breakdown": {
+        "crude": 68,
+        "refining": 11,
+        "taxes": 12,
+        "dist": 9
+      },
+      "trend": [
+        3.279,
+        3.277,
+        3.275,
+        3.273,
+        3.271,
+        3.269,
+        3.267,
+        3.286,
+        3.304,
+        3.323,
+        3.341,
+        3.36,
+        3.378,
+        3.397
       ],
       "priceSource": "eia_padd"
     },
@@ -2620,11 +2620,11 @@
       "country": "US",
       "unit": "gal",
       "verdict": "buy",
-      "price": 3.465,
-      "priceLow": 3.465,
-      "weekDelta": -0.053,
+      "price": 3.475,
+      "priceLow": 3.475,
+      "weekDelta": -0.019,
       "weekDeltaDir": "down",
-      "why": "DC prices are at their weekly low as crude stabilizes near $86. Summer blend demand remains steady, but geopolitical tensions and tight US supplies could push oil higher toward $90 this week.",
+      "why": "DC gas is at a recent low with crude rising toward $90 on supply concerns. Prices may inch up over the next few days as oil rebounds, but current summer blend pricing offers a reasonable fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2647,20 +2647,20 @@
         "dist": 9
       },
       "trend": [
-        3.558,
-        3.552,
-        3.545,
-        3.538,
-        3.531,
+        3.54,
+        3.533,
         3.525,
-        3.518,
-        3.51,
-        3.503,
-        3.495,
-        3.488,
+        3.517,
+        3.509,
+        3.502,
+        3.494,
+        3.491,
+        3.489,
+        3.486,
+        3.483,
         3.48,
-        3.473,
-        3.465
+        3.478,
+        3.475
       ],
       "priceSource": "eia_padd"
     },
@@ -2676,7 +2676,7 @@
       "priceLow": 1.619,
       "weekDelta": 0.077,
       "weekDeltaDir": "up",
-      "why": "Prices rose 7.7¢/L week-over-week as crude climbs toward $90 on supply concerns and geopolitical tensions. Current 1.669 is 5¢ above the recent low, and upward momentum suggests further increases likely in coming days.",
+      "why": "Prices rose 7.7¢/L this week as crude climbs toward $90 on supply tightening concerns. Current price sits 5¢ above the local low, with upward momentum likely continuing.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -2728,9 +2728,9 @@
       "priceLow": 1.911,
       "weekDelta": 0.066,
       "weekDeltaDir": "up",
-      "why": "BC prices rose 6.6¢ this week as crude climbs toward $90 on geopolitical tensions and tightening US supplies. Current price sits 5.9¢ above the recent low, suggesting a temporary peak before pullback.",
-      "advice": "Top up partial · wait mid-week",
-      "bestDayIdx": 3,
+      "why": "Prices are 3% above the week's low and crude is rising on geopolitical tensions and supply concerns. Summer blend costs more, and upward momentum suggests further increases ahead.",
+      "advice": "Top off halfway today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -2775,14 +2775,14 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.695,
       "priceLow": 1.644,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tensions. MB prices are 0.8% above the regional low and up significantly week-over-week. Upward momentum suggests further increases likely in the near term.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Prices rose 5.6¢ this week as crude climbs toward $90 on supply concerns and geopolitical tensions. Current Manitoba prices sit 5¢ above the local low, with upward momentum likely to continue.",
+      "advice": "Top off today, wait for dip",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -2827,13 +2827,13 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.775,
       "priceLow": 1.722,
       "weekDelta": 0.059,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.9¢/L this week as crude rebounds toward $90 on supply concerns. Current price sits 5.3¢ above the regional low, with upward momentum likely to continue short-term.",
-      "advice": "Fill up today",
+      "why": "New Brunswick prices are 5.3¢/L above the local low and climbing with crude up on supply concerns. Summer blend adds cost, and geopolitical tensions suggest further upside risk in the near term.",
+      "advice": "Top off now, wait for dip",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2884,8 +2884,8 @@
       "priceLow": 1.755,
       "weekDelta": 0.06,
       "weekDeltaDir": "up",
-      "why": "Prices have risen $0.06 this week as crude climbs toward $90 on supply concerns. Current price ($1.809/L) sits $0.05 above the recent low, with upward momentum expected to continue in the near term.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Prices rose 6¢/L week-over-week as crude approaches $90 on supply concerns. Current price trails the recent low by 5.4¢/L, and upward momentum from geopolitical tension suggests further increases likely in the next few days.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
@@ -2931,13 +2931,13 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.814,
       "priceLow": 1.76,
       "weekDelta": 0.012,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on geopolitical tension and tightening US supplies. Current NS price is 3% above the nearby low, with upward pressure likely to persist through the week.",
-      "advice": "Half now · full Thursday",
+      "why": "Crude oil is rising toward $90/barrel on supply concerns and geopolitical tension. Nova Scotia prices are 3% above the week's low, and upward momentum suggests further increases ahead.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
@@ -2983,14 +2983,14 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.691,
       "priceLow": 1.64,
       "weekDelta": 0.088,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on supply tightening concerns and geopolitical tensions. Ontario prices are 0.051 $/L above the local low, and week-over-week gains show upward momentum. Further increases likely in the near term.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Ontario prices are up 8.8¢ this week as crude approaches $90 on geopolitical tensions and supply concerns. Current price is 3% above the local low, with upward momentum likely continuing short-term.",
+      "advice": "Top off now · wait for dip",
+      "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
         {
@@ -3035,14 +3035,14 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.764,
       "priceLow": 1.711,
       "weekDelta": 0.059,
       "weekDeltaDir": "up",
-      "why": "PE prices are 3.5¢ above the local low and rising week-over-week. Crude is climbing toward $90 on supply concerns, signaling continued upward pressure. Summer blend adds seasonal cost.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "PE prices are 5.3¢ above the local low and climbing. Crude is rising toward $90 on supply concerns, and summer blend seasonal factors keep upward pressure. A brief pullback is possible, but don't expect significant drops soon.",
+      "advice": "Top off now · watch Wed",
+      "bestDayIdx": 3,
       "wtiDir": "up",
       "news": [
         {
@@ -3087,14 +3087,14 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 1.809,
       "priceLow": 1.755,
       "weekDelta": 0.06,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on geopolitical tension and supply tightness. Quebec prices are 5.4¢ above the regional low, and upward momentum suggests further increases ahead. Summer blend typically peaks mid-week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Prices rose 6 cents this week as crude climbs toward $90 on geopolitical tension and supply tightening concerns. Current price is 5.4 cents above the local low, with upward momentum likely continuing over the next few days.",
+      "advice": "Top off today · wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
       "news": [
         {
@@ -3144,7 +3144,7 @@
       "priceLow": 1.567,
       "weekDelta": 0.054,
       "weekDeltaDir": "up",
-      "why": "Crude is rising toward $90 on supply tightening concerns and geopolitical tension. Saskatchewan prices are 3% above the week's low and tracking upward. Relief unlikely in the next 2–3 days.",
+      "why": "Crude is rising toward $90 on supply concerns and geopolitical tension. Saskatchewan prices are 1.6% above the recent low, and upward momentum suggests further gains ahead. A 2–3 day dip is unlikely given current oil market strength.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
@@ -3191,13 +3191,13 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 2.153,
       "priceLow": 2.088,
       "weekDelta": 0.072,
       "weekDeltaDir": "up",
-      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tensions. Northern Canada prices are 3% above recent lows and trending upward. Summer blend maintains higher margins, so further gains likely in coming days.",
-      "advice": "Top off today · wait",
+      "why": "Crude is climbing toward $90 on supply concerns and geopolitical tensions. Northern Canada prices are already up 7.2¢ this week and sit 3% above the local low. Further upward pressure likely as tensions persist.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
       "news": [
