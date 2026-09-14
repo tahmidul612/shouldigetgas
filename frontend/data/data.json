@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-09-14T00:00:59.726999+00:00",
-    "pricesUpdatedAt": "2026-09-14T00:00:52.059070+00:00",
+    "updatedAt": "2026-09-14T06:01:08.595831+00:00",
+    "pricesUpdatedAt": "2026-09-14T06:00:54.709264+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-09-14T00:33:14.949093+00:00",
-    "nextAnalysisUpdate": "2026-09-14T06:03:14.949109+00:00"
+    "nextPriceUpdate": "2026-09-14T06:34:46.274565+00:00",
+    "nextAnalysisUpdate": "2026-09-14T12:04:46.274588+00:00"
   },
   "wti": {
     "price": 97.26,
@@ -24,11 +24,22 @@
       "priceLow": 2.926,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Prices have risen 5.5¢ this week as crude climbs above $97. Current price is 2¢ above local low. Upward momentum suggests further increases likely this week.",
-      "advice": "Fill up today or tomorrow",
+      "why": "Prices rose 5.5¢ this week as crude climbs past $97. Summer blend ends soon, which typically reduces costs. Current price is only 5.5¢ above the nearby low—modest cushion with upward momentum.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 64,
         "refining": 13,
@@ -60,16 +71,27 @@
       "city": "Anchorage",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.915,
       "priceLow": 3.758,
       "weekDelta": 0.114,
       "weekDeltaDir": "up",
-      "why": "Alaska prices rose 11¢ week-over-week and crude is climbing. Current price sits 16¢ above the local low, suggesting room to drop. Fall seasonal demand is moderate, but upward crude momentum may limit near-term relief.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "Alaska prices are 4.2% above recent lows and rising with crude oil climbing toward $100/barrel. Summer blend and upward crude momentum suggest limited near-term relief.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 78,
         "refining": 10,
@@ -101,16 +123,27 @@
       "city": "Phoenix",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.378,
       "priceLow": 3.243,
       "weekDelta": 0.098,
       "weekDeltaDir": "up",
-      "why": "Arizona prices are up 3¢ week-over-week as WTI crude rises. Current price sits 4¢ above the regional low, with upward momentum expected to persist. Fall seasonal demand and rising crude suggest limited near-term relief.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Arizona prices are 4% above the local low and trending upward with crude climbing. WTI's rise suggests further increases ahead, though summer blend transitions to winter blend soon, which typically eases prices.",
+      "advice": "Top off by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 69,
         "refining": 11,
@@ -142,16 +175,27 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.918,
       "priceLow": 2.865,
       "weekDelta": 0.053,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.3¢ week-over-week as crude climbed $3. Current price sits 1.8% above the local low. With crude trending upward and no relief signals nearby, filling now offers modest protection against further gains.",
-      "advice": "Fill up today",
+      "why": "Prices rose 5.3¢ this week as crude climbs toward $97. Summer blend still in effect, and upward momentum suggests further increases likely over the next few days.",
+      "advice": "Top off today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 13,
@@ -183,16 +227,27 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 5.678,
       "priceLow": 5.52,
       "weekDelta": 0.158,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3¢ week-over-week and crude is climbing. You're 16¢ above the recent low, and rising crude suggests further gains ahead. Fall transition to winter blend may add upward pressure.",
-      "advice": "Hold until mid-week",
-      "bestDayIdx": 3,
+      "why": "California prices remain elevated at $5.68/gal, up 16¢ week-over-week as WTI crude climbs. Summer blend and regional supply constraints keep costs high. No near-term relief expected.",
+      "advice": "Fill up early week",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 71,
         "refining": 11,
@@ -229,11 +284,22 @@
       "priceLow": 4.132,
       "weekDelta": 0.055,
       "weekDeltaDir": "up",
-      "why": "Colorado prices rose 5.5¢ this week as crude climbed above $97. Summer blend still in effect, supporting prices. No immediate supply disruptions expected, but upward momentum suggests further increases possible.",
-      "advice": "Fill up within 2 days",
+      "why": "WTI crude is rising strongly (+3.05) and CO prices jumped 5.5¢ week-over-week, signaling upward momentum. You're only 0.55¢ above the local low, but further gains are likely as oil stays elevated.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 74,
         "refining": 9,
@@ -270,11 +336,22 @@
       "priceLow": 3.482,
       "weekDelta": 0.084,
       "weekDeltaDir": "up",
-      "why": "Prices up 8.4¢ this week as crude climbs above $97. Connecticut sits 9.8¢ above the regional low, signaling room to drop. Upward crude momentum suggests continued pressure, but seasonal fall demand may soften soon.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
+      "why": "Connecticut prices are 2.8% above the regional low and trending upward with crude oil climbing. Summer blend inventory is winding down, and geopolitical tension is supporting higher oil costs.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 12,
@@ -311,11 +388,22 @@
       "priceLow": 3.23,
       "weekDelta": 0.077,
       "weekDeltaDir": "up",
-      "why": "Prices rose 7.7¢ this week as crude climbed above $97. You're 9¢ above the lowest nearby station. With WTI trending up and no local news relief expected, momentum favors higher prices in the near term.",
+      "why": "Crude oil is rising ($97.26, +$3.05) and Delaware prices jumped 7.7¢ week-over-week. You're paying 9¢ above the regional low, signaling upward momentum. A brief pullback is possible, but the trend favors filling soon.",
       "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 68,
         "refining": 11,
@@ -352,11 +440,22 @@
       "priceLow": 3.825,
       "weekDelta": 0.035,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3.5¢ week-over-week with crude rising sharply (+$3.05). Summer blend still in effect and no regional disruptions, but upward momentum suggests further increases likely this week.",
-      "advice": "Fill up today",
+      "why": "Crude oil is rising ($97.26, up $3.05) and Florida prices climbed 3.5¢ week-over-week. Summer blend expires soon, which typically lowers prices, but near-term upward momentum from geopolitical tensions suggests prices may hold firm or edge higher before the seasonal drop kicks in.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 10,
@@ -388,16 +487,27 @@
       "city": "Atlanta",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.03,
       "priceLow": 2.947,
       "weekDelta": 0.071,
       "weekDeltaDir": "up",
-      "why": "Prices rose 7.1¢ week-over-week and crude is climbing. Current price is 2.8% above the local low, suggesting room for further increases if WTI continues upward.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 0,
+      "why": "Prices rose 7¢ this week and crude is climbing on geopolitical tensions. You're 2.8% above the nearby low, suggesting a local peak. Further gains likely in coming days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 61,
         "refining": 13,
@@ -429,16 +539,27 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 4.788,
       "priceLow": 4.596,
       "weekDelta": 0.139,
       "weekDeltaDir": "up",
-      "why": "Hawaii prices rose 13.9¢ this week as WTI crude climbed $3.05. Current price is 1.9% above the local low, and upward crude momentum suggests further increases ahead.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Hawaii prices are elevated at $4.79/gal, up 14¢ week-over-week as WTI crude climbs above $97. Prices remain 19¢ above the local low, suggesting limited near-term relief despite seasonal fall transition.",
+      "advice": "Hold until mid-week",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 71,
         "refining": 10,
@@ -470,16 +591,27 @@
       "city": "Boise",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.484,
       "priceLow": 3.445,
       "weekDelta": 0.039,
       "weekDeltaDir": "up",
-      "why": "Prices rose 3.9¢ this week and crude is climbing. Current price is slightly above the local low, and upward momentum suggests further increases likely within 2–5 days.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "WTI crude is rising sharply (+$3.05) and prices are up week-over-week. You're only 1.1¢ above the local low, but upward momentum suggests prices may climb further in the near term.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 11,
@@ -516,11 +648,22 @@
       "priceLow": 3.653,
       "weekDelta": 0.045,
       "weekDeltaDir": "up",
-      "why": "Illinois prices have risen 4.5¢ this week as WTI crude climbs above $97. Current pump price sits just 0.5¢ above the regional low. Upward momentum in oil suggests further increases ahead.",
-      "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "why": "Illinois prices rose 4.5¢ this week as WTI crude climbed $3 on geopolitical tensions. You're within 1.3% of the local low, and upward momentum suggests further increases ahead.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 58,
         "refining": 13,
@@ -557,11 +700,22 @@
       "priceLow": 3.27,
       "weekDelta": 0.04,
       "weekDeltaDir": "up",
-      "why": "Prices rose 4¢ week-over-week and crude is climbing. Current price is only slightly above the regional low, suggesting limited upside room but potential for continued softness if crude stabilizes.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "WTI crude is rising and Indiana prices are up week-over-week, signaling upward momentum. Prices remain slightly above the regional low, and fall seasonal demand typically supports higher prices.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 60,
         "refining": 11,
@@ -593,16 +747,27 @@
       "city": "Des Moines",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.146,
       "priceLow": 3.108,
       "weekDelta": 0.038,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3.8¢ this week as crude rises. You're only 1.2¢ above the local low, and WTI momentum is upward, suggesting further increases ahead.",
-      "advice": "Top off today or tomorrow",
+      "why": "Crude oil is rising toward $100/barrel and prices are up week-over-week. Current retail is slightly above the local low. With upward momentum and no near-term relief expected, filling up soon is prudent.",
+      "advice": "Fill up today or tomorrow",
       "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 12,
@@ -639,11 +804,22 @@
       "priceLow": 3.048,
       "weekDelta": 0.037,
       "weekDeltaDir": "up",
-      "why": "Prices rose 3.7¢ this week as crude climbed sharply. You're only 1.2¢ above the local low, and upward momentum suggests further increases ahead. Early-week fill-up makes sense before prices climb further.",
+      "why": "Kansas prices up 3.7¢ week-over-week as WTI crude climbs above $97. Summer blend still in effect, but upward momentum and geopolitical tensions suggest further gains ahead.",
       "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 64,
         "refining": 12,
@@ -680,11 +856,22 @@
       "priceLow": 3.11,
       "weekDelta": 0.058,
       "weekDeltaDir": "up",
-      "why": "Kentucky prices are 5.8¢ above last week and crude is climbing. Summer blend still in effect, but upward momentum suggests further increases likely within days.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Prices are up 5.8¢ week-over-week as crude climbs above $97. You're only 1.7% above the local low, and seasonal fall demand typically softens prices. The recent Labor Day spike is fading.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 64,
         "refining": 12,
@@ -716,16 +903,27 @@
       "city": "New Orleans",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.033,
       "priceLow": 2.977,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "Prices are up 5.6¢ week-over-week and crude is rising sharply (+$3.05). You're 5.6¢ above the local low, with upward momentum likely continuing in the short term.",
-      "advice": "Top off today, avoid full fill",
+      "why": "Prices rose 5.6¢ this week as crude climbs above $97. You're only 1.9% above the local low, and upward momentum suggests further increases ahead unless crude reverses.",
+      "advice": "Fill up within 2 days",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 64,
         "refining": 13,
@@ -757,16 +955,27 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.507,
       "priceLow": 3.411,
       "weekDelta": 0.082,
       "weekDeltaDir": "up",
-      "why": "Prices up 8¢ week-over-week with crude climbing $3 and summer blend still in effect. Current price 3¢ above nearby low, suggesting room to drop as seasonal transition approaches.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 4,
+      "why": "Maine prices are up 8¢ week-over-week as WTI crude climbs sharply (+$3.05). Summer blend still in effect, and regional supply remains tight. Upward momentum suggests further near-term pressure.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 11,
@@ -798,16 +1007,27 @@
       "city": "Baltimore",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.403,
       "priceLow": 3.311,
       "weekDelta": 0.079,
       "weekDeltaDir": "up",
-      "why": "Maryland prices are up 7.9¢ week-over-week as crude climbs. Current price sits 2.8% above the regional low, suggesting a temporary spike. Upward crude momentum indicates further near-term pressure.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 7.9¢ this week as crude climbs toward $97. Maryland is 9¢ above the regional low, suggesting room to drop. Fall transition to winter blend typically eases supply pressure.",
+      "advice": "Hold until mid-week",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 62,
         "refining": 11,
@@ -844,11 +1064,22 @@
       "priceLow": 4.068,
       "weekDelta": 0.092,
       "weekDeltaDir": "up",
-      "why": "Prices rose 9¢ this week and crude is climbing. MA is 2¢ above the regional low, suggesting some upward pressure may continue. Fall transition and summer blend inventory are neutral factors.",
-      "advice": "Top off today, monitor",
-      "bestDayIdx": 0,
+      "why": "Prices rose 9.2¢ this week as WTI crude climbed above $97. Current MA price sits 9.2¢ above regional low, with crude momentum still upward. Geopolitical tensions support further short-term volatility.",
+      "advice": "Top off today · wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 71,
         "refining": 11,
@@ -885,11 +1116,22 @@
       "priceLow": 3.351,
       "weekDelta": 0.04,
       "weekDeltaDir": "up",
-      "why": "Michigan prices rose 4 cents week-over-week as crude climbed $3. Current price is only 0.4% above the nearby low, suggesting limited downside. Upward crude momentum and summer blend availability offer little relief.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Crude is climbing sharply (+$3.05) and Michigan prices are up week-over-week. You're only 1.2% above the local low, but upward momentum suggests prices may continue rising over the next few days.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 62,
         "refining": 11,
@@ -926,11 +1168,22 @@
       "priceLow": 3.955,
       "weekDelta": 0.122,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3¢ week-over-week and crude is climbing. Current pump is 3% above the week's low. With WTI rising, further gains likely in the next few days before potential stabilization.",
+      "why": "Prices rose sharply week-over-week (+$0.12) as crude climbs toward $97. Summer blend still in effect, keeping costs elevated. A near 3¢ gap to the regional low suggests room to drop once crude stabilizes.",
       "advice": "Top off partially today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 71,
         "refining": 9,
@@ -967,11 +1220,22 @@
       "priceLow": 2.906,
       "weekDelta": 0.054,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.4¢ this week as crude climbs toward $97. You're 5.4¢ above the local low, and upward momentum on crude suggests further increases ahead. Small gap to best price makes waiting risky.",
+      "why": "Crude oil is rising sharply ($97.26, up $3.05) and MS prices climbed 5.4¢ week-over-week. You're still 5.4¢ above the recent low, suggesting upward momentum may continue in the near term.",
       "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 13,
@@ -1008,11 +1272,22 @@
       "priceLow": 3.007,
       "weekDelta": 0.037,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3.7¢ week-over-week amid rising crude oil ($97+). You're within 1% of the local low, but upward momentum suggests further increases likely in coming days.",
+      "why": "Crude oil is rising sharply (+$3.05) and prices have climbed week-over-week. You're currently 1.2% above the local low, with upward momentum likely continuing due to geopolitical tensions.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 12,
@@ -1044,16 +1319,27 @@
       "city": "Billings",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 3.558,
       "priceLow": 3.518,
       "weekDelta": 0.04,
       "weekDeltaDir": "up",
-      "why": "Prices are up 4¢ week-over-week and crude is rising sharply (+$3.05). You're near but not at the lowest point, and upward momentum suggests further increases ahead.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices rose 4 cents week-over-week as WTI crude climbs toward $97. Montana sits 0.04 above local low. Upward momentum suggests further increases likely in the next few days.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 68,
         "refining": 11,
@@ -1085,16 +1371,27 @@
       "city": "Omaha",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.157,
       "priceLow": 3.118,
       "weekDelta": 0.039,
       "weekDeltaDir": "up",
-      "why": "Prices have risen 4¢ this week as crude climbs above $97. Current price is only 1.2% above the week's low, suggesting limited upside room. Further crude increases could push prices higher before stabilizing.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Prices rose 3.9¢ week-over-week as crude climbs above $97. You're near recent lows but upward momentum suggests further gains ahead. Summer blend inventory drawdown adds seasonal pressure.",
+      "advice": "Top off today, hold rest",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 12,
@@ -1131,11 +1428,22 @@
       "priceLow": 3.859,
       "weekDelta": 0.117,
       "weekDeltaDir": "up",
-      "why": "Nevada prices are 4.2% above the week's low and crude is rising sharply (+3%). Fall refinery transitions and upward crude momentum suggest further increases likely through mid-week.",
-      "advice": "Fill up by Wednesday",
-      "bestDayIdx": 2,
+      "why": "Nevada prices are elevated at $4.02/gal, up 12¢ week-over-week, tracking rising crude ($97+). A 4¢ gap to local lows suggests limited immediate relief. WTI momentum upward signals continued pressure.",
+      "advice": "Top off today · watch for dips",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 67,
         "refining": 9,
@@ -1167,16 +1475,27 @@
       "city": "Manchester",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.403,
       "priceLow": 3.311,
       "weekDelta": 0.079,
       "weekDeltaDir": "up",
-      "why": "Prices have risen 7.9¢ this week and crude is climbing. Current price is 2.8% above the regional low, signaling upward momentum. Waiting 2–3 days may yield better rates before seasonal demand peaks.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices have risen 7.9¢ this week as crude climbs toward $97, reversing summer's downward trend. A nearby station shows prices 9¢ cheaper—gap likely to narrow as crude momentum continues upward.",
+      "advice": "Fill up today at low-price sta",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 69,
         "refining": 11,
@@ -1208,16 +1527,27 @@
       "city": "Newark",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.403,
       "priceLow": 3.311,
       "weekDelta": 0.079,
       "weekDeltaDir": "up",
-      "why": "Prices rose 7.9¢ this week and crude is climbing. You're paying 2.8¢ above the local low, with upward momentum likely continuing through the week.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Prices rose 7.9¢ week-over-week and crude is climbing on geopolitical tensions. You're 9¢ above the nearby low, suggesting room to drop as market stabilizes.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 61,
         "refining": 13,
@@ -1249,16 +1579,27 @@
       "city": "Albuquerque",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.271,
       "priceLow": 3.212,
       "weekDelta": 0.059,
       "weekDeltaDir": "up",
-      "why": "Prices rose 5.9¢ this week as WTI crude climbed $3 to $97.26/barrel. Current price sits 6¢ above the local low, with upward momentum continuing. Fall refinery transitions may add further pressure.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Prices rose 5.9¢ this week as crude climbs toward $97. New Mexico sits slightly above the local low, and upward momentum suggests further increases ahead. Waiting 2–3 days may offer a better entry point.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 68,
         "refining": 12,
@@ -1295,11 +1636,22 @@
       "priceLow": 4.26,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices hold steady at local lows with WTI crude rising sharply. Upward pressure is building, so the current level won't last long.",
+      "why": "NY gas is at a local low with no week-over-week change, but crude is rising sharply (+$3.05) and approaching resistance. Summer blend ends soon, which typically raises prices. Current stability won't last.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 11,
@@ -1336,11 +1688,22 @@
       "priceLow": 3.078,
       "weekDelta": 0.074,
       "weekDeltaDir": "up",
-      "why": "Prices are up 7.4¢ week-over-week and crude is rising. Current price is 2.8% above the local low, suggesting room to drop. Autumn transition and stable demand don't support further gains near-term.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
+      "why": "Crude oil is rising and NC prices are up 7.4¢ week-over-week, still 8.7¢ above the local low. Summer blend inventory is likely tightening as fall approaches. Upward momentum suggests limited immediate relief.",
+      "advice": "Fill up within 2 days",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 12,
@@ -1372,16 +1735,27 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.248,
       "priceLow": 3.209,
       "weekDelta": 0.039,
       "weekDeltaDir": "up",
-      "why": "Prices have risen 1.2% week-over-week as crude pushes higher. Current price is only 1.2% above the local low, and upward crude momentum suggests limited room for improvement soon.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Prices rose 3.9¢ this week as crude climbs toward $97. You're 1.2% above the local low, and upward momentum continues. Fall blend transition and geopolitical tension suggest further pressure ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 12,
@@ -1418,11 +1792,22 @@
       "priceLow": 3.885,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio prices are holding steady at $3.885/gal with no regional pressures. However, WTI crude is rising (+$3.05) and summer blend phase-out begins soon, which typically increases costs. Current prices reflect a temporary equilibrium before likely increases.",
+      "why": "Ohio prices are flat at $3.885/gal, matching the local low. WTI crude is rising (+$3.05) and approaching $98, signaling upward pressure ahead. Fill up now before the next climb.",
       "advice": "Fill up today",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 67,
         "refining": 10,
@@ -1459,11 +1844,22 @@
       "priceLow": 2.937,
       "weekDelta": 0.054,
       "weekDeltaDir": "up",
-      "why": "Prices up 5.4¢ this week as crude climbs. You're currently 5.4¢ above the lowest nearby station. WTI momentum is upward, suggesting further increases ahead.",
-      "advice": "Fill up today at low station",
+      "why": "Crude oil is climbing toward $100/barrel amid geopolitical tension. Oklahoma prices are up 5.4¢ week-over-week and still above the local low. Further increases likely as oil momentum continues upward.",
+      "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 13,
@@ -1495,16 +1891,27 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 4.083,
       "priceLow": 3.919,
       "weekDelta": 0.119,
       "weekDeltaDir": "up",
-      "why": "Prices are up 3¢ week-over-week and crude is climbing. You're paying 4¢ above the regional low, suggesting further upside risk. Fall seasonal transition and rising WTI indicate limited near-term relief.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Oregon prices are up 12¢ week-over-week and crude is climbing. You're 16¢ above the regional low, suggesting more room to fall before winter blend transition and potential demand softening.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 67,
         "refining": 13,
@@ -1541,11 +1948,22 @@
       "priceLow": 3.553,
       "weekDelta": 0.085,
       "weekDeltaDir": "up",
-      "why": "Prices rose 8.5¢ week-over-week as crude climbs above $97. You're 10¢ above the local low, and upward momentum suggests further increases ahead. Fall blend transition may add pressure.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 8.5¢ this week as crude climbed above $97. You're 10¢ above the local low, and upward momentum suggests further gains ahead. Fall blend transition may stabilize prices in 2–3 days.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 61,
         "refining": 10,
@@ -1582,11 +2000,22 @@
       "priceLow": 3.432,
       "weekDelta": 0.082,
       "weekDeltaDir": "up",
-      "why": "Prices rose 8¢ this week as crude climbed above $97. You're paying a 2.8% premium over the regional low. Upward momentum suggests further gains ahead.",
-      "advice": "Top off today · watch Wed",
+      "why": "Prices rose 8.2¢ this week as crude climbed above $97. Still 9.6¢ above the recent low, suggesting room to fall. Upward momentum may pause mid-week as market absorbs crude gains.",
+      "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 11,
@@ -1618,16 +2047,27 @@
       "city": "Columbia",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.165,
       "priceLow": 3.078,
       "weekDelta": 0.074,
       "weekDeltaDir": "up",
-      "why": "Prices up 7.4¢ week-over-week with crude climbing $3+. Current price 2.8¢ above local low, and upward momentum suggests further gains ahead as WTI strengthens.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 0,
+      "why": "Prices are up 7.4¢ this week as crude climbs toward $97. You're still 8.7¢ above the nearby low, and upward momentum suggests further increases ahead. Fall blend transition hasn't yet provided relief.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 12,
@@ -1664,11 +2104,22 @@
       "priceLow": 3.179,
       "weekDelta": 0.039,
       "weekDeltaDir": "up",
-      "why": "Prices rose 4¢ week-over-week as crude climbed above $97. Current SD price is only 0.4¢ above the weekly low, suggesting limited upside room. Crude momentum is upward but not yet extreme.",
+      "why": "Prices rose 3.9¢ week-over-week as crude climbed $3+ to $97/barrel. Current price sits 1.4% above the nearby low, suggesting modest upward momentum. Fall transition and geopolitical oil tensions support continued pressure.",
       "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 12,
@@ -1700,16 +2151,27 @@
       "city": "Nashville",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "buy",
       "price": 3.064,
       "priceLow": 3.008,
       "weekDelta": 0.056,
       "weekDeltaDir": "up",
-      "why": "Prices have climbed 5.6¢ this week and crude is rising sharply. You're 5.6¢ above the local low, and upward momentum suggests further increases ahead.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Crude oil climbing toward $97+ signals upward pressure on retail prices. Tennessee prices are 5.6¢ above last week and still 5.6¢ above the local low. Further gains likely as WTI momentum strengthens.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 12,
@@ -1746,11 +2208,22 @@
       "priceLow": 3.618,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Texas prices are at their lowest point with no weekly change. WTI crude is rising sharply (+3.05), signaling upward pressure on retail prices within days. Current stability won't last long.",
+      "why": "Texas gas is at its lowest point with no week-over-week change, but crude oil is rising sharply (+$3.05). Summer blend ends soon, which typically adds cost. The upward crude momentum suggests prices will climb in the next few days.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 70,
         "refining": 11,
@@ -1782,16 +2255,27 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.558,
       "priceLow": 3.518,
       "weekDelta": 0.04,
       "weekDeltaDir": "up",
-      "why": "Prices are up 4¢ this week with WTI crude rising sharply. You're only 1% above the local low, suggesting limited upside room, but upward momentum and crude strength could push prices higher midweek.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 0,
+      "why": "Utah prices rose 4¢ this week as crude climbed above $97. You're within 1¢ of local lows, but upward momentum from geopolitical tensions and refinery constraints suggests further increases ahead.",
+      "advice": "Top off today · wait for Frida",
+      "bestDayIdx": 5,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 67,
         "refining": 11,
@@ -1823,16 +2307,27 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 3.507,
       "priceLow": 3.411,
       "weekDelta": 0.082,
       "weekDeltaDir": "up",
-      "why": "Vermont gas is up 8 cents week-over-week with crude climbing $3 and no regional support. Prices remain above the local low, and upward crude momentum suggests further increases likely this week.",
-      "advice": "Fill up today if possible",
-      "bestDayIdx": 0,
+      "why": "Prices are up 8¢ week-over-week and crude is rising on geopolitical tension. Vermont is 9¢ above its local low, suggesting room to drop before stabilizing.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 66,
         "refining": 11,
@@ -1869,11 +2364,22 @@
       "priceLow": 3.179,
       "weekDelta": 0.076,
       "weekDeltaDir": "up",
-      "why": "Prices up 7.6¢ week-over-week with crude rising sharply. Current price 2.8% above nearby low, signaling upward momentum. Seasonal fall transition and summer blend still in effect support higher prices.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Prices rose 7.6¢ this week as crude climbed above $97. Summer blend still in effect, keeping costs elevated. However, you're only 3.3% above the nearby low—a modest premium with crude momentum uncertain.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 65,
         "refining": 12,
@@ -1910,11 +2416,22 @@
       "priceLow": 5.483,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Washington prices are at their lowest point with no recent movement. However, crude is rising sharply (+$3.05), signaling upward pressure in coming days. Current prices represent a temporary floor before increases likely kick in.",
+      "why": "Washington prices are at their recent low of $5.48/gal with flat week-over-week movement. However, crude oil is rising (+$3.05) and geopolitical tensions are escalating, signaling upward pressure ahead.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 70,
         "refining": 10,
@@ -1946,16 +2463,27 @@
       "city": "Charleston",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 3.3,
       "priceLow": 3.21,
       "weekDelta": 0.077,
       "weekDeltaDir": "up",
-      "why": "WV prices are 2.8% above the week's low and crude is rising sharply (+$3.05). Summer blend is still in use, which keeps prices elevated. Upward momentum suggests further increases likely over the next few days.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "WV prices rose 7.7¢ week-over-week as crude climbs above $97. Summer blend still in effect, and upward momentum suggests more increases ahead. Lowest nearby station is 9¢ cheaper—consider that, but broader trend is unfavorable.",
+      "advice": "Top off today, watch for dips",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 63,
         "refining": 12,
@@ -1992,11 +2520,22 @@
       "priceLow": 3.31,
       "weekDelta": 0.041,
       "weekDeltaDir": "up",
-      "why": "Wisconsin prices are up 4¢ this week amid rising crude oil costs. Current price sits only 1.3¢ above the regional low, suggesting limited upside room in the near term.",
+      "why": "Wisconsin prices rose 4¢ this week as crude climbed above $97. Summer blend still in effect, keeping costs elevated. Upward momentum suggests further increases likely in the near term.",
       "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 64,
         "refining": 11,
@@ -2033,11 +2572,22 @@
       "priceLow": 3.413,
       "weekDelta": 0.039,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are up 0.039 $/gal week-over-week and currently near recent highs. WTI crude is rising sharply (+3.05), signaling upward pressure on fuel costs. A small gap to the regional low (3.413) suggests limited immediate discount opportunity.",
-      "advice": "Top off within 2 days",
-      "bestDayIdx": 1,
+      "why": "WTI crude is rising sharply (+$3.05) and Wyoming prices are up week-over-week. You're only 1% above the local low, but upward momentum suggests further increases ahead over the next few days.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 68,
         "refining": 11,
@@ -2074,11 +2624,22 @@
       "priceLow": 3.583,
       "weekDelta": 0.086,
       "weekDeltaDir": "up",
-      "why": "Prices up 2.3% week-over-week amid rising crude oil ($97+). Current price 2.8% above nearby low, with upward momentum continuing. Fall transition and summer blend still in effect.",
-      "advice": "Top off now, watch Wed",
-      "bestDayIdx": 3,
+      "why": "DC prices rose 2.3% week-over-week as crude climbs above $97. You're 3¢ above the local low, and upward momentum from geopolitical tensions suggests further gains ahead.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 1,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 70,
         "refining": 10,
@@ -2115,11 +2676,22 @@
       "priceLow": 1.619,
       "weekDelta": 0.06,
       "weekDeltaDir": "up",
-      "why": "Prices are up 6¢/L week-over-week and crude is climbing on global demand. You're 5¢/L above the recent low, and upward momentum suggests further increases ahead.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 6¢/L week-over-week as crude climbs toward $97. You're 5¢ above the local low, suggesting room to drop if oil stabilizes. Fall transition and summer blend still in effect.",
+      "advice": "Wait until midweek",
+      "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 70,
         "refining": 7,
@@ -2151,16 +2723,27 @@
       "city": "Vancouver",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 2.06,
       "priceLow": 1.998,
       "weekDelta": 0.077,
       "weekDeltaDir": "up",
-      "why": "BC prices are up 7.7¢/L week-over-week as crude climbs above $97. Current price sits 6.2¢ above the recent low, and upward momentum suggests further increases likely in coming days.",
-      "advice": "Fill up today",
+      "why": "Prices rose 7.7¢ this week as WTI climbed above $97. Current BC price sits 6¢ above the nearby low. With crude trending up and geopolitical tensions ongoing, further gains likely in the near term.",
+      "advice": "Top off partial · wait",
       "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 58,
         "refining": 6,
@@ -2192,16 +2775,27 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.772,
       "priceLow": 1.719,
       "weekDelta": 0.066,
       "weekDeltaDir": "up",
-      "why": "Manitoba prices rose 6.6¢/L week-over-week and sit 5.3¢/L above the recent low. WTI crude is climbing on geopolitical tension. Fall transition and upward momentum suggest prices may hold or inch higher before stabilizing.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Prices rose 6.6¢/L week-over-week as crude climbs above $97. You're 5.3¢ above the local low, and upward momentum suggests further increases likely this week.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 55,
         "refining": 7,
@@ -2233,16 +2827,27 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.856,
       "priceLow": 1.8,
       "weekDelta": 0.069,
       "weekDeltaDir": "up",
-      "why": "Prices up 6.9¢/L week-over-week and crude climbing $3+ today. Summer blend still in effect, supporting higher margins. Gap to recent low (5.6¢) suggests modest room to fall, but upward momentum is strong.",
-      "advice": "Top off today · wait for dip",
+      "why": "Prices are up 6.9¢/L week-over-week with crude climbing $3+ today. You're 5.6¢ above the local low, and upward momentum suggests further increases likely in the next few days.",
+      "advice": "Hold until midweek",
       "bestDayIdx": 3,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 54,
         "refining": 6,
@@ -2274,16 +2879,27 @@
       "city": "St. John's",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 1.892,
       "priceLow": 1.835,
       "weekDelta": 0.07,
       "weekDeltaDir": "up",
-      "why": "Prices have risen 7¢/L week-over-week and crude is climbing. Current price sits 5.7¢ above the local low, suggesting room to fall if momentum shifts. Summer blend still in effect keeps costs elevated.",
-      "advice": "Top off partially, monitor",
-      "bestDayIdx": 3,
+      "why": "Prices rose 7¢ this week as crude climbs toward $97. You're 5.7¢ above the recent low, and upward momentum continues. A brief pullback may come, but the trend is unfavorable.",
+      "advice": "Fill up today or tomorrow",
+      "bestDayIdx": 0,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 54,
         "refining": 6,
@@ -2320,11 +2936,22 @@
       "priceLow": 1.867,
       "weekDelta": 0.067,
       "weekDeltaDir": "up",
-      "why": "Prices are up 6.7¢/L week-over-week and crude is rising. Current price sits 5.8¢/L above the regional low, signaling continued upward pressure. A brief pullback may occur, but sustained relief is unlikely.",
-      "advice": "Fill up within 2 days",
-      "bestDayIdx": 1,
+      "why": "Prices rose 6.7¢/L week-over-week as crude climbed above $97. WTI momentum is upward with geopolitical tension. You're 5.8¢/L above the recent low, suggesting some room to fall before the next rally.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 55,
         "refining": 6,
@@ -2361,11 +2988,22 @@
       "priceLow": 1.768,
       "weekDelta": 0.083,
       "weekDeltaDir": "up",
-      "why": "Ontario prices jumped 8.3¢/L week-over-week and crude is rising. Current price sits 5.5¢ above the local low, suggesting room to decline before stabilizing.",
+      "why": "Ontario prices are up 8.3¢/L week-over-week and 5.5¢/L above the regional low. Rising WTI crude (+$3.05) signals upward pressure continuing. Summer blend inventory is still active, keeping prices elevated.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 54,
         "refining": 7,
@@ -2397,16 +3035,27 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "buy",
+      "verdict": "wait",
       "price": 1.844,
       "priceLow": 1.789,
       "weekDelta": 0.069,
       "weekDeltaDir": "up",
-      "why": "Prices are up 6.9¢ this week and crude is rising. At 1.844 $/L, you're 5.5¢ above the regional low, suggesting more upward pressure ahead as WTI continues climbing.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Prices are elevated and rising week-over-week as crude climbs above $97. You're 5.5¢ above the local low, suggesting room to fall before the uptrend potentially continues.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 54,
         "refining": 7,
@@ -2438,16 +3087,27 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 1.892,
       "priceLow": 1.835,
       "weekDelta": 0.07,
       "weekDeltaDir": "up",
-      "why": "Quebec prices are up 7¢/L week-over-week and trading 5.7¢ above recent lows. WTI crude is rising sharply (+$3.05), signaling upward pressure on retail prices. With no immediate supply disruptions, prices may stabilize or creep higher.",
-      "advice": "Top off today · wait for dips",
-      "bestDayIdx": 0,
+      "why": "Prices rose 7¢ this week as crude climbed above $97. You're 5.7¢ above the local low, and upward momentum continues. Fall transition and geopolitical tension suggest further pressure ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 62,
         "refining": 6,
@@ -2484,11 +3144,22 @@
       "priceLow": 1.637,
       "weekDelta": 0.062,
       "weekDeltaDir": "up",
-      "why": "Prices rose 6.2¢/L week-over-week as crude climbed above $97. Current level is 5.1¢ above the regional low. Upward momentum suggests further increases likely before stabilization.",
+      "why": "Prices rose 6.2¢ this week as crude climbs toward $97. You're 5¢ above the local low, but upward momentum suggests further gains ahead. Fall transition and geopolitical tension support higher prices in the near term.",
       "advice": "Top off partially today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 2,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 51,
         "refining": 7,
@@ -2525,11 +3196,22 @@
       "priceLow": 2.183,
       "weekDelta": 0.084,
       "weekDeltaDir": "up",
-      "why": "Northern Canada prices are elevated at $2.251/L, up 8.4¢ week-over-week as crude climbs. With WTI rising $3.05 and a 6.8¢ gap to nearby lows, prices may face further upward pressure near term.",
+      "why": "Crude is rising ($97.26, up $3.05) and regional prices jumped 8.4¢/L week-over-week. You're still 6.8¢ above the local low, suggesting upward momentum may continue near-term.",
       "advice": "Top off partially today",
-      "bestDayIdx": 0,
+      "bestDayIdx": 2,
       "wtiDir": "up",
-      "news": [],
+      "news": [
+        {
+          "headline": "Gas prices hit record high for Labor Day weekend",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+        },
+        {
+          "headline": "Oil Price Today (August 17): Crude oil approaches $90 again amid no breakthrough in Iran war talks. What’s next?",
+          "source": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-17-crude-oil-approaches-90-again-amid-no-breakthrough-in-iran-war-talks-whats-next/articleshow/133284844.cms"
+        }
+      ],
       "breakdown": {
         "crude": 70,
         "refining": 5,
