@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-09-26T00:00:37.890128+00:00",
-    "pricesUpdatedAt": "2026-09-26T00:00:09.358393+00:00",
+    "updatedAt": "2026-09-26T06:00:46.882757+00:00",
+    "pricesUpdatedAt": "2026-09-26T06:00:11.203408+00:00",
     "dataSource": "EIA + GasBuddy + NRCAN",
-    "nextPriceUpdate": "2026-09-26T00:32:53.736734+00:00",
-    "nextAnalysisUpdate": "2026-09-26T06:02:53.736746+00:00"
+    "nextPriceUpdate": "2026-09-26T06:34:28.869814+00:00",
+    "nextAnalysisUpdate": "2026-09-26T12:04:28.869830+00:00"
   },
   "wti": {
     "price": 96.41,
@@ -19,16 +19,21 @@
       "city": "Birmingham",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.103,
       "priceLow": 2.914,
       "weekDelta": 0.135,
       "weekDeltaDir": "up",
-      "why": "Prices rose 13.5¢ this week and remain 6.5% above the lowest local price. WTI crude is declining, signaling potential relief ahead. Current levels are elevated post-Labor Day.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 13.5¢ this week amid Middle East tensions, but crude is trending down and you're still 19¢ above the regional low. Expect modest relief in 2–3 days as supply stabilizes.",
+      "advice": "Top off halfway today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -66,16 +71,21 @@
       "city": "Anchorage",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.985,
       "priceLow": 3.795,
       "weekDelta": 0.076,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated post-Labor Day and 5% above the week's low. WTI crude is declining, signaling downward pressure. Fall transition to winter blend will add modest cost, but crude weakness suggests relief is coming within days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Alaska prices are elevated at $3.985/gal, up 7.6¢ week-over-week despite WTI declining. A $0.19/gal gap to nearby lows suggests local supply constraints or refinery maintenance. Crude momentum is downward, offering potential relief in 2–4 days.",
+      "advice": "Top off partially today, fill ",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -113,16 +123,21 @@
       "city": "Phoenix",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.439,
       "priceLow": 3.275,
       "weekDelta": 0.066,
       "weekDeltaDir": "up",
-      "why": "Arizona prices are 5% above the local low and up 2% week-over-week, despite crude trending down. Post-Labor Day premium blends and seasonal factors are keeping prices elevated, but crude weakness suggests relief ahead.",
-      "advice": "Top off partially today",
+      "why": "Arizona prices up 6.6¢ week-over-week despite falling crude. Summer blend transition and Middle East tensions keeping local costs elevated. Crude declining suggests relief ahead.",
+      "advice": "Wait until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -160,16 +175,21 @@
       "city": "Little Rock",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.038,
       "priceLow": 2.853,
       "weekDelta": 0.132,
       "weekDeltaDir": "up",
-      "why": "Prices spiked post-Labor Day and remain 6.5% above the week's low. WTI crude is falling, signaling downward pressure ahead. You're still paying a premium from the holiday surge.",
-      "advice": "Hold until Thursday",
+      "why": "Arkansas prices are up 13¢ week-over-week and 18¢ above regional low, driven by Middle East tensions. However, WTI crude is trending down, suggesting relief ahead within days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -207,16 +227,21 @@
       "city": "Los Angeles",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 5.827,
       "priceLow": 5.678,
       "weekDelta": 0.149,
       "weekDeltaDir": "up",
-      "why": "Prices rose sharply post-Labor Day and remain 2.2% above the week's low. WTI crude is declining, suggesting downward pressure ahead. Summer blend inventory typically eases in mid-September.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "California prices are elevated at $5.83/gal and rose $0.15 week-over-week despite crude falling. Summer blend production costs and geopolitical tensions keep local prices sticky. A $0.15 gap to the regional low suggests room for decline.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -254,16 +279,21 @@
       "city": "Denver",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.23,
       "priceLow": 4.187,
       "weekDelta": 0.043,
       "weekDeltaDir": "up",
-      "why": "Prices remain elevated after Labor Day peak, but WTI crude is declining and the week-over-week gain is slowing. A modest dip below current levels is likely as crude momentum softens over the next few days.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 4.3¢ this week despite crude declining, suggesting local supply tightness. You're only 0.4% above the nearby low—a minor gap. WTI downward momentum could bring relief soon.",
+      "advice": "Fill up by Wed, watch Thu",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -306,11 +336,16 @@
       "priceLow": 3.483,
       "weekDelta": 0.141,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated 6.4% above the regional low and up 3.8% week-over-week. Crude is declining, suggesting downward pressure ahead. Post-Labor Day volatility typically settles within days.",
-      "advice": "Wait until Thursday",
-      "bestDayIdx": 4,
+      "why": "CT prices are 6.4% above the regional low and up 3.8% week-over-week. WTI is declining, which should ease pressure downward in the next few days. Summer blend transition and geopolitical tension are creating short-term volatility.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -353,11 +388,16 @@
       "priceLow": 3.231,
       "weekDelta": 0.131,
       "weekDeltaDir": "up",
-      "why": "Delaware prices spiked post-Labor Day and remain elevated at 3.44/gal, up 13¢ week-over-week. WTI crude is declining, suggesting downward pressure on pump prices in coming days.",
+      "why": "Delaware prices are 6.4% above the regional low and up 3.9% week-over-week. WTI crude is declining, and summer blend transition is ending soon, which typically pressures prices lower over the next few days.",
       "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -395,16 +435,21 @@
       "city": "Miami",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.102,
       "priceLow": 3.86,
       "weekDelta": 0.242,
       "weekDeltaDir": "up",
-      "why": "Prices spiked 24¢ over the week near Labor Day peaks. WTI crude is falling, suggesting downward pressure ahead. Current price is 6.3% above the local low, indicating room for improvement.",
-      "advice": "Hold until Thursday",
+      "why": "Florida prices are up 6% week-over-week and 6.3% above the regional low, driven by Middle East tensions and summer-blend fuel costs. WTI crude is declining, suggesting downward pressure ahead.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -447,11 +492,16 @@
       "priceLow": 2.948,
       "weekDelta": 0.12,
       "weekDeltaDir": "up",
-      "why": "Prices rose 12¢ this week after Labor Day peaks, but crude is falling and you're still 6.5% above the regional low. A modest pullback is likely in the next few days as the holiday rush fades.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are up 12¢ week-over-week and 19¢ above the regional low, despite crude trending down. Summer blend still in use adds cost. Wait for crude momentum to filter through retail.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -489,16 +539,21 @@
       "city": "Honolulu",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.875,
       "priceLow": 4.642,
       "weekDelta": 0.094,
       "weekDeltaDir": "up",
-      "why": "Hawaii prices remain elevated post-Labor Day, though crude is weakening. Current price is 5% above the week's low, and downward crude momentum suggests relief coming within days.",
-      "advice": "Hold until midweek",
+      "why": "Hawaii prices are elevated at $4.88/gal and up week-over-week despite WTI falling. Middle East tensions support crude, but the downward crude trend and distance from recent $4.64 low suggest prices may ease in 2–3 days.",
+      "advice": "Top off half · wait until Wed",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -536,16 +591,21 @@
       "city": "Boise",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.568,
       "priceLow": 3.43,
       "weekDelta": 0.099,
       "weekDeltaDir": "up",
-      "why": "Prices rose 10¢ this week after Labor Day peak, but crude is falling. You're still 4¢ above the local low, with downward momentum building. A modest dip likely within 2–3 days.",
-      "advice": "Top off half · wait for rest",
-      "bestDayIdx": 3,
+      "why": "Prices rose 10¢ this week but crude is trending down. You're 14¢ above the regional low, suggesting a pullback is likely within days as crude weakness filters through.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -588,11 +648,16 @@
       "priceLow": 3.643,
       "weekDelta": 0.186,
       "weekDeltaDir": "up",
-      "why": "Illinois prices are 6.3% above the week's low and up significantly week-over-week. WTI crude is declining, suggesting downward pressure ahead. Summer blend is still active, which typically costs more.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Illinois prices are up 5% week-over-week and still 6% above the regional low, despite crude trending down. Summer blend is ending soon, which typically brings relief. Middle East tensions are currently supporting prices, but downward crude momentum suggests a correction window is opening.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -630,16 +695,21 @@
       "city": "Indianapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.468,
       "priceLow": 3.261,
       "weekDelta": 0.167,
       "weekDeltaDir": "up",
-      "why": "Prices spiked for Labor Day and remain elevated 6¢ above the regional low. WTI crude is falling, suggesting relief ahead. Current price is still in the upper range for the week.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Indiana prices are 6.4% above the week's low and climbing despite WTI trending down. Summer blend inventory normalization and geopolitical risk premiums are holding prices elevated. A correction toward the $3.26 level is likely within 3–4 days.",
+      "advice": "Top off partially today, wait ",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -677,16 +747,21 @@
       "city": "Des Moines",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.296,
       "priceLow": 3.1,
       "weekDelta": 0.158,
       "weekDeltaDir": "up",
-      "why": "Iowa prices are 6% above the week's low and up 5% week-over-week. Crude is declining, suggesting downward pressure ahead. Post-Labor Day volatility is cooling.",
-      "advice": "Hold until Thursday",
+      "why": "Iowa prices are up 16¢ week-over-week and 20¢ above the lowest nearby station. WTI crude is falling, suggesting relief ahead. Summer blend transitions and Middle East tensions are creating upward pressure, but downward momentum in crude should ease prices within days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -724,16 +799,21 @@
       "city": "Wichita",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.232,
       "priceLow": 3.039,
       "weekDelta": 0.155,
       "weekDeltaDir": "up",
-      "why": "Kansas prices are up 5% week-over-week and 6% above the regional low, driven by post-Labor Day demand. WTI crude is declining, signaling potential relief ahead. Current pricing remains elevated.",
-      "advice": "Hold until Thursday",
+      "why": "Kansas prices are 6.3% above the week's low and up 4.8% week-over-week amid Middle East tensions. WTI is declining, suggesting downward pressure ahead. Summer blend transition approaching may ease prices further.",
+      "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -776,11 +856,16 @@
       "priceLow": 3.097,
       "weekDelta": 0.143,
       "weekDeltaDir": "up",
-      "why": "Prices rose 14¢ this week after Labor Day surge, but crude is falling and you're still 20¢ above the regional low. Downward pressure is building over the next few days.",
+      "why": "Prices rose 14¢ this week but crude is falling and remains moderate. Gap to nearby low suggests room to drop further. Summer blend still in effect, keeping costs elevated.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -818,16 +903,21 @@
       "city": "New Orleans",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.157,
       "priceLow": 2.965,
       "weekDelta": 0.137,
       "weekDeltaDir": "up",
-      "why": "Prices spiked for Labor Day but crude is falling and you're still 6.5% above the lowest nearby. Downward pressure is building as the rush subsides and WTI declines.",
-      "advice": "Wait until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are up 4.6% week-over-week and still 6.5% above the regional low, despite crude falling. Summer blend and Middle East tensions are keeping margins elevated. Downward crude pressure suggests relief is coming.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -870,11 +960,16 @@
       "priceLow": 3.413,
       "weekDelta": 0.139,
       "weekDeltaDir": "up",
-      "why": "Prices rose 14¢ this week and remain 22¢ above the lowest nearby option. WTI crude is declining, suggesting downward pressure ahead. Summer blend inventory is transitioning, which may ease costs.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 13.9¢ this week but crude is declining. You're still 22¢ above the regional low, suggesting further softening ahead as oil weakness spreads through the supply chain.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -912,16 +1007,21 @@
       "city": "Baltimore",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.525,
       "priceLow": 3.312,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Prices spiked around Labor Day but WTI crude is trending down. You're paying a 6.4% premium over the lowest nearby station. A pullback is likely within 2–3 days as crude momentum favors lower wholesale costs.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are up 13¢ week-over-week and still 21¢ above the regional low, despite crude trending down. Summer blend transition and geopolitical tension are keeping upward pressure. Crude weakness suggests relief ahead.",
+      "advice": "Top off partial · wait for dip",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -959,16 +1059,21 @@
       "city": "Boston",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.253,
       "priceLow": 4.16,
       "weekDelta": 0.093,
       "weekDeltaDir": "up",
-      "why": "Prices rose sharply for Labor Day but crude is now declining. You're 2.2% above the week's low, suggesting a brief peak. Downward crude momentum should ease pump prices over the next few days.",
-      "advice": "Hold until Wednesday",
+      "why": "Prices rose 9¢ this week despite crude falling, suggesting local supply tightness. You're 9¢ above the local low, but crude momentum is downward—relief likely in 2–3 days as refineries adjust.",
+      "advice": "Top off half · wait for Wed",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1011,11 +1116,16 @@
       "priceLow": 3.341,
       "weekDelta": 0.171,
       "weekDeltaDir": "up",
-      "why": "Prices spiked post-Labor Day and remain elevated at $3.55/gal, about 6% above local lows. Crude is declining, suggesting downward pressure ahead. Current levels don't offer good value.",
+      "why": "Michigan prices jumped 17¢ week-over-week and sit 21¢ above the regional low. WTI crude is declining, suggesting downward pressure ahead. Summer blend inventory transitions may ease soon.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1053,16 +1163,21 @@
       "city": "Minneapolis",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.223,
       "priceLow": 4.077,
       "weekDelta": 0.146,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated following Labor Day peak, but crude is declining and you're still 3.5¢ above the week's low. A pullback is likely within 2–3 days as the holiday demand fades.",
-      "advice": "Hold until Thursday",
+      "why": "Prices rose 14.6¢ this week amid Middle East tensions, but crude is declining and you're still 1.5¢ above the local low. Fall blend transition and easing geopolitical pressure suggest modest downward movement ahead.",
+      "advice": "Top off halfway, fill rest Thu",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1100,16 +1215,21 @@
       "city": "Jackson",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.081,
       "priceLow": 2.894,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Prices spiked for Labor Day but crude is falling. Current price is 6.5% above the nearby low, suggesting room for decline over the next few days as the holiday bump fades and crude weakness continues.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are up 13¢ week-over-week and 19¢ above the regional low, despite crude trending down. Geopolitical tensions are supporting oil costs, but the downward crude momentum suggests relief may follow soon.",
+      "advice": "Top off partially, wait for di",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1147,16 +1267,21 @@
       "city": "Kansas City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.189,
       "priceLow": 2.999,
       "weekDelta": 0.153,
       "weekDeltaDir": "up",
-      "why": "Missouri prices are elevated post-Labor Day at $3.19/gal, up 15¢ week-over-week. WTI crude is falling, suggesting downward pressure ahead. A cheaper option exists nearby at $2.99/gal.",
-      "advice": "Fill up at $2.99 station today",
-      "bestDayIdx": 0,
+      "why": "Missouri prices are up 15¢ week-over-week and still 19¢ above the regional low, despite crude falling. Summer blend inventory is winding down, but downward crude momentum suggests relief may arrive within days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1199,11 +1324,16 @@
       "priceLow": 3.503,
       "weekDelta": 0.102,
       "weekDeltaDir": "up",
-      "why": "Prices remain elevated post-Labor Day despite crude falling. Current price is 4% above the week's low, suggesting a temporary spike. Downward crude pressure may continue easing pump prices over the next few days.",
-      "advice": "Wait until Wednesday",
+      "why": "Prices rose 10¢ this week but crude is declining, suggesting downward pressure ahead. You're 14¢ above the regional low, indicating room to drop as oil weakness filters through.",
+      "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1246,11 +1376,16 @@
       "priceLow": 3.11,
       "weekDelta": 0.159,
       "weekDeltaDir": "up",
-      "why": "Prices rose 16¢ this week post-Labor Day but crude is declining. You're 20¢ above the local low, suggesting room to fall in the next few days as the holiday surge fades.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Nebraska prices jumped 16¢ this week amid Middle East tensions, but WTI crude is falling. You're 20¢ above the regional low, suggesting weakness ahead as geopolitical premiums fade.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1288,16 +1423,21 @@
       "city": "Las Vegas",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 4.093,
       "priceLow": 3.897,
       "weekDelta": 0.079,
       "weekDeltaDir": "up",
-      "why": "Nevada prices are 5% above the week's low and trending upward despite falling crude. Summer blend inventory is phasing out, supporting higher prices. A pullback is possible but not guaranteed this week.",
-      "advice": "Fill up by Wednesday",
+      "why": "Nevada prices are 5% above the week's low and rising despite crude falling. Summer blend inventory is transitioning, and geopolitical tensions are offsetting crude weakness. A dip is likely in the next 2–3 days as seasonal blend switchover reduces costs.",
+      "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1340,11 +1480,16 @@
       "priceLow": 3.312,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Prices surged for Labor Day weekend and remain elevated at 3.525 $/gal, about 6.5% above the nearby low. Crude is slipping, suggesting downward pressure ahead. Post-holiday demand typically softens.",
+      "why": "Prices are 6.4% above the week's low and climbing despite falling crude. Summer blend transition and Middle East tensions are keeping upward pressure. A dip is likely within 2–3 days as crude stabilizes.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1387,11 +1532,16 @@
       "priceLow": 3.312,
       "weekDelta": 0.134,
       "weekDeltaDir": "up",
-      "why": "Prices spiked post-Labor Day and remain elevated versus nearby lows. WTI crude is falling, suggesting downward pressure ahead. Current price is 6.4% above regional low.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices rose 13.4¢ this week but crude is declining. You're 21¢ above the regional low, suggesting a pull-back is likely in the next 2–3 days as WTI weakness filters through.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1429,16 +1579,21 @@
       "city": "Albuquerque",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.405,
       "priceLow": 3.198,
       "weekDelta": 0.147,
       "weekDeltaDir": "up",
-      "why": "Prices spiked for Labor Day but crude is falling and you're still 6¢ above the local low. A pullback is likely within days as market momentum shifts downward.",
-      "advice": "Top off partially today",
+      "why": "NM prices are 6.5% above the week's low and climbing despite crude trending down. The gap suggests local supply tightness or refinery issues outweighing global crude weakness. Wait for crude losses to filter through.",
+      "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1476,16 +1631,21 @@
       "city": "New York City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "buy",
       "price": 4.339,
       "priceLow": 4.339,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at their current low and stable this week. WTI crude is declining, suggesting downward pressure ahead. However, post-holiday demand may stabilize prices before a potential drop.",
-      "advice": "Top off today, wait for rest",
-      "bestDayIdx": 3,
+      "why": "Prices are at local lows with crude trending downward. Summer blend is still in effect, keeping costs moderate. No immediate upward pressure despite Middle East tensions.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1523,16 +1683,21 @@
       "city": "Charlotte",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.278,
       "priceLow": 3.08,
       "weekDelta": 0.125,
       "weekDeltaDir": "up",
-      "why": "Prices rose $0.125 this week and remain $0.20 above the nearby low. WTI crude is declining, suggesting downward pressure ahead. Post-holiday demand should ease, creating a better buying window soon.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "NC prices are up 12.5¢ week-over-week and sit 20¢ above the regional low, despite WTI crude falling. The summer blend transition and geopolitical tensions are keeping prices elevated. Relief may arrive in 2–3 days as crude momentum turns downward.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1570,16 +1735,21 @@
       "city": "Fargo",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.403,
       "priceLow": 3.201,
       "weekDelta": 0.163,
       "weekDeltaDir": "up",
-      "why": "ND prices rose 16¢ this week despite crude trending down, suggesting local supply tightness post-Labor Day. A 20¢ gap to the lowest nearby indicates room to fall as crude pressure builds.",
-      "advice": "Hold until Thursday",
+      "why": "ND prices up 16¢ week-over-week despite crude falling. You're still 20¢ above the local low, but downward crude pressure and easing geopolitical concerns suggest relief coming in 2–4 days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1617,16 +1787,21 @@
       "city": "Columbus",
       "country": "US",
       "unit": "gal",
-      "verdict": "buy",
+      "verdict": "partial",
       "price": 4.147,
       "priceLow": 4.147,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Ohio gas is at a recent low matching the week's bottom. Crude is declining and post-Labor Day demand typically softens. Current price offers a solid entry point before any potential rebound.",
-      "advice": "Fill up today",
-      "bestDayIdx": 0,
+      "why": "Crude is declining and prices have stabilized at current levels after recent highs. Summer blend still in effect, supporting stability. No immediate downward pressure, but downtrend signals patience may pay off.",
+      "advice": "Top off if convenient",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1664,16 +1839,21 @@
       "city": "Oklahoma City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.113,
       "priceLow": 2.924,
       "weekDelta": 0.135,
       "weekDeltaDir": "up",
-      "why": "Prices are 6.5% above the week's low and up 4.5% week-over-week, but crude is declining. Post-Labor Day volatility is settling. A small dip is likely within 2–3 days as seasonal summer blend transitions begin.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 3,
+      "why": "Oklahoma prices are up 4.4% week-over-week and 6.5% above the regional low, driven by Middle East tensions pushing crude higher. WTI is declining slightly, suggesting some relief may come within days.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1711,16 +1891,21 @@
       "city": "Portland",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 4.157,
       "priceLow": 3.958,
       "weekDelta": 0.08,
       "weekDeltaDir": "up",
-      "why": "Oregon prices remain elevated post-Labor Day at $4.16/gal, up 8¢ week-over-week. WTI crude is declining and summer blend transitions approaching, suggesting downward pressure in the next few days.",
-      "advice": "Hold until Wednesday",
+      "why": "Oregon prices are up 2% week-over-week and 5% above the regional low, despite crude trending down. Summer blend inventory is still flowing, but Middle East tensions are offsetting potential cost relief. Crude weakness should start easing pump prices in the next 2–3 days.",
+      "advice": "Top off partially today",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1758,16 +1943,21 @@
       "city": "Philadelphia",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.783,
       "priceLow": 3.554,
       "weekDelta": 0.144,
       "weekDeltaDir": "up",
-      "why": "Prices have spiked 14¢ this week and sit 6.5% above the local low. Crude is down slightly, suggesting relief may come soon. Post-holiday demand should ease.",
-      "advice": "Hold until Thursday",
+      "why": "PA gas is 6.4% above the regional low and up 3.8% week-over-week. WTI crude is down slightly, but Middle East tensions and summer blend still in effect support prices. Relief likely in 2–3 days as crude momentum turns negative.",
+      "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1805,16 +1995,21 @@
       "city": "Providence",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.654,
       "priceLow": 3.433,
       "weekDelta": 0.139,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated post-Labor Day spike and still 6.4% above the lowest nearby option. WTI crude is declining, suggesting downward pressure ahead. Fall transition and summer blend inventory may support further relief.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "Prices are elevated 4¢ above local lows and up 14¢ week-over-week despite crude declining. Summer blend phase-out and geopolitical tension offset crude weakness. Recent record highs suggest current peak.",
+      "advice": "Fill up by Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1852,16 +2047,21 @@
       "city": "Columbia",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.278,
       "priceLow": 3.08,
       "weekDelta": 0.125,
       "weekDeltaDir": "up",
-      "why": "SC prices are 6.4% above the week's low and up 3.8% week-over-week. WTI crude is declining, signaling potential relief ahead. Post-Labor Day demand typically softens, creating a buyer's window within 2–3 days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices rose 12.5¢ this week despite falling crude oil, suggesting supply tightness in SC. You're 20¢ above the regional low, but crude momentum is downward and should ease pressure soon.",
+      "advice": "Top off halfway today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1899,16 +2099,21 @@
       "city": "Sioux Falls",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.371,
       "priceLow": 3.17,
       "weekDelta": 0.162,
       "weekDeltaDir": "up",
-      "why": "South Dakota prices are 6% above the weekly low and up significantly week-over-week. WTI crude is declining, suggesting downward pressure ahead. Post-Labor Day volatility is settling, creating a brief window before potential further drops.",
-      "advice": "Top off partially today",
-      "bestDayIdx": 2,
+      "why": "Prices rose 16¢ week-over-week and sit 20¢ above the regional low, despite crude trending downward. Middle East tensions are supporting prices, but falling WTI suggests downward pressure ahead.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1951,11 +2156,16 @@
       "priceLow": 2.995,
       "weekDelta": 0.138,
       "weekDeltaDir": "up",
-      "why": "Prices spiked post-Labor Day but crude is declining. At $3.19, you're 6% above the local low. With downward crude pressure, better opportunities likely within 2–3 days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices are 6.5% above recent lows and climbing week-over-week despite crude trending down. Summer blend ends soon, and Middle East tensions are supporting prices. Current levels aren't attractive.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -1998,11 +2208,16 @@
       "priceLow": 3.806,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at their lowest point this week after Labor Day peak. WTI crude is declining, suggesting downward pressure ahead. Current price matches the weekly low, creating a stable entry point.",
-      "advice": "Fill up today or tomorrow",
-      "bestDayIdx": 1,
+      "why": "Texas prices are at their lowest point with no week-over-week change. WTI crude is declining, and summer blend pricing remains stable. No immediate upward pressure expected.",
+      "advice": "Fill up today",
+      "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2040,16 +2255,21 @@
       "city": "Salt Lake City",
       "country": "US",
       "unit": "gal",
-      "verdict": "partial",
+      "verdict": "wait",
       "price": 3.645,
       "priceLow": 3.503,
       "weekDelta": 0.102,
       "weekDeltaDir": "up",
-      "why": "Prices rose 10¢ this week after Labor Day peak, but crude is falling and you're still 4¢ above the regional low. A pullback is likely within 2–3 days as the post-holiday surge subsides.",
-      "advice": "Top off half tank today",
-      "bestDayIdx": 3,
+      "why": "Prices rose 10¢ this week but crude is declining. You're still 14¢ above the regional low, suggesting further downward pressure ahead as oil weakness filters through.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2087,16 +2307,21 @@
       "city": "Burlington",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.633,
       "priceLow": 3.413,
       "weekDelta": 0.139,
       "weekDeltaDir": "up",
-      "why": "Vermont prices are 6.5% above the local low and up significantly week-over-week. Crude is declining, suggesting downward pressure ahead. Post-Labor Day volatility typically eases within days.",
-      "advice": "Hold until Thursday",
+      "why": "Vermont prices are 6.5% above the regional low and rising week-over-week despite crude declining. Summer blend inventory is adequate, but geopolitical tension and recent record highs suggest limited downside near-term.",
+      "advice": "Top off gradually; wait for di",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2139,11 +2364,16 @@
       "priceLow": 3.181,
       "weekDelta": 0.13,
       "weekDeltaDir": "up",
-      "why": "Prices rose 13¢ this week but crude is falling and post-Labor Day demand should ease. You're still 20¢ above the lowest nearby station, suggesting room to drop in coming days.",
+      "why": "Virginia prices are up 13¢ week-over-week and still 20¢ above the regional low, despite crude trending down. Summer blend ends soon, which typically eases prices. Current levels don't justify filling up yet.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2186,11 +2416,16 @@
       "priceLow": 5.503,
       "weekDelta": 0.0,
       "weekDeltaDir": "flat",
-      "why": "Prices are at a recent low after Labor Day peak, and crude is declining. Washington remains elevated due to summer blend requirements, but momentum is downward.",
+      "why": "WA is at its recent low with flat week-over-week movement. Crude is declining and geopolitical premium risks appear contained. Summer blend ends soon, which typically eases prices slightly. Current levels offer a good fill-up window.",
       "advice": "Fill up today",
       "bestDayIdx": 0,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2233,11 +2468,16 @@
       "priceLow": 3.211,
       "weekDelta": 0.131,
       "weekDeltaDir": "up",
-      "why": "WV prices are 6.4% above the lowest nearby station and up sharply week-over-week. Crude is declining, suggesting downward pressure ahead. Post-holiday normalization typically eases prices over the next few days.",
+      "why": "WV prices are up 13¢ week-over-week and 21¢ above the regional low, despite crude falling. Summer blend still in use adds cost. Wait for further crude declines to reach a better fill-up window.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2280,11 +2520,16 @@
       "priceLow": 3.301,
       "weekDelta": 0.17,
       "weekDeltaDir": "up",
-      "why": "Prices spiked around Labor Day and remain elevated 17¢ above recent lows. Crude is declining, suggesting downward pressure ahead. Current 3.51 is still 21¢ above the nearby low.",
-      "advice": "Hold until mid-week",
+      "why": "Wisconsin prices rose 17¢ this week despite crude declining. Summer blend still in effect and recent Labor Day peak suggests a pullback phase beginning. Crude downtrend offers near-term relief potential.",
+      "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2327,11 +2572,16 @@
       "priceLow": 3.399,
       "weekDelta": 0.099,
       "weekDeltaDir": "up",
-      "why": "Wyoming prices are up 3% week-over-week and still 4% above the lowest nearby station. WTI crude is falling, which should ease upward pressure. Post-Labor Day demand typically softens, supporting downward momentum.",
-      "advice": "Hold until Thursday",
-      "bestDayIdx": 4,
+      "why": "WY prices are up 10¢ week-over-week and sit 14¢ above the regional low, despite crude trending down. Summer blend inventory is still in effect, keeping margins elevated. Crude weakness suggests gradual relief ahead.",
+      "advice": "Hold until Wednesday",
+      "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2369,16 +2619,21 @@
       "city": "Washington",
       "country": "US",
       "unit": "gal",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 3.816,
       "priceLow": 3.584,
       "weekDelta": 0.146,
       "weekDeltaDir": "up",
-      "why": "DC prices are elevated at $3.816/gal, up 15¢ week-over-week after Labor Day peaks. WTI crude is declining, signaling downward pressure on retail prices over the next few days.",
-      "advice": "Hold until Wednesday",
+      "why": "DC prices are 6.5% above the regional low and up 0.15/gal week-over-week. WTI crude is declining, but geopolitical tensions keep upward pressure. Summer blend ends soon, which may ease supply costs.",
+      "advice": "Top off by Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2421,11 +2676,16 @@
       "priceLow": 1.744,
       "weekDelta": 0.182,
       "weekDeltaDir": "up",
-      "why": "Alberta prices spiked 18¢/L this week following Labor Day demand surge. WTI crude is falling and summer blend transitions to winter soon, both downward pressures. Current price sits 5.4¢ above the recent low.",
+      "why": "Alberta prices are up 18¢/L week-over-week despite WTI crude falling. Middle East tensions and summer blend transition are supporting prices, but downward crude momentum suggests relief ahead in 2–3 days.",
       "advice": "Hold until Wednesday",
       "bestDayIdx": 3,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2468,11 +2728,16 @@
       "priceLow": 2.043,
       "weekDelta": 0.032,
       "weekDeltaDir": "up",
-      "why": "Prices are 3¢ above the week's low and up 3.2¢ from last week. WTI crude is declining, signaling downward pressure ahead. Summer blend inventory is transitioning, which typically eases pressure post-Labor Day.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "BC prices rose 3.2¢/L week-over-week despite WTI crude falling. Current price sits 6.3¢ above the regional low, suggesting room to drop as crude momentum turns negative. Summer blend transition approaching.",
+      "advice": "Hold until Thursday",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2510,16 +2775,21 @@
       "city": "Winnipeg",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.812,
       "priceLow": 1.758,
       "weekDelta": 0.027,
       "weekDeltaDir": "up",
-      "why": "Prices remain elevated post-Labor Day surge but crude is declining. At 1.812 $/L, you're 5.4¢ above the local low, suggesting downward pressure ahead as the market stabilizes.",
-      "advice": "Hold until Thursday",
+      "why": "Prices rose 2.7¢ this week despite crude declining, suggesting local supply tightness. You're 5.4¢ above the regional low. Crude downward momentum offers relief ahead.",
+      "advice": "Top off halfway today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2557,16 +2827,21 @@
       "city": "Moncton",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.898,
       "priceLow": 1.841,
       "weekDelta": 0.029,
       "weekDeltaDir": "up",
-      "why": "Prices remain elevated post-holiday surge, though crude is declining. Current level sits 3.1% above the week's low, suggesting further softening likely as crude momentum continues downward.",
-      "advice": "Hold until Thursday",
+      "why": "Prices rose 2.9¢ this week despite crude falling, suggesting local supply pressure. You're 5.7¢ above the regional low. Crude downward momentum offers relief potential in 2–3 days.",
+      "advice": "Top off halfway today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2609,11 +2884,16 @@
       "priceLow": 1.877,
       "weekDelta": 0.03,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated after Labor Day peaks and above the recent low of 1.877 $/L. WTI crude is declining, suggesting downward pressure ahead. Current price sits 5.8¢ above the weekly low.",
+      "why": "Prices rose 3¢ this week despite WTI falling, suggesting local supply tightness. You're 5.8¢ above the regional low. Crude momentum is downward, so relief may come soon.",
       "advice": "Hold until Thursday",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2651,16 +2931,21 @@
       "city": "Halifax",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.961,
       "priceLow": 1.902,
       "weekDelta": 0.036,
       "weekDeltaDir": "up",
-      "why": "Prices remain elevated post-Labor Day but crude is trending down. At 1.961 $/L, you're 5.9¢ above the local low, suggesting modest downward pressure ahead as the market stabilizes.",
-      "advice": "Hold until Wed–Thu",
-      "bestDayIdx": 3,
+      "why": "Nova Scotia prices are 6¢ above the week's low and up 3.6¢ week-over-week despite crude sliding. Summer blend transitions and geopolitical tension are keeping upward pressure. Crude momentum is weakening.",
+      "advice": "Top off today · watch Thu",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2698,16 +2983,21 @@
       "city": "Toronto",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.828,
       "priceLow": 1.773,
       "weekDelta": -0.031,
       "weekDeltaDir": "down",
-      "why": "Prices are declining week-over-week and crude is trending down. Ontario is still 5.5¢/L above the nearby low, suggesting room to drop further over the next few days as the post-Labor Day peak deflates.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Ontario prices are down week-over-week and approaching recent lows as crude trends downward. Summer blend transitions and geopolitical tension create near-term volatility, but the overall direction favors patience.",
+      "advice": "Top off half now, fill up Frid",
+      "bestDayIdx": 5,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2745,16 +3035,21 @@
       "city": "Charlottetown",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.886,
       "priceLow": 1.829,
       "weekDelta": 0.029,
       "weekDeltaDir": "up",
-      "why": "PE prices are 5.7¢ above the week's low and climbing despite falling crude oil. The recent Labor Day spike suggests post-holiday normalization, but upward momentum persists locally even as WTI weakens.",
-      "advice": "Hold until Thursday",
+      "why": "PE prices are 5.7¢ above regional low and trending upward week-over-week. WTI crude is declining, but geopolitical tensions keep upward pressure. Current pricing is above recent lows with limited near-term relief expected.",
+      "advice": "Top off partially today",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2792,16 +3087,21 @@
       "city": "Montreal",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 1.935,
       "priceLow": 1.877,
       "weekDelta": 0.03,
       "weekDeltaDir": "up",
-      "why": "Prices rose 3¢ this week and remain 5.8¢ above the lowest nearby station. WTI crude is declining, suggesting downward pressure ahead. Post-Labor Day demand typically eases.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Quebec prices are up 3¢ this week and sitting 5.8¢ above the regional low. WTI crude is declining, suggesting downward pressure ahead. Summer blend is still in effect, supporting current levels.",
+      "advice": "Top off partially today",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2844,11 +3144,16 @@
       "priceLow": 1.675,
       "weekDelta": 0.027,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated following Labor Day peak and still 3.1¢/L above recent low. WTI crude is declining, suggesting downward pressure ahead. Summer blend transition approaching may also ease costs.",
+      "why": "Prices rose 2.7¢ this week but crude is falling. Current price sits 3.2¢ above the local low, suggesting room to drop in the next few days as WTI momentum continues downward.",
       "advice": "Top off partially, wait for di",
       "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
@@ -2886,16 +3191,21 @@
       "city": "Whitehorse",
       "country": "CA",
       "unit": "L",
-      "verdict": "wait",
+      "verdict": "partial",
       "price": 2.302,
       "priceLow": 2.233,
       "weekDelta": 0.035,
       "weekDeltaDir": "up",
-      "why": "Prices are elevated post-Labor Day surge and still 3.1% above the nearby low. WTI crude is falling, suggesting downward pressure ahead. Summer blend inventory remains high, supporting a price dip in the next few days.",
-      "advice": "Hold until Wednesday",
-      "bestDayIdx": 3,
+      "why": "Prices rose 3.5¢ this week despite crude falling. Summer blend ends soon, triggering seasonal refinery switches that typically push prices higher through fall. Current price is 7¢ above recent lows.",
+      "advice": "Top off partially now",
+      "bestDayIdx": 4,
       "wtiDir": "down",
       "news": [
+        {
+          "headline": "Philippines suspends LPG, kerosene excise taxes as Middle East war drives up oil prices",
+          "source": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/world/philippines-suspends-lpg-kerosene-excise-taxes-as-middle-east-war-drives-up-oil-prices-article-14038511.html"
+        },
         {
           "headline": "Gas prices hit record high for Labor Day weekend",
           "source": "CNBC",
